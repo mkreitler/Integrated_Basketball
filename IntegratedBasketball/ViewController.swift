@@ -7,12 +7,29 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+@objc class ViewController: UIViewController {
+    @IBOutlet weak var text: UILabel!
     var unityView: UIView?
+    var unityComm: IOStoUnityObjC?
+    var adId: CInt?
+    
+    @objc public func setScore(value: Int) {
+        text.text = "\(value)";
+    }
     
     @IBAction func startUnity(sender: AnyObject) {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        
         appDelegate.startUnity()
+        
+        if (unityComm == nil) {
+            unityComm = IOStoUnityObjC()
+            unityComm!.setViewController(self)
+        }
+        
+        let adId = unityComm!.randomizeAdId();
+        text.text = "\(adId)"
+        unityComm!.startResourceLoad();
         
         unityView = UnityGetGLView()!
         
@@ -32,3 +49,4 @@ class ViewController: UIViewController {
         unityView!.removeFromSuperview()
     }
 }
+

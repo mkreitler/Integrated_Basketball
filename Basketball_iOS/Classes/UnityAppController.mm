@@ -32,7 +32,6 @@
 #include "Unity/GlesHelper.h"
 #include "PluginBase/AppDelegateListener.h"
 
-NSObject<UIApplicationDelegate>* UiDelegate;
 
 // Standard Gesture Recognizers enabled on all iOS apps absorb touches close to the top and bottom of the screen.
 // This sometimes causes an ~1 second delay before the touch is handled when clicking very close to the edge.
@@ -140,6 +139,8 @@ extern "C" void UnityRequestQuit()
     else
         exit(0);
 }
+
+NSObject<UIApplicationDelegate>* UiDelegate;
 
 #if !PLATFORM_TVOS
 - (NSUInteger)application:(UIApplication*)application supportedInterfaceOrientationsForWindow:(UIWindow*)window
@@ -408,18 +409,7 @@ extern "C" UIViewController*    UnityGetGLViewController()  {
 extern "C" UIView*              UnityGetGLView()            {
     return GetAppController().unityView;
 }
-extern "C" ScreenOrientation    UnityCurrentOrientation()   {
-    UnityAppController *appCtrl = GetAppController();
-    if (appCtrl != nullptr) {
-        if (appCtrl.unityView != nullptr) {
-            return appCtrl.unityView.contentOrientation;
-        }
-    }
-    
-    NSLog(@"UnityView not defined!");
-    
-    return portrait;
-}
+extern "C" ScreenOrientation    UnityCurrentOrientation()   { return GetAppController().unityView.contentOrientation; }
 
 
 bool LogToNSLogHandler(LogType logType, const char* log, va_list list)

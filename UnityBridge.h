@@ -11,4 +11,5 @@
 #import "UnityUtils.h"
 #import "UnityAppController.h"
 #import "UnityInterface.h"
+#import "IOStoUnityObjC.h"
 #endif /* UnityBridge_h */

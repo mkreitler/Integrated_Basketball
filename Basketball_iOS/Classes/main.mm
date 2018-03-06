@@ -1,6 +1,5 @@
 #include "RegisterMonoModules.h"
 #include "RegisterFeatures.h"
-
 #include <csignal>
 
 // Hack to work around iOS SDK 4.3 linker problem
@@ -13,7 +12,7 @@ void UnityInitTrampoline();
 // WARNING: this MUST be c decl (NSString ctor will be called after +load, so we cant really change its value)
 const char* AppControllerClassName = "UnityAppController";
 
-int main_unity_default(int argc, char* argv[])
+int unity_main_default(int argc, char* argv[])
 {
     UnityInitStartupTime();
     @autoreleasepool
@@ -31,7 +30,7 @@ int main_unity_default(int argc, char* argv[])
         // signal and allows Mono to throw a proper C# exception.
         std::signal(SIGPIPE, SIG_IGN);
 
-        UIApplicationMain(argc, argv, nullptr, [NSString stringWithUTF8String: AppControllerClassName]);
+        UIApplicationMain(argc, argv, nil, [NSString stringWithUTF8String: AppControllerClassName]);
     }
 
     return 0;

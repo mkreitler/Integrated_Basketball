@@ -65,6 +65,11 @@
 
 @end
 
+extern NSObject<UIApplicationDelegate>* UiDelegate;
+NS_INLINE void SetUiDelegate() {
+    UiDelegate = [UIApplication sharedApplication].delegate;
+}
+
 // Put this into mm file with your subclass implementation
 // pass subclass name to define
 
@@ -87,13 +92,9 @@
 //    return (UnityAppController*)[UIApplication sharedApplication].delegate;
 //}
 
-extern NSObject<UIApplicationDelegate>* UiDelegate;
-NS_INLINE void SetUiDelegate() {
-    UiDelegate = [UIApplication sharedApplication].delegate;
-}
-
 NS_INLINE UnityAppController* GetAppController()
 {
+//    NSObject<UIApplicationDelegate>* delegate = [UIApplication sharedApplication].delegate;
     UnityAppController* currentUnityController = (UnityAppController *)[UiDelegate valueForKey:@"currentUnityController"];
     return currentUnityController;
 }

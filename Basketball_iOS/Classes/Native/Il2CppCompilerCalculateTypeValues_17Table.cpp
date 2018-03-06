@@ -6780,28 +6780,30 @@ public:
 	String_t* ___baseResourceURI_iOS_28;
 	// System.String com.thinkagaingames.basketball.BasketballDirector::baseResourceURI_android
 	String_t* ___baseResourceURI_android_29;
+	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<AdId>k__BackingField
+	int32_t ___U3CAdIdU3Ek__BackingField_30;
 	// com.thinkagaingames.basketball.BasketballDirector/eGameMode com.thinkagaingames.basketball.BasketballDirector::<GameMode>k__BackingField
-	int32_t ___U3CGameModeU3Ek__BackingField_30;
+	int32_t ___U3CGameModeU3Ek__BackingField_31;
 	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<FlickStartCounter>k__BackingField
-	int32_t ___U3CFlickStartCounterU3Ek__BackingField_31;
+	int32_t ___U3CFlickStartCounterU3Ek__BackingField_32;
 	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<FlickEndCounter>k__BackingField
-	int32_t ___U3CFlickEndCounterU3Ek__BackingField_32;
+	int32_t ___U3CFlickEndCounterU3Ek__BackingField_33;
 	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<Score>k__BackingField
-	int32_t ___U3CScoreU3Ek__BackingField_33;
+	int32_t ___U3CScoreU3Ek__BackingField_34;
 	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<StageScore>k__BackingField
-	int32_t ___U3CStageScoreU3Ek__BackingField_34;
+	int32_t ___U3CStageScoreU3Ek__BackingField_35;
 	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<BestStreak>k__BackingField
-	int32_t ___U3CBestStreakU3Ek__BackingField_35;
+	int32_t ___U3CBestStreakU3Ek__BackingField_36;
 	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<Stage>k__BackingField
-	int32_t ___U3CStageU3Ek__BackingField_36;
+	int32_t ___U3CStageU3Ek__BackingField_37;
 	// System.Single com.thinkagaingames.basketball.BasketballDirector::<Timer>k__BackingField
-	float ___U3CTimerU3Ek__BackingField_37;
+	float ___U3CTimerU3Ek__BackingField_38;
 	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<Streak>k__BackingField
-	int32_t ___U3CStreakU3Ek__BackingField_38;
+	int32_t ___U3CStreakU3Ek__BackingField_39;
 	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<CurrentStageIndex>k__BackingField
-	int32_t ___U3CCurrentStageIndexU3Ek__BackingField_39;
+	int32_t ___U3CCurrentStageIndexU3Ek__BackingField_40;
 	// System.Boolean com.thinkagaingames.basketball.BasketballDirector::<IsGameClockRunning>k__BackingField
-	bool ___U3CIsGameClockRunningU3Ek__BackingField_40;
+	bool ___U3CIsGameClockRunningU3Ek__BackingField_41;
 
 public:
 	inline static int32_t get_offset_of_tutorialSteps_12() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___tutorialSteps_12)); }
@@ -6963,92 +6965,100 @@ public:
 		Il2CppCodeGenWriteBarrier((&___baseResourceURI_android_29), value);
 	}
 
-	inline static int32_t get_offset_of_U3CGameModeU3Ek__BackingField_30() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CGameModeU3Ek__BackingField_30)); }
-	inline int32_t get_U3CGameModeU3Ek__BackingField_30() const { return ___U3CGameModeU3Ek__BackingField_30; }
-	inline int32_t* get_address_of_U3CGameModeU3Ek__BackingField_30() { return &___U3CGameModeU3Ek__BackingField_30; }
-	inline void set_U3CGameModeU3Ek__BackingField_30(int32_t value)
+	inline static int32_t get_offset_of_U3CAdIdU3Ek__BackingField_30() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CAdIdU3Ek__BackingField_30)); }
+	inline int32_t get_U3CAdIdU3Ek__BackingField_30() const { return ___U3CAdIdU3Ek__BackingField_30; }
+	inline int32_t* get_address_of_U3CAdIdU3Ek__BackingField_30() { return &___U3CAdIdU3Ek__BackingField_30; }
+	inline void set_U3CAdIdU3Ek__BackingField_30(int32_t value)
 	{
-		___U3CGameModeU3Ek__BackingField_30 = value;
+		___U3CAdIdU3Ek__BackingField_30 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CFlickStartCounterU3Ek__BackingField_31() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CFlickStartCounterU3Ek__BackingField_31)); }
-	inline int32_t get_U3CFlickStartCounterU3Ek__BackingField_31() const { return ___U3CFlickStartCounterU3Ek__BackingField_31; }
-	inline int32_t* get_address_of_U3CFlickStartCounterU3Ek__BackingField_31() { return &___U3CFlickStartCounterU3Ek__BackingField_31; }
-	inline void set_U3CFlickStartCounterU3Ek__BackingField_31(int32_t value)
+	inline static int32_t get_offset_of_U3CGameModeU3Ek__BackingField_31() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CGameModeU3Ek__BackingField_31)); }
+	inline int32_t get_U3CGameModeU3Ek__BackingField_31() const { return ___U3CGameModeU3Ek__BackingField_31; }
+	inline int32_t* get_address_of_U3CGameModeU3Ek__BackingField_31() { return &___U3CGameModeU3Ek__BackingField_31; }
+	inline void set_U3CGameModeU3Ek__BackingField_31(int32_t value)
 	{
-		___U3CFlickStartCounterU3Ek__BackingField_31 = value;
+		___U3CGameModeU3Ek__BackingField_31 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CFlickEndCounterU3Ek__BackingField_32() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CFlickEndCounterU3Ek__BackingField_32)); }
-	inline int32_t get_U3CFlickEndCounterU3Ek__BackingField_32() const { return ___U3CFlickEndCounterU3Ek__BackingField_32; }
-	inline int32_t* get_address_of_U3CFlickEndCounterU3Ek__BackingField_32() { return &___U3CFlickEndCounterU3Ek__BackingField_32; }
-	inline void set_U3CFlickEndCounterU3Ek__BackingField_32(int32_t value)
+	inline static int32_t get_offset_of_U3CFlickStartCounterU3Ek__BackingField_32() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CFlickStartCounterU3Ek__BackingField_32)); }
+	inline int32_t get_U3CFlickStartCounterU3Ek__BackingField_32() const { return ___U3CFlickStartCounterU3Ek__BackingField_32; }
+	inline int32_t* get_address_of_U3CFlickStartCounterU3Ek__BackingField_32() { return &___U3CFlickStartCounterU3Ek__BackingField_32; }
+	inline void set_U3CFlickStartCounterU3Ek__BackingField_32(int32_t value)
 	{
-		___U3CFlickEndCounterU3Ek__BackingField_32 = value;
+		___U3CFlickStartCounterU3Ek__BackingField_32 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CScoreU3Ek__BackingField_33() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CScoreU3Ek__BackingField_33)); }
-	inline int32_t get_U3CScoreU3Ek__BackingField_33() const { return ___U3CScoreU3Ek__BackingField_33; }
-	inline int32_t* get_address_of_U3CScoreU3Ek__BackingField_33() { return &___U3CScoreU3Ek__BackingField_33; }
-	inline void set_U3CScoreU3Ek__BackingField_33(int32_t value)
+	inline static int32_t get_offset_of_U3CFlickEndCounterU3Ek__BackingField_33() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CFlickEndCounterU3Ek__BackingField_33)); }
+	inline int32_t get_U3CFlickEndCounterU3Ek__BackingField_33() const { return ___U3CFlickEndCounterU3Ek__BackingField_33; }
+	inline int32_t* get_address_of_U3CFlickEndCounterU3Ek__BackingField_33() { return &___U3CFlickEndCounterU3Ek__BackingField_33; }
+	inline void set_U3CFlickEndCounterU3Ek__BackingField_33(int32_t value)
 	{
-		___U3CScoreU3Ek__BackingField_33 = value;
+		___U3CFlickEndCounterU3Ek__BackingField_33 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CStageScoreU3Ek__BackingField_34() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CStageScoreU3Ek__BackingField_34)); }
-	inline int32_t get_U3CStageScoreU3Ek__BackingField_34() const { return ___U3CStageScoreU3Ek__BackingField_34; }
-	inline int32_t* get_address_of_U3CStageScoreU3Ek__BackingField_34() { return &___U3CStageScoreU3Ek__BackingField_34; }
-	inline void set_U3CStageScoreU3Ek__BackingField_34(int32_t value)
+	inline static int32_t get_offset_of_U3CScoreU3Ek__BackingField_34() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CScoreU3Ek__BackingField_34)); }
+	inline int32_t get_U3CScoreU3Ek__BackingField_34() const { return ___U3CScoreU3Ek__BackingField_34; }
+	inline int32_t* get_address_of_U3CScoreU3Ek__BackingField_34() { return &___U3CScoreU3Ek__BackingField_34; }
+	inline void set_U3CScoreU3Ek__BackingField_34(int32_t value)
 	{
-		___U3CStageScoreU3Ek__BackingField_34 = value;
+		___U3CScoreU3Ek__BackingField_34 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CBestStreakU3Ek__BackingField_35() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CBestStreakU3Ek__BackingField_35)); }
-	inline int32_t get_U3CBestStreakU3Ek__BackingField_35() const { return ___U3CBestStreakU3Ek__BackingField_35; }
-	inline int32_t* get_address_of_U3CBestStreakU3Ek__BackingField_35() { return &___U3CBestStreakU3Ek__BackingField_35; }
-	inline void set_U3CBestStreakU3Ek__BackingField_35(int32_t value)
+	inline static int32_t get_offset_of_U3CStageScoreU3Ek__BackingField_35() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CStageScoreU3Ek__BackingField_35)); }
+	inline int32_t get_U3CStageScoreU3Ek__BackingField_35() const { return ___U3CStageScoreU3Ek__BackingField_35; }
+	inline int32_t* get_address_of_U3CStageScoreU3Ek__BackingField_35() { return &___U3CStageScoreU3Ek__BackingField_35; }
+	inline void set_U3CStageScoreU3Ek__BackingField_35(int32_t value)
 	{
-		___U3CBestStreakU3Ek__BackingField_35 = value;
+		___U3CStageScoreU3Ek__BackingField_35 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CStageU3Ek__BackingField_36() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CStageU3Ek__BackingField_36)); }
-	inline int32_t get_U3CStageU3Ek__BackingField_36() const { return ___U3CStageU3Ek__BackingField_36; }
-	inline int32_t* get_address_of_U3CStageU3Ek__BackingField_36() { return &___U3CStageU3Ek__BackingField_36; }
-	inline void set_U3CStageU3Ek__BackingField_36(int32_t value)
+	inline static int32_t get_offset_of_U3CBestStreakU3Ek__BackingField_36() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CBestStreakU3Ek__BackingField_36)); }
+	inline int32_t get_U3CBestStreakU3Ek__BackingField_36() const { return ___U3CBestStreakU3Ek__BackingField_36; }
+	inline int32_t* get_address_of_U3CBestStreakU3Ek__BackingField_36() { return &___U3CBestStreakU3Ek__BackingField_36; }
+	inline void set_U3CBestStreakU3Ek__BackingField_36(int32_t value)
 	{
-		___U3CStageU3Ek__BackingField_36 = value;
+		___U3CBestStreakU3Ek__BackingField_36 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CTimerU3Ek__BackingField_37() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CTimerU3Ek__BackingField_37)); }
-	inline float get_U3CTimerU3Ek__BackingField_37() const { return ___U3CTimerU3Ek__BackingField_37; }
-	inline float* get_address_of_U3CTimerU3Ek__BackingField_37() { return &___U3CTimerU3Ek__BackingField_37; }
-	inline void set_U3CTimerU3Ek__BackingField_37(float value)
+	inline static int32_t get_offset_of_U3CStageU3Ek__BackingField_37() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CStageU3Ek__BackingField_37)); }
+	inline int32_t get_U3CStageU3Ek__BackingField_37() const { return ___U3CStageU3Ek__BackingField_37; }
+	inline int32_t* get_address_of_U3CStageU3Ek__BackingField_37() { return &___U3CStageU3Ek__BackingField_37; }
+	inline void set_U3CStageU3Ek__BackingField_37(int32_t value)
 	{
-		___U3CTimerU3Ek__BackingField_37 = value;
+		___U3CStageU3Ek__BackingField_37 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CStreakU3Ek__BackingField_38() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CStreakU3Ek__BackingField_38)); }
-	inline int32_t get_U3CStreakU3Ek__BackingField_38() const { return ___U3CStreakU3Ek__BackingField_38; }
-	inline int32_t* get_address_of_U3CStreakU3Ek__BackingField_38() { return &___U3CStreakU3Ek__BackingField_38; }
-	inline void set_U3CStreakU3Ek__BackingField_38(int32_t value)
+	inline static int32_t get_offset_of_U3CTimerU3Ek__BackingField_38() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CTimerU3Ek__BackingField_38)); }
+	inline float get_U3CTimerU3Ek__BackingField_38() const { return ___U3CTimerU3Ek__BackingField_38; }
+	inline float* get_address_of_U3CTimerU3Ek__BackingField_38() { return &___U3CTimerU3Ek__BackingField_38; }
+	inline void set_U3CTimerU3Ek__BackingField_38(float value)
 	{
-		___U3CStreakU3Ek__BackingField_38 = value;
+		___U3CTimerU3Ek__BackingField_38 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CCurrentStageIndexU3Ek__BackingField_39() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CCurrentStageIndexU3Ek__BackingField_39)); }
-	inline int32_t get_U3CCurrentStageIndexU3Ek__BackingField_39() const { return ___U3CCurrentStageIndexU3Ek__BackingField_39; }
-	inline int32_t* get_address_of_U3CCurrentStageIndexU3Ek__BackingField_39() { return &___U3CCurrentStageIndexU3Ek__BackingField_39; }
-	inline void set_U3CCurrentStageIndexU3Ek__BackingField_39(int32_t value)
+	inline static int32_t get_offset_of_U3CStreakU3Ek__BackingField_39() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CStreakU3Ek__BackingField_39)); }
+	inline int32_t get_U3CStreakU3Ek__BackingField_39() const { return ___U3CStreakU3Ek__BackingField_39; }
+	inline int32_t* get_address_of_U3CStreakU3Ek__BackingField_39() { return &___U3CStreakU3Ek__BackingField_39; }
+	inline void set_U3CStreakU3Ek__BackingField_39(int32_t value)
 	{
-		___U3CCurrentStageIndexU3Ek__BackingField_39 = value;
+		___U3CStreakU3Ek__BackingField_39 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CIsGameClockRunningU3Ek__BackingField_40() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CIsGameClockRunningU3Ek__BackingField_40)); }
-	inline bool get_U3CIsGameClockRunningU3Ek__BackingField_40() const { return ___U3CIsGameClockRunningU3Ek__BackingField_40; }
-	inline bool* get_address_of_U3CIsGameClockRunningU3Ek__BackingField_40() { return &___U3CIsGameClockRunningU3Ek__BackingField_40; }
-	inline void set_U3CIsGameClockRunningU3Ek__BackingField_40(bool value)
+	inline static int32_t get_offset_of_U3CCurrentStageIndexU3Ek__BackingField_40() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CCurrentStageIndexU3Ek__BackingField_40)); }
+	inline int32_t get_U3CCurrentStageIndexU3Ek__BackingField_40() const { return ___U3CCurrentStageIndexU3Ek__BackingField_40; }
+	inline int32_t* get_address_of_U3CCurrentStageIndexU3Ek__BackingField_40() { return &___U3CCurrentStageIndexU3Ek__BackingField_40; }
+	inline void set_U3CCurrentStageIndexU3Ek__BackingField_40(int32_t value)
 	{
-		___U3CIsGameClockRunningU3Ek__BackingField_40 = value;
+		___U3CCurrentStageIndexU3Ek__BackingField_40 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CIsGameClockRunningU3Ek__BackingField_41() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CIsGameClockRunningU3Ek__BackingField_41)); }
+	inline bool get_U3CIsGameClockRunningU3Ek__BackingField_41() const { return ___U3CIsGameClockRunningU3Ek__BackingField_41; }
+	inline bool* get_address_of_U3CIsGameClockRunningU3Ek__BackingField_41() { return &___U3CIsGameClockRunningU3Ek__BackingField_41; }
+	inline void set_U3CIsGameClockRunningU3Ek__BackingField_41(bool value)
+	{
+		___U3CIsGameClockRunningU3Ek__BackingField_41 = value;
 	}
 };
 
@@ -8139,7 +8149,7 @@ extern const int32_t g_FieldOffsetTable1795[12] =
 	StageParameters_t2117678140::get_offset_of_viewportDistZ_11(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1796 = { sizeof (BasketballDirector_t360905235), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1796[32] = 
+extern const int32_t g_FieldOffsetTable1796[33] = 
 {
 	0,
 	0,
@@ -8162,17 +8172,18 @@ extern const int32_t g_FieldOffsetTable1796[32] =
 	BasketballDirector_t360905235::get_offset_of_baseResourceURI_27(),
 	BasketballDirector_t360905235::get_offset_of_baseResourceURI_iOS_28(),
 	BasketballDirector_t360905235::get_offset_of_baseResourceURI_android_29(),
-	BasketballDirector_t360905235::get_offset_of_U3CGameModeU3Ek__BackingField_30(),
-	BasketballDirector_t360905235::get_offset_of_U3CFlickStartCounterU3Ek__BackingField_31(),
-	BasketballDirector_t360905235::get_offset_of_U3CFlickEndCounterU3Ek__BackingField_32(),
-	BasketballDirector_t360905235::get_offset_of_U3CScoreU3Ek__BackingField_33(),
-	BasketballDirector_t360905235::get_offset_of_U3CStageScoreU3Ek__BackingField_34(),
-	BasketballDirector_t360905235::get_offset_of_U3CBestStreakU3Ek__BackingField_35(),
-	BasketballDirector_t360905235::get_offset_of_U3CStageU3Ek__BackingField_36(),
-	BasketballDirector_t360905235::get_offset_of_U3CTimerU3Ek__BackingField_37(),
-	BasketballDirector_t360905235::get_offset_of_U3CStreakU3Ek__BackingField_38(),
-	BasketballDirector_t360905235::get_offset_of_U3CCurrentStageIndexU3Ek__BackingField_39(),
-	BasketballDirector_t360905235::get_offset_of_U3CIsGameClockRunningU3Ek__BackingField_40(),
+	BasketballDirector_t360905235::get_offset_of_U3CAdIdU3Ek__BackingField_30(),
+	BasketballDirector_t360905235::get_offset_of_U3CGameModeU3Ek__BackingField_31(),
+	BasketballDirector_t360905235::get_offset_of_U3CFlickStartCounterU3Ek__BackingField_32(),
+	BasketballDirector_t360905235::get_offset_of_U3CFlickEndCounterU3Ek__BackingField_33(),
+	BasketballDirector_t360905235::get_offset_of_U3CScoreU3Ek__BackingField_34(),
+	BasketballDirector_t360905235::get_offset_of_U3CStageScoreU3Ek__BackingField_35(),
+	BasketballDirector_t360905235::get_offset_of_U3CBestStreakU3Ek__BackingField_36(),
+	BasketballDirector_t360905235::get_offset_of_U3CStageU3Ek__BackingField_37(),
+	BasketballDirector_t360905235::get_offset_of_U3CTimerU3Ek__BackingField_38(),
+	BasketballDirector_t360905235::get_offset_of_U3CStreakU3Ek__BackingField_39(),
+	BasketballDirector_t360905235::get_offset_of_U3CCurrentStageIndexU3Ek__BackingField_40(),
+	BasketballDirector_t360905235::get_offset_of_U3CIsGameClockRunningU3Ek__BackingField_41(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1797 = { sizeof (eGameMode_t2513299795)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable1797[3] = 

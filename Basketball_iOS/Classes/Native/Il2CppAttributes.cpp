@@ -29612,6 +29612,17 @@ static void BasketballDirector_t360905235_CustomAttributesCacheGenerator_baseRes
 		SerializeField__ctor_m2670658200(tmp, NULL);
 	}
 }
+static void BasketballDirector_t360905235_CustomAttributesCacheGenerator_U3CAdIdU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+	{
+		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[1];
+		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
+	}
+}
 static void BasketballDirector_t360905235_CustomAttributesCacheGenerator_U3CGameModeU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	{
@@ -29731,6 +29742,20 @@ static void BasketballDirector_t360905235_CustomAttributesCacheGenerator_U3CIsGa
 	{
 		DebuggerBrowsableAttribute_t1386379234 * tmp = (DebuggerBrowsableAttribute_t1386379234 *)cache->attributes[1];
 		DebuggerBrowsableAttribute__ctor_m3729055103(tmp, 0LL, NULL);
+	}
+}
+static void BasketballDirector_t360905235_CustomAttributesCacheGenerator_BasketballDirector_get_AdId_m4072513478(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
+	}
+}
+static void BasketballDirector_t360905235_CustomAttributesCacheGenerator_BasketballDirector_set_AdId_m2885015041(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t497097752 * tmp = (CompilerGeneratedAttribute_t497097752 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3017743394(tmp, NULL);
 	}
 }
 static void BasketballDirector_t360905235_CustomAttributesCacheGenerator_BasketballDirector_get_GameMode_m696502247(CustomAttributesCache* cache)
@@ -32079,7 +32104,7 @@ static void ToggleButtonIcon_t3802687969_CustomAttributesCacheGenerator(CustomAt
 		RequireComponent__ctor_m3109988199(tmp, il2cpp_codegen_type_get_object(Toggle_t3976754468_0_0_0_var), NULL);
 	}
 }
-extern const CustomAttributesCacheGenerator g_AttributeGenerators[2922] = 
+extern const CustomAttributesCacheGenerator g_AttributeGenerators[2925] = 
 {
 	NULL,
 	g_mscorlib_Assembly_CustomAttributesCacheGenerator,
@@ -34686,6 +34711,7 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[2922] =
 	BasketballDirector_t360905235_CustomAttributesCacheGenerator_baseResourceURI,
 	BasketballDirector_t360905235_CustomAttributesCacheGenerator_baseResourceURI_iOS,
 	BasketballDirector_t360905235_CustomAttributesCacheGenerator_baseResourceURI_android,
+	BasketballDirector_t360905235_CustomAttributesCacheGenerator_U3CAdIdU3Ek__BackingField,
 	BasketballDirector_t360905235_CustomAttributesCacheGenerator_U3CGameModeU3Ek__BackingField,
 	BasketballDirector_t360905235_CustomAttributesCacheGenerator_U3CFlickStartCounterU3Ek__BackingField,
 	BasketballDirector_t360905235_CustomAttributesCacheGenerator_U3CFlickEndCounterU3Ek__BackingField,
@@ -34697,6 +34723,8 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[2922] =
 	BasketballDirector_t360905235_CustomAttributesCacheGenerator_U3CStreakU3Ek__BackingField,
 	BasketballDirector_t360905235_CustomAttributesCacheGenerator_U3CCurrentStageIndexU3Ek__BackingField,
 	BasketballDirector_t360905235_CustomAttributesCacheGenerator_U3CIsGameClockRunningU3Ek__BackingField,
+	BasketballDirector_t360905235_CustomAttributesCacheGenerator_BasketballDirector_get_AdId_m4072513478,
+	BasketballDirector_t360905235_CustomAttributesCacheGenerator_BasketballDirector_set_AdId_m2885015041,
 	BasketballDirector_t360905235_CustomAttributesCacheGenerator_BasketballDirector_get_GameMode_m696502247,
 	BasketballDirector_t360905235_CustomAttributesCacheGenerator_BasketballDirector_set_GameMode_m4039236724,
 	BasketballDirector_t360905235_CustomAttributesCacheGenerator_BasketballDirector_get_FlickStartCounter_m2375828665,

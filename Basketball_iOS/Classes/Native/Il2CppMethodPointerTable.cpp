@@ -10558,6 +10558,10 @@ extern "C" void BallBasic_OnInitStage_m2338167310 ();
 extern "C" void BallBasic_OnStageEnded_m2273630522 ();
 extern "C" void ContactSoundData__ctor_m3893695653 ();
 extern "C" void BasketballDirector__ctor_m1878048261 ();
+extern "C" void BasketballDirector_IOS_SetScore_m1353985748 ();
+extern "C" void BasketballDirector_StartResourceLoad_m1596266483 ();
+extern "C" void BasketballDirector_get_AdId_m4072513478 ();
+extern "C" void BasketballDirector_set_AdId_m2885015041 ();
 extern "C" void BasketballDirector_get_GameMode_m696502247 ();
 extern "C" void BasketballDirector_set_GameMode_m4039236724 ();
 extern "C" void BasketballDirector_get_FlickStartCounter_m2375828665 ();
@@ -10753,6 +10757,7 @@ extern "C" void GameDirector_AddToInitList_m1898093571 ();
 extern "C" void GameDirector_PauseGame_m365798081 ();
 extern "C" void GameDirector_ResumeGame_m1635238302 ();
 extern "C" void GameDirector__AddToInitList_m601090102 ();
+extern "C" void GameDirector_StartResourceLoad_m2305202305 ();
 extern "C" void GameDirector_Awake_m4227525280 ();
 extern "C" void GameDirector_OnDestroy_m3478008218 ();
 extern "C" void GameDirector_Start_m2622108665 ();
@@ -11077,7 +11082,7 @@ extern "C" void U3CTransitionU3Ec__Iterator0_System_Collections_Generic_IEnumera
 extern "C" void U3CTransitionU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m4237625775 ();
 extern "C" void U3CTransitionU3Ec__Iterator0_Dispose_m2855156886 ();
 extern "C" void U3CTransitionU3Ec__Iterator0_Reset_m1696749784 ();
-extern const Il2CppMethodPointer g_MethodPointers[11060] = 
+extern const Il2CppMethodPointer g_MethodPointers[11065] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -21620,6 +21625,10 @@ extern const Il2CppMethodPointer g_MethodPointers[11060] =
 	BallBasic_OnStageEnded_m2273630522,
 	ContactSoundData__ctor_m3893695653,
 	BasketballDirector__ctor_m1878048261,
+	BasketballDirector_IOS_SetScore_m1353985748,
+	BasketballDirector_StartResourceLoad_m1596266483,
+	BasketballDirector_get_AdId_m4072513478,
+	BasketballDirector_set_AdId_m2885015041,
 	BasketballDirector_get_GameMode_m696502247,
 	BasketballDirector_set_GameMode_m4039236724,
 	BasketballDirector_get_FlickStartCounter_m2375828665,
@@ -21815,6 +21824,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11060] =
 	GameDirector_PauseGame_m365798081,
 	GameDirector_ResumeGame_m1635238302,
 	GameDirector__AddToInitList_m601090102,
+	GameDirector_StartResourceLoad_m2305202305,
 	GameDirector_Awake_m4227525280,
 	GameDirector_OnDestroy_m3478008218,
 	GameDirector_Start_m2622108665,

@@ -815,11 +815,12 @@ extern const uint32_t GameDirector_ResumeGame_m1635238302_MetadataUsageId;
 extern const RuntimeMethod* List_1_Contains_m3922816303_RuntimeMethod_var;
 extern const RuntimeMethod* List_1_Add_m4170817737_RuntimeMethod_var;
 extern const uint32_t GameDirector__AddToInitList_m601090102_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3936096235;
+extern const uint32_t GameDirector_StartResourceLoad_m2305202305_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral2147531857;
 extern const uint32_t GameDirector_Awake_m4227525280_MetadataUsageId;
 extern const uint32_t GameDirector_OnDestroy_m3478008218_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral3012221595;
-extern Il2CppCodeGenString* _stringLiteral3936096235;
 extern const uint32_t GameDirector_Start_m2622108665_MetadataUsageId;
 extern RuntimeClass* U3CLoadResourcesU3Ec__Iterator0_t3540714063_il2cpp_TypeInfo_var;
 extern const uint32_t GameDirector_LoadResources_m3193347350_MetadataUsageId;
@@ -12713,28 +12714,30 @@ public:
 	String_t* ___baseResourceURI_iOS_28;
 	// System.String com.thinkagaingames.basketball.BasketballDirector::baseResourceURI_android
 	String_t* ___baseResourceURI_android_29;
+	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<AdId>k__BackingField
+	int32_t ___U3CAdIdU3Ek__BackingField_30;
 	// com.thinkagaingames.basketball.BasketballDirector/eGameMode com.thinkagaingames.basketball.BasketballDirector::<GameMode>k__BackingField
-	int32_t ___U3CGameModeU3Ek__BackingField_30;
+	int32_t ___U3CGameModeU3Ek__BackingField_31;
 	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<FlickStartCounter>k__BackingField
-	int32_t ___U3CFlickStartCounterU3Ek__BackingField_31;
+	int32_t ___U3CFlickStartCounterU3Ek__BackingField_32;
 	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<FlickEndCounter>k__BackingField
-	int32_t ___U3CFlickEndCounterU3Ek__BackingField_32;
+	int32_t ___U3CFlickEndCounterU3Ek__BackingField_33;
 	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<Score>k__BackingField
-	int32_t ___U3CScoreU3Ek__BackingField_33;
+	int32_t ___U3CScoreU3Ek__BackingField_34;
 	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<StageScore>k__BackingField
-	int32_t ___U3CStageScoreU3Ek__BackingField_34;
+	int32_t ___U3CStageScoreU3Ek__BackingField_35;
 	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<BestStreak>k__BackingField
-	int32_t ___U3CBestStreakU3Ek__BackingField_35;
+	int32_t ___U3CBestStreakU3Ek__BackingField_36;
 	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<Stage>k__BackingField
-	int32_t ___U3CStageU3Ek__BackingField_36;
+	int32_t ___U3CStageU3Ek__BackingField_37;
 	// System.Single com.thinkagaingames.basketball.BasketballDirector::<Timer>k__BackingField
-	float ___U3CTimerU3Ek__BackingField_37;
+	float ___U3CTimerU3Ek__BackingField_38;
 	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<Streak>k__BackingField
-	int32_t ___U3CStreakU3Ek__BackingField_38;
+	int32_t ___U3CStreakU3Ek__BackingField_39;
 	// System.Int32 com.thinkagaingames.basketball.BasketballDirector::<CurrentStageIndex>k__BackingField
-	int32_t ___U3CCurrentStageIndexU3Ek__BackingField_39;
+	int32_t ___U3CCurrentStageIndexU3Ek__BackingField_40;
 	// System.Boolean com.thinkagaingames.basketball.BasketballDirector::<IsGameClockRunning>k__BackingField
-	bool ___U3CIsGameClockRunningU3Ek__BackingField_40;
+	bool ___U3CIsGameClockRunningU3Ek__BackingField_41;
 
 public:
 	inline static int32_t get_offset_of_tutorialSteps_12() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___tutorialSteps_12)); }
@@ -12896,92 +12899,100 @@ public:
 		Il2CppCodeGenWriteBarrier((&___baseResourceURI_android_29), value);
 	}
 
-	inline static int32_t get_offset_of_U3CGameModeU3Ek__BackingField_30() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CGameModeU3Ek__BackingField_30)); }
-	inline int32_t get_U3CGameModeU3Ek__BackingField_30() const { return ___U3CGameModeU3Ek__BackingField_30; }
-	inline int32_t* get_address_of_U3CGameModeU3Ek__BackingField_30() { return &___U3CGameModeU3Ek__BackingField_30; }
-	inline void set_U3CGameModeU3Ek__BackingField_30(int32_t value)
+	inline static int32_t get_offset_of_U3CAdIdU3Ek__BackingField_30() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CAdIdU3Ek__BackingField_30)); }
+	inline int32_t get_U3CAdIdU3Ek__BackingField_30() const { return ___U3CAdIdU3Ek__BackingField_30; }
+	inline int32_t* get_address_of_U3CAdIdU3Ek__BackingField_30() { return &___U3CAdIdU3Ek__BackingField_30; }
+	inline void set_U3CAdIdU3Ek__BackingField_30(int32_t value)
 	{
-		___U3CGameModeU3Ek__BackingField_30 = value;
+		___U3CAdIdU3Ek__BackingField_30 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CFlickStartCounterU3Ek__BackingField_31() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CFlickStartCounterU3Ek__BackingField_31)); }
-	inline int32_t get_U3CFlickStartCounterU3Ek__BackingField_31() const { return ___U3CFlickStartCounterU3Ek__BackingField_31; }
-	inline int32_t* get_address_of_U3CFlickStartCounterU3Ek__BackingField_31() { return &___U3CFlickStartCounterU3Ek__BackingField_31; }
-	inline void set_U3CFlickStartCounterU3Ek__BackingField_31(int32_t value)
+	inline static int32_t get_offset_of_U3CGameModeU3Ek__BackingField_31() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CGameModeU3Ek__BackingField_31)); }
+	inline int32_t get_U3CGameModeU3Ek__BackingField_31() const { return ___U3CGameModeU3Ek__BackingField_31; }
+	inline int32_t* get_address_of_U3CGameModeU3Ek__BackingField_31() { return &___U3CGameModeU3Ek__BackingField_31; }
+	inline void set_U3CGameModeU3Ek__BackingField_31(int32_t value)
 	{
-		___U3CFlickStartCounterU3Ek__BackingField_31 = value;
+		___U3CGameModeU3Ek__BackingField_31 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CFlickEndCounterU3Ek__BackingField_32() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CFlickEndCounterU3Ek__BackingField_32)); }
-	inline int32_t get_U3CFlickEndCounterU3Ek__BackingField_32() const { return ___U3CFlickEndCounterU3Ek__BackingField_32; }
-	inline int32_t* get_address_of_U3CFlickEndCounterU3Ek__BackingField_32() { return &___U3CFlickEndCounterU3Ek__BackingField_32; }
-	inline void set_U3CFlickEndCounterU3Ek__BackingField_32(int32_t value)
+	inline static int32_t get_offset_of_U3CFlickStartCounterU3Ek__BackingField_32() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CFlickStartCounterU3Ek__BackingField_32)); }
+	inline int32_t get_U3CFlickStartCounterU3Ek__BackingField_32() const { return ___U3CFlickStartCounterU3Ek__BackingField_32; }
+	inline int32_t* get_address_of_U3CFlickStartCounterU3Ek__BackingField_32() { return &___U3CFlickStartCounterU3Ek__BackingField_32; }
+	inline void set_U3CFlickStartCounterU3Ek__BackingField_32(int32_t value)
 	{
-		___U3CFlickEndCounterU3Ek__BackingField_32 = value;
+		___U3CFlickStartCounterU3Ek__BackingField_32 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CScoreU3Ek__BackingField_33() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CScoreU3Ek__BackingField_33)); }
-	inline int32_t get_U3CScoreU3Ek__BackingField_33() const { return ___U3CScoreU3Ek__BackingField_33; }
-	inline int32_t* get_address_of_U3CScoreU3Ek__BackingField_33() { return &___U3CScoreU3Ek__BackingField_33; }
-	inline void set_U3CScoreU3Ek__BackingField_33(int32_t value)
+	inline static int32_t get_offset_of_U3CFlickEndCounterU3Ek__BackingField_33() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CFlickEndCounterU3Ek__BackingField_33)); }
+	inline int32_t get_U3CFlickEndCounterU3Ek__BackingField_33() const { return ___U3CFlickEndCounterU3Ek__BackingField_33; }
+	inline int32_t* get_address_of_U3CFlickEndCounterU3Ek__BackingField_33() { return &___U3CFlickEndCounterU3Ek__BackingField_33; }
+	inline void set_U3CFlickEndCounterU3Ek__BackingField_33(int32_t value)
 	{
-		___U3CScoreU3Ek__BackingField_33 = value;
+		___U3CFlickEndCounterU3Ek__BackingField_33 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CStageScoreU3Ek__BackingField_34() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CStageScoreU3Ek__BackingField_34)); }
-	inline int32_t get_U3CStageScoreU3Ek__BackingField_34() const { return ___U3CStageScoreU3Ek__BackingField_34; }
-	inline int32_t* get_address_of_U3CStageScoreU3Ek__BackingField_34() { return &___U3CStageScoreU3Ek__BackingField_34; }
-	inline void set_U3CStageScoreU3Ek__BackingField_34(int32_t value)
+	inline static int32_t get_offset_of_U3CScoreU3Ek__BackingField_34() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CScoreU3Ek__BackingField_34)); }
+	inline int32_t get_U3CScoreU3Ek__BackingField_34() const { return ___U3CScoreU3Ek__BackingField_34; }
+	inline int32_t* get_address_of_U3CScoreU3Ek__BackingField_34() { return &___U3CScoreU3Ek__BackingField_34; }
+	inline void set_U3CScoreU3Ek__BackingField_34(int32_t value)
 	{
-		___U3CStageScoreU3Ek__BackingField_34 = value;
+		___U3CScoreU3Ek__BackingField_34 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CBestStreakU3Ek__BackingField_35() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CBestStreakU3Ek__BackingField_35)); }
-	inline int32_t get_U3CBestStreakU3Ek__BackingField_35() const { return ___U3CBestStreakU3Ek__BackingField_35; }
-	inline int32_t* get_address_of_U3CBestStreakU3Ek__BackingField_35() { return &___U3CBestStreakU3Ek__BackingField_35; }
-	inline void set_U3CBestStreakU3Ek__BackingField_35(int32_t value)
+	inline static int32_t get_offset_of_U3CStageScoreU3Ek__BackingField_35() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CStageScoreU3Ek__BackingField_35)); }
+	inline int32_t get_U3CStageScoreU3Ek__BackingField_35() const { return ___U3CStageScoreU3Ek__BackingField_35; }
+	inline int32_t* get_address_of_U3CStageScoreU3Ek__BackingField_35() { return &___U3CStageScoreU3Ek__BackingField_35; }
+	inline void set_U3CStageScoreU3Ek__BackingField_35(int32_t value)
 	{
-		___U3CBestStreakU3Ek__BackingField_35 = value;
+		___U3CStageScoreU3Ek__BackingField_35 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CStageU3Ek__BackingField_36() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CStageU3Ek__BackingField_36)); }
-	inline int32_t get_U3CStageU3Ek__BackingField_36() const { return ___U3CStageU3Ek__BackingField_36; }
-	inline int32_t* get_address_of_U3CStageU3Ek__BackingField_36() { return &___U3CStageU3Ek__BackingField_36; }
-	inline void set_U3CStageU3Ek__BackingField_36(int32_t value)
+	inline static int32_t get_offset_of_U3CBestStreakU3Ek__BackingField_36() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CBestStreakU3Ek__BackingField_36)); }
+	inline int32_t get_U3CBestStreakU3Ek__BackingField_36() const { return ___U3CBestStreakU3Ek__BackingField_36; }
+	inline int32_t* get_address_of_U3CBestStreakU3Ek__BackingField_36() { return &___U3CBestStreakU3Ek__BackingField_36; }
+	inline void set_U3CBestStreakU3Ek__BackingField_36(int32_t value)
 	{
-		___U3CStageU3Ek__BackingField_36 = value;
+		___U3CBestStreakU3Ek__BackingField_36 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CTimerU3Ek__BackingField_37() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CTimerU3Ek__BackingField_37)); }
-	inline float get_U3CTimerU3Ek__BackingField_37() const { return ___U3CTimerU3Ek__BackingField_37; }
-	inline float* get_address_of_U3CTimerU3Ek__BackingField_37() { return &___U3CTimerU3Ek__BackingField_37; }
-	inline void set_U3CTimerU3Ek__BackingField_37(float value)
+	inline static int32_t get_offset_of_U3CStageU3Ek__BackingField_37() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CStageU3Ek__BackingField_37)); }
+	inline int32_t get_U3CStageU3Ek__BackingField_37() const { return ___U3CStageU3Ek__BackingField_37; }
+	inline int32_t* get_address_of_U3CStageU3Ek__BackingField_37() { return &___U3CStageU3Ek__BackingField_37; }
+	inline void set_U3CStageU3Ek__BackingField_37(int32_t value)
 	{
-		___U3CTimerU3Ek__BackingField_37 = value;
+		___U3CStageU3Ek__BackingField_37 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CStreakU3Ek__BackingField_38() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CStreakU3Ek__BackingField_38)); }
-	inline int32_t get_U3CStreakU3Ek__BackingField_38() const { return ___U3CStreakU3Ek__BackingField_38; }
-	inline int32_t* get_address_of_U3CStreakU3Ek__BackingField_38() { return &___U3CStreakU3Ek__BackingField_38; }
-	inline void set_U3CStreakU3Ek__BackingField_38(int32_t value)
+	inline static int32_t get_offset_of_U3CTimerU3Ek__BackingField_38() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CTimerU3Ek__BackingField_38)); }
+	inline float get_U3CTimerU3Ek__BackingField_38() const { return ___U3CTimerU3Ek__BackingField_38; }
+	inline float* get_address_of_U3CTimerU3Ek__BackingField_38() { return &___U3CTimerU3Ek__BackingField_38; }
+	inline void set_U3CTimerU3Ek__BackingField_38(float value)
 	{
-		___U3CStreakU3Ek__BackingField_38 = value;
+		___U3CTimerU3Ek__BackingField_38 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CCurrentStageIndexU3Ek__BackingField_39() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CCurrentStageIndexU3Ek__BackingField_39)); }
-	inline int32_t get_U3CCurrentStageIndexU3Ek__BackingField_39() const { return ___U3CCurrentStageIndexU3Ek__BackingField_39; }
-	inline int32_t* get_address_of_U3CCurrentStageIndexU3Ek__BackingField_39() { return &___U3CCurrentStageIndexU3Ek__BackingField_39; }
-	inline void set_U3CCurrentStageIndexU3Ek__BackingField_39(int32_t value)
+	inline static int32_t get_offset_of_U3CStreakU3Ek__BackingField_39() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CStreakU3Ek__BackingField_39)); }
+	inline int32_t get_U3CStreakU3Ek__BackingField_39() const { return ___U3CStreakU3Ek__BackingField_39; }
+	inline int32_t* get_address_of_U3CStreakU3Ek__BackingField_39() { return &___U3CStreakU3Ek__BackingField_39; }
+	inline void set_U3CStreakU3Ek__BackingField_39(int32_t value)
 	{
-		___U3CCurrentStageIndexU3Ek__BackingField_39 = value;
+		___U3CStreakU3Ek__BackingField_39 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CIsGameClockRunningU3Ek__BackingField_40() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CIsGameClockRunningU3Ek__BackingField_40)); }
-	inline bool get_U3CIsGameClockRunningU3Ek__BackingField_40() const { return ___U3CIsGameClockRunningU3Ek__BackingField_40; }
-	inline bool* get_address_of_U3CIsGameClockRunningU3Ek__BackingField_40() { return &___U3CIsGameClockRunningU3Ek__BackingField_40; }
-	inline void set_U3CIsGameClockRunningU3Ek__BackingField_40(bool value)
+	inline static int32_t get_offset_of_U3CCurrentStageIndexU3Ek__BackingField_40() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CCurrentStageIndexU3Ek__BackingField_40)); }
+	inline int32_t get_U3CCurrentStageIndexU3Ek__BackingField_40() const { return ___U3CCurrentStageIndexU3Ek__BackingField_40; }
+	inline int32_t* get_address_of_U3CCurrentStageIndexU3Ek__BackingField_40() { return &___U3CCurrentStageIndexU3Ek__BackingField_40; }
+	inline void set_U3CCurrentStageIndexU3Ek__BackingField_40(int32_t value)
 	{
-		___U3CIsGameClockRunningU3Ek__BackingField_40 = value;
+		___U3CCurrentStageIndexU3Ek__BackingField_40 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CIsGameClockRunningU3Ek__BackingField_41() { return static_cast<int32_t>(offsetof(BasketballDirector_t360905235, ___U3CIsGameClockRunningU3Ek__BackingField_41)); }
+	inline bool get_U3CIsGameClockRunningU3Ek__BackingField_41() const { return ___U3CIsGameClockRunningU3Ek__BackingField_41; }
+	inline bool* get_address_of_U3CIsGameClockRunningU3Ek__BackingField_41() { return &___U3CIsGameClockRunningU3Ek__BackingField_41; }
+	inline void set_U3CIsGameClockRunningU3Ek__BackingField_41(bool value)
+	{
+		___U3CIsGameClockRunningU3Ek__BackingField_41 = value;
 	}
 };
 
@@ -15319,6 +15330,10 @@ extern "C"  void Transform_set_localPosition_m1073050816 (Transform_t3275118058 
 extern "C"  void Object__ctor_m2551263788 (RuntimeObject * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void com.thinkagaingames.engine.GameDirector::.ctor()
 extern "C"  void GameDirector__ctor_m4159372009 (GameDirector_t3628235080 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Int32::Parse(System.String)
+extern "C"  int32_t Int32_Parse_m3683414232 (RuntimeObject * __this /* static, unused */, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void com.thinkagaingames.basketball.BasketballDirector::set_AdId(System.Int32)
+extern "C"  void BasketballDirector_set_AdId_m2885015041 (BasketballDirector_t360905235 * __this, int32_t ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Int32 com.thinkagaingames.basketball.BasketballDirector::get_StageScore()
 extern "C"  int32_t BasketballDirector_get_StageScore_m1358266650 (BasketballDirector_t360905235 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Int32 com.thinkagaingames.basketball.BasketballDirector::get_BestStreak()
@@ -15391,6 +15406,8 @@ extern "C"  void UiDirector_StartTransition_m2640846717 (UiDirector_t2078887808 
 extern "C"  int32_t BasketballDirector_get_TotalStageScore_m1926762710 (BasketballDirector_t360905235 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void com.thinkagaingames.engine.UiDirector::ResetHistory()
 extern "C"  void UiDirector_ResetHistory_m1338631274 (UiDirector_t2078887808 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void com.thinkagaingames.basketball.BasketballDirector::IOS_SetScore(System.Int32)
+extern "C"  void BasketballDirector_IOS_SetScore_m1353985748 (RuntimeObject * __this /* static, unused */, int32_t ___score0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void com.thinkagaingames.basketball.BasketballDirector::SetUpNextStage()
 extern "C"  void BasketballDirector_SetUpNextStage_m1749089381 (BasketballDirector_t360905235 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void com.thinkagaingames.engine.GameDirector::Start()
@@ -15465,8 +15482,8 @@ extern "C"  RuntimeObject* GameDirector_LoadResources_m3193347350 (GameDirector_
 extern "C"  void WaitForSeconds__ctor_m632080402 (WaitForSeconds_t3839502067 * __this, float p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NotSupportedException::.ctor()
 extern "C"  void NotSupportedException__ctor_m3232764727 (NotSupportedException_t1793819818 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.Random::Range(System.Int32,System.Int32)
-extern "C"  int32_t Random_Range_m3327624272 (RuntimeObject * __this /* static, unused */, int32_t p0, int32_t p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 com.thinkagaingames.basketball.BasketballDirector::get_AdId()
+extern "C"  int32_t BasketballDirector_get_AdId_m4072513478 (BasketballDirector_t360905235 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Networking.UnityWebRequest UnityEngine.Networking.UnityWebRequest::GetAssetBundle(System.String)
 extern "C"  UnityWebRequest_t254341728 * UnityWebRequest_GetAssetBundle_m1279225303 (RuntimeObject * __this /* static, unused */, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Networking.UnityWebRequestAsyncOperation UnityEngine.Networking.UnityWebRequest::SendWebRequest()
@@ -15815,6 +15832,8 @@ extern "C"  void SoundSystem_SetChannelVolume_m2919522256 (RuntimeObject * __thi
 #define List_1_get_Count_m2189116989(__this, method) ((  int32_t (*) (List_1_t3876128128 *, const RuntimeMethod*))List_1_get_Count_m2375293942_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.AudioClip>::get_Count()
 #define List_1_get_Count_m3361499332(__this, method) ((  int32_t (*) (List_1_t1301679762 *, const RuntimeMethod*))List_1_get_Count_m2375293942_gshared)(__this, method)
+// System.Int32 UnityEngine.Random::Range(System.Int32,System.Int32)
+extern "C"  int32_t Random_Range_m3327624272 (RuntimeObject * __this /* static, unused */, int32_t p0, int32_t p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // !0 System.Collections.Generic.List`1<UnityEngine.AudioClip>::get_Item(System.Int32)
 #define List_1_get_Item_m3879122397(__this, p0, method) ((  AudioClip_t1932558630 * (*) (List_1_t1301679762 *, int32_t, const RuntimeMethod*))List_1_get_Item_m2062981835_gshared)(__this, p0, method)
 // !!0[] UnityEngine.GameObject::GetComponents<UnityEngine.AudioSource>()
@@ -17299,11 +17318,49 @@ extern "C"  void BasketballDirector__ctor_m1878048261 (BasketballDirector_t36090
 		return;
 	}
 }
+extern "C" void DEFAULT_CALL IOS_SetScore(int32_t);
+// System.Void com.thinkagaingames.basketball.BasketballDirector::IOS_SetScore(System.Int32)
+extern "C"  void BasketballDirector_IOS_SetScore_m1353985748 (RuntimeObject * __this /* static, unused */, int32_t ___score0, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(IOS_SetScore)(___score0);
+
+}
+// System.Void com.thinkagaingames.basketball.BasketballDirector::StartResourceLoad(System.String)
+extern "C"  void BasketballDirector_StartResourceLoad_m1596266483 (BasketballDirector_t360905235 * __this, String_t* ___arg0, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___arg0;
+		int32_t L_1 = Int32_Parse_m3683414232(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		BasketballDirector_set_AdId_m2885015041(__this, L_1, /*hidden argument*/NULL);
+		VirtActionInvoker0::Invoke(9 /* System.Void com.thinkagaingames.engine.GameDirector::StartResourceLoad() */, __this);
+		return;
+	}
+}
+// System.Int32 com.thinkagaingames.basketball.BasketballDirector::get_AdId()
+extern "C"  int32_t BasketballDirector_get_AdId_m4072513478 (BasketballDirector_t360905235 * __this, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = __this->get_U3CAdIdU3Ek__BackingField_30();
+		return L_0;
+	}
+}
+// System.Void com.thinkagaingames.basketball.BasketballDirector::set_AdId(System.Int32)
+extern "C"  void BasketballDirector_set_AdId_m2885015041 (BasketballDirector_t360905235 * __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->set_U3CAdIdU3Ek__BackingField_30(L_0);
+		return;
+	}
+}
 // com.thinkagaingames.basketball.BasketballDirector/eGameMode com.thinkagaingames.basketball.BasketballDirector::get_GameMode()
 extern "C"  int32_t BasketballDirector_get_GameMode_m696502247 (BasketballDirector_t360905235 * __this, const RuntimeMethod* method)
 {
 	{
-		int32_t L_0 = __this->get_U3CGameModeU3Ek__BackingField_30();
+		int32_t L_0 = __this->get_U3CGameModeU3Ek__BackingField_31();
 		return L_0;
 	}
 }
@@ -17312,7 +17369,7 @@ extern "C"  void BasketballDirector_set_GameMode_m4039236724 (BasketballDirector
 {
 	{
 		int32_t L_0 = ___value0;
-		__this->set_U3CGameModeU3Ek__BackingField_30(L_0);
+		__this->set_U3CGameModeU3Ek__BackingField_31(L_0);
 		return;
 	}
 }
@@ -17320,7 +17377,7 @@ extern "C"  void BasketballDirector_set_GameMode_m4039236724 (BasketballDirector
 extern "C"  int32_t BasketballDirector_get_FlickStartCounter_m2375828665 (BasketballDirector_t360905235 * __this, const RuntimeMethod* method)
 {
 	{
-		int32_t L_0 = __this->get_U3CFlickStartCounterU3Ek__BackingField_31();
+		int32_t L_0 = __this->get_U3CFlickStartCounterU3Ek__BackingField_32();
 		return L_0;
 	}
 }
@@ -17329,7 +17386,7 @@ extern "C"  void BasketballDirector_set_FlickStartCounter_m911682616 (Basketball
 {
 	{
 		int32_t L_0 = ___value0;
-		__this->set_U3CFlickStartCounterU3Ek__BackingField_31(L_0);
+		__this->set_U3CFlickStartCounterU3Ek__BackingField_32(L_0);
 		return;
 	}
 }
@@ -17337,7 +17394,7 @@ extern "C"  void BasketballDirector_set_FlickStartCounter_m911682616 (Basketball
 extern "C"  int32_t BasketballDirector_get_FlickEndCounter_m557965340 (BasketballDirector_t360905235 * __this, const RuntimeMethod* method)
 {
 	{
-		int32_t L_0 = __this->get_U3CFlickEndCounterU3Ek__BackingField_32();
+		int32_t L_0 = __this->get_U3CFlickEndCounterU3Ek__BackingField_33();
 		return L_0;
 	}
 }
@@ -17346,7 +17403,7 @@ extern "C"  void BasketballDirector_set_FlickEndCounter_m2239482597 (BasketballD
 {
 	{
 		int32_t L_0 = ___value0;
-		__this->set_U3CFlickEndCounterU3Ek__BackingField_32(L_0);
+		__this->set_U3CFlickEndCounterU3Ek__BackingField_33(L_0);
 		return;
 	}
 }
@@ -17354,7 +17411,7 @@ extern "C"  void BasketballDirector_set_FlickEndCounter_m2239482597 (BasketballD
 extern "C"  int32_t BasketballDirector_get_Score_m261277926 (BasketballDirector_t360905235 * __this, const RuntimeMethod* method)
 {
 	{
-		int32_t L_0 = __this->get_U3CScoreU3Ek__BackingField_33();
+		int32_t L_0 = __this->get_U3CScoreU3Ek__BackingField_34();
 		return L_0;
 	}
 }
@@ -17363,7 +17420,7 @@ extern "C"  void BasketballDirector_set_Score_m2004939869 (BasketballDirector_t3
 {
 	{
 		int32_t L_0 = ___value0;
-		__this->set_U3CScoreU3Ek__BackingField_33(L_0);
+		__this->set_U3CScoreU3Ek__BackingField_34(L_0);
 		return;
 	}
 }
@@ -17371,7 +17428,7 @@ extern "C"  void BasketballDirector_set_Score_m2004939869 (BasketballDirector_t3
 extern "C"  int32_t BasketballDirector_get_StageScore_m1358266650 (BasketballDirector_t360905235 * __this, const RuntimeMethod* method)
 {
 	{
-		int32_t L_0 = __this->get_U3CStageScoreU3Ek__BackingField_34();
+		int32_t L_0 = __this->get_U3CStageScoreU3Ek__BackingField_35();
 		return L_0;
 	}
 }
@@ -17380,7 +17437,7 @@ extern "C"  void BasketballDirector_set_StageScore_m611439233 (BasketballDirecto
 {
 	{
 		int32_t L_0 = ___value0;
-		__this->set_U3CStageScoreU3Ek__BackingField_34(L_0);
+		__this->set_U3CStageScoreU3Ek__BackingField_35(L_0);
 		return;
 	}
 }
@@ -17397,7 +17454,7 @@ extern "C"  int32_t BasketballDirector_get_TotalStageScore_m1926762710 (Basketba
 extern "C"  int32_t BasketballDirector_get_BestStreak_m3866463926 (BasketballDirector_t360905235 * __this, const RuntimeMethod* method)
 {
 	{
-		int32_t L_0 = __this->get_U3CBestStreakU3Ek__BackingField_35();
+		int32_t L_0 = __this->get_U3CBestStreakU3Ek__BackingField_36();
 		return L_0;
 	}
 }
@@ -17406,7 +17463,7 @@ extern "C"  void BasketballDirector_set_BestStreak_m2754607023 (BasketballDirect
 {
 	{
 		int32_t L_0 = ___value0;
-		__this->set_U3CBestStreakU3Ek__BackingField_35(L_0);
+		__this->set_U3CBestStreakU3Ek__BackingField_36(L_0);
 		return;
 	}
 }
@@ -17414,7 +17471,7 @@ extern "C"  void BasketballDirector_set_BestStreak_m2754607023 (BasketballDirect
 extern "C"  int32_t BasketballDirector_get_Stage_m582800450 (BasketballDirector_t360905235 * __this, const RuntimeMethod* method)
 {
 	{
-		int32_t L_0 = __this->get_U3CStageU3Ek__BackingField_36();
+		int32_t L_0 = __this->get_U3CStageU3Ek__BackingField_37();
 		return L_0;
 	}
 }
@@ -17423,7 +17480,7 @@ extern "C"  void BasketballDirector_set_Stage_m1885820021 (BasketballDirector_t3
 {
 	{
 		int32_t L_0 = ___value0;
-		__this->set_U3CStageU3Ek__BackingField_36(L_0);
+		__this->set_U3CStageU3Ek__BackingField_37(L_0);
 		return;
 	}
 }
@@ -17431,7 +17488,7 @@ extern "C"  void BasketballDirector_set_Stage_m1885820021 (BasketballDirector_t3
 extern "C"  float BasketballDirector_get_Timer_m2367072693 (BasketballDirector_t360905235 * __this, const RuntimeMethod* method)
 {
 	{
-		float L_0 = __this->get_U3CTimerU3Ek__BackingField_37();
+		float L_0 = __this->get_U3CTimerU3Ek__BackingField_38();
 		return L_0;
 	}
 }
@@ -17440,7 +17497,7 @@ extern "C"  void BasketballDirector_set_Timer_m4187832120 (BasketballDirector_t3
 {
 	{
 		float L_0 = ___value0;
-		__this->set_U3CTimerU3Ek__BackingField_37(L_0);
+		__this->set_U3CTimerU3Ek__BackingField_38(L_0);
 		return;
 	}
 }
@@ -17448,7 +17505,7 @@ extern "C"  void BasketballDirector_set_Timer_m4187832120 (BasketballDirector_t3
 extern "C"  int32_t BasketballDirector_get_Streak_m2597699312 (BasketballDirector_t360905235 * __this, const RuntimeMethod* method)
 {
 	{
-		int32_t L_0 = __this->get_U3CStreakU3Ek__BackingField_38();
+		int32_t L_0 = __this->get_U3CStreakU3Ek__BackingField_39();
 		return L_0;
 	}
 }
@@ -17457,7 +17514,7 @@ extern "C"  void BasketballDirector_set_Streak_m1345160307 (BasketballDirector_t
 {
 	{
 		int32_t L_0 = ___value0;
-		__this->set_U3CStreakU3Ek__BackingField_38(L_0);
+		__this->set_U3CStreakU3Ek__BackingField_39(L_0);
 		return;
 	}
 }
@@ -17465,7 +17522,7 @@ extern "C"  void BasketballDirector_set_Streak_m1345160307 (BasketballDirector_t
 extern "C"  int32_t BasketballDirector_get_CurrentStageIndex_m556596029 (BasketballDirector_t360905235 * __this, const RuntimeMethod* method)
 {
 	{
-		int32_t L_0 = __this->get_U3CCurrentStageIndexU3Ek__BackingField_39();
+		int32_t L_0 = __this->get_U3CCurrentStageIndexU3Ek__BackingField_40();
 		return L_0;
 	}
 }
@@ -17474,7 +17531,7 @@ extern "C"  void BasketballDirector_set_CurrentStageIndex_m4109823844 (Basketbal
 {
 	{
 		int32_t L_0 = ___value0;
-		__this->set_U3CCurrentStageIndexU3Ek__BackingField_39(L_0);
+		__this->set_U3CCurrentStageIndexU3Ek__BackingField_40(L_0);
 		return;
 	}
 }
@@ -17482,7 +17539,7 @@ extern "C"  void BasketballDirector_set_CurrentStageIndex_m4109823844 (Basketbal
 extern "C"  bool BasketballDirector_get_IsGameClockRunning_m4245189647 (BasketballDirector_t360905235 * __this, const RuntimeMethod* method)
 {
 	{
-		bool L_0 = __this->get_U3CIsGameClockRunningU3Ek__BackingField_40();
+		bool L_0 = __this->get_U3CIsGameClockRunningU3Ek__BackingField_41();
 		return L_0;
 	}
 }
@@ -17491,7 +17548,7 @@ extern "C"  void BasketballDirector_set_IsGameClockRunning_m344329886 (Basketbal
 {
 	{
 		bool L_0 = ___value0;
-		__this->set_U3CIsGameClockRunningU3Ek__BackingField_40(L_0);
+		__this->set_U3CIsGameClockRunningU3Ek__BackingField_41(L_0);
 		return;
 	}
 }
@@ -17869,7 +17926,7 @@ extern "C"  void BasketballDirector_GameOnOrGameOver_m3323653119 (BasketballDire
 		int32_t L_3 = BasketballDirector_get_TotalStageScore_m1926762710(__this, /*hidden argument*/NULL);
 		if ((((int32_t)L_3) >= ((int32_t)((int32_t)10))))
 		{
-			goto IL_0042;
+			goto IL_004d;
 		}
 	}
 
@@ -17882,18 +17939,20 @@ IL_0023:
 		UiDirector_t2078887808 * L_5 = ((UiDirector_t2078887808_StaticFields*)il2cpp_codegen_static_fields_for(UiDirector_t2078887808_il2cpp_TypeInfo_var))->get_Instance_5();
 		NullCheck(L_5);
 		UiDirector_StartTransition_m2640846717(L_5, _stringLiteral3957321317, (bool)1, /*hidden argument*/NULL);
-		goto IL_0052;
+		int32_t L_6 = BasketballDirector_get_Score_m261277926(__this, /*hidden argument*/NULL);
+		BasketballDirector_IOS_SetScore_m1353985748(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		goto IL_005d;
 	}
 
-IL_0042:
+IL_004d:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(UiDirector_t2078887808_il2cpp_TypeInfo_var);
-		UiDirector_t2078887808 * L_6 = ((UiDirector_t2078887808_StaticFields*)il2cpp_codegen_static_fields_for(UiDirector_t2078887808_il2cpp_TypeInfo_var))->get_Instance_5();
-		NullCheck(L_6);
-		UiDirector_StartTransition_m2640846717(L_6, _stringLiteral4168647024, (bool)1, /*hidden argument*/NULL);
+		UiDirector_t2078887808 * L_7 = ((UiDirector_t2078887808_StaticFields*)il2cpp_codegen_static_fields_for(UiDirector_t2078887808_il2cpp_TypeInfo_var))->get_Instance_5();
+		NullCheck(L_7);
+		UiDirector_StartTransition_m2640846717(L_7, _stringLiteral4168647024, (bool)1, /*hidden argument*/NULL);
 	}
 
-IL_0052:
+IL_005d:
 	{
 		return;
 	}
@@ -19399,16 +19458,16 @@ extern "C"  bool U3CLoadResourcesU3Ec__Iterator2_MoveNext_m2062487604 (U3CLoadRe
 			}
 			case 1:
 			{
-				goto IL_006e;
+				goto IL_0072;
 			}
 			case 2:
 			{
-				goto IL_0168;
+				goto IL_016c;
 			}
 		}
 	}
 	{
-		goto IL_016f;
+		goto IL_0173;
 	}
 
 IL_0027:
@@ -19418,201 +19477,203 @@ IL_0027:
 		String_t* L_3 = L_2->get_baseResourceURI_iOS_28();
 		__this->set_U3CuriU3E__0_0(L_3);
 		String_t* L_4 = __this->get_U3CuriU3E__0_0();
-		int32_t L_5 = Random_Range_m3327624272(NULL /*static, unused*/, 1, 4, /*hidden argument*/NULL);
-		int32_t L_6 = L_5;
-		RuntimeObject * L_7 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_6);
+		BasketballDirector_t360905235 * L_5 = __this->get_U24this_2();
+		NullCheck(L_5);
+		int32_t L_6 = BasketballDirector_get_AdId_m4072513478(L_5, /*hidden argument*/NULL);
+		int32_t L_7 = L_6;
+		RuntimeObject * L_8 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_7);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_8 = String_Concat_m2000667605(NULL /*static, unused*/, L_4, _stringLiteral372029326, L_7, /*hidden argument*/NULL);
-		__this->set_U3CuriU3E__0_0(L_8);
-		String_t* L_9 = __this->get_U3CuriU3E__0_0();
-		UnityWebRequest_t254341728 * L_10 = UnityWebRequest_GetAssetBundle_m1279225303(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
-		__this->set_U3CuwrU3E__1_1(L_10);
+		String_t* L_9 = String_Concat_m2000667605(NULL /*static, unused*/, L_4, _stringLiteral372029326, L_8, /*hidden argument*/NULL);
+		__this->set_U3CuriU3E__0_0(L_9);
+		String_t* L_10 = __this->get_U3CuriU3E__0_0();
+		UnityWebRequest_t254341728 * L_11 = UnityWebRequest_GetAssetBundle_m1279225303(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		__this->set_U3CuwrU3E__1_1(L_11);
 		V_0 = ((int32_t)-3);
 	}
 
-IL_006e:
+IL_0072:
 	try
 	{ // begin try (depth: 1)
 		{
-			uint32_t L_11 = V_0;
-			switch (((int32_t)((int32_t)L_11-(int32_t)1)))
+			uint32_t L_12 = V_0;
+			switch (((int32_t)((int32_t)L_12-(int32_t)1)))
 			{
 				case 0:
 				{
-					goto IL_00a1;
+					goto IL_00a5;
 				}
 			}
 		}
 
-IL_007a:
+IL_007e:
 		{
-			UnityWebRequest_t254341728 * L_12 = __this->get_U3CuwrU3E__1_1();
-			NullCheck(L_12);
-			UnityWebRequestAsyncOperation_t2821884557 * L_13 = UnityWebRequest_SendWebRequest_m3795216673(L_12, /*hidden argument*/NULL);
-			__this->set_U24current_3(L_13);
-			bool L_14 = __this->get_U24disposing_4();
-			if (L_14)
+			UnityWebRequest_t254341728 * L_13 = __this->get_U3CuwrU3E__1_1();
+			NullCheck(L_13);
+			UnityWebRequestAsyncOperation_t2821884557 * L_14 = UnityWebRequest_SendWebRequest_m3795216673(L_13, /*hidden argument*/NULL);
+			__this->set_U24current_3(L_14);
+			bool L_15 = __this->get_U24disposing_4();
+			if (L_15)
 			{
-				goto IL_009a;
+				goto IL_009e;
 			}
 		}
 
-IL_0093:
+IL_0097:
 		{
 			__this->set_U24PC_5(1);
 		}
 
-IL_009a:
+IL_009e:
 		{
 			V_1 = (bool)1;
-			IL2CPP_LEAVE(0x171, FINALLY_0138);
+			IL2CPP_LEAVE(0x175, FINALLY_013c);
 		}
 
-IL_00a1:
+IL_00a5:
 		{
-			UnityWebRequest_t254341728 * L_15 = __this->get_U3CuwrU3E__1_1();
-			NullCheck(L_15);
-			bool L_16 = UnityWebRequest_get_isNetworkError_m1187301034(L_15, /*hidden argument*/NULL);
-			if (L_16)
+			UnityWebRequest_t254341728 * L_16 = __this->get_U3CuwrU3E__1_1();
+			NullCheck(L_16);
+			bool L_17 = UnityWebRequest_get_isNetworkError_m1187301034(L_16, /*hidden argument*/NULL);
+			if (L_17)
 			{
-				goto IL_00c1;
+				goto IL_00c5;
 			}
 		}
 
-IL_00b1:
+IL_00b5:
 		{
-			UnityWebRequest_t254341728 * L_17 = __this->get_U3CuwrU3E__1_1();
-			NullCheck(L_17);
-			bool L_18 = UnityWebRequest_get_isHttpError_m93679802(L_17, /*hidden argument*/NULL);
-			if (!L_18)
+			UnityWebRequest_t254341728 * L_18 = __this->get_U3CuwrU3E__1_1();
+			NullCheck(L_18);
+			bool L_19 = UnityWebRequest_get_isHttpError_m93679802(L_18, /*hidden argument*/NULL);
+			if (!L_19)
 			{
-				goto IL_00d6;
+				goto IL_00da;
 			}
 		}
 
-IL_00c1:
+IL_00c5:
 		{
-			UnityWebRequest_t254341728 * L_19 = __this->get_U3CuwrU3E__1_1();
-			NullCheck(L_19);
-			String_t* L_20 = UnityWebRequest_get_error_m714775961(L_19, /*hidden argument*/NULL);
+			UnityWebRequest_t254341728 * L_20 = __this->get_U3CuwrU3E__1_1();
+			NullCheck(L_20);
+			String_t* L_21 = UnityWebRequest_get_error_m714775961(L_20, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-			Debug_Log_m2923680153(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
-			goto IL_0133;
+			Debug_Log_m2923680153(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
+			goto IL_0137;
 		}
 
-IL_00d6:
+IL_00da:
 		{
-			UnityWebRequest_t254341728 * L_21 = __this->get_U3CuwrU3E__1_1();
-			AssetBundle_t2054978754 * L_22 = DownloadHandlerAssetBundle_GetContent_m3996975841(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
-			V_2 = L_22;
-			AssetBundle_t2054978754 * L_23 = V_2;
-			NullCheck(L_23);
-			Sprite_t309593783 * L_24 = AssetBundle_LoadAsset_TisSprite_t309593783_m532139215(L_23, _stringLiteral4267925419, /*hidden argument*/AssetBundle_LoadAsset_TisSprite_t309593783_m532139215_RuntimeMethod_var);
-			V_3 = L_24;
-			AssetBundle_t2054978754 * L_25 = V_2;
-			NullCheck(L_25);
-			Sprite_t309593783 * L_26 = AssetBundle_LoadAsset_TisSprite_t309593783_m532139215(L_25, _stringLiteral3682574933, /*hidden argument*/AssetBundle_LoadAsset_TisSprite_t309593783_m532139215_RuntimeMethod_var);
-			V_4 = L_26;
-			AssetBundle_t2054978754 * L_27 = V_2;
-			NullCheck(L_27);
-			GamestrapTheme_t2245232465 * L_28 = AssetBundle_LoadAsset_TisGamestrapTheme_t2245232465_m69139730(L_27, _stringLiteral1434394961, /*hidden argument*/AssetBundle_LoadAsset_TisGamestrapTheme_t2245232465_m69139730_RuntimeMethod_var);
-			V_5 = L_28;
-			GamestrapTheme_t2245232465 * L_29 = V_5;
+			UnityWebRequest_t254341728 * L_22 = __this->get_U3CuwrU3E__1_1();
+			AssetBundle_t2054978754 * L_23 = DownloadHandlerAssetBundle_GetContent_m3996975841(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
+			V_2 = L_23;
+			AssetBundle_t2054978754 * L_24 = V_2;
+			NullCheck(L_24);
+			Sprite_t309593783 * L_25 = AssetBundle_LoadAsset_TisSprite_t309593783_m532139215(L_24, _stringLiteral4267925419, /*hidden argument*/AssetBundle_LoadAsset_TisSprite_t309593783_m532139215_RuntimeMethod_var);
+			V_3 = L_25;
+			AssetBundle_t2054978754 * L_26 = V_2;
+			NullCheck(L_26);
+			Sprite_t309593783 * L_27 = AssetBundle_LoadAsset_TisSprite_t309593783_m532139215(L_26, _stringLiteral3682574933, /*hidden argument*/AssetBundle_LoadAsset_TisSprite_t309593783_m532139215_RuntimeMethod_var);
+			V_4 = L_27;
+			AssetBundle_t2054978754 * L_28 = V_2;
+			NullCheck(L_28);
+			GamestrapTheme_t2245232465 * L_29 = AssetBundle_LoadAsset_TisGamestrapTheme_t2245232465_m69139730(L_28, _stringLiteral1434394961, /*hidden argument*/AssetBundle_LoadAsset_TisGamestrapTheme_t2245232465_m69139730_RuntimeMethod_var);
+			V_5 = L_29;
+			GamestrapTheme_t2245232465 * L_30 = V_5;
 			IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-			bool L_30 = Object_op_Inequality_m3768854296(NULL /*static, unused*/, L_29, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-			if (!L_30)
+			bool L_31 = Object_op_Inequality_m3768854296(NULL /*static, unused*/, L_30, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+			if (!L_31)
 			{
-				goto IL_011c;
+				goto IL_0120;
 			}
 		}
 
-IL_0115:
+IL_0119:
 		{
-			GamestrapTheme_t2245232465 * L_31 = V_5;
-			NullCheck(L_31);
-			GamestrapTheme_ApplyTheme_m761867013(L_31, /*hidden argument*/NULL);
+			GamestrapTheme_t2245232465 * L_32 = V_5;
+			NullCheck(L_32);
+			GamestrapTheme_ApplyTheme_m761867013(L_32, /*hidden argument*/NULL);
 		}
 
-IL_011c:
+IL_0120:
 		{
-			Sprite_t309593783 * L_32 = V_3;
+			Sprite_t309593783 * L_33 = V_3;
 			IL2CPP_RUNTIME_CLASS_INIT(Switchboard_t4160800958_il2cpp_TypeInfo_var);
-			Switchboard_Broadcast_m1377559098(NULL /*static, unused*/, _stringLiteral2431862286, L_32, /*hidden argument*/NULL);
-			Sprite_t309593783 * L_33 = V_4;
-			Switchboard_Broadcast_m1377559098(NULL /*static, unused*/, _stringLiteral39681374, L_33, /*hidden argument*/NULL);
+			Switchboard_Broadcast_m1377559098(NULL /*static, unused*/, _stringLiteral2431862286, L_33, /*hidden argument*/NULL);
+			Sprite_t309593783 * L_34 = V_4;
+			Switchboard_Broadcast_m1377559098(NULL /*static, unused*/, _stringLiteral39681374, L_34, /*hidden argument*/NULL);
 		}
 
-IL_0133:
+IL_0137:
 		{
-			IL2CPP_LEAVE(0x143, FINALLY_0138);
+			IL2CPP_LEAVE(0x147, FINALLY_013c);
 		}
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
-		goto FINALLY_0138;
+		goto FINALLY_013c;
 	}
 
-FINALLY_0138:
+FINALLY_013c:
 	{ // begin finally (depth: 1)
 		{
-			bool L_34 = V_1;
-			if (!L_34)
+			bool L_35 = V_1;
+			if (!L_35)
 			{
-				goto IL_013c;
+				goto IL_0140;
 			}
 		}
 
-IL_013b:
+IL_013f:
 		{
-			IL2CPP_END_FINALLY(312)
+			IL2CPP_END_FINALLY(316)
 		}
 
-IL_013c:
+IL_0140:
 		{
 			U3CLoadResourcesU3Ec__Iterator2_U3CU3E__Finally0_m3285194679(__this, /*hidden argument*/NULL);
-			IL2CPP_END_FINALLY(312)
+			IL2CPP_END_FINALLY(316)
 		}
 	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(312)
+	IL2CPP_CLEANUP(316)
 	{
-		IL2CPP_JUMP_TBL(0x171, IL_0171)
-		IL2CPP_JUMP_TBL(0x143, IL_0143)
+		IL2CPP_JUMP_TBL(0x175, IL_0175)
+		IL2CPP_JUMP_TBL(0x147, IL_0147)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
 	}
 
-IL_0143:
+IL_0147:
 	{
-		BasketballDirector_t360905235 * L_35 = __this->get_U24this_2();
-		NullCheck(L_35);
-		RuntimeObject* L_36 = BasketballDirector_U3CLoadResourcesU3E__BaseCallProxy0_m129401657(L_35, /*hidden argument*/NULL);
-		__this->set_U24current_3(L_36);
-		bool L_37 = __this->get_U24disposing_4();
-		if (L_37)
+		BasketballDirector_t360905235 * L_36 = __this->get_U24this_2();
+		NullCheck(L_36);
+		RuntimeObject* L_37 = BasketballDirector_U3CLoadResourcesU3E__BaseCallProxy0_m129401657(L_36, /*hidden argument*/NULL);
+		__this->set_U24current_3(L_37);
+		bool L_38 = __this->get_U24disposing_4();
+		if (L_38)
 		{
-			goto IL_0163;
+			goto IL_0167;
 		}
 	}
 	{
 		__this->set_U24PC_5(2);
 	}
 
-IL_0163:
+IL_0167:
 	{
-		goto IL_0171;
+		goto IL_0175;
 	}
 
-IL_0168:
+IL_016c:
 	{
 		__this->set_U24PC_5((-1));
 	}
 
-IL_016f:
+IL_0173:
 	{
 		return (bool)0;
 	}
 
-IL_0171:
+IL_0175:
 	{
 		return (bool)1;
 	}
@@ -22214,6 +22275,20 @@ IL_001f:
 		return L_6;
 	}
 }
+// System.Void com.thinkagaingames.engine.GameDirector::StartResourceLoad()
+extern "C"  void GameDirector_StartResourceLoad_m2305202305 (GameDirector_t3628235080 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameDirector_StartResourceLoad_m2305202305_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		MonoBehaviour_StartCoroutine_m4172460844(__this, _stringLiteral3936096235, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void com.thinkagaingames.engine.GameDirector::Awake()
 extern "C"  void GameDirector_Awake_m4227525280 (GameDirector_t3628235080 * __this, const RuntimeMethod* method)
 {
@@ -22279,7 +22354,6 @@ extern "C"  void GameDirector_Start_m2622108665 (GameDirector_t3628235080 * __th
 		bool L_10 = GameObject_get_activeSelf_m2643917226(L_9, /*hidden argument*/NULL);
 		GameObject_t1756533147 * L_11 = Component_get_gameObject_m2159020946(__this, /*hidden argument*/NULL);
 		Assert_That_m222981585(NULL /*static, unused*/, L_10, _stringLiteral3012221595, L_11, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_m4172460844(__this, _stringLiteral3936096235, /*hidden argument*/NULL);
 		return;
 	}
 }
