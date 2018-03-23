@@ -13,7 +13,6 @@
 		64055DE7204E36CD008678EA /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64055DE6204E36CD008678EA /* MediaToolbox.framework */; };
 		64055DE9204E36D5008678EA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64055DE8204E36D5008678EA /* AudioToolbox.framework */; };
 		64055DEB204E36DD008678EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64055DEA204E36DD008678EA /* AVFoundation.framework */; };
-		64055DEE204E3761008678EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64055DEC204E3761008678EA /* Main.storyboard */; };
 		640DE259204E3A3B0091C67D /* IOStoUnityObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 640DE257204E3A3B0091C67D /* IOStoUnityObjC.m */; };
 		640DE524204E3C6A0091C67D /* CrashReporter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 640DE25D204E3C690091C67D /* CrashReporter.mm */; };
 		640DE525204E3C6A0091C67D /* iPhone_Sensors.mm in Sources */ = {isa = PBXBuildFile; fileRef = 640DE25F204E3C690091C67D /* iPhone_Sensors.mm */; };
@@ -144,7 +143,8 @@
 		640DE5A2204E3C6A0091C67D /* UnityToIOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 640DE51F204E3C6A0091C67D /* UnityToIOS.mm */; };
 		640DE5A3204E3C6A0091C67D /* RegisterFeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 640DE520204E3C6A0091C67D /* RegisterFeatures.cpp */; };
 		640DE5A4204E3C6A0091C67D /* RegisterMonoModules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 640DE522204E3C6A0091C67D /* RegisterMonoModules.cpp */; };
-		640DE5A6204E49A30091C67D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640DE5A5204E49A30091C67D /* Images.xcassets */; };
+		646C9D4120647C3200B25E64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646C9D4020647C3200B25E64 /* Images.xcassets */; };
+		646C9D4320649EF800B25E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646C9D4220649EF700B25E64 /* Main.storyboard */; };
 		64F42940204B923D000477C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4293F204B923D000477C4 /* AppDelegate.swift */; };
 		64F42942204B923D000477C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F42941204B923D000477C4 /* ViewController.swift */; };
 		64F4294A204B923E000477C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F42948204B923E000477C4 /* LaunchScreen.storyboard */; };
@@ -159,7 +159,6 @@
 		64055DE6204E36CD008678EA /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
 		64055DE8204E36D5008678EA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		64055DEA204E36DD008678EA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		64055DED204E3761008678EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../EmbeddedBasketball/EmbeddedBasketball/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		640DE257204E3A3B0091C67D /* IOStoUnityObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOStoUnityObjC.m; sourceTree = SOURCE_ROOT; };
 		640DE258204E3A3B0091C67D /* IOStoUnityObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOStoUnityObjC.h; sourceTree = SOURCE_ROOT; };
 		640DE25C204E3C690091C67D /* CrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashReporter.h; sourceTree = "<group>"; };
@@ -788,7 +787,8 @@
 		640DE521204E3C6A0091C67D /* RegisterFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterFeatures.h; sourceTree = "<group>"; };
 		640DE522204E3C6A0091C67D /* RegisterMonoModules.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RegisterMonoModules.cpp; sourceTree = "<group>"; };
 		640DE523204E3C6A0091C67D /* RegisterMonoModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterMonoModules.h; sourceTree = "<group>"; };
-		640DE5A5204E49A30091C67D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../EmbeddedBasketball/EmbeddedBasketball/Images.xcassets; sourceTree = "<group>"; };
+		646C9D4020647C3200B25E64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		646C9D4220649EF700B25E64 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		64F4293C204B923D000477C4 /* IntegratedBasketball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegratedBasketball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F4293F204B923D000477C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64F42941204B923D000477C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -2182,12 +2182,12 @@
 			children = (
 				640DE258204E3A3B0091C67D /* IOStoUnityObjC.h */,
 				640DE257204E3A3B0091C67D /* IOStoUnityObjC.m */,
-				64055DEC204E3761008678EA /* Main.storyboard */,
+				646C9D4220649EF700B25E64 /* Main.storyboard */,
 				64F4293F204B923D000477C4 /* AppDelegate.swift */,
 				64F42941204B923D000477C4 /* ViewController.swift */,
 				64F42948204B923E000477C4 /* LaunchScreen.storyboard */,
 				64F4294B204B923E000477C4 /* Info.plist */,
-				640DE5A5204E49A30091C67D /* Images.xcassets */,
+				646C9D4020647C3200B25E64 /* Images.xcassets */,
 			);
 			path = IntegratedBasketball;
 			sourceTree = "<group>";
@@ -2253,10 +2253,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646C9D4320649EF800B25E64 /* Main.storyboard in Resources */,
 				64F4294A204B923E000477C4 /* LaunchScreen.storyboard in Resources */,
 				640DE59F204E3C6A0091C67D /* libil2cpp.icalls in Resources */,
-				64055DEE204E3761008678EA /* Main.storyboard in Resources */,
-				640DE5A6204E49A30091C67D /* Images.xcassets in Resources */,
+				646C9D4120647C3200B25E64 /* Images.xcassets in Resources */,
 				64055A9A204E33F1008678EA /* unity.xcconfig in Resources */,
 				640DE59E204E3C6A0091C67D /* libil2cpp.def in Resources */,
 			);
@@ -2420,14 +2420,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		64055DEC204E3761008678EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64055DED204E3761008678EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		64F42948204B923E000477C4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -2488,7 +2480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -2540,7 +2532,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
