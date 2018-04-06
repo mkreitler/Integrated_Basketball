@@ -2,16 +2,16 @@
 All Assemblies
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 2309
+  Total Type Removals = 2292
     Nested = 181
     Interfaces = 145
-    Abstract Classes = 153
+    Abstract Classes = 155
     Generic Types = 83
     Generic Interfaces = 6
     Generic Abstract Classes = 3
     Attributes = 180
-  Total Field Removals = 790
-  Total Method Removals = 11927
+  Total Field Removals = 785
+  Total Method Removals = 12118
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -557,7 +557,7 @@ Summary:
     Generic Abstract Classes = 1
     Attributes = 87
   Total Field Removals = 495
-  Total Method Removals = 5040
+  Total Method Removals = 5037
   References Removed = 0
 ---------------------------------------------------
     <PrivateImplementationDetails>
@@ -2094,7 +2094,6 @@ Summary:
         ExpandEnvironmentVariables(System.String)
         FailFast(System.String)
         get_CommandLine()
-        get_CurrentDirectory()
         get_EmbeddingHostName()
         get_ExitCode()
         get_HasShutdownStarted()
@@ -2978,7 +2977,6 @@ Summary:
         .ctor(System.Object)
         get_DeclaringMethod()
         get_GUID()
-        GetArrayRank()
         GetConstructor(System.Reflection.ConstructorInfo)
         GetCorrespondingInflatedConstructor(System.Reflection.ConstructorInfo)
         GetCorrespondingInflatedMethod(System.Reflection.MethodInfo)
@@ -7372,7 +7370,6 @@ Summary:
         get_IsVisible()
         get_StructLayoutAttribute()
         get_TypeInitializer()
-        GetArrayRank()
         GetConstructor(System.Reflection.ConstructorInfo)
         GetConstructors()
         GetDefaultMembers()
@@ -9603,7 +9600,7 @@ Summary:
     Attributes = 0
   Total Field Removals = 0
   Total Method Removals = 0
-  References Removed = 27
+  References Removed = 26
     UnityEngine.AccessibilityModule
     UnityEngine.AIModule
     UnityEngine.ARModule
@@ -9625,7 +9622,6 @@ Summary:
     UnityEngine.UNETModule
     UnityEngine.UnityWebRequestAudioModule
     UnityEngine.UnityWebRequestTextureModule
-    UnityEngine.UnityWebRequestWWWModule
     UnityEngine.VehiclesModule
     UnityEngine.VideoModule
     UnityEngine.VRModule
@@ -10618,7 +10614,7 @@ Summary:
 Assembly: UnityEngine.CoreModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 427
+  Total Type Removals = 409
     Nested = 10
     Interfaces = 11
     Abstract Classes = 17
@@ -10626,8 +10622,8 @@ Summary:
     Generic Interfaces = 0
     Generic Abstract Classes = 0
     Attributes = 50
-  Total Field Removals = 31
-  Total Method Removals = 2487
+  Total Field Removals = 32
+  Total Method Removals = 2663
   References Removed = 0
 ---------------------------------------------------
     AOT.MonoPInvokeCallbackAttribute
@@ -10652,20 +10648,197 @@ Summary:
     JetBrains.Annotations.StringFormatMethodAttribute
     JetBrains.Annotations.UsedImplicitlyAttribute
     UnityEngine._AndroidJNIHelper
+        .ctor()
+        Box(System.Object)
+        CreateJavaProxy(System.Int32,UnityEngine.AndroidJavaProxy)
+        GetConstructorID(System.IntPtr,System.Object[])
+        GetConstructorID(System.IntPtr,System.String)
+        GetMethodID(System.IntPtr,System.String,System.Object[],System.Boolean)
+        GetSignature(System.Object[])
+        InvokeJavaProxyMethod(UnityEngine.AndroidJavaProxy,System.IntPtr,System.IntPtr)
+        Unbox(UnityEngine.AndroidJavaObject)
+        UnboxArray(UnityEngine.AndroidJavaObject)
     UnityEngine.AccelerationEvent
     UnityEngine.AddComponentMenu
         get_componentMenu()
         get_componentOrder()
-    UnityEngine.AndroidJavaClass
-    UnityEngine.AndroidJavaException
     UnityEngine.AndroidJavaObject
+        .ctor(System.String,System.Object[])
+        _AndroidJavaObject(System.String,System.Object[])
+        _Call(System.String,System.Object[])
+        _CallStatic(System.String,System.Object[])
+        _Get<FieldType>(System.String)
+        _Set<FieldType>(System.String,FieldType)
+        _SetStatic<FieldType>(System.String,FieldType)
+        Call(System.String,System.Object[])
+        CallStatic(System.String,System.Object[])
+        DebugPrint(System.String,System.String,System.String,System.Object[])
+        Get<FieldType>(System.String)
+        Set<FieldType>(System.String,FieldType)
+        SetStatic<FieldType>(System.String,FieldType)
     UnityEngine.AndroidJavaProxy
-    UnityEngine.AndroidJavaRunnable
+        equals(UnityEngine.AndroidJavaObject)
+        hashCode()
+        Invoke(System.String,System.Object[])
+        Invoke(System.String,UnityEngine.AndroidJavaObject[])
+        toString()
     UnityEngine.AndroidJavaRunnableProxy
+        run()
     UnityEngine.AndroidJNI
+        .ctor()
+        AllocObject(System.IntPtr)
+        AttachCurrentThread()
+        CallStaticVoidMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+        CallVoidMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+        DetachCurrentThread()
+        EnsureLocalCapacity(System.Int32)
+        ExceptionDescribe()
+        FatalError(System.String)
+        FromObjectArray(System.IntPtr)
+        GetBooleanArrayElement(System.IntPtr,System.Int32)
+        GetBooleanField(System.IntPtr,System.IntPtr)
+        GetByteArrayElement(System.IntPtr,System.Int32)
+        GetByteField(System.IntPtr,System.IntPtr)
+        GetCharArrayElement(System.IntPtr,System.Int32)
+        GetCharField(System.IntPtr,System.IntPtr)
+        GetDoubleArrayElement(System.IntPtr,System.Int32)
+        GetDoubleField(System.IntPtr,System.IntPtr)
+        GetFloatArrayElement(System.IntPtr,System.Int32)
+        GetFloatField(System.IntPtr,System.IntPtr)
+        GetIntArrayElement(System.IntPtr,System.Int32)
+        GetIntField(System.IntPtr,System.IntPtr)
+        GetLongArrayElement(System.IntPtr,System.Int32)
+        GetLongField(System.IntPtr,System.IntPtr)
+        GetObjectField(System.IntPtr,System.IntPtr)
+        GetShortArrayElement(System.IntPtr,System.Int32)
+        GetShortField(System.IntPtr,System.IntPtr)
+        GetStringField(System.IntPtr,System.IntPtr)
+        GetStringUTFLength(System.IntPtr)
+        GetSuperclass(System.IntPtr)
+        GetVersion()
+        INTERNAL_CALL_AllocObject(System.IntPtr,System.IntPtr&)
+        INTERNAL_CALL_GetObjectField(System.IntPtr,System.IntPtr,System.IntPtr&)
+        INTERNAL_CALL_GetSuperclass(System.IntPtr,System.IntPtr&)
+        INTERNAL_CALL_NewBooleanArray(System.Int32,System.IntPtr&)
+        INTERNAL_CALL_NewByteArray(System.Int32,System.IntPtr&)
+        INTERNAL_CALL_NewCharArray(System.Int32,System.IntPtr&)
+        INTERNAL_CALL_NewDoubleArray(System.Int32,System.IntPtr&)
+        INTERNAL_CALL_NewFloatArray(System.Int32,System.IntPtr&)
+        INTERNAL_CALL_NewIntArray(System.Int32,System.IntPtr&)
+        INTERNAL_CALL_NewLocalRef(System.IntPtr,System.IntPtr&)
+        INTERNAL_CALL_NewLongArray(System.Int32,System.IntPtr&)
+        INTERNAL_CALL_NewObject(System.IntPtr,System.IntPtr,UnityEngine.jvalue[],System.IntPtr&)
+        INTERNAL_CALL_NewShortArray(System.Int32,System.IntPtr&)
+        INTERNAL_CALL_PopLocalFrame(System.IntPtr,System.IntPtr&)
+        INTERNAL_CALL_ToReflectedField(System.IntPtr,System.IntPtr,System.Boolean,System.IntPtr&)
+        INTERNAL_CALL_ToReflectedMethod(System.IntPtr,System.IntPtr,System.Boolean,System.IntPtr&)
+        IsAssignableFrom(System.IntPtr,System.IntPtr)
+        IsInstanceOf(System.IntPtr,System.IntPtr)
+        IsSameObject(System.IntPtr,System.IntPtr)
+        NewBooleanArray(System.Int32)
+        NewByteArray(System.Int32)
+        NewCharArray(System.Int32)
+        NewDoubleArray(System.Int32)
+        NewFloatArray(System.Int32)
+        NewIntArray(System.Int32)
+        NewLocalRef(System.IntPtr)
+        NewLongArray(System.Int32)
+        NewObject(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+        NewShortArray(System.Int32)
+        PopLocalFrame(System.IntPtr)
+        PushLocalFrame(System.Int32)
+        SetBooleanArrayElement(System.IntPtr,System.Int32,System.Byte)
+        SetBooleanField(System.IntPtr,System.IntPtr,System.Boolean)
+        SetByteArrayElement(System.IntPtr,System.Int32,System.SByte)
+        SetByteField(System.IntPtr,System.IntPtr,System.Byte)
+        SetCharArrayElement(System.IntPtr,System.Int32,System.Char)
+        SetCharField(System.IntPtr,System.IntPtr,System.Char)
+        SetDoubleArrayElement(System.IntPtr,System.Int32,System.Double)
+        SetDoubleField(System.IntPtr,System.IntPtr,System.Double)
+        SetFloatArrayElement(System.IntPtr,System.Int32,System.Single)
+        SetFloatField(System.IntPtr,System.IntPtr,System.Single)
+        SetIntArrayElement(System.IntPtr,System.Int32,System.Int32)
+        SetIntField(System.IntPtr,System.IntPtr,System.Int32)
+        SetLongArrayElement(System.IntPtr,System.Int32,System.Int64)
+        SetLongField(System.IntPtr,System.IntPtr,System.Int64)
+        SetObjectField(System.IntPtr,System.IntPtr,System.IntPtr)
+        SetShortArrayElement(System.IntPtr,System.Int32,System.Int16)
+        SetShortField(System.IntPtr,System.IntPtr,System.Int16)
+        SetStaticBooleanField(System.IntPtr,System.IntPtr,System.Boolean)
+        SetStaticByteField(System.IntPtr,System.IntPtr,System.Byte)
+        SetStaticCharField(System.IntPtr,System.IntPtr,System.Char)
+        SetStaticDoubleField(System.IntPtr,System.IntPtr,System.Double)
+        SetStaticFloatField(System.IntPtr,System.IntPtr,System.Single)
+        SetStaticIntField(System.IntPtr,System.IntPtr,System.Int32)
+        SetStaticLongField(System.IntPtr,System.IntPtr,System.Int64)
+        SetStaticObjectField(System.IntPtr,System.IntPtr,System.IntPtr)
+        SetStaticShortField(System.IntPtr,System.IntPtr,System.Int16)
+        SetStaticStringField(System.IntPtr,System.IntPtr,System.String)
+        SetStringField(System.IntPtr,System.IntPtr,System.String)
+        Throw(System.IntPtr)
+        ThrowNew(System.IntPtr,System.String)
+        ToObjectArray(System.IntPtr[])
+        ToReflectedField(System.IntPtr,System.IntPtr,System.Boolean)
+        ToReflectedMethod(System.IntPtr,System.IntPtr,System.Boolean)
     UnityEngine.AndroidJNIHelper
+        .ctor()
+        ConvertToJNIArray(System.Array)
+        get_debug()
+        GetConstructorID(System.IntPtr)
+        GetConstructorID(System.IntPtr,System.Object[])
+        GetConstructorID(System.IntPtr,System.String)
+        GetFieldID(System.IntPtr,System.String)
+        GetFieldID(System.IntPtr,System.String,System.String)
+        GetMethodID(System.IntPtr,System.String)
+        GetMethodID(System.IntPtr,System.String,System.Object[],System.Boolean)
+        GetMethodID(System.IntPtr,System.String,System.String)
+        GetSignature(System.Object)
+        GetSignature(System.Object[])
+        GetSignature<ReturnType>(System.Object[])
+        set_debug(System.Boolean)
     UnityEngine.AndroidJNISafe
+        .ctor()
+        CallStaticVoidMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+        CallVoidMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+        FromObjectArray(System.IntPtr)
+        GetBooleanField(System.IntPtr,System.IntPtr)
+        GetByteField(System.IntPtr,System.IntPtr)
+        GetCharField(System.IntPtr,System.IntPtr)
+        GetDoubleField(System.IntPtr,System.IntPtr)
+        GetFloatField(System.IntPtr,System.IntPtr)
+        GetIntField(System.IntPtr,System.IntPtr)
+        GetLongField(System.IntPtr,System.IntPtr)
+        GetObjectArrayElement(System.IntPtr,System.Int32)
+        GetObjectField(System.IntPtr,System.IntPtr)
+        GetShortField(System.IntPtr,System.IntPtr)
+        GetStringField(System.IntPtr,System.IntPtr)
+        NewObject(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+        SetBooleanField(System.IntPtr,System.IntPtr,System.Boolean)
+        SetByteField(System.IntPtr,System.IntPtr,System.Byte)
+        SetCharField(System.IntPtr,System.IntPtr,System.Char)
+        SetDoubleField(System.IntPtr,System.IntPtr,System.Double)
+        SetFloatField(System.IntPtr,System.IntPtr,System.Single)
+        SetIntField(System.IntPtr,System.IntPtr,System.Int32)
+        SetLongField(System.IntPtr,System.IntPtr,System.Int64)
+        SetObjectField(System.IntPtr,System.IntPtr,System.IntPtr)
+        SetShortField(System.IntPtr,System.IntPtr,System.Int16)
+        SetStaticBooleanField(System.IntPtr,System.IntPtr,System.Boolean)
+        SetStaticByteField(System.IntPtr,System.IntPtr,System.Byte)
+        SetStaticCharField(System.IntPtr,System.IntPtr,System.Char)
+        SetStaticDoubleField(System.IntPtr,System.IntPtr,System.Double)
+        SetStaticFloatField(System.IntPtr,System.IntPtr,System.Single)
+        SetStaticIntField(System.IntPtr,System.IntPtr,System.Int32)
+        SetStaticLongField(System.IntPtr,System.IntPtr,System.Int64)
+        SetStaticObjectField(System.IntPtr,System.IntPtr,System.IntPtr)
+        SetStaticShortField(System.IntPtr,System.IntPtr,System.Int16)
+        SetStaticStringField(System.IntPtr,System.IntPtr,System.String)
+        SetStringField(System.IntPtr,System.IntPtr,System.String)
+        ToObjectArray(System.IntPtr[])
     UnityEngine.AndroidReflection
+        RELECTION_HELPER_CLASS_NAME
+        .ctor()
+        GetConstructorMember(System.IntPtr,System.String)
+        NewProxyInstance(System.Int32,System.IntPtr)
     UnityEngine.AnimationCurve
         AddKey(System.Single,System.Single)
         AddKey(UnityEngine.Keyframe)
@@ -10724,11 +10897,9 @@ Summary:
         get_installMode()
         get_internetReachability()
         get_isBatchmode()
-        get_isConsolePlatform()
         get_isFocused()
         get_isHumanControllingUs()
         get_isLoadingLevel()
-        get_isMobilePlatform()
         get_isPlayer()
         get_isShowingSplashScreen()
         get_isTestRun()
@@ -10743,7 +10914,6 @@ Summary:
         get_srcValue()
         get_stackTraceLogType()
         get_streamedBytes()
-        get_streamingAssetsPath()
         get_submitAnalytics()
         get_systemLanguage()
         get_targetFrameRate()
@@ -10773,7 +10943,6 @@ Summary:
         LoadLevelAsync(System.Int32)
         LoadLevelAsync(System.String)
         ObjectToJSString(System.Object)
-        Quit()
         RegisterLogCallback(UnityEngine.Application/LogCallback)
         RegisterLogCallback(UnityEngine.Application/LogCallback,System.Boolean)
         RegisterLogCallbackThreaded(UnityEngine.Application/LogCallback)
@@ -10827,8 +10996,6 @@ Summary:
         LoadAllAssetsAsync<T>()
         LoadAsset(System.String)
         LoadAssetAsync(System.String)
-        LoadAssetAsync(System.String,System.Type)
-        LoadAssetAsync_Internal(System.String,System.Type)
         LoadAssetAsync<T>(System.String)
         LoadAssetWithSubAssets(System.String)
         LoadAssetWithSubAssets(System.String,System.Type)
@@ -10845,8 +11012,6 @@ Summary:
         LoadFromFileAsync(System.String)
         LoadFromFileAsync(System.String,System.UInt32)
         LoadFromFileAsync(System.String,System.UInt32,System.UInt64)
-        LoadFromMemory(System.Byte[])
-        LoadFromMemory(System.Byte[],System.UInt32)
         LoadFromMemoryAsync(System.Byte[])
         LoadFromMemoryAsync(System.Byte[],System.UInt32)
         LoadFromStream(System.IO.Stream)
@@ -10859,21 +11024,20 @@ Summary:
         LoadFromStreamAsyncInternal(System.IO.Stream,System.UInt32,System.UInt32)
         LoadFromStreamInternal(System.IO.Stream,System.UInt32)
         LoadFromStreamInternal(System.IO.Stream,System.UInt32,System.UInt32)
-        Unload(System.Boolean)
         UnloadAllAssetBundles(System.Boolean)
     UnityEngine.AssetBundleCreateRequest
         .ctor()
         DisableCompatibilityChecks()
         get_assetBundle()
     UnityEngine.AssetBundleManifest
-    UnityEngine.AssetBundleRequest
         .ctor()
+        GetAllAssetBundles()
+        GetDirectDependencies(System.String)
+    UnityEngine.AssetBundleRequest
         get_allAssets()
-        get_asset()
     UnityEngine.AsyncOperation
         add_completed(System.Action`1<UnityEngine.AsyncOperation>)
         get_allowSceneActivation()
-        get_isDone()
         get_priority()
         get_progress()
         remove_completed(System.Action`1<UnityEngine.AsyncOperation>)
@@ -10938,6 +11102,8 @@ Summary:
     UnityEngine.BoundsInt
     UnityEngine.Cache
     UnityEngine.CachedAssetBundle
+        set_hash(UnityEngine.Hash128)
+        set_name(System.String)
     UnityEngine.CacheIndex
     UnityEngine.Caching
     UnityEngine.Camera
@@ -11653,7 +11819,6 @@ Summary:
         set_color(UnityEngine.Color)
         set_matrix(UnityEngine.Matrix4x4)
     UnityEngine.GL
-    UnityEngine.GlobalJavaObjectRef
     UnityEngine.Gradient
         Evaluate(System.Single)
         get_alphaKeys()
@@ -11708,6 +11873,11 @@ Summary:
     UnityEngine.Halo
     UnityEngine.Handheld
     UnityEngine.Hash128
+        .ctor(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+        get_isValid()
+        INTERNAL_CALL_Parse(System.String,UnityEngine.Hash128&)
+        op_Inequality(UnityEngine.Hash128,UnityEngine.Hash128)
+        Parse(System.String)
     UnityEngine.HeaderAttribute
     UnityEngine.HelpURLAttribute
     UnityEngine.HideInInspector
@@ -11764,12 +11934,10 @@ Summary:
         GetButtonUp(System.String)
         GetJoystickNames()
         GetKey(System.String)
-        GetKey(UnityEngine.KeyCode)
         GetKeyDown(System.String)
         GetKeyDown(UnityEngine.KeyCode)
         GetKeyDownInt(System.Int32)
         GetKeyDownString(System.String)
-        GetKeyInt(System.Int32)
         GetKeyString(System.String)
         GetKeyUp(System.String)
         GetKeyUp(UnityEngine.KeyCode)
@@ -11836,7 +12004,6 @@ Summary:
     UnityEngine.IPPtrRemapper
     UnityEngine.ISerializedStateReader
     UnityEngine.ISerializedStateWriter
-    UnityEngine.jvalue
     UnityEngine.Keyframe
         .ctor(System.Single,System.Single)
         .ctor(System.Single,System.Single,System.Single,System.Single)
@@ -12959,8 +13126,6 @@ Summary:
         .ctor()
         ConvertObjects<T>(UnityEngine.Object[])
         FindObjectsOfTypeAll<T>()
-        Load(System.String)
-        Load(System.String,System.Type)
         Load<T>(System.String)
         LoadAll(System.String)
         LoadAll(System.String,System.Type)
@@ -13355,6 +13520,9 @@ Summary:
     UnityEngine.TextAreaAttribute
         .ctor()
     UnityEngine.TextAsset
+        .ctor()
+        get_bytes()
+        Internal_CreateTextAsset(UnityEngine.TextAsset)
     UnityEngine.Texture
         get_anisoLevel()
         get_anisotropicFiltering()
@@ -13435,7 +13603,6 @@ Summary:
     UnityEngine.Texture2D/EXRFlags
     UnityEngine.Texture2DArray
     UnityEngine.Texture3D
-    UnityEngine.ThreadPriority
     UnityEngine.Time
         .ctor()
         get_captureFramerate()
@@ -16123,8 +16290,7 @@ Summary:
     Attributes = 0
   Total Field Removals = 0
   Total Method Removals = 0
-  References Removed = 2
-    UnityEngine.UnityWebRequestWWWModule
+  References Removed = 1
     UnityEngine.WebModule
 ---------------------------------------------------
 ---------------------------------------------------
@@ -16221,7 +16387,7 @@ Summary:
 Assembly: UnityEngine.UnityWebRequestModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 8
+  Total Type Removals = 7
     Nested = 1
     Interfaces = 1
     Abstract Classes = 0
@@ -16229,68 +16395,52 @@ Summary:
     Generic Interfaces = 0
     Generic Abstract Classes = 0
     Attributes = 0
-  Total Field Removals = 12
-  Total Method Removals = 111
+  Total Field Removals = 6
+  Total Method Removals = 100
   References Removed = 0
 ---------------------------------------------------
     UnityEngine.Networking.DownloadHandler
         CompleteContent()
-        get_data()
         get_isDone()
         get_text()
         GetContentType()
-        GetData()
         GetProgress()
         GetText()
         GetTextEncoder()
-        INTERNAL_CALL_InternalCreateAssetBundleCached(UnityEngine.Networking.DownloadHandler,System.String,System.String,UnityEngine.Hash128&,System.UInt32)
-        InternalCreateAssetBundleCached(System.String,System.String,UnityEngine.Hash128,System.UInt32)
-        InternalCreateBuffer()
         InternalCreateScript()
         InternalCreateVFS(System.String)
         ReceiveContentLength(System.Int32)
         ReceiveData(System.Byte[],System.Int32)
     UnityEngine.Networking.DownloadHandlerAssetBundle
-        .ctor(System.String,System.String,UnityEngine.Hash128,System.UInt32)
         .ctor(System.String,System.UInt32,System.UInt32)
         .ctor(System.String,UnityEngine.Hash128,System.UInt32)
-        GetData()
         GetText()
     UnityEngine.Networking.DownloadHandlerBuffer
+        GetContent(UnityEngine.Networking.UnityWebRequest)
     UnityEngine.Networking.DownloadHandlerFile
     UnityEngine.Networking.DownloadHandlerScript
     UnityEngine.Networking.IMultipartFormSection
     UnityEngine.Networking.MultipartFormDataSection
     UnityEngine.Networking.MultipartFormFileSection
     UnityEngine.Networking.UnityWebRequest
-        kHttpVerbCREATE
-        kHttpVerbDELETE
-        kHttpVerbGET
-        kHttpVerbHEAD
-        kHttpVerbPOST
-        kHttpVerbPUT
         .ctor()
         .ctor(System.String)
         .ctor(System.String,System.String)
         Abort()
         Delete(System.String)
         GenerateBoundary()
-        Get(System.String)
         get_chunkedTransfer()
         get_downloadedBytes()
         get_downloadProgress()
         get_isModifiable()
         get_method()
         get_redirectLimit()
-        get_responseCode()
         get_timeout()
         get_uploadedBytes()
         get_uploadHandler()
         get_uploadProgress()
-        get_url()
         get_useHttpContinue()
         GetAssetBundle(System.String,System.UInt32,System.UInt32)
-        GetAssetBundle(System.String,UnityEngine.CachedAssetBundle,System.UInt32)
         GetAssetBundle(System.String,UnityEngine.Hash128,System.UInt32)
         GetAudioClip(System.String,UnityEngine.AudioType)
         GetErrorDescription(UnityEngine.Networking.UnityWebRequest/UnityWebRequestError)
@@ -16305,7 +16455,6 @@ Summary:
         InternalGetError()
         InternalGetMethod()
         InternalGetResponseHeaderKeys()
-        InternalGetUrl()
         InternalSetRequestHeader(System.String,System.String)
         Post(System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>)
         Post(System.String,System.Collections.Generic.List`1<UnityEngine.Networking.IMultipartFormSection>)
@@ -16392,22 +16541,54 @@ Summary:
 Assembly: UnityEngine.UnityWebRequestWWWModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 0
+  Total Type Removals = 2
     Nested = 0
     Interfaces = 0
-    Abstract Classes = 0
+    Abstract Classes = 2
     Generic Types = 0
     Generic Interfaces = 0
     Generic Abstract Classes = 0
     Attributes = 0
   Total Field Removals = 0
-  Total Method Removals = 0
+  Total Method Removals = 29
   References Removed = 1
     UnityEngine.ImageConversionModule
 ---------------------------------------------------
+    UnityEngine.Networking.WebRequestWWW
+    UnityEngine.WWW
+        .ctor(System.String,System.Byte[])
+        .ctor(System.String,System.Byte[],System.Collections.Generic.Dictionary`2<System.String,System.String>)
+        .ctor(System.String,System.Byte[],System.Collections.Hashtable)
+        .ctor(System.String,UnityEngine.WWWForm)
+        CreateTextureFromDownloadedData(System.Boolean)
+        EscapeURL(System.String)
+        EscapeURL(System.String,System.Text.Encoding)
+        FlattenedHeadersFrom(System.Collections.Generic.Dictionary`2<System.String,System.String>)
+        get_audioClip()
+        get_bytesDownloaded()
+        get_data()
+        get_progress()
+        get_responseHeaders()
+        get_size()
+        get_text()
+        get_texture()
+        get_textureNonReadable()
+        get_threadPriority()
+        get_uploadProgress()
+        GetAudioClipInternal(System.Boolean,System.Boolean,System.Boolean,UnityEngine.AudioType)
+        LoadFromCacheOrDownload(System.String,System.Int32)
+        LoadFromCacheOrDownload(System.String,System.Int32,System.UInt32)
+        LoadFromCacheOrDownload(System.String,UnityEngine.CachedAssetBundle,System.UInt32)
+        LoadFromCacheOrDownload(System.String,UnityEngine.Hash128)
+        LoadImageIntoTexture(UnityEngine.Texture2D)
+        ParseHTTPHeaderString(System.String)
+        set_threadPriority(UnityEngine.ThreadPriority)
+        UnEscapeURL(System.String)
+        UnEscapeURL(System.String,System.Text.Encoding)
+    UnityEngine.WWWAudioExtensions
 ---------------------------------------------------
 Mono.Cecil.ExportedType Removals:
-  Total: 1044
+  Total: 1024
 ---------------------------------------------------
 AOT.MonoPInvokeCallbackAttribute
 JetBrains.Annotations.AssertionMethodAttribute
@@ -16441,7 +16622,6 @@ SimpleJson.Reflection.ReflectionUtils/SetDelegate
 SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionary`2
 SimpleJson.Reflection.ReflectionUtils/ThreadSafeDictionaryValueFactory`2
 SimpleJson.SimpleJson
-UnityEngine._AndroidJNIHelper
 UnityEngine.AccelerationEvent
 UnityEngine.Accessibility.VisionUtility
 UnityEngine.AdditionalCanvasShaderChannels
@@ -16475,16 +16655,6 @@ UnityEngine.AI.OffMeshLinkType
 UnityEngine.Analytics.Gender
 UnityEngine.Analytics.PerformanceReporting
 UnityEngine.AnchoredJoint2D
-UnityEngine.AndroidJavaClass
-UnityEngine.AndroidJavaException
-UnityEngine.AndroidJavaObject
-UnityEngine.AndroidJavaProxy
-UnityEngine.AndroidJavaRunnable
-UnityEngine.AndroidJavaRunnableProxy
-UnityEngine.AndroidJNI
-UnityEngine.AndroidJNIHelper
-UnityEngine.AndroidJNISafe
-UnityEngine.AndroidReflection
 UnityEngine.Animation
 UnityEngine.AnimationBlendMode
 UnityEngine.AnimationClipPair
@@ -16515,7 +16685,6 @@ UnityEngine.Assertions.AssertionException
 UnityEngine.Assertions.AssertionMessageUtil
 UnityEngine.Assertions.Comparers.FloatComparer
 UnityEngine.Assertions.Must.MustExtensions
-UnityEngine.AssetBundleManifest
 UnityEngine.AtomicSafetyHandle
 UnityEngine.AtomicSafetyHandleVersionMask
 UnityEngine.Audio.AudioMixer
@@ -16583,7 +16752,6 @@ UnityEngine.BoundsInt/PositionEnumerator
 UnityEngine.BoxCollider2D
 UnityEngine.BuoyancyEffector2D
 UnityEngine.Cache
-UnityEngine.CachedAssetBundle
 UnityEngine.CacheIndex
 UnityEngine.Caching
 UnityEngine.Camera/MonoOrStereoscopicEye
@@ -16865,7 +17033,6 @@ UnityEngine.FullScreenMovieControlMode
 UnityEngine.FullScreenMovieScalingMode
 UnityEngine.GeometryUtility
 UnityEngine.GL
-UnityEngine.GlobalJavaObjectRef
 UnityEngine.GradientAlphaKey
 UnityEngine.GradientColorKey
 UnityEngine.GradientMode
@@ -16897,7 +17064,6 @@ UnityEngine.GUITexture
 UnityEngine.GUIWordWrapSizer
 UnityEngine.Halo
 UnityEngine.Handheld
-UnityEngine.Hash128
 UnityEngine.HeadDoF
 UnityEngine.HeaderAttribute
 UnityEngine.HelpURLAttribute
@@ -16954,7 +17120,6 @@ UnityEngine.JointSpring
 UnityEngine.JointSuspension2D
 UnityEngine.JointTranslationLimits2D
 UnityEngine.JsonUtility
-UnityEngine.jvalue
 UnityEngine.LegDoF
 UnityEngine.LensFlare
 UnityEngine.Light
@@ -17010,7 +17175,6 @@ UnityEngine.Networking.ConnectionConfig
 UnityEngine.Networking.ConnectionConfigInternal
 UnityEngine.Networking.ConnectionSimulatorConfig
 UnityEngine.Networking.DownloadHandlerAudioClip
-UnityEngine.Networking.DownloadHandlerBuffer
 UnityEngine.Networking.DownloadHandlerFile
 UnityEngine.Networking.DownloadHandlerMovieTexture
 UnityEngine.Networking.DownloadHandlerScript
@@ -17334,7 +17498,6 @@ UnityEngine.TerrainExtensions
 UnityEngine.TerrainRenderFlags
 UnityEngine.TexGenMode
 UnityEngine.TextAlignment
-UnityEngine.TextAsset
 UnityEngine.TextClipping
 UnityEngine.TextMesh
 UnityEngine.TextStylePainterParameters
@@ -17342,7 +17505,6 @@ UnityEngine.Texture2D/EXRFlags
 UnityEngine.Texture2DArray
 UnityEngine.Texture3D
 UnityEngine.TextureStylePainterParameters
-UnityEngine.ThreadPriority
 UnityEngine.Tilemaps.ITilemap
 UnityEngine.Tilemaps.TileAnimationData
 UnityEngine.Tilemaps.TileData
@@ -17392,7 +17554,6 @@ UnityEngine.WindZone
 UnityEngine.WindZoneMode
 UnityEngine.WorldParticleCollider
 UnityEngine.WrapMode
-UnityEngine.WWW
 UnityEngine.WWWAudioExtensions
 UnityEngine.XR.ARBackgroundRenderer
 UnityEngine.XR.ARRenderMode

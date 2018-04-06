@@ -34,8 +34,8 @@ extern const uint32_t Tile__ctor_m48930120_MetadataUsageId;
 
 
 
-#ifndef U3CMODULEU3E_T3783534227_H
-#define U3CMODULEU3E_T3783534227_H
+#ifndef U3CMODULEU3E_T3783534228_H
+#define U3CMODULEU3E_T3783534228_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -43,7 +43,7 @@ extern const uint32_t Tile__ctor_m48930120_MetadataUsageId;
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t3783534227 
+struct  U3CModuleU3E_t3783534228 
 {
 public:
 
@@ -53,7 +53,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CMODULEU3E_T3783534227_H
+#endif // U3CMODULEU3E_T3783534228_H
 #ifndef RUNTIMEOBJECT_H
 #define RUNTIMEOBJECT_H
 #ifdef __clang__

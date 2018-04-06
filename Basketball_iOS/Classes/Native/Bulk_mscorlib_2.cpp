@@ -49384,7 +49384,7 @@ extern "C"  ConstructorInfo_t2851816542 * MonoType_GetConstructorImpl_m170321417
 IL_000a:
 	{
 		int32_t L_1 = ___bindingAttr0;
-		ConstructorInfoU5BU5D_t1996683371* L_2 = VirtFuncInvoker1< ConstructorInfoU5BU5D_t1996683371*, int32_t >::Invoke(73 /* System.Reflection.ConstructorInfo[] System.MonoType::GetConstructors(System.Reflection.BindingFlags) */, __this, L_1);
+		ConstructorInfoU5BU5D_t1996683371* L_2 = VirtFuncInvoker1< ConstructorInfoU5BU5D_t1996683371*, int32_t >::Invoke(74 /* System.Reflection.ConstructorInfo[] System.MonoType::GetConstructors(System.Reflection.BindingFlags) */, __this, L_1);
 		V_0 = L_2;
 		V_1 = (ConstructorInfo_t2851816542 *)NULL;
 		V_3 = 0;
@@ -50075,21 +50075,21 @@ extern "C"  bool MonoType_HasElementTypeImpl_m1040892148 (MonoType_t * __this, c
 {
 	int32_t G_B4_0 = 0;
 	{
-		bool L_0 = VirtFuncInvoker0< bool >::Invoke(63 /* System.Boolean System.MonoType::IsArrayImpl() */, __this);
+		bool L_0 = VirtFuncInvoker0< bool >::Invoke(64 /* System.Boolean System.MonoType::IsArrayImpl() */, __this);
 		if (L_0)
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		bool L_1 = VirtFuncInvoker0< bool >::Invoke(64 /* System.Boolean System.MonoType::IsByRefImpl() */, __this);
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(65 /* System.Boolean System.MonoType::IsByRefImpl() */, __this);
 		if (L_1)
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		bool L_2 = VirtFuncInvoker0< bool >::Invoke(65 /* System.Boolean System.MonoType::IsPointerImpl() */, __this);
+		bool L_2 = VirtFuncInvoker0< bool >::Invoke(66 /* System.Boolean System.MonoType::IsPointerImpl() */, __this);
 		G_B4_0 = ((int32_t)(L_2));
 		goto IL_001f;
 	}
@@ -50434,7 +50434,7 @@ IL_013a:
 		int32_t L_30 = ___invokeAttr1;
 		___invokeAttr1 = ((int32_t)((int32_t)L_30|(int32_t)2));
 		int32_t L_31 = ___invokeAttr1;
-		ConstructorInfoU5BU5D_t1996683371* L_32 = VirtFuncInvoker1< ConstructorInfoU5BU5D_t1996683371*, int32_t >::Invoke(73 /* System.Reflection.ConstructorInfo[] System.MonoType::GetConstructors(System.Reflection.BindingFlags) */, __this, L_31);
+		ConstructorInfoU5BU5D_t1996683371* L_32 = VirtFuncInvoker1< ConstructorInfoU5BU5D_t1996683371*, int32_t >::Invoke(74 /* System.Reflection.ConstructorInfo[] System.MonoType::GetConstructors(System.Reflection.BindingFlags) */, __this, L_31);
 		V_1 = L_32;
 		V_2 = NULL;
 		Binder_t3404612058 * L_33 = ___binder2;
@@ -50736,7 +50736,7 @@ IL_0347:
 	{
 		String_t* L_122 = ___name0;
 		int32_t L_123 = ___invokeAttr1;
-		FieldInfo_t * L_124 = VirtFuncInvoker2< FieldInfo_t *, String_t*, int32_t >::Invoke(45 /* System.Reflection.FieldInfo System.MonoType::GetField(System.String,System.Reflection.BindingFlags) */, __this, L_122, L_123);
+		FieldInfo_t * L_124 = VirtFuncInvoker2< FieldInfo_t *, String_t*, int32_t >::Invoke(46 /* System.Reflection.FieldInfo System.MonoType::GetField(System.String,System.Reflection.BindingFlags) */, __this, L_122, L_123);
 		V_16 = L_124;
 		FieldInfo_t * L_125 = V_16;
 		if (!L_125)
@@ -50780,7 +50780,7 @@ IL_0382:
 	{
 		String_t* L_131 = ___name0;
 		int32_t L_132 = ___invokeAttr1;
-		FieldInfo_t * L_133 = VirtFuncInvoker2< FieldInfo_t *, String_t*, int32_t >::Invoke(45 /* System.Reflection.FieldInfo System.MonoType::GetField(System.String,System.Reflection.BindingFlags) */, __this, L_131, L_132);
+		FieldInfo_t * L_133 = VirtFuncInvoker2< FieldInfo_t *, String_t*, int32_t >::Invoke(46 /* System.Reflection.FieldInfo System.MonoType::GetField(System.String,System.Reflection.BindingFlags) */, __this, L_131, L_132);
 		V_17 = L_133;
 		FieldInfo_t * L_134 = V_17;
 		if (!L_134)
@@ -51447,7 +51447,7 @@ extern "C"  int32_t MonoType_get_MemberType_m3619652595 (MonoType_t * __this, co
 		}
 	}
 	{
-		bool L_1 = VirtFuncInvoker0< bool >::Invoke(81 /* System.Boolean System.MonoType::get_IsGenericParameter() */, __this);
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(82 /* System.Boolean System.MonoType::get_IsGenericParameter() */, __this);
 		if (L_1)
 		{
 			goto IL_001c;
@@ -51506,6 +51506,13 @@ extern "C"  RuntimeTypeHandle_t2330101084  MonoType_get_TypeHandle_m3750614457 (
 		return L_0;
 	}
 }
+// System.Int32 System.MonoType::GetArrayRank()
+extern "C"  int32_t MonoType_GetArrayRank_m1550632035 (MonoType_t * __this, const RuntimeMethod* method)
+{
+	typedef int32_t (*MonoType_GetArrayRank_m1550632035_ftn) (MonoType_t *);
+	using namespace il2cpp::icalls;
+	return  ((MonoType_GetArrayRank_m1550632035_ftn)mscorlib::System::MonoType::GetArrayRank) (__this);
+}
 // System.String System.MonoType::ToString()
 extern "C"  String_t* MonoType_ToString_m473949831 (MonoType_t * __this, const RuntimeMethod* method)
 {
@@ -51528,7 +51535,7 @@ extern "C"  bool MonoType_get_ContainsGenericParameters_m3229732653 (MonoType_t 
 	TypeU5BU5D_t1664964607* V_1 = NULL;
 	int32_t V_2 = 0;
 	{
-		bool L_0 = VirtFuncInvoker0< bool >::Invoke(81 /* System.Boolean System.MonoType::get_IsGenericParameter() */, __this);
+		bool L_0 = VirtFuncInvoker0< bool >::Invoke(82 /* System.Boolean System.MonoType::get_IsGenericParameter() */, __this);
 		if (!L_0)
 		{
 			goto IL_000d;
@@ -51540,14 +51547,14 @@ extern "C"  bool MonoType_get_ContainsGenericParameters_m3229732653 (MonoType_t 
 
 IL_000d:
 	{
-		bool L_1 = VirtFuncInvoker0< bool >::Invoke(79 /* System.Boolean System.Type::get_IsGenericType() */, __this);
+		bool L_1 = VirtFuncInvoker0< bool >::Invoke(80 /* System.Boolean System.Type::get_IsGenericType() */, __this);
 		if (!L_1)
 		{
 			goto IL_0044;
 		}
 	}
 	{
-		TypeU5BU5D_t1664964607* L_2 = VirtFuncInvoker0< TypeU5BU5D_t1664964607* >::Invoke(75 /* System.Type[] System.MonoType::GetGenericArguments() */, __this);
+		TypeU5BU5D_t1664964607* L_2 = VirtFuncInvoker0< TypeU5BU5D_t1664964607* >::Invoke(76 /* System.Type[] System.MonoType::GetGenericArguments() */, __this);
 		V_1 = L_2;
 		V_2 = 0;
 		goto IL_003b;
@@ -51563,7 +51570,7 @@ IL_0026:
 		V_0 = L_6;
 		Type_t * L_7 = V_0;
 		NullCheck(L_7);
-		bool L_8 = VirtFuncInvoker0< bool >::Invoke(76 /* System.Boolean System.Type::get_ContainsGenericParameters() */, L_7);
+		bool L_8 = VirtFuncInvoker0< bool >::Invoke(77 /* System.Boolean System.Type::get_ContainsGenericParameters() */, L_7);
 		if (!L_8)
 		{
 			goto IL_0037;
@@ -51599,9 +51606,9 @@ IL_0044:
 		}
 	}
 	{
-		Type_t * L_13 = VirtFuncInvoker0< Type_t * >::Invoke(42 /* System.Type System.MonoType::GetElementType() */, __this);
+		Type_t * L_13 = VirtFuncInvoker0< Type_t * >::Invoke(43 /* System.Type System.MonoType::GetElementType() */, __this);
 		NullCheck(L_13);
-		bool L_14 = VirtFuncInvoker0< bool >::Invoke(76 /* System.Boolean System.Type::get_ContainsGenericParameters() */, L_13);
+		bool L_14 = VirtFuncInvoker0< bool >::Invoke(77 /* System.Boolean System.Type::get_ContainsGenericParameters() */, L_13);
 		return L_14;
 	}
 
@@ -51687,7 +51694,7 @@ extern "C"  void MonoType_ReorderParamArrayArguments_m979187413 (MonoType_t * __
 		NullCheck(L_6);
 		Type_t * L_7 = VirtFuncInvoker0< Type_t * >::Invoke(6 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_6);
 		NullCheck(L_7);
-		Type_t * L_8 = VirtFuncInvoker0< Type_t * >::Invoke(42 /* System.Type System.Type::GetElementType() */, L_7);
+		Type_t * L_8 = VirtFuncInvoker0< Type_t * >::Invoke(43 /* System.Type System.Type::GetElementType() */, L_7);
 		ObjectU5BU5D_t3614634134** L_9 = ___args0;
 		NullCheck((*((ObjectU5BU5D_t3614634134**)L_9)));
 		ParameterInfoU5BU5D_t2275869610* L_10 = V_0;

@@ -30,8 +30,8 @@ struct String_t;
 
 
 
-#ifndef U3CMODULEU3E_T3783534225_H
-#define U3CMODULEU3E_T3783534225_H
+#ifndef U3CMODULEU3E_T3783534226_H
+#define U3CMODULEU3E_T3783534226_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -39,7 +39,7 @@ struct String_t;
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t3783534225 
+struct  U3CModuleU3E_t3783534226 
 {
 public:
 
@@ -49,7 +49,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CMODULEU3E_T3783534225_H
+#endif // U3CMODULEU3E_T3783534226_H
 #ifndef RUNTIMEOBJECT_H
 #define RUNTIMEOBJECT_H
 #ifdef __clang__

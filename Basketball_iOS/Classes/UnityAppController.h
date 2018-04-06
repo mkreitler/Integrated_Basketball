@@ -65,11 +65,6 @@
 
 @end
 
-extern NSObject<UIApplicationDelegate>* UiDelegate;
-NS_INLINE void SetUiDelegate() {
-    UiDelegate = [UIApplication sharedApplication].delegate;
-}
-
 // Put this into mm file with your subclass implementation
 // pass subclass name to define
 
@@ -87,17 +82,24 @@ NS_INLINE void SetUiDelegate() {
 }                                               \
 @end                                            \
 
+// BEGIN CHANGES (KREITLER) //////////////////////////////////////////////////
 //inline UnityAppController*  GetAppController()
 //{
 //    return (UnityAppController*)[UIApplication sharedApplication].delegate;
 //}
 
+extern NSObject<UIApplicationDelegate>* UiDelegate;
+NS_INLINE void SetUiDelegate() {
+    UiDelegate = [UIApplication sharedApplication].delegate;
+}
+
 NS_INLINE UnityAppController* GetAppController()
 {
-//    NSObject<UIApplicationDelegate>* delegate = [UIApplication sharedApplication].delegate;
     UnityAppController* currentUnityController = (UnityAppController *)[UiDelegate valueForKey:@"currentUnityController"];
     return currentUnityController;
 }
+
+// END CHANGES (KREITLER) ////////////////////////////////////////////////////
 
 #define APP_CONTROLLER_RENDER_PLUGIN_METHOD(method)                         \
 do {                                                                        \

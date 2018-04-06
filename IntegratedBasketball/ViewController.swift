@@ -17,6 +17,10 @@ import UIKit
         text.text = "\(value)";
     }
     
+    @objc public func unityDidCompleteSetup() {
+        NSLog(">>> Initialize custom sound system here <<<");
+    }
+    
     @IBAction func startUnity(sender: AnyObject) {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         

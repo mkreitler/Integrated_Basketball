@@ -16214,6 +16214,8 @@ extern "C"  String_t* UInt64_ToString_m446228920 (uint64_t* __this, const Runtim
 extern "C"  int64_t Convert_ToInt64_m954367741 (RuntimeObject * __this /* static, unused */, RuntimeObject * ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.String System.Int64::ToString()
 extern "C"  String_t* Int64_ToString_m689375889 (int64_t* __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.String System.IO.Directory::GetCurrentDirectory()
+extern "C"  String_t* Directory_GetCurrentDirectory_m44486537 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::GetOSVersionString()
 extern "C"  String_t* Environment_GetOSVersionString_m3848984846 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Version System.Version::CreateFromString(System.String)
@@ -17808,7 +17810,7 @@ IL_007a:
 	{
 		Type_t * L_15 = ___elementType0;
 		NullCheck(L_15);
-		bool L_16 = VirtFuncInvoker0< bool >::Invoke(76 /* System.Boolean System.Type::get_ContainsGenericParameters() */, L_15);
+		bool L_16 = VirtFuncInvoker0< bool >::Invoke(77 /* System.Boolean System.Type::get_ContainsGenericParameters() */, L_15);
 		if (!L_16)
 		{
 			goto IL_0090;
@@ -17922,7 +17924,7 @@ IL_0076:
 	{
 		Type_t * L_15 = ___elementType0;
 		NullCheck(L_15);
-		bool L_16 = VirtFuncInvoker0< bool >::Invoke(76 /* System.Boolean System.Type::get_ContainsGenericParameters() */, L_15);
+		bool L_16 = VirtFuncInvoker0< bool >::Invoke(77 /* System.Boolean System.Type::get_ContainsGenericParameters() */, L_15);
 		if (!L_16)
 		{
 			goto IL_008c;
@@ -19202,13 +19204,13 @@ IL_00f8:
 		NullCheck(L_43);
 		Type_t * L_44 = Object_GetType_m191970594(L_43, /*hidden argument*/NULL);
 		NullCheck(L_44);
-		Type_t * L_45 = VirtFuncInvoker0< Type_t * >::Invoke(42 /* System.Type System.Type::GetElementType() */, L_44);
+		Type_t * L_45 = VirtFuncInvoker0< Type_t * >::Invoke(43 /* System.Type System.Type::GetElementType() */, L_44);
 		V_3 = L_45;
 		RuntimeArray * L_46 = ___destinationArray2;
 		NullCheck(L_46);
 		Type_t * L_47 = Object_GetType_m191970594(L_46, /*hidden argument*/NULL);
 		NullCheck(L_47);
-		Type_t * L_48 = VirtFuncInvoker0< Type_t * >::Invoke(42 /* System.Type System.Type::GetElementType() */, L_47);
+		Type_t * L_48 = VirtFuncInvoker0< Type_t * >::Invoke(43 /* System.Type System.Type::GetElementType() */, L_47);
 		V_4 = L_48;
 		RuntimeArray * L_49 = ___sourceArray0;
 		RuntimeArray * L_50 = ___destinationArray2;
@@ -60753,7 +60755,7 @@ IL_00d3:
 	{
 		Type_t * L_35 = V_9;
 		NullCheck(L_35);
-		Type_t * L_36 = VirtFuncInvoker0< Type_t * >::Invoke(42 /* System.Type System.Type::GetElementType() */, L_35);
+		Type_t * L_36 = VirtFuncInvoker0< Type_t * >::Invoke(43 /* System.Type System.Type::GetElementType() */, L_35);
 		V_9 = L_36;
 	}
 
@@ -66796,6 +66798,14 @@ IL_01de:
 	{
 		String_t* L_80 = V_3;
 		return L_80;
+	}
+}
+// System.String System.Environment::get_CurrentDirectory()
+extern "C"  String_t* Environment_get_CurrentDirectory_m2386669816 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = Directory_GetCurrentDirectory_m44486537(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
 	}
 }
 // System.Boolean System.Environment::get_SocketSecurityEnabled()

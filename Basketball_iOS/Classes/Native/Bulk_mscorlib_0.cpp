@@ -59904,7 +59904,7 @@ extern "C"  RuntimeObject * Activator_CreateInstance_m4096900559 (RuntimeObject 
 		Activator_CheckType_m3905078019(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		Type_t * L_1 = ___type0;
 		NullCheck(L_1);
-		bool L_2 = VirtFuncInvoker0< bool >::Invoke(76 /* System.Boolean System.Type::get_ContainsGenericParameters() */, L_1);
+		bool L_2 = VirtFuncInvoker0< bool >::Invoke(77 /* System.Boolean System.Type::get_ContainsGenericParameters() */, L_1);
 		if (!L_2)
 		{
 			goto IL_0027;
@@ -60037,7 +60037,7 @@ IL_008b:
 		Type_t * L_31 = ___type0;
 		int32_t L_32 = ___bindingAttr1;
 		NullCheck(L_31);
-		ConstructorInfoU5BU5D_t1996683371* L_33 = VirtFuncInvoker1< ConstructorInfoU5BU5D_t1996683371*, int32_t >::Invoke(73 /* System.Reflection.ConstructorInfo[] System.Type::GetConstructors(System.Reflection.BindingFlags) */, L_31, L_32);
+		ConstructorInfoU5BU5D_t1996683371* L_33 = VirtFuncInvoker1< ConstructorInfoU5BU5D_t1996683371*, int32_t >::Invoke(74 /* System.Reflection.ConstructorInfo[] System.Type::GetConstructors(System.Reflection.BindingFlags) */, L_31, L_32);
 		TypeU5BU5D_t1664964607* L_34 = V_1;
 		NullCheck(L_29);
 		MethodBase_t904190842 * L_35 = VirtFuncInvoker4< MethodBase_t904190842 *, int32_t, MethodBaseU5BU5D_t2597254495*, TypeU5BU5D_t1664964607*, ParameterModifierU5BU5D_t963192633* >::Invoke(7 /* System.Reflection.MethodBase System.Reflection.Binder::SelectMethod(System.Reflection.BindingFlags,System.Reflection.MethodBase[],System.Type[],System.Reflection.ParameterModifier[]) */, L_29, L_30, (MethodBaseU5BU5D_t2597254495*)(MethodBaseU5BU5D_t2597254495*)L_33, L_34, (ParameterModifierU5BU5D_t963192633*)(ParameterModifierU5BU5D_t963192633*)NULL);
@@ -60264,7 +60264,7 @@ extern "C"  RuntimeObject * Activator_CreateInstance_m4123570586 (RuntimeObject 
 		Activator_CheckType_m3905078019(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		Type_t * L_1 = ___type0;
 		NullCheck(L_1);
-		bool L_2 = VirtFuncInvoker0< bool >::Invoke(76 /* System.Boolean System.Type::get_ContainsGenericParameters() */, L_1);
+		bool L_2 = VirtFuncInvoker0< bool >::Invoke(77 /* System.Boolean System.Type::get_ContainsGenericParameters() */, L_1);
 		if (!L_2)
 		{
 			goto IL_0027;

@@ -140,7 +140,9 @@ extern "C" void UnityRequestQuit()
         exit(0);
 }
 
+// BEGIN CHANGES (KREITLER) /////////////////////////////////////////////////////////
 NSObject<UIApplicationDelegate>* UiDelegate;
+// END CHANGES (KREITLER) ///////////////////////////////////////////////////////////
 
 #if !PLATFORM_TVOS
 - (NSUInteger)application:(UIApplication*)application supportedInterfaceOrientationsForWindow:(UIWindow*)window

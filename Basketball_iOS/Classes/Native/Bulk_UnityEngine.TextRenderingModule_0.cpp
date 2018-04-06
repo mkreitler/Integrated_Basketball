@@ -137,8 +137,8 @@ struct ObjectU5BU5D_t3614634134;
 #pragma clang diagnostic pop
 #endif
 #endif // RUNTIMEOBJECT_H
-#ifndef U3CMODULEU3E_T3783534220_H
-#define U3CMODULEU3E_T3783534220_H
+#ifndef U3CMODULEU3E_T3783534221_H
+#define U3CMODULEU3E_T3783534221_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -146,7 +146,7 @@ struct ObjectU5BU5D_t3614634134;
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t3783534220 
+struct  U3CModuleU3E_t3783534221 
 {
 public:
 
@@ -156,7 +156,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CMODULEU3E_T3783534220_H
+#endif // U3CMODULEU3E_T3783534221_H
 struct Il2CppArrayBounds;
 #ifndef RUNTIMEARRAY_H
 #define RUNTIMEARRAY_H

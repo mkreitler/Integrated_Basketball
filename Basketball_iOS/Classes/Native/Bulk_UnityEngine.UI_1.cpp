@@ -16980,7 +16980,7 @@ extern "C"  void ReflectionMethodsCache__ctor_m1835220 (ReflectionMethodsCache_t
 		TypeU5BU5D_t1664964607* L_3 = L_1;
 		Type_t * L_4 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(RaycastHit_t87180320_0_0_0_var), /*hidden argument*/NULL);
 		NullCheck(L_4);
-		Type_t * L_5 = VirtFuncInvoker0< Type_t * >::Invoke(82 /* System.Type System.Type::MakeByRefType() */, L_4);
+		Type_t * L_5 = VirtFuncInvoker0< Type_t * >::Invoke(83 /* System.Type System.Type::MakeByRefType() */, L_4);
 		NullCheck(L_3);
 		ArrayElementTypeCheck (L_3, L_5);
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (Type_t *)L_5);

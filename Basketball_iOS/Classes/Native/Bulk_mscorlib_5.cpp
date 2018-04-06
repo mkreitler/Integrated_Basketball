@@ -24876,7 +24876,7 @@ IL_0057:
 			V_2 = L_17;
 			Type_t * L_18 = ___type0;
 			NullCheck(L_18);
-			FieldInfoU5BU5D_t125053523* L_19 = VirtFuncInvoker1< FieldInfoU5BU5D_t125053523*, int32_t >::Invoke(46 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_18, ((int32_t)52));
+			FieldInfoU5BU5D_t125053523* L_19 = VirtFuncInvoker1< FieldInfoU5BU5D_t125053523*, int32_t >::Invoke(47 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_18, ((int32_t)52));
 			V_4 = L_19;
 			FieldInfoU5BU5D_t125053523* L_20 = V_4;
 			V_6 = L_20;
@@ -30509,7 +30509,7 @@ IL_01c4:
 		Type_t * L_99 = V_17;
 		String_t* L_100 = V_14;
 		NullCheck(L_99);
-		FieldInfo_t * L_101 = VirtFuncInvoker2< FieldInfo_t *, String_t*, int32_t >::Invoke(45 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_99, L_100, ((int32_t)52));
+		FieldInfo_t * L_101 = VirtFuncInvoker2< FieldInfo_t *, String_t*, int32_t >::Invoke(46 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_99, L_100, ((int32_t)52));
 		V_13 = L_101;
 		goto IL_01f9;
 	}
@@ -30543,7 +30543,7 @@ IL_01fe:
 		Type_t * L_106 = L_105->get_Type_0();
 		String_t* L_107 = V_14;
 		NullCheck(L_106);
-		FieldInfo_t * L_108 = VirtFuncInvoker2< FieldInfo_t *, String_t*, int32_t >::Invoke(45 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_106, L_107, ((int32_t)52));
+		FieldInfo_t * L_108 = VirtFuncInvoker2< FieldInfo_t *, String_t*, int32_t >::Invoke(46 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_106, L_107, ((int32_t)52));
 		V_13 = L_108;
 	}
 
@@ -33857,7 +33857,7 @@ IL_000d:
 		V_2 = 0;
 		Type_t * L_2 = V_1;
 		NullCheck(L_2);
-		MethodInfoU5BU5D_t152480188* L_3 = VirtFuncInvoker1< MethodInfoU5BU5D_t152480188*, int32_t >::Invoke(53 /* System.Reflection.MethodInfo[] System.Type::GetMethods(System.Reflection.BindingFlags) */, L_2, ((int32_t)54));
+		MethodInfoU5BU5D_t152480188* L_3 = VirtFuncInvoker1< MethodInfoU5BU5D_t152480188*, int32_t >::Invoke(54 /* System.Reflection.MethodInfo[] System.Type::GetMethods(System.Reflection.BindingFlags) */, L_2, ((int32_t)54));
 		V_4 = L_3;
 		V_5 = 0;
 		goto IL_0046;

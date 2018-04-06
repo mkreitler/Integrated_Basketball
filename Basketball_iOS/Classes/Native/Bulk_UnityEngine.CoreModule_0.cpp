@@ -18,12 +18,58 @@
 #include "codegen/il2cpp-codegen.h"
 #include "object-internals.h"
 
-// UnityEngine.AddComponentMenu
-struct AddComponentMenu_t1099699699;
+// UnityEngine.AndroidJavaRunnable
+struct AndroidJavaRunnable_t3501776228;
+// UnityEngine.AndroidJavaRunnableProxy
+struct AndroidJavaRunnableProxy_t1710049828;
+// UnityEngine.AndroidJavaProxy
+struct AndroidJavaProxy_t4274989947;
+// UnityEngine.jvalue[]
+struct jvalueU5BU5D_t2851849116;
+// System.Object[]
+struct ObjectU5BU5D_t3614634134;
+// System.Type
+struct Type_t;
 // System.String
 struct String_t;
+// UnityEngine.AndroidJavaObject
+struct AndroidJavaObject_t4251328308;
+// System.Exception
+struct Exception_t1927440687;
+// System.Int32[]
+struct Int32U5BU5D_t3030399641;
+// System.Boolean[]
+struct BooleanU5BU5D_t3568034315;
+// System.Byte[]
+struct ByteU5BU5D_t3397334013;
+// System.Int16[]
+struct Int16U5BU5D_t3104283263;
+// System.Int64[]
+struct Int64U5BU5D_t717125112;
+// System.Single[]
+struct SingleU5BU5D_t577127397;
+// System.Double[]
+struct DoubleU5BU5D_t1889952540;
+// System.Char[]
+struct CharU5BU5D_t1328083999;
+// System.IntPtr[]
+struct IntPtrU5BU5D_t169632028;
+// System.Text.StringBuilder
+struct StringBuilder_t1221177846;
+// UnityEngine.AddComponentMenu
+struct AddComponentMenu_t1099699699;
 // System.Attribute
 struct Attribute_t542643598;
+// UnityEngine.AndroidJavaClass
+struct AndroidJavaClass_t2973420583;
+// UnityEngine.GlobalJavaObjectRef
+struct GlobalJavaObjectRef_t1417862413;
+// UnityEngine.AndroidJavaException
+struct AndroidJavaException_t3997329726;
+// System.IAsyncResult
+struct IAsyncResult_t1999651008;
+// System.AsyncCallback
+struct AsyncCallback_t163412349;
 // UnityEngine.AnimationCurve
 struct AnimationCurve_t3306541151;
 // UnityEngine.Keyframe[]
@@ -34,20 +80,20 @@ struct LowMemoryCallback_t642977590;
 struct LogCallback_t1867914413;
 // UnityEngine.Events.UnityAction
 struct UnityAction_t4025899511;
-// System.IAsyncResult
-struct IAsyncResult_t1999651008;
-// System.AsyncCallback
-struct AsyncCallback_t163412349;
 // UnityEngine.AssetBundle
 struct AssetBundle_t2054978754;
 // UnityEngine.Object
 struct Object_t1021602117;
-// System.Type
-struct Type_t;
 // System.NullReferenceException
 struct NullReferenceException_t3156209119;
 // System.ArgumentException
 struct ArgumentException_t3259014390;
+// UnityEngine.AssetBundleRequest
+struct AssetBundleRequest_t2674559435;
+// UnityEngine.AssetBundleManifest
+struct AssetBundleManifest_t1328741589;
+// System.String[]
+struct StringU5BU5D_t1642385972;
 // UnityEngine.AsyncOperation
 struct AsyncOperation_t3814632279;
 // UnityEngine.YieldInstruction
@@ -66,8 +112,6 @@ struct TypeU5BU5D_t1664964607;
 struct List_1_t672924358;
 // System.Collections.Generic.List`1<System.Object>
 struct List_1_t2058570427;
-// System.Object[]
-struct ObjectU5BU5D_t3614634134;
 // UnityEngine.RequireComponent
 struct RequireComponent_t864575032;
 // UnityEngine.DefaultExecutionOrder
@@ -114,8 +158,6 @@ struct StateChanged_t2480912210;
 struct CustomYieldInstruction_t1786092740;
 // UnityEngine.ILogger
 struct ILogger_t1425954571;
-// System.Exception
-struct Exception_t1927440687;
 // UnityEngine.DebugLogHandler
 struct DebugLogHandler_t865810509;
 // UnityEngine.Logger
@@ -124,8 +166,6 @@ struct Logger_t3328995178;
 struct ILogHandler_t264057413;
 // UnityEngine.Display
 struct Display_t3666191348;
-// System.IntPtr[]
-struct IntPtrU5BU5D_t169632028;
 // UnityEngine.Display/DisplaysUpdatedDelegate
 struct DisplaysUpdatedDelegate_t3423469815;
 // UnityEngine.RectTransform
@@ -208,86 +248,18 @@ struct LocalNotification_t317971878;
 struct RemoteNotification_t2254252895;
 // System.IO.Stream
 struct Stream_t3255436806;
-// System.Byte[]
-struct ByteU5BU5D_t3397334013;
-// UnityEngine.Material
-struct Material_t193706927;
-// UnityEngine.Texture
-struct Texture_t2243626319;
-// System.IndexOutOfRangeException
-struct IndexOutOfRangeException_t3527622107;
-// UnityEngine.Mesh
-struct Mesh_t1356156583;
-// System.Int32[]
-struct Int32U5BU5D_t3030399641;
-// System.Collections.Generic.List`1<System.Int32>
-struct List_1_t1440998580;
-// UnityEngine.Vector3[]
-struct Vector3U5BU5D_t1172311765;
-// UnityEngine.Vector4[]
-struct Vector4U5BU5D_t1658499504;
-// UnityEngine.Vector2[]
-struct Vector2U5BU5D_t686124026;
-// UnityEngine.Color32[]
-struct Color32U5BU5D_t30278651;
-// System.Collections.Generic.List`1<UnityEngine.Vector3>
-struct List_1_t1612828712;
-// System.Collections.Generic.List`1<UnityEngine.Vector4>
-struct List_1_t1612828713;
-// System.Collections.Generic.List`1<UnityEngine.Color32>
-struct List_1_t243638650;
-// System.Collections.Generic.List`1<UnityEngine.Vector2>
-struct List_1_t1612828711;
-// UnityEngine.MonoBehaviour
-struct MonoBehaviour_t1158329972;
-// System.Collections.IEnumerator
-struct IEnumerator_t1466026749;
-// UnityEngine.NativeClassAttribute
-struct NativeClassAttribute_t1576243993;
-// UnityEngine.Networking.PlayerConnection.MessageEventArgs
-struct MessageEventArgs_t301283622;
-// UnityEngine.Networking.PlayerConnection.PlayerConnection
-struct PlayerConnection_t3517219175;
-// UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents
-struct PlayerEditorConnectionEvents_t2252784345;
-// UnityEngine.ScriptableObject
-struct ScriptableObject_t1975622470;
-// UnityEngine.Events.UnityEvent`1<System.Int32>
-struct UnityEvent_1_t2110227463;
-// System.Collections.Generic.List`1<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers>
-struct List_1_t1660627182;
-// UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/ConnectionChangeEvent
-struct ConnectionChangeEvent_t536719976;
-// UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/<InvokeMessageIdSubscribers>c__AnonStorey0
-struct U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t1899782350;
-// System.Func`2<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers,System.Boolean>
-struct Func_2_t2919696197;
-// System.Func`2<System.Object,System.Boolean>
-struct Func_2_t3961629604;
-// System.Collections.Generic.IEnumerable`1<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers>
-struct IEnumerable_1_t2583633095;
-// UnityEngine.Events.UnityEvent`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs>
-struct UnityEvent_1_t339633637;
-// UnityEngine.Events.UnityEvent`1<System.Object>
-struct UnityEvent_1_t2727799310;
-// UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers
-struct MessageTypeSubscribers_t2291506050;
-// UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageEvent
-struct MessageEvent_t2167079021;
 // UnityEngine.Events.BaseInvokableCall[]
 struct BaseInvokableCallU5BU5D_t2280978105;
+// UnityEngine.Events.PersistentCall[]
+struct PersistentCallU5BU5D_t823172184;
+// UnityEngine.Component[]
+struct ComponentU5BU5D_t4136971630;
 // UnityEngine.DisallowMultipleComponent[]
 struct DisallowMultipleComponentU5BU5D_t674354611;
 // UnityEngine.ExecuteInEditMode[]
 struct ExecuteInEditModeU5BU5D_t1783660110;
 // UnityEngine.RequireComponent[]
 struct RequireComponentU5BU5D_t2214070761;
-// UnityEngine.Gyroscope
-struct Gyroscope_t1705362817;
-// UnityEngine.Events.PersistentCall[]
-struct PersistentCallU5BU5D_t823172184;
-// System.Collections.IDictionary
-struct IDictionary_t596158605;
 // System.Collections.Generic.Link[]
 struct LinkU5BU5D_t62501539;
 // System.WeakReference[]
@@ -298,32 +270,30 @@ struct IEqualityComparer_1_t1716693387;
 struct SerializationInfo_t228987430;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.IntPtr,System.WeakReference,System.Collections.DictionaryEntry>
 struct Transform_1_t279204538;
-// System.Char[]
-struct CharU5BU5D_t1328083999;
-// UnityEngine.Component[]
-struct ComponentU5BU5D_t4136971630;
-// UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers[]
-struct MessageTypeSubscribersU5BU5D_t2572700727;
-// System.Boolean[]
-struct BooleanU5BU5D_t3568034315;
-// System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t2510243513;
-// UnityEngine.Events.UnityAction`1<System.Single>
-struct UnityAction_1_t3443095683;
-// UnityEngine.Events.UnityAction`1<System.Int32>
-struct UnityAction_1_t3438463199;
-// UnityEngine.Events.UnityAction`1<System.String>
-struct UnityAction_1_t3395805984;
+// UnityEngine.Gyroscope
+struct Gyroscope_t1705362817;
+// System.Collections.IDictionary
+struct IDictionary_t596158605;
 // UnityEngine.Events.UnityAction`1<System.Boolean>
 struct UnityAction_1_t897193173;
+// UnityEngine.Events.UnityAction`1<System.String>
+struct UnityAction_1_t3395805984;
+// UnityEngine.Events.UnityAction`1<System.Int32>
+struct UnityAction_1_t3438463199;
+// UnityEngine.Events.UnityAction`1<System.Single>
+struct UnityAction_1_t3443095683;
+// System.Byte
+struct Byte_t3683104436;
+// System.Double
+struct Double_t4078015681;
+// System.UInt16
+struct UInt16_t986882611;
 // System.Void
 struct Void_t1841601450;
-// System.DelegateData
-struct DelegateData_t1572802995;
 // UnityEngine.Display[]
 struct DisplayU5BU5D_t1314630077;
-// System.String[]
-struct StringU5BU5D_t1642385972;
+// System.DelegateData
+struct DelegateData_t1572802995;
 // System.Reflection.MemberFilter
 struct MemberFilter_t3405857066;
 // System.Reflection.MemberInfo
@@ -333,6 +303,140 @@ struct UnmanagedMarshal_t4270021860;
 // UnityEngine.RectTransform/ReapplyDrivenProperties
 struct ReapplyDrivenProperties_t2020713228;
 
+extern RuntimeClass* AndroidJavaRunnableProxy_t1710049828_il2cpp_TypeInfo_var;
+extern const uint32_t _AndroidJNIHelper_CreateJavaRunnable_m1167962646_MetadataUsageId;
+extern RuntimeClass* jvalueU5BU5D_t2851849116_il2cpp_TypeInfo_var;
+extern RuntimeClass* IntPtr_t_il2cpp_TypeInfo_var;
+extern RuntimeClass* AndroidReflection_t3899972422_il2cpp_TypeInfo_var;
+extern RuntimeClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern RuntimeClass* Boolean_t3825574718_il2cpp_TypeInfo_var;
+extern RuntimeClass* Byte_t3683104436_il2cpp_TypeInfo_var;
+extern RuntimeClass* Int16_t4041245914_il2cpp_TypeInfo_var;
+extern RuntimeClass* Int64_t909078037_il2cpp_TypeInfo_var;
+extern RuntimeClass* Single_t2076509932_il2cpp_TypeInfo_var;
+extern RuntimeClass* Double_t4078015681_il2cpp_TypeInfo_var;
+extern RuntimeClass* Char_t3454481338_il2cpp_TypeInfo_var;
+extern RuntimeClass* String_t_il2cpp_TypeInfo_var;
+extern RuntimeClass* AndroidJavaClass_t2973420583_il2cpp_TypeInfo_var;
+extern RuntimeClass* AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var;
+extern RuntimeClass* RuntimeArray_il2cpp_TypeInfo_var;
+extern RuntimeClass* AndroidJavaProxy_t4274989947_il2cpp_TypeInfo_var;
+extern RuntimeClass* AndroidJavaRunnable_t3501776228_il2cpp_TypeInfo_var;
+extern RuntimeClass* Exception_t1927440687_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3188120568;
+extern Il2CppCodeGenString* _stringLiteral372029307;
+extern const uint32_t _AndroidJNIHelper_CreateJNIArgArray_m755788980_MetadataUsageId;
+extern const uint32_t _AndroidJNIHelper_DeleteJNIArgArray_m338095364_MetadataUsageId;
+extern const RuntimeType* Int32_t2071877448_0_0_0_var;
+extern const RuntimeType* Boolean_t3825574718_0_0_0_var;
+extern const RuntimeType* Byte_t3683104436_0_0_0_var;
+extern const RuntimeType* Int16_t4041245914_0_0_0_var;
+extern const RuntimeType* Int64_t909078037_0_0_0_var;
+extern const RuntimeType* Single_t2076509932_0_0_0_var;
+extern const RuntimeType* Double_t4078015681_0_0_0_var;
+extern const RuntimeType* Char_t3454481338_0_0_0_var;
+extern const RuntimeType* String_t_0_0_0_var;
+extern const RuntimeType* AndroidJavaObject_t4251328308_0_0_0_var;
+extern RuntimeClass* Type_t_il2cpp_TypeInfo_var;
+extern RuntimeClass* Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var;
+extern RuntimeClass* BooleanU5BU5D_t3568034315_il2cpp_TypeInfo_var;
+extern RuntimeClass* ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var;
+extern RuntimeClass* Int16U5BU5D_t3104283263_il2cpp_TypeInfo_var;
+extern RuntimeClass* Int64U5BU5D_t717125112_il2cpp_TypeInfo_var;
+extern RuntimeClass* SingleU5BU5D_t577127397_il2cpp_TypeInfo_var;
+extern RuntimeClass* DoubleU5BU5D_t1889952540_il2cpp_TypeInfo_var;
+extern RuntimeClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern RuntimeClass* StringU5BU5D_t1642385972_il2cpp_TypeInfo_var;
+extern RuntimeClass* AndroidJavaObjectU5BU5D_t2397280637_il2cpp_TypeInfo_var;
+extern RuntimeClass* IntPtrU5BU5D_t169632028_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral697247865;
+extern Il2CppCodeGenString* _stringLiteral3050434173;
+extern Il2CppCodeGenString* _stringLiteral313001694;
+extern const uint32_t _AndroidJNIHelper_ConvertToJNIArray_m1248156804_MetadataUsageId;
+extern const uint32_t _AndroidJNIHelper_GetMethodID_m48644625_MetadataUsageId;
+extern const uint32_t _AndroidJNIHelper_GetMethodIDFallback_m3201232261_MetadataUsageId;
+extern const uint32_t _AndroidJNIHelper_GetFieldID_m87082942_MetadataUsageId;
+extern const RuntimeType* AndroidJavaRunnable_t3501776228_0_0_0_var;
+extern const RuntimeType* AndroidJavaClass_t2973420583_0_0_0_var;
+extern const RuntimeType* RuntimeArray_0_0_0_var;
+extern RuntimeClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern RuntimeClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern RuntimeClass* StringBuilder_t1221177846_il2cpp_TypeInfo_var;
+extern const RuntimeMethod* AndroidJavaObject_Call_TisString_t_m687792193_RuntimeMethod_var;
+extern const RuntimeMethod* AndroidJavaObject_Call_TisAndroidJavaObject_t4251328308_m1172289152_RuntimeMethod_var;
+extern Il2CppCodeGenString* _stringLiteral4155636344;
+extern Il2CppCodeGenString* _stringLiteral372029413;
+extern Il2CppCodeGenString* _stringLiteral372029432;
+extern Il2CppCodeGenString* _stringLiteral372029408;
+extern Il2CppCodeGenString* _stringLiteral372029423;
+extern Il2CppCodeGenString* _stringLiteral372029416;
+extern Il2CppCodeGenString* _stringLiteral372029404;
+extern Il2CppCodeGenString* _stringLiteral372029402;
+extern Il2CppCodeGenString* _stringLiteral372029407;
+extern Il2CppCodeGenString* _stringLiteral83015506;
+extern Il2CppCodeGenString* _stringLiteral372029410;
+extern Il2CppCodeGenString* _stringLiteral3517854241;
+extern Il2CppCodeGenString* _stringLiteral372029335;
+extern Il2CppCodeGenString* _stringLiteral423403930;
+extern Il2CppCodeGenString* _stringLiteral3472247269;
+extern Il2CppCodeGenString* _stringLiteral2451122878;
+extern Il2CppCodeGenString* _stringLiteral2859143932;
+extern Il2CppCodeGenString* _stringLiteral1451997003;
+extern Il2CppCodeGenString* _stringLiteral3362940537;
+extern Il2CppCodeGenString* _stringLiteral811305477;
+extern Il2CppCodeGenString* _stringLiteral2448764962;
+extern Il2CppCodeGenString* _stringLiteral3919307841;
+extern Il2CppCodeGenString* _stringLiteral371857150;
+extern const uint32_t _AndroidJNIHelper_GetSignature_m1300573492_MetadataUsageId;
+extern const uint32_t AndroidJavaClass__ctor_m2710308341_MetadataUsageId;
+extern RuntimeClass* GlobalJavaObjectRef_t1417862413_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3123643853;
+extern const uint32_t AndroidJavaClass__ctor_m3415353177_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1637690166;
+extern const uint32_t AndroidJavaClass__AndroidJavaClass_m1876440275_MetadataUsageId;
+extern const uint32_t AndroidJavaException_get_StackTrace_m61148349_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1365040840;
+extern const uint32_t AndroidJavaObject__ctor_m3845826090_MetadataUsageId;
+extern RuntimeClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidJavaObject_DebugPrint_m653935302_MetadataUsageId;
+extern const uint32_t AndroidJavaObject_AndroidJavaObjectDeleteLocalRef_m2273457111_MetadataUsageId;
+extern const uint32_t AndroidJavaObject_AndroidJavaClassDeleteLocalRef_m215438755_MetadataUsageId;
+extern const RuntimeMethod* AndroidJavaObject_CallStatic_TisAndroidJavaObject_t4251328308_m4289559914_RuntimeMethod_var;
+extern Il2CppCodeGenString* _stringLiteral210015010;
+extern const uint32_t AndroidJavaObject_FindClass_m2078911127_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1735508916;
+extern const uint32_t AndroidJavaObject_get_JavaLangClass_m440136198_MetadataUsageId;
+extern const uint32_t AndroidJavaObject__cctor_m152654799_MetadataUsageId;
+extern const uint32_t AndroidJavaProxy__ctor_m732977339_MetadataUsageId;
+extern const uint32_t AndroidJavaProxy_GetProxy_m1162291285_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2096283069;
+extern Il2CppCodeGenString* _stringLiteral1384104961;
+extern Il2CppCodeGenString* _stringLiteral188056770;
+extern const uint32_t AndroidJavaProxy__cctor_m1448107316_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral738895941;
+extern const uint32_t AndroidJavaRunnableProxy__ctor_m2912946493_MetadataUsageId;
+extern RuntimeClass* AndroidJavaException_t3997329726_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4064556528;
+extern Il2CppCodeGenString* _stringLiteral3319546259;
+extern Il2CppCodeGenString* _stringLiteral3402209166;
+extern Il2CppCodeGenString* _stringLiteral1065346679;
+extern Il2CppCodeGenString* _stringLiteral3750514094;
+extern Il2CppCodeGenString* _stringLiteral2125248748;
+extern const uint32_t AndroidJNISafe_CheckException_m82304878_MetadataUsageId;
+extern const uint32_t AndroidJNISafe_DeleteGlobalRef_m861434196_MetadataUsageId;
+extern const uint32_t AndroidJNISafe_DeleteLocalRef_m1703488126_MetadataUsageId;
+extern const uint32_t AndroidReflection_GetMethodMember_m584776875_MetadataUsageId;
+extern const uint32_t AndroidReflection_GetFieldMember_m1382154548_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1073703398;
+extern Il2CppCodeGenString* _stringLiteral2150039331;
+extern Il2CppCodeGenString* _stringLiteral865576237;
+extern Il2CppCodeGenString* _stringLiteral950329142;
+extern Il2CppCodeGenString* _stringLiteral1596434274;
+extern Il2CppCodeGenString* _stringLiteral2171356073;
+extern Il2CppCodeGenString* _stringLiteral2904017055;
+extern Il2CppCodeGenString* _stringLiteral1931925793;
+extern Il2CppCodeGenString* _stringLiteral3618350663;
+extern const uint32_t AndroidReflection__cctor_m2197364317_MetadataUsageId;
 extern RuntimeClass* Application_t354826772_il2cpp_TypeInfo_var;
 extern const uint32_t Application_CallLowMemory_m2557176131_MetadataUsageId;
 extern const uint32_t Application_CallLogCallback_m1825082967_MetadataUsageId;
@@ -347,6 +451,7 @@ extern Il2CppCodeGenString* _stringLiteral3083777703;
 extern Il2CppCodeGenString* _stringLiteral2320403325;
 extern Il2CppCodeGenString* _stringLiteral2137438594;
 extern const uint32_t AssetBundle_LoadAsset_m3884165516_MetadataUsageId;
+extern const uint32_t AssetBundle_LoadAssetAsync_m1991419858_MetadataUsageId;
 extern RuntimeClass* Action_1_t3616431661_il2cpp_TypeInfo_var;
 extern const uint32_t AssetBundleCreateRequest_t1038783543_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
 extern const uint32_t AssetBundleCreateRequest_t1038783543_com_FromNativeMethodDefinition_MetadataUsageId;
@@ -359,7 +464,6 @@ extern const uint32_t AsyncOperation_InvokeCompletionEvent_m504098009_MetadataUs
 extern const RuntimeType* MonoBehaviour_t1158329972_0_0_0_var;
 extern const RuntimeType* DisallowMultipleComponent_t2656950_0_0_0_var;
 extern RuntimeClass* Stack_1_t2391531380_il2cpp_TypeInfo_var;
-extern RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 extern const RuntimeMethod* Stack_1__ctor_m2661711100_RuntimeMethod_var;
 extern const RuntimeMethod* Stack_1_Push_m1012508887_RuntimeMethod_var;
 extern const RuntimeMethod* Stack_1_Pop_m2241161733_RuntimeMethod_var;
@@ -392,14 +496,12 @@ extern const uint32_t Bounds_get_max_m1939845278_MetadataUsageId;
 extern const uint32_t Bounds_op_Equality_m2917278711_MetadataUsageId;
 extern const uint32_t Bounds_SetMinMax_m2094075031_MetadataUsageId;
 extern const uint32_t Bounds_Encapsulate_m17114941_MetadataUsageId;
-extern RuntimeClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral3664271751;
 extern const uint32_t Bounds_ToString_m3830023780_MetadataUsageId;
 extern RuntimeClass* Camera_t189460977_il2cpp_TypeInfo_var;
 extern const uint32_t Camera_FireOnPreCull_m1070065869_MetadataUsageId;
 extern const uint32_t Camera_FireOnPreRender_m2411211957_MetadataUsageId;
 extern const uint32_t Camera_FireOnPostRender_m3288890036_MetadataUsageId;
-extern RuntimeClass* Single_t2076509932_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2715435867;
 extern const uint32_t Color_ToString_m55788918_MetadataUsageId;
 extern RuntimeClass* Color_t2020392075_il2cpp_TypeInfo_var;
@@ -409,11 +511,9 @@ extern const uint32_t Color_op_Equality_m1474109343_MetadataUsageId;
 extern RuntimeClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
 extern const uint32_t Color_Lerp_m527444458_MetadataUsageId;
 extern const uint32_t Color32_op_Implicit_m2663324895_MetadataUsageId;
-extern RuntimeClass* Byte_t3683104436_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral1199940147;
 extern const uint32_t Color32_ToString_m685380321_MetadataUsageId;
 extern const uint32_t Component__ctor_m3748106581_MetadataUsageId;
-extern RuntimeClass* IntPtr_t_il2cpp_TypeInfo_var;
 extern RuntimeClass* CSSMeasureMode_t2118763144_il2cpp_TypeInfo_var;
 extern const uint32_t CSSMeasureFunc_BeginInvoke_m4183811749_MetadataUsageId;
 extern RuntimeClass* Native_t2308112383_il2cpp_TypeInfo_var;
@@ -431,7 +531,6 @@ extern const uint32_t CullingGroup_Finalize_m3389005173_MetadataUsageId;
 extern RuntimeClass* CullingGroupEvent_t1057617917_il2cpp_TypeInfo_var;
 extern const uint32_t CullingGroup_SendEvents_m386073533_MetadataUsageId;
 extern const uint32_t StateChanged_BeginInvoke_m3311323480_MetadataUsageId;
-extern RuntimeClass* Debug_t1368543263_il2cpp_TypeInfo_var;
 extern const uint32_t Debug_get_unityLogger_m56165040_MetadataUsageId;
 extern const uint32_t Debug_DrawLine_m3978205617_MetadataUsageId;
 extern const uint32_t Debug_DrawRay_m999504727_MetadataUsageId;
@@ -450,7 +549,6 @@ extern const uint32_t Debug_LogWarningFormat_m4061414226_MetadataUsageId;
 extern RuntimeClass* DebugLogHandler_t865810509_il2cpp_TypeInfo_var;
 extern RuntimeClass* Logger_t3328995178_il2cpp_TypeInfo_var;
 extern const uint32_t Debug__cctor_m3853587068_MetadataUsageId;
-extern RuntimeClass* String_t_il2cpp_TypeInfo_var;
 extern const uint32_t DebugLogHandler_LogFormat_m2866699703_MetadataUsageId;
 extern RuntimeClass* Display_t3666191348_il2cpp_TypeInfo_var;
 extern const uint32_t Display_get_renderingWidth_m2865834591_MetadataUsageId;
@@ -530,10 +628,6 @@ extern RuntimeClass* InvokableCallList_t2295673753_il2cpp_TypeInfo_var;
 extern RuntimeClass* PersistentCallGroup_t339478082_il2cpp_TypeInfo_var;
 extern const uint32_t UnityEventBase__ctor_m4270147197_MetadataUsageId;
 extern const uint32_t UnityEventBase_FindMethod_m2780816114_MetadataUsageId;
-extern const RuntimeType* Single_t2076509932_0_0_0_var;
-extern const RuntimeType* Int32_t2071877448_0_0_0_var;
-extern const RuntimeType* Boolean_t3825574718_0_0_0_var;
-extern const RuntimeType* String_t_0_0_0_var;
 extern const uint32_t UnityEventBase_FindMethod_m3314394402_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral372029310;
 extern const uint32_t UnityEventBase_ToString_m2323130098_MetadataUsageId;
@@ -550,7 +644,12 @@ extern const uint32_t RenderPipelineManager_PrepareRenderPipeline_m3085400388_Me
 extern const uint32_t GameObject__ctor_m4283735819_MetadataUsageId;
 extern const uint32_t GameObject__ctor_m1685997461_MetadataUsageId;
 extern const uint32_t GameObject__ctor_m3412194074_MetadataUsageId;
+extern const uint32_t GlobalJavaObjectRef__ctor_m3082986627_MetadataUsageId;
+extern const uint32_t GlobalJavaObjectRef_Dispose_m2828645294_MetadataUsageId;
+extern RuntimeClass* Hash128_t2836532937_il2cpp_TypeInfo_var;
+extern const uint32_t Hash128_Equals_m2089078800_MetadataUsageId;
 extern RuntimeClass* Input_t1785128008_il2cpp_TypeInfo_var;
+extern const uint32_t Input_GetKey_m4207472870_MetadataUsageId;
 extern const uint32_t Input_get_mousePosition_m2069200279_MetadataUsageId;
 extern const uint32_t Input_get_mouseScrollDelta_m3621133506_MetadataUsageId;
 extern RuntimeClass* TouchU5BU5D_t3887265178_il2cpp_TypeInfo_var;
@@ -580,140 +679,31 @@ extern Il2CppCodeGenString* _stringLiteral1994281847;
 extern const uint32_t ManagedStreamHelpers_ManagedStreamRead_m1014494291_MetadataUsageId;
 extern const uint32_t ManagedStreamHelpers_ManagedStreamSeek_m4230262206_MetadataUsageId;
 extern const uint32_t ManagedStreamHelpers_ManagedStreamLength_m4203593950_MetadataUsageId;
-extern const uint32_t Material__ctor_m1291394641_MetadataUsageId;
-extern Il2CppCodeGenString* _stringLiteral4026354833;
-extern const uint32_t Material_get_mainTexture_m4282415667_MetadataUsageId;
-extern const uint32_t Mathf_Lerp_m1928161522_MetadataUsageId;
-extern const uint32_t Mathf_Approximately_m1944881077_MetadataUsageId;
-extern const uint32_t Mathf_SmoothDamp_m2610192176_MetadataUsageId;
-extern const uint32_t Mathf_Repeat_m3635142317_MetadataUsageId;
-extern const uint32_t Mathf_InverseLerp_m1237768400_MetadataUsageId;
-extern RuntimeClass* MathfInternal_t715669973_il2cpp_TypeInfo_var;
-extern const uint32_t Mathf__cctor_m2286160987_MetadataUsageId;
-extern RuntimeClass* Matrix4x4_t2933234003_il2cpp_TypeInfo_var;
-extern const uint32_t Matrix4x4_Equals_m1140366474_MetadataUsageId;
-extern RuntimeClass* IndexOutOfRangeException_t3527622107_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral409850212;
-extern const uint32_t Matrix4x4_GetColumn_m83396621_MetadataUsageId;
-extern const uint32_t Matrix4x4_get_identity_m3692071845_MetadataUsageId;
-extern Il2CppCodeGenString* _stringLiteral3991437666;
-extern const uint32_t Matrix4x4_ToString_m3886768326_MetadataUsageId;
-extern const uint32_t Matrix4x4__cctor_m574424660_MetadataUsageId;
-extern const uint32_t Mesh__ctor_m3368629769_MetadataUsageId;
-extern const RuntimeMethod* Mesh_SafeLength_TisInt32_t2071877448_m3760170319_RuntimeMethod_var;
-extern const uint32_t Mesh_SetTriangles_m1551606807_MetadataUsageId;
-extern Il2CppCodeGenString* _stringLiteral1489833396;
-extern Il2CppCodeGenString* _stringLiteral1296238845;
-extern const uint32_t Mesh_GetUVChannel_m1061782287_MetadataUsageId;
-extern Il2CppCodeGenString* _stringLiteral1066778515;
-extern Il2CppCodeGenString* _stringLiteral3637194755;
-extern const uint32_t Mesh_DefaultDimensionForChannel_m52538896_MetadataUsageId;
-extern const RuntimeMethod* Mesh_GetAllocArrayFromChannel_TisVector3_t2243707580_m3989967866_RuntimeMethod_var;
-extern const uint32_t Mesh_get_vertices_m2446703813_MetadataUsageId;
-extern const uint32_t Mesh_get_normals_m3761590924_MetadataUsageId;
-extern const RuntimeMethod* Mesh_GetAllocArrayFromChannel_TisVector4_t2243707581_m1048536121_RuntimeMethod_var;
-extern const uint32_t Mesh_get_tangents_m3387209903_MetadataUsageId;
-extern const RuntimeMethod* Mesh_GetAllocArrayFromChannel_TisVector2_t2243707579_m2289935163_RuntimeMethod_var;
-extern const uint32_t Mesh_get_uv_m1990385212_MetadataUsageId;
-extern const uint32_t Mesh_get_uv2_m4280405372_MetadataUsageId;
-extern const uint32_t Mesh_get_uv3_m1531319041_MetadataUsageId;
-extern const uint32_t Mesh_get_uv4_m3998080370_MetadataUsageId;
-extern const RuntimeMethod* Mesh_GetAllocArrayFromChannel_TisColor32_t874517518_m859642474_RuntimeMethod_var;
-extern const uint32_t Mesh_get_colors32_m1054093013_MetadataUsageId;
-extern const RuntimeMethod* Mesh_SetListForChannel_TisVector3_t2243707580_m2854368686_RuntimeMethod_var;
-extern const uint32_t Mesh_SetVertices_m3776079865_MetadataUsageId;
-extern const uint32_t Mesh_SetNormals_m2780518036_MetadataUsageId;
-extern const RuntimeMethod* Mesh_SetListForChannel_TisVector4_t2243707581_m1760927057_RuntimeMethod_var;
-extern const uint32_t Mesh_SetTangents_m70330319_MetadataUsageId;
-extern const RuntimeMethod* Mesh_SetListForChannel_TisColor32_t874517518_m4104974134_RuntimeMethod_var;
-extern const uint32_t Mesh_SetColors_m327545090_MetadataUsageId;
-extern const RuntimeMethod* Mesh_SetUvsImpl_TisVector2_t2243707579_m2513165067_RuntimeMethod_var;
-extern const uint32_t Mesh_SetUVs_m3637760384_MetadataUsageId;
-extern Il2CppCodeGenString* _stringLiteral3228299468;
-extern const uint32_t Mesh_PrintErrorCantAccessIndices_m2990602703_MetadataUsageId;
-extern Il2CppCodeGenString* _stringLiteral367448426;
-extern Il2CppCodeGenString* _stringLiteral2604276013;
-extern Il2CppCodeGenString* _stringLiteral2818177275;
-extern const uint32_t Mesh_CheckCanAccessSubmesh_m764012688_MetadataUsageId;
-extern RuntimeClass* Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var;
-extern const uint32_t Mesh_GetIndices_m197815493_MetadataUsageId;
-extern Il2CppCodeGenString* _stringLiteral4011728403;
-extern const uint32_t Mesh_RecalculateBounds_m3920784131_MetadataUsageId;
-extern RuntimeClass* PlayerEditorConnectionEvents_t2252784345_il2cpp_TypeInfo_var;
-extern RuntimeClass* List_1_t1440998580_il2cpp_TypeInfo_var;
-extern const RuntimeMethod* List_1__ctor_m1063228628_RuntimeMethod_var;
-extern const uint32_t PlayerConnection__ctor_m3742469850_MetadataUsageId;
-extern RuntimeClass* PlayerConnection_t3517219175_il2cpp_TypeInfo_var;
-extern const uint32_t PlayerConnection_get_instance_m1722843600_MetadataUsageId;
-extern const RuntimeMethod* ScriptableObject_CreateInstance_TisPlayerConnection_t3517219175_m3058273855_RuntimeMethod_var;
-extern const uint32_t PlayerConnection_CreateInstance_m2419948763_MetadataUsageId;
-extern RuntimeClass* ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var;
-extern RuntimeClass* Marshal_t785896760_il2cpp_TypeInfo_var;
-extern const uint32_t PlayerConnection_MessageCallbackInternal_m2033215037_MetadataUsageId;
-extern const RuntimeMethod* List_1_Add_m2241268440_RuntimeMethod_var;
-extern const RuntimeMethod* UnityEvent_1_Invoke_m646962604_RuntimeMethod_var;
-extern const uint32_t PlayerConnection_ConnectedCallbackInternal_m286884446_MetadataUsageId;
-extern const uint32_t PlayerConnection_DisconnectedCallback_m3537829397_MetadataUsageId;
-extern RuntimeClass* List_1_t1660627182_il2cpp_TypeInfo_var;
-extern RuntimeClass* ConnectionChangeEvent_t536719976_il2cpp_TypeInfo_var;
-extern const RuntimeMethod* List_1__ctor_m702728033_RuntimeMethod_var;
-extern const uint32_t PlayerEditorConnectionEvents__ctor_m2141000590_MetadataUsageId;
-extern RuntimeClass* U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t1899782350_il2cpp_TypeInfo_var;
-extern RuntimeClass* Func_2_t2919696197_il2cpp_TypeInfo_var;
-extern RuntimeClass* Guid_t_il2cpp_TypeInfo_var;
-extern RuntimeClass* MessageEventArgs_t301283622_il2cpp_TypeInfo_var;
-extern RuntimeClass* IEnumerable_1_t2583633095_il2cpp_TypeInfo_var;
-extern RuntimeClass* IEnumerator_1_t4061997173_il2cpp_TypeInfo_var;
-extern RuntimeClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
-extern RuntimeClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
-extern const RuntimeMethod* U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_U3CU3Em__0_m1127278790_RuntimeMethod_var;
-extern const RuntimeMethod* Func_2__ctor_m3896822881_RuntimeMethod_var;
-extern const RuntimeMethod* Enumerable_Where_TisMessageTypeSubscribers_t2291506050_m419319254_RuntimeMethod_var;
-extern const RuntimeMethod* Enumerable_Any_TisMessageTypeSubscribers_t2291506050_m3786800125_RuntimeMethod_var;
-extern const RuntimeMethod* UnityEvent_1_Invoke_m3499419435_RuntimeMethod_var;
-extern Il2CppCodeGenString* _stringLiteral1281569593;
-extern const uint32_t PlayerEditorConnectionEvents_InvokeMessageIdSubscribers_m795891627_MetadataUsageId;
-extern const uint32_t U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_U3CU3Em__0_m1127278790_MetadataUsageId;
-extern const RuntimeMethod* UnityEvent_1__ctor_m333010934_RuntimeMethod_var;
-extern const uint32_t ConnectionChangeEvent__ctor_m894860065_MetadataUsageId;
-extern const RuntimeMethod* UnityEvent_1__ctor_m1977286999_RuntimeMethod_var;
-extern const uint32_t MessageEvent__ctor_m1822782644_MetadataUsageId;
-extern RuntimeClass* MessageEvent_t2167079021_il2cpp_TypeInfo_var;
-extern const uint32_t MessageTypeSubscribers__ctor_m819340931_MetadataUsageId;
-extern const uint32_t Object_Internal_InstantiateSingle_m2008353200_MetadataUsageId;
-extern const uint32_t Object_Internal_InstantiateSingleWithParent_m505589139_MetadataUsageId;
-extern const uint32_t Object_Destroy_m3959286051_MetadataUsageId;
-extern const uint32_t Object_DestroyImmediate_m201325964_MetadataUsageId;
-extern const uint32_t Object_Equals_m1631125948_MetadataUsageId;
-extern const uint32_t Object_op_Implicit_m1757773010_MetadataUsageId;
-extern const uint32_t Object_CompareBaseObjects_m1461253683_MetadataUsageId;
-extern const uint32_t Object_IsNativeObjectAlive_m745219692_MetadataUsageId;
-extern Il2CppCodeGenString* _stringLiteral444318565;
-extern const uint32_t Object_Instantiate_m1390662623_MetadataUsageId;
-extern const uint32_t Object_CheckNullArgument_m2772064765_MetadataUsageId;
-extern const uint32_t Object_op_Equality_m2516226135_MetadataUsageId;
-extern const uint32_t Object_op_Inequality_m3768854296_MetadataUsageId;
-extern const uint32_t Object__cctor_m3758199678_MetadataUsageId;
 
-struct KeyframeU5BU5D_t449065829;
+struct jvalueU5BU5D_t2851849116;
 struct ObjectU5BU5D_t3614634134;
+struct StringU5BU5D_t1642385972;
+struct AndroidJavaObjectU5BU5D_t2397280637;
+struct IntPtrU5BU5D_t169632028;
+struct Int32U5BU5D_t3030399641;
+struct BooleanU5BU5D_t3568034315;
+struct ByteU5BU5D_t3397334013;
+struct Int16U5BU5D_t3104283263;
+struct Int64U5BU5D_t717125112;
+struct SingleU5BU5D_t577127397;
+struct DoubleU5BU5D_t1889952540;
+struct CharU5BU5D_t1328083999;
+struct KeyframeU5BU5D_t449065829;
 struct TypeU5BU5D_t1664964607;
 struct RequireComponentU5BU5D_t2214070761;
 struct DisallowMultipleComponentU5BU5D_t674354611;
 struct ExecuteInEditModeU5BU5D_t1783660110;
 struct CameraU5BU5D_t3079764780;
-struct IntPtrU5BU5D_t169632028;
 struct DisplayU5BU5D_t1314630077;
 struct ParameterInfoU5BU5D_t2275869610;
 struct ParameterModifierU5BU5D_t963192633;
 struct GameObjectU5BU5D_t3057952154;
 struct TouchU5BU5D_t3887265178;
-struct ByteU5BU5D_t3397334013;
-struct Int32U5BU5D_t3030399641;
-struct Vector3U5BU5D_t1172311765;
-struct Vector4U5BU5D_t1658499504;
-struct Vector2U5BU5D_t686124026;
-struct Color32U5BU5D_t30278651;
 
 
 #ifndef U3CMODULEU3E_T3783534218_H
@@ -765,6 +755,68 @@ struct Il2CppArrayBounds;
 #pragma clang diagnostic pop
 #endif
 #endif // RUNTIMEARRAY_H
+#ifndef UNITYEVENTBASE_T828812576_H
+#define UNITYEVENTBASE_T828812576_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Events.UnityEventBase
+struct  UnityEventBase_t828812576  : public RuntimeObject
+{
+public:
+	// UnityEngine.Events.InvokableCallList UnityEngine.Events.UnityEventBase::m_Calls
+	InvokableCallList_t2295673753 * ___m_Calls_0;
+	// UnityEngine.Events.PersistentCallGroup UnityEngine.Events.UnityEventBase::m_PersistentCalls
+	PersistentCallGroup_t339478082 * ___m_PersistentCalls_1;
+	// System.String UnityEngine.Events.UnityEventBase::m_TypeName
+	String_t* ___m_TypeName_2;
+	// System.Boolean UnityEngine.Events.UnityEventBase::m_CallsDirty
+	bool ___m_CallsDirty_3;
+
+public:
+	inline static int32_t get_offset_of_m_Calls_0() { return static_cast<int32_t>(offsetof(UnityEventBase_t828812576, ___m_Calls_0)); }
+	inline InvokableCallList_t2295673753 * get_m_Calls_0() const { return ___m_Calls_0; }
+	inline InvokableCallList_t2295673753 ** get_address_of_m_Calls_0() { return &___m_Calls_0; }
+	inline void set_m_Calls_0(InvokableCallList_t2295673753 * value)
+	{
+		___m_Calls_0 = value;
+		Il2CppCodeGenWriteBarrier((&___m_Calls_0), value);
+	}
+
+	inline static int32_t get_offset_of_m_PersistentCalls_1() { return static_cast<int32_t>(offsetof(UnityEventBase_t828812576, ___m_PersistentCalls_1)); }
+	inline PersistentCallGroup_t339478082 * get_m_PersistentCalls_1() const { return ___m_PersistentCalls_1; }
+	inline PersistentCallGroup_t339478082 ** get_address_of_m_PersistentCalls_1() { return &___m_PersistentCalls_1; }
+	inline void set_m_PersistentCalls_1(PersistentCallGroup_t339478082 * value)
+	{
+		___m_PersistentCalls_1 = value;
+		Il2CppCodeGenWriteBarrier((&___m_PersistentCalls_1), value);
+	}
+
+	inline static int32_t get_offset_of_m_TypeName_2() { return static_cast<int32_t>(offsetof(UnityEventBase_t828812576, ___m_TypeName_2)); }
+	inline String_t* get_m_TypeName_2() const { return ___m_TypeName_2; }
+	inline String_t** get_address_of_m_TypeName_2() { return &___m_TypeName_2; }
+	inline void set_m_TypeName_2(String_t* value)
+	{
+		___m_TypeName_2 = value;
+		Il2CppCodeGenWriteBarrier((&___m_TypeName_2), value);
+	}
+
+	inline static int32_t get_offset_of_m_CallsDirty_3() { return static_cast<int32_t>(offsetof(UnityEventBase_t828812576, ___m_CallsDirty_3)); }
+	inline bool get_m_CallsDirty_3() const { return ___m_CallsDirty_3; }
+	inline bool* get_address_of_m_CallsDirty_3() { return &___m_CallsDirty_3; }
+	inline void set_m_CallsDirty_3(bool value)
+	{
+		___m_CallsDirty_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UNITYEVENTBASE_T828812576_H
 #ifndef LIST_1_T1598685972_H
 #define LIST_1_T1598685972_H
 #ifdef __clang__
@@ -832,230 +884,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // LIST_1_T1598685972_H
-#ifndef STACK_1_T2391531380_H
-#define STACK_1_T2391531380_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.Stack`1<System.Type>
-struct  Stack_1_t2391531380  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.Stack`1::_array
-	TypeU5BU5D_t1664964607* ____array_0;
-	// System.Int32 System.Collections.Generic.Stack`1::_size
-	int32_t ____size_1;
-	// System.Int32 System.Collections.Generic.Stack`1::_version
-	int32_t ____version_2;
-
-public:
-	inline static int32_t get_offset_of__array_0() { return static_cast<int32_t>(offsetof(Stack_1_t2391531380, ____array_0)); }
-	inline TypeU5BU5D_t1664964607* get__array_0() const { return ____array_0; }
-	inline TypeU5BU5D_t1664964607** get_address_of__array_0() { return &____array_0; }
-	inline void set__array_0(TypeU5BU5D_t1664964607* value)
-	{
-		____array_0 = value;
-		Il2CppCodeGenWriteBarrier((&____array_0), value);
-	}
-
-	inline static int32_t get_offset_of__size_1() { return static_cast<int32_t>(offsetof(Stack_1_t2391531380, ____size_1)); }
-	inline int32_t get__size_1() const { return ____size_1; }
-	inline int32_t* get_address_of__size_1() { return &____size_1; }
-	inline void set__size_1(int32_t value)
-	{
-		____size_1 = value;
-	}
-
-	inline static int32_t get_offset_of__version_2() { return static_cast<int32_t>(offsetof(Stack_1_t2391531380, ____version_2)); }
-	inline int32_t get__version_2() const { return ____version_2; }
-	inline int32_t* get_address_of__version_2() { return &____version_2; }
-	inline void set__version_2(int32_t value)
-	{
-		____version_2 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // STACK_1_T2391531380_H
-#ifndef MEMBERINFO_T_H
-#define MEMBERINFO_T_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Reflection.MemberInfo
-struct  MemberInfo_t  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MEMBERINFO_T_H
-#ifndef LIST_1_T672924358_H
-#define LIST_1_T672924358_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<System.Type>
-struct  List_1_t672924358  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	TypeU5BU5D_t1664964607* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t672924358, ____items_1)); }
-	inline TypeU5BU5D_t1664964607* get__items_1() const { return ____items_1; }
-	inline TypeU5BU5D_t1664964607** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(TypeU5BU5D_t1664964607* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t672924358, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t672924358, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t672924358_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	TypeU5BU5D_t1664964607* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t672924358_StaticFields, ___EmptyArray_4)); }
-	inline TypeU5BU5D_t1664964607* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline TypeU5BU5D_t1664964607** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(TypeU5BU5D_t1664964607* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T672924358_H
-#ifndef ATTRIBUTEHELPERENGINE_T958797062_H
-#define ATTRIBUTEHELPERENGINE_T958797062_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.AttributeHelperEngine
-struct  AttributeHelperEngine_t958797062  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct AttributeHelperEngine_t958797062_StaticFields
-{
-public:
-	// UnityEngine.DisallowMultipleComponent[] UnityEngine.AttributeHelperEngine::_disallowMultipleComponentArray
-	DisallowMultipleComponentU5BU5D_t674354611* ____disallowMultipleComponentArray_0;
-	// UnityEngine.ExecuteInEditMode[] UnityEngine.AttributeHelperEngine::_executeInEditModeArray
-	ExecuteInEditModeU5BU5D_t1783660110* ____executeInEditModeArray_1;
-	// UnityEngine.RequireComponent[] UnityEngine.AttributeHelperEngine::_requireComponentArray
-	RequireComponentU5BU5D_t2214070761* ____requireComponentArray_2;
-
-public:
-	inline static int32_t get_offset_of__disallowMultipleComponentArray_0() { return static_cast<int32_t>(offsetof(AttributeHelperEngine_t958797062_StaticFields, ____disallowMultipleComponentArray_0)); }
-	inline DisallowMultipleComponentU5BU5D_t674354611* get__disallowMultipleComponentArray_0() const { return ____disallowMultipleComponentArray_0; }
-	inline DisallowMultipleComponentU5BU5D_t674354611** get_address_of__disallowMultipleComponentArray_0() { return &____disallowMultipleComponentArray_0; }
-	inline void set__disallowMultipleComponentArray_0(DisallowMultipleComponentU5BU5D_t674354611* value)
-	{
-		____disallowMultipleComponentArray_0 = value;
-		Il2CppCodeGenWriteBarrier((&____disallowMultipleComponentArray_0), value);
-	}
-
-	inline static int32_t get_offset_of__executeInEditModeArray_1() { return static_cast<int32_t>(offsetof(AttributeHelperEngine_t958797062_StaticFields, ____executeInEditModeArray_1)); }
-	inline ExecuteInEditModeU5BU5D_t1783660110* get__executeInEditModeArray_1() const { return ____executeInEditModeArray_1; }
-	inline ExecuteInEditModeU5BU5D_t1783660110** get_address_of__executeInEditModeArray_1() { return &____executeInEditModeArray_1; }
-	inline void set__executeInEditModeArray_1(ExecuteInEditModeU5BU5D_t1783660110* value)
-	{
-		____executeInEditModeArray_1 = value;
-		Il2CppCodeGenWriteBarrier((&____executeInEditModeArray_1), value);
-	}
-
-	inline static int32_t get_offset_of__requireComponentArray_2() { return static_cast<int32_t>(offsetof(AttributeHelperEngine_t958797062_StaticFields, ____requireComponentArray_2)); }
-	inline RequireComponentU5BU5D_t2214070761* get__requireComponentArray_2() const { return ____requireComponentArray_2; }
-	inline RequireComponentU5BU5D_t2214070761** get_address_of__requireComponentArray_2() { return &____requireComponentArray_2; }
-	inline void set__requireComponentArray_2(RequireComponentU5BU5D_t2214070761* value)
-	{
-		____requireComponentArray_2 = value;
-		Il2CppCodeGenWriteBarrier((&____requireComponentArray_2), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ATTRIBUTEHELPERENGINE_T958797062_H
-#ifndef YIELDINSTRUCTION_T3462875981_H
-#define YIELDINSTRUCTION_T3462875981_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.YieldInstruction
-struct  YieldInstruction_t3462875981  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of UnityEngine.YieldInstruction
-struct YieldInstruction_t3462875981_marshaled_pinvoke
-{
-};
-// Native definition for COM marshalling of UnityEngine.YieldInstruction
-struct YieldInstruction_t3462875981_marshaled_com
-{
-};
-#endif // YIELDINSTRUCTION_T3462875981_H
 #ifndef INVOKABLECALLLIST_T2295673753_H
 #define INVOKABLECALLLIST_T2295673753_H
 #ifdef __clang__
@@ -1118,327 +946,168 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INVOKABLECALLLIST_T2295673753_H
-#ifndef LIST_1_T1440998580_H
-#define LIST_1_T1440998580_H
+#ifndef BASEINVOKABLECALL_T2229564840_H
+#define BASEINVOKABLECALL_T2229564840_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.Generic.List`1<System.Int32>
-struct  List_1_t1440998580  : public RuntimeObject
+// UnityEngine.Events.BaseInvokableCall
+struct  BaseInvokableCall_t2229564840  : public RuntimeObject
 {
 public:
-	// T[] System.Collections.Generic.List`1::_items
-	Int32U5BU5D_t3030399641* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
 
 public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t1440998580, ____items_1)); }
-	inline Int32U5BU5D_t3030399641* get__items_1() const { return ____items_1; }
-	inline Int32U5BU5D_t3030399641** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(Int32U5BU5D_t3030399641* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t1440998580, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t1440998580, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
 };
 
-struct List_1_t1440998580_StaticFields
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // BASEINVOKABLECALL_T2229564840_H
+#ifndef ARGUMENTCACHE_T4810721_H
+#define ARGUMENTCACHE_T4810721_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Events.ArgumentCache
+struct  ArgumentCache_t4810721  : public RuntimeObject
 {
 public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	Int32U5BU5D_t3030399641* ___EmptyArray_4;
+	// UnityEngine.Object UnityEngine.Events.ArgumentCache::m_ObjectArgument
+	Object_t1021602117 * ___m_ObjectArgument_0;
+	// System.String UnityEngine.Events.ArgumentCache::m_ObjectArgumentAssemblyTypeName
+	String_t* ___m_ObjectArgumentAssemblyTypeName_1;
+	// System.Int32 UnityEngine.Events.ArgumentCache::m_IntArgument
+	int32_t ___m_IntArgument_2;
+	// System.Single UnityEngine.Events.ArgumentCache::m_FloatArgument
+	float ___m_FloatArgument_3;
+	// System.String UnityEngine.Events.ArgumentCache::m_StringArgument
+	String_t* ___m_StringArgument_4;
+	// System.Boolean UnityEngine.Events.ArgumentCache::m_BoolArgument
+	bool ___m_BoolArgument_5;
 
 public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t1440998580_StaticFields, ___EmptyArray_4)); }
-	inline Int32U5BU5D_t3030399641* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline Int32U5BU5D_t3030399641** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(Int32U5BU5D_t3030399641* value)
+	inline static int32_t get_offset_of_m_ObjectArgument_0() { return static_cast<int32_t>(offsetof(ArgumentCache_t4810721, ___m_ObjectArgument_0)); }
+	inline Object_t1021602117 * get_m_ObjectArgument_0() const { return ___m_ObjectArgument_0; }
+	inline Object_t1021602117 ** get_address_of_m_ObjectArgument_0() { return &___m_ObjectArgument_0; }
+	inline void set_m_ObjectArgument_0(Object_t1021602117 * value)
 	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
+		___m_ObjectArgument_0 = value;
+		Il2CppCodeGenWriteBarrier((&___m_ObjectArgument_0), value);
+	}
+
+	inline static int32_t get_offset_of_m_ObjectArgumentAssemblyTypeName_1() { return static_cast<int32_t>(offsetof(ArgumentCache_t4810721, ___m_ObjectArgumentAssemblyTypeName_1)); }
+	inline String_t* get_m_ObjectArgumentAssemblyTypeName_1() const { return ___m_ObjectArgumentAssemblyTypeName_1; }
+	inline String_t** get_address_of_m_ObjectArgumentAssemblyTypeName_1() { return &___m_ObjectArgumentAssemblyTypeName_1; }
+	inline void set_m_ObjectArgumentAssemblyTypeName_1(String_t* value)
+	{
+		___m_ObjectArgumentAssemblyTypeName_1 = value;
+		Il2CppCodeGenWriteBarrier((&___m_ObjectArgumentAssemblyTypeName_1), value);
+	}
+
+	inline static int32_t get_offset_of_m_IntArgument_2() { return static_cast<int32_t>(offsetof(ArgumentCache_t4810721, ___m_IntArgument_2)); }
+	inline int32_t get_m_IntArgument_2() const { return ___m_IntArgument_2; }
+	inline int32_t* get_address_of_m_IntArgument_2() { return &___m_IntArgument_2; }
+	inline void set_m_IntArgument_2(int32_t value)
+	{
+		___m_IntArgument_2 = value;
+	}
+
+	inline static int32_t get_offset_of_m_FloatArgument_3() { return static_cast<int32_t>(offsetof(ArgumentCache_t4810721, ___m_FloatArgument_3)); }
+	inline float get_m_FloatArgument_3() const { return ___m_FloatArgument_3; }
+	inline float* get_address_of_m_FloatArgument_3() { return &___m_FloatArgument_3; }
+	inline void set_m_FloatArgument_3(float value)
+	{
+		___m_FloatArgument_3 = value;
+	}
+
+	inline static int32_t get_offset_of_m_StringArgument_4() { return static_cast<int32_t>(offsetof(ArgumentCache_t4810721, ___m_StringArgument_4)); }
+	inline String_t* get_m_StringArgument_4() const { return ___m_StringArgument_4; }
+	inline String_t** get_address_of_m_StringArgument_4() { return &___m_StringArgument_4; }
+	inline void set_m_StringArgument_4(String_t* value)
+	{
+		___m_StringArgument_4 = value;
+		Il2CppCodeGenWriteBarrier((&___m_StringArgument_4), value);
+	}
+
+	inline static int32_t get_offset_of_m_BoolArgument_5() { return static_cast<int32_t>(offsetof(ArgumentCache_t4810721, ___m_BoolArgument_5)); }
+	inline bool get_m_BoolArgument_5() const { return ___m_BoolArgument_5; }
+	inline bool* get_address_of_m_BoolArgument_5() { return &___m_BoolArgument_5; }
+	inline void set_m_BoolArgument_5(bool value)
+	{
+		___m_BoolArgument_5 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // LIST_1_T1440998580_H
-#ifndef LIST_1_T1612828712_H
-#define LIST_1_T1612828712_H
+#endif // ARGUMENTCACHE_T4810721_H
+#ifndef PERSISTENTCALLGROUP_T339478082_H
+#define PERSISTENTCALLGROUP_T339478082_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.Generic.List`1<UnityEngine.Vector3>
-struct  List_1_t1612828712  : public RuntimeObject
+// UnityEngine.Events.PersistentCallGroup
+struct  PersistentCallGroup_t339478082  : public RuntimeObject
 {
 public:
-	// T[] System.Collections.Generic.List`1::_items
-	Vector3U5BU5D_t1172311765* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
+	// System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> UnityEngine.Events.PersistentCallGroup::m_Calls
+	List_1_t3162557601 * ___m_Calls_0;
 
 public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t1612828712, ____items_1)); }
-	inline Vector3U5BU5D_t1172311765* get__items_1() const { return ____items_1; }
-	inline Vector3U5BU5D_t1172311765** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(Vector3U5BU5D_t1172311765* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t1612828712, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t1612828712, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t1612828712_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	Vector3U5BU5D_t1172311765* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t1612828712_StaticFields, ___EmptyArray_4)); }
-	inline Vector3U5BU5D_t1172311765* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline Vector3U5BU5D_t1172311765** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(Vector3U5BU5D_t1172311765* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T1612828712_H
-#ifndef LIST_1_T1612828713_H
-#define LIST_1_T1612828713_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<UnityEngine.Vector4>
-struct  List_1_t1612828713  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	Vector4U5BU5D_t1658499504* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t1612828713, ____items_1)); }
-	inline Vector4U5BU5D_t1658499504* get__items_1() const { return ____items_1; }
-	inline Vector4U5BU5D_t1658499504** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(Vector4U5BU5D_t1658499504* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t1612828713, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t1612828713, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t1612828713_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	Vector4U5BU5D_t1658499504* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t1612828713_StaticFields, ___EmptyArray_4)); }
-	inline Vector4U5BU5D_t1658499504* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline Vector4U5BU5D_t1658499504** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(Vector4U5BU5D_t1658499504* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T1612828713_H
-#ifndef UNITYEVENTBASE_T828812576_H
-#define UNITYEVENTBASE_T828812576_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Events.UnityEventBase
-struct  UnityEventBase_t828812576  : public RuntimeObject
-{
-public:
-	// UnityEngine.Events.InvokableCallList UnityEngine.Events.UnityEventBase::m_Calls
-	InvokableCallList_t2295673753 * ___m_Calls_0;
-	// UnityEngine.Events.PersistentCallGroup UnityEngine.Events.UnityEventBase::m_PersistentCalls
-	PersistentCallGroup_t339478082 * ___m_PersistentCalls_1;
-	// System.String UnityEngine.Events.UnityEventBase::m_TypeName
-	String_t* ___m_TypeName_2;
-	// System.Boolean UnityEngine.Events.UnityEventBase::m_CallsDirty
-	bool ___m_CallsDirty_3;
-
-public:
-	inline static int32_t get_offset_of_m_Calls_0() { return static_cast<int32_t>(offsetof(UnityEventBase_t828812576, ___m_Calls_0)); }
-	inline InvokableCallList_t2295673753 * get_m_Calls_0() const { return ___m_Calls_0; }
-	inline InvokableCallList_t2295673753 ** get_address_of_m_Calls_0() { return &___m_Calls_0; }
-	inline void set_m_Calls_0(InvokableCallList_t2295673753 * value)
+	inline static int32_t get_offset_of_m_Calls_0() { return static_cast<int32_t>(offsetof(PersistentCallGroup_t339478082, ___m_Calls_0)); }
+	inline List_1_t3162557601 * get_m_Calls_0() const { return ___m_Calls_0; }
+	inline List_1_t3162557601 ** get_address_of_m_Calls_0() { return &___m_Calls_0; }
+	inline void set_m_Calls_0(List_1_t3162557601 * value)
 	{
 		___m_Calls_0 = value;
 		Il2CppCodeGenWriteBarrier((&___m_Calls_0), value);
 	}
-
-	inline static int32_t get_offset_of_m_PersistentCalls_1() { return static_cast<int32_t>(offsetof(UnityEventBase_t828812576, ___m_PersistentCalls_1)); }
-	inline PersistentCallGroup_t339478082 * get_m_PersistentCalls_1() const { return ___m_PersistentCalls_1; }
-	inline PersistentCallGroup_t339478082 ** get_address_of_m_PersistentCalls_1() { return &___m_PersistentCalls_1; }
-	inline void set_m_PersistentCalls_1(PersistentCallGroup_t339478082 * value)
-	{
-		___m_PersistentCalls_1 = value;
-		Il2CppCodeGenWriteBarrier((&___m_PersistentCalls_1), value);
-	}
-
-	inline static int32_t get_offset_of_m_TypeName_2() { return static_cast<int32_t>(offsetof(UnityEventBase_t828812576, ___m_TypeName_2)); }
-	inline String_t* get_m_TypeName_2() const { return ___m_TypeName_2; }
-	inline String_t** get_address_of_m_TypeName_2() { return &___m_TypeName_2; }
-	inline void set_m_TypeName_2(String_t* value)
-	{
-		___m_TypeName_2 = value;
-		Il2CppCodeGenWriteBarrier((&___m_TypeName_2), value);
-	}
-
-	inline static int32_t get_offset_of_m_CallsDirty_3() { return static_cast<int32_t>(offsetof(UnityEventBase_t828812576, ___m_CallsDirty_3)); }
-	inline bool get_m_CallsDirty_3() const { return ___m_CallsDirty_3; }
-	inline bool* get_address_of_m_CallsDirty_3() { return &___m_CallsDirty_3; }
-	inline void set_m_CallsDirty_3(bool value)
-	{
-		___m_CallsDirty_3 = value;
-	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // UNITYEVENTBASE_T828812576_H
-#ifndef RENDERPIPELINEMANAGER_T984453155_H
-#define RENDERPIPELINEMANAGER_T984453155_H
+#endif // PERSISTENTCALLGROUP_T339478082_H
+#ifndef ANDROIDJNI_T362636628_H
+#define ANDROIDJNI_T362636628_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Experimental.Rendering.RenderPipelineManager
-struct  RenderPipelineManager_t984453155  : public RuntimeObject
+// UnityEngine.AndroidJNI
+struct  AndroidJNI_t362636628  : public RuntimeObject
 {
 public:
 
 public:
-};
-
-struct RenderPipelineManager_t984453155_StaticFields
-{
-public:
-	// UnityEngine.Experimental.Rendering.IRenderPipelineAsset UnityEngine.Experimental.Rendering.RenderPipelineManager::s_CurrentPipelineAsset
-	RuntimeObject* ___s_CurrentPipelineAsset_0;
-	// UnityEngine.Experimental.Rendering.IRenderPipeline UnityEngine.Experimental.Rendering.RenderPipelineManager::<currentPipeline>k__BackingField
-	RuntimeObject* ___U3CcurrentPipelineU3Ek__BackingField_1;
-
-public:
-	inline static int32_t get_offset_of_s_CurrentPipelineAsset_0() { return static_cast<int32_t>(offsetof(RenderPipelineManager_t984453155_StaticFields, ___s_CurrentPipelineAsset_0)); }
-	inline RuntimeObject* get_s_CurrentPipelineAsset_0() const { return ___s_CurrentPipelineAsset_0; }
-	inline RuntimeObject** get_address_of_s_CurrentPipelineAsset_0() { return &___s_CurrentPipelineAsset_0; }
-	inline void set_s_CurrentPipelineAsset_0(RuntimeObject* value)
-	{
-		___s_CurrentPipelineAsset_0 = value;
-		Il2CppCodeGenWriteBarrier((&___s_CurrentPipelineAsset_0), value);
-	}
-
-	inline static int32_t get_offset_of_U3CcurrentPipelineU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(RenderPipelineManager_t984453155_StaticFields, ___U3CcurrentPipelineU3Ek__BackingField_1)); }
-	inline RuntimeObject* get_U3CcurrentPipelineU3Ek__BackingField_1() const { return ___U3CcurrentPipelineU3Ek__BackingField_1; }
-	inline RuntimeObject** get_address_of_U3CcurrentPipelineU3Ek__BackingField_1() { return &___U3CcurrentPipelineU3Ek__BackingField_1; }
-	inline void set_U3CcurrentPipelineU3Ek__BackingField_1(RuntimeObject* value)
-	{
-		___U3CcurrentPipelineU3Ek__BackingField_1 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CcurrentPipelineU3Ek__BackingField_1), value);
-	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // RENDERPIPELINEMANAGER_T984453155_H
-#ifndef GIZMOS_T2256232573_H
-#define GIZMOS_T2256232573_H
+#endif // ANDROIDJNI_T362636628_H
+#ifndef ANDROIDJNIHELPER_T3746577466_H
+#define ANDROIDJNIHELPER_T3746577466_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Gizmos
-struct  Gizmos_t2256232573  : public RuntimeObject
+// UnityEngine.AndroidJNIHelper
+struct  AndroidJNIHelper_t3746577466  : public RuntimeObject
 {
 public:
 
@@ -1448,17 +1117,17 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // GIZMOS_T2256232573_H
-#ifndef GYROSCOPE_T1705362817_H
-#define GYROSCOPE_T1705362817_H
+#endif // ANDROIDJNIHELPER_T3746577466_H
+#ifndef ANDROIDJNISAFE_T1205072797_H
+#define ANDROIDJNISAFE_T1205072797_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Gyroscope
-struct  Gyroscope_t1705362817  : public RuntimeObject
+// UnityEngine.AndroidJNISafe
+struct  AndroidJNISafe_t1205072797  : public RuntimeObject
 {
 public:
 
@@ -1468,64 +1137,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // GYROSCOPE_T1705362817_H
-#ifndef CLASSLIBRARYINITIALIZER_T504692705_H
-#define CLASSLIBRARYINITIALIZER_T504692705_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.ClassLibraryInitializer
-struct  ClassLibraryInitializer_t504692705  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CLASSLIBRARYINITIALIZER_T504692705_H
-#ifndef INPUT_T1785128008_H
-#define INPUT_T1785128008_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Input
-struct  Input_t1785128008  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct Input_t1785128008_StaticFields
-{
-public:
-	// UnityEngine.Gyroscope UnityEngine.Input::m_MainGyro
-	Gyroscope_t1705362817 * ___m_MainGyro_0;
-
-public:
-	inline static int32_t get_offset_of_m_MainGyro_0() { return static_cast<int32_t>(offsetof(Input_t1785128008_StaticFields, ___m_MainGyro_0)); }
-	inline Gyroscope_t1705362817 * get_m_MainGyro_0() const { return ___m_MainGyro_0; }
-	inline Gyroscope_t1705362817 ** get_address_of_m_MainGyro_0() { return &___m_MainGyro_0; }
-	inline void set_m_MainGyro_0(Gyroscope_t1705362817 * value)
-	{
-		___m_MainGyro_0 = value;
-		Il2CppCodeGenWriteBarrier((&___m_MainGyro_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // INPUT_T1785128008_H
+#endif // ANDROIDJNISAFE_T1205072797_H
 #ifndef BINDER_T3404612058_H
 #define BINDER_T3404612058_H
 #ifdef __clang__
@@ -1563,393 +1175,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // BINDER_T3404612058_H
-#ifndef LIST_1_T3162557601_H
-#define LIST_1_T3162557601_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>
-struct  List_1_t3162557601  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	PersistentCallU5BU5D_t823172184* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t3162557601, ____items_1)); }
-	inline PersistentCallU5BU5D_t823172184* get__items_1() const { return ____items_1; }
-	inline PersistentCallU5BU5D_t823172184** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(PersistentCallU5BU5D_t823172184* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t3162557601, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t3162557601, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t3162557601_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	PersistentCallU5BU5D_t823172184* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t3162557601_StaticFields, ___EmptyArray_4)); }
-	inline PersistentCallU5BU5D_t823172184* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline PersistentCallU5BU5D_t823172184** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(PersistentCallU5BU5D_t823172184* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T3162557601_H
-#ifndef MANAGEDSTREAMHELPERS_T1667331974_H
-#define MANAGEDSTREAMHELPERS_T1667331974_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.ManagedStreamHelpers
-struct  ManagedStreamHelpers_t1667331974  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MANAGEDSTREAMHELPERS_T1667331974_H
-#ifndef STREAM_T3255436806_H
-#define STREAM_T3255436806_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.IO.Stream
-struct  Stream_t3255436806  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct Stream_t3255436806_StaticFields
-{
-public:
-	// System.IO.Stream System.IO.Stream::Null
-	Stream_t3255436806 * ___Null_0;
-
-public:
-	inline static int32_t get_offset_of_Null_0() { return static_cast<int32_t>(offsetof(Stream_t3255436806_StaticFields, ___Null_0)); }
-	inline Stream_t3255436806 * get_Null_0() const { return ___Null_0; }
-	inline Stream_t3255436806 ** get_address_of_Null_0() { return &___Null_0; }
-	inline void set_Null_0(Stream_t3255436806 * value)
-	{
-		___Null_0 = value;
-		Il2CppCodeGenWriteBarrier((&___Null_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // STREAM_T3255436806_H
-#ifndef PERSISTENTCALLGROUP_T339478082_H
-#define PERSISTENTCALLGROUP_T339478082_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Events.PersistentCallGroup
-struct  PersistentCallGroup_t339478082  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> UnityEngine.Events.PersistentCallGroup::m_Calls
-	List_1_t3162557601 * ___m_Calls_0;
-
-public:
-	inline static int32_t get_offset_of_m_Calls_0() { return static_cast<int32_t>(offsetof(PersistentCallGroup_t339478082, ___m_Calls_0)); }
-	inline List_1_t3162557601 * get_m_Calls_0() const { return ___m_Calls_0; }
-	inline List_1_t3162557601 ** get_address_of_m_Calls_0() { return &___m_Calls_0; }
-	inline void set_m_Calls_0(List_1_t3162557601 * value)
-	{
-		___m_Calls_0 = value;
-		Il2CppCodeGenWriteBarrier((&___m_Calls_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PERSISTENTCALLGROUP_T339478082_H
-#ifndef LIST_1_T243638650_H
-#define LIST_1_T243638650_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<UnityEngine.Color32>
-struct  List_1_t243638650  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	Color32U5BU5D_t30278651* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t243638650, ____items_1)); }
-	inline Color32U5BU5D_t30278651* get__items_1() const { return ____items_1; }
-	inline Color32U5BU5D_t30278651** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(Color32U5BU5D_t30278651* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t243638650, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t243638650, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t243638650_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	Color32U5BU5D_t30278651* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t243638650_StaticFields, ___EmptyArray_4)); }
-	inline Color32U5BU5D_t30278651* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline Color32U5BU5D_t30278651** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(Color32U5BU5D_t30278651* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T243638650_H
-#ifndef VALUETYPE_T3507792607_H
-#define VALUETYPE_T3507792607_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.ValueType
-struct  ValueType_t3507792607  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of System.ValueType
-struct ValueType_t3507792607_marshaled_pinvoke
-{
-};
-// Native definition for COM marshalling of System.ValueType
-struct ValueType_t3507792607_marshaled_com
-{
-};
-#endif // VALUETYPE_T3507792607_H
-#ifndef EXCEPTION_T1927440687_H
-#define EXCEPTION_T1927440687_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Exception
-struct  Exception_t1927440687  : public RuntimeObject
-{
-public:
-	// System.IntPtr[] System.Exception::trace_ips
-	IntPtrU5BU5D_t169632028* ___trace_ips_0;
-	// System.Exception System.Exception::inner_exception
-	Exception_t1927440687 * ___inner_exception_1;
-	// System.String System.Exception::message
-	String_t* ___message_2;
-	// System.String System.Exception::help_link
-	String_t* ___help_link_3;
-	// System.String System.Exception::class_name
-	String_t* ___class_name_4;
-	// System.String System.Exception::stack_trace
-	String_t* ___stack_trace_5;
-	// System.String System.Exception::_remoteStackTraceString
-	String_t* ____remoteStackTraceString_6;
-	// System.Int32 System.Exception::remote_stack_index
-	int32_t ___remote_stack_index_7;
-	// System.Int32 System.Exception::hresult
-	int32_t ___hresult_8;
-	// System.String System.Exception::source
-	String_t* ___source_9;
-	// System.Collections.IDictionary System.Exception::_data
-	RuntimeObject* ____data_10;
-
-public:
-	inline static int32_t get_offset_of_trace_ips_0() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___trace_ips_0)); }
-	inline IntPtrU5BU5D_t169632028* get_trace_ips_0() const { return ___trace_ips_0; }
-	inline IntPtrU5BU5D_t169632028** get_address_of_trace_ips_0() { return &___trace_ips_0; }
-	inline void set_trace_ips_0(IntPtrU5BU5D_t169632028* value)
-	{
-		___trace_ips_0 = value;
-		Il2CppCodeGenWriteBarrier((&___trace_ips_0), value);
-	}
-
-	inline static int32_t get_offset_of_inner_exception_1() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___inner_exception_1)); }
-	inline Exception_t1927440687 * get_inner_exception_1() const { return ___inner_exception_1; }
-	inline Exception_t1927440687 ** get_address_of_inner_exception_1() { return &___inner_exception_1; }
-	inline void set_inner_exception_1(Exception_t1927440687 * value)
-	{
-		___inner_exception_1 = value;
-		Il2CppCodeGenWriteBarrier((&___inner_exception_1), value);
-	}
-
-	inline static int32_t get_offset_of_message_2() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___message_2)); }
-	inline String_t* get_message_2() const { return ___message_2; }
-	inline String_t** get_address_of_message_2() { return &___message_2; }
-	inline void set_message_2(String_t* value)
-	{
-		___message_2 = value;
-		Il2CppCodeGenWriteBarrier((&___message_2), value);
-	}
-
-	inline static int32_t get_offset_of_help_link_3() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___help_link_3)); }
-	inline String_t* get_help_link_3() const { return ___help_link_3; }
-	inline String_t** get_address_of_help_link_3() { return &___help_link_3; }
-	inline void set_help_link_3(String_t* value)
-	{
-		___help_link_3 = value;
-		Il2CppCodeGenWriteBarrier((&___help_link_3), value);
-	}
-
-	inline static int32_t get_offset_of_class_name_4() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___class_name_4)); }
-	inline String_t* get_class_name_4() const { return ___class_name_4; }
-	inline String_t** get_address_of_class_name_4() { return &___class_name_4; }
-	inline void set_class_name_4(String_t* value)
-	{
-		___class_name_4 = value;
-		Il2CppCodeGenWriteBarrier((&___class_name_4), value);
-	}
-
-	inline static int32_t get_offset_of_stack_trace_5() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___stack_trace_5)); }
-	inline String_t* get_stack_trace_5() const { return ___stack_trace_5; }
-	inline String_t** get_address_of_stack_trace_5() { return &___stack_trace_5; }
-	inline void set_stack_trace_5(String_t* value)
-	{
-		___stack_trace_5 = value;
-		Il2CppCodeGenWriteBarrier((&___stack_trace_5), value);
-	}
-
-	inline static int32_t get_offset_of__remoteStackTraceString_6() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ____remoteStackTraceString_6)); }
-	inline String_t* get__remoteStackTraceString_6() const { return ____remoteStackTraceString_6; }
-	inline String_t** get_address_of__remoteStackTraceString_6() { return &____remoteStackTraceString_6; }
-	inline void set__remoteStackTraceString_6(String_t* value)
-	{
-		____remoteStackTraceString_6 = value;
-		Il2CppCodeGenWriteBarrier((&____remoteStackTraceString_6), value);
-	}
-
-	inline static int32_t get_offset_of_remote_stack_index_7() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___remote_stack_index_7)); }
-	inline int32_t get_remote_stack_index_7() const { return ___remote_stack_index_7; }
-	inline int32_t* get_address_of_remote_stack_index_7() { return &___remote_stack_index_7; }
-	inline void set_remote_stack_index_7(int32_t value)
-	{
-		___remote_stack_index_7 = value;
-	}
-
-	inline static int32_t get_offset_of_hresult_8() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___hresult_8)); }
-	inline int32_t get_hresult_8() const { return ___hresult_8; }
-	inline int32_t* get_address_of_hresult_8() { return &___hresult_8; }
-	inline void set_hresult_8(int32_t value)
-	{
-		___hresult_8 = value;
-	}
-
-	inline static int32_t get_offset_of_source_9() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___source_9)); }
-	inline String_t* get_source_9() const { return ___source_9; }
-	inline String_t** get_address_of_source_9() { return &___source_9; }
-	inline void set_source_9(String_t* value)
-	{
-		___source_9 = value;
-		Il2CppCodeGenWriteBarrier((&___source_9), value);
-	}
-
-	inline static int32_t get_offset_of__data_10() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ____data_10)); }
-	inline RuntimeObject* get__data_10() const { return ____data_10; }
-	inline RuntimeObject** get_address_of__data_10() { return &____data_10; }
-	inline void set__data_10(RuntimeObject* value)
-	{
-		____data_10 = value;
-		Il2CppCodeGenWriteBarrier((&____data_10), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EXCEPTION_T1927440687_H
 #ifndef APPLICATION_T354826772_H
 #define APPLICATION_T354826772_H
 #ifdef __clang__
@@ -2020,6 +1245,376 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // APPLICATION_T354826772_H
+#ifndef LIST_1_T3162557601_H
+#define LIST_1_T3162557601_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>
+struct  List_1_t3162557601  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.List`1::_items
+	PersistentCallU5BU5D_t823172184* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+
+public:
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t3162557601, ____items_1)); }
+	inline PersistentCallU5BU5D_t823172184* get__items_1() const { return ____items_1; }
+	inline PersistentCallU5BU5D_t823172184** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(PersistentCallU5BU5D_t823172184* value)
+	{
+		____items_1 = value;
+		Il2CppCodeGenWriteBarrier((&____items_1), value);
+	}
+
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t3162557601, ____size_2)); }
+	inline int32_t get__size_2() const { return ____size_2; }
+	inline int32_t* get_address_of__size_2() { return &____size_2; }
+	inline void set__size_2(int32_t value)
+	{
+		____size_2 = value;
+	}
+
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t3162557601, ____version_3)); }
+	inline int32_t get__version_3() const { return ____version_3; }
+	inline int32_t* get_address_of__version_3() { return &____version_3; }
+	inline void set__version_3(int32_t value)
+	{
+		____version_3 = value;
+	}
+};
+
+struct List_1_t3162557601_StaticFields
+{
+public:
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	PersistentCallU5BU5D_t823172184* ___EmptyArray_4;
+
+public:
+	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t3162557601_StaticFields, ___EmptyArray_4)); }
+	inline PersistentCallU5BU5D_t823172184* get_EmptyArray_4() const { return ___EmptyArray_4; }
+	inline PersistentCallU5BU5D_t823172184** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
+	inline void set_EmptyArray_4(PersistentCallU5BU5D_t823172184* value)
+	{
+		___EmptyArray_4 = value;
+		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LIST_1_T3162557601_H
+#ifndef DEBUGLOGHANDLER_T865810509_H
+#define DEBUGLOGHANDLER_T865810509_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.DebugLogHandler
+struct  DebugLogHandler_t865810509  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DEBUGLOGHANDLER_T865810509_H
+#ifndef CLASSLIBRARYINITIALIZER_T504692705_H
+#define CLASSLIBRARYINITIALIZER_T504692705_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.ClassLibraryInitializer
+struct  ClassLibraryInitializer_t504692705  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CLASSLIBRARYINITIALIZER_T504692705_H
+#ifndef LIST_1_T3188497603_H
+#define LIST_1_T3188497603_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1<UnityEngine.Component>
+struct  List_1_t3188497603  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.List`1::_items
+	ComponentU5BU5D_t4136971630* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+
+public:
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t3188497603, ____items_1)); }
+	inline ComponentU5BU5D_t4136971630* get__items_1() const { return ____items_1; }
+	inline ComponentU5BU5D_t4136971630** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(ComponentU5BU5D_t4136971630* value)
+	{
+		____items_1 = value;
+		Il2CppCodeGenWriteBarrier((&____items_1), value);
+	}
+
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t3188497603, ____size_2)); }
+	inline int32_t get__size_2() const { return ____size_2; }
+	inline int32_t* get_address_of__size_2() { return &____size_2; }
+	inline void set__size_2(int32_t value)
+	{
+		____size_2 = value;
+	}
+
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t3188497603, ____version_3)); }
+	inline int32_t get__version_3() const { return ____version_3; }
+	inline int32_t* get_address_of__version_3() { return &____version_3; }
+	inline void set__version_3(int32_t value)
+	{
+		____version_3 = value;
+	}
+};
+
+struct List_1_t3188497603_StaticFields
+{
+public:
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	ComponentU5BU5D_t4136971630* ___EmptyArray_4;
+
+public:
+	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t3188497603_StaticFields, ___EmptyArray_4)); }
+	inline ComponentU5BU5D_t4136971630* get_EmptyArray_4() const { return ___EmptyArray_4; }
+	inline ComponentU5BU5D_t4136971630** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
+	inline void set_EmptyArray_4(ComponentU5BU5D_t4136971630* value)
+	{
+		___EmptyArray_4 = value;
+		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LIST_1_T3188497603_H
+#ifndef LIST_1_T672924358_H
+#define LIST_1_T672924358_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1<System.Type>
+struct  List_1_t672924358  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.List`1::_items
+	TypeU5BU5D_t1664964607* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+
+public:
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t672924358, ____items_1)); }
+	inline TypeU5BU5D_t1664964607* get__items_1() const { return ____items_1; }
+	inline TypeU5BU5D_t1664964607** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(TypeU5BU5D_t1664964607* value)
+	{
+		____items_1 = value;
+		Il2CppCodeGenWriteBarrier((&____items_1), value);
+	}
+
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t672924358, ____size_2)); }
+	inline int32_t get__size_2() const { return ____size_2; }
+	inline int32_t* get_address_of__size_2() { return &____size_2; }
+	inline void set__size_2(int32_t value)
+	{
+		____size_2 = value;
+	}
+
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t672924358, ____version_3)); }
+	inline int32_t get__version_3() const { return ____version_3; }
+	inline int32_t* get_address_of__version_3() { return &____version_3; }
+	inline void set__version_3(int32_t value)
+	{
+		____version_3 = value;
+	}
+};
+
+struct List_1_t672924358_StaticFields
+{
+public:
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	TypeU5BU5D_t1664964607* ___EmptyArray_4;
+
+public:
+	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t672924358_StaticFields, ___EmptyArray_4)); }
+	inline TypeU5BU5D_t1664964607* get_EmptyArray_4() const { return ___EmptyArray_4; }
+	inline TypeU5BU5D_t1664964607** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
+	inline void set_EmptyArray_4(TypeU5BU5D_t1664964607* value)
+	{
+		___EmptyArray_4 = value;
+		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LIST_1_T672924358_H
+#ifndef MEMBERINFO_T_H
+#define MEMBERINFO_T_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Reflection.MemberInfo
+struct  MemberInfo_t  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // MEMBERINFO_T_H
+#ifndef STACK_1_T2391531380_H
+#define STACK_1_T2391531380_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.Stack`1<System.Type>
+struct  Stack_1_t2391531380  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.Stack`1::_array
+	TypeU5BU5D_t1664964607* ____array_0;
+	// System.Int32 System.Collections.Generic.Stack`1::_size
+	int32_t ____size_1;
+	// System.Int32 System.Collections.Generic.Stack`1::_version
+	int32_t ____version_2;
+
+public:
+	inline static int32_t get_offset_of__array_0() { return static_cast<int32_t>(offsetof(Stack_1_t2391531380, ____array_0)); }
+	inline TypeU5BU5D_t1664964607* get__array_0() const { return ____array_0; }
+	inline TypeU5BU5D_t1664964607** get_address_of__array_0() { return &____array_0; }
+	inline void set__array_0(TypeU5BU5D_t1664964607* value)
+	{
+		____array_0 = value;
+		Il2CppCodeGenWriteBarrier((&____array_0), value);
+	}
+
+	inline static int32_t get_offset_of__size_1() { return static_cast<int32_t>(offsetof(Stack_1_t2391531380, ____size_1)); }
+	inline int32_t get__size_1() const { return ____size_1; }
+	inline int32_t* get_address_of__size_1() { return &____size_1; }
+	inline void set__size_1(int32_t value)
+	{
+		____size_1 = value;
+	}
+
+	inline static int32_t get_offset_of__version_2() { return static_cast<int32_t>(offsetof(Stack_1_t2391531380, ____version_2)); }
+	inline int32_t get__version_2() const { return ____version_2; }
+	inline int32_t* get_address_of__version_2() { return &____version_2; }
+	inline void set__version_2(int32_t value)
+	{
+		____version_2 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // STACK_1_T2391531380_H
+#ifndef ATTRIBUTEHELPERENGINE_T958797062_H
+#define ATTRIBUTEHELPERENGINE_T958797062_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.AttributeHelperEngine
+struct  AttributeHelperEngine_t958797062  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct AttributeHelperEngine_t958797062_StaticFields
+{
+public:
+	// UnityEngine.DisallowMultipleComponent[] UnityEngine.AttributeHelperEngine::_disallowMultipleComponentArray
+	DisallowMultipleComponentU5BU5D_t674354611* ____disallowMultipleComponentArray_0;
+	// UnityEngine.ExecuteInEditMode[] UnityEngine.AttributeHelperEngine::_executeInEditModeArray
+	ExecuteInEditModeU5BU5D_t1783660110* ____executeInEditModeArray_1;
+	// UnityEngine.RequireComponent[] UnityEngine.AttributeHelperEngine::_requireComponentArray
+	RequireComponentU5BU5D_t2214070761* ____requireComponentArray_2;
+
+public:
+	inline static int32_t get_offset_of__disallowMultipleComponentArray_0() { return static_cast<int32_t>(offsetof(AttributeHelperEngine_t958797062_StaticFields, ____disallowMultipleComponentArray_0)); }
+	inline DisallowMultipleComponentU5BU5D_t674354611* get__disallowMultipleComponentArray_0() const { return ____disallowMultipleComponentArray_0; }
+	inline DisallowMultipleComponentU5BU5D_t674354611** get_address_of__disallowMultipleComponentArray_0() { return &____disallowMultipleComponentArray_0; }
+	inline void set__disallowMultipleComponentArray_0(DisallowMultipleComponentU5BU5D_t674354611* value)
+	{
+		____disallowMultipleComponentArray_0 = value;
+		Il2CppCodeGenWriteBarrier((&____disallowMultipleComponentArray_0), value);
+	}
+
+	inline static int32_t get_offset_of__executeInEditModeArray_1() { return static_cast<int32_t>(offsetof(AttributeHelperEngine_t958797062_StaticFields, ____executeInEditModeArray_1)); }
+	inline ExecuteInEditModeU5BU5D_t1783660110* get__executeInEditModeArray_1() const { return ____executeInEditModeArray_1; }
+	inline ExecuteInEditModeU5BU5D_t1783660110** get_address_of__executeInEditModeArray_1() { return &____executeInEditModeArray_1; }
+	inline void set__executeInEditModeArray_1(ExecuteInEditModeU5BU5D_t1783660110* value)
+	{
+		____executeInEditModeArray_1 = value;
+		Il2CppCodeGenWriteBarrier((&____executeInEditModeArray_1), value);
+	}
+
+	inline static int32_t get_offset_of__requireComponentArray_2() { return static_cast<int32_t>(offsetof(AttributeHelperEngine_t958797062_StaticFields, ____requireComponentArray_2)); }
+	inline RequireComponentU5BU5D_t2214070761* get__requireComponentArray_2() const { return ____requireComponentArray_2; }
+	inline RequireComponentU5BU5D_t2214070761** get_address_of__requireComponentArray_2() { return &____requireComponentArray_2; }
+	inline void set__requireComponentArray_2(RequireComponentU5BU5D_t2214070761* value)
+	{
+		____requireComponentArray_2 = value;
+		Il2CppCodeGenWriteBarrier((&____requireComponentArray_2), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ATTRIBUTEHELPERENGINE_T958797062_H
 #ifndef DEBUG_T1368543263_H
 #define DEBUG_T1368543263_H
 #ifdef __clang__
@@ -2077,43 +1672,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // CUSTOMYIELDINSTRUCTION_T1786092740_H
-#ifndef NATIVE_T2308112383_H
-#define NATIVE_T2308112383_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.CSSLayout.Native
-struct  Native_t2308112383  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct Native_t2308112383_StaticFields
-{
-public:
-	// System.Collections.Generic.Dictionary`2<System.IntPtr,System.WeakReference> UnityEngine.CSSLayout.Native::s_MeasureFunctions
-	Dictionary_2_t1519430885 * ___s_MeasureFunctions_0;
-
-public:
-	inline static int32_t get_offset_of_s_MeasureFunctions_0() { return static_cast<int32_t>(offsetof(Native_t2308112383_StaticFields, ___s_MeasureFunctions_0)); }
-	inline Dictionary_2_t1519430885 * get_s_MeasureFunctions_0() const { return ___s_MeasureFunctions_0; }
-	inline Dictionary_2_t1519430885 ** get_address_of_s_MeasureFunctions_0() { return &___s_MeasureFunctions_0; }
-	inline void set_s_MeasureFunctions_0(Dictionary_2_t1519430885 * value)
-	{
-		___s_MeasureFunctions_0 = value;
-		Il2CppCodeGenWriteBarrier((&___s_MeasureFunctions_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // NATIVE_T2308112383_H
 #ifndef CURSOR_T873194084_H
 #define CURSOR_T873194084_H
 #ifdef __clang__
@@ -2134,26 +1692,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // CURSOR_T873194084_H
-#ifndef ATTRIBUTE_T542643598_H
-#define ATTRIBUTE_T542643598_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Attribute
-struct  Attribute_t542643598  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ATTRIBUTE_T542643598_H
 #ifndef DICTIONARY_2_T1519430885_H
 #define DICTIONARY_2_T1519430885_H
 #ifdef __clang__
@@ -2306,6 +1844,136 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DICTIONARY_2_T1519430885_H
+#ifndef NATIVE_T2308112383_H
+#define NATIVE_T2308112383_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.CSSLayout.Native
+struct  Native_t2308112383  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct Native_t2308112383_StaticFields
+{
+public:
+	// System.Collections.Generic.Dictionary`2<System.IntPtr,System.WeakReference> UnityEngine.CSSLayout.Native::s_MeasureFunctions
+	Dictionary_2_t1519430885 * ___s_MeasureFunctions_0;
+
+public:
+	inline static int32_t get_offset_of_s_MeasureFunctions_0() { return static_cast<int32_t>(offsetof(Native_t2308112383_StaticFields, ___s_MeasureFunctions_0)); }
+	inline Dictionary_2_t1519430885 * get_s_MeasureFunctions_0() const { return ___s_MeasureFunctions_0; }
+	inline Dictionary_2_t1519430885 ** get_address_of_s_MeasureFunctions_0() { return &___s_MeasureFunctions_0; }
+	inline void set_s_MeasureFunctions_0(Dictionary_2_t1519430885 * value)
+	{
+		___s_MeasureFunctions_0 = value;
+		Il2CppCodeGenWriteBarrier((&___s_MeasureFunctions_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // NATIVE_T2308112383_H
+#ifndef YIELDINSTRUCTION_T3462875981_H
+#define YIELDINSTRUCTION_T3462875981_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.YieldInstruction
+struct  YieldInstruction_t3462875981  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of UnityEngine.YieldInstruction
+struct YieldInstruction_t3462875981_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of UnityEngine.YieldInstruction
+struct YieldInstruction_t3462875981_marshaled_com
+{
+};
+#endif // YIELDINSTRUCTION_T3462875981_H
+#ifndef VALUETYPE_T3507792607_H
+#define VALUETYPE_T3507792607_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ValueType
+struct  ValueType_t3507792607  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t3507792607_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t3507792607_marshaled_com
+{
+};
+#endif // VALUETYPE_T3507792607_H
+#ifndef INPUT_T1785128008_H
+#define INPUT_T1785128008_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Input
+struct  Input_t1785128008  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct Input_t1785128008_StaticFields
+{
+public:
+	// UnityEngine.Gyroscope UnityEngine.Input::m_MainGyro
+	Gyroscope_t1705362817 * ___m_MainGyro_0;
+
+public:
+	inline static int32_t get_offset_of_m_MainGyro_0() { return static_cast<int32_t>(offsetof(Input_t1785128008_StaticFields, ___m_MainGyro_0)); }
+	inline Gyroscope_t1705362817 * get_m_MainGyro_0() const { return ___m_MainGyro_0; }
+	inline Gyroscope_t1705362817 ** get_address_of_m_MainGyro_0() { return &___m_MainGyro_0; }
+	inline void set_m_MainGyro_0(Gyroscope_t1705362817 * value)
+	{
+		___m_MainGyro_0 = value;
+		Il2CppCodeGenWriteBarrier((&___m_MainGyro_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // INPUT_T1785128008_H
 #ifndef STRING_T_H
 #define STRING_T_H
 #ifdef __clang__
@@ -2373,16 +2041,222 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // STRING_T_H
-#ifndef DEBUGLOGHANDLER_T865810509_H
-#define DEBUGLOGHANDLER_T865810509_H
+#ifndef ANDROIDJAVAOBJECT_T4251328308_H
+#define ANDROIDJAVAOBJECT_T4251328308_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.DebugLogHandler
-struct  DebugLogHandler_t865810509  : public RuntimeObject
+// UnityEngine.AndroidJavaObject
+struct  AndroidJavaObject_t4251328308  : public RuntimeObject
+{
+public:
+	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidJavaObject::m_jobject
+	GlobalJavaObjectRef_t1417862413 * ___m_jobject_1;
+	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidJavaObject::m_jclass
+	GlobalJavaObjectRef_t1417862413 * ___m_jclass_2;
+
+public:
+	inline static int32_t get_offset_of_m_jobject_1() { return static_cast<int32_t>(offsetof(AndroidJavaObject_t4251328308, ___m_jobject_1)); }
+	inline GlobalJavaObjectRef_t1417862413 * get_m_jobject_1() const { return ___m_jobject_1; }
+	inline GlobalJavaObjectRef_t1417862413 ** get_address_of_m_jobject_1() { return &___m_jobject_1; }
+	inline void set_m_jobject_1(GlobalJavaObjectRef_t1417862413 * value)
+	{
+		___m_jobject_1 = value;
+		Il2CppCodeGenWriteBarrier((&___m_jobject_1), value);
+	}
+
+	inline static int32_t get_offset_of_m_jclass_2() { return static_cast<int32_t>(offsetof(AndroidJavaObject_t4251328308, ___m_jclass_2)); }
+	inline GlobalJavaObjectRef_t1417862413 * get_m_jclass_2() const { return ___m_jclass_2; }
+	inline GlobalJavaObjectRef_t1417862413 ** get_address_of_m_jclass_2() { return &___m_jclass_2; }
+	inline void set_m_jclass_2(GlobalJavaObjectRef_t1417862413 * value)
+	{
+		___m_jclass_2 = value;
+		Il2CppCodeGenWriteBarrier((&___m_jclass_2), value);
+	}
+};
+
+struct AndroidJavaObject_t4251328308_StaticFields
+{
+public:
+	// System.Boolean UnityEngine.AndroidJavaObject::enableDebugPrints
+	bool ___enableDebugPrints_0;
+	// UnityEngine.AndroidJavaClass UnityEngine.AndroidJavaObject::s_JavaLangClass
+	AndroidJavaClass_t2973420583 * ___s_JavaLangClass_3;
+
+public:
+	inline static int32_t get_offset_of_enableDebugPrints_0() { return static_cast<int32_t>(offsetof(AndroidJavaObject_t4251328308_StaticFields, ___enableDebugPrints_0)); }
+	inline bool get_enableDebugPrints_0() const { return ___enableDebugPrints_0; }
+	inline bool* get_address_of_enableDebugPrints_0() { return &___enableDebugPrints_0; }
+	inline void set_enableDebugPrints_0(bool value)
+	{
+		___enableDebugPrints_0 = value;
+	}
+
+	inline static int32_t get_offset_of_s_JavaLangClass_3() { return static_cast<int32_t>(offsetof(AndroidJavaObject_t4251328308_StaticFields, ___s_JavaLangClass_3)); }
+	inline AndroidJavaClass_t2973420583 * get_s_JavaLangClass_3() const { return ___s_JavaLangClass_3; }
+	inline AndroidJavaClass_t2973420583 ** get_address_of_s_JavaLangClass_3() { return &___s_JavaLangClass_3; }
+	inline void set_s_JavaLangClass_3(AndroidJavaClass_t2973420583 * value)
+	{
+		___s_JavaLangClass_3 = value;
+		Il2CppCodeGenWriteBarrier((&___s_JavaLangClass_3), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ANDROIDJAVAOBJECT_T4251328308_H
+#ifndef EXCEPTION_T1927440687_H
+#define EXCEPTION_T1927440687_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Exception
+struct  Exception_t1927440687  : public RuntimeObject
+{
+public:
+	// System.IntPtr[] System.Exception::trace_ips
+	IntPtrU5BU5D_t169632028* ___trace_ips_0;
+	// System.Exception System.Exception::inner_exception
+	Exception_t1927440687 * ___inner_exception_1;
+	// System.String System.Exception::message
+	String_t* ___message_2;
+	// System.String System.Exception::help_link
+	String_t* ___help_link_3;
+	// System.String System.Exception::class_name
+	String_t* ___class_name_4;
+	// System.String System.Exception::stack_trace
+	String_t* ___stack_trace_5;
+	// System.String System.Exception::_remoteStackTraceString
+	String_t* ____remoteStackTraceString_6;
+	// System.Int32 System.Exception::remote_stack_index
+	int32_t ___remote_stack_index_7;
+	// System.Int32 System.Exception::hresult
+	int32_t ___hresult_8;
+	// System.String System.Exception::source
+	String_t* ___source_9;
+	// System.Collections.IDictionary System.Exception::_data
+	RuntimeObject* ____data_10;
+
+public:
+	inline static int32_t get_offset_of_trace_ips_0() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___trace_ips_0)); }
+	inline IntPtrU5BU5D_t169632028* get_trace_ips_0() const { return ___trace_ips_0; }
+	inline IntPtrU5BU5D_t169632028** get_address_of_trace_ips_0() { return &___trace_ips_0; }
+	inline void set_trace_ips_0(IntPtrU5BU5D_t169632028* value)
+	{
+		___trace_ips_0 = value;
+		Il2CppCodeGenWriteBarrier((&___trace_ips_0), value);
+	}
+
+	inline static int32_t get_offset_of_inner_exception_1() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___inner_exception_1)); }
+	inline Exception_t1927440687 * get_inner_exception_1() const { return ___inner_exception_1; }
+	inline Exception_t1927440687 ** get_address_of_inner_exception_1() { return &___inner_exception_1; }
+	inline void set_inner_exception_1(Exception_t1927440687 * value)
+	{
+		___inner_exception_1 = value;
+		Il2CppCodeGenWriteBarrier((&___inner_exception_1), value);
+	}
+
+	inline static int32_t get_offset_of_message_2() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___message_2)); }
+	inline String_t* get_message_2() const { return ___message_2; }
+	inline String_t** get_address_of_message_2() { return &___message_2; }
+	inline void set_message_2(String_t* value)
+	{
+		___message_2 = value;
+		Il2CppCodeGenWriteBarrier((&___message_2), value);
+	}
+
+	inline static int32_t get_offset_of_help_link_3() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___help_link_3)); }
+	inline String_t* get_help_link_3() const { return ___help_link_3; }
+	inline String_t** get_address_of_help_link_3() { return &___help_link_3; }
+	inline void set_help_link_3(String_t* value)
+	{
+		___help_link_3 = value;
+		Il2CppCodeGenWriteBarrier((&___help_link_3), value);
+	}
+
+	inline static int32_t get_offset_of_class_name_4() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___class_name_4)); }
+	inline String_t* get_class_name_4() const { return ___class_name_4; }
+	inline String_t** get_address_of_class_name_4() { return &___class_name_4; }
+	inline void set_class_name_4(String_t* value)
+	{
+		___class_name_4 = value;
+		Il2CppCodeGenWriteBarrier((&___class_name_4), value);
+	}
+
+	inline static int32_t get_offset_of_stack_trace_5() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___stack_trace_5)); }
+	inline String_t* get_stack_trace_5() const { return ___stack_trace_5; }
+	inline String_t** get_address_of_stack_trace_5() { return &___stack_trace_5; }
+	inline void set_stack_trace_5(String_t* value)
+	{
+		___stack_trace_5 = value;
+		Il2CppCodeGenWriteBarrier((&___stack_trace_5), value);
+	}
+
+	inline static int32_t get_offset_of__remoteStackTraceString_6() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ____remoteStackTraceString_6)); }
+	inline String_t* get__remoteStackTraceString_6() const { return ____remoteStackTraceString_6; }
+	inline String_t** get_address_of__remoteStackTraceString_6() { return &____remoteStackTraceString_6; }
+	inline void set__remoteStackTraceString_6(String_t* value)
+	{
+		____remoteStackTraceString_6 = value;
+		Il2CppCodeGenWriteBarrier((&____remoteStackTraceString_6), value);
+	}
+
+	inline static int32_t get_offset_of_remote_stack_index_7() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___remote_stack_index_7)); }
+	inline int32_t get_remote_stack_index_7() const { return ___remote_stack_index_7; }
+	inline int32_t* get_address_of_remote_stack_index_7() { return &___remote_stack_index_7; }
+	inline void set_remote_stack_index_7(int32_t value)
+	{
+		___remote_stack_index_7 = value;
+	}
+
+	inline static int32_t get_offset_of_hresult_8() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___hresult_8)); }
+	inline int32_t get_hresult_8() const { return ___hresult_8; }
+	inline int32_t* get_address_of_hresult_8() { return &___hresult_8; }
+	inline void set_hresult_8(int32_t value)
+	{
+		___hresult_8 = value;
+	}
+
+	inline static int32_t get_offset_of_source_9() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___source_9)); }
+	inline String_t* get_source_9() const { return ___source_9; }
+	inline String_t** get_address_of_source_9() { return &___source_9; }
+	inline void set_source_9(String_t* value)
+	{
+		___source_9 = value;
+		Il2CppCodeGenWriteBarrier((&___source_9), value);
+	}
+
+	inline static int32_t get_offset_of__data_10() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ____data_10)); }
+	inline RuntimeObject* get__data_10() const { return ____data_10; }
+	inline RuntimeObject** get_address_of__data_10() { return &____data_10; }
+	inline void set__data_10(RuntimeObject* value)
+	{
+		____data_10 = value;
+		Il2CppCodeGenWriteBarrier((&____data_10), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EXCEPTION_T1927440687_H
+#ifndef GYROSCOPE_T1705362817_H
+#define GYROSCOPE_T1705362817_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Gyroscope
+struct  Gyroscope_t1705362817  : public RuntimeObject
 {
 public:
 
@@ -2392,17 +2266,54 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // DEBUGLOGHANDLER_T865810509_H
-#ifndef BASEINVOKABLECALL_T2229564840_H
-#define BASEINVOKABLECALL_T2229564840_H
+#endif // GYROSCOPE_T1705362817_H
+#ifndef STREAM_T3255436806_H
+#define STREAM_T3255436806_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Events.BaseInvokableCall
-struct  BaseInvokableCall_t2229564840  : public RuntimeObject
+// System.IO.Stream
+struct  Stream_t3255436806  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct Stream_t3255436806_StaticFields
+{
+public:
+	// System.IO.Stream System.IO.Stream::Null
+	Stream_t3255436806 * ___Null_0;
+
+public:
+	inline static int32_t get_offset_of_Null_0() { return static_cast<int32_t>(offsetof(Stream_t3255436806_StaticFields, ___Null_0)); }
+	inline Stream_t3255436806 * get_Null_0() const { return ___Null_0; }
+	inline Stream_t3255436806 ** get_address_of_Null_0() { return &___Null_0; }
+	inline void set_Null_0(Stream_t3255436806 * value)
+	{
+		___Null_0 = value;
+		Il2CppCodeGenWriteBarrier((&___Null_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // STREAM_T3255436806_H
+#ifndef _ANDROIDJNIHELPER_T1279286291_H
+#define _ANDROIDJNIHELPER_T1279286291_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine._AndroidJNIHelper
+struct  _AndroidJNIHelper_t1279286291  : public RuntimeObject
 {
 public:
 
@@ -2412,674 +2323,65 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // BASEINVOKABLECALL_T2229564840_H
-#ifndef MESSAGEEVENTARGS_T301283622_H
-#define MESSAGEEVENTARGS_T301283622_H
+#endif // _ANDROIDJNIHELPER_T1279286291_H
+#ifndef RENDERPIPELINEMANAGER_T984453155_H
+#define RENDERPIPELINEMANAGER_T984453155_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Networking.PlayerConnection.MessageEventArgs
-struct  MessageEventArgs_t301283622  : public RuntimeObject
+// UnityEngine.Experimental.Rendering.RenderPipelineManager
+struct  RenderPipelineManager_t984453155  : public RuntimeObject
 {
 public:
-	// System.Int32 UnityEngine.Networking.PlayerConnection.MessageEventArgs::playerId
-	int32_t ___playerId_0;
-	// System.Byte[] UnityEngine.Networking.PlayerConnection.MessageEventArgs::data
-	ByteU5BU5D_t3397334013* ___data_1;
 
 public:
-	inline static int32_t get_offset_of_playerId_0() { return static_cast<int32_t>(offsetof(MessageEventArgs_t301283622, ___playerId_0)); }
-	inline int32_t get_playerId_0() const { return ___playerId_0; }
-	inline int32_t* get_address_of_playerId_0() { return &___playerId_0; }
-	inline void set_playerId_0(int32_t value)
+};
+
+struct RenderPipelineManager_t984453155_StaticFields
+{
+public:
+	// UnityEngine.Experimental.Rendering.IRenderPipelineAsset UnityEngine.Experimental.Rendering.RenderPipelineManager::s_CurrentPipelineAsset
+	RuntimeObject* ___s_CurrentPipelineAsset_0;
+	// UnityEngine.Experimental.Rendering.IRenderPipeline UnityEngine.Experimental.Rendering.RenderPipelineManager::<currentPipeline>k__BackingField
+	RuntimeObject* ___U3CcurrentPipelineU3Ek__BackingField_1;
+
+public:
+	inline static int32_t get_offset_of_s_CurrentPipelineAsset_0() { return static_cast<int32_t>(offsetof(RenderPipelineManager_t984453155_StaticFields, ___s_CurrentPipelineAsset_0)); }
+	inline RuntimeObject* get_s_CurrentPipelineAsset_0() const { return ___s_CurrentPipelineAsset_0; }
+	inline RuntimeObject** get_address_of_s_CurrentPipelineAsset_0() { return &___s_CurrentPipelineAsset_0; }
+	inline void set_s_CurrentPipelineAsset_0(RuntimeObject* value)
 	{
-		___playerId_0 = value;
+		___s_CurrentPipelineAsset_0 = value;
+		Il2CppCodeGenWriteBarrier((&___s_CurrentPipelineAsset_0), value);
 	}
 
-	inline static int32_t get_offset_of_data_1() { return static_cast<int32_t>(offsetof(MessageEventArgs_t301283622, ___data_1)); }
-	inline ByteU5BU5D_t3397334013* get_data_1() const { return ___data_1; }
-	inline ByteU5BU5D_t3397334013** get_address_of_data_1() { return &___data_1; }
-	inline void set_data_1(ByteU5BU5D_t3397334013* value)
+	inline static int32_t get_offset_of_U3CcurrentPipelineU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(RenderPipelineManager_t984453155_StaticFields, ___U3CcurrentPipelineU3Ek__BackingField_1)); }
+	inline RuntimeObject* get_U3CcurrentPipelineU3Ek__BackingField_1() const { return ___U3CcurrentPipelineU3Ek__BackingField_1; }
+	inline RuntimeObject** get_address_of_U3CcurrentPipelineU3Ek__BackingField_1() { return &___U3CcurrentPipelineU3Ek__BackingField_1; }
+	inline void set_U3CcurrentPipelineU3Ek__BackingField_1(RuntimeObject* value)
 	{
-		___data_1 = value;
-		Il2CppCodeGenWriteBarrier((&___data_1), value);
+		___U3CcurrentPipelineU3Ek__BackingField_1 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CcurrentPipelineU3Ek__BackingField_1), value);
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // MESSAGEEVENTARGS_T301283622_H
-#ifndef LIST_1_T1612828711_H
-#define LIST_1_T1612828711_H
+#endif // RENDERPIPELINEMANAGER_T984453155_H
+#ifndef ATTRIBUTE_T542643598_H
+#define ATTRIBUTE_T542643598_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.Generic.List`1<UnityEngine.Vector2>
-struct  List_1_t1612828711  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	Vector2U5BU5D_t686124026* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t1612828711, ____items_1)); }
-	inline Vector2U5BU5D_t686124026* get__items_1() const { return ____items_1; }
-	inline Vector2U5BU5D_t686124026** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(Vector2U5BU5D_t686124026* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t1612828711, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t1612828711, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t1612828711_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	Vector2U5BU5D_t686124026* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t1612828711_StaticFields, ___EmptyArray_4)); }
-	inline Vector2U5BU5D_t686124026* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline Vector2U5BU5D_t686124026** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(Vector2U5BU5D_t686124026* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T1612828711_H
-#ifndef ARGUMENTCACHE_T4810721_H
-#define ARGUMENTCACHE_T4810721_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Events.ArgumentCache
-struct  ArgumentCache_t4810721  : public RuntimeObject
-{
-public:
-	// UnityEngine.Object UnityEngine.Events.ArgumentCache::m_ObjectArgument
-	Object_t1021602117 * ___m_ObjectArgument_0;
-	// System.String UnityEngine.Events.ArgumentCache::m_ObjectArgumentAssemblyTypeName
-	String_t* ___m_ObjectArgumentAssemblyTypeName_1;
-	// System.Int32 UnityEngine.Events.ArgumentCache::m_IntArgument
-	int32_t ___m_IntArgument_2;
-	// System.Single UnityEngine.Events.ArgumentCache::m_FloatArgument
-	float ___m_FloatArgument_3;
-	// System.String UnityEngine.Events.ArgumentCache::m_StringArgument
-	String_t* ___m_StringArgument_4;
-	// System.Boolean UnityEngine.Events.ArgumentCache::m_BoolArgument
-	bool ___m_BoolArgument_5;
-
-public:
-	inline static int32_t get_offset_of_m_ObjectArgument_0() { return static_cast<int32_t>(offsetof(ArgumentCache_t4810721, ___m_ObjectArgument_0)); }
-	inline Object_t1021602117 * get_m_ObjectArgument_0() const { return ___m_ObjectArgument_0; }
-	inline Object_t1021602117 ** get_address_of_m_ObjectArgument_0() { return &___m_ObjectArgument_0; }
-	inline void set_m_ObjectArgument_0(Object_t1021602117 * value)
-	{
-		___m_ObjectArgument_0 = value;
-		Il2CppCodeGenWriteBarrier((&___m_ObjectArgument_0), value);
-	}
-
-	inline static int32_t get_offset_of_m_ObjectArgumentAssemblyTypeName_1() { return static_cast<int32_t>(offsetof(ArgumentCache_t4810721, ___m_ObjectArgumentAssemblyTypeName_1)); }
-	inline String_t* get_m_ObjectArgumentAssemblyTypeName_1() const { return ___m_ObjectArgumentAssemblyTypeName_1; }
-	inline String_t** get_address_of_m_ObjectArgumentAssemblyTypeName_1() { return &___m_ObjectArgumentAssemblyTypeName_1; }
-	inline void set_m_ObjectArgumentAssemblyTypeName_1(String_t* value)
-	{
-		___m_ObjectArgumentAssemblyTypeName_1 = value;
-		Il2CppCodeGenWriteBarrier((&___m_ObjectArgumentAssemblyTypeName_1), value);
-	}
-
-	inline static int32_t get_offset_of_m_IntArgument_2() { return static_cast<int32_t>(offsetof(ArgumentCache_t4810721, ___m_IntArgument_2)); }
-	inline int32_t get_m_IntArgument_2() const { return ___m_IntArgument_2; }
-	inline int32_t* get_address_of_m_IntArgument_2() { return &___m_IntArgument_2; }
-	inline void set_m_IntArgument_2(int32_t value)
-	{
-		___m_IntArgument_2 = value;
-	}
-
-	inline static int32_t get_offset_of_m_FloatArgument_3() { return static_cast<int32_t>(offsetof(ArgumentCache_t4810721, ___m_FloatArgument_3)); }
-	inline float get_m_FloatArgument_3() const { return ___m_FloatArgument_3; }
-	inline float* get_address_of_m_FloatArgument_3() { return &___m_FloatArgument_3; }
-	inline void set_m_FloatArgument_3(float value)
-	{
-		___m_FloatArgument_3 = value;
-	}
-
-	inline static int32_t get_offset_of_m_StringArgument_4() { return static_cast<int32_t>(offsetof(ArgumentCache_t4810721, ___m_StringArgument_4)); }
-	inline String_t* get_m_StringArgument_4() const { return ___m_StringArgument_4; }
-	inline String_t** get_address_of_m_StringArgument_4() { return &___m_StringArgument_4; }
-	inline void set_m_StringArgument_4(String_t* value)
-	{
-		___m_StringArgument_4 = value;
-		Il2CppCodeGenWriteBarrier((&___m_StringArgument_4), value);
-	}
-
-	inline static int32_t get_offset_of_m_BoolArgument_5() { return static_cast<int32_t>(offsetof(ArgumentCache_t4810721, ___m_BoolArgument_5)); }
-	inline bool get_m_BoolArgument_5() const { return ___m_BoolArgument_5; }
-	inline bool* get_address_of_m_BoolArgument_5() { return &___m_BoolArgument_5; }
-	inline void set_m_BoolArgument_5(bool value)
-	{
-		___m_BoolArgument_5 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ARGUMENTCACHE_T4810721_H
-#ifndef LIST_1_T3188497603_H
-#define LIST_1_T3188497603_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<UnityEngine.Component>
-struct  List_1_t3188497603  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	ComponentU5BU5D_t4136971630* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t3188497603, ____items_1)); }
-	inline ComponentU5BU5D_t4136971630* get__items_1() const { return ____items_1; }
-	inline ComponentU5BU5D_t4136971630** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(ComponentU5BU5D_t4136971630* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t3188497603, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t3188497603, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t3188497603_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	ComponentU5BU5D_t4136971630* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t3188497603_StaticFields, ___EmptyArray_4)); }
-	inline ComponentU5BU5D_t4136971630* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline ComponentU5BU5D_t4136971630** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(ComponentU5BU5D_t4136971630* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T3188497603_H
-#ifndef LIST_1_T1660627182_H
-#define LIST_1_T1660627182_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers>
-struct  List_1_t1660627182  : public RuntimeObject
-{
-public:
-	// T[] System.Collections.Generic.List`1::_items
-	MessageTypeSubscribersU5BU5D_t2572700727* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1::_size
-	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1::_version
-	int32_t ____version_3;
-
-public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t1660627182, ____items_1)); }
-	inline MessageTypeSubscribersU5BU5D_t2572700727* get__items_1() const { return ____items_1; }
-	inline MessageTypeSubscribersU5BU5D_t2572700727** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(MessageTypeSubscribersU5BU5D_t2572700727* value)
-	{
-		____items_1 = value;
-		Il2CppCodeGenWriteBarrier((&____items_1), value);
-	}
-
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t1660627182, ____size_2)); }
-	inline int32_t get__size_2() const { return ____size_2; }
-	inline int32_t* get_address_of__size_2() { return &____size_2; }
-	inline void set__size_2(int32_t value)
-	{
-		____size_2 = value;
-	}
-
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t1660627182, ____version_3)); }
-	inline int32_t get__version_3() const { return ____version_3; }
-	inline int32_t* get_address_of__version_3() { return &____version_3; }
-	inline void set__version_3(int32_t value)
-	{
-		____version_3 = value;
-	}
-};
-
-struct List_1_t1660627182_StaticFields
-{
-public:
-	// T[] System.Collections.Generic.List`1::EmptyArray
-	MessageTypeSubscribersU5BU5D_t2572700727* ___EmptyArray_4;
-
-public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t1660627182_StaticFields, ___EmptyArray_4)); }
-	inline MessageTypeSubscribersU5BU5D_t2572700727* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline MessageTypeSubscribersU5BU5D_t2572700727** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(MessageTypeSubscribersU5BU5D_t2572700727* value)
-	{
-		___EmptyArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LIST_1_T1660627182_H
-#ifndef MESSAGETYPESUBSCRIBERS_T2291506050_H
-#define MESSAGETYPESUBSCRIBERS_T2291506050_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers
-struct  MessageTypeSubscribers_t2291506050  : public RuntimeObject
-{
-public:
-	// System.String UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers::m_messageTypeId
-	String_t* ___m_messageTypeId_0;
-	// System.Int32 UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers::subscriberCount
-	int32_t ___subscriberCount_1;
-	// UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageEvent UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers::messageCallback
-	MessageEvent_t2167079021 * ___messageCallback_2;
-
-public:
-	inline static int32_t get_offset_of_m_messageTypeId_0() { return static_cast<int32_t>(offsetof(MessageTypeSubscribers_t2291506050, ___m_messageTypeId_0)); }
-	inline String_t* get_m_messageTypeId_0() const { return ___m_messageTypeId_0; }
-	inline String_t** get_address_of_m_messageTypeId_0() { return &___m_messageTypeId_0; }
-	inline void set_m_messageTypeId_0(String_t* value)
-	{
-		___m_messageTypeId_0 = value;
-		Il2CppCodeGenWriteBarrier((&___m_messageTypeId_0), value);
-	}
-
-	inline static int32_t get_offset_of_subscriberCount_1() { return static_cast<int32_t>(offsetof(MessageTypeSubscribers_t2291506050, ___subscriberCount_1)); }
-	inline int32_t get_subscriberCount_1() const { return ___subscriberCount_1; }
-	inline int32_t* get_address_of_subscriberCount_1() { return &___subscriberCount_1; }
-	inline void set_subscriberCount_1(int32_t value)
-	{
-		___subscriberCount_1 = value;
-	}
-
-	inline static int32_t get_offset_of_messageCallback_2() { return static_cast<int32_t>(offsetof(MessageTypeSubscribers_t2291506050, ___messageCallback_2)); }
-	inline MessageEvent_t2167079021 * get_messageCallback_2() const { return ___messageCallback_2; }
-	inline MessageEvent_t2167079021 ** get_address_of_messageCallback_2() { return &___messageCallback_2; }
-	inline void set_messageCallback_2(MessageEvent_t2167079021 * value)
-	{
-		___messageCallback_2 = value;
-		Il2CppCodeGenWriteBarrier((&___messageCallback_2), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MESSAGETYPESUBSCRIBERS_T2291506050_H
-#ifndef PLAYEREDITORCONNECTIONEVENTS_T2252784345_H
-#define PLAYEREDITORCONNECTIONEVENTS_T2252784345_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents
-struct  PlayerEditorConnectionEvents_t2252784345  : public RuntimeObject
-{
-public:
-	// System.Collections.Generic.List`1<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers> UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents::messageTypeSubscribers
-	List_1_t1660627182 * ___messageTypeSubscribers_0;
-	// UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/ConnectionChangeEvent UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents::connectionEvent
-	ConnectionChangeEvent_t536719976 * ___connectionEvent_1;
-	// UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/ConnectionChangeEvent UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents::disconnectionEvent
-	ConnectionChangeEvent_t536719976 * ___disconnectionEvent_2;
-
-public:
-	inline static int32_t get_offset_of_messageTypeSubscribers_0() { return static_cast<int32_t>(offsetof(PlayerEditorConnectionEvents_t2252784345, ___messageTypeSubscribers_0)); }
-	inline List_1_t1660627182 * get_messageTypeSubscribers_0() const { return ___messageTypeSubscribers_0; }
-	inline List_1_t1660627182 ** get_address_of_messageTypeSubscribers_0() { return &___messageTypeSubscribers_0; }
-	inline void set_messageTypeSubscribers_0(List_1_t1660627182 * value)
-	{
-		___messageTypeSubscribers_0 = value;
-		Il2CppCodeGenWriteBarrier((&___messageTypeSubscribers_0), value);
-	}
-
-	inline static int32_t get_offset_of_connectionEvent_1() { return static_cast<int32_t>(offsetof(PlayerEditorConnectionEvents_t2252784345, ___connectionEvent_1)); }
-	inline ConnectionChangeEvent_t536719976 * get_connectionEvent_1() const { return ___connectionEvent_1; }
-	inline ConnectionChangeEvent_t536719976 ** get_address_of_connectionEvent_1() { return &___connectionEvent_1; }
-	inline void set_connectionEvent_1(ConnectionChangeEvent_t536719976 * value)
-	{
-		___connectionEvent_1 = value;
-		Il2CppCodeGenWriteBarrier((&___connectionEvent_1), value);
-	}
-
-	inline static int32_t get_offset_of_disconnectionEvent_2() { return static_cast<int32_t>(offsetof(PlayerEditorConnectionEvents_t2252784345, ___disconnectionEvent_2)); }
-	inline ConnectionChangeEvent_t536719976 * get_disconnectionEvent_2() const { return ___disconnectionEvent_2; }
-	inline ConnectionChangeEvent_t536719976 ** get_address_of_disconnectionEvent_2() { return &___disconnectionEvent_2; }
-	inline void set_disconnectionEvent_2(ConnectionChangeEvent_t536719976 * value)
-	{
-		___disconnectionEvent_2 = value;
-		Il2CppCodeGenWriteBarrier((&___disconnectionEvent_2), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PLAYEREDITORCONNECTIONEVENTS_T2252784345_H
-#ifndef INVOKABLECALL_T2183506063_H
-#define INVOKABLECALL_T2183506063_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Events.InvokableCall
-struct  InvokableCall_t2183506063  : public BaseInvokableCall_t2229564840
-{
-public:
-	// UnityEngine.Events.UnityAction UnityEngine.Events.InvokableCall::Delegate
-	UnityAction_t4025899511 * ___Delegate_0;
-
-public:
-	inline static int32_t get_offset_of_Delegate_0() { return static_cast<int32_t>(offsetof(InvokableCall_t2183506063, ___Delegate_0)); }
-	inline UnityAction_t4025899511 * get_Delegate_0() const { return ___Delegate_0; }
-	inline UnityAction_t4025899511 ** get_address_of_Delegate_0() { return &___Delegate_0; }
-	inline void set_Delegate_0(UnityAction_t4025899511 * value)
-	{
-		___Delegate_0 = value;
-		Il2CppCodeGenWriteBarrier((&___Delegate_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // INVOKABLECALL_T2183506063_H
-#ifndef CULLINGGROUPEVENT_T1057617917_H
-#define CULLINGGROUPEVENT_T1057617917_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.CullingGroupEvent
-struct  CullingGroupEvent_t1057617917 
-{
-public:
-	// System.Int32 UnityEngine.CullingGroupEvent::m_Index
-	int32_t ___m_Index_0;
-	// System.Byte UnityEngine.CullingGroupEvent::m_PrevState
-	uint8_t ___m_PrevState_1;
-	// System.Byte UnityEngine.CullingGroupEvent::m_ThisState
-	uint8_t ___m_ThisState_2;
-
-public:
-	inline static int32_t get_offset_of_m_Index_0() { return static_cast<int32_t>(offsetof(CullingGroupEvent_t1057617917, ___m_Index_0)); }
-	inline int32_t get_m_Index_0() const { return ___m_Index_0; }
-	inline int32_t* get_address_of_m_Index_0() { return &___m_Index_0; }
-	inline void set_m_Index_0(int32_t value)
-	{
-		___m_Index_0 = value;
-	}
-
-	inline static int32_t get_offset_of_m_PrevState_1() { return static_cast<int32_t>(offsetof(CullingGroupEvent_t1057617917, ___m_PrevState_1)); }
-	inline uint8_t get_m_PrevState_1() const { return ___m_PrevState_1; }
-	inline uint8_t* get_address_of_m_PrevState_1() { return &___m_PrevState_1; }
-	inline void set_m_PrevState_1(uint8_t value)
-	{
-		___m_PrevState_1 = value;
-	}
-
-	inline static int32_t get_offset_of_m_ThisState_2() { return static_cast<int32_t>(offsetof(CullingGroupEvent_t1057617917, ___m_ThisState_2)); }
-	inline uint8_t get_m_ThisState_2() const { return ___m_ThisState_2; }
-	inline uint8_t* get_address_of_m_ThisState_2() { return &___m_ThisState_2; }
-	inline void set_m_ThisState_2(uint8_t value)
-	{
-		___m_ThisState_2 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CULLINGGROUPEVENT_T1057617917_H
-#ifndef UNITYEVENT_T408735097_H
-#define UNITYEVENT_T408735097_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Events.UnityEvent
-struct  UnityEvent_t408735097  : public UnityEventBase_t828812576
-{
-public:
-	// System.Object[] UnityEngine.Events.UnityEvent::m_InvokeArray
-	ObjectU5BU5D_t3614634134* ___m_InvokeArray_4;
-
-public:
-	inline static int32_t get_offset_of_m_InvokeArray_4() { return static_cast<int32_t>(offsetof(UnityEvent_t408735097, ___m_InvokeArray_4)); }
-	inline ObjectU5BU5D_t3614634134* get_m_InvokeArray_4() const { return ___m_InvokeArray_4; }
-	inline ObjectU5BU5D_t3614634134** get_address_of_m_InvokeArray_4() { return &___m_InvokeArray_4; }
-	inline void set_m_InvokeArray_4(ObjectU5BU5D_t3614634134* value)
-	{
-		___m_InvokeArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___m_InvokeArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // UNITYEVENT_T408735097_H
-#ifndef ENUMERATOR_T1593300101_H
-#define ENUMERATOR_T1593300101_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1/Enumerator<System.Object>
-struct  Enumerator_t1593300101 
-{
-public:
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t2058570427 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
-	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
-	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator::current
-	RuntimeObject * ___current_3;
-
-public:
-	inline static int32_t get_offset_of_l_0() { return static_cast<int32_t>(offsetof(Enumerator_t1593300101, ___l_0)); }
-	inline List_1_t2058570427 * get_l_0() const { return ___l_0; }
-	inline List_1_t2058570427 ** get_address_of_l_0() { return &___l_0; }
-	inline void set_l_0(List_1_t2058570427 * value)
-	{
-		___l_0 = value;
-		Il2CppCodeGenWriteBarrier((&___l_0), value);
-	}
-
-	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t1593300101, ___next_1)); }
-	inline int32_t get_next_1() const { return ___next_1; }
-	inline int32_t* get_address_of_next_1() { return &___next_1; }
-	inline void set_next_1(int32_t value)
-	{
-		___next_1 = value;
-	}
-
-	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t1593300101, ___ver_2)); }
-	inline int32_t get_ver_2() const { return ___ver_2; }
-	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
-	inline void set_ver_2(int32_t value)
-	{
-		___ver_2 = value;
-	}
-
-	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t1593300101, ___current_3)); }
-	inline RuntimeObject * get_current_3() const { return ___current_3; }
-	inline RuntimeObject ** get_address_of_current_3() { return &___current_3; }
-	inline void set_current_3(RuntimeObject * value)
-	{
-		___current_3 = value;
-		Il2CppCodeGenWriteBarrier((&___current_3), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ENUMERATOR_T1593300101_H
-#ifndef ENUMERATOR_T2697287275_H
-#define ENUMERATOR_T2697287275_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>
-struct  Enumerator_t2697287275 
-{
-public:
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t3162557601 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
-	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
-	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator::current
-	PersistentCall_t3793436469 * ___current_3;
-
-public:
-	inline static int32_t get_offset_of_l_0() { return static_cast<int32_t>(offsetof(Enumerator_t2697287275, ___l_0)); }
-	inline List_1_t3162557601 * get_l_0() const { return ___l_0; }
-	inline List_1_t3162557601 ** get_address_of_l_0() { return &___l_0; }
-	inline void set_l_0(List_1_t3162557601 * value)
-	{
-		___l_0 = value;
-		Il2CppCodeGenWriteBarrier((&___l_0), value);
-	}
-
-	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t2697287275, ___next_1)); }
-	inline int32_t get_next_1() const { return ___next_1; }
-	inline int32_t* get_address_of_next_1() { return &___next_1; }
-	inline void set_next_1(int32_t value)
-	{
-		___next_1 = value;
-	}
-
-	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t2697287275, ___ver_2)); }
-	inline int32_t get_ver_2() const { return ___ver_2; }
-	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
-	inline void set_ver_2(int32_t value)
-	{
-		___ver_2 = value;
-	}
-
-	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t2697287275, ___current_3)); }
-	inline PersistentCall_t3793436469 * get_current_3() const { return ___current_3; }
-	inline PersistentCall_t3793436469 ** get_address_of_current_3() { return &___current_3; }
-	inline void set_current_3(PersistentCall_t3793436469 * value)
-	{
-		___current_3 = value;
-		Il2CppCodeGenWriteBarrier((&___current_3), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ENUMERATOR_T2697287275_H
-#ifndef DRIVENRECTTRANSFORMTRACKER_T154385424_H
-#define DRIVENRECTTRANSFORMTRACKER_T154385424_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.DrivenRectTransformTracker
-struct  DrivenRectTransformTracker_t154385424 
+// System.Attribute
+struct  Attribute_t542643598  : public RuntimeObject
 {
 public:
 
@@ -3089,404 +2391,17 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // DRIVENRECTTRANSFORMTRACKER_T154385424_H
-#ifndef PARAMETERMODIFIER_T1820634920_H
-#define PARAMETERMODIFIER_T1820634920_H
+#endif // ATTRIBUTE_T542643598_H
+#ifndef GIZMOS_T2256232573_H
+#define GIZMOS_T2256232573_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Reflection.ParameterModifier
-struct  ParameterModifier_t1820634920 
-{
-public:
-	// System.Boolean[] System.Reflection.ParameterModifier::_byref
-	BooleanU5BU5D_t3568034315* ____byref_0;
-
-public:
-	inline static int32_t get_offset_of__byref_0() { return static_cast<int32_t>(offsetof(ParameterModifier_t1820634920, ____byref_0)); }
-	inline BooleanU5BU5D_t3568034315* get__byref_0() const { return ____byref_0; }
-	inline BooleanU5BU5D_t3568034315** get_address_of__byref_0() { return &____byref_0; }
-	inline void set__byref_0(BooleanU5BU5D_t3568034315* value)
-	{
-		____byref_0 = value;
-		Il2CppCodeGenWriteBarrier((&____byref_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of System.Reflection.ParameterModifier
-struct ParameterModifier_t1820634920_marshaled_pinvoke
-{
-	int32_t* ____byref_0;
-};
-// Native definition for COM marshalling of System.Reflection.ParameterModifier
-struct ParameterModifier_t1820634920_marshaled_com
-{
-	int32_t* ____byref_0;
-};
-#endif // PARAMETERMODIFIER_T1820634920_H
-#ifndef GUID_T_H
-#define GUID_T_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Guid
-struct  Guid_t 
-{
-public:
-	// System.Int32 System.Guid::_a
-	int32_t ____a_0;
-	// System.Int16 System.Guid::_b
-	int16_t ____b_1;
-	// System.Int16 System.Guid::_c
-	int16_t ____c_2;
-	// System.Byte System.Guid::_d
-	uint8_t ____d_3;
-	// System.Byte System.Guid::_e
-	uint8_t ____e_4;
-	// System.Byte System.Guid::_f
-	uint8_t ____f_5;
-	// System.Byte System.Guid::_g
-	uint8_t ____g_6;
-	// System.Byte System.Guid::_h
-	uint8_t ____h_7;
-	// System.Byte System.Guid::_i
-	uint8_t ____i_8;
-	// System.Byte System.Guid::_j
-	uint8_t ____j_9;
-	// System.Byte System.Guid::_k
-	uint8_t ____k_10;
-
-public:
-	inline static int32_t get_offset_of__a_0() { return static_cast<int32_t>(offsetof(Guid_t, ____a_0)); }
-	inline int32_t get__a_0() const { return ____a_0; }
-	inline int32_t* get_address_of__a_0() { return &____a_0; }
-	inline void set__a_0(int32_t value)
-	{
-		____a_0 = value;
-	}
-
-	inline static int32_t get_offset_of__b_1() { return static_cast<int32_t>(offsetof(Guid_t, ____b_1)); }
-	inline int16_t get__b_1() const { return ____b_1; }
-	inline int16_t* get_address_of__b_1() { return &____b_1; }
-	inline void set__b_1(int16_t value)
-	{
-		____b_1 = value;
-	}
-
-	inline static int32_t get_offset_of__c_2() { return static_cast<int32_t>(offsetof(Guid_t, ____c_2)); }
-	inline int16_t get__c_2() const { return ____c_2; }
-	inline int16_t* get_address_of__c_2() { return &____c_2; }
-	inline void set__c_2(int16_t value)
-	{
-		____c_2 = value;
-	}
-
-	inline static int32_t get_offset_of__d_3() { return static_cast<int32_t>(offsetof(Guid_t, ____d_3)); }
-	inline uint8_t get__d_3() const { return ____d_3; }
-	inline uint8_t* get_address_of__d_3() { return &____d_3; }
-	inline void set__d_3(uint8_t value)
-	{
-		____d_3 = value;
-	}
-
-	inline static int32_t get_offset_of__e_4() { return static_cast<int32_t>(offsetof(Guid_t, ____e_4)); }
-	inline uint8_t get__e_4() const { return ____e_4; }
-	inline uint8_t* get_address_of__e_4() { return &____e_4; }
-	inline void set__e_4(uint8_t value)
-	{
-		____e_4 = value;
-	}
-
-	inline static int32_t get_offset_of__f_5() { return static_cast<int32_t>(offsetof(Guid_t, ____f_5)); }
-	inline uint8_t get__f_5() const { return ____f_5; }
-	inline uint8_t* get_address_of__f_5() { return &____f_5; }
-	inline void set__f_5(uint8_t value)
-	{
-		____f_5 = value;
-	}
-
-	inline static int32_t get_offset_of__g_6() { return static_cast<int32_t>(offsetof(Guid_t, ____g_6)); }
-	inline uint8_t get__g_6() const { return ____g_6; }
-	inline uint8_t* get_address_of__g_6() { return &____g_6; }
-	inline void set__g_6(uint8_t value)
-	{
-		____g_6 = value;
-	}
-
-	inline static int32_t get_offset_of__h_7() { return static_cast<int32_t>(offsetof(Guid_t, ____h_7)); }
-	inline uint8_t get__h_7() const { return ____h_7; }
-	inline uint8_t* get_address_of__h_7() { return &____h_7; }
-	inline void set__h_7(uint8_t value)
-	{
-		____h_7 = value;
-	}
-
-	inline static int32_t get_offset_of__i_8() { return static_cast<int32_t>(offsetof(Guid_t, ____i_8)); }
-	inline uint8_t get__i_8() const { return ____i_8; }
-	inline uint8_t* get_address_of__i_8() { return &____i_8; }
-	inline void set__i_8(uint8_t value)
-	{
-		____i_8 = value;
-	}
-
-	inline static int32_t get_offset_of__j_9() { return static_cast<int32_t>(offsetof(Guid_t, ____j_9)); }
-	inline uint8_t get__j_9() const { return ____j_9; }
-	inline uint8_t* get_address_of__j_9() { return &____j_9; }
-	inline void set__j_9(uint8_t value)
-	{
-		____j_9 = value;
-	}
-
-	inline static int32_t get_offset_of__k_10() { return static_cast<int32_t>(offsetof(Guid_t, ____k_10)); }
-	inline uint8_t get__k_10() const { return ____k_10; }
-	inline uint8_t* get_address_of__k_10() { return &____k_10; }
-	inline void set__k_10(uint8_t value)
-	{
-		____k_10 = value;
-	}
-};
-
-struct Guid_t_StaticFields
-{
-public:
-	// System.Guid System.Guid::Empty
-	Guid_t  ___Empty_11;
-	// System.Object System.Guid::_rngAccess
-	RuntimeObject * ____rngAccess_12;
-	// System.Security.Cryptography.RandomNumberGenerator System.Guid::_rng
-	RandomNumberGenerator_t2510243513 * ____rng_13;
-
-public:
-	inline static int32_t get_offset_of_Empty_11() { return static_cast<int32_t>(offsetof(Guid_t_StaticFields, ___Empty_11)); }
-	inline Guid_t  get_Empty_11() const { return ___Empty_11; }
-	inline Guid_t * get_address_of_Empty_11() { return &___Empty_11; }
-	inline void set_Empty_11(Guid_t  value)
-	{
-		___Empty_11 = value;
-	}
-
-	inline static int32_t get_offset_of__rngAccess_12() { return static_cast<int32_t>(offsetof(Guid_t_StaticFields, ____rngAccess_12)); }
-	inline RuntimeObject * get__rngAccess_12() const { return ____rngAccess_12; }
-	inline RuntimeObject ** get_address_of__rngAccess_12() { return &____rngAccess_12; }
-	inline void set__rngAccess_12(RuntimeObject * value)
-	{
-		____rngAccess_12 = value;
-		Il2CppCodeGenWriteBarrier((&____rngAccess_12), value);
-	}
-
-	inline static int32_t get_offset_of__rng_13() { return static_cast<int32_t>(offsetof(Guid_t_StaticFields, ____rng_13)); }
-	inline RandomNumberGenerator_t2510243513 * get__rng_13() const { return ____rng_13; }
-	inline RandomNumberGenerator_t2510243513 ** get_address_of__rng_13() { return &____rng_13; }
-	inline void set__rng_13(RandomNumberGenerator_t2510243513 * value)
-	{
-		____rng_13 = value;
-		Il2CppCodeGenWriteBarrier((&____rng_13), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GUID_T_H
-#ifndef UNITYEVENT_1_T2110227463_H
-#define UNITYEVENT_1_T2110227463_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Events.UnityEvent`1<System.Int32>
-struct  UnityEvent_1_t2110227463  : public UnityEventBase_t828812576
-{
-public:
-	// System.Object[] UnityEngine.Events.UnityEvent`1::m_InvokeArray
-	ObjectU5BU5D_t3614634134* ___m_InvokeArray_4;
-
-public:
-	inline static int32_t get_offset_of_m_InvokeArray_4() { return static_cast<int32_t>(offsetof(UnityEvent_1_t2110227463, ___m_InvokeArray_4)); }
-	inline ObjectU5BU5D_t3614634134* get_m_InvokeArray_4() const { return ___m_InvokeArray_4; }
-	inline ObjectU5BU5D_t3614634134** get_address_of_m_InvokeArray_4() { return &___m_InvokeArray_4; }
-	inline void set_m_InvokeArray_4(ObjectU5BU5D_t3614634134* value)
-	{
-		___m_InvokeArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___m_InvokeArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // UNITYEVENT_1_T2110227463_H
-#ifndef UNITYEVENT_1_T339633637_H
-#define UNITYEVENT_1_T339633637_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Events.UnityEvent`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs>
-struct  UnityEvent_1_t339633637  : public UnityEventBase_t828812576
-{
-public:
-	// System.Object[] UnityEngine.Events.UnityEvent`1::m_InvokeArray
-	ObjectU5BU5D_t3614634134* ___m_InvokeArray_4;
-
-public:
-	inline static int32_t get_offset_of_m_InvokeArray_4() { return static_cast<int32_t>(offsetof(UnityEvent_1_t339633637, ___m_InvokeArray_4)); }
-	inline ObjectU5BU5D_t3614634134* get_m_InvokeArray_4() const { return ___m_InvokeArray_4; }
-	inline ObjectU5BU5D_t3614634134** get_address_of_m_InvokeArray_4() { return &___m_InvokeArray_4; }
-	inline void set_m_InvokeArray_4(ObjectU5BU5D_t3614634134* value)
-	{
-		___m_InvokeArray_4 = value;
-		Il2CppCodeGenWriteBarrier((&___m_InvokeArray_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // UNITYEVENT_1_T339633637_H
-#ifndef QUATERNION_T4030073918_H
-#define QUATERNION_T4030073918_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Quaternion
-struct  Quaternion_t4030073918 
-{
-public:
-	// System.Single UnityEngine.Quaternion::x
-	float ___x_0;
-	// System.Single UnityEngine.Quaternion::y
-	float ___y_1;
-	// System.Single UnityEngine.Quaternion::z
-	float ___z_2;
-	// System.Single UnityEngine.Quaternion::w
-	float ___w_3;
-
-public:
-	inline static int32_t get_offset_of_x_0() { return static_cast<int32_t>(offsetof(Quaternion_t4030073918, ___x_0)); }
-	inline float get_x_0() const { return ___x_0; }
-	inline float* get_address_of_x_0() { return &___x_0; }
-	inline void set_x_0(float value)
-	{
-		___x_0 = value;
-	}
-
-	inline static int32_t get_offset_of_y_1() { return static_cast<int32_t>(offsetof(Quaternion_t4030073918, ___y_1)); }
-	inline float get_y_1() const { return ___y_1; }
-	inline float* get_address_of_y_1() { return &___y_1; }
-	inline void set_y_1(float value)
-	{
-		___y_1 = value;
-	}
-
-	inline static int32_t get_offset_of_z_2() { return static_cast<int32_t>(offsetof(Quaternion_t4030073918, ___z_2)); }
-	inline float get_z_2() const { return ___z_2; }
-	inline float* get_address_of_z_2() { return &___z_2; }
-	inline void set_z_2(float value)
-	{
-		___z_2 = value;
-	}
-
-	inline static int32_t get_offset_of_w_3() { return static_cast<int32_t>(offsetof(Quaternion_t4030073918, ___w_3)); }
-	inline float get_w_3() const { return ___w_3; }
-	inline float* get_address_of_w_3() { return &___w_3; }
-	inline void set_w_3(float value)
-	{
-		___w_3 = value;
-	}
-};
-
-struct Quaternion_t4030073918_StaticFields
-{
-public:
-	// UnityEngine.Quaternion UnityEngine.Quaternion::identityQuaternion
-	Quaternion_t4030073918  ___identityQuaternion_4;
-
-public:
-	inline static int32_t get_offset_of_identityQuaternion_4() { return static_cast<int32_t>(offsetof(Quaternion_t4030073918_StaticFields, ___identityQuaternion_4)); }
-	inline Quaternion_t4030073918  get_identityQuaternion_4() const { return ___identityQuaternion_4; }
-	inline Quaternion_t4030073918 * get_address_of_identityQuaternion_4() { return &___identityQuaternion_4; }
-	inline void set_identityQuaternion_4(Quaternion_t4030073918  value)
-	{
-		___identityQuaternion_4 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // QUATERNION_T4030073918_H
-#ifndef ENUM_T2459695545_H
-#define ENUM_T2459695545_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Enum
-struct  Enum_t2459695545  : public ValueType_t3507792607
-{
-public:
-
-public:
-};
-
-struct Enum_t2459695545_StaticFields
-{
-public:
-	// System.Char[] System.Enum::split_char
-	CharU5BU5D_t1328083999* ___split_char_0;
-
-public:
-	inline static int32_t get_offset_of_split_char_0() { return static_cast<int32_t>(offsetof(Enum_t2459695545_StaticFields, ___split_char_0)); }
-	inline CharU5BU5D_t1328083999* get_split_char_0() const { return ___split_char_0; }
-	inline CharU5BU5D_t1328083999** get_address_of_split_char_0() { return &___split_char_0; }
-	inline void set_split_char_0(CharU5BU5D_t1328083999* value)
-	{
-		___split_char_0 = value;
-		Il2CppCodeGenWriteBarrier((&___split_char_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of System.Enum
-struct Enum_t2459695545_marshaled_pinvoke
-{
-};
-// Native definition for COM marshalling of System.Enum
-struct Enum_t2459695545_marshaled_com
-{
-};
-#endif // ENUM_T2459695545_H
-#ifndef SYSTEMEXCEPTION_T3877406272_H
-#define SYSTEMEXCEPTION_T3877406272_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.SystemException
-struct  SystemException_t3877406272  : public Exception_t1927440687
+// UnityEngine.Gizmos
+struct  Gizmos_t2256232573  : public RuntimeObject
 {
 public:
 
@@ -3496,126 +2411,88 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // SYSTEMEXCEPTION_T3877406272_H
-#ifndef GCHANDLE_T3409268066_H
-#define GCHANDLE_T3409268066_H
+#endif // GIZMOS_T2256232573_H
+#ifndef STRINGBUILDER_T1221177846_H
+#define STRINGBUILDER_T1221177846_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Runtime.InteropServices.GCHandle
-struct  GCHandle_t3409268066 
+// System.Text.StringBuilder
+struct  StringBuilder_t1221177846  : public RuntimeObject
 {
 public:
-	// System.Int32 System.Runtime.InteropServices.GCHandle::handle
-	int32_t ___handle_0;
+	// System.Int32 System.Text.StringBuilder::_length
+	int32_t ____length_1;
+	// System.String System.Text.StringBuilder::_str
+	String_t* ____str_2;
+	// System.String System.Text.StringBuilder::_cached_str
+	String_t* ____cached_str_3;
+	// System.Int32 System.Text.StringBuilder::_maxCapacity
+	int32_t ____maxCapacity_4;
 
 public:
-	inline static int32_t get_offset_of_handle_0() { return static_cast<int32_t>(offsetof(GCHandle_t3409268066, ___handle_0)); }
-	inline int32_t get_handle_0() const { return ___handle_0; }
-	inline int32_t* get_address_of_handle_0() { return &___handle_0; }
-	inline void set_handle_0(int32_t value)
+	inline static int32_t get_offset_of__length_1() { return static_cast<int32_t>(offsetof(StringBuilder_t1221177846, ____length_1)); }
+	inline int32_t get__length_1() const { return ____length_1; }
+	inline int32_t* get_address_of__length_1() { return &____length_1; }
+	inline void set__length_1(int32_t value)
 	{
-		___handle_0 = value;
+		____length_1 = value;
+	}
+
+	inline static int32_t get_offset_of__str_2() { return static_cast<int32_t>(offsetof(StringBuilder_t1221177846, ____str_2)); }
+	inline String_t* get__str_2() const { return ____str_2; }
+	inline String_t** get_address_of__str_2() { return &____str_2; }
+	inline void set__str_2(String_t* value)
+	{
+		____str_2 = value;
+		Il2CppCodeGenWriteBarrier((&____str_2), value);
+	}
+
+	inline static int32_t get_offset_of__cached_str_3() { return static_cast<int32_t>(offsetof(StringBuilder_t1221177846, ____cached_str_3)); }
+	inline String_t* get__cached_str_3() const { return ____cached_str_3; }
+	inline String_t** get_address_of__cached_str_3() { return &____cached_str_3; }
+	inline void set__cached_str_3(String_t* value)
+	{
+		____cached_str_3 = value;
+		Il2CppCodeGenWriteBarrier((&____cached_str_3), value);
+	}
+
+	inline static int32_t get_offset_of__maxCapacity_4() { return static_cast<int32_t>(offsetof(StringBuilder_t1221177846, ____maxCapacity_4)); }
+	inline int32_t get__maxCapacity_4() const { return ____maxCapacity_4; }
+	inline int32_t* get_address_of__maxCapacity_4() { return &____maxCapacity_4; }
+	inline void set__maxCapacity_4(int32_t value)
+	{
+		____maxCapacity_4 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // GCHANDLE_T3409268066_H
-#ifndef INVOKABLECALL_1_T270836789_H
-#define INVOKABLECALL_1_T270836789_H
+#endif // STRINGBUILDER_T1221177846_H
+#ifndef MANAGEDSTREAMHELPERS_T1667331974_H
+#define MANAGEDSTREAMHELPERS_T1667331974_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Events.InvokableCall`1<System.Single>
-struct  InvokableCall_1_t270836789  : public BaseInvokableCall_t2229564840
+// UnityEngine.ManagedStreamHelpers
+struct  ManagedStreamHelpers_t1667331974  : public RuntimeObject
 {
 public:
-	// UnityEngine.Events.UnityAction`1<T1> UnityEngine.Events.InvokableCall`1::Delegate
-	UnityAction_1_t3443095683 * ___Delegate_0;
 
 public:
-	inline static int32_t get_offset_of_Delegate_0() { return static_cast<int32_t>(offsetof(InvokableCall_1_t270836789, ___Delegate_0)); }
-	inline UnityAction_1_t3443095683 * get_Delegate_0() const { return ___Delegate_0; }
-	inline UnityAction_1_t3443095683 ** get_address_of_Delegate_0() { return &___Delegate_0; }
-	inline void set_Delegate_0(UnityAction_1_t3443095683 * value)
-	{
-		___Delegate_0 = value;
-		Il2CppCodeGenWriteBarrier((&___Delegate_0), value);
-	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // INVOKABLECALL_1_T270836789_H
-#ifndef INVOKABLECALL_1_T266204305_H
-#define INVOKABLECALL_1_T266204305_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Events.InvokableCall`1<System.Int32>
-struct  InvokableCall_1_t266204305  : public BaseInvokableCall_t2229564840
-{
-public:
-	// UnityEngine.Events.UnityAction`1<T1> UnityEngine.Events.InvokableCall`1::Delegate
-	UnityAction_1_t3438463199 * ___Delegate_0;
-
-public:
-	inline static int32_t get_offset_of_Delegate_0() { return static_cast<int32_t>(offsetof(InvokableCall_1_t266204305, ___Delegate_0)); }
-	inline UnityAction_1_t3438463199 * get_Delegate_0() const { return ___Delegate_0; }
-	inline UnityAction_1_t3438463199 ** get_address_of_Delegate_0() { return &___Delegate_0; }
-	inline void set_Delegate_0(UnityAction_1_t3438463199 * value)
-	{
-		___Delegate_0 = value;
-		Il2CppCodeGenWriteBarrier((&___Delegate_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // INVOKABLECALL_1_T266204305_H
-#ifndef INVOKABLECALL_1_T223547090_H
-#define INVOKABLECALL_1_T223547090_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Events.InvokableCall`1<System.String>
-struct  InvokableCall_1_t223547090  : public BaseInvokableCall_t2229564840
-{
-public:
-	// UnityEngine.Events.UnityAction`1<T1> UnityEngine.Events.InvokableCall`1::Delegate
-	UnityAction_1_t3395805984 * ___Delegate_0;
-
-public:
-	inline static int32_t get_offset_of_Delegate_0() { return static_cast<int32_t>(offsetof(InvokableCall_1_t223547090, ___Delegate_0)); }
-	inline UnityAction_1_t3395805984 * get_Delegate_0() const { return ___Delegate_0; }
-	inline UnityAction_1_t3395805984 ** get_address_of_Delegate_0() { return &___Delegate_0; }
-	inline void set_Delegate_0(UnityAction_1_t3395805984 * value)
-	{
-		___Delegate_0 = value;
-		Il2CppCodeGenWriteBarrier((&___Delegate_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // INVOKABLECALL_1_T223547090_H
+#endif // MANAGEDSTREAMHELPERS_T1667331974_H
 #ifndef INVOKABLECALL_1_T2019901575_H
 #define INVOKABLECALL_1_T2019901575_H
 #ifdef __clang__
@@ -3646,45 +2523,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INVOKABLECALL_1_T2019901575_H
-#ifndef UINT64_T2909196914_H
-#define UINT64_T2909196914_H
+#ifndef CONTEXTMENU_T2283362202_H
+#define CONTEXTMENU_T2283362202_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.UInt64
-struct  UInt64_t2909196914 
-{
-public:
-	// System.UInt64 System.UInt64::m_value
-	uint64_t ___m_value_0;
-
-public:
-	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(UInt64_t2909196914, ___m_value_0)); }
-	inline uint64_t get_m_value_0() const { return ___m_value_0; }
-	inline uint64_t* get_address_of_m_value_0() { return &___m_value_0; }
-	inline void set_m_value_0(uint64_t value)
-	{
-		___m_value_0 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // UINT64_T2909196914_H
-#ifndef METHODBASE_T904190842_H
-#define METHODBASE_T904190842_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Reflection.MethodBase
-struct  MethodBase_t904190842  : public MemberInfo_t
+// UnityEngine.ContextMenu
+struct  ContextMenu_t2283362202  : public Attribute_t542643598
 {
 public:
 
@@ -3694,201 +2542,175 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // METHODBASE_T904190842_H
-#ifndef IL2CPPSTRUCTALIGNMENTATTRIBUTE_T130316838_H
-#define IL2CPPSTRUCTALIGNMENTATTRIBUTE_T130316838_H
+#endif // CONTEXTMENU_T2283362202_H
+#ifndef CSSSIZE_T1564391216_H
+#define CSSSIZE_T1564391216_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.IL2CPPStructAlignmentAttribute
-struct  IL2CPPStructAlignmentAttribute_t130316838  : public Attribute_t542643598
+// UnityEngine.CSSLayout.CSSSize
+struct  CSSSize_t1564391216 
 {
 public:
-	// System.Int32 UnityEngine.IL2CPPStructAlignmentAttribute::Align
-	int32_t ___Align_0;
+	// System.Single UnityEngine.CSSLayout.CSSSize::width
+	float ___width_0;
+	// System.Single UnityEngine.CSSLayout.CSSSize::height
+	float ___height_1;
 
 public:
-	inline static int32_t get_offset_of_Align_0() { return static_cast<int32_t>(offsetof(IL2CPPStructAlignmentAttribute_t130316838, ___Align_0)); }
-	inline int32_t get_Align_0() const { return ___Align_0; }
-	inline int32_t* get_address_of_Align_0() { return &___Align_0; }
-	inline void set_Align_0(int32_t value)
+	inline static int32_t get_offset_of_width_0() { return static_cast<int32_t>(offsetof(CSSSize_t1564391216, ___width_0)); }
+	inline float get_width_0() const { return ___width_0; }
+	inline float* get_address_of_width_0() { return &___width_0; }
+	inline void set_width_0(float value)
 	{
-		___Align_0 = value;
+		___width_0 = value;
+	}
+
+	inline static int32_t get_offset_of_height_1() { return static_cast<int32_t>(offsetof(CSSSize_t1564391216, ___height_1)); }
+	inline float get_height_1() const { return ___height_1; }
+	inline float* get_address_of_height_1() { return &___height_1; }
+	inline void set_height_1(float value)
+	{
+		___height_1 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // IL2CPPSTRUCTALIGNMENTATTRIBUTE_T130316838_H
-#ifndef VECTOR2_T2243707579_H
-#define VECTOR2_T2243707579_H
+#endif // CSSSIZE_T1564391216_H
+#ifndef INVOKABLECALL_1_T223547090_H
+#define INVOKABLECALL_1_T223547090_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Vector2
-struct  Vector2_t2243707579 
+// UnityEngine.Events.InvokableCall`1<System.String>
+struct  InvokableCall_1_t223547090  : public BaseInvokableCall_t2229564840
 {
 public:
-	// System.Single UnityEngine.Vector2::x
-	float ___x_0;
-	// System.Single UnityEngine.Vector2::y
-	float ___y_1;
+	// UnityEngine.Events.UnityAction`1<T1> UnityEngine.Events.InvokableCall`1::Delegate
+	UnityAction_1_t3395805984 * ___Delegate_0;
 
 public:
-	inline static int32_t get_offset_of_x_0() { return static_cast<int32_t>(offsetof(Vector2_t2243707579, ___x_0)); }
-	inline float get_x_0() const { return ___x_0; }
-	inline float* get_address_of_x_0() { return &___x_0; }
-	inline void set_x_0(float value)
+	inline static int32_t get_offset_of_Delegate_0() { return static_cast<int32_t>(offsetof(InvokableCall_1_t223547090, ___Delegate_0)); }
+	inline UnityAction_1_t3395805984 * get_Delegate_0() const { return ___Delegate_0; }
+	inline UnityAction_1_t3395805984 ** get_address_of_Delegate_0() { return &___Delegate_0; }
+	inline void set_Delegate_0(UnityAction_1_t3395805984 * value)
 	{
-		___x_0 = value;
-	}
-
-	inline static int32_t get_offset_of_y_1() { return static_cast<int32_t>(offsetof(Vector2_t2243707579, ___y_1)); }
-	inline float get_y_1() const { return ___y_1; }
-	inline float* get_address_of_y_1() { return &___y_1; }
-	inline void set_y_1(float value)
-	{
-		___y_1 = value;
-	}
-};
-
-struct Vector2_t2243707579_StaticFields
-{
-public:
-	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
-	Vector2_t2243707579  ___zeroVector_2;
-	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
-	Vector2_t2243707579  ___oneVector_3;
-	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
-	Vector2_t2243707579  ___upVector_4;
-	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
-	Vector2_t2243707579  ___downVector_5;
-	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
-	Vector2_t2243707579  ___leftVector_6;
-	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
-	Vector2_t2243707579  ___rightVector_7;
-	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
-	Vector2_t2243707579  ___positiveInfinityVector_8;
-	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
-	Vector2_t2243707579  ___negativeInfinityVector_9;
-
-public:
-	inline static int32_t get_offset_of_zeroVector_2() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___zeroVector_2)); }
-	inline Vector2_t2243707579  get_zeroVector_2() const { return ___zeroVector_2; }
-	inline Vector2_t2243707579 * get_address_of_zeroVector_2() { return &___zeroVector_2; }
-	inline void set_zeroVector_2(Vector2_t2243707579  value)
-	{
-		___zeroVector_2 = value;
-	}
-
-	inline static int32_t get_offset_of_oneVector_3() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___oneVector_3)); }
-	inline Vector2_t2243707579  get_oneVector_3() const { return ___oneVector_3; }
-	inline Vector2_t2243707579 * get_address_of_oneVector_3() { return &___oneVector_3; }
-	inline void set_oneVector_3(Vector2_t2243707579  value)
-	{
-		___oneVector_3 = value;
-	}
-
-	inline static int32_t get_offset_of_upVector_4() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___upVector_4)); }
-	inline Vector2_t2243707579  get_upVector_4() const { return ___upVector_4; }
-	inline Vector2_t2243707579 * get_address_of_upVector_4() { return &___upVector_4; }
-	inline void set_upVector_4(Vector2_t2243707579  value)
-	{
-		___upVector_4 = value;
-	}
-
-	inline static int32_t get_offset_of_downVector_5() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___downVector_5)); }
-	inline Vector2_t2243707579  get_downVector_5() const { return ___downVector_5; }
-	inline Vector2_t2243707579 * get_address_of_downVector_5() { return &___downVector_5; }
-	inline void set_downVector_5(Vector2_t2243707579  value)
-	{
-		___downVector_5 = value;
-	}
-
-	inline static int32_t get_offset_of_leftVector_6() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___leftVector_6)); }
-	inline Vector2_t2243707579  get_leftVector_6() const { return ___leftVector_6; }
-	inline Vector2_t2243707579 * get_address_of_leftVector_6() { return &___leftVector_6; }
-	inline void set_leftVector_6(Vector2_t2243707579  value)
-	{
-		___leftVector_6 = value;
-	}
-
-	inline static int32_t get_offset_of_rightVector_7() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___rightVector_7)); }
-	inline Vector2_t2243707579  get_rightVector_7() const { return ___rightVector_7; }
-	inline Vector2_t2243707579 * get_address_of_rightVector_7() { return &___rightVector_7; }
-	inline void set_rightVector_7(Vector2_t2243707579  value)
-	{
-		___rightVector_7 = value;
-	}
-
-	inline static int32_t get_offset_of_positiveInfinityVector_8() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___positiveInfinityVector_8)); }
-	inline Vector2_t2243707579  get_positiveInfinityVector_8() const { return ___positiveInfinityVector_8; }
-	inline Vector2_t2243707579 * get_address_of_positiveInfinityVector_8() { return &___positiveInfinityVector_8; }
-	inline void set_positiveInfinityVector_8(Vector2_t2243707579  value)
-	{
-		___positiveInfinityVector_8 = value;
-	}
-
-	inline static int32_t get_offset_of_negativeInfinityVector_9() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___negativeInfinityVector_9)); }
-	inline Vector2_t2243707579  get_negativeInfinityVector_9() const { return ___negativeInfinityVector_9; }
-	inline Vector2_t2243707579 * get_address_of_negativeInfinityVector_9() { return &___negativeInfinityVector_9; }
-	inline void set_negativeInfinityVector_9(Vector2_t2243707579  value)
-	{
-		___negativeInfinityVector_9 = value;
+		___Delegate_0 = value;
+		Il2CppCodeGenWriteBarrier((&___Delegate_0), value);
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // VECTOR2_T2243707579_H
-#ifndef DEFAULTVALUEATTRIBUTE_T1027170048_H
-#define DEFAULTVALUEATTRIBUTE_T1027170048_H
+#endif // INVOKABLECALL_1_T223547090_H
+#ifndef INVOKABLECALL_1_T266204305_H
+#define INVOKABLECALL_1_T266204305_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Internal.DefaultValueAttribute
-struct  DefaultValueAttribute_t1027170048  : public Attribute_t542643598
+// UnityEngine.Events.InvokableCall`1<System.Int32>
+struct  InvokableCall_1_t266204305  : public BaseInvokableCall_t2229564840
 {
 public:
-	// System.Object UnityEngine.Internal.DefaultValueAttribute::DefaultValue
-	RuntimeObject * ___DefaultValue_0;
+	// UnityEngine.Events.UnityAction`1<T1> UnityEngine.Events.InvokableCall`1::Delegate
+	UnityAction_1_t3438463199 * ___Delegate_0;
 
 public:
-	inline static int32_t get_offset_of_DefaultValue_0() { return static_cast<int32_t>(offsetof(DefaultValueAttribute_t1027170048, ___DefaultValue_0)); }
-	inline RuntimeObject * get_DefaultValue_0() const { return ___DefaultValue_0; }
-	inline RuntimeObject ** get_address_of_DefaultValue_0() { return &___DefaultValue_0; }
-	inline void set_DefaultValue_0(RuntimeObject * value)
+	inline static int32_t get_offset_of_Delegate_0() { return static_cast<int32_t>(offsetof(InvokableCall_1_t266204305, ___Delegate_0)); }
+	inline UnityAction_1_t3438463199 * get_Delegate_0() const { return ___Delegate_0; }
+	inline UnityAction_1_t3438463199 ** get_address_of_Delegate_0() { return &___Delegate_0; }
+	inline void set_Delegate_0(UnityAction_1_t3438463199 * value)
 	{
-		___DefaultValue_0 = value;
-		Il2CppCodeGenWriteBarrier((&___DefaultValue_0), value);
+		___Delegate_0 = value;
+		Il2CppCodeGenWriteBarrier((&___Delegate_0), value);
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // DEFAULTVALUEATTRIBUTE_T1027170048_H
-#ifndef EXCLUDEFROMDOCSATTRIBUTE_T665825653_H
-#define EXCLUDEFROMDOCSATTRIBUTE_T665825653_H
+#endif // INVOKABLECALL_1_T266204305_H
+#ifndef COLOR32_T874517518_H
+#define COLOR32_T874517518_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Internal.ExcludeFromDocsAttribute
-struct  ExcludeFromDocsAttribute_t665825653  : public Attribute_t542643598
+// UnityEngine.Color32
+struct ALIGN_TYPE(4) Color32_t874517518 
+{
+public:
+	// System.Byte UnityEngine.Color32::r
+	uint8_t ___r_0;
+	// System.Byte UnityEngine.Color32::g
+	uint8_t ___g_1;
+	// System.Byte UnityEngine.Color32::b
+	uint8_t ___b_2;
+	// System.Byte UnityEngine.Color32::a
+	uint8_t ___a_3;
+
+public:
+	inline static int32_t get_offset_of_r_0() { return static_cast<int32_t>(offsetof(Color32_t874517518, ___r_0)); }
+	inline uint8_t get_r_0() const { return ___r_0; }
+	inline uint8_t* get_address_of_r_0() { return &___r_0; }
+	inline void set_r_0(uint8_t value)
+	{
+		___r_0 = value;
+	}
+
+	inline static int32_t get_offset_of_g_1() { return static_cast<int32_t>(offsetof(Color32_t874517518, ___g_1)); }
+	inline uint8_t get_g_1() const { return ___g_1; }
+	inline uint8_t* get_address_of_g_1() { return &___g_1; }
+	inline void set_g_1(uint8_t value)
+	{
+		___g_1 = value;
+	}
+
+	inline static int32_t get_offset_of_b_2() { return static_cast<int32_t>(offsetof(Color32_t874517518, ___b_2)); }
+	inline uint8_t get_b_2() const { return ___b_2; }
+	inline uint8_t* get_address_of_b_2() { return &___b_2; }
+	inline void set_b_2(uint8_t value)
+	{
+		___b_2 = value;
+	}
+
+	inline static int32_t get_offset_of_a_3() { return static_cast<int32_t>(offsetof(Color32_t874517518, ___a_3)); }
+	inline uint8_t get_a_3() const { return ___a_3; }
+	inline uint8_t* get_address_of_a_3() { return &___a_3; }
+	inline void set_a_3(uint8_t value)
+	{
+		___a_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COLOR32_T874517518_H
+#ifndef DEALLOCATEONJOBCOMPLETIONATTRIBUTE_T987733588_H
+#define DEALLOCATEONJOBCOMPLETIONATTRIBUTE_T987733588_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Collections.DeallocateOnJobCompletionAttribute
+struct  DeallocateOnJobCompletionAttribute_t987733588  : public Attribute_t542643598
 {
 public:
 
@@ -3898,459 +2720,27 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // EXCLUDEFROMDOCSATTRIBUTE_T665825653_H
-#ifndef INT64_T909078037_H
-#define INT64_T909078037_H
+#endif // DEALLOCATEONJOBCOMPLETIONATTRIBUTE_T987733588_H
+#ifndef NATIVECONTAINERATTRIBUTE_T269240268_H
+#define NATIVECONTAINERATTRIBUTE_T269240268_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Int64
-struct  Int64_t909078037 
+// UnityEngine.Collections.NativeContainerAttribute
+struct  NativeContainerAttribute_t269240268  : public Attribute_t542643598
 {
 public:
-	// System.Int64 System.Int64::m_value
-	int64_t ___m_value_0;
 
 public:
-	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Int64_t909078037, ___m_value_0)); }
-	inline int64_t get_m_value_0() const { return ___m_value_0; }
-	inline int64_t* get_address_of_m_value_0() { return &___m_value_0; }
-	inline void set_m_value_0(int64_t value)
-	{
-		___m_value_0 = value;
-	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // INT64_T909078037_H
-#ifndef NATIVECLASSATTRIBUTE_T1576243993_H
-#define NATIVECLASSATTRIBUTE_T1576243993_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.NativeClassAttribute
-struct  NativeClassAttribute_t1576243993  : public Attribute_t542643598
-{
-public:
-	// System.String UnityEngine.NativeClassAttribute::<QualifiedNativeName>k__BackingField
-	String_t* ___U3CQualifiedNativeNameU3Ek__BackingField_0;
-
-public:
-	inline static int32_t get_offset_of_U3CQualifiedNativeNameU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(NativeClassAttribute_t1576243993, ___U3CQualifiedNativeNameU3Ek__BackingField_0)); }
-	inline String_t* get_U3CQualifiedNativeNameU3Ek__BackingField_0() const { return ___U3CQualifiedNativeNameU3Ek__BackingField_0; }
-	inline String_t** get_address_of_U3CQualifiedNativeNameU3Ek__BackingField_0() { return &___U3CQualifiedNativeNameU3Ek__BackingField_0; }
-	inline void set_U3CQualifiedNativeNameU3Ek__BackingField_0(String_t* value)
-	{
-		___U3CQualifiedNativeNameU3Ek__BackingField_0 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CQualifiedNativeNameU3Ek__BackingField_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // NATIVECLASSATTRIBUTE_T1576243993_H
-#ifndef MATRIX4X4_T2933234003_H
-#define MATRIX4X4_T2933234003_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Matrix4x4
-struct  Matrix4x4_t2933234003 
-{
-public:
-	// System.Single UnityEngine.Matrix4x4::m00
-	float ___m00_0;
-	// System.Single UnityEngine.Matrix4x4::m10
-	float ___m10_1;
-	// System.Single UnityEngine.Matrix4x4::m20
-	float ___m20_2;
-	// System.Single UnityEngine.Matrix4x4::m30
-	float ___m30_3;
-	// System.Single UnityEngine.Matrix4x4::m01
-	float ___m01_4;
-	// System.Single UnityEngine.Matrix4x4::m11
-	float ___m11_5;
-	// System.Single UnityEngine.Matrix4x4::m21
-	float ___m21_6;
-	// System.Single UnityEngine.Matrix4x4::m31
-	float ___m31_7;
-	// System.Single UnityEngine.Matrix4x4::m02
-	float ___m02_8;
-	// System.Single UnityEngine.Matrix4x4::m12
-	float ___m12_9;
-	// System.Single UnityEngine.Matrix4x4::m22
-	float ___m22_10;
-	// System.Single UnityEngine.Matrix4x4::m32
-	float ___m32_11;
-	// System.Single UnityEngine.Matrix4x4::m03
-	float ___m03_12;
-	// System.Single UnityEngine.Matrix4x4::m13
-	float ___m13_13;
-	// System.Single UnityEngine.Matrix4x4::m23
-	float ___m23_14;
-	// System.Single UnityEngine.Matrix4x4::m33
-	float ___m33_15;
-
-public:
-	inline static int32_t get_offset_of_m00_0() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m00_0)); }
-	inline float get_m00_0() const { return ___m00_0; }
-	inline float* get_address_of_m00_0() { return &___m00_0; }
-	inline void set_m00_0(float value)
-	{
-		___m00_0 = value;
-	}
-
-	inline static int32_t get_offset_of_m10_1() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m10_1)); }
-	inline float get_m10_1() const { return ___m10_1; }
-	inline float* get_address_of_m10_1() { return &___m10_1; }
-	inline void set_m10_1(float value)
-	{
-		___m10_1 = value;
-	}
-
-	inline static int32_t get_offset_of_m20_2() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m20_2)); }
-	inline float get_m20_2() const { return ___m20_2; }
-	inline float* get_address_of_m20_2() { return &___m20_2; }
-	inline void set_m20_2(float value)
-	{
-		___m20_2 = value;
-	}
-
-	inline static int32_t get_offset_of_m30_3() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m30_3)); }
-	inline float get_m30_3() const { return ___m30_3; }
-	inline float* get_address_of_m30_3() { return &___m30_3; }
-	inline void set_m30_3(float value)
-	{
-		___m30_3 = value;
-	}
-
-	inline static int32_t get_offset_of_m01_4() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m01_4)); }
-	inline float get_m01_4() const { return ___m01_4; }
-	inline float* get_address_of_m01_4() { return &___m01_4; }
-	inline void set_m01_4(float value)
-	{
-		___m01_4 = value;
-	}
-
-	inline static int32_t get_offset_of_m11_5() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m11_5)); }
-	inline float get_m11_5() const { return ___m11_5; }
-	inline float* get_address_of_m11_5() { return &___m11_5; }
-	inline void set_m11_5(float value)
-	{
-		___m11_5 = value;
-	}
-
-	inline static int32_t get_offset_of_m21_6() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m21_6)); }
-	inline float get_m21_6() const { return ___m21_6; }
-	inline float* get_address_of_m21_6() { return &___m21_6; }
-	inline void set_m21_6(float value)
-	{
-		___m21_6 = value;
-	}
-
-	inline static int32_t get_offset_of_m31_7() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m31_7)); }
-	inline float get_m31_7() const { return ___m31_7; }
-	inline float* get_address_of_m31_7() { return &___m31_7; }
-	inline void set_m31_7(float value)
-	{
-		___m31_7 = value;
-	}
-
-	inline static int32_t get_offset_of_m02_8() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m02_8)); }
-	inline float get_m02_8() const { return ___m02_8; }
-	inline float* get_address_of_m02_8() { return &___m02_8; }
-	inline void set_m02_8(float value)
-	{
-		___m02_8 = value;
-	}
-
-	inline static int32_t get_offset_of_m12_9() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m12_9)); }
-	inline float get_m12_9() const { return ___m12_9; }
-	inline float* get_address_of_m12_9() { return &___m12_9; }
-	inline void set_m12_9(float value)
-	{
-		___m12_9 = value;
-	}
-
-	inline static int32_t get_offset_of_m22_10() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m22_10)); }
-	inline float get_m22_10() const { return ___m22_10; }
-	inline float* get_address_of_m22_10() { return &___m22_10; }
-	inline void set_m22_10(float value)
-	{
-		___m22_10 = value;
-	}
-
-	inline static int32_t get_offset_of_m32_11() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m32_11)); }
-	inline float get_m32_11() const { return ___m32_11; }
-	inline float* get_address_of_m32_11() { return &___m32_11; }
-	inline void set_m32_11(float value)
-	{
-		___m32_11 = value;
-	}
-
-	inline static int32_t get_offset_of_m03_12() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m03_12)); }
-	inline float get_m03_12() const { return ___m03_12; }
-	inline float* get_address_of_m03_12() { return &___m03_12; }
-	inline void set_m03_12(float value)
-	{
-		___m03_12 = value;
-	}
-
-	inline static int32_t get_offset_of_m13_13() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m13_13)); }
-	inline float get_m13_13() const { return ___m13_13; }
-	inline float* get_address_of_m13_13() { return &___m13_13; }
-	inline void set_m13_13(float value)
-	{
-		___m13_13 = value;
-	}
-
-	inline static int32_t get_offset_of_m23_14() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m23_14)); }
-	inline float get_m23_14() const { return ___m23_14; }
-	inline float* get_address_of_m23_14() { return &___m23_14; }
-	inline void set_m23_14(float value)
-	{
-		___m23_14 = value;
-	}
-
-	inline static int32_t get_offset_of_m33_15() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m33_15)); }
-	inline float get_m33_15() const { return ___m33_15; }
-	inline float* get_address_of_m33_15() { return &___m33_15; }
-	inline void set_m33_15(float value)
-	{
-		___m33_15 = value;
-	}
-};
-
-struct Matrix4x4_t2933234003_StaticFields
-{
-public:
-	// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::zeroMatrix
-	Matrix4x4_t2933234003  ___zeroMatrix_16;
-	// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::identityMatrix
-	Matrix4x4_t2933234003  ___identityMatrix_17;
-
-public:
-	inline static int32_t get_offset_of_zeroMatrix_16() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003_StaticFields, ___zeroMatrix_16)); }
-	inline Matrix4x4_t2933234003  get_zeroMatrix_16() const { return ___zeroMatrix_16; }
-	inline Matrix4x4_t2933234003 * get_address_of_zeroMatrix_16() { return &___zeroMatrix_16; }
-	inline void set_zeroMatrix_16(Matrix4x4_t2933234003  value)
-	{
-		___zeroMatrix_16 = value;
-	}
-
-	inline static int32_t get_offset_of_identityMatrix_17() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003_StaticFields, ___identityMatrix_17)); }
-	inline Matrix4x4_t2933234003  get_identityMatrix_17() const { return ___identityMatrix_17; }
-	inline Matrix4x4_t2933234003 * get_address_of_identityMatrix_17() { return &___identityMatrix_17; }
-	inline void set_identityMatrix_17(Matrix4x4_t2933234003  value)
-	{
-		___identityMatrix_17 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MATRIX4X4_T2933234003_H
-#ifndef DOUBLE_T4078015681_H
-#define DOUBLE_T4078015681_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Double
-struct  Double_t4078015681 
-{
-public:
-	// System.Double System.Double::m_value
-	double ___m_value_13;
-
-public:
-	inline static int32_t get_offset_of_m_value_13() { return static_cast<int32_t>(offsetof(Double_t4078015681, ___m_value_13)); }
-	inline double get_m_value_13() const { return ___m_value_13; }
-	inline double* get_address_of_m_value_13() { return &___m_value_13; }
-	inline void set_m_value_13(double value)
-	{
-		___m_value_13 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // DOUBLE_T4078015681_H
-#ifndef MATHF_T2336485820_H
-#define MATHF_T2336485820_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Mathf
-struct  Mathf_t2336485820 
-{
-public:
-
-public:
-};
-
-struct Mathf_t2336485820_StaticFields
-{
-public:
-	// System.Single UnityEngine.Mathf::Epsilon
-	float ___Epsilon_0;
-
-public:
-	inline static int32_t get_offset_of_Epsilon_0() { return static_cast<int32_t>(offsetof(Mathf_t2336485820_StaticFields, ___Epsilon_0)); }
-	inline float get_Epsilon_0() const { return ___Epsilon_0; }
-	inline float* get_address_of_Epsilon_0() { return &___Epsilon_0; }
-	inline void set_Epsilon_0(float value)
-	{
-		___Epsilon_0 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MATHF_T2336485820_H
-#ifndef UINT32_T2149682021_H
-#define UINT32_T2149682021_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.UInt32
-struct  UInt32_t2149682021 
-{
-public:
-	// System.UInt32 System.UInt32::m_value
-	uint32_t ___m_value_0;
-
-public:
-	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(UInt32_t2149682021, ___m_value_0)); }
-	inline uint32_t get_m_value_0() const { return ___m_value_0; }
-	inline uint32_t* get_address_of_m_value_0() { return &___m_value_0; }
-	inline void set_m_value_0(uint32_t value)
-	{
-		___m_value_0 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // UINT32_T2149682021_H
-#ifndef LAYERMASK_T3188175821_H
-#define LAYERMASK_T3188175821_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.LayerMask
-struct  LayerMask_t3188175821 
-{
-public:
-	// System.Int32 UnityEngine.LayerMask::m_Mask
-	int32_t ___m_Mask_0;
-
-public:
-	inline static int32_t get_offset_of_m_Mask_0() { return static_cast<int32_t>(offsetof(LayerMask_t3188175821, ___m_Mask_0)); }
-	inline int32_t get_m_Mask_0() const { return ___m_Mask_0; }
-	inline int32_t* get_address_of_m_Mask_0() { return &___m_Mask_0; }
-	inline void set_m_Mask_0(int32_t value)
-	{
-		___m_Mask_0 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LAYERMASK_T3188175821_H
-#ifndef TIMESPAN_T3430258949_H
-#define TIMESPAN_T3430258949_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.TimeSpan
-struct  TimeSpan_t3430258949 
-{
-public:
-	// System.Int64 System.TimeSpan::_ticks
-	int64_t ____ticks_3;
-
-public:
-	inline static int32_t get_offset_of__ticks_3() { return static_cast<int32_t>(offsetof(TimeSpan_t3430258949, ____ticks_3)); }
-	inline int64_t get__ticks_3() const { return ____ticks_3; }
-	inline int64_t* get_address_of__ticks_3() { return &____ticks_3; }
-	inline void set__ticks_3(int64_t value)
-	{
-		____ticks_3 = value;
-	}
-};
-
-struct TimeSpan_t3430258949_StaticFields
-{
-public:
-	// System.TimeSpan System.TimeSpan::MaxValue
-	TimeSpan_t3430258949  ___MaxValue_0;
-	// System.TimeSpan System.TimeSpan::MinValue
-	TimeSpan_t3430258949  ___MinValue_1;
-	// System.TimeSpan System.TimeSpan::Zero
-	TimeSpan_t3430258949  ___Zero_2;
-
-public:
-	inline static int32_t get_offset_of_MaxValue_0() { return static_cast<int32_t>(offsetof(TimeSpan_t3430258949_StaticFields, ___MaxValue_0)); }
-	inline TimeSpan_t3430258949  get_MaxValue_0() const { return ___MaxValue_0; }
-	inline TimeSpan_t3430258949 * get_address_of_MaxValue_0() { return &___MaxValue_0; }
-	inline void set_MaxValue_0(TimeSpan_t3430258949  value)
-	{
-		___MaxValue_0 = value;
-	}
-
-	inline static int32_t get_offset_of_MinValue_1() { return static_cast<int32_t>(offsetof(TimeSpan_t3430258949_StaticFields, ___MinValue_1)); }
-	inline TimeSpan_t3430258949  get_MinValue_1() const { return ___MinValue_1; }
-	inline TimeSpan_t3430258949 * get_address_of_MinValue_1() { return &___MinValue_1; }
-	inline void set_MinValue_1(TimeSpan_t3430258949  value)
-	{
-		___MinValue_1 = value;
-	}
-
-	inline static int32_t get_offset_of_Zero_2() { return static_cast<int32_t>(offsetof(TimeSpan_t3430258949_StaticFields, ___Zero_2)); }
-	inline TimeSpan_t3430258949  get_Zero_2() const { return ___Zero_2; }
-	inline TimeSpan_t3430258949 * get_address_of_Zero_2() { return &___Zero_2; }
-	inline void set_Zero_2(TimeSpan_t3430258949  value)
-	{
-		___Zero_2 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // TIMESPAN_T3430258949_H
+#endif // NATIVECONTAINERATTRIBUTE_T269240268_H
 #ifndef NATIVECONTAINERSUPPORTSATOMICWRITEATTRIBUTE_T3267933728_H
 #define NATIVECONTAINERSUPPORTSATOMICWRITEATTRIBUTE_T3267933728_H
 #ifdef __clang__
@@ -4451,26 +2841,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // WRITEONLYATTRIBUTE_T14323075_H
-#ifndef ASSEMBLYISEDITORASSEMBLY_T1557026495_H
-#define ASSEMBLYISEDITORASSEMBLY_T1557026495_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.AssemblyIsEditorAssembly
-struct  AssemblyIsEditorAssembly_t1557026495  : public Attribute_t542643598
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ASSEMBLYISEDITORASSEMBLY_T1557026495_H
 #ifndef COLOR_T2020392075_H
 #define COLOR_T2020392075_H
 #ifdef __clang__
@@ -4635,16 +3005,481 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // VECTOR4_T2243707581_H
-#ifndef NATIVECONTAINERATTRIBUTE_T269240268_H
-#define NATIVECONTAINERATTRIBUTE_T269240268_H
+#ifndef INVOKABLECALL_1_T270836789_H
+#define INVOKABLECALL_1_T270836789_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Collections.NativeContainerAttribute
-struct  NativeContainerAttribute_t269240268  : public Attribute_t542643598
+// UnityEngine.Events.InvokableCall`1<System.Single>
+struct  InvokableCall_1_t270836789  : public BaseInvokableCall_t2229564840
+{
+public:
+	// UnityEngine.Events.UnityAction`1<T1> UnityEngine.Events.InvokableCall`1::Delegate
+	UnityAction_1_t3443095683 * ___Delegate_0;
+
+public:
+	inline static int32_t get_offset_of_Delegate_0() { return static_cast<int32_t>(offsetof(InvokableCall_1_t270836789, ___Delegate_0)); }
+	inline UnityAction_1_t3443095683 * get_Delegate_0() const { return ___Delegate_0; }
+	inline UnityAction_1_t3443095683 ** get_address_of_Delegate_0() { return &___Delegate_0; }
+	inline void set_Delegate_0(UnityAction_1_t3443095683 * value)
+	{
+		___Delegate_0 = value;
+		Il2CppCodeGenWriteBarrier((&___Delegate_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // INVOKABLECALL_1_T270836789_H
+#ifndef INVOKABLECALL_T2183506063_H
+#define INVOKABLECALL_T2183506063_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Events.InvokableCall
+struct  InvokableCall_t2183506063  : public BaseInvokableCall_t2229564840
+{
+public:
+	// UnityEngine.Events.UnityAction UnityEngine.Events.InvokableCall::Delegate
+	UnityAction_t4025899511 * ___Delegate_0;
+
+public:
+	inline static int32_t get_offset_of_Delegate_0() { return static_cast<int32_t>(offsetof(InvokableCall_t2183506063, ___Delegate_0)); }
+	inline UnityAction_t4025899511 * get_Delegate_0() const { return ___Delegate_0; }
+	inline UnityAction_t4025899511 ** get_address_of_Delegate_0() { return &___Delegate_0; }
+	inline void set_Delegate_0(UnityAction_t4025899511 * value)
+	{
+		___Delegate_0 = value;
+		Il2CppCodeGenWriteBarrier((&___Delegate_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // INVOKABLECALL_T2183506063_H
+#ifndef VECTOR2_T2243707579_H
+#define VECTOR2_T2243707579_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Vector2
+struct  Vector2_t2243707579 
+{
+public:
+	// System.Single UnityEngine.Vector2::x
+	float ___x_0;
+	// System.Single UnityEngine.Vector2::y
+	float ___y_1;
+
+public:
+	inline static int32_t get_offset_of_x_0() { return static_cast<int32_t>(offsetof(Vector2_t2243707579, ___x_0)); }
+	inline float get_x_0() const { return ___x_0; }
+	inline float* get_address_of_x_0() { return &___x_0; }
+	inline void set_x_0(float value)
+	{
+		___x_0 = value;
+	}
+
+	inline static int32_t get_offset_of_y_1() { return static_cast<int32_t>(offsetof(Vector2_t2243707579, ___y_1)); }
+	inline float get_y_1() const { return ___y_1; }
+	inline float* get_address_of_y_1() { return &___y_1; }
+	inline void set_y_1(float value)
+	{
+		___y_1 = value;
+	}
+};
+
+struct Vector2_t2243707579_StaticFields
+{
+public:
+	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
+	Vector2_t2243707579  ___zeroVector_2;
+	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
+	Vector2_t2243707579  ___oneVector_3;
+	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
+	Vector2_t2243707579  ___upVector_4;
+	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
+	Vector2_t2243707579  ___downVector_5;
+	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
+	Vector2_t2243707579  ___leftVector_6;
+	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
+	Vector2_t2243707579  ___rightVector_7;
+	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
+	Vector2_t2243707579  ___positiveInfinityVector_8;
+	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
+	Vector2_t2243707579  ___negativeInfinityVector_9;
+
+public:
+	inline static int32_t get_offset_of_zeroVector_2() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___zeroVector_2)); }
+	inline Vector2_t2243707579  get_zeroVector_2() const { return ___zeroVector_2; }
+	inline Vector2_t2243707579 * get_address_of_zeroVector_2() { return &___zeroVector_2; }
+	inline void set_zeroVector_2(Vector2_t2243707579  value)
+	{
+		___zeroVector_2 = value;
+	}
+
+	inline static int32_t get_offset_of_oneVector_3() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___oneVector_3)); }
+	inline Vector2_t2243707579  get_oneVector_3() const { return ___oneVector_3; }
+	inline Vector2_t2243707579 * get_address_of_oneVector_3() { return &___oneVector_3; }
+	inline void set_oneVector_3(Vector2_t2243707579  value)
+	{
+		___oneVector_3 = value;
+	}
+
+	inline static int32_t get_offset_of_upVector_4() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___upVector_4)); }
+	inline Vector2_t2243707579  get_upVector_4() const { return ___upVector_4; }
+	inline Vector2_t2243707579 * get_address_of_upVector_4() { return &___upVector_4; }
+	inline void set_upVector_4(Vector2_t2243707579  value)
+	{
+		___upVector_4 = value;
+	}
+
+	inline static int32_t get_offset_of_downVector_5() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___downVector_5)); }
+	inline Vector2_t2243707579  get_downVector_5() const { return ___downVector_5; }
+	inline Vector2_t2243707579 * get_address_of_downVector_5() { return &___downVector_5; }
+	inline void set_downVector_5(Vector2_t2243707579  value)
+	{
+		___downVector_5 = value;
+	}
+
+	inline static int32_t get_offset_of_leftVector_6() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___leftVector_6)); }
+	inline Vector2_t2243707579  get_leftVector_6() const { return ___leftVector_6; }
+	inline Vector2_t2243707579 * get_address_of_leftVector_6() { return &___leftVector_6; }
+	inline void set_leftVector_6(Vector2_t2243707579  value)
+	{
+		___leftVector_6 = value;
+	}
+
+	inline static int32_t get_offset_of_rightVector_7() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___rightVector_7)); }
+	inline Vector2_t2243707579  get_rightVector_7() const { return ___rightVector_7; }
+	inline Vector2_t2243707579 * get_address_of_rightVector_7() { return &___rightVector_7; }
+	inline void set_rightVector_7(Vector2_t2243707579  value)
+	{
+		___rightVector_7 = value;
+	}
+
+	inline static int32_t get_offset_of_positiveInfinityVector_8() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___positiveInfinityVector_8)); }
+	inline Vector2_t2243707579  get_positiveInfinityVector_8() const { return ___positiveInfinityVector_8; }
+	inline Vector2_t2243707579 * get_address_of_positiveInfinityVector_8() { return &___positiveInfinityVector_8; }
+	inline void set_positiveInfinityVector_8(Vector2_t2243707579  value)
+	{
+		___positiveInfinityVector_8 = value;
+	}
+
+	inline static int32_t get_offset_of_negativeInfinityVector_9() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___negativeInfinityVector_9)); }
+	inline Vector2_t2243707579  get_negativeInfinityVector_9() const { return ___negativeInfinityVector_9; }
+	inline Vector2_t2243707579 * get_address_of_negativeInfinityVector_9() { return &___negativeInfinityVector_9; }
+	inline void set_negativeInfinityVector_9(Vector2_t2243707579  value)
+	{
+		___negativeInfinityVector_9 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // VECTOR2_T2243707579_H
+#ifndef IL2CPPSTRUCTALIGNMENTATTRIBUTE_T130316838_H
+#define IL2CPPSTRUCTALIGNMENTATTRIBUTE_T130316838_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.IL2CPPStructAlignmentAttribute
+struct  IL2CPPStructAlignmentAttribute_t130316838  : public Attribute_t542643598
+{
+public:
+	// System.Int32 UnityEngine.IL2CPPStructAlignmentAttribute::Align
+	int32_t ___Align_0;
+
+public:
+	inline static int32_t get_offset_of_Align_0() { return static_cast<int32_t>(offsetof(IL2CPPStructAlignmentAttribute_t130316838, ___Align_0)); }
+	inline int32_t get_Align_0() const { return ___Align_0; }
+	inline int32_t* get_address_of_Align_0() { return &___Align_0; }
+	inline void set_Align_0(int32_t value)
+	{
+		___Align_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // IL2CPPSTRUCTALIGNMENTATTRIBUTE_T130316838_H
+#ifndef ENUMERATOR_T2697287275_H
+#define ENUMERATOR_T2697287275_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>
+struct  Enumerator_t2697287275 
+{
+public:
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t3162557601 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
+	int32_t ___next_1;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
+	int32_t ___ver_2;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	PersistentCall_t3793436469 * ___current_3;
+
+public:
+	inline static int32_t get_offset_of_l_0() { return static_cast<int32_t>(offsetof(Enumerator_t2697287275, ___l_0)); }
+	inline List_1_t3162557601 * get_l_0() const { return ___l_0; }
+	inline List_1_t3162557601 ** get_address_of_l_0() { return &___l_0; }
+	inline void set_l_0(List_1_t3162557601 * value)
+	{
+		___l_0 = value;
+		Il2CppCodeGenWriteBarrier((&___l_0), value);
+	}
+
+	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t2697287275, ___next_1)); }
+	inline int32_t get_next_1() const { return ___next_1; }
+	inline int32_t* get_address_of_next_1() { return &___next_1; }
+	inline void set_next_1(int32_t value)
+	{
+		___next_1 = value;
+	}
+
+	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t2697287275, ___ver_2)); }
+	inline int32_t get_ver_2() const { return ___ver_2; }
+	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
+	inline void set_ver_2(int32_t value)
+	{
+		___ver_2 = value;
+	}
+
+	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t2697287275, ___current_3)); }
+	inline PersistentCall_t3793436469 * get_current_3() const { return ___current_3; }
+	inline PersistentCall_t3793436469 ** get_address_of_current_3() { return &___current_3; }
+	inline void set_current_3(PersistentCall_t3793436469 * value)
+	{
+		___current_3 = value;
+		Il2CppCodeGenWriteBarrier((&___current_3), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ENUMERATOR_T2697287275_H
+#ifndef ENUMERATOR_T1593300101_H
+#define ENUMERATOR_T1593300101_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1/Enumerator<System.Object>
+struct  Enumerator_t1593300101 
+{
+public:
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t2058570427 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
+	int32_t ___next_1;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
+	int32_t ___ver_2;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	RuntimeObject * ___current_3;
+
+public:
+	inline static int32_t get_offset_of_l_0() { return static_cast<int32_t>(offsetof(Enumerator_t1593300101, ___l_0)); }
+	inline List_1_t2058570427 * get_l_0() const { return ___l_0; }
+	inline List_1_t2058570427 ** get_address_of_l_0() { return &___l_0; }
+	inline void set_l_0(List_1_t2058570427 * value)
+	{
+		___l_0 = value;
+		Il2CppCodeGenWriteBarrier((&___l_0), value);
+	}
+
+	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t1593300101, ___next_1)); }
+	inline int32_t get_next_1() const { return ___next_1; }
+	inline int32_t* get_address_of_next_1() { return &___next_1; }
+	inline void set_next_1(int32_t value)
+	{
+		___next_1 = value;
+	}
+
+	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t1593300101, ___ver_2)); }
+	inline int32_t get_ver_2() const { return ___ver_2; }
+	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
+	inline void set_ver_2(int32_t value)
+	{
+		___ver_2 = value;
+	}
+
+	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t1593300101, ___current_3)); }
+	inline RuntimeObject * get_current_3() const { return ___current_3; }
+	inline RuntimeObject ** get_address_of_current_3() { return &___current_3; }
+	inline void set_current_3(RuntimeObject * value)
+	{
+		___current_3 = value;
+		Il2CppCodeGenWriteBarrier((&___current_3), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ENUMERATOR_T1593300101_H
+#ifndef UNITYEVENT_T408735097_H
+#define UNITYEVENT_T408735097_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Events.UnityEvent
+struct  UnityEvent_t408735097  : public UnityEventBase_t828812576
+{
+public:
+	// System.Object[] UnityEngine.Events.UnityEvent::m_InvokeArray
+	ObjectU5BU5D_t3614634134* ___m_InvokeArray_4;
+
+public:
+	inline static int32_t get_offset_of_m_InvokeArray_4() { return static_cast<int32_t>(offsetof(UnityEvent_t408735097, ___m_InvokeArray_4)); }
+	inline ObjectU5BU5D_t3614634134* get_m_InvokeArray_4() const { return ___m_InvokeArray_4; }
+	inline ObjectU5BU5D_t3614634134** get_address_of_m_InvokeArray_4() { return &___m_InvokeArray_4; }
+	inline void set_m_InvokeArray_4(ObjectU5BU5D_t3614634134* value)
+	{
+		___m_InvokeArray_4 = value;
+		Il2CppCodeGenWriteBarrier((&___m_InvokeArray_4), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UNITYEVENT_T408735097_H
+#ifndef PARAMETERMODIFIER_T1820634920_H
+#define PARAMETERMODIFIER_T1820634920_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Reflection.ParameterModifier
+struct  ParameterModifier_t1820634920 
+{
+public:
+	// System.Boolean[] System.Reflection.ParameterModifier::_byref
+	BooleanU5BU5D_t3568034315* ____byref_0;
+
+public:
+	inline static int32_t get_offset_of__byref_0() { return static_cast<int32_t>(offsetof(ParameterModifier_t1820634920, ____byref_0)); }
+	inline BooleanU5BU5D_t3568034315* get__byref_0() const { return ____byref_0; }
+	inline BooleanU5BU5D_t3568034315** get_address_of__byref_0() { return &____byref_0; }
+	inline void set__byref_0(BooleanU5BU5D_t3568034315* value)
+	{
+		____byref_0 = value;
+		Il2CppCodeGenWriteBarrier((&____byref_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of System.Reflection.ParameterModifier
+struct ParameterModifier_t1820634920_marshaled_pinvoke
+{
+	int32_t* ____byref_0;
+};
+// Native definition for COM marshalling of System.Reflection.ParameterModifier
+struct ParameterModifier_t1820634920_marshaled_com
+{
+	int32_t* ____byref_0;
+};
+#endif // PARAMETERMODIFIER_T1820634920_H
+#ifndef DEFAULTVALUEATTRIBUTE_T1027170048_H
+#define DEFAULTVALUEATTRIBUTE_T1027170048_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Internal.DefaultValueAttribute
+struct  DefaultValueAttribute_t1027170048  : public Attribute_t542643598
+{
+public:
+	// System.Object UnityEngine.Internal.DefaultValueAttribute::DefaultValue
+	RuntimeObject * ___DefaultValue_0;
+
+public:
+	inline static int32_t get_offset_of_DefaultValue_0() { return static_cast<int32_t>(offsetof(DefaultValueAttribute_t1027170048, ___DefaultValue_0)); }
+	inline RuntimeObject * get_DefaultValue_0() const { return ___DefaultValue_0; }
+	inline RuntimeObject ** get_address_of_DefaultValue_0() { return &___DefaultValue_0; }
+	inline void set_DefaultValue_0(RuntimeObject * value)
+	{
+		___DefaultValue_0 = value;
+		Il2CppCodeGenWriteBarrier((&___DefaultValue_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DEFAULTVALUEATTRIBUTE_T1027170048_H
+#ifndef GCHANDLE_T3409268066_H
+#define GCHANDLE_T3409268066_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Runtime.InteropServices.GCHandle
+struct  GCHandle_t3409268066 
+{
+public:
+	// System.Int32 System.Runtime.InteropServices.GCHandle::handle
+	int32_t ___handle_0;
+
+public:
+	inline static int32_t get_offset_of_handle_0() { return static_cast<int32_t>(offsetof(GCHandle_t3409268066, ___handle_0)); }
+	inline int32_t get_handle_0() const { return ___handle_0; }
+	inline int32_t* get_address_of_handle_0() { return &___handle_0; }
+	inline void set_handle_0(int32_t value)
+	{
+		___handle_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GCHANDLE_T3409268066_H
+#ifndef SYSTEMEXCEPTION_T3877406272_H
+#define SYSTEMEXCEPTION_T3877406272_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.SystemException
+struct  SystemException_t3877406272  : public Exception_t1927440687
 {
 public:
 
@@ -4654,66 +3489,892 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // NATIVECONTAINERATTRIBUTE_T269240268_H
-#ifndef RECT_T3681755626_H
-#define RECT_T3681755626_H
+#endif // SYSTEMEXCEPTION_T3877406272_H
+#ifndef ENUM_T2459695545_H
+#define ENUM_T2459695545_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Rect
-struct  Rect_t3681755626 
+// System.Enum
+struct  Enum_t2459695545  : public ValueType_t3507792607
 {
 public:
-	// System.Single UnityEngine.Rect::m_XMin
-	float ___m_XMin_0;
-	// System.Single UnityEngine.Rect::m_YMin
-	float ___m_YMin_1;
-	// System.Single UnityEngine.Rect::m_Width
-	float ___m_Width_2;
-	// System.Single UnityEngine.Rect::m_Height
-	float ___m_Height_3;
 
 public:
-	inline static int32_t get_offset_of_m_XMin_0() { return static_cast<int32_t>(offsetof(Rect_t3681755626, ___m_XMin_0)); }
-	inline float get_m_XMin_0() const { return ___m_XMin_0; }
-	inline float* get_address_of_m_XMin_0() { return &___m_XMin_0; }
-	inline void set_m_XMin_0(float value)
-	{
-		___m_XMin_0 = value;
-	}
+};
 
-	inline static int32_t get_offset_of_m_YMin_1() { return static_cast<int32_t>(offsetof(Rect_t3681755626, ___m_YMin_1)); }
-	inline float get_m_YMin_1() const { return ___m_YMin_1; }
-	inline float* get_address_of_m_YMin_1() { return &___m_YMin_1; }
-	inline void set_m_YMin_1(float value)
-	{
-		___m_YMin_1 = value;
-	}
+struct Enum_t2459695545_StaticFields
+{
+public:
+	// System.Char[] System.Enum::split_char
+	CharU5BU5D_t1328083999* ___split_char_0;
 
-	inline static int32_t get_offset_of_m_Width_2() { return static_cast<int32_t>(offsetof(Rect_t3681755626, ___m_Width_2)); }
-	inline float get_m_Width_2() const { return ___m_Width_2; }
-	inline float* get_address_of_m_Width_2() { return &___m_Width_2; }
-	inline void set_m_Width_2(float value)
+public:
+	inline static int32_t get_offset_of_split_char_0() { return static_cast<int32_t>(offsetof(Enum_t2459695545_StaticFields, ___split_char_0)); }
+	inline CharU5BU5D_t1328083999* get_split_char_0() const { return ___split_char_0; }
+	inline CharU5BU5D_t1328083999** get_address_of_split_char_0() { return &___split_char_0; }
+	inline void set_split_char_0(CharU5BU5D_t1328083999* value)
 	{
-		___m_Width_2 = value;
-	}
-
-	inline static int32_t get_offset_of_m_Height_3() { return static_cast<int32_t>(offsetof(Rect_t3681755626, ___m_Height_3)); }
-	inline float get_m_Height_3() const { return ___m_Height_3; }
-	inline float* get_address_of_m_Height_3() { return &___m_Height_3; }
-	inline void set_m_Height_3(float value)
-	{
-		___m_Height_3 = value;
+		___split_char_0 = value;
+		Il2CppCodeGenWriteBarrier((&___split_char_0), value);
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // RECT_T3681755626_H
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2459695545_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2459695545_marshaled_com
+{
+};
+#endif // ENUM_T2459695545_H
+#ifndef CULLINGGROUPEVENT_T1057617917_H
+#define CULLINGGROUPEVENT_T1057617917_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.CullingGroupEvent
+struct  CullingGroupEvent_t1057617917 
+{
+public:
+	// System.Int32 UnityEngine.CullingGroupEvent::m_Index
+	int32_t ___m_Index_0;
+	// System.Byte UnityEngine.CullingGroupEvent::m_PrevState
+	uint8_t ___m_PrevState_1;
+	// System.Byte UnityEngine.CullingGroupEvent::m_ThisState
+	uint8_t ___m_ThisState_2;
+
+public:
+	inline static int32_t get_offset_of_m_Index_0() { return static_cast<int32_t>(offsetof(CullingGroupEvent_t1057617917, ___m_Index_0)); }
+	inline int32_t get_m_Index_0() const { return ___m_Index_0; }
+	inline int32_t* get_address_of_m_Index_0() { return &___m_Index_0; }
+	inline void set_m_Index_0(int32_t value)
+	{
+		___m_Index_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_PrevState_1() { return static_cast<int32_t>(offsetof(CullingGroupEvent_t1057617917, ___m_PrevState_1)); }
+	inline uint8_t get_m_PrevState_1() const { return ___m_PrevState_1; }
+	inline uint8_t* get_address_of_m_PrevState_1() { return &___m_PrevState_1; }
+	inline void set_m_PrevState_1(uint8_t value)
+	{
+		___m_PrevState_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m_ThisState_2() { return static_cast<int32_t>(offsetof(CullingGroupEvent_t1057617917, ___m_ThisState_2)); }
+	inline uint8_t get_m_ThisState_2() const { return ___m_ThisState_2; }
+	inline uint8_t* get_address_of_m_ThisState_2() { return &___m_ThisState_2; }
+	inline void set_m_ThisState_2(uint8_t value)
+	{
+		___m_ThisState_2 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CULLINGGROUPEVENT_T1057617917_H
+#ifndef METHODBASE_T904190842_H
+#define METHODBASE_T904190842_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Reflection.MethodBase
+struct  MethodBase_t904190842  : public MemberInfo_t
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // METHODBASE_T904190842_H
+#ifndef LAYERMASK_T3188175821_H
+#define LAYERMASK_T3188175821_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.LayerMask
+struct  LayerMask_t3188175821 
+{
+public:
+	// System.Int32 UnityEngine.LayerMask::m_Mask
+	int32_t ___m_Mask_0;
+
+public:
+	inline static int32_t get_offset_of_m_Mask_0() { return static_cast<int32_t>(offsetof(LayerMask_t3188175821, ___m_Mask_0)); }
+	inline int32_t get_m_Mask_0() const { return ___m_Mask_0; }
+	inline int32_t* get_address_of_m_Mask_0() { return &___m_Mask_0; }
+	inline void set_m_Mask_0(int32_t value)
+	{
+		___m_Mask_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LAYERMASK_T3188175821_H
+#ifndef DRIVENRECTTRANSFORMTRACKER_T154385424_H
+#define DRIVENRECTTRANSFORMTRACKER_T154385424_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.DrivenRectTransformTracker
+struct  DrivenRectTransformTracker_t154385424 
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DRIVENRECTTRANSFORMTRACKER_T154385424_H
+#ifndef EXCLUDEFROMDOCSATTRIBUTE_T665825653_H
+#define EXCLUDEFROMDOCSATTRIBUTE_T665825653_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Internal.ExcludeFromDocsAttribute
+struct  ExcludeFromDocsAttribute_t665825653  : public Attribute_t542643598
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EXCLUDEFROMDOCSATTRIBUTE_T665825653_H
+#ifndef TIMESPAN_T3430258949_H
+#define TIMESPAN_T3430258949_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.TimeSpan
+struct  TimeSpan_t3430258949 
+{
+public:
+	// System.Int64 System.TimeSpan::_ticks
+	int64_t ____ticks_3;
+
+public:
+	inline static int32_t get_offset_of__ticks_3() { return static_cast<int32_t>(offsetof(TimeSpan_t3430258949, ____ticks_3)); }
+	inline int64_t get__ticks_3() const { return ____ticks_3; }
+	inline int64_t* get_address_of__ticks_3() { return &____ticks_3; }
+	inline void set__ticks_3(int64_t value)
+	{
+		____ticks_3 = value;
+	}
+};
+
+struct TimeSpan_t3430258949_StaticFields
+{
+public:
+	// System.TimeSpan System.TimeSpan::MaxValue
+	TimeSpan_t3430258949  ___MaxValue_0;
+	// System.TimeSpan System.TimeSpan::MinValue
+	TimeSpan_t3430258949  ___MinValue_1;
+	// System.TimeSpan System.TimeSpan::Zero
+	TimeSpan_t3430258949  ___Zero_2;
+
+public:
+	inline static int32_t get_offset_of_MaxValue_0() { return static_cast<int32_t>(offsetof(TimeSpan_t3430258949_StaticFields, ___MaxValue_0)); }
+	inline TimeSpan_t3430258949  get_MaxValue_0() const { return ___MaxValue_0; }
+	inline TimeSpan_t3430258949 * get_address_of_MaxValue_0() { return &___MaxValue_0; }
+	inline void set_MaxValue_0(TimeSpan_t3430258949  value)
+	{
+		___MaxValue_0 = value;
+	}
+
+	inline static int32_t get_offset_of_MinValue_1() { return static_cast<int32_t>(offsetof(TimeSpan_t3430258949_StaticFields, ___MinValue_1)); }
+	inline TimeSpan_t3430258949  get_MinValue_1() const { return ___MinValue_1; }
+	inline TimeSpan_t3430258949 * get_address_of_MinValue_1() { return &___MinValue_1; }
+	inline void set_MinValue_1(TimeSpan_t3430258949  value)
+	{
+		___MinValue_1 = value;
+	}
+
+	inline static int32_t get_offset_of_Zero_2() { return static_cast<int32_t>(offsetof(TimeSpan_t3430258949_StaticFields, ___Zero_2)); }
+	inline TimeSpan_t3430258949  get_Zero_2() const { return ___Zero_2; }
+	inline TimeSpan_t3430258949 * get_address_of_Zero_2() { return &___Zero_2; }
+	inline void set_Zero_2(TimeSpan_t3430258949  value)
+	{
+		___Zero_2 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // TIMESPAN_T3430258949_H
+#ifndef SINGLE_T2076509932_H
+#define SINGLE_T2076509932_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Single
+struct  Single_t2076509932 
+{
+public:
+	// System.Single System.Single::m_value
+	float ___m_value_7;
+
+public:
+	inline static int32_t get_offset_of_m_value_7() { return static_cast<int32_t>(offsetof(Single_t2076509932, ___m_value_7)); }
+	inline float get_m_value_7() const { return ___m_value_7; }
+	inline float* get_address_of_m_value_7() { return &___m_value_7; }
+	inline void set_m_value_7(float value)
+	{
+		___m_value_7 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // SINGLE_T2076509932_H
+#ifndef INT64_T909078037_H
+#define INT64_T909078037_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Int64
+struct  Int64_t909078037 
+{
+public:
+	// System.Int64 System.Int64::m_value
+	int64_t ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Int64_t909078037, ___m_value_0)); }
+	inline int64_t get_m_value_0() const { return ___m_value_0; }
+	inline int64_t* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(int64_t value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // INT64_T909078037_H
+#ifndef HASH128_T2836532937_H
+#define HASH128_T2836532937_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Hash128
+struct  Hash128_t2836532937 
+{
+public:
+	// System.UInt32 UnityEngine.Hash128::m_u32_0
+	uint32_t ___m_u32_0_0;
+	// System.UInt32 UnityEngine.Hash128::m_u32_1
+	uint32_t ___m_u32_1_1;
+	// System.UInt32 UnityEngine.Hash128::m_u32_2
+	uint32_t ___m_u32_2_2;
+	// System.UInt32 UnityEngine.Hash128::m_u32_3
+	uint32_t ___m_u32_3_3;
+
+public:
+	inline static int32_t get_offset_of_m_u32_0_0() { return static_cast<int32_t>(offsetof(Hash128_t2836532937, ___m_u32_0_0)); }
+	inline uint32_t get_m_u32_0_0() const { return ___m_u32_0_0; }
+	inline uint32_t* get_address_of_m_u32_0_0() { return &___m_u32_0_0; }
+	inline void set_m_u32_0_0(uint32_t value)
+	{
+		___m_u32_0_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_u32_1_1() { return static_cast<int32_t>(offsetof(Hash128_t2836532937, ___m_u32_1_1)); }
+	inline uint32_t get_m_u32_1_1() const { return ___m_u32_1_1; }
+	inline uint32_t* get_address_of_m_u32_1_1() { return &___m_u32_1_1; }
+	inline void set_m_u32_1_1(uint32_t value)
+	{
+		___m_u32_1_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m_u32_2_2() { return static_cast<int32_t>(offsetof(Hash128_t2836532937, ___m_u32_2_2)); }
+	inline uint32_t get_m_u32_2_2() const { return ___m_u32_2_2; }
+	inline uint32_t* get_address_of_m_u32_2_2() { return &___m_u32_2_2; }
+	inline void set_m_u32_2_2(uint32_t value)
+	{
+		___m_u32_2_2 = value;
+	}
+
+	inline static int32_t get_offset_of_m_u32_3_3() { return static_cast<int32_t>(offsetof(Hash128_t2836532937, ___m_u32_3_3)); }
+	inline uint32_t get_m_u32_3_3() const { return ___m_u32_3_3; }
+	inline uint32_t* get_address_of_m_u32_3_3() { return &___m_u32_3_3; }
+	inline void set_m_u32_3_3(uint32_t value)
+	{
+		___m_u32_3_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // HASH128_T2836532937_H
+#ifndef REQUIRECOMPONENT_T864575032_H
+#define REQUIRECOMPONENT_T864575032_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.RequireComponent
+struct  RequireComponent_t864575032  : public Attribute_t542643598
+{
+public:
+	// System.Type UnityEngine.RequireComponent::m_Type0
+	Type_t * ___m_Type0_0;
+	// System.Type UnityEngine.RequireComponent::m_Type1
+	Type_t * ___m_Type1_1;
+	// System.Type UnityEngine.RequireComponent::m_Type2
+	Type_t * ___m_Type2_2;
+
+public:
+	inline static int32_t get_offset_of_m_Type0_0() { return static_cast<int32_t>(offsetof(RequireComponent_t864575032, ___m_Type0_0)); }
+	inline Type_t * get_m_Type0_0() const { return ___m_Type0_0; }
+	inline Type_t ** get_address_of_m_Type0_0() { return &___m_Type0_0; }
+	inline void set_m_Type0_0(Type_t * value)
+	{
+		___m_Type0_0 = value;
+		Il2CppCodeGenWriteBarrier((&___m_Type0_0), value);
+	}
+
+	inline static int32_t get_offset_of_m_Type1_1() { return static_cast<int32_t>(offsetof(RequireComponent_t864575032, ___m_Type1_1)); }
+	inline Type_t * get_m_Type1_1() const { return ___m_Type1_1; }
+	inline Type_t ** get_address_of_m_Type1_1() { return &___m_Type1_1; }
+	inline void set_m_Type1_1(Type_t * value)
+	{
+		___m_Type1_1 = value;
+		Il2CppCodeGenWriteBarrier((&___m_Type1_1), value);
+	}
+
+	inline static int32_t get_offset_of_m_Type2_2() { return static_cast<int32_t>(offsetof(RequireComponent_t864575032, ___m_Type2_2)); }
+	inline Type_t * get_m_Type2_2() const { return ___m_Type2_2; }
+	inline Type_t ** get_address_of_m_Type2_2() { return &___m_Type2_2; }
+	inline void set_m_Type2_2(Type_t * value)
+	{
+		___m_Type2_2 = value;
+		Il2CppCodeGenWriteBarrier((&___m_Type2_2), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // REQUIRECOMPONENT_T864575032_H
+#ifndef INT16_T4041245914_H
+#define INT16_T4041245914_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Int16
+struct  Int16_t4041245914 
+{
+public:
+	// System.Int16 System.Int16::m_value
+	int16_t ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Int16_t4041245914, ___m_value_0)); }
+	inline int16_t get_m_value_0() const { return ___m_value_0; }
+	inline int16_t* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(int16_t value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // INT16_T4041245914_H
+#ifndef BYTE_T3683104436_H
+#define BYTE_T3683104436_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Byte
+struct  Byte_t3683104436 
+{
+public:
+	// System.Byte System.Byte::m_value
+	uint8_t ___m_value_2;
+
+public:
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Byte_t3683104436, ___m_value_2)); }
+	inline uint8_t get_m_value_2() const { return ___m_value_2; }
+	inline uint8_t* get_address_of_m_value_2() { return &___m_value_2; }
+	inline void set_m_value_2(uint8_t value)
+	{
+		___m_value_2 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // BYTE_T3683104436_H
+#ifndef DOUBLE_T4078015681_H
+#define DOUBLE_T4078015681_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Double
+struct  Double_t4078015681 
+{
+public:
+	// System.Double System.Double::m_value
+	double ___m_value_13;
+
+public:
+	inline static int32_t get_offset_of_m_value_13() { return static_cast<int32_t>(offsetof(Double_t4078015681, ___m_value_13)); }
+	inline double get_m_value_13() const { return ___m_value_13; }
+	inline double* get_address_of_m_value_13() { return &___m_value_13; }
+	inline void set_m_value_13(double value)
+	{
+		___m_value_13 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DOUBLE_T4078015681_H
+#ifndef ASSEMBLYISEDITORASSEMBLY_T1557026495_H
+#define ASSEMBLYISEDITORASSEMBLY_T1557026495_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.AssemblyIsEditorAssembly
+struct  AssemblyIsEditorAssembly_t1557026495  : public Attribute_t542643598
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ASSEMBLYISEDITORASSEMBLY_T1557026495_H
+#ifndef KEYFRAME_T1449471340_H
+#define KEYFRAME_T1449471340_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Keyframe
+struct  Keyframe_t1449471340 
+{
+public:
+	// System.Single UnityEngine.Keyframe::m_Time
+	float ___m_Time_0;
+	// System.Single UnityEngine.Keyframe::m_Value
+	float ___m_Value_1;
+	// System.Single UnityEngine.Keyframe::m_InTangent
+	float ___m_InTangent_2;
+	// System.Single UnityEngine.Keyframe::m_OutTangent
+	float ___m_OutTangent_3;
+
+public:
+	inline static int32_t get_offset_of_m_Time_0() { return static_cast<int32_t>(offsetof(Keyframe_t1449471340, ___m_Time_0)); }
+	inline float get_m_Time_0() const { return ___m_Time_0; }
+	inline float* get_address_of_m_Time_0() { return &___m_Time_0; }
+	inline void set_m_Time_0(float value)
+	{
+		___m_Time_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_Value_1() { return static_cast<int32_t>(offsetof(Keyframe_t1449471340, ___m_Value_1)); }
+	inline float get_m_Value_1() const { return ___m_Value_1; }
+	inline float* get_address_of_m_Value_1() { return &___m_Value_1; }
+	inline void set_m_Value_1(float value)
+	{
+		___m_Value_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m_InTangent_2() { return static_cast<int32_t>(offsetof(Keyframe_t1449471340, ___m_InTangent_2)); }
+	inline float get_m_InTangent_2() const { return ___m_InTangent_2; }
+	inline float* get_address_of_m_InTangent_2() { return &___m_InTangent_2; }
+	inline void set_m_InTangent_2(float value)
+	{
+		___m_InTangent_2 = value;
+	}
+
+	inline static int32_t get_offset_of_m_OutTangent_3() { return static_cast<int32_t>(offsetof(Keyframe_t1449471340, ___m_OutTangent_3)); }
+	inline float get_m_OutTangent_3() const { return ___m_OutTangent_3; }
+	inline float* get_address_of_m_OutTangent_3() { return &___m_OutTangent_3; }
+	inline void set_m_OutTangent_3(float value)
+	{
+		___m_OutTangent_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // KEYFRAME_T1449471340_H
+#ifndef ANDROIDJAVAEXCEPTION_T3997329726_H
+#define ANDROIDJAVAEXCEPTION_T3997329726_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.AndroidJavaException
+struct  AndroidJavaException_t3997329726  : public Exception_t1927440687
+{
+public:
+	// System.String UnityEngine.AndroidJavaException::mJavaStackTrace
+	String_t* ___mJavaStackTrace_11;
+
+public:
+	inline static int32_t get_offset_of_mJavaStackTrace_11() { return static_cast<int32_t>(offsetof(AndroidJavaException_t3997329726, ___mJavaStackTrace_11)); }
+	inline String_t* get_mJavaStackTrace_11() const { return ___mJavaStackTrace_11; }
+	inline String_t** get_address_of_mJavaStackTrace_11() { return &___mJavaStackTrace_11; }
+	inline void set_mJavaStackTrace_11(String_t* value)
+	{
+		___mJavaStackTrace_11 = value;
+		Il2CppCodeGenWriteBarrier((&___mJavaStackTrace_11), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ANDROIDJAVAEXCEPTION_T3997329726_H
+#ifndef UINT32_T2149682021_H
+#define UINT32_T2149682021_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.UInt32
+struct  UInt32_t2149682021 
+{
+public:
+	// System.UInt32 System.UInt32::m_value
+	uint32_t ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(UInt32_t2149682021, ___m_value_0)); }
+	inline uint32_t get_m_value_0() const { return ___m_value_0; }
+	inline uint32_t* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(uint32_t value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UINT32_T2149682021_H
+#ifndef ADDCOMPONENTMENU_T1099699699_H
+#define ADDCOMPONENTMENU_T1099699699_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.AddComponentMenu
+struct  AddComponentMenu_t1099699699  : public Attribute_t542643598
+{
+public:
+	// System.String UnityEngine.AddComponentMenu::m_AddComponentMenu
+	String_t* ___m_AddComponentMenu_0;
+	// System.Int32 UnityEngine.AddComponentMenu::m_Ordering
+	int32_t ___m_Ordering_1;
+
+public:
+	inline static int32_t get_offset_of_m_AddComponentMenu_0() { return static_cast<int32_t>(offsetof(AddComponentMenu_t1099699699, ___m_AddComponentMenu_0)); }
+	inline String_t* get_m_AddComponentMenu_0() const { return ___m_AddComponentMenu_0; }
+	inline String_t** get_address_of_m_AddComponentMenu_0() { return &___m_AddComponentMenu_0; }
+	inline void set_m_AddComponentMenu_0(String_t* value)
+	{
+		___m_AddComponentMenu_0 = value;
+		Il2CppCodeGenWriteBarrier((&___m_AddComponentMenu_0), value);
+	}
+
+	inline static int32_t get_offset_of_m_Ordering_1() { return static_cast<int32_t>(offsetof(AddComponentMenu_t1099699699, ___m_Ordering_1)); }
+	inline int32_t get_m_Ordering_1() const { return ___m_Ordering_1; }
+	inline int32_t* get_address_of_m_Ordering_1() { return &___m_Ordering_1; }
+	inline void set_m_Ordering_1(int32_t value)
+	{
+		___m_Ordering_1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ADDCOMPONENTMENU_T1099699699_H
+#ifndef ANDROIDJAVACLASS_T2973420583_H
+#define ANDROIDJAVACLASS_T2973420583_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.AndroidJavaClass
+struct  AndroidJavaClass_t2973420583  : public AndroidJavaObject_t4251328308
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ANDROIDJAVACLASS_T2973420583_H
+#ifndef CHAR_T3454481338_H
+#define CHAR_T3454481338_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Char
+struct  Char_t3454481338 
+{
+public:
+	// System.Char System.Char::m_value
+	Il2CppChar ___m_value_2;
+
+public:
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Char_t3454481338, ___m_value_2)); }
+	inline Il2CppChar get_m_value_2() const { return ___m_value_2; }
+	inline Il2CppChar* get_address_of_m_value_2() { return &___m_value_2; }
+	inline void set_m_value_2(Il2CppChar value)
+	{
+		___m_value_2 = value;
+	}
+};
+
+struct Char_t3454481338_StaticFields
+{
+public:
+	// System.Byte* System.Char::category_data
+	uint8_t* ___category_data_3;
+	// System.Byte* System.Char::numeric_data
+	uint8_t* ___numeric_data_4;
+	// System.Double* System.Char::numeric_data_values
+	double* ___numeric_data_values_5;
+	// System.UInt16* System.Char::to_lower_data_low
+	uint16_t* ___to_lower_data_low_6;
+	// System.UInt16* System.Char::to_lower_data_high
+	uint16_t* ___to_lower_data_high_7;
+	// System.UInt16* System.Char::to_upper_data_low
+	uint16_t* ___to_upper_data_low_8;
+	// System.UInt16* System.Char::to_upper_data_high
+	uint16_t* ___to_upper_data_high_9;
+
+public:
+	inline static int32_t get_offset_of_category_data_3() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___category_data_3)); }
+	inline uint8_t* get_category_data_3() const { return ___category_data_3; }
+	inline uint8_t** get_address_of_category_data_3() { return &___category_data_3; }
+	inline void set_category_data_3(uint8_t* value)
+	{
+		___category_data_3 = value;
+	}
+
+	inline static int32_t get_offset_of_numeric_data_4() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___numeric_data_4)); }
+	inline uint8_t* get_numeric_data_4() const { return ___numeric_data_4; }
+	inline uint8_t** get_address_of_numeric_data_4() { return &___numeric_data_4; }
+	inline void set_numeric_data_4(uint8_t* value)
+	{
+		___numeric_data_4 = value;
+	}
+
+	inline static int32_t get_offset_of_numeric_data_values_5() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___numeric_data_values_5)); }
+	inline double* get_numeric_data_values_5() const { return ___numeric_data_values_5; }
+	inline double** get_address_of_numeric_data_values_5() { return &___numeric_data_values_5; }
+	inline void set_numeric_data_values_5(double* value)
+	{
+		___numeric_data_values_5 = value;
+	}
+
+	inline static int32_t get_offset_of_to_lower_data_low_6() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___to_lower_data_low_6)); }
+	inline uint16_t* get_to_lower_data_low_6() const { return ___to_lower_data_low_6; }
+	inline uint16_t** get_address_of_to_lower_data_low_6() { return &___to_lower_data_low_6; }
+	inline void set_to_lower_data_low_6(uint16_t* value)
+	{
+		___to_lower_data_low_6 = value;
+	}
+
+	inline static int32_t get_offset_of_to_lower_data_high_7() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___to_lower_data_high_7)); }
+	inline uint16_t* get_to_lower_data_high_7() const { return ___to_lower_data_high_7; }
+	inline uint16_t** get_address_of_to_lower_data_high_7() { return &___to_lower_data_high_7; }
+	inline void set_to_lower_data_high_7(uint16_t* value)
+	{
+		___to_lower_data_high_7 = value;
+	}
+
+	inline static int32_t get_offset_of_to_upper_data_low_8() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___to_upper_data_low_8)); }
+	inline uint16_t* get_to_upper_data_low_8() const { return ___to_upper_data_low_8; }
+	inline uint16_t** get_address_of_to_upper_data_low_8() { return &___to_upper_data_low_8; }
+	inline void set_to_upper_data_low_8(uint16_t* value)
+	{
+		___to_upper_data_low_8 = value;
+	}
+
+	inline static int32_t get_offset_of_to_upper_data_high_9() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___to_upper_data_high_9)); }
+	inline uint16_t* get_to_upper_data_high_9() const { return ___to_upper_data_high_9; }
+	inline uint16_t** get_address_of_to_upper_data_high_9() { return &___to_upper_data_high_9; }
+	inline void set_to_upper_data_high_9(uint16_t* value)
+	{
+		___to_upper_data_high_9 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CHAR_T3454481338_H
+#ifndef DEFAULTEXECUTIONORDER_T2717914595_H
+#define DEFAULTEXECUTIONORDER_T2717914595_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.DefaultExecutionOrder
+struct  DefaultExecutionOrder_t2717914595  : public Attribute_t542643598
+{
+public:
+	// System.Int32 UnityEngine.DefaultExecutionOrder::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
+
+public:
+	inline static int32_t get_offset_of_U3CorderU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(DefaultExecutionOrder_t2717914595, ___U3CorderU3Ek__BackingField_0)); }
+	inline int32_t get_U3CorderU3Ek__BackingField_0() const { return ___U3CorderU3Ek__BackingField_0; }
+	inline int32_t* get_address_of_U3CorderU3Ek__BackingField_0() { return &___U3CorderU3Ek__BackingField_0; }
+	inline void set_U3CorderU3Ek__BackingField_0(int32_t value)
+	{
+		___U3CorderU3Ek__BackingField_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DEFAULTEXECUTIONORDER_T2717914595_H
+#ifndef INT32_T2071877448_H
+#define INT32_T2071877448_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Int32
+struct  Int32_t2071877448 
+{
+public:
+	// System.Int32 System.Int32::m_value
+	int32_t ___m_value_2;
+
+public:
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Int32_t2071877448, ___m_value_2)); }
+	inline int32_t get_m_value_2() const { return ___m_value_2; }
+	inline int32_t* get_address_of_m_value_2() { return &___m_value_2; }
+	inline void set_m_value_2(int32_t value)
+	{
+		___m_value_2 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // INT32_T2071877448_H
+#ifndef UNMARSHALLEDATTRIBUTE_T3927978776_H
+#define UNMARSHALLEDATTRIBUTE_T3927978776_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Bindings.UnmarshalledAttribute
+struct  UnmarshalledAttribute_t3927978776  : public Attribute_t542643598
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UNMARSHALLEDATTRIBUTE_T3927978776_H
 #ifndef VECTOR3_T2243707580_H
 #define VECTOR3_T2243707580_H
 #ifdef __clang__
@@ -4869,16 +4530,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // VECTOR3_T2243707580_H
-#ifndef UNMARSHALLEDATTRIBUTE_T3927978776_H
-#define UNMARSHALLEDATTRIBUTE_T3927978776_H
+#ifndef VOID_T1841601450_H
+#define VOID_T1841601450_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Bindings.UnmarshalledAttribute
-struct  UnmarshalledAttribute_t3927978776  : public Attribute_t542643598
+// System.Void
+struct  Void_t1841601450 
 {
 public:
 
@@ -4888,27 +4549,111 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // UNMARSHALLEDATTRIBUTE_T3927978776_H
-#ifndef EXECUTEINEDITMODE_T3043633143_H
-#define EXECUTEINEDITMODE_T3043633143_H
+#endif // VOID_T1841601450_H
+#ifndef RECT_T3681755626_H
+#define RECT_T3681755626_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.ExecuteInEditMode
-struct  ExecuteInEditMode_t3043633143  : public Attribute_t542643598
+// UnityEngine.Rect
+struct  Rect_t3681755626 
 {
 public:
+	// System.Single UnityEngine.Rect::m_XMin
+	float ___m_XMin_0;
+	// System.Single UnityEngine.Rect::m_YMin
+	float ___m_YMin_1;
+	// System.Single UnityEngine.Rect::m_Width
+	float ___m_Width_2;
+	// System.Single UnityEngine.Rect::m_Height
+	float ___m_Height_3;
 
 public:
+	inline static int32_t get_offset_of_m_XMin_0() { return static_cast<int32_t>(offsetof(Rect_t3681755626, ___m_XMin_0)); }
+	inline float get_m_XMin_0() const { return ___m_XMin_0; }
+	inline float* get_address_of_m_XMin_0() { return &___m_XMin_0; }
+	inline void set_m_XMin_0(float value)
+	{
+		___m_XMin_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_YMin_1() { return static_cast<int32_t>(offsetof(Rect_t3681755626, ___m_YMin_1)); }
+	inline float get_m_YMin_1() const { return ___m_YMin_1; }
+	inline float* get_address_of_m_YMin_1() { return &___m_YMin_1; }
+	inline void set_m_YMin_1(float value)
+	{
+		___m_YMin_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m_Width_2() { return static_cast<int32_t>(offsetof(Rect_t3681755626, ___m_Width_2)); }
+	inline float get_m_Width_2() const { return ___m_Width_2; }
+	inline float* get_address_of_m_Width_2() { return &___m_Width_2; }
+	inline void set_m_Width_2(float value)
+	{
+		___m_Width_2 = value;
+	}
+
+	inline static int32_t get_offset_of_m_Height_3() { return static_cast<int32_t>(offsetof(Rect_t3681755626, ___m_Height_3)); }
+	inline float get_m_Height_3() const { return ___m_Height_3; }
+	inline float* get_address_of_m_Height_3() { return &___m_Height_3; }
+	inline void set_m_Height_3(float value)
+	{
+		___m_Height_3 = value;
+	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // EXECUTEINEDITMODE_T3043633143_H
+#endif // RECT_T3681755626_H
+#ifndef INTPTR_T_H
+#define INTPTR_T_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.IntPtr
+struct  IntPtr_t 
+{
+public:
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(IntPtr_t, ___m_value_0)); }
+	inline void* get_m_value_0() const { return ___m_value_0; }
+	inline void** get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(void* value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+struct IntPtr_t_StaticFields
+{
+public:
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+
+public:
+	inline static int32_t get_offset_of_Zero_1() { return static_cast<int32_t>(offsetof(IntPtr_t_StaticFields, ___Zero_1)); }
+	inline intptr_t get_Zero_1() const { return ___Zero_1; }
+	inline intptr_t* get_address_of_Zero_1() { return &___Zero_1; }
+	inline void set_Zero_1(intptr_t value)
+	{
+		___Zero_1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // INTPTR_T_H
 #ifndef DISALLOWMULTIPLECOMPONENT_T2656950_H
 #define DISALLOWMULTIPLECOMPONENT_T2656950_H
 #ifdef __clang__
@@ -4929,166 +4674,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DISALLOWMULTIPLECOMPONENT_T2656950_H
-#ifndef DEFAULTEXECUTIONORDER_T2717914595_H
-#define DEFAULTEXECUTIONORDER_T2717914595_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.DefaultExecutionOrder
-struct  DefaultExecutionOrder_t2717914595  : public Attribute_t542643598
-{
-public:
-	// System.Int32 UnityEngine.DefaultExecutionOrder::<order>k__BackingField
-	int32_t ___U3CorderU3Ek__BackingField_0;
-
-public:
-	inline static int32_t get_offset_of_U3CorderU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(DefaultExecutionOrder_t2717914595, ___U3CorderU3Ek__BackingField_0)); }
-	inline int32_t get_U3CorderU3Ek__BackingField_0() const { return ___U3CorderU3Ek__BackingField_0; }
-	inline int32_t* get_address_of_U3CorderU3Ek__BackingField_0() { return &___U3CorderU3Ek__BackingField_0; }
-	inline void set_U3CorderU3Ek__BackingField_0(int32_t value)
-	{
-		___U3CorderU3Ek__BackingField_0 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // DEFAULTEXECUTIONORDER_T2717914595_H
-#ifndef REQUIRECOMPONENT_T864575032_H
-#define REQUIRECOMPONENT_T864575032_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.RequireComponent
-struct  RequireComponent_t864575032  : public Attribute_t542643598
-{
-public:
-	// System.Type UnityEngine.RequireComponent::m_Type0
-	Type_t * ___m_Type0_0;
-	// System.Type UnityEngine.RequireComponent::m_Type1
-	Type_t * ___m_Type1_1;
-	// System.Type UnityEngine.RequireComponent::m_Type2
-	Type_t * ___m_Type2_2;
-
-public:
-	inline static int32_t get_offset_of_m_Type0_0() { return static_cast<int32_t>(offsetof(RequireComponent_t864575032, ___m_Type0_0)); }
-	inline Type_t * get_m_Type0_0() const { return ___m_Type0_0; }
-	inline Type_t ** get_address_of_m_Type0_0() { return &___m_Type0_0; }
-	inline void set_m_Type0_0(Type_t * value)
-	{
-		___m_Type0_0 = value;
-		Il2CppCodeGenWriteBarrier((&___m_Type0_0), value);
-	}
-
-	inline static int32_t get_offset_of_m_Type1_1() { return static_cast<int32_t>(offsetof(RequireComponent_t864575032, ___m_Type1_1)); }
-	inline Type_t * get_m_Type1_1() const { return ___m_Type1_1; }
-	inline Type_t ** get_address_of_m_Type1_1() { return &___m_Type1_1; }
-	inline void set_m_Type1_1(Type_t * value)
-	{
-		___m_Type1_1 = value;
-		Il2CppCodeGenWriteBarrier((&___m_Type1_1), value);
-	}
-
-	inline static int32_t get_offset_of_m_Type2_2() { return static_cast<int32_t>(offsetof(RequireComponent_t864575032, ___m_Type2_2)); }
-	inline Type_t * get_m_Type2_2() const { return ___m_Type2_2; }
-	inline Type_t ** get_address_of_m_Type2_2() { return &___m_Type2_2; }
-	inline void set_m_Type2_2(Type_t * value)
-	{
-		___m_Type2_2 = value;
-		Il2CppCodeGenWriteBarrier((&___m_Type2_2), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // REQUIRECOMPONENT_T864575032_H
-#ifndef DEALLOCATEONJOBCOMPLETIONATTRIBUTE_T987733588_H
-#define DEALLOCATEONJOBCOMPLETIONATTRIBUTE_T987733588_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Collections.DeallocateOnJobCompletionAttribute
-struct  DeallocateOnJobCompletionAttribute_t987733588  : public Attribute_t542643598
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // DEALLOCATEONJOBCOMPLETIONATTRIBUTE_T987733588_H
-#ifndef COLOR32_T874517518_H
-#define COLOR32_T874517518_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Color32
-struct ALIGN_TYPE(4) Color32_t874517518 
-{
-public:
-	// System.Byte UnityEngine.Color32::r
-	uint8_t ___r_0;
-	// System.Byte UnityEngine.Color32::g
-	uint8_t ___g_1;
-	// System.Byte UnityEngine.Color32::b
-	uint8_t ___b_2;
-	// System.Byte UnityEngine.Color32::a
-	uint8_t ___a_3;
-
-public:
-	inline static int32_t get_offset_of_r_0() { return static_cast<int32_t>(offsetof(Color32_t874517518, ___r_0)); }
-	inline uint8_t get_r_0() const { return ___r_0; }
-	inline uint8_t* get_address_of_r_0() { return &___r_0; }
-	inline void set_r_0(uint8_t value)
-	{
-		___r_0 = value;
-	}
-
-	inline static int32_t get_offset_of_g_1() { return static_cast<int32_t>(offsetof(Color32_t874517518, ___g_1)); }
-	inline uint8_t get_g_1() const { return ___g_1; }
-	inline uint8_t* get_address_of_g_1() { return &___g_1; }
-	inline void set_g_1(uint8_t value)
-	{
-		___g_1 = value;
-	}
-
-	inline static int32_t get_offset_of_b_2() { return static_cast<int32_t>(offsetof(Color32_t874517518, ___b_2)); }
-	inline uint8_t get_b_2() const { return ___b_2; }
-	inline uint8_t* get_address_of_b_2() { return &___b_2; }
-	inline void set_b_2(uint8_t value)
-	{
-		___b_2 = value;
-	}
-
-	inline static int32_t get_offset_of_a_3() { return static_cast<int32_t>(offsetof(Color32_t874517518, ___a_3)); }
-	inline uint8_t get_a_3() const { return ___a_3; }
-	inline uint8_t* get_address_of_a_3() { return &___a_3; }
-	inline void set_a_3(uint8_t value)
-	{
-		___a_3 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COLOR32_T874517518_H
 #ifndef BOOLEAN_T3825574718_H
 #define BOOLEAN_T3825574718_H
 #ifdef __clang__
@@ -5146,16 +4731,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // BOOLEAN_T3825574718_H
-#ifndef CONTEXTMENU_T2283362202_H
-#define CONTEXTMENU_T2283362202_H
+#ifndef EXECUTEINEDITMODE_T3043633143_H
+#define EXECUTEINEDITMODE_T3043633143_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.ContextMenu
-struct  ContextMenu_t2283362202  : public Attribute_t542643598
+// UnityEngine.ExecuteInEditMode
+struct  ExecuteInEditMode_t3043633143  : public Attribute_t542643598
 {
 public:
 
@@ -5165,393 +4750,111 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // CONTEXTMENU_T2283362202_H
-#ifndef SINGLE_T2076509932_H
-#define SINGLE_T2076509932_H
+#endif // EXECUTEINEDITMODE_T3043633143_H
+#ifndef CONSTRUCTORINFO_T2851816542_H
+#define CONSTRUCTORINFO_T2851816542_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Single
-struct  Single_t2076509932 
+// System.Reflection.ConstructorInfo
+struct  ConstructorInfo_t2851816542  : public MethodBase_t904190842
 {
 public:
-	// System.Single System.Single::m_value
-	float ___m_value_7;
 
 public:
-	inline static int32_t get_offset_of_m_value_7() { return static_cast<int32_t>(offsetof(Single_t2076509932, ___m_value_7)); }
-	inline float get_m_value_7() const { return ___m_value_7; }
-	inline float* get_address_of_m_value_7() { return &___m_value_7; }
-	inline void set_m_value_7(float value)
+};
+
+struct ConstructorInfo_t2851816542_StaticFields
+{
+public:
+	// System.String System.Reflection.ConstructorInfo::ConstructorName
+	String_t* ___ConstructorName_0;
+	// System.String System.Reflection.ConstructorInfo::TypeConstructorName
+	String_t* ___TypeConstructorName_1;
+
+public:
+	inline static int32_t get_offset_of_ConstructorName_0() { return static_cast<int32_t>(offsetof(ConstructorInfo_t2851816542_StaticFields, ___ConstructorName_0)); }
+	inline String_t* get_ConstructorName_0() const { return ___ConstructorName_0; }
+	inline String_t** get_address_of_ConstructorName_0() { return &___ConstructorName_0; }
+	inline void set_ConstructorName_0(String_t* value)
 	{
-		___m_value_7 = value;
+		___ConstructorName_0 = value;
+		Il2CppCodeGenWriteBarrier((&___ConstructorName_0), value);
+	}
+
+	inline static int32_t get_offset_of_TypeConstructorName_1() { return static_cast<int32_t>(offsetof(ConstructorInfo_t2851816542_StaticFields, ___TypeConstructorName_1)); }
+	inline String_t* get_TypeConstructorName_1() const { return ___TypeConstructorName_1; }
+	inline String_t** get_address_of_TypeConstructorName_1() { return &___TypeConstructorName_1; }
+	inline void set_TypeConstructorName_1(String_t* value)
+	{
+		___TypeConstructorName_1 = value;
+		Il2CppCodeGenWriteBarrier((&___TypeConstructorName_1), value);
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // SINGLE_T2076509932_H
-#ifndef KEYFRAME_T1449471340_H
-#define KEYFRAME_T1449471340_H
+#endif // CONSTRUCTORINFO_T2851816542_H
+#ifndef ANIMATIONCURVE_T3306541151_H
+#define ANIMATIONCURVE_T3306541151_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Keyframe
-struct  Keyframe_t1449471340 
+// UnityEngine.AnimationCurve
+struct  AnimationCurve_t3306541151  : public RuntimeObject
 {
 public:
-	// System.Single UnityEngine.Keyframe::m_Time
-	float ___m_Time_0;
-	// System.Single UnityEngine.Keyframe::m_Value
-	float ___m_Value_1;
-	// System.Single UnityEngine.Keyframe::m_InTangent
-	float ___m_InTangent_2;
-	// System.Single UnityEngine.Keyframe::m_OutTangent
-	float ___m_OutTangent_3;
+	// System.IntPtr UnityEngine.AnimationCurve::m_Ptr
+	intptr_t ___m_Ptr_0;
 
 public:
-	inline static int32_t get_offset_of_m_Time_0() { return static_cast<int32_t>(offsetof(Keyframe_t1449471340, ___m_Time_0)); }
-	inline float get_m_Time_0() const { return ___m_Time_0; }
-	inline float* get_address_of_m_Time_0() { return &___m_Time_0; }
-	inline void set_m_Time_0(float value)
+	inline static int32_t get_offset_of_m_Ptr_0() { return static_cast<int32_t>(offsetof(AnimationCurve_t3306541151, ___m_Ptr_0)); }
+	inline intptr_t get_m_Ptr_0() const { return ___m_Ptr_0; }
+	inline intptr_t* get_address_of_m_Ptr_0() { return &___m_Ptr_0; }
+	inline void set_m_Ptr_0(intptr_t value)
 	{
-		___m_Time_0 = value;
-	}
-
-	inline static int32_t get_offset_of_m_Value_1() { return static_cast<int32_t>(offsetof(Keyframe_t1449471340, ___m_Value_1)); }
-	inline float get_m_Value_1() const { return ___m_Value_1; }
-	inline float* get_address_of_m_Value_1() { return &___m_Value_1; }
-	inline void set_m_Value_1(float value)
-	{
-		___m_Value_1 = value;
-	}
-
-	inline static int32_t get_offset_of_m_InTangent_2() { return static_cast<int32_t>(offsetof(Keyframe_t1449471340, ___m_InTangent_2)); }
-	inline float get_m_InTangent_2() const { return ___m_InTangent_2; }
-	inline float* get_address_of_m_InTangent_2() { return &___m_InTangent_2; }
-	inline void set_m_InTangent_2(float value)
-	{
-		___m_InTangent_2 = value;
-	}
-
-	inline static int32_t get_offset_of_m_OutTangent_3() { return static_cast<int32_t>(offsetof(Keyframe_t1449471340, ___m_OutTangent_3)); }
-	inline float get_m_OutTangent_3() const { return ___m_OutTangent_3; }
-	inline float* get_address_of_m_OutTangent_3() { return &___m_OutTangent_3; }
-	inline void set_m_OutTangent_3(float value)
-	{
-		___m_OutTangent_3 = value;
+		___m_Ptr_0 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // KEYFRAME_T1449471340_H
-#ifndef INT32_T2071877448_H
-#define INT32_T2071877448_H
+// Native definition for P/Invoke marshalling of UnityEngine.AnimationCurve
+struct AnimationCurve_t3306541151_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr_0;
+};
+// Native definition for COM marshalling of UnityEngine.AnimationCurve
+struct AnimationCurve_t3306541151_marshaled_com
+{
+	intptr_t ___m_Ptr_0;
+};
+#endif // ANIMATIONCURVE_T3306541151_H
+#ifndef BINDINGFLAGS_T1082350898_H
+#define BINDINGFLAGS_T1082350898_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Int32
-struct  Int32_t2071877448 
+// System.Reflection.BindingFlags
+struct  BindingFlags_t1082350898 
 {
 public:
-	// System.Int32 System.Int32::m_value
-	int32_t ___m_value_2;
-
-public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Int32_t2071877448, ___m_value_2)); }
-	inline int32_t get_m_value_2() const { return ___m_value_2; }
-	inline int32_t* get_address_of_m_value_2() { return &___m_value_2; }
-	inline void set_m_value_2(int32_t value)
-	{
-		___m_value_2 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // INT32_T2071877448_H
-#ifndef VOID_T1841601450_H
-#define VOID_T1841601450_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Void
-struct  Void_t1841601450 
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // VOID_T1841601450_H
-#ifndef ADDCOMPONENTMENU_T1099699699_H
-#define ADDCOMPONENTMENU_T1099699699_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.AddComponentMenu
-struct  AddComponentMenu_t1099699699  : public Attribute_t542643598
-{
-public:
-	// System.String UnityEngine.AddComponentMenu::m_AddComponentMenu
-	String_t* ___m_AddComponentMenu_0;
-	// System.Int32 UnityEngine.AddComponentMenu::m_Ordering
-	int32_t ___m_Ordering_1;
-
-public:
-	inline static int32_t get_offset_of_m_AddComponentMenu_0() { return static_cast<int32_t>(offsetof(AddComponentMenu_t1099699699, ___m_AddComponentMenu_0)); }
-	inline String_t* get_m_AddComponentMenu_0() const { return ___m_AddComponentMenu_0; }
-	inline String_t** get_address_of_m_AddComponentMenu_0() { return &___m_AddComponentMenu_0; }
-	inline void set_m_AddComponentMenu_0(String_t* value)
-	{
-		___m_AddComponentMenu_0 = value;
-		Il2CppCodeGenWriteBarrier((&___m_AddComponentMenu_0), value);
-	}
-
-	inline static int32_t get_offset_of_m_Ordering_1() { return static_cast<int32_t>(offsetof(AddComponentMenu_t1099699699, ___m_Ordering_1)); }
-	inline int32_t get_m_Ordering_1() const { return ___m_Ordering_1; }
-	inline int32_t* get_address_of_m_Ordering_1() { return &___m_Ordering_1; }
-	inline void set_m_Ordering_1(int32_t value)
-	{
-		___m_Ordering_1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ADDCOMPONENTMENU_T1099699699_H
-#ifndef CSSSIZE_T1564391216_H
-#define CSSSIZE_T1564391216_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.CSSLayout.CSSSize
-struct  CSSSize_t1564391216 
-{
-public:
-	// System.Single UnityEngine.CSSLayout.CSSSize::width
-	float ___width_0;
-	// System.Single UnityEngine.CSSLayout.CSSSize::height
-	float ___height_1;
-
-public:
-	inline static int32_t get_offset_of_width_0() { return static_cast<int32_t>(offsetof(CSSSize_t1564391216, ___width_0)); }
-	inline float get_width_0() const { return ___width_0; }
-	inline float* get_address_of_width_0() { return &___width_0; }
-	inline void set_width_0(float value)
-	{
-		___width_0 = value;
-	}
-
-	inline static int32_t get_offset_of_height_1() { return static_cast<int32_t>(offsetof(CSSSize_t1564391216, ___height_1)); }
-	inline float get_height_1() const { return ___height_1; }
-	inline float* get_address_of_height_1() { return &___height_1; }
-	inline void set_height_1(float value)
-	{
-		___height_1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CSSSIZE_T1564391216_H
-#ifndef INTPTR_T_H
-#define INTPTR_T_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.IntPtr
-struct  IntPtr_t 
-{
-public:
-	// System.Void* System.IntPtr::m_value
-	void* ___m_value_0;
-
-public:
-	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(IntPtr_t, ___m_value_0)); }
-	inline void* get_m_value_0() const { return ___m_value_0; }
-	inline void** get_address_of_m_value_0() { return &___m_value_0; }
-	inline void set_m_value_0(void* value)
-	{
-		___m_value_0 = value;
-	}
-};
-
-struct IntPtr_t_StaticFields
-{
-public:
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-
-public:
-	inline static int32_t get_offset_of_Zero_1() { return static_cast<int32_t>(offsetof(IntPtr_t_StaticFields, ___Zero_1)); }
-	inline intptr_t get_Zero_1() const { return ___Zero_1; }
-	inline intptr_t* get_address_of_Zero_1() { return &___Zero_1; }
-	inline void set_Zero_1(intptr_t value)
-	{
-		___Zero_1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // INTPTR_T_H
-#ifndef BYTE_T3683104436_H
-#define BYTE_T3683104436_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Byte
-struct  Byte_t3683104436 
-{
-public:
-	// System.Byte System.Byte::m_value
-	uint8_t ___m_value_2;
-
-public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Byte_t3683104436, ___m_value_2)); }
-	inline uint8_t get_m_value_2() const { return ___m_value_2; }
-	inline uint8_t* get_address_of_m_value_2() { return &___m_value_2; }
-	inline void set_m_value_2(uint8_t value)
-	{
-		___m_value_2 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // BYTE_T3683104436_H
-#ifndef ARGUMENTEXCEPTION_T3259014390_H
-#define ARGUMENTEXCEPTION_T3259014390_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.ArgumentException
-struct  ArgumentException_t3259014390  : public SystemException_t3877406272
-{
-public:
-	// System.String System.ArgumentException::param_name
-	String_t* ___param_name_12;
-
-public:
-	inline static int32_t get_offset_of_param_name_12() { return static_cast<int32_t>(offsetof(ArgumentException_t3259014390, ___param_name_12)); }
-	inline String_t* get_param_name_12() const { return ___param_name_12; }
-	inline String_t** get_address_of_param_name_12() { return &___param_name_12; }
-	inline void set_param_name_12(String_t* value)
-	{
-		___param_name_12 = value;
-		Il2CppCodeGenWriteBarrier((&___param_name_12), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ARGUMENTEXCEPTION_T3259014390_H
-#ifndef MESSAGEEVENT_T2167079021_H
-#define MESSAGEEVENT_T2167079021_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageEvent
-struct  MessageEvent_t2167079021  : public UnityEvent_1_t339633637
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MESSAGEEVENT_T2167079021_H
-#ifndef U3CINVOKEMESSAGEIDSUBSCRIBERSU3EC__ANONSTOREY0_T1899782350_H
-#define U3CINVOKEMESSAGEIDSUBSCRIBERSU3EC__ANONSTOREY0_T1899782350_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/<InvokeMessageIdSubscribers>c__AnonStorey0
-struct  U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t1899782350  : public RuntimeObject
-{
-public:
-	// System.Guid UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/<InvokeMessageIdSubscribers>c__AnonStorey0::messageId
-	Guid_t  ___messageId_0;
-
-public:
-	inline static int32_t get_offset_of_messageId_0() { return static_cast<int32_t>(offsetof(U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t1899782350, ___messageId_0)); }
-	inline Guid_t  get_messageId_0() const { return ___messageId_0; }
-	inline Guid_t * get_address_of_messageId_0() { return &___messageId_0; }
-	inline void set_messageId_0(Guid_t  value)
-	{
-		___messageId_0 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CINVOKEMESSAGEIDSUBSCRIBERSU3EC__ANONSTOREY0_T1899782350_H
-#ifndef KEYCODE_T2283395152_H
-#define KEYCODE_T2283395152_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.KeyCode
-struct  KeyCode_t2283395152 
-{
-public:
-	// System.Int32 UnityEngine.KeyCode::value__
+	// System.Int32 System.Reflection.BindingFlags::value__
 	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(KeyCode_t2283395152, ___value___1)); }
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(BindingFlags_t1082350898, ___value___1)); }
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -5563,133 +4866,84 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // KEYCODE_T2283395152_H
-#ifndef REMOTENOTIFICATION_T2254252895_H
-#define REMOTENOTIFICATION_T2254252895_H
+#endif // BINDINGFLAGS_T1082350898_H
+#ifndef ANDROIDREFLECTION_T3899972422_H
+#define ANDROIDREFLECTION_T3899972422_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.iOS.RemoteNotification
-struct  RemoteNotification_t2254252895  : public RuntimeObject
+// UnityEngine.AndroidReflection
+struct  AndroidReflection_t3899972422  : public RuntimeObject
 {
 public:
-	// System.IntPtr UnityEngine.iOS.RemoteNotification::notificationWrapper
-	intptr_t ___notificationWrapper_0;
 
 public:
-	inline static int32_t get_offset_of_notificationWrapper_0() { return static_cast<int32_t>(offsetof(RemoteNotification_t2254252895, ___notificationWrapper_0)); }
-	inline intptr_t get_notificationWrapper_0() const { return ___notificationWrapper_0; }
-	inline intptr_t* get_address_of_notificationWrapper_0() { return &___notificationWrapper_0; }
-	inline void set_notificationWrapper_0(intptr_t value)
+};
+
+struct AndroidReflection_t3899972422_StaticFields
+{
+public:
+	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidReflection::s_ReflectionHelperClass
+	GlobalJavaObjectRef_t1417862413 * ___s_ReflectionHelperClass_0;
+	// System.IntPtr UnityEngine.AndroidReflection::s_ReflectionHelperGetConstructorID
+	intptr_t ___s_ReflectionHelperGetConstructorID_1;
+	// System.IntPtr UnityEngine.AndroidReflection::s_ReflectionHelperGetMethodID
+	intptr_t ___s_ReflectionHelperGetMethodID_2;
+	// System.IntPtr UnityEngine.AndroidReflection::s_ReflectionHelperGetFieldID
+	intptr_t ___s_ReflectionHelperGetFieldID_3;
+	// System.IntPtr UnityEngine.AndroidReflection::s_ReflectionHelperNewProxyInstance
+	intptr_t ___s_ReflectionHelperNewProxyInstance_4;
+
+public:
+	inline static int32_t get_offset_of_s_ReflectionHelperClass_0() { return static_cast<int32_t>(offsetof(AndroidReflection_t3899972422_StaticFields, ___s_ReflectionHelperClass_0)); }
+	inline GlobalJavaObjectRef_t1417862413 * get_s_ReflectionHelperClass_0() const { return ___s_ReflectionHelperClass_0; }
+	inline GlobalJavaObjectRef_t1417862413 ** get_address_of_s_ReflectionHelperClass_0() { return &___s_ReflectionHelperClass_0; }
+	inline void set_s_ReflectionHelperClass_0(GlobalJavaObjectRef_t1417862413 * value)
 	{
-		___notificationWrapper_0 = value;
+		___s_ReflectionHelperClass_0 = value;
+		Il2CppCodeGenWriteBarrier((&___s_ReflectionHelperClass_0), value);
+	}
+
+	inline static int32_t get_offset_of_s_ReflectionHelperGetConstructorID_1() { return static_cast<int32_t>(offsetof(AndroidReflection_t3899972422_StaticFields, ___s_ReflectionHelperGetConstructorID_1)); }
+	inline intptr_t get_s_ReflectionHelperGetConstructorID_1() const { return ___s_ReflectionHelperGetConstructorID_1; }
+	inline intptr_t* get_address_of_s_ReflectionHelperGetConstructorID_1() { return &___s_ReflectionHelperGetConstructorID_1; }
+	inline void set_s_ReflectionHelperGetConstructorID_1(intptr_t value)
+	{
+		___s_ReflectionHelperGetConstructorID_1 = value;
+	}
+
+	inline static int32_t get_offset_of_s_ReflectionHelperGetMethodID_2() { return static_cast<int32_t>(offsetof(AndroidReflection_t3899972422_StaticFields, ___s_ReflectionHelperGetMethodID_2)); }
+	inline intptr_t get_s_ReflectionHelperGetMethodID_2() const { return ___s_ReflectionHelperGetMethodID_2; }
+	inline intptr_t* get_address_of_s_ReflectionHelperGetMethodID_2() { return &___s_ReflectionHelperGetMethodID_2; }
+	inline void set_s_ReflectionHelperGetMethodID_2(intptr_t value)
+	{
+		___s_ReflectionHelperGetMethodID_2 = value;
+	}
+
+	inline static int32_t get_offset_of_s_ReflectionHelperGetFieldID_3() { return static_cast<int32_t>(offsetof(AndroidReflection_t3899972422_StaticFields, ___s_ReflectionHelperGetFieldID_3)); }
+	inline intptr_t get_s_ReflectionHelperGetFieldID_3() const { return ___s_ReflectionHelperGetFieldID_3; }
+	inline intptr_t* get_address_of_s_ReflectionHelperGetFieldID_3() { return &___s_ReflectionHelperGetFieldID_3; }
+	inline void set_s_ReflectionHelperGetFieldID_3(intptr_t value)
+	{
+		___s_ReflectionHelperGetFieldID_3 = value;
+	}
+
+	inline static int32_t get_offset_of_s_ReflectionHelperNewProxyInstance_4() { return static_cast<int32_t>(offsetof(AndroidReflection_t3899972422_StaticFields, ___s_ReflectionHelperNewProxyInstance_4)); }
+	inline intptr_t get_s_ReflectionHelperNewProxyInstance_4() const { return ___s_ReflectionHelperNewProxyInstance_4; }
+	inline intptr_t* get_address_of_s_ReflectionHelperNewProxyInstance_4() { return &___s_ReflectionHelperNewProxyInstance_4; }
+	inline void set_s_ReflectionHelperNewProxyInstance_4(intptr_t value)
+	{
+		___s_ReflectionHelperNewProxyInstance_4 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // REMOTENOTIFICATION_T2254252895_H
-#ifndef TOUCHTYPE_T2732027771_H
-#define TOUCHTYPE_T2732027771_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.TouchType
-struct  TouchType_t2732027771 
-{
-public:
-	// System.Int32 UnityEngine.TouchType::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(TouchType_t2732027771, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // TOUCHTYPE_T2732027771_H
-#ifndef TOUCHPHASE_T2458120420_H
-#define TOUCHPHASE_T2458120420_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.TouchPhase
-struct  TouchPhase_t2458120420 
-{
-public:
-	// System.Int32 UnityEngine.TouchPhase::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(TouchPhase_t2458120420, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // TOUCHPHASE_T2458120420_H
-#ifndef BOUNDS_T3033363703_H
-#define BOUNDS_T3033363703_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Bounds
-struct  Bounds_t3033363703 
-{
-public:
-	// UnityEngine.Vector3 UnityEngine.Bounds::m_Center
-	Vector3_t2243707580  ___m_Center_0;
-	// UnityEngine.Vector3 UnityEngine.Bounds::m_Extents
-	Vector3_t2243707580  ___m_Extents_1;
-
-public:
-	inline static int32_t get_offset_of_m_Center_0() { return static_cast<int32_t>(offsetof(Bounds_t3033363703, ___m_Center_0)); }
-	inline Vector3_t2243707580  get_m_Center_0() const { return ___m_Center_0; }
-	inline Vector3_t2243707580 * get_address_of_m_Center_0() { return &___m_Center_0; }
-	inline void set_m_Center_0(Vector3_t2243707580  value)
-	{
-		___m_Center_0 = value;
-	}
-
-	inline static int32_t get_offset_of_m_Extents_1() { return static_cast<int32_t>(offsetof(Bounds_t3033363703, ___m_Extents_1)); }
-	inline Vector3_t2243707580  get_m_Extents_1() const { return ___m_Extents_1; }
-	inline Vector3_t2243707580 * get_address_of_m_Extents_1() { return &___m_Extents_1; }
-	inline void set_m_Extents_1(Vector3_t2243707580  value)
-	{
-		___m_Extents_1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // BOUNDS_T3033363703_H
+#endif // ANDROIDREFLECTION_T3899972422_H
 #ifndef PARAMETERATTRIBUTES_T1266705348_H
 #define PARAMETERATTRIBUTES_T1266705348_H
 #ifdef __clang__
@@ -5719,6 +4973,675 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // PARAMETERATTRIBUTES_T1266705348_H
+#ifndef TOUCHPHASE_T2458120420_H
+#define TOUCHPHASE_T2458120420_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.TouchPhase
+struct  TouchPhase_t2458120420 
+{
+public:
+	// System.Int32 UnityEngine.TouchPhase::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(TouchPhase_t2458120420, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // TOUCHPHASE_T2458120420_H
+#ifndef CACHEDINVOKABLECALL_1_T2619124609_H
+#define CACHEDINVOKABLECALL_1_T2619124609_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Events.CachedInvokableCall`1<System.Boolean>
+struct  CachedInvokableCall_1_t2619124609  : public InvokableCall_1_t2019901575
+{
+public:
+	// T UnityEngine.Events.CachedInvokableCall`1::m_Arg1
+	bool ___m_Arg1_1;
+
+public:
+	inline static int32_t get_offset_of_m_Arg1_1() { return static_cast<int32_t>(offsetof(CachedInvokableCall_1_t2619124609, ___m_Arg1_1)); }
+	inline bool get_m_Arg1_1() const { return ___m_Arg1_1; }
+	inline bool* get_address_of_m_Arg1_1() { return &___m_Arg1_1; }
+	inline void set_m_Arg1_1(bool value)
+	{
+		___m_Arg1_1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CACHEDINVOKABLECALL_1_T2619124609_H
+#ifndef CACHEDINVOKABLECALL_1_T822770124_H
+#define CACHEDINVOKABLECALL_1_T822770124_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Events.CachedInvokableCall`1<System.String>
+struct  CachedInvokableCall_1_t822770124  : public InvokableCall_1_t223547090
+{
+public:
+	// T UnityEngine.Events.CachedInvokableCall`1::m_Arg1
+	String_t* ___m_Arg1_1;
+
+public:
+	inline static int32_t get_offset_of_m_Arg1_1() { return static_cast<int32_t>(offsetof(CachedInvokableCall_1_t822770124, ___m_Arg1_1)); }
+	inline String_t* get_m_Arg1_1() const { return ___m_Arg1_1; }
+	inline String_t** get_address_of_m_Arg1_1() { return &___m_Arg1_1; }
+	inline void set_m_Arg1_1(String_t* value)
+	{
+		___m_Arg1_1 = value;
+		Il2CppCodeGenWriteBarrier((&___m_Arg1_1), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CACHEDINVOKABLECALL_1_T822770124_H
+#ifndef LOGTYPE_T1559732862_H
+#define LOGTYPE_T1559732862_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.LogType
+struct  LogType_t1559732862 
+{
+public:
+	// System.Int32 UnityEngine.LogType::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(LogType_t1559732862, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LOGTYPE_T1559732862_H
+#ifndef RAY_T2469606224_H
+#define RAY_T2469606224_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Ray
+struct  Ray_t2469606224 
+{
+public:
+	// UnityEngine.Vector3 UnityEngine.Ray::m_Origin
+	Vector3_t2243707580  ___m_Origin_0;
+	// UnityEngine.Vector3 UnityEngine.Ray::m_Direction
+	Vector3_t2243707580  ___m_Direction_1;
+
+public:
+	inline static int32_t get_offset_of_m_Origin_0() { return static_cast<int32_t>(offsetof(Ray_t2469606224, ___m_Origin_0)); }
+	inline Vector3_t2243707580  get_m_Origin_0() const { return ___m_Origin_0; }
+	inline Vector3_t2243707580 * get_address_of_m_Origin_0() { return &___m_Origin_0; }
+	inline void set_m_Origin_0(Vector3_t2243707580  value)
+	{
+		___m_Origin_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_Direction_1() { return static_cast<int32_t>(offsetof(Ray_t2469606224, ___m_Direction_1)); }
+	inline Vector3_t2243707580  get_m_Direction_1() const { return ___m_Direction_1; }
+	inline Vector3_t2243707580 * get_address_of_m_Direction_1() { return &___m_Direction_1; }
+	inline void set_m_Direction_1(Vector3_t2243707580  value)
+	{
+		___m_Direction_1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // RAY_T2469606224_H
+#ifndef RUNTIMEPLATFORM_T1869584967_H
+#define RUNTIMEPLATFORM_T1869584967_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.RuntimePlatform
+struct  RuntimePlatform_t1869584967 
+{
+public:
+	// System.Int32 UnityEngine.RuntimePlatform::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(RuntimePlatform_t1869584967, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // RUNTIMEPLATFORM_T1869584967_H
+#ifndef TOUCHTYPE_T2732027771_H
+#define TOUCHTYPE_T2732027771_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.TouchType
+struct  TouchType_t2732027771 
+{
+public:
+	// System.Int32 UnityEngine.TouchType::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(TouchType_t2732027771, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // TOUCHTYPE_T2732027771_H
+#ifndef GLOBALJAVAOBJECTREF_T1417862413_H
+#define GLOBALJAVAOBJECTREF_T1417862413_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.GlobalJavaObjectRef
+struct  GlobalJavaObjectRef_t1417862413  : public RuntimeObject
+{
+public:
+	// System.Boolean UnityEngine.GlobalJavaObjectRef::m_disposed
+	bool ___m_disposed_0;
+	// System.IntPtr UnityEngine.GlobalJavaObjectRef::m_jobject
+	intptr_t ___m_jobject_1;
+
+public:
+	inline static int32_t get_offset_of_m_disposed_0() { return static_cast<int32_t>(offsetof(GlobalJavaObjectRef_t1417862413, ___m_disposed_0)); }
+	inline bool get_m_disposed_0() const { return ___m_disposed_0; }
+	inline bool* get_address_of_m_disposed_0() { return &___m_disposed_0; }
+	inline void set_m_disposed_0(bool value)
+	{
+		___m_disposed_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_jobject_1() { return static_cast<int32_t>(offsetof(GlobalJavaObjectRef_t1417862413, ___m_jobject_1)); }
+	inline intptr_t get_m_jobject_1() const { return ___m_jobject_1; }
+	inline intptr_t* get_address_of_m_jobject_1() { return &___m_jobject_1; }
+	inline void set_m_jobject_1(intptr_t value)
+	{
+		___m_jobject_1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GLOBALJAVAOBJECTREF_T1417862413_H
+#ifndef KEYCODE_T2283395152_H
+#define KEYCODE_T2283395152_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.KeyCode
+struct  KeyCode_t2283395152 
+{
+public:
+	// System.Int32 UnityEngine.KeyCode::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(KeyCode_t2283395152, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // KEYCODE_T2283395152_H
+#ifndef JVALUE_T3412352577_H
+#define JVALUE_T3412352577_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.jvalue
+struct  jvalue_t3412352577 
+{
+public:
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Boolean UnityEngine.jvalue::z
+			bool ___z_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			bool ___z_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Byte UnityEngine.jvalue::b
+			uint8_t ___b_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___b_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Char UnityEngine.jvalue::c
+			Il2CppChar ___c_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			Il2CppChar ___c_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Int16 UnityEngine.jvalue::s
+			int16_t ___s_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int16_t ___s_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Int32 UnityEngine.jvalue::i
+			int32_t ___i_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___i_4_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Int64 UnityEngine.jvalue::j
+			int64_t ___j_5;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int64_t ___j_5_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Single UnityEngine.jvalue::f
+			float ___f_6;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			float ___f_6_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Double UnityEngine.jvalue::d
+			double ___d_7;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			double ___d_7_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.IntPtr UnityEngine.jvalue::l
+			intptr_t ___l_8;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			intptr_t ___l_8_forAlignmentOnly;
+		};
+	};
+
+public:
+	inline static int32_t get_offset_of_z_0() { return static_cast<int32_t>(offsetof(jvalue_t3412352577, ___z_0)); }
+	inline bool get_z_0() const { return ___z_0; }
+	inline bool* get_address_of_z_0() { return &___z_0; }
+	inline void set_z_0(bool value)
+	{
+		___z_0 = value;
+	}
+
+	inline static int32_t get_offset_of_b_1() { return static_cast<int32_t>(offsetof(jvalue_t3412352577, ___b_1)); }
+	inline uint8_t get_b_1() const { return ___b_1; }
+	inline uint8_t* get_address_of_b_1() { return &___b_1; }
+	inline void set_b_1(uint8_t value)
+	{
+		___b_1 = value;
+	}
+
+	inline static int32_t get_offset_of_c_2() { return static_cast<int32_t>(offsetof(jvalue_t3412352577, ___c_2)); }
+	inline Il2CppChar get_c_2() const { return ___c_2; }
+	inline Il2CppChar* get_address_of_c_2() { return &___c_2; }
+	inline void set_c_2(Il2CppChar value)
+	{
+		___c_2 = value;
+	}
+
+	inline static int32_t get_offset_of_s_3() { return static_cast<int32_t>(offsetof(jvalue_t3412352577, ___s_3)); }
+	inline int16_t get_s_3() const { return ___s_3; }
+	inline int16_t* get_address_of_s_3() { return &___s_3; }
+	inline void set_s_3(int16_t value)
+	{
+		___s_3 = value;
+	}
+
+	inline static int32_t get_offset_of_i_4() { return static_cast<int32_t>(offsetof(jvalue_t3412352577, ___i_4)); }
+	inline int32_t get_i_4() const { return ___i_4; }
+	inline int32_t* get_address_of_i_4() { return &___i_4; }
+	inline void set_i_4(int32_t value)
+	{
+		___i_4 = value;
+	}
+
+	inline static int32_t get_offset_of_j_5() { return static_cast<int32_t>(offsetof(jvalue_t3412352577, ___j_5)); }
+	inline int64_t get_j_5() const { return ___j_5; }
+	inline int64_t* get_address_of_j_5() { return &___j_5; }
+	inline void set_j_5(int64_t value)
+	{
+		___j_5 = value;
+	}
+
+	inline static int32_t get_offset_of_f_6() { return static_cast<int32_t>(offsetof(jvalue_t3412352577, ___f_6)); }
+	inline float get_f_6() const { return ___f_6; }
+	inline float* get_address_of_f_6() { return &___f_6; }
+	inline void set_f_6(float value)
+	{
+		___f_6 = value;
+	}
+
+	inline static int32_t get_offset_of_d_7() { return static_cast<int32_t>(offsetof(jvalue_t3412352577, ___d_7)); }
+	inline double get_d_7() const { return ___d_7; }
+	inline double* get_address_of_d_7() { return &___d_7; }
+	inline void set_d_7(double value)
+	{
+		___d_7 = value;
+	}
+
+	inline static int32_t get_offset_of_l_8() { return static_cast<int32_t>(offsetof(jvalue_t3412352577, ___l_8)); }
+	inline intptr_t get_l_8() const { return ___l_8; }
+	inline intptr_t* get_address_of_l_8() { return &___l_8; }
+	inline void set_l_8(intptr_t value)
+	{
+		___l_8 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of UnityEngine.jvalue
+struct jvalue_t3412352577_marshaled_pinvoke
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___z_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___z_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			uint8_t ___b_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___b_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			uint8_t ___c_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___c_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int16_t ___s_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int16_t ___s_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___i_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___i_4_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int64_t ___j_5;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int64_t ___j_5_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			float ___f_6;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			float ___f_6_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			double ___d_7;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			double ___d_7_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			intptr_t ___l_8;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			intptr_t ___l_8_forAlignmentOnly;
+		};
+	};
+};
+// Native definition for COM marshalling of UnityEngine.jvalue
+struct jvalue_t3412352577_marshaled_com
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___z_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___z_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			uint8_t ___b_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___b_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			uint8_t ___c_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___c_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int16_t ___s_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int16_t ___s_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___i_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___i_4_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int64_t ___j_5;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int64_t ___j_5_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			float ___f_6;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			float ___f_6_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			double ___d_7;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			double ___d_7_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			intptr_t ___l_8;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			intptr_t ___l_8_forAlignmentOnly;
+		};
+	};
+};
+#endif // JVALUE_T3412352577_H
 #ifndef LOCALNOTIFICATION_T317971878_H
 #define LOCALNOTIFICATION_T317971878_H
 #ifdef __clang__
@@ -5822,23 +5745,52 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // SEEKORIGIN_T2475945306_H
-#ifndef INTERNALVERTEXCHANNELTYPE_T2178520045_H
-#define INTERNALVERTEXCHANNELTYPE_T2178520045_H
+#ifndef REMOTENOTIFICATION_T2254252895_H
+#define REMOTENOTIFICATION_T2254252895_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Mesh/InternalVertexChannelType
-struct  InternalVertexChannelType_t2178520045 
+// UnityEngine.iOS.RemoteNotification
+struct  RemoteNotification_t2254252895  : public RuntimeObject
 {
 public:
-	// System.Int32 UnityEngine.Mesh/InternalVertexChannelType::value__
+	// System.IntPtr UnityEngine.iOS.RemoteNotification::notificationWrapper
+	intptr_t ___notificationWrapper_0;
+
+public:
+	inline static int32_t get_offset_of_notificationWrapper_0() { return static_cast<int32_t>(offsetof(RemoteNotification_t2254252895, ___notificationWrapper_0)); }
+	inline intptr_t get_notificationWrapper_0() const { return ___notificationWrapper_0; }
+	inline intptr_t* get_address_of_notificationWrapper_0() { return &___notificationWrapper_0; }
+	inline void set_notificationWrapper_0(intptr_t value)
+	{
+		___notificationWrapper_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // REMOTENOTIFICATION_T2254252895_H
+#ifndef IMECOMPOSITIONMODE_T1898275508_H
+#define IMECOMPOSITIONMODE_T1898275508_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.IMECompositionMode
+struct  IMECompositionMode_t1898275508 
+{
+public:
+	// System.Int32 UnityEngine.IMECompositionMode::value__
 	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(InternalVertexChannelType_t2178520045, ___value___1)); }
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(IMECompositionMode_t1898275508, ___value___1)); }
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -5850,24 +5802,53 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // INTERNALVERTEXCHANNELTYPE_T2178520045_H
-#ifndef INTERNALSHADERCHANNEL_T3331827198_H
-#define INTERNALSHADERCHANNEL_T3331827198_H
+#endif // IMECOMPOSITIONMODE_T1898275508_H
+#ifndef SCRIPTABLERENDERCONTEXT_T4271526_H
+#define SCRIPTABLERENDERCONTEXT_T4271526_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Mesh/InternalShaderChannel
-struct  InternalShaderChannel_t3331827198 
+// UnityEngine.Experimental.Rendering.ScriptableRenderContext
+struct  ScriptableRenderContext_t4271526 
 {
 public:
-	// System.Int32 UnityEngine.Mesh/InternalShaderChannel::value__
+	// System.IntPtr UnityEngine.Experimental.Rendering.ScriptableRenderContext::m_Ptr
+	intptr_t ___m_Ptr_0;
+
+public:
+	inline static int32_t get_offset_of_m_Ptr_0() { return static_cast<int32_t>(offsetof(ScriptableRenderContext_t4271526, ___m_Ptr_0)); }
+	inline intptr_t get_m_Ptr_0() const { return ___m_Ptr_0; }
+	inline intptr_t* get_address_of_m_Ptr_0() { return &___m_Ptr_0; }
+	inline void set_m_Ptr_0(intptr_t value)
+	{
+		___m_Ptr_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // SCRIPTABLERENDERCONTEXT_T4271526_H
+#ifndef SENDMESSAGEOPTIONS_T1414041951_H
+#define SENDMESSAGEOPTIONS_T1414041951_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.SendMessageOptions
+struct  SendMessageOptions_t1414041951 
+{
+public:
+	// System.Int32 UnityEngine.SendMessageOptions::value__
 	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(InternalShaderChannel_t3331827198, ___value___1)); }
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(SendMessageOptions_t1414041951, ___value___1)); }
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -5879,17 +5860,390 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // INTERNALSHADERCHANNEL_T3331827198_H
-#ifndef INDEXOUTOFRANGEEXCEPTION_T3527622107_H
-#define INDEXOUTOFRANGEEXCEPTION_T3527622107_H
+#endif // SENDMESSAGEOPTIONS_T1414041951_H
+#ifndef GRADIENT_T3600583008_H
+#define GRADIENT_T3600583008_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.IndexOutOfRangeException
-struct  IndexOutOfRangeException_t3527622107  : public SystemException_t3877406272
+// UnityEngine.Gradient
+struct  Gradient_t3600583008  : public RuntimeObject
+{
+public:
+	// System.IntPtr UnityEngine.Gradient::m_Ptr
+	intptr_t ___m_Ptr_0;
+
+public:
+	inline static int32_t get_offset_of_m_Ptr_0() { return static_cast<int32_t>(offsetof(Gradient_t3600583008, ___m_Ptr_0)); }
+	inline intptr_t get_m_Ptr_0() const { return ___m_Ptr_0; }
+	inline intptr_t* get_address_of_m_Ptr_0() { return &___m_Ptr_0; }
+	inline void set_m_Ptr_0(intptr_t value)
+	{
+		___m_Ptr_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of UnityEngine.Gradient
+struct Gradient_t3600583008_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr_0;
+};
+// Native definition for COM marshalling of UnityEngine.Gradient
+struct Gradient_t3600583008_marshaled_com
+{
+	intptr_t ___m_Ptr_0;
+};
+#endif // GRADIENT_T3600583008_H
+#ifndef RUNTIMETYPEHANDLE_T2330101084_H
+#define RUNTIMETYPEHANDLE_T2330101084_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.RuntimeTypeHandle
+struct  RuntimeTypeHandle_t2330101084 
+{
+public:
+	// System.IntPtr System.RuntimeTypeHandle::value
+	intptr_t ___value_0;
+
+public:
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(RuntimeTypeHandle_t2330101084, ___value_0)); }
+	inline intptr_t get_value_0() const { return ___value_0; }
+	inline intptr_t* get_address_of_value_0() { return &___value_0; }
+	inline void set_value_0(intptr_t value)
+	{
+		___value_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // RUNTIMETYPEHANDLE_T2330101084_H
+#ifndef HIDEFLAGS_T1434274199_H
+#define HIDEFLAGS_T1434274199_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.HideFlags
+struct  HideFlags_t1434274199 
+{
+public:
+	// System.Int32 UnityEngine.HideFlags::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(HideFlags_t1434274199, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // HIDEFLAGS_T1434274199_H
+#ifndef ANDROIDJAVAPROXY_T4274989947_H
+#define ANDROIDJAVAPROXY_T4274989947_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.AndroidJavaProxy
+struct  AndroidJavaProxy_t4274989947  : public RuntimeObject
+{
+public:
+	// UnityEngine.AndroidJavaClass UnityEngine.AndroidJavaProxy::javaInterface
+	AndroidJavaClass_t2973420583 * ___javaInterface_0;
+	// UnityEngine.AndroidJavaObject UnityEngine.AndroidJavaProxy::proxyObject
+	AndroidJavaObject_t4251328308 * ___proxyObject_1;
+
+public:
+	inline static int32_t get_offset_of_javaInterface_0() { return static_cast<int32_t>(offsetof(AndroidJavaProxy_t4274989947, ___javaInterface_0)); }
+	inline AndroidJavaClass_t2973420583 * get_javaInterface_0() const { return ___javaInterface_0; }
+	inline AndroidJavaClass_t2973420583 ** get_address_of_javaInterface_0() { return &___javaInterface_0; }
+	inline void set_javaInterface_0(AndroidJavaClass_t2973420583 * value)
+	{
+		___javaInterface_0 = value;
+		Il2CppCodeGenWriteBarrier((&___javaInterface_0), value);
+	}
+
+	inline static int32_t get_offset_of_proxyObject_1() { return static_cast<int32_t>(offsetof(AndroidJavaProxy_t4274989947, ___proxyObject_1)); }
+	inline AndroidJavaObject_t4251328308 * get_proxyObject_1() const { return ___proxyObject_1; }
+	inline AndroidJavaObject_t4251328308 ** get_address_of_proxyObject_1() { return &___proxyObject_1; }
+	inline void set_proxyObject_1(AndroidJavaObject_t4251328308 * value)
+	{
+		___proxyObject_1 = value;
+		Il2CppCodeGenWriteBarrier((&___proxyObject_1), value);
+	}
+};
+
+struct AndroidJavaProxy_t4274989947_StaticFields
+{
+public:
+	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidJavaProxy::s_JavaLangSystemClass
+	GlobalJavaObjectRef_t1417862413 * ___s_JavaLangSystemClass_2;
+	// System.IntPtr UnityEngine.AndroidJavaProxy::s_HashCodeMethodID
+	intptr_t ___s_HashCodeMethodID_3;
+
+public:
+	inline static int32_t get_offset_of_s_JavaLangSystemClass_2() { return static_cast<int32_t>(offsetof(AndroidJavaProxy_t4274989947_StaticFields, ___s_JavaLangSystemClass_2)); }
+	inline GlobalJavaObjectRef_t1417862413 * get_s_JavaLangSystemClass_2() const { return ___s_JavaLangSystemClass_2; }
+	inline GlobalJavaObjectRef_t1417862413 ** get_address_of_s_JavaLangSystemClass_2() { return &___s_JavaLangSystemClass_2; }
+	inline void set_s_JavaLangSystemClass_2(GlobalJavaObjectRef_t1417862413 * value)
+	{
+		___s_JavaLangSystemClass_2 = value;
+		Il2CppCodeGenWriteBarrier((&___s_JavaLangSystemClass_2), value);
+	}
+
+	inline static int32_t get_offset_of_s_HashCodeMethodID_3() { return static_cast<int32_t>(offsetof(AndroidJavaProxy_t4274989947_StaticFields, ___s_HashCodeMethodID_3)); }
+	inline intptr_t get_s_HashCodeMethodID_3() const { return ___s_HashCodeMethodID_3; }
+	inline intptr_t* get_address_of_s_HashCodeMethodID_3() { return &___s_HashCodeMethodID_3; }
+	inline void set_s_HashCodeMethodID_3(intptr_t value)
+	{
+		___s_HashCodeMethodID_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ANDROIDJAVAPROXY_T4274989947_H
+#ifndef CACHEDINVOKABLECALL_1_T870059823_H
+#define CACHEDINVOKABLECALL_1_T870059823_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Events.CachedInvokableCall`1<System.Single>
+struct  CachedInvokableCall_1_t870059823  : public InvokableCall_1_t270836789
+{
+public:
+	// T UnityEngine.Events.CachedInvokableCall`1::m_Arg1
+	float ___m_Arg1_1;
+
+public:
+	inline static int32_t get_offset_of_m_Arg1_1() { return static_cast<int32_t>(offsetof(CachedInvokableCall_1_t870059823, ___m_Arg1_1)); }
+	inline float get_m_Arg1_1() const { return ___m_Arg1_1; }
+	inline float* get_address_of_m_Arg1_1() { return &___m_Arg1_1; }
+	inline void set_m_Arg1_1(float value)
+	{
+		___m_Arg1_1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CACHEDINVOKABLECALL_1_T870059823_H
+#ifndef CULLINGGROUP_T1091689465_H
+#define CULLINGGROUP_T1091689465_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.CullingGroup
+struct  CullingGroup_t1091689465  : public RuntimeObject
+{
+public:
+	// System.IntPtr UnityEngine.CullingGroup::m_Ptr
+	intptr_t ___m_Ptr_0;
+	// UnityEngine.CullingGroup/StateChanged UnityEngine.CullingGroup::m_OnStateChanged
+	StateChanged_t2480912210 * ___m_OnStateChanged_1;
+
+public:
+	inline static int32_t get_offset_of_m_Ptr_0() { return static_cast<int32_t>(offsetof(CullingGroup_t1091689465, ___m_Ptr_0)); }
+	inline intptr_t get_m_Ptr_0() const { return ___m_Ptr_0; }
+	inline intptr_t* get_address_of_m_Ptr_0() { return &___m_Ptr_0; }
+	inline void set_m_Ptr_0(intptr_t value)
+	{
+		___m_Ptr_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_OnStateChanged_1() { return static_cast<int32_t>(offsetof(CullingGroup_t1091689465, ___m_OnStateChanged_1)); }
+	inline StateChanged_t2480912210 * get_m_OnStateChanged_1() const { return ___m_OnStateChanged_1; }
+	inline StateChanged_t2480912210 ** get_address_of_m_OnStateChanged_1() { return &___m_OnStateChanged_1; }
+	inline void set_m_OnStateChanged_1(StateChanged_t2480912210 * value)
+	{
+		___m_OnStateChanged_1 = value;
+		Il2CppCodeGenWriteBarrier((&___m_OnStateChanged_1), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of UnityEngine.CullingGroup
+struct CullingGroup_t1091689465_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr_0;
+	Il2CppMethodPointer ___m_OnStateChanged_1;
+};
+// Native definition for COM marshalling of UnityEngine.CullingGroup
+struct CullingGroup_t1091689465_marshaled_com
+{
+	intptr_t ___m_Ptr_0;
+	Il2CppMethodPointer ___m_OnStateChanged_1;
+};
+#endif // CULLINGGROUP_T1091689465_H
+#ifndef CURSORLOCKMODE_T3372615096_H
+#define CURSORLOCKMODE_T3372615096_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.CursorLockMode
+struct  CursorLockMode_t3372615096 
+{
+public:
+	// System.Int32 UnityEngine.CursorLockMode::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(CursorLockMode_t3372615096, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CURSORLOCKMODE_T3372615096_H
+#ifndef ARGUMENTEXCEPTION_T3259014390_H
+#define ARGUMENTEXCEPTION_T3259014390_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ArgumentException
+struct  ArgumentException_t3259014390  : public SystemException_t3877406272
+{
+public:
+	// System.String System.ArgumentException::param_name
+	String_t* ___param_name_12;
+
+public:
+	inline static int32_t get_offset_of_param_name_12() { return static_cast<int32_t>(offsetof(ArgumentException_t3259014390, ___param_name_12)); }
+	inline String_t* get_param_name_12() const { return ___param_name_12; }
+	inline String_t** get_address_of_param_name_12() { return &___param_name_12; }
+	inline void set_param_name_12(String_t* value)
+	{
+		___param_name_12 = value;
+		Il2CppCodeGenWriteBarrier((&___param_name_12), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ARGUMENTEXCEPTION_T3259014390_H
+#ifndef DISPLAY_T3666191348_H
+#define DISPLAY_T3666191348_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Display
+struct  Display_t3666191348  : public RuntimeObject
+{
+public:
+	// System.IntPtr UnityEngine.Display::nativeDisplay
+	intptr_t ___nativeDisplay_0;
+
+public:
+	inline static int32_t get_offset_of_nativeDisplay_0() { return static_cast<int32_t>(offsetof(Display_t3666191348, ___nativeDisplay_0)); }
+	inline intptr_t get_nativeDisplay_0() const { return ___nativeDisplay_0; }
+	inline intptr_t* get_address_of_nativeDisplay_0() { return &___nativeDisplay_0; }
+	inline void set_nativeDisplay_0(intptr_t value)
+	{
+		___nativeDisplay_0 = value;
+	}
+};
+
+struct Display_t3666191348_StaticFields
+{
+public:
+	// UnityEngine.Display[] UnityEngine.Display::displays
+	DisplayU5BU5D_t1314630077* ___displays_1;
+	// UnityEngine.Display UnityEngine.Display::_mainDisplay
+	Display_t3666191348 * ____mainDisplay_2;
+	// UnityEngine.Display/DisplaysUpdatedDelegate UnityEngine.Display::onDisplaysUpdated
+	DisplaysUpdatedDelegate_t3423469815 * ___onDisplaysUpdated_3;
+
+public:
+	inline static int32_t get_offset_of_displays_1() { return static_cast<int32_t>(offsetof(Display_t3666191348_StaticFields, ___displays_1)); }
+	inline DisplayU5BU5D_t1314630077* get_displays_1() const { return ___displays_1; }
+	inline DisplayU5BU5D_t1314630077** get_address_of_displays_1() { return &___displays_1; }
+	inline void set_displays_1(DisplayU5BU5D_t1314630077* value)
+	{
+		___displays_1 = value;
+		Il2CppCodeGenWriteBarrier((&___displays_1), value);
+	}
+
+	inline static int32_t get_offset_of__mainDisplay_2() { return static_cast<int32_t>(offsetof(Display_t3666191348_StaticFields, ____mainDisplay_2)); }
+	inline Display_t3666191348 * get__mainDisplay_2() const { return ____mainDisplay_2; }
+	inline Display_t3666191348 ** get_address_of__mainDisplay_2() { return &____mainDisplay_2; }
+	inline void set__mainDisplay_2(Display_t3666191348 * value)
+	{
+		____mainDisplay_2 = value;
+		Il2CppCodeGenWriteBarrier((&____mainDisplay_2), value);
+	}
+
+	inline static int32_t get_offset_of_onDisplaysUpdated_3() { return static_cast<int32_t>(offsetof(Display_t3666191348_StaticFields, ___onDisplaysUpdated_3)); }
+	inline DisplaysUpdatedDelegate_t3423469815 * get_onDisplaysUpdated_3() const { return ___onDisplaysUpdated_3; }
+	inline DisplaysUpdatedDelegate_t3423469815 ** get_address_of_onDisplaysUpdated_3() { return &___onDisplaysUpdated_3; }
+	inline void set_onDisplaysUpdated_3(DisplaysUpdatedDelegate_t3423469815 * value)
+	{
+		___onDisplaysUpdated_3 = value;
+		Il2CppCodeGenWriteBarrier((&___onDisplaysUpdated_3), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DISPLAY_T3666191348_H
+#ifndef NULLREFERENCEEXCEPTION_T3156209119_H
+#define NULLREFERENCEEXCEPTION_T3156209119_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.NullReferenceException
+struct  NullReferenceException_t3156209119  : public SystemException_t3877406272
 {
 public:
 
@@ -5899,7 +6253,263 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // INDEXOUTOFRANGEEXCEPTION_T3527622107_H
+#endif // NULLREFERENCEEXCEPTION_T3156209119_H
+#ifndef DRIVENTRANSFORMPROPERTIES_T2488747555_H
+#define DRIVENTRANSFORMPROPERTIES_T2488747555_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.DrivenTransformProperties
+struct  DrivenTransformProperties_t2488747555 
+{
+public:
+	// System.Int32 UnityEngine.DrivenTransformProperties::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(DrivenTransformProperties_t2488747555, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DRIVENTRANSFORMPROPERTIES_T2488747555_H
+#ifndef WEAKREFERENCE_T1077405567_H
+#define WEAKREFERENCE_T1077405567_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.WeakReference
+struct  WeakReference_t1077405567  : public RuntimeObject
+{
+public:
+	// System.Boolean System.WeakReference::isLongReference
+	bool ___isLongReference_0;
+	// System.Runtime.InteropServices.GCHandle System.WeakReference::gcHandle
+	GCHandle_t3409268066  ___gcHandle_1;
+
+public:
+	inline static int32_t get_offset_of_isLongReference_0() { return static_cast<int32_t>(offsetof(WeakReference_t1077405567, ___isLongReference_0)); }
+	inline bool get_isLongReference_0() const { return ___isLongReference_0; }
+	inline bool* get_address_of_isLongReference_0() { return &___isLongReference_0; }
+	inline void set_isLongReference_0(bool value)
+	{
+		___isLongReference_0 = value;
+	}
+
+	inline static int32_t get_offset_of_gcHandle_1() { return static_cast<int32_t>(offsetof(WeakReference_t1077405567, ___gcHandle_1)); }
+	inline GCHandle_t3409268066  get_gcHandle_1() const { return ___gcHandle_1; }
+	inline GCHandle_t3409268066 * get_address_of_gcHandle_1() { return &___gcHandle_1; }
+	inline void set_gcHandle_1(GCHandle_t3409268066  value)
+	{
+		___gcHandle_1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // WEAKREFERENCE_T1077405567_H
+#ifndef CAMERACLEARFLAGS_T452084705_H
+#define CAMERACLEARFLAGS_T452084705_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.CameraClearFlags
+struct  CameraClearFlags_t452084705 
+{
+public:
+	// System.Int32 UnityEngine.CameraClearFlags::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(CameraClearFlags_t452084705, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CAMERACLEARFLAGS_T452084705_H
+#ifndef CACHEDASSETBUNDLE_T238312526_H
+#define CACHEDASSETBUNDLE_T238312526_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.CachedAssetBundle
+struct  CachedAssetBundle_t238312526 
+{
+public:
+	// System.String UnityEngine.CachedAssetBundle::m_Name
+	String_t* ___m_Name_0;
+	// UnityEngine.Hash128 UnityEngine.CachedAssetBundle::m_Hash
+	Hash128_t2836532937  ___m_Hash_1;
+
+public:
+	inline static int32_t get_offset_of_m_Name_0() { return static_cast<int32_t>(offsetof(CachedAssetBundle_t238312526, ___m_Name_0)); }
+	inline String_t* get_m_Name_0() const { return ___m_Name_0; }
+	inline String_t** get_address_of_m_Name_0() { return &___m_Name_0; }
+	inline void set_m_Name_0(String_t* value)
+	{
+		___m_Name_0 = value;
+		Il2CppCodeGenWriteBarrier((&___m_Name_0), value);
+	}
+
+	inline static int32_t get_offset_of_m_Hash_1() { return static_cast<int32_t>(offsetof(CachedAssetBundle_t238312526, ___m_Hash_1)); }
+	inline Hash128_t2836532937  get_m_Hash_1() const { return ___m_Hash_1; }
+	inline Hash128_t2836532937 * get_address_of_m_Hash_1() { return &___m_Hash_1; }
+	inline void set_m_Hash_1(Hash128_t2836532937  value)
+	{
+		___m_Hash_1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of UnityEngine.CachedAssetBundle
+struct CachedAssetBundle_t238312526_marshaled_pinvoke
+{
+	char* ___m_Name_0;
+	Hash128_t2836532937  ___m_Hash_1;
+};
+// Native definition for COM marshalling of UnityEngine.CachedAssetBundle
+struct CachedAssetBundle_t238312526_marshaled_com
+{
+	Il2CppChar* ___m_Name_0;
+	Hash128_t2836532937  ___m_Hash_1;
+};
+#endif // CACHEDASSETBUNDLE_T238312526_H
+#ifndef BOUNDS_T3033363703_H
+#define BOUNDS_T3033363703_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Bounds
+struct  Bounds_t3033363703 
+{
+public:
+	// UnityEngine.Vector3 UnityEngine.Bounds::m_Center
+	Vector3_t2243707580  ___m_Center_0;
+	// UnityEngine.Vector3 UnityEngine.Bounds::m_Extents
+	Vector3_t2243707580  ___m_Extents_1;
+
+public:
+	inline static int32_t get_offset_of_m_Center_0() { return static_cast<int32_t>(offsetof(Bounds_t3033363703, ___m_Center_0)); }
+	inline Vector3_t2243707580  get_m_Center_0() const { return ___m_Center_0; }
+	inline Vector3_t2243707580 * get_address_of_m_Center_0() { return &___m_Center_0; }
+	inline void set_m_Center_0(Vector3_t2243707580  value)
+	{
+		___m_Center_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_Extents_1() { return static_cast<int32_t>(offsetof(Bounds_t3033363703, ___m_Extents_1)); }
+	inline Vector3_t2243707580  get_m_Extents_1() const { return ___m_Extents_1; }
+	inline Vector3_t2243707580 * get_address_of_m_Extents_1() { return &___m_Extents_1; }
+	inline void set_m_Extents_1(Vector3_t2243707580  value)
+	{
+		___m_Extents_1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // BOUNDS_T3033363703_H
+#ifndef COROUTINE_T2299508840_H
+#define COROUTINE_T2299508840_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Coroutine
+struct  Coroutine_t2299508840  : public YieldInstruction_t3462875981
+{
+public:
+	// System.IntPtr UnityEngine.Coroutine::m_Ptr
+	intptr_t ___m_Ptr_0;
+
+public:
+	inline static int32_t get_offset_of_m_Ptr_0() { return static_cast<int32_t>(offsetof(Coroutine_t2299508840, ___m_Ptr_0)); }
+	inline intptr_t get_m_Ptr_0() const { return ___m_Ptr_0; }
+	inline intptr_t* get_address_of_m_Ptr_0() { return &___m_Ptr_0; }
+	inline void set_m_Ptr_0(intptr_t value)
+	{
+		___m_Ptr_0 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of UnityEngine.Coroutine
+struct Coroutine_t2299508840_marshaled_pinvoke : public YieldInstruction_t3462875981_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr_0;
+};
+// Native definition for COM marshalling of UnityEngine.Coroutine
+struct Coroutine_t2299508840_marshaled_com : public YieldInstruction_t3462875981_marshaled_com
+{
+	intptr_t ___m_Ptr_0;
+};
+#endif // COROUTINE_T2299508840_H
+#ifndef CSSMEASUREMODE_T2118763144_H
+#define CSSMEASUREMODE_T2118763144_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.CSSLayout.CSSMeasureMode
+struct  CSSMeasureMode_t2118763144 
+{
+public:
+	// System.Int32 UnityEngine.CSSLayout.CSSMeasureMode::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(CSSMeasureMode_t2118763144, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CSSMEASUREMODE_T2118763144_H
 #ifndef ASYNCOPERATION_T3814632279_H
 #define ASYNCOPERATION_T3814632279_H
 #ifdef __clang__
@@ -5952,215 +6562,6 @@ struct AsyncOperation_t3814632279_marshaled_com : public YieldInstruction_t34628
 	Il2CppMethodPointer ___m_completeCallback_1;
 };
 #endif // ASYNCOPERATION_T3814632279_H
-#ifndef RUNTIMEPLATFORM_T1869584967_H
-#define RUNTIMEPLATFORM_T1869584967_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.RuntimePlatform
-struct  RuntimePlatform_t1869584967 
-{
-public:
-	// System.Int32 UnityEngine.RuntimePlatform::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(RuntimePlatform_t1869584967, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // RUNTIMEPLATFORM_T1869584967_H
-#ifndef LOGTYPE_T1559732862_H
-#define LOGTYPE_T1559732862_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.LogType
-struct  LogType_t1559732862 
-{
-public:
-	// System.Int32 UnityEngine.LogType::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(LogType_t1559732862, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LOGTYPE_T1559732862_H
-#ifndef CONNECTIONCHANGEEVENT_T536719976_H
-#define CONNECTIONCHANGEEVENT_T536719976_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/ConnectionChangeEvent
-struct  ConnectionChangeEvent_t536719976  : public UnityEvent_1_t2110227463
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CONNECTIONCHANGEEVENT_T536719976_H
-#ifndef RUNTIMETYPEHANDLE_T2330101084_H
-#define RUNTIMETYPEHANDLE_T2330101084_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.RuntimeTypeHandle
-struct  RuntimeTypeHandle_t2330101084 
-{
-public:
-	// System.IntPtr System.RuntimeTypeHandle::value
-	intptr_t ___value_0;
-
-public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(RuntimeTypeHandle_t2330101084, ___value_0)); }
-	inline intptr_t get_value_0() const { return ___value_0; }
-	inline intptr_t* get_address_of_value_0() { return &___value_0; }
-	inline void set_value_0(intptr_t value)
-	{
-		___value_0 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // RUNTIMETYPEHANDLE_T2330101084_H
-#ifndef ANIMATIONCURVE_T3306541151_H
-#define ANIMATIONCURVE_T3306541151_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.AnimationCurve
-struct  AnimationCurve_t3306541151  : public RuntimeObject
-{
-public:
-	// System.IntPtr UnityEngine.AnimationCurve::m_Ptr
-	intptr_t ___m_Ptr_0;
-
-public:
-	inline static int32_t get_offset_of_m_Ptr_0() { return static_cast<int32_t>(offsetof(AnimationCurve_t3306541151, ___m_Ptr_0)); }
-	inline intptr_t get_m_Ptr_0() const { return ___m_Ptr_0; }
-	inline intptr_t* get_address_of_m_Ptr_0() { return &___m_Ptr_0; }
-	inline void set_m_Ptr_0(intptr_t value)
-	{
-		___m_Ptr_0 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of UnityEngine.AnimationCurve
-struct AnimationCurve_t3306541151_marshaled_pinvoke
-{
-	intptr_t ___m_Ptr_0;
-};
-// Native definition for COM marshalling of UnityEngine.AnimationCurve
-struct AnimationCurve_t3306541151_marshaled_com
-{
-	intptr_t ___m_Ptr_0;
-};
-#endif // ANIMATIONCURVE_T3306541151_H
-#ifndef MATHFINTERNAL_T715669973_H
-#define MATHFINTERNAL_T715669973_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngineInternal.MathfInternal
-struct  MathfInternal_t715669973 
-{
-public:
-	union
-	{
-		struct
-		{
-		};
-		uint8_t MathfInternal_t715669973__padding[1];
-	};
-
-public:
-};
-
-struct MathfInternal_t715669973_StaticFields
-{
-public:
-	// System.Single modreq(System.Runtime.CompilerServices.IsVolatile) UnityEngineInternal.MathfInternal::FloatMinNormal
-	float ___FloatMinNormal_0;
-	// System.Single modreq(System.Runtime.CompilerServices.IsVolatile) UnityEngineInternal.MathfInternal::FloatMinDenormal
-	float ___FloatMinDenormal_1;
-	// System.Boolean UnityEngineInternal.MathfInternal::IsFlushToZeroEnabled
-	bool ___IsFlushToZeroEnabled_2;
-
-public:
-	inline static int32_t get_offset_of_FloatMinNormal_0() { return static_cast<int32_t>(offsetof(MathfInternal_t715669973_StaticFields, ___FloatMinNormal_0)); }
-	inline float get_FloatMinNormal_0() const { return ___FloatMinNormal_0; }
-	inline float* get_address_of_FloatMinNormal_0() { return &___FloatMinNormal_0; }
-	inline void set_FloatMinNormal_0(float value)
-	{
-		___FloatMinNormal_0 = value;
-	}
-
-	inline static int32_t get_offset_of_FloatMinDenormal_1() { return static_cast<int32_t>(offsetof(MathfInternal_t715669973_StaticFields, ___FloatMinDenormal_1)); }
-	inline float get_FloatMinDenormal_1() const { return ___FloatMinDenormal_1; }
-	inline float* get_address_of_FloatMinDenormal_1() { return &___FloatMinDenormal_1; }
-	inline void set_FloatMinDenormal_1(float value)
-	{
-		___FloatMinDenormal_1 = value;
-	}
-
-	inline static int32_t get_offset_of_IsFlushToZeroEnabled_2() { return static_cast<int32_t>(offsetof(MathfInternal_t715669973_StaticFields, ___IsFlushToZeroEnabled_2)); }
-	inline bool get_IsFlushToZeroEnabled_2() const { return ___IsFlushToZeroEnabled_2; }
-	inline bool* get_address_of_IsFlushToZeroEnabled_2() { return &___IsFlushToZeroEnabled_2; }
-	inline void set_IsFlushToZeroEnabled_2(bool value)
-	{
-		___IsFlushToZeroEnabled_2 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MATHFINTERNAL_T715669973_H
 #ifndef OBJECT_T1021602117_H
 #define OBJECT_T1021602117_H
 #ifdef __clang__
@@ -6216,84 +6617,6 @@ struct Object_t1021602117_marshaled_com
 	intptr_t ___m_CachedPtr_0;
 };
 #endif // OBJECT_T1021602117_H
-#ifndef NULLREFERENCEEXCEPTION_T3156209119_H
-#define NULLREFERENCEEXCEPTION_T3156209119_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.NullReferenceException
-struct  NullReferenceException_t3156209119  : public SystemException_t3877406272
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // NULLREFERENCEEXCEPTION_T3156209119_H
-#ifndef IMECOMPOSITIONMODE_T1898275508_H
-#define IMECOMPOSITIONMODE_T1898275508_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.IMECompositionMode
-struct  IMECompositionMode_t1898275508 
-{
-public:
-	// System.Int32 UnityEngine.IMECompositionMode::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(IMECompositionMode_t1898275508, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // IMECOMPOSITIONMODE_T1898275508_H
-#ifndef PERSISTENTLISTENERMODE_T857969000_H
-#define PERSISTENTLISTENERMODE_T857969000_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Events.PersistentListenerMode
-struct  PersistentListenerMode_t857969000 
-{
-public:
-	// System.Int32 UnityEngine.Events.PersistentListenerMode::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(PersistentListenerMode_t857969000, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PERSISTENTLISTENERMODE_T857969000_H
 #ifndef UNITYEVENTCALLSTATE_T3420894182_H
 #define UNITYEVENTCALLSTATE_T3420894182_H
 #ifdef __clang__
@@ -6323,35 +6646,35 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // UNITYEVENTCALLSTATE_T3420894182_H
-#ifndef CACHEDINVOKABLECALL_1_T870059823_H
-#define CACHEDINVOKABLECALL_1_T870059823_H
+#ifndef PERSISTENTLISTENERMODE_T857969000_H
+#define PERSISTENTLISTENERMODE_T857969000_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Events.CachedInvokableCall`1<System.Single>
-struct  CachedInvokableCall_1_t870059823  : public InvokableCall_1_t270836789
+// UnityEngine.Events.PersistentListenerMode
+struct  PersistentListenerMode_t857969000 
 {
 public:
-	// T UnityEngine.Events.CachedInvokableCall`1::m_Arg1
-	float ___m_Arg1_1;
+	// System.Int32 UnityEngine.Events.PersistentListenerMode::value__
+	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_m_Arg1_1() { return static_cast<int32_t>(offsetof(CachedInvokableCall_1_t870059823, ___m_Arg1_1)); }
-	inline float get_m_Arg1_1() const { return ___m_Arg1_1; }
-	inline float* get_address_of_m_Arg1_1() { return &___m_Arg1_1; }
-	inline void set_m_Arg1_1(float value)
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(PersistentListenerMode_t857969000, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
 	{
-		___m_Arg1_1 = value;
+		___value___1 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // CACHEDINVOKABLECALL_1_T870059823_H
+#endif // PERSISTENTLISTENERMODE_T857969000_H
 #ifndef CACHEDINVOKABLECALL_1_T865427339_H
 #define CACHEDINVOKABLECALL_1_T865427339_H
 #ifdef __clang__
@@ -6381,142 +6704,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // CACHEDINVOKABLECALL_1_T865427339_H
-#ifndef CACHEDINVOKABLECALL_1_T822770124_H
-#define CACHEDINVOKABLECALL_1_T822770124_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Events.CachedInvokableCall`1<System.String>
-struct  CachedInvokableCall_1_t822770124  : public InvokableCall_1_t223547090
-{
-public:
-	// T UnityEngine.Events.CachedInvokableCall`1::m_Arg1
-	String_t* ___m_Arg1_1;
-
-public:
-	inline static int32_t get_offset_of_m_Arg1_1() { return static_cast<int32_t>(offsetof(CachedInvokableCall_1_t822770124, ___m_Arg1_1)); }
-	inline String_t* get_m_Arg1_1() const { return ___m_Arg1_1; }
-	inline String_t** get_address_of_m_Arg1_1() { return &___m_Arg1_1; }
-	inline void set_m_Arg1_1(String_t* value)
-	{
-		___m_Arg1_1 = value;
-		Il2CppCodeGenWriteBarrier((&___m_Arg1_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CACHEDINVOKABLECALL_1_T822770124_H
-#ifndef CACHEDINVOKABLECALL_1_T2619124609_H
-#define CACHEDINVOKABLECALL_1_T2619124609_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Events.CachedInvokableCall`1<System.Boolean>
-struct  CachedInvokableCall_1_t2619124609  : public InvokableCall_1_t2019901575
-{
-public:
-	// T UnityEngine.Events.CachedInvokableCall`1::m_Arg1
-	bool ___m_Arg1_1;
-
-public:
-	inline static int32_t get_offset_of_m_Arg1_1() { return static_cast<int32_t>(offsetof(CachedInvokableCall_1_t2619124609, ___m_Arg1_1)); }
-	inline bool get_m_Arg1_1() const { return ___m_Arg1_1; }
-	inline bool* get_address_of_m_Arg1_1() { return &___m_Arg1_1; }
-	inline void set_m_Arg1_1(bool value)
-	{
-		___m_Arg1_1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CACHEDINVOKABLECALL_1_T2619124609_H
-#ifndef CONSTRUCTORINFO_T2851816542_H
-#define CONSTRUCTORINFO_T2851816542_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Reflection.ConstructorInfo
-struct  ConstructorInfo_t2851816542  : public MethodBase_t904190842
-{
-public:
-
-public:
-};
-
-struct ConstructorInfo_t2851816542_StaticFields
-{
-public:
-	// System.String System.Reflection.ConstructorInfo::ConstructorName
-	String_t* ___ConstructorName_0;
-	// System.String System.Reflection.ConstructorInfo::TypeConstructorName
-	String_t* ___TypeConstructorName_1;
-
-public:
-	inline static int32_t get_offset_of_ConstructorName_0() { return static_cast<int32_t>(offsetof(ConstructorInfo_t2851816542_StaticFields, ___ConstructorName_0)); }
-	inline String_t* get_ConstructorName_0() const { return ___ConstructorName_0; }
-	inline String_t** get_address_of_ConstructorName_0() { return &___ConstructorName_0; }
-	inline void set_ConstructorName_0(String_t* value)
-	{
-		___ConstructorName_0 = value;
-		Il2CppCodeGenWriteBarrier((&___ConstructorName_0), value);
-	}
-
-	inline static int32_t get_offset_of_TypeConstructorName_1() { return static_cast<int32_t>(offsetof(ConstructorInfo_t2851816542_StaticFields, ___TypeConstructorName_1)); }
-	inline String_t* get_TypeConstructorName_1() const { return ___TypeConstructorName_1; }
-	inline String_t** get_address_of_TypeConstructorName_1() { return &___TypeConstructorName_1; }
-	inline void set_TypeConstructorName_1(String_t* value)
-	{
-		___TypeConstructorName_1 = value;
-		Il2CppCodeGenWriteBarrier((&___TypeConstructorName_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CONSTRUCTORINFO_T2851816542_H
-#ifndef BINDINGFLAGS_T1082350898_H
-#define BINDINGFLAGS_T1082350898_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Reflection.BindingFlags
-struct  BindingFlags_t1082350898 
-{
-public:
-	// System.Int32 System.Reflection.BindingFlags::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(BindingFlags_t1082350898, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // BINDINGFLAGS_T1082350898_H
 #ifndef DELEGATE_T3022476291_H
 #define DELEGATE_T3022476291_H
 #ifdef __clang__
@@ -6630,291 +6817,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DELEGATE_T3022476291_H
-#ifndef CULLINGGROUP_T1091689465_H
-#define CULLINGGROUP_T1091689465_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.CullingGroup
-struct  CullingGroup_t1091689465  : public RuntimeObject
-{
-public:
-	// System.IntPtr UnityEngine.CullingGroup::m_Ptr
-	intptr_t ___m_Ptr_0;
-	// UnityEngine.CullingGroup/StateChanged UnityEngine.CullingGroup::m_OnStateChanged
-	StateChanged_t2480912210 * ___m_OnStateChanged_1;
-
-public:
-	inline static int32_t get_offset_of_m_Ptr_0() { return static_cast<int32_t>(offsetof(CullingGroup_t1091689465, ___m_Ptr_0)); }
-	inline intptr_t get_m_Ptr_0() const { return ___m_Ptr_0; }
-	inline intptr_t* get_address_of_m_Ptr_0() { return &___m_Ptr_0; }
-	inline void set_m_Ptr_0(intptr_t value)
-	{
-		___m_Ptr_0 = value;
-	}
-
-	inline static int32_t get_offset_of_m_OnStateChanged_1() { return static_cast<int32_t>(offsetof(CullingGroup_t1091689465, ___m_OnStateChanged_1)); }
-	inline StateChanged_t2480912210 * get_m_OnStateChanged_1() const { return ___m_OnStateChanged_1; }
-	inline StateChanged_t2480912210 ** get_address_of_m_OnStateChanged_1() { return &___m_OnStateChanged_1; }
-	inline void set_m_OnStateChanged_1(StateChanged_t2480912210 * value)
-	{
-		___m_OnStateChanged_1 = value;
-		Il2CppCodeGenWriteBarrier((&___m_OnStateChanged_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of UnityEngine.CullingGroup
-struct CullingGroup_t1091689465_marshaled_pinvoke
-{
-	intptr_t ___m_Ptr_0;
-	Il2CppMethodPointer ___m_OnStateChanged_1;
-};
-// Native definition for COM marshalling of UnityEngine.CullingGroup
-struct CullingGroup_t1091689465_marshaled_com
-{
-	intptr_t ___m_Ptr_0;
-	Il2CppMethodPointer ___m_OnStateChanged_1;
-};
-#endif // CULLINGGROUP_T1091689465_H
-#ifndef WEAKREFERENCE_T1077405567_H
-#define WEAKREFERENCE_T1077405567_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.WeakReference
-struct  WeakReference_t1077405567  : public RuntimeObject
-{
-public:
-	// System.Boolean System.WeakReference::isLongReference
-	bool ___isLongReference_0;
-	// System.Runtime.InteropServices.GCHandle System.WeakReference::gcHandle
-	GCHandle_t3409268066  ___gcHandle_1;
-
-public:
-	inline static int32_t get_offset_of_isLongReference_0() { return static_cast<int32_t>(offsetof(WeakReference_t1077405567, ___isLongReference_0)); }
-	inline bool get_isLongReference_0() const { return ___isLongReference_0; }
-	inline bool* get_address_of_isLongReference_0() { return &___isLongReference_0; }
-	inline void set_isLongReference_0(bool value)
-	{
-		___isLongReference_0 = value;
-	}
-
-	inline static int32_t get_offset_of_gcHandle_1() { return static_cast<int32_t>(offsetof(WeakReference_t1077405567, ___gcHandle_1)); }
-	inline GCHandle_t3409268066  get_gcHandle_1() const { return ___gcHandle_1; }
-	inline GCHandle_t3409268066 * get_address_of_gcHandle_1() { return &___gcHandle_1; }
-	inline void set_gcHandle_1(GCHandle_t3409268066  value)
-	{
-		___gcHandle_1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // WEAKREFERENCE_T1077405567_H
-#ifndef CURSORLOCKMODE_T3372615096_H
-#define CURSORLOCKMODE_T3372615096_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.CursorLockMode
-struct  CursorLockMode_t3372615096 
-{
-public:
-	// System.Int32 UnityEngine.CursorLockMode::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(CursorLockMode_t3372615096, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CURSORLOCKMODE_T3372615096_H
-#ifndef CSSMEASUREMODE_T2118763144_H
-#define CSSMEASUREMODE_T2118763144_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.CSSLayout.CSSMeasureMode
-struct  CSSMeasureMode_t2118763144 
-{
-public:
-	// System.Int32 UnityEngine.CSSLayout.CSSMeasureMode::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(CSSMeasureMode_t2118763144, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CSSMEASUREMODE_T2118763144_H
-#ifndef COROUTINE_T2299508840_H
-#define COROUTINE_T2299508840_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Coroutine
-struct  Coroutine_t2299508840  : public YieldInstruction_t3462875981
-{
-public:
-	// System.IntPtr UnityEngine.Coroutine::m_Ptr
-	intptr_t ___m_Ptr_0;
-
-public:
-	inline static int32_t get_offset_of_m_Ptr_0() { return static_cast<int32_t>(offsetof(Coroutine_t2299508840, ___m_Ptr_0)); }
-	inline intptr_t get_m_Ptr_0() const { return ___m_Ptr_0; }
-	inline intptr_t* get_address_of_m_Ptr_0() { return &___m_Ptr_0; }
-	inline void set_m_Ptr_0(intptr_t value)
-	{
-		___m_Ptr_0 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of UnityEngine.Coroutine
-struct Coroutine_t2299508840_marshaled_pinvoke : public YieldInstruction_t3462875981_marshaled_pinvoke
-{
-	intptr_t ___m_Ptr_0;
-};
-// Native definition for COM marshalling of UnityEngine.Coroutine
-struct Coroutine_t2299508840_marshaled_com : public YieldInstruction_t3462875981_marshaled_com
-{
-	intptr_t ___m_Ptr_0;
-};
-#endif // COROUTINE_T2299508840_H
-#ifndef DISPLAY_T3666191348_H
-#define DISPLAY_T3666191348_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Display
-struct  Display_t3666191348  : public RuntimeObject
-{
-public:
-	// System.IntPtr UnityEngine.Display::nativeDisplay
-	intptr_t ___nativeDisplay_0;
-
-public:
-	inline static int32_t get_offset_of_nativeDisplay_0() { return static_cast<int32_t>(offsetof(Display_t3666191348, ___nativeDisplay_0)); }
-	inline intptr_t get_nativeDisplay_0() const { return ___nativeDisplay_0; }
-	inline intptr_t* get_address_of_nativeDisplay_0() { return &___nativeDisplay_0; }
-	inline void set_nativeDisplay_0(intptr_t value)
-	{
-		___nativeDisplay_0 = value;
-	}
-};
-
-struct Display_t3666191348_StaticFields
-{
-public:
-	// UnityEngine.Display[] UnityEngine.Display::displays
-	DisplayU5BU5D_t1314630077* ___displays_1;
-	// UnityEngine.Display UnityEngine.Display::_mainDisplay
-	Display_t3666191348 * ____mainDisplay_2;
-	// UnityEngine.Display/DisplaysUpdatedDelegate UnityEngine.Display::onDisplaysUpdated
-	DisplaysUpdatedDelegate_t3423469815 * ___onDisplaysUpdated_3;
-
-public:
-	inline static int32_t get_offset_of_displays_1() { return static_cast<int32_t>(offsetof(Display_t3666191348_StaticFields, ___displays_1)); }
-	inline DisplayU5BU5D_t1314630077* get_displays_1() const { return ___displays_1; }
-	inline DisplayU5BU5D_t1314630077** get_address_of_displays_1() { return &___displays_1; }
-	inline void set_displays_1(DisplayU5BU5D_t1314630077* value)
-	{
-		___displays_1 = value;
-		Il2CppCodeGenWriteBarrier((&___displays_1), value);
-	}
-
-	inline static int32_t get_offset_of__mainDisplay_2() { return static_cast<int32_t>(offsetof(Display_t3666191348_StaticFields, ____mainDisplay_2)); }
-	inline Display_t3666191348 * get__mainDisplay_2() const { return ____mainDisplay_2; }
-	inline Display_t3666191348 ** get_address_of__mainDisplay_2() { return &____mainDisplay_2; }
-	inline void set__mainDisplay_2(Display_t3666191348 * value)
-	{
-		____mainDisplay_2 = value;
-		Il2CppCodeGenWriteBarrier((&____mainDisplay_2), value);
-	}
-
-	inline static int32_t get_offset_of_onDisplaysUpdated_3() { return static_cast<int32_t>(offsetof(Display_t3666191348_StaticFields, ___onDisplaysUpdated_3)); }
-	inline DisplaysUpdatedDelegate_t3423469815 * get_onDisplaysUpdated_3() const { return ___onDisplaysUpdated_3; }
-	inline DisplaysUpdatedDelegate_t3423469815 ** get_address_of_onDisplaysUpdated_3() { return &___onDisplaysUpdated_3; }
-	inline void set_onDisplaysUpdated_3(DisplaysUpdatedDelegate_t3423469815 * value)
-	{
-		___onDisplaysUpdated_3 = value;
-		Il2CppCodeGenWriteBarrier((&___onDisplaysUpdated_3), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // DISPLAY_T3666191348_H
-#ifndef DRIVENTRANSFORMPROPERTIES_T2488747555_H
-#define DRIVENTRANSFORMPROPERTIES_T2488747555_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.DrivenTransformProperties
-struct  DrivenTransformProperties_t2488747555 
-{
-public:
-	// System.Int32 UnityEngine.DrivenTransformProperties::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(DrivenTransformProperties_t2488747555, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // DRIVENTRANSFORMPROPERTIES_T2488747555_H
 #ifndef METHODINFO_T_H
 #define METHODINFO_T_H
 #ifdef __clang__
@@ -6935,200 +6837,54 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // METHODINFO_T_H
-#ifndef GRADIENT_T3600583008_H
-#define GRADIENT_T3600583008_H
+#ifndef ASSETBUNDLE_T2054978754_H
+#define ASSETBUNDLE_T2054978754_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Gradient
-struct  Gradient_t3600583008  : public RuntimeObject
+// UnityEngine.AssetBundle
+struct  AssetBundle_t2054978754  : public Object_t1021602117
 {
 public:
-	// System.IntPtr UnityEngine.Gradient::m_Ptr
-	intptr_t ___m_Ptr_0;
 
 public:
-	inline static int32_t get_offset_of_m_Ptr_0() { return static_cast<int32_t>(offsetof(Gradient_t3600583008, ___m_Ptr_0)); }
-	inline intptr_t get_m_Ptr_0() const { return ___m_Ptr_0; }
-	inline intptr_t* get_address_of_m_Ptr_0() { return &___m_Ptr_0; }
-	inline void set_m_Ptr_0(intptr_t value)
-	{
-		___m_Ptr_0 = value;
-	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Native definition for P/Invoke marshalling of UnityEngine.Gradient
-struct Gradient_t3600583008_marshaled_pinvoke
-{
-	intptr_t ___m_Ptr_0;
-};
-// Native definition for COM marshalling of UnityEngine.Gradient
-struct Gradient_t3600583008_marshaled_com
-{
-	intptr_t ___m_Ptr_0;
-};
-#endif // GRADIENT_T3600583008_H
-#ifndef SENDMESSAGEOPTIONS_T1414041951_H
-#define SENDMESSAGEOPTIONS_T1414041951_H
+#endif // ASSETBUNDLE_T2054978754_H
+#ifndef FAILEDTOLOADSCRIPTOBJECT_T3605283378_H
+#define FAILEDTOLOADSCRIPTOBJECT_T3605283378_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.SendMessageOptions
-struct  SendMessageOptions_t1414041951 
+// UnityEngine.FailedToLoadScriptObject
+struct  FailedToLoadScriptObject_t3605283378  : public Object_t1021602117
 {
 public:
-	// System.Int32 UnityEngine.SendMessageOptions::value__
-	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(SendMessageOptions_t1414041951, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // SENDMESSAGEOPTIONS_T1414041951_H
-#ifndef CAMERACLEARFLAGS_T452084705_H
-#define CAMERACLEARFLAGS_T452084705_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.CameraClearFlags
-struct  CameraClearFlags_t452084705 
+// Native definition for P/Invoke marshalling of UnityEngine.FailedToLoadScriptObject
+struct FailedToLoadScriptObject_t3605283378_marshaled_pinvoke : public Object_t1021602117_marshaled_pinvoke
 {
-public:
-	// System.Int32 UnityEngine.CameraClearFlags::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(CameraClearFlags_t452084705, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CAMERACLEARFLAGS_T452084705_H
-#ifndef SCRIPTABLERENDERCONTEXT_T4271526_H
-#define SCRIPTABLERENDERCONTEXT_T4271526_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Experimental.Rendering.ScriptableRenderContext
-struct  ScriptableRenderContext_t4271526 
+// Native definition for COM marshalling of UnityEngine.FailedToLoadScriptObject
+struct FailedToLoadScriptObject_t3605283378_marshaled_com : public Object_t1021602117_marshaled_com
 {
-public:
-	// System.IntPtr UnityEngine.Experimental.Rendering.ScriptableRenderContext::m_Ptr
-	intptr_t ___m_Ptr_0;
-
-public:
-	inline static int32_t get_offset_of_m_Ptr_0() { return static_cast<int32_t>(offsetof(ScriptableRenderContext_t4271526, ___m_Ptr_0)); }
-	inline intptr_t get_m_Ptr_0() const { return ___m_Ptr_0; }
-	inline intptr_t* get_address_of_m_Ptr_0() { return &___m_Ptr_0; }
-	inline void set_m_Ptr_0(intptr_t value)
-	{
-		___m_Ptr_0 = value;
-	}
 };
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SCRIPTABLERENDERCONTEXT_T4271526_H
-#ifndef RAY_T2469606224_H
-#define RAY_T2469606224_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Ray
-struct  Ray_t2469606224 
-{
-public:
-	// UnityEngine.Vector3 UnityEngine.Ray::m_Origin
-	Vector3_t2243707580  ___m_Origin_0;
-	// UnityEngine.Vector3 UnityEngine.Ray::m_Direction
-	Vector3_t2243707580  ___m_Direction_1;
-
-public:
-	inline static int32_t get_offset_of_m_Origin_0() { return static_cast<int32_t>(offsetof(Ray_t2469606224, ___m_Origin_0)); }
-	inline Vector3_t2243707580  get_m_Origin_0() const { return ___m_Origin_0; }
-	inline Vector3_t2243707580 * get_address_of_m_Origin_0() { return &___m_Origin_0; }
-	inline void set_m_Origin_0(Vector3_t2243707580  value)
-	{
-		___m_Origin_0 = value;
-	}
-
-	inline static int32_t get_offset_of_m_Direction_1() { return static_cast<int32_t>(offsetof(Ray_t2469606224, ___m_Direction_1)); }
-	inline Vector3_t2243707580  get_m_Direction_1() const { return ___m_Direction_1; }
-	inline Vector3_t2243707580 * get_address_of_m_Direction_1() { return &___m_Direction_1; }
-	inline void set_m_Direction_1(Vector3_t2243707580  value)
-	{
-		___m_Direction_1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // RAY_T2469606224_H
-#ifndef HIDEFLAGS_T1434274199_H
-#define HIDEFLAGS_T1434274199_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.HideFlags
-struct  HideFlags_t1434274199 
-{
-public:
-	// System.Int32 UnityEngine.HideFlags::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(HideFlags_t1434274199, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // HIDEFLAGS_T1434274199_H
+#endif // FAILEDTOLOADSCRIPTOBJECT_T3605283378_H
 #ifndef DATETIME_T693205669_H
 #define DATETIME_T693205669_H
 #ifdef __clang__
@@ -7314,124 +7070,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DATETIME_T693205669_H
-#ifndef ARGUMENTNULLEXCEPTION_T628810857_H
-#define ARGUMENTNULLEXCEPTION_T628810857_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.ArgumentNullException
-struct  ArgumentNullException_t628810857  : public ArgumentException_t3259014390
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ARGUMENTNULLEXCEPTION_T628810857_H
-#ifndef LOGGER_T3328995178_H
-#define LOGGER_T3328995178_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Logger
-struct  Logger_t3328995178  : public RuntimeObject
-{
-public:
-	// UnityEngine.ILogHandler UnityEngine.Logger::<logHandler>k__BackingField
-	RuntimeObject* ___U3ClogHandlerU3Ek__BackingField_0;
-	// System.Boolean UnityEngine.Logger::<logEnabled>k__BackingField
-	bool ___U3ClogEnabledU3Ek__BackingField_1;
-	// UnityEngine.LogType UnityEngine.Logger::<filterLogType>k__BackingField
-	int32_t ___U3CfilterLogTypeU3Ek__BackingField_2;
-
-public:
-	inline static int32_t get_offset_of_U3ClogHandlerU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(Logger_t3328995178, ___U3ClogHandlerU3Ek__BackingField_0)); }
-	inline RuntimeObject* get_U3ClogHandlerU3Ek__BackingField_0() const { return ___U3ClogHandlerU3Ek__BackingField_0; }
-	inline RuntimeObject** get_address_of_U3ClogHandlerU3Ek__BackingField_0() { return &___U3ClogHandlerU3Ek__BackingField_0; }
-	inline void set_U3ClogHandlerU3Ek__BackingField_0(RuntimeObject* value)
-	{
-		___U3ClogHandlerU3Ek__BackingField_0 = value;
-		Il2CppCodeGenWriteBarrier((&___U3ClogHandlerU3Ek__BackingField_0), value);
-	}
-
-	inline static int32_t get_offset_of_U3ClogEnabledU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(Logger_t3328995178, ___U3ClogEnabledU3Ek__BackingField_1)); }
-	inline bool get_U3ClogEnabledU3Ek__BackingField_1() const { return ___U3ClogEnabledU3Ek__BackingField_1; }
-	inline bool* get_address_of_U3ClogEnabledU3Ek__BackingField_1() { return &___U3ClogEnabledU3Ek__BackingField_1; }
-	inline void set_U3ClogEnabledU3Ek__BackingField_1(bool value)
-	{
-		___U3ClogEnabledU3Ek__BackingField_1 = value;
-	}
-
-	inline static int32_t get_offset_of_U3CfilterLogTypeU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(Logger_t3328995178, ___U3CfilterLogTypeU3Ek__BackingField_2)); }
-	inline int32_t get_U3CfilterLogTypeU3Ek__BackingField_2() const { return ___U3CfilterLogTypeU3Ek__BackingField_2; }
-	inline int32_t* get_address_of_U3CfilterLogTypeU3Ek__BackingField_2() { return &___U3CfilterLogTypeU3Ek__BackingField_2; }
-	inline void set_U3CfilterLogTypeU3Ek__BackingField_2(int32_t value)
-	{
-		___U3CfilterLogTypeU3Ek__BackingField_2 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LOGGER_T3328995178_H
-#ifndef ASSETBUNDLE_T2054978754_H
-#define ASSETBUNDLE_T2054978754_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.AssetBundle
-struct  AssetBundle_t2054978754  : public Object_t1021602117
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ASSETBUNDLE_T2054978754_H
-#ifndef SCRIPTABLEOBJECT_T1975622470_H
-#define SCRIPTABLEOBJECT_T1975622470_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.ScriptableObject
-struct  ScriptableObject_t1975622470  : public Object_t1021602117
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of UnityEngine.ScriptableObject
-struct ScriptableObject_t1975622470_marshaled_pinvoke : public Object_t1021602117_marshaled_pinvoke
-{
-};
-// Native definition for COM marshalling of UnityEngine.ScriptableObject
-struct ScriptableObject_t1975622470_marshaled_com : public Object_t1021602117_marshaled_com
-{
-};
-#endif // SCRIPTABLEOBJECT_T1975622470_H
 #ifndef PERSISTENTCALL_T3793436469_H
 #define PERSISTENTCALL_T3793436469_H
 #ifdef __clang__
@@ -7504,6 +7142,26 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // PERSISTENTCALL_T3793436469_H
+#ifndef COMPONENT_T3819376471_H
+#define COMPONENT_T3819376471_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Component
+struct  Component_t3819376471  : public Object_t1021602117
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COMPONENT_T3819376471_H
 #ifndef MULTICASTDELEGATE_T3201952435_H
 #define MULTICASTDELEGATE_T3201952435_H
 #ifdef __clang__
@@ -7545,26 +7203,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // MULTICASTDELEGATE_T3201952435_H
-#ifndef COMPONENT_T3819376471_H
-#define COMPONENT_T3819376471_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Component
-struct  Component_t3819376471  : public Object_t1021602117
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COMPONENT_T3819376471_H
 #ifndef TYPE_T_H
 #define TYPE_T_H
 #ifdef __clang__
@@ -7665,16 +7303,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // TYPE_T_H
-#ifndef MESH_T1356156583_H
-#define MESH_T1356156583_H
+#ifndef TEXTURE_T2243626319_H
+#define TEXTURE_T2243626319_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Mesh
-struct  Mesh_t1356156583  : public Object_t1021602117
+// UnityEngine.Texture
+struct  Texture_t2243626319  : public Object_t1021602117
 {
 public:
 
@@ -7684,101 +7322,37 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // MESH_T1356156583_H
-#ifndef PARAMETERINFO_T2249040075_H
-#define PARAMETERINFO_T2249040075_H
+#endif // TEXTURE_T2243626319_H
+#ifndef ANDROIDJAVARUNNABLEPROXY_T1710049828_H
+#define ANDROIDJAVARUNNABLEPROXY_T1710049828_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Reflection.ParameterInfo
-struct  ParameterInfo_t2249040075  : public RuntimeObject
+// UnityEngine.AndroidJavaRunnableProxy
+struct  AndroidJavaRunnableProxy_t1710049828  : public AndroidJavaProxy_t4274989947
 {
 public:
-	// System.Type System.Reflection.ParameterInfo::ClassImpl
-	Type_t * ___ClassImpl_0;
-	// System.Object System.Reflection.ParameterInfo::DefaultValueImpl
-	RuntimeObject * ___DefaultValueImpl_1;
-	// System.Reflection.MemberInfo System.Reflection.ParameterInfo::MemberImpl
-	MemberInfo_t * ___MemberImpl_2;
-	// System.String System.Reflection.ParameterInfo::NameImpl
-	String_t* ___NameImpl_3;
-	// System.Int32 System.Reflection.ParameterInfo::PositionImpl
-	int32_t ___PositionImpl_4;
-	// System.Reflection.ParameterAttributes System.Reflection.ParameterInfo::AttrsImpl
-	int32_t ___AttrsImpl_5;
-	// System.Reflection.Emit.UnmanagedMarshal System.Reflection.ParameterInfo::marshalAs
-	UnmanagedMarshal_t4270021860 * ___marshalAs_6;
+	// UnityEngine.AndroidJavaRunnable UnityEngine.AndroidJavaRunnableProxy::mRunnable
+	AndroidJavaRunnable_t3501776228 * ___mRunnable_4;
 
 public:
-	inline static int32_t get_offset_of_ClassImpl_0() { return static_cast<int32_t>(offsetof(ParameterInfo_t2249040075, ___ClassImpl_0)); }
-	inline Type_t * get_ClassImpl_0() const { return ___ClassImpl_0; }
-	inline Type_t ** get_address_of_ClassImpl_0() { return &___ClassImpl_0; }
-	inline void set_ClassImpl_0(Type_t * value)
+	inline static int32_t get_offset_of_mRunnable_4() { return static_cast<int32_t>(offsetof(AndroidJavaRunnableProxy_t1710049828, ___mRunnable_4)); }
+	inline AndroidJavaRunnable_t3501776228 * get_mRunnable_4() const { return ___mRunnable_4; }
+	inline AndroidJavaRunnable_t3501776228 ** get_address_of_mRunnable_4() { return &___mRunnable_4; }
+	inline void set_mRunnable_4(AndroidJavaRunnable_t3501776228 * value)
 	{
-		___ClassImpl_0 = value;
-		Il2CppCodeGenWriteBarrier((&___ClassImpl_0), value);
-	}
-
-	inline static int32_t get_offset_of_DefaultValueImpl_1() { return static_cast<int32_t>(offsetof(ParameterInfo_t2249040075, ___DefaultValueImpl_1)); }
-	inline RuntimeObject * get_DefaultValueImpl_1() const { return ___DefaultValueImpl_1; }
-	inline RuntimeObject ** get_address_of_DefaultValueImpl_1() { return &___DefaultValueImpl_1; }
-	inline void set_DefaultValueImpl_1(RuntimeObject * value)
-	{
-		___DefaultValueImpl_1 = value;
-		Il2CppCodeGenWriteBarrier((&___DefaultValueImpl_1), value);
-	}
-
-	inline static int32_t get_offset_of_MemberImpl_2() { return static_cast<int32_t>(offsetof(ParameterInfo_t2249040075, ___MemberImpl_2)); }
-	inline MemberInfo_t * get_MemberImpl_2() const { return ___MemberImpl_2; }
-	inline MemberInfo_t ** get_address_of_MemberImpl_2() { return &___MemberImpl_2; }
-	inline void set_MemberImpl_2(MemberInfo_t * value)
-	{
-		___MemberImpl_2 = value;
-		Il2CppCodeGenWriteBarrier((&___MemberImpl_2), value);
-	}
-
-	inline static int32_t get_offset_of_NameImpl_3() { return static_cast<int32_t>(offsetof(ParameterInfo_t2249040075, ___NameImpl_3)); }
-	inline String_t* get_NameImpl_3() const { return ___NameImpl_3; }
-	inline String_t** get_address_of_NameImpl_3() { return &___NameImpl_3; }
-	inline void set_NameImpl_3(String_t* value)
-	{
-		___NameImpl_3 = value;
-		Il2CppCodeGenWriteBarrier((&___NameImpl_3), value);
-	}
-
-	inline static int32_t get_offset_of_PositionImpl_4() { return static_cast<int32_t>(offsetof(ParameterInfo_t2249040075, ___PositionImpl_4)); }
-	inline int32_t get_PositionImpl_4() const { return ___PositionImpl_4; }
-	inline int32_t* get_address_of_PositionImpl_4() { return &___PositionImpl_4; }
-	inline void set_PositionImpl_4(int32_t value)
-	{
-		___PositionImpl_4 = value;
-	}
-
-	inline static int32_t get_offset_of_AttrsImpl_5() { return static_cast<int32_t>(offsetof(ParameterInfo_t2249040075, ___AttrsImpl_5)); }
-	inline int32_t get_AttrsImpl_5() const { return ___AttrsImpl_5; }
-	inline int32_t* get_address_of_AttrsImpl_5() { return &___AttrsImpl_5; }
-	inline void set_AttrsImpl_5(int32_t value)
-	{
-		___AttrsImpl_5 = value;
-	}
-
-	inline static int32_t get_offset_of_marshalAs_6() { return static_cast<int32_t>(offsetof(ParameterInfo_t2249040075, ___marshalAs_6)); }
-	inline UnmanagedMarshal_t4270021860 * get_marshalAs_6() const { return ___marshalAs_6; }
-	inline UnmanagedMarshal_t4270021860 ** get_address_of_marshalAs_6() { return &___marshalAs_6; }
-	inline void set_marshalAs_6(UnmanagedMarshal_t4270021860 * value)
-	{
-		___marshalAs_6 = value;
-		Il2CppCodeGenWriteBarrier((&___marshalAs_6), value);
+		___mRunnable_4 = value;
+		Il2CppCodeGenWriteBarrier((&___mRunnable_4), value);
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // PARAMETERINFO_T2249040075_H
+#endif // ANDROIDJAVARUNNABLEPROXY_T1710049828_H
 #ifndef GAMEOBJECT_T1756533147_H
 #define GAMEOBJECT_T1756533147_H
 #ifdef __clang__
@@ -7799,62 +7373,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // GAMEOBJECT_T1756533147_H
-#ifndef FAILEDTOLOADSCRIPTOBJECT_T3605283378_H
-#define FAILEDTOLOADSCRIPTOBJECT_T3605283378_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.FailedToLoadScriptObject
-struct  FailedToLoadScriptObject_t3605283378  : public Object_t1021602117
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of UnityEngine.FailedToLoadScriptObject
-struct FailedToLoadScriptObject_t3605283378_marshaled_pinvoke : public Object_t1021602117_marshaled_pinvoke
-{
-};
-// Native definition for COM marshalling of UnityEngine.FailedToLoadScriptObject
-struct FailedToLoadScriptObject_t3605283378_marshaled_com : public Object_t1021602117_marshaled_com
-{
-};
-#endif // FAILEDTOLOADSCRIPTOBJECT_T3605283378_H
-#ifndef ASSETBUNDLEREQUEST_T2674559435_H
-#define ASSETBUNDLEREQUEST_T2674559435_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.AssetBundleRequest
-struct  AssetBundleRequest_t2674559435  : public AsyncOperation_t3814632279
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of UnityEngine.AssetBundleRequest
-struct AssetBundleRequest_t2674559435_marshaled_pinvoke : public AsyncOperation_t3814632279_marshaled_pinvoke
-{
-};
-// Native definition for COM marshalling of UnityEngine.AssetBundleRequest
-struct AssetBundleRequest_t2674559435_marshaled_com : public AsyncOperation_t3814632279_marshaled_com
-{
-};
-#endif // ASSETBUNDLEREQUEST_T2674559435_H
 #ifndef TOUCH_T407273883_H
 #define TOUCH_T407273883_H
 #ifdef __clang__
@@ -8014,6 +7532,104 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // TOUCH_T407273883_H
+#ifndef LOGGER_T3328995178_H
+#define LOGGER_T3328995178_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Logger
+struct  Logger_t3328995178  : public RuntimeObject
+{
+public:
+	// UnityEngine.ILogHandler UnityEngine.Logger::<logHandler>k__BackingField
+	RuntimeObject* ___U3ClogHandlerU3Ek__BackingField_0;
+	// System.Boolean UnityEngine.Logger::<logEnabled>k__BackingField
+	bool ___U3ClogEnabledU3Ek__BackingField_1;
+	// UnityEngine.LogType UnityEngine.Logger::<filterLogType>k__BackingField
+	int32_t ___U3CfilterLogTypeU3Ek__BackingField_2;
+
+public:
+	inline static int32_t get_offset_of_U3ClogHandlerU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(Logger_t3328995178, ___U3ClogHandlerU3Ek__BackingField_0)); }
+	inline RuntimeObject* get_U3ClogHandlerU3Ek__BackingField_0() const { return ___U3ClogHandlerU3Ek__BackingField_0; }
+	inline RuntimeObject** get_address_of_U3ClogHandlerU3Ek__BackingField_0() { return &___U3ClogHandlerU3Ek__BackingField_0; }
+	inline void set_U3ClogHandlerU3Ek__BackingField_0(RuntimeObject* value)
+	{
+		___U3ClogHandlerU3Ek__BackingField_0 = value;
+		Il2CppCodeGenWriteBarrier((&___U3ClogHandlerU3Ek__BackingField_0), value);
+	}
+
+	inline static int32_t get_offset_of_U3ClogEnabledU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(Logger_t3328995178, ___U3ClogEnabledU3Ek__BackingField_1)); }
+	inline bool get_U3ClogEnabledU3Ek__BackingField_1() const { return ___U3ClogEnabledU3Ek__BackingField_1; }
+	inline bool* get_address_of_U3ClogEnabledU3Ek__BackingField_1() { return &___U3ClogEnabledU3Ek__BackingField_1; }
+	inline void set_U3ClogEnabledU3Ek__BackingField_1(bool value)
+	{
+		___U3ClogEnabledU3Ek__BackingField_1 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CfilterLogTypeU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(Logger_t3328995178, ___U3CfilterLogTypeU3Ek__BackingField_2)); }
+	inline int32_t get_U3CfilterLogTypeU3Ek__BackingField_2() const { return ___U3CfilterLogTypeU3Ek__BackingField_2; }
+	inline int32_t* get_address_of_U3CfilterLogTypeU3Ek__BackingField_2() { return &___U3CfilterLogTypeU3Ek__BackingField_2; }
+	inline void set_U3CfilterLogTypeU3Ek__BackingField_2(int32_t value)
+	{
+		___U3CfilterLogTypeU3Ek__BackingField_2 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LOGGER_T3328995178_H
+#ifndef ARGUMENTNULLEXCEPTION_T628810857_H
+#define ARGUMENTNULLEXCEPTION_T628810857_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ArgumentNullException
+struct  ArgumentNullException_t628810857  : public ArgumentException_t3259014390
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ARGUMENTNULLEXCEPTION_T628810857_H
+#ifndef ASSETBUNDLEREQUEST_T2674559435_H
+#define ASSETBUNDLEREQUEST_T2674559435_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.AssetBundleRequest
+struct  AssetBundleRequest_t2674559435  : public AsyncOperation_t3814632279
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of UnityEngine.AssetBundleRequest
+struct AssetBundleRequest_t2674559435_marshaled_pinvoke : public AsyncOperation_t3814632279_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of UnityEngine.AssetBundleRequest
+struct AssetBundleRequest_t2674559435_marshaled_com : public AsyncOperation_t3814632279_marshaled_com
+{
+};
+#endif // ASSETBUNDLEREQUEST_T2674559435_H
 #ifndef ASSETBUNDLECREATEREQUEST_T1038783543_H
 #define ASSETBUNDLECREATEREQUEST_T1038783543_H
 #ifdef __clang__
@@ -8042,274 +7658,110 @@ struct AssetBundleCreateRequest_t1038783543_marshaled_com : public AsyncOperatio
 {
 };
 #endif // ASSETBUNDLECREATEREQUEST_T1038783543_H
-#ifndef TEXTURE_T2243626319_H
-#define TEXTURE_T2243626319_H
+#ifndef PARAMETERINFO_T2249040075_H
+#define PARAMETERINFO_T2249040075_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Texture
-struct  Texture_t2243626319  : public Object_t1021602117
+// System.Reflection.ParameterInfo
+struct  ParameterInfo_t2249040075  : public RuntimeObject
 {
 public:
+	// System.Type System.Reflection.ParameterInfo::ClassImpl
+	Type_t * ___ClassImpl_0;
+	// System.Object System.Reflection.ParameterInfo::DefaultValueImpl
+	RuntimeObject * ___DefaultValueImpl_1;
+	// System.Reflection.MemberInfo System.Reflection.ParameterInfo::MemberImpl
+	MemberInfo_t * ___MemberImpl_2;
+	// System.String System.Reflection.ParameterInfo::NameImpl
+	String_t* ___NameImpl_3;
+	// System.Int32 System.Reflection.ParameterInfo::PositionImpl
+	int32_t ___PositionImpl_4;
+	// System.Reflection.ParameterAttributes System.Reflection.ParameterInfo::AttrsImpl
+	int32_t ___AttrsImpl_5;
+	// System.Reflection.Emit.UnmanagedMarshal System.Reflection.ParameterInfo::marshalAs
+	UnmanagedMarshal_t4270021860 * ___marshalAs_6;
 
 public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // TEXTURE_T2243626319_H
-#ifndef MATERIAL_T193706927_H
-#define MATERIAL_T193706927_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Material
-struct  Material_t193706927  : public Object_t1021602117
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MATERIAL_T193706927_H
-#ifndef TRANSFORM_T3275118058_H
-#define TRANSFORM_T3275118058_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Transform
-struct  Transform_t3275118058  : public Component_t3819376471
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // TRANSFORM_T3275118058_H
-#ifndef LOWMEMORYCALLBACK_T642977590_H
-#define LOWMEMORYCALLBACK_T642977590_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Application/LowMemoryCallback
-struct  LowMemoryCallback_t642977590  : public MulticastDelegate_t3201952435
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // LOWMEMORYCALLBACK_T642977590_H
-#ifndef DISPLAYSUPDATEDDELEGATE_T3423469815_H
-#define DISPLAYSUPDATEDDELEGATE_T3423469815_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Display/DisplaysUpdatedDelegate
-struct  DisplaysUpdatedDelegate_t3423469815  : public MulticastDelegate_t3201952435
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // DISPLAYSUPDATEDDELEGATE_T3423469815_H
-#ifndef RENDERTEXTURE_T2666733923_H
-#define RENDERTEXTURE_T2666733923_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.RenderTexture
-struct  RenderTexture_t2666733923  : public Texture_t2243626319
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // RENDERTEXTURE_T2666733923_H
-#ifndef CSSMEASUREFUNC_T2092170507_H
-#define CSSMEASUREFUNC_T2092170507_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.CSSLayout.CSSMeasureFunc
-struct  CSSMeasureFunc_t2092170507  : public MulticastDelegate_t3201952435
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CSSMEASUREFUNC_T2092170507_H
-#ifndef CAMERACALLBACK_T834278767_H
-#define CAMERACALLBACK_T834278767_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Camera/CameraCallback
-struct  CameraCallback_t834278767  : public MulticastDelegate_t3201952435
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CAMERACALLBACK_T834278767_H
-#ifndef ACTION_1_T3616431661_H
-#define ACTION_1_T3616431661_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Action`1<UnityEngine.AsyncOperation>
-struct  Action_1_t3616431661  : public MulticastDelegate_t3201952435
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ACTION_1_T3616431661_H
-#ifndef BEHAVIOUR_T955675639_H
-#define BEHAVIOUR_T955675639_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Behaviour
-struct  Behaviour_t955675639  : public Component_t3819376471
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // BEHAVIOUR_T955675639_H
-#ifndef PLAYERCONNECTION_T3517219175_H
-#define PLAYERCONNECTION_T3517219175_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.Networking.PlayerConnection.PlayerConnection
-struct  PlayerConnection_t3517219175  : public ScriptableObject_t1975622470
-{
-public:
-	// UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents UnityEngine.Networking.PlayerConnection.PlayerConnection::m_PlayerEditorConnectionEvents
-	PlayerEditorConnectionEvents_t2252784345 * ___m_PlayerEditorConnectionEvents_2;
-	// System.Collections.Generic.List`1<System.Int32> UnityEngine.Networking.PlayerConnection.PlayerConnection::m_connectedPlayers
-	List_1_t1440998580 * ___m_connectedPlayers_3;
-
-public:
-	inline static int32_t get_offset_of_m_PlayerEditorConnectionEvents_2() { return static_cast<int32_t>(offsetof(PlayerConnection_t3517219175, ___m_PlayerEditorConnectionEvents_2)); }
-	inline PlayerEditorConnectionEvents_t2252784345 * get_m_PlayerEditorConnectionEvents_2() const { return ___m_PlayerEditorConnectionEvents_2; }
-	inline PlayerEditorConnectionEvents_t2252784345 ** get_address_of_m_PlayerEditorConnectionEvents_2() { return &___m_PlayerEditorConnectionEvents_2; }
-	inline void set_m_PlayerEditorConnectionEvents_2(PlayerEditorConnectionEvents_t2252784345 * value)
+	inline static int32_t get_offset_of_ClassImpl_0() { return static_cast<int32_t>(offsetof(ParameterInfo_t2249040075, ___ClassImpl_0)); }
+	inline Type_t * get_ClassImpl_0() const { return ___ClassImpl_0; }
+	inline Type_t ** get_address_of_ClassImpl_0() { return &___ClassImpl_0; }
+	inline void set_ClassImpl_0(Type_t * value)
 	{
-		___m_PlayerEditorConnectionEvents_2 = value;
-		Il2CppCodeGenWriteBarrier((&___m_PlayerEditorConnectionEvents_2), value);
+		___ClassImpl_0 = value;
+		Il2CppCodeGenWriteBarrier((&___ClassImpl_0), value);
 	}
 
-	inline static int32_t get_offset_of_m_connectedPlayers_3() { return static_cast<int32_t>(offsetof(PlayerConnection_t3517219175, ___m_connectedPlayers_3)); }
-	inline List_1_t1440998580 * get_m_connectedPlayers_3() const { return ___m_connectedPlayers_3; }
-	inline List_1_t1440998580 ** get_address_of_m_connectedPlayers_3() { return &___m_connectedPlayers_3; }
-	inline void set_m_connectedPlayers_3(List_1_t1440998580 * value)
+	inline static int32_t get_offset_of_DefaultValueImpl_1() { return static_cast<int32_t>(offsetof(ParameterInfo_t2249040075, ___DefaultValueImpl_1)); }
+	inline RuntimeObject * get_DefaultValueImpl_1() const { return ___DefaultValueImpl_1; }
+	inline RuntimeObject ** get_address_of_DefaultValueImpl_1() { return &___DefaultValueImpl_1; }
+	inline void set_DefaultValueImpl_1(RuntimeObject * value)
 	{
-		___m_connectedPlayers_3 = value;
-		Il2CppCodeGenWriteBarrier((&___m_connectedPlayers_3), value);
+		___DefaultValueImpl_1 = value;
+		Il2CppCodeGenWriteBarrier((&___DefaultValueImpl_1), value);
 	}
-};
 
-struct PlayerConnection_t3517219175_StaticFields
-{
-public:
-	// UnityEngine.Networking.PlayerConnection.PlayerConnection UnityEngine.Networking.PlayerConnection.PlayerConnection::s_Instance
-	PlayerConnection_t3517219175 * ___s_Instance_4;
-
-public:
-	inline static int32_t get_offset_of_s_Instance_4() { return static_cast<int32_t>(offsetof(PlayerConnection_t3517219175_StaticFields, ___s_Instance_4)); }
-	inline PlayerConnection_t3517219175 * get_s_Instance_4() const { return ___s_Instance_4; }
-	inline PlayerConnection_t3517219175 ** get_address_of_s_Instance_4() { return &___s_Instance_4; }
-	inline void set_s_Instance_4(PlayerConnection_t3517219175 * value)
+	inline static int32_t get_offset_of_MemberImpl_2() { return static_cast<int32_t>(offsetof(ParameterInfo_t2249040075, ___MemberImpl_2)); }
+	inline MemberInfo_t * get_MemberImpl_2() const { return ___MemberImpl_2; }
+	inline MemberInfo_t ** get_address_of_MemberImpl_2() { return &___MemberImpl_2; }
+	inline void set_MemberImpl_2(MemberInfo_t * value)
 	{
-		___s_Instance_4 = value;
-		Il2CppCodeGenWriteBarrier((&___s_Instance_4), value);
+		___MemberImpl_2 = value;
+		Il2CppCodeGenWriteBarrier((&___MemberImpl_2), value);
+	}
+
+	inline static int32_t get_offset_of_NameImpl_3() { return static_cast<int32_t>(offsetof(ParameterInfo_t2249040075, ___NameImpl_3)); }
+	inline String_t* get_NameImpl_3() const { return ___NameImpl_3; }
+	inline String_t** get_address_of_NameImpl_3() { return &___NameImpl_3; }
+	inline void set_NameImpl_3(String_t* value)
+	{
+		___NameImpl_3 = value;
+		Il2CppCodeGenWriteBarrier((&___NameImpl_3), value);
+	}
+
+	inline static int32_t get_offset_of_PositionImpl_4() { return static_cast<int32_t>(offsetof(ParameterInfo_t2249040075, ___PositionImpl_4)); }
+	inline int32_t get_PositionImpl_4() const { return ___PositionImpl_4; }
+	inline int32_t* get_address_of_PositionImpl_4() { return &___PositionImpl_4; }
+	inline void set_PositionImpl_4(int32_t value)
+	{
+		___PositionImpl_4 = value;
+	}
+
+	inline static int32_t get_offset_of_AttrsImpl_5() { return static_cast<int32_t>(offsetof(ParameterInfo_t2249040075, ___AttrsImpl_5)); }
+	inline int32_t get_AttrsImpl_5() const { return ___AttrsImpl_5; }
+	inline int32_t* get_address_of_AttrsImpl_5() { return &___AttrsImpl_5; }
+	inline void set_AttrsImpl_5(int32_t value)
+	{
+		___AttrsImpl_5 = value;
+	}
+
+	inline static int32_t get_offset_of_marshalAs_6() { return static_cast<int32_t>(offsetof(ParameterInfo_t2249040075, ___marshalAs_6)); }
+	inline UnmanagedMarshal_t4270021860 * get_marshalAs_6() const { return ___marshalAs_6; }
+	inline UnmanagedMarshal_t4270021860 ** get_address_of_marshalAs_6() { return &___marshalAs_6; }
+	inline void set_marshalAs_6(UnmanagedMarshal_t4270021860 * value)
+	{
+		___marshalAs_6 = value;
+		Il2CppCodeGenWriteBarrier((&___marshalAs_6), value);
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // PLAYERCONNECTION_T3517219175_H
-#ifndef STATECHANGED_T2480912210_H
-#define STATECHANGED_T2480912210_H
+#endif // PARAMETERINFO_T2249040075_H
+#ifndef ASSETBUNDLEMANIFEST_T1328741589_H
+#define ASSETBUNDLEMANIFEST_T1328741589_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.CullingGroup/StateChanged
-struct  StateChanged_t2480912210  : public MulticastDelegate_t3201952435
+// UnityEngine.AssetBundleManifest
+struct  AssetBundleManifest_t1328741589  : public Object_t1021602117
 {
 public:
 
@@ -8319,7 +7771,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // STATECHANGED_T2480912210_H
+#endif // ASSETBUNDLEMANIFEST_T1328741589_H
 #ifndef ASYNCCALLBACK_T163412349_H
 #define ASYNCCALLBACK_T163412349_H
 #ifdef __clang__
@@ -8340,16 +7792,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ASYNCCALLBACK_T163412349_H
-#ifndef PREDICATE_1_T672534955_H
-#define PREDICATE_1_T672534955_H
+#ifndef ANDROIDJAVARUNNABLE_T3501776228_H
+#define ANDROIDJAVARUNNABLE_T3501776228_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Predicate`1<UnityEngine.Events.BaseInvokableCall>
-struct  Predicate_1_t672534955  : public MulticastDelegate_t3201952435
+// UnityEngine.AndroidJavaRunnable
+struct  AndroidJavaRunnable_t3501776228  : public MulticastDelegate_t3201952435
 {
 public:
 
@@ -8359,17 +7811,17 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // PREDICATE_1_T672534955_H
-#ifndef UNITYACTION_T4025899511_H
-#define UNITYACTION_T4025899511_H
+#endif // ANDROIDJAVARUNNABLE_T3501776228_H
+#ifndef RENDERTEXTURE_T2666733923_H
+#define RENDERTEXTURE_T2666733923_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Events.UnityAction
-struct  UnityAction_t4025899511  : public MulticastDelegate_t3201952435
+// UnityEngine.RenderTexture
+struct  RenderTexture_t2666733923  : public Texture_t2243626319
 {
 public:
 
@@ -8379,27 +7831,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // UNITYACTION_T4025899511_H
-#ifndef FUNC_2_T2919696197_H
-#define FUNC_2_T2919696197_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Func`2<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers,System.Boolean>
-struct  Func_2_t2919696197  : public MulticastDelegate_t3201952435
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // FUNC_2_T2919696197_H
+#endif // RENDERTEXTURE_T2666733923_H
 #ifndef LOGCALLBACK_T1867914413_H
 #define LOGCALLBACK_T1867914413_H
 #ifdef __clang__
@@ -8420,6 +7852,206 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // LOGCALLBACK_T1867914413_H
+#ifndef DISPLAYSUPDATEDDELEGATE_T3423469815_H
+#define DISPLAYSUPDATEDDELEGATE_T3423469815_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Display/DisplaysUpdatedDelegate
+struct  DisplaysUpdatedDelegate_t3423469815  : public MulticastDelegate_t3201952435
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DISPLAYSUPDATEDDELEGATE_T3423469815_H
+#ifndef CAMERACALLBACK_T834278767_H
+#define CAMERACALLBACK_T834278767_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Camera/CameraCallback
+struct  CameraCallback_t834278767  : public MulticastDelegate_t3201952435
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CAMERACALLBACK_T834278767_H
+#ifndef PREDICATE_1_T672534955_H
+#define PREDICATE_1_T672534955_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Predicate`1<UnityEngine.Events.BaseInvokableCall>
+struct  Predicate_1_t672534955  : public MulticastDelegate_t3201952435
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // PREDICATE_1_T672534955_H
+#ifndef BEHAVIOUR_T955675639_H
+#define BEHAVIOUR_T955675639_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Behaviour
+struct  Behaviour_t955675639  : public Component_t3819376471
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // BEHAVIOUR_T955675639_H
+#ifndef ACTION_1_T3616431661_H
+#define ACTION_1_T3616431661_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Action`1<UnityEngine.AsyncOperation>
+struct  Action_1_t3616431661  : public MulticastDelegate_t3201952435
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ACTION_1_T3616431661_H
+#ifndef CSSMEASUREFUNC_T2092170507_H
+#define CSSMEASUREFUNC_T2092170507_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.CSSLayout.CSSMeasureFunc
+struct  CSSMeasureFunc_t2092170507  : public MulticastDelegate_t3201952435
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CSSMEASUREFUNC_T2092170507_H
+#ifndef LOWMEMORYCALLBACK_T642977590_H
+#define LOWMEMORYCALLBACK_T642977590_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Application/LowMemoryCallback
+struct  LowMemoryCallback_t642977590  : public MulticastDelegate_t3201952435
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LOWMEMORYCALLBACK_T642977590_H
+#ifndef UNITYACTION_T4025899511_H
+#define UNITYACTION_T4025899511_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Events.UnityAction
+struct  UnityAction_t4025899511  : public MulticastDelegate_t3201952435
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UNITYACTION_T4025899511_H
+#ifndef STATECHANGED_T2480912210_H
+#define STATECHANGED_T2480912210_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.CullingGroup/StateChanged
+struct  StateChanged_t2480912210  : public MulticastDelegate_t3201952435
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // STATECHANGED_T2480912210_H
+#ifndef TRANSFORM_T3275118058_H
+#define TRANSFORM_T3275118058_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Transform
+struct  Transform_t3275118058  : public Component_t3819376471
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // TRANSFORM_T3275118058_H
 #ifndef CAMERA_T189460977_H
 #define CAMERA_T189460977_H
 #ifdef __clang__
@@ -8479,6 +8111,46 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // CAMERA_T189460977_H
+#ifndef GUIELEMENT_T3381083099_H
+#define GUIELEMENT_T3381083099_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.GUIElement
+struct  GUIElement_t3381083099  : public Behaviour_t955675639
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GUIELEMENT_T3381083099_H
+#ifndef GUILAYER_T3254902478_H
+#define GUILAYER_T3254902478_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.GUILayer
+struct  GUILayer_t3254902478  : public Behaviour_t955675639
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GUILAYER_T3254902478_H
 #ifndef RECTTRANSFORM_T3349966182_H
 #define RECTTRANSFORM_T3349966182_H
 #ifdef __clang__
@@ -8516,97 +8188,37 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // RECTTRANSFORM_T3349966182_H
-#ifndef MONOBEHAVIOUR_T1158329972_H
-#define MONOBEHAVIOUR_T1158329972_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.MonoBehaviour
-struct  MonoBehaviour_t1158329972  : public Behaviour_t955675639
+// UnityEngine.jvalue[]
+struct jvalueU5BU5D_t2851849116  : public RuntimeArray
 {
 public:
+	ALIGN_FIELD (8) jvalue_t3412352577  m_Items[1];
 
 public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // MONOBEHAVIOUR_T1158329972_H
-#ifndef GUILAYER_T3254902478_H
-#define GUILAYER_T3254902478_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.GUILayer
-struct  GUILayer_t3254902478  : public Behaviour_t955675639
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GUILAYER_T3254902478_H
-#ifndef GUIELEMENT_T3381083099_H
-#define GUIELEMENT_T3381083099_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.GUIElement
-struct  GUIElement_t3381083099  : public Behaviour_t955675639
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GUIELEMENT_T3381083099_H
-// UnityEngine.Keyframe[]
-struct KeyframeU5BU5D_t449065829  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) Keyframe_t1449471340  m_Items[1];
-
-public:
-	inline Keyframe_t1449471340  GetAt(il2cpp_array_size_t index) const
+	inline jvalue_t3412352577  GetAt(il2cpp_array_size_t index) const
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items[index];
 	}
-	inline Keyframe_t1449471340 * GetAddressAt(il2cpp_array_size_t index)
+	inline jvalue_t3412352577 * GetAddressAt(il2cpp_array_size_t index)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items + index;
 	}
-	inline void SetAt(il2cpp_array_size_t index, Keyframe_t1449471340  value)
+	inline void SetAt(il2cpp_array_size_t index, jvalue_t3412352577  value)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		m_Items[index] = value;
 	}
-	inline Keyframe_t1449471340  GetAtUnchecked(il2cpp_array_size_t index) const
+	inline jvalue_t3412352577  GetAtUnchecked(il2cpp_array_size_t index) const
 	{
 		return m_Items[index];
 	}
-	inline Keyframe_t1449471340 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	inline jvalue_t3412352577 * GetAddressAtUnchecked(il2cpp_array_size_t index)
 	{
 		return m_Items + index;
 	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Keyframe_t1449471340  value)
+	inline void SetAtUnchecked(il2cpp_array_size_t index, jvalue_t3412352577  value)
 	{
 		m_Items[index] = value;
 	}
@@ -8646,6 +8258,430 @@ public:
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.String[]
+struct StringU5BU5D_t1642385972  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+public:
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.AndroidJavaObject[]
+struct AndroidJavaObjectU5BU5D_t2397280637  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) AndroidJavaObject_t4251328308 * m_Items[1];
+
+public:
+	inline AndroidJavaObject_t4251328308 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline AndroidJavaObject_t4251328308 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, AndroidJavaObject_t4251328308 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline AndroidJavaObject_t4251328308 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline AndroidJavaObject_t4251328308 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, AndroidJavaObject_t4251328308 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.IntPtr[]
+struct IntPtrU5BU5D_t169632028  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) intptr_t m_Items[1];
+
+public:
+	inline intptr_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline intptr_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, intptr_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline intptr_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline intptr_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, intptr_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Int32[]
+struct Int32U5BU5D_t3030399641  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+public:
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Boolean[]
+struct BooleanU5BU5D_t3568034315  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) bool m_Items[1];
+
+public:
+	inline bool GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline bool* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, bool value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline bool GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline bool* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, bool value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Byte[]
+struct ByteU5BU5D_t3397334013  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+public:
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Int16[]
+struct Int16U5BU5D_t3104283263  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) int16_t m_Items[1];
+
+public:
+	inline int16_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int16_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int16_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int16_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int16_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int16_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Int64[]
+struct Int64U5BU5D_t717125112  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) int64_t m_Items[1];
+
+public:
+	inline int64_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int64_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int64_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int64_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int64_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int64_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Single[]
+struct SingleU5BU5D_t577127397  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) float m_Items[1];
+
+public:
+	inline float GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Double[]
+struct DoubleU5BU5D_t1889952540  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) double m_Items[1];
+
+public:
+	inline double GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline double* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, double value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline double GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline double* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, double value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Char[]
+struct CharU5BU5D_t1328083999  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) Il2CppChar m_Items[1];
+
+public:
+	inline Il2CppChar GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Il2CppChar GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Keyframe[]
+struct KeyframeU5BU5D_t449065829  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) Keyframe_t1449471340  m_Items[1];
+
+public:
+	inline Keyframe_t1449471340  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Keyframe_t1449471340 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Keyframe_t1449471340  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Keyframe_t1449471340  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Keyframe_t1449471340 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Keyframe_t1449471340  value)
+	{
+		m_Items[index] = value;
 	}
 };
 // System.Type[]
@@ -8833,41 +8869,6 @@ public:
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
-// System.IntPtr[]
-struct IntPtrU5BU5D_t169632028  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) intptr_t m_Items[1];
-
-public:
-	inline intptr_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline intptr_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, intptr_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline intptr_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline intptr_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, intptr_t value)
-	{
-		m_Items[index] = value;
-	}
-};
 // UnityEngine.Display[]
 struct DisplayU5BU5D_t1314630077  : public RuntimeArray
 {
@@ -9049,218 +9050,12 @@ public:
 		m_Items[index] = value;
 	}
 };
-// System.Byte[]
-struct ByteU5BU5D_t3397334013  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) uint8_t m_Items[1];
-
-public:
-	inline uint8_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
-	{
-		m_Items[index] = value;
-	}
-};
-// System.Int32[]
-struct Int32U5BU5D_t3030399641  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) int32_t m_Items[1];
-
-public:
-	inline int32_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, int32_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.Vector3[]
-struct Vector3U5BU5D_t1172311765  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) Vector3_t2243707580  m_Items[1];
-
-public:
-	inline Vector3_t2243707580  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Vector3_t2243707580 * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Vector3_t2243707580  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Vector3_t2243707580  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Vector3_t2243707580 * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t2243707580  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.Vector4[]
-struct Vector4U5BU5D_t1658499504  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) Vector4_t2243707581  m_Items[1];
-
-public:
-	inline Vector4_t2243707581  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Vector4_t2243707581 * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Vector4_t2243707581  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Vector4_t2243707581  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Vector4_t2243707581 * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector4_t2243707581  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.Vector2[]
-struct Vector2U5BU5D_t686124026  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) Vector2_t2243707579  m_Items[1];
-
-public:
-	inline Vector2_t2243707579  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Vector2_t2243707579 * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Vector2_t2243707579  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Vector2_t2243707579  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Vector2_t2243707579 * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector2_t2243707579  value)
-	{
-		m_Items[index] = value;
-	}
-};
-// UnityEngine.Color32[]
-struct Color32U5BU5D_t30278651  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) Color32_t874517518  m_Items[1];
-
-public:
-	inline Color32_t874517518  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Color32_t874517518 * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Color32_t874517518  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline Color32_t874517518  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Color32_t874517518 * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Color32_t874517518  value)
-	{
-		m_Items[index] = value;
-	}
-};
 
 
+// ReturnType UnityEngine.AndroidJavaObject::Call<System.Object>(System.String,System.Object[])
+extern "C"  RuntimeObject * AndroidJavaObject_Call_TisRuntimeObject_m1186919789_gshared (AndroidJavaObject_t4251328308 * __this, String_t* ___methodName0, ObjectU5BU5D_t3614634134* ___args1, const RuntimeMethod* method);
+// ReturnType UnityEngine.AndroidJavaObject::CallStatic<System.Object>(System.String,System.Object[])
+extern "C"  RuntimeObject * AndroidJavaObject_CallStatic_TisRuntimeObject_m2470735613_gshared (AndroidJavaObject_t4251328308 * __this, String_t* ___methodName0, ObjectU5BU5D_t3614634134* ___args1, const RuntimeMethod* method);
 // System.Void System.Action`1<System.Object>::Invoke(!0)
 extern "C"  void Action_1_Invoke_m4180501989_gshared (Action_1_t2491248677 * __this, RuntimeObject * p0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Stack`1<System.Object>::.ctor()
@@ -9311,63 +9106,373 @@ extern "C"  RuntimeObject * Enumerator_get_Current_m2577424081_gshared (Enumerat
 extern "C"  bool Enumerator_MoveNext_m44995089_gshared (Enumerator_t1593300101 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1/Enumerator<System.Object>::Dispose()
 extern "C"  void Enumerator_Dispose_m3736175406_gshared (Enumerator_t1593300101 * __this, const RuntimeMethod* method);
-// System.Int32 UnityEngine.Mesh::SafeLength<System.Int32>(System.Collections.Generic.List`1<T>)
-extern "C"  int32_t Mesh_SafeLength_TisInt32_t2071877448_m3760170319_gshared (Mesh_t1356156583 * __this, List_1_t1440998580 * ___values0, const RuntimeMethod* method);
-// T[] UnityEngine.Mesh::GetAllocArrayFromChannel<UnityEngine.Vector3>(UnityEngine.Mesh/InternalShaderChannel)
-extern "C"  Vector3U5BU5D_t1172311765* Mesh_GetAllocArrayFromChannel_TisVector3_t2243707580_m3989967866_gshared (Mesh_t1356156583 * __this, int32_t ___channel0, const RuntimeMethod* method);
-// T[] UnityEngine.Mesh::GetAllocArrayFromChannel<UnityEngine.Vector4>(UnityEngine.Mesh/InternalShaderChannel)
-extern "C"  Vector4U5BU5D_t1658499504* Mesh_GetAllocArrayFromChannel_TisVector4_t2243707581_m1048536121_gshared (Mesh_t1356156583 * __this, int32_t ___channel0, const RuntimeMethod* method);
-// T[] UnityEngine.Mesh::GetAllocArrayFromChannel<UnityEngine.Vector2>(UnityEngine.Mesh/InternalShaderChannel)
-extern "C"  Vector2U5BU5D_t686124026* Mesh_GetAllocArrayFromChannel_TisVector2_t2243707579_m2289935163_gshared (Mesh_t1356156583 * __this, int32_t ___channel0, const RuntimeMethod* method);
-// T[] UnityEngine.Mesh::GetAllocArrayFromChannel<UnityEngine.Color32>(UnityEngine.Mesh/InternalShaderChannel,UnityEngine.Mesh/InternalVertexChannelType,System.Int32)
-extern "C"  Color32U5BU5D_t30278651* Mesh_GetAllocArrayFromChannel_TisColor32_t874517518_m859642474_gshared (Mesh_t1356156583 * __this, int32_t ___channel0, int32_t ___format1, int32_t ___dim2, const RuntimeMethod* method);
-// System.Void UnityEngine.Mesh::SetListForChannel<UnityEngine.Vector3>(UnityEngine.Mesh/InternalShaderChannel,System.Collections.Generic.List`1<T>)
-extern "C"  void Mesh_SetListForChannel_TisVector3_t2243707580_m2854368686_gshared (Mesh_t1356156583 * __this, int32_t ___channel0, List_1_t1612828712 * ___values1, const RuntimeMethod* method);
-// System.Void UnityEngine.Mesh::SetListForChannel<UnityEngine.Vector4>(UnityEngine.Mesh/InternalShaderChannel,System.Collections.Generic.List`1<T>)
-extern "C"  void Mesh_SetListForChannel_TisVector4_t2243707581_m1760927057_gshared (Mesh_t1356156583 * __this, int32_t ___channel0, List_1_t1612828713 * ___values1, const RuntimeMethod* method);
-// System.Void UnityEngine.Mesh::SetListForChannel<UnityEngine.Color32>(UnityEngine.Mesh/InternalShaderChannel,UnityEngine.Mesh/InternalVertexChannelType,System.Int32,System.Collections.Generic.List`1<T>)
-extern "C"  void Mesh_SetListForChannel_TisColor32_t874517518_m4104974134_gshared (Mesh_t1356156583 * __this, int32_t ___channel0, int32_t ___format1, int32_t ___dim2, List_1_t243638650 * ___values3, const RuntimeMethod* method);
-// System.Void UnityEngine.Mesh::SetUvsImpl<UnityEngine.Vector2>(System.Int32,System.Int32,System.Collections.Generic.List`1<T>)
-extern "C"  void Mesh_SetUvsImpl_TisVector2_t2243707579_m2513165067_gshared (Mesh_t1356156583 * __this, int32_t ___uvIndex0, int32_t ___dim1, List_1_t1612828711 * ___uvs2, const RuntimeMethod* method);
-// System.Void System.Collections.Generic.List`1<System.Int32>::.ctor()
-extern "C"  void List_1__ctor_m1063228628_gshared (List_1_t1440998580 * __this, const RuntimeMethod* method);
-// T UnityEngine.ScriptableObject::CreateInstance<System.Object>()
-extern "C"  RuntimeObject * ScriptableObject_CreateInstance_TisRuntimeObject_m3534259992_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method);
-// System.Void System.Collections.Generic.List`1<System.Int32>::Add(!0)
-extern "C"  void List_1_Add_m2241268440_gshared (List_1_t1440998580 * __this, int32_t p0, const RuntimeMethod* method);
-// System.Void UnityEngine.Events.UnityEvent`1<System.Int32>::Invoke(T0)
-extern "C"  void UnityEvent_1_Invoke_m646962604_gshared (UnityEvent_1_t2110227463 * __this, int32_t p0, const RuntimeMethod* method);
-// System.Void System.Func`2<System.Object,System.Boolean>::.ctor(System.Object,System.IntPtr)
-extern "C"  void Func_2__ctor_m1354888807_gshared (Func_2_t3961629604 * __this, RuntimeObject * p0, intptr_t p1, const RuntimeMethod* method);
-// System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::Where<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,System.Boolean>)
-extern "C"  RuntimeObject* Enumerable_Where_TisRuntimeObject_m1140705402_gshared (RuntimeObject * __this /* static, unused */, RuntimeObject* p0, Func_2_t3961629604 * p1, const RuntimeMethod* method);
-// System.Boolean System.Linq.Enumerable::Any<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
-extern "C"  bool Enumerable_Any_TisRuntimeObject_m32651785_gshared (RuntimeObject * __this /* static, unused */, RuntimeObject* p0, const RuntimeMethod* method);
-// System.Void UnityEngine.Events.UnityEvent`1<System.Object>::Invoke(T0)
-extern "C"  void UnityEvent_1_Invoke_m1599856953_gshared (UnityEvent_1_t2727799310 * __this, RuntimeObject * p0, const RuntimeMethod* method);
-// System.Void UnityEngine.Events.UnityEvent`1<System.Int32>::.ctor()
-extern "C"  void UnityEvent_1__ctor_m333010934_gshared (UnityEvent_1_t2110227463 * __this, const RuntimeMethod* method);
-// System.Void UnityEngine.Events.UnityEvent`1<System.Object>::.ctor()
-extern "C"  void UnityEvent_1__ctor_m1689184037_gshared (UnityEvent_1_t2727799310 * __this, const RuntimeMethod* method);
 
+// System.Void UnityEngine.AndroidJavaRunnableProxy::.ctor(UnityEngine.AndroidJavaRunnable)
+extern "C"  void AndroidJavaRunnableProxy__ctor_m2912946493 (AndroidJavaRunnableProxy_t1710049828 * __this, AndroidJavaRunnable_t3501776228 * ___runnable0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNIHelper::CreateJavaProxy(UnityEngine.AndroidJavaProxy)
+extern "C"  intptr_t AndroidJNIHelper_CreateJavaProxy_m3365062511 (RuntimeObject * __this /* static, unused */, AndroidJavaProxy_t4274989947 * ___proxy0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Array::GetLength(System.Int32)
+extern "C"  int32_t Array_GetLength_m2083296647 (RuntimeArray * __this, int32_t p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Object::GetType()
+extern "C"  Type_t * Object_GetType_m191970594 (RuntimeObject * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.AndroidReflection::IsPrimitive(System.Type)
+extern "C"  bool AndroidReflection_IsPrimitive_m3659522246 (RuntimeObject * __this /* static, unused */, Type_t * ___t0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::NewStringUTF(System.String)
+extern "C"  intptr_t AndroidJNISafe_NewStringUTF_m4052253704 (RuntimeObject * __this /* static, unused */, String_t* ___bytes0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJavaObject::GetRawClass()
+extern "C"  intptr_t AndroidJavaObject_GetRawClass_m69471637 (AndroidJavaObject_t4251328308 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJavaObject::GetRawObject()
+extern "C"  intptr_t AndroidJavaObject_GetRawObject_m2000325796 (AndroidJavaObject_t4251328308 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine._AndroidJNIHelper::ConvertToJNIArray(System.Array)
+extern "C"  intptr_t _AndroidJNIHelper_ConvertToJNIArray_m1248156804 (RuntimeObject * __this /* static, unused */, RuntimeArray * ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.AndroidJavaObject UnityEngine.AndroidJavaProxy::GetProxy()
+extern "C"  AndroidJavaObject_t4251328308 * AndroidJavaProxy_GetProxy_m1162291285 (AndroidJavaProxy_t4274989947 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNIHelper::CreateJavaRunnable(UnityEngine.AndroidJavaRunnable)
+extern "C"  intptr_t AndroidJNIHelper_CreateJavaRunnable_m1726501095 (RuntimeObject * __this /* static, unused */, AndroidJavaRunnable_t3501776228 * ___jrunnable0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.Object,System.Object,System.Object)
+extern "C"  String_t* String_Concat_m2000667605 (RuntimeObject * __this /* static, unused */, RuntimeObject * p0, RuntimeObject * p1, RuntimeObject * p2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Exception::.ctor(System.String)
+extern "C"  void Exception__ctor_m485833136 (Exception_t1927440687 * __this, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNISafe::DeleteLocalRef(System.IntPtr)
+extern "C"  void AndroidJNISafe_DeleteLocalRef_m1703488126 (RuntimeObject * __this /* static, unused */, intptr_t ___localref0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
+extern "C"  Type_t * Type_GetTypeFromHandle_m432505302 (RuntimeObject * __this /* static, unused */, RuntimeTypeHandle_t2330101084  p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::ToIntArray(System.Int32[])
+extern "C"  intptr_t AndroidJNISafe_ToIntArray_m320585224 (RuntimeObject * __this /* static, unused */, Int32U5BU5D_t3030399641* ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::ToBooleanArray(System.Boolean[])
+extern "C"  intptr_t AndroidJNISafe_ToBooleanArray_m4042057407 (RuntimeObject * __this /* static, unused */, BooleanU5BU5D_t3568034315* ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::ToByteArray(System.Byte[])
+extern "C"  intptr_t AndroidJNISafe_ToByteArray_m87363743 (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::ToShortArray(System.Int16[])
+extern "C"  intptr_t AndroidJNISafe_ToShortArray_m993330209 (RuntimeObject * __this /* static, unused */, Int16U5BU5D_t3104283263* ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::ToLongArray(System.Int64[])
+extern "C"  intptr_t AndroidJNISafe_ToLongArray_m3457180788 (RuntimeObject * __this /* static, unused */, Int64U5BU5D_t717125112* ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::ToFloatArray(System.Single[])
+extern "C"  intptr_t AndroidJNISafe_ToFloatArray_m3975685981 (RuntimeObject * __this /* static, unused */, SingleU5BU5D_t577127397* ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::ToDoubleArray(System.Double[])
+extern "C"  intptr_t AndroidJNISafe_ToDoubleArray_m2593793371 (RuntimeObject * __this /* static, unused */, DoubleU5BU5D_t1889952540* ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::ToCharArray(System.Char[])
+extern "C"  intptr_t AndroidJNISafe_ToCharArray_m4138840423 (RuntimeObject * __this /* static, unused */, CharU5BU5D_t1328083999* ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::FindClass(System.String)
+extern "C"  intptr_t AndroidJNISafe_FindClass_m575048497 (RuntimeObject * __this /* static, unused */, String_t* ___name0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::NewObjectArray(System.Int32,System.IntPtr,System.IntPtr)
+extern "C"  intptr_t AndroidJNI_NewObjectArray_m2402556372 (RuntimeObject * __this /* static, unused */, int32_t ___size0, intptr_t ___clazz1, intptr_t ___obj2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::SetObjectArrayElement(System.IntPtr,System.Int32,System.IntPtr)
+extern "C"  void AndroidJNI_SetObjectArrayElement_m3793290321 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, int32_t ___index1, intptr_t ___obj2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.IntPtr::op_Inequality(System.IntPtr,System.IntPtr)
+extern "C"  bool IntPtr_op_Inequality_m3044532593 (RuntimeObject * __this /* static, unused */, intptr_t p0, intptr_t p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.IntPtr::op_Equality(System.IntPtr,System.IntPtr)
+extern "C"  bool IntPtr_op_Equality_m1573482188 (RuntimeObject * __this /* static, unused */, intptr_t p0, intptr_t p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::ToObjectArray(System.IntPtr[],System.IntPtr)
+extern "C"  intptr_t AndroidJNISafe_ToObjectArray_m2701598109 (RuntimeObject * __this /* static, unused */, IntPtrU5BU5D_t169632028* ___array0, intptr_t ___type1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidReflection::GetMethodMember(System.IntPtr,System.String,System.String,System.Boolean)
+extern "C"  intptr_t AndroidReflection_GetMethodMember_m584776875 (RuntimeObject * __this /* static, unused */, intptr_t ___jclass0, String_t* ___methodName1, String_t* ___signature2, bool ___isStatic3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::FromReflectedMethod(System.IntPtr)
+extern "C"  intptr_t AndroidJNISafe_FromReflectedMethod_m3036131625 (RuntimeObject * __this /* static, unused */, intptr_t ___refMethod0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine._AndroidJNIHelper::GetMethodIDFallback(System.IntPtr,System.String,System.String,System.Boolean)
+extern "C"  intptr_t _AndroidJNIHelper_GetMethodIDFallback_m3201232261 (RuntimeObject * __this /* static, unused */, intptr_t ___jclass0, String_t* ___methodName1, String_t* ___signature2, bool ___isStatic3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::GetStaticMethodID(System.IntPtr,System.String,System.String)
+extern "C"  intptr_t AndroidJNISafe_GetStaticMethodID_m3181930180 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::GetMethodID(System.IntPtr,System.String,System.String)
+extern "C"  intptr_t AndroidJNISafe_GetMethodID_m1407924750 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, String_t* ___name1, String_t* ___sig2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidReflection::GetFieldMember(System.IntPtr,System.String,System.String,System.Boolean)
+extern "C"  intptr_t AndroidReflection_GetFieldMember_m1382154548 (RuntimeObject * __this /* static, unused */, intptr_t ___jclass0, String_t* ___fieldName1, String_t* ___signature2, bool ___isStatic3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::FromReflectedField(System.IntPtr)
+extern "C"  intptr_t AndroidJNISafe_FromReflectedField_m1154452628 (RuntimeObject * __this /* static, unused */, intptr_t ___refField0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::GetStaticFieldID(System.IntPtr,System.String,System.String)
+extern "C"  intptr_t AndroidJNISafe_GetStaticFieldID_m4129374031 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::GetFieldID(System.IntPtr,System.String,System.String)
+extern "C"  intptr_t AndroidJNISafe_GetFieldID_m3368735691 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Type::Equals(System.Type)
+extern "C"  bool Type_Equals_m1326467719 (Type_t * __this, Type_t * p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJavaObject::.ctor(System.IntPtr)
+extern "C"  void AndroidJavaObject__ctor_m3845826090 (AndroidJavaObject_t4251328308 * __this, intptr_t ___jobject0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// ReturnType UnityEngine.AndroidJavaObject::Call<System.String>(System.String,System.Object[])
+#define AndroidJavaObject_Call_TisString_t_m687792193(__this, ___methodName0, ___args1, method) ((  String_t* (*) (AndroidJavaObject_t4251328308 *, String_t*, ObjectU5BU5D_t3614634134*, const RuntimeMethod*))AndroidJavaObject_Call_TisRuntimeObject_m1186919789_gshared)(__this, ___methodName0, ___args1, method)
+// System.String System.String::Concat(System.String,System.String,System.String)
+extern "C"  String_t* String_Concat_m612901809 (RuntimeObject * __this /* static, unused */, String_t* p0, String_t* p1, String_t* p2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// ReturnType UnityEngine.AndroidJavaObject::Call<UnityEngine.AndroidJavaObject>(System.String,System.Object[])
+#define AndroidJavaObject_Call_TisAndroidJavaObject_t4251328308_m1172289152(__this, ___methodName0, ___args1, method) ((  AndroidJavaObject_t4251328308 * (*) (AndroidJavaObject_t4251328308 *, String_t*, ObjectU5BU5D_t3614634134*, const RuntimeMethod*))AndroidJavaObject_Call_TisRuntimeObject_m1186919789_gshared)(__this, ___methodName0, ___args1, method)
+// System.Boolean UnityEngine.AndroidReflection::IsAssignableFrom(System.Type,System.Type)
+extern "C"  bool AndroidReflection_IsAssignableFrom_m3577747537 (RuntimeObject * __this /* static, unused */, Type_t * ___t0, Type_t * ___from1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Text.StringBuilder::.ctor()
+extern "C"  void StringBuilder__ctor_m3946851802 (StringBuilder_t1221177846 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Text.StringBuilder System.Text.StringBuilder::Append(System.Char)
+extern "C"  StringBuilder_t1221177846 * StringBuilder_Append_m3618697540 (StringBuilder_t1221177846 * __this, Il2CppChar p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine._AndroidJNIHelper::GetSignature(System.Object)
+extern "C"  String_t* _AndroidJNIHelper_GetSignature_m1300573492 (RuntimeObject * __this /* static, unused */, RuntimeObject * ___obj0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+extern "C"  StringBuilder_t1221177846 * StringBuilder_Append_m3636508479 (StringBuilder_t1221177846 * __this, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.Object[])
+extern "C"  String_t* String_Concat_m3881798623 (RuntimeObject * __this /* static, unused */, ObjectU5BU5D_t3614634134* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Attribute::.ctor()
 extern "C"  void Attribute__ctor_m1730479323 (Attribute_t542643598 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJavaObject::.ctor()
+extern "C"  void AndroidJavaObject__ctor_m1748549292 (AndroidJavaObject_t4251328308 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJavaClass::_AndroidJavaClass(System.String)
+extern "C"  void AndroidJavaClass__AndroidJavaClass_m1876440275 (AndroidJavaClass_t2973420583 * __this, String_t* ___className0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GlobalJavaObjectRef::.ctor(System.IntPtr)
+extern "C"  void GlobalJavaObjectRef__ctor_m3082986627 (GlobalJavaObjectRef_t1417862413 * __this, intptr_t ___jobject0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.String,System.String)
+extern "C"  String_t* String_Concat_m2596409543 (RuntimeObject * __this /* static, unused */, String_t* p0, String_t* p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJavaObject::DebugPrint(System.String)
+extern "C"  void AndroidJavaObject_DebugPrint_m653935302 (AndroidJavaObject_t4251328308 * __this, String_t* ___msg0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.AndroidJavaObject UnityEngine.AndroidJavaObject::FindClass(System.String)
+extern "C"  AndroidJavaObject_t4251328308 * AndroidJavaObject_FindClass_m2078911127 (RuntimeObject * __this /* static, unused */, String_t* ___name0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.String System.Exception::get_StackTrace()
+extern "C"  String_t* Exception_get_StackTrace_m2513587087 (Exception_t1927440687 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::GetObjectClass(System.IntPtr)
+extern "C"  intptr_t AndroidJNISafe_GetObjectClass_m2887862559 (RuntimeObject * __this /* static, unused */, intptr_t ___ptr0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Object::.ctor()
 extern "C"  void Object__ctor_m2551263788 (RuntimeObject * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJavaObject::_Dispose()
+extern "C"  void AndroidJavaObject__Dispose_m2682233416 (AndroidJavaObject_t4251328308 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJavaObject::_GetRawObject()
+extern "C"  intptr_t AndroidJavaObject__GetRawObject_m3693952337 (AndroidJavaObject_t4251328308 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJavaObject::_GetRawClass()
+extern "C"  intptr_t AndroidJavaObject__GetRawClass_m3201503112 (AndroidJavaObject_t4251328308 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Debug::Log(System.Object)
+extern "C"  void Debug_Log_m2923680153 (RuntimeObject * __this /* static, unused */, RuntimeObject * ___message0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Object::Finalize()
+extern "C"  void Object_Finalize_m4087144328 (RuntimeObject * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GlobalJavaObjectRef::Dispose()
+extern "C"  void GlobalJavaObjectRef_Dispose_m2828645294 (GlobalJavaObjectRef_t1417862413 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void System.GC::SuppressFinalize(System.Object)
+extern "C"  void GC_SuppressFinalize_m953228702 (RuntimeObject * __this /* static, unused */, RuntimeObject * p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJavaClass::.ctor(System.IntPtr)
+extern "C"  void AndroidJavaClass__ctor_m3415353177 (AndroidJavaClass_t2973420583 * __this, intptr_t ___jclass0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.GlobalJavaObjectRef::op_Implicit(UnityEngine.GlobalJavaObjectRef)
+extern "C"  intptr_t GlobalJavaObjectRef_op_Implicit_m3534882639 (RuntimeObject * __this /* static, unused */, GlobalJavaObjectRef_t1417862413 * ___obj0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.AndroidJavaClass UnityEngine.AndroidJavaObject::get_JavaLangClass()
+extern "C"  AndroidJavaClass_t2973420583 * AndroidJavaObject_get_JavaLangClass_m440136198 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Replace(System.Char,System.Char)
+extern "C"  String_t* String_Replace_m534438427 (String_t* __this, Il2CppChar p0, Il2CppChar p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// ReturnType UnityEngine.AndroidJavaObject::CallStatic<UnityEngine.AndroidJavaObject>(System.String,System.Object[])
+#define AndroidJavaObject_CallStatic_TisAndroidJavaObject_t4251328308_m4289559914(__this, ___methodName0, ___args1, method) ((  AndroidJavaObject_t4251328308 * (*) (AndroidJavaObject_t4251328308 *, String_t*, ObjectU5BU5D_t3614634134*, const RuntimeMethod*))AndroidJavaObject_CallStatic_TisRuntimeObject_m2470735613_gshared)(__this, ___methodName0, ___args1, method)
+// System.Void UnityEngine.AndroidJavaClass::.ctor(System.String)
+extern "C"  void AndroidJavaClass__ctor_m2710308341 (AndroidJavaClass_t2973420583 * __this, String_t* ___className0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJavaProxy::.ctor(UnityEngine.AndroidJavaClass)
+extern "C"  void AndroidJavaProxy__ctor_m1084633315 (AndroidJavaProxy_t4274989947 * __this, AndroidJavaClass_t2973420583 * ___javaInterface0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.AndroidJavaObject UnityEngine.AndroidJavaObject::AndroidJavaObjectDeleteLocalRef(System.IntPtr)
+extern "C"  AndroidJavaObject_t4251328308 * AndroidJavaObject_AndroidJavaObjectDeleteLocalRef_m2273457111 (RuntimeObject * __this /* static, unused */, intptr_t ___jobject0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNIHelper::GetMethodID(System.IntPtr,System.String,System.String,System.Boolean)
+extern "C"  intptr_t AndroidJNIHelper_GetMethodID_m2208893354 (RuntimeObject * __this /* static, unused */, intptr_t ___javaClass0, String_t* ___methodName1, String_t* ___signature2, bool ___isStatic3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJavaRunnable::Invoke()
+extern "C"  void AndroidJavaRunnable_Invoke_m2550679292 (AndroidJavaRunnable_t3501776228 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJavaProxy::.ctor(System.String)
+extern "C"  void AndroidJavaProxy__ctor_m732977339 (AndroidJavaProxy_t4274989947 * __this, String_t* ___javaInterface0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_FindClass(System.String,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_FindClass_m2788105298 (RuntimeObject * __this /* static, unused */, String_t* ___name0, intptr_t* ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_FromReflectedMethod(System.IntPtr,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_FromReflectedMethod_m3948529066 (RuntimeObject * __this /* static, unused */, intptr_t ___refMethod0, intptr_t* ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_FromReflectedField(System.IntPtr,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_FromReflectedField_m365659821 (RuntimeObject * __this /* static, unused */, intptr_t ___refField0, intptr_t* ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ExceptionOccurred(System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ExceptionOccurred_m2119918457 (RuntimeObject * __this /* static, unused */, intptr_t* ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_NewGlobalRef(System.IntPtr,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_NewGlobalRef_m829840121 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t* ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_GetObjectClass(System.IntPtr,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_GetObjectClass_m1226267886 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t* ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_GetMethodID(System.IntPtr,System.String,System.String,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_GetMethodID_m3893979599 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, intptr_t* ___value3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_GetFieldID(System.IntPtr,System.String,System.String,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_GetFieldID_m2191711586 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, intptr_t* ___value3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_GetStaticMethodID(System.IntPtr,System.String,System.String,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_GetStaticMethodID_m3597694851 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, intptr_t* ___value3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_GetStaticFieldID(System.IntPtr,System.String,System.String,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_GetStaticFieldID_m1358410088 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, intptr_t* ___value3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_NewStringUTF(System.String,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_NewStringUTF_m2906280537 (RuntimeObject * __this /* static, unused */, String_t* ___bytes0, intptr_t* ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_CallObjectMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_CallObjectMethod_m3385998137 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, intptr_t* ___value3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_CallStaticObjectMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_CallStaticObjectMethod_m3176317801 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, intptr_t* ___value3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_GetStaticObjectField(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_GetStaticObjectField_m1046795976 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, intptr_t* ___value2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToBooleanArray(System.Boolean[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToBooleanArray_m2196247008 (RuntimeObject * __this /* static, unused */, BooleanU5BU5D_t3568034315* ___array0, intptr_t* ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToByteArray(System.Byte[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToByteArray_m2216035424 (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___array0, intptr_t* ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToCharArray(System.Char[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToCharArray_m2207204712 (RuntimeObject * __this /* static, unused */, CharU5BU5D_t1328083999* ___array0, intptr_t* ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToShortArray(System.Int16[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToShortArray_m145281632 (RuntimeObject * __this /* static, unused */, Int16U5BU5D_t3104283263* ___array0, intptr_t* ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToIntArray(System.Int32[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToIntArray_m856804263 (RuntimeObject * __this /* static, unused */, Int32U5BU5D_t3030399641* ___array0, intptr_t* ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToLongArray(System.Int64[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToLongArray_m3674462701 (RuntimeObject * __this /* static, unused */, Int64U5BU5D_t717125112* ___array0, intptr_t* ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToFloatArray(System.Single[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToFloatArray_m4014106884 (RuntimeObject * __this /* static, unused */, SingleU5BU5D_t577127397* ___array0, intptr_t* ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToDoubleArray(System.Double[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToDoubleArray_m1956593850 (RuntimeObject * __this /* static, unused */, DoubleU5BU5D_t1889952540* ___array0, intptr_t* ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToObjectArray(System.IntPtr[],System.IntPtr,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToObjectArray_m3696508252 (RuntimeObject * __this /* static, unused */, IntPtrU5BU5D_t169632028* ___array0, intptr_t ___arrayClass1, intptr_t* ___value2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_NewObjectArray(System.Int32,System.IntPtr,System.IntPtr,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_NewObjectArray_m3561069850 (RuntimeObject * __this /* static, unused */, int32_t ___size0, intptr_t ___clazz1, intptr_t ___obj2, intptr_t* ___value3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_GetObjectArrayElement(System.IntPtr,System.Int32,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_GetObjectArrayElement_m879074536 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, int32_t ___index1, intptr_t* ___value2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine._AndroidJNIHelper::GetMethodID(System.IntPtr,System.String,System.String,System.Boolean)
+extern "C"  intptr_t _AndroidJNIHelper_GetMethodID_m48644625 (RuntimeObject * __this /* static, unused */, intptr_t ___jclass0, String_t* ___methodName1, String_t* ___signature2, bool ___isStatic3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine._AndroidJNIHelper::GetFieldID(System.IntPtr,System.String,System.String,System.Boolean)
+extern "C"  intptr_t _AndroidJNIHelper_GetFieldID_m87082942 (RuntimeObject * __this /* static, unused */, intptr_t ___jclass0, String_t* ___fieldName1, String_t* ___signature2, bool ___isStatic3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine._AndroidJNIHelper::CreateJavaRunnable(UnityEngine.AndroidJavaRunnable)
+extern "C"  intptr_t _AndroidJNIHelper_CreateJavaRunnable_m1167962646 (RuntimeObject * __this /* static, unused */, AndroidJavaRunnable_t3501776228 * ___jrunnable0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNIHelper::INTERNAL_CALL_CreateJavaProxy(UnityEngine.AndroidJavaProxy,System.IntPtr&)
+extern "C"  void AndroidJNIHelper_INTERNAL_CALL_CreateJavaProxy_m2393073275 (RuntimeObject * __this /* static, unused */, AndroidJavaProxy_t4274989947 * ___proxy0, intptr_t* ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.jvalue[] UnityEngine._AndroidJNIHelper::CreateJNIArgArray(System.Object[])
+extern "C"  jvalueU5BU5D_t2851849116* _AndroidJNIHelper_CreateJNIArgArray_m755788980 (RuntimeObject * __this /* static, unused */, ObjectU5BU5D_t3614634134* ___args0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine._AndroidJNIHelper::DeleteJNIArgArray(System.Object[],UnityEngine.jvalue[])
+extern "C"  void _AndroidJNIHelper_DeleteJNIArgArray_m338095364 (RuntimeObject * __this /* static, unused */, ObjectU5BU5D_t3614634134* ___args0, jvalueU5BU5D_t2851849116* ___jniArgs1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::ExceptionOccurred()
+extern "C"  intptr_t AndroidJNI_ExceptionOccurred_m1192906445 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::ExceptionClear()
+extern "C"  void AndroidJNI_ExceptionClear_m2810080104 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::FindClass(System.String)
+extern "C"  intptr_t AndroidJNI_FindClass_m1146941316 (RuntimeObject * __this /* static, unused */, String_t* ___name0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::GetMethodID(System.IntPtr,System.String,System.String)
+extern "C"  intptr_t AndroidJNI_GetMethodID_m3579635507 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::GetStaticMethodID(System.IntPtr,System.String,System.String)
+extern "C"  intptr_t AndroidJNI_GetStaticMethodID_m2111902847 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.AndroidJNI::CallStringMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  String_t* AndroidJNI_CallStringMethod_m547855981 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.AndroidJNI::CallStaticStringMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  String_t* AndroidJNI_CallStaticStringMethod_m685687621 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJavaException::.ctor(System.String,System.String)
+extern "C"  void AndroidJavaException__ctor_m2816600416 (AndroidJavaException_t3997329726 * __this, String_t* ___message0, String_t* ___javaStackTrace1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::DeleteGlobalRef(System.IntPtr)
+extern "C"  void AndroidJNI_DeleteGlobalRef_m1492528849 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNI::DeleteLocalRef(System.IntPtr)
+extern "C"  void AndroidJNI_DeleteLocalRef_m1035010755 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::NewStringUTF(System.String)
+extern "C"  intptr_t AndroidJNI_NewStringUTF_m294318221 (RuntimeObject * __this /* static, unused */, String_t* ___bytes0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNISafe::CheckException()
+extern "C"  void AndroidJNISafe_CheckException_m82304878 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.AndroidJNI::GetStringUTFChars(System.IntPtr)
+extern "C"  String_t* AndroidJNI_GetStringUTFChars_m3395974110 (RuntimeObject * __this /* static, unused */, intptr_t ___str0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::GetObjectClass(System.IntPtr)
+extern "C"  intptr_t AndroidJNI_GetObjectClass_m3593789028 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::GetFieldID(System.IntPtr,System.String,System.String)
+extern "C"  intptr_t AndroidJNI_GetFieldID_m3868917208 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::GetStaticFieldID(System.IntPtr,System.String,System.String)
+extern "C"  intptr_t AndroidJNI_GetStaticFieldID_m945802290 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::FromReflectedMethod(System.IntPtr)
+extern "C"  intptr_t AndroidJNI_FromReflectedMethod_m3489882308 (RuntimeObject * __this /* static, unused */, intptr_t ___refMethod0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::FromReflectedField(System.IntPtr)
+extern "C"  intptr_t AndroidJNI_FromReflectedField_m1586104961 (RuntimeObject * __this /* static, unused */, intptr_t ___refField0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::GetStaticObjectField(System.IntPtr,System.IntPtr)
+extern "C"  intptr_t AndroidJNI_GetStaticObjectField_m1117681310 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.AndroidJNI::GetStaticStringField(System.IntPtr,System.IntPtr)
+extern "C"  String_t* AndroidJNI_GetStaticStringField_m981156460 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Char UnityEngine.AndroidJNI::GetStaticCharField(System.IntPtr,System.IntPtr)
+extern "C"  Il2CppChar AndroidJNI_GetStaticCharField_m1307137100 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Double UnityEngine.AndroidJNI::GetStaticDoubleField(System.IntPtr,System.IntPtr)
+extern "C"  double AndroidJNI_GetStaticDoubleField_m3636144684 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.AndroidJNI::GetStaticFloatField(System.IntPtr,System.IntPtr)
+extern "C"  float AndroidJNI_GetStaticFloatField_m1066649512 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int64 UnityEngine.AndroidJNI::GetStaticLongField(System.IntPtr,System.IntPtr)
+extern "C"  int64_t AndroidJNI_GetStaticLongField_m449804539 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int16 UnityEngine.AndroidJNI::GetStaticShortField(System.IntPtr,System.IntPtr)
+extern "C"  int16_t AndroidJNI_GetStaticShortField_m2504957286 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Byte UnityEngine.AndroidJNI::GetStaticByteField(System.IntPtr,System.IntPtr)
+extern "C"  uint8_t AndroidJNI_GetStaticByteField_m2854778764 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.AndroidJNI::GetStaticBooleanField(System.IntPtr,System.IntPtr)
+extern "C"  bool AndroidJNI_GetStaticBooleanField_m1495909062 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.AndroidJNI::GetStaticIntField(System.IntPtr,System.IntPtr)
+extern "C"  int32_t AndroidJNI_GetStaticIntField_m2065345677 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::CallStaticObjectMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  intptr_t AndroidJNI_CallStaticObjectMethod_m3143657157 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Char UnityEngine.AndroidJNI::CallStaticCharMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  Il2CppChar AndroidJNI_CallStaticCharMethod_m1437246625 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Double UnityEngine.AndroidJNI::CallStaticDoubleMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  double AndroidJNI_CallStaticDoubleMethod_m1517028101 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.AndroidJNI::CallStaticFloatMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  float AndroidJNI_CallStaticFloatMethod_m1028835415 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int64 UnityEngine.AndroidJNI::CallStaticLongMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int64_t AndroidJNI_CallStaticLongMethod_m4241166332 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int16 UnityEngine.AndroidJNI::CallStaticShortMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int16_t AndroidJNI_CallStaticShortMethod_m3785564051 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Byte UnityEngine.AndroidJNI::CallStaticByteMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  uint8_t AndroidJNI_CallStaticByteMethod_m2566359189 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.AndroidJNI::CallStaticBooleanMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  bool AndroidJNI_CallStaticBooleanMethod_m1186985673 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.AndroidJNI::CallStaticIntMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int32_t AndroidJNI_CallStaticIntMethod_m1992515728 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::CallObjectMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  intptr_t AndroidJNI_CallObjectMethod_m1663510685 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Char UnityEngine.AndroidJNI::CallCharMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  Il2CppChar AndroidJNI_CallCharMethod_m2997962145 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Double UnityEngine.AndroidJNI::CallDoubleMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  double AndroidJNI_CallDoubleMethod_m3941989741 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.AndroidJNI::CallFloatMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  float AndroidJNI_CallFloatMethod_m2845733963 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int64 UnityEngine.AndroidJNI::CallLongMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int64_t AndroidJNI_CallLongMethod_m2831046166 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int16 UnityEngine.AndroidJNI::CallShortMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int16_t AndroidJNI_CallShortMethod_m1466041431 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Byte UnityEngine.AndroidJNI::CallByteMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  uint8_t AndroidJNI_CallByteMethod_m1552664141 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.AndroidJNI::CallBooleanMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  bool AndroidJNI_CallBooleanMethod_m466615625 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.AndroidJNI::CallIntMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int32_t AndroidJNI_CallIntMethod_m3811935778 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Char[] UnityEngine.AndroidJNI::FromCharArray(System.IntPtr)
+extern "C"  CharU5BU5D_t1328083999* AndroidJNI_FromCharArray_m2321500395 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Double[] UnityEngine.AndroidJNI::FromDoubleArray(System.IntPtr)
+extern "C"  DoubleU5BU5D_t1889952540* AndroidJNI_FromDoubleArray_m2146626199 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Single[] UnityEngine.AndroidJNI::FromFloatArray(System.IntPtr)
+extern "C"  SingleU5BU5D_t577127397* AndroidJNI_FromFloatArray_m2229045909 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int64[] UnityEngine.AndroidJNI::FromLongArray(System.IntPtr)
+extern "C"  Int64U5BU5D_t717125112* AndroidJNI_FromLongArray_m2895187476 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int16[] UnityEngine.AndroidJNI::FromShortArray(System.IntPtr)
+extern "C"  Int16U5BU5D_t3104283263* AndroidJNI_FromShortArray_m1687805337 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Byte[] UnityEngine.AndroidJNI::FromByteArray(System.IntPtr)
+extern "C"  ByteU5BU5D_t3397334013* AndroidJNI_FromByteArray_m3347999875 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Boolean[] UnityEngine.AndroidJNI::FromBooleanArray(System.IntPtr)
+extern "C"  BooleanU5BU5D_t3568034315* AndroidJNI_FromBooleanArray_m3557280903 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32[] UnityEngine.AndroidJNI::FromIntArray(System.IntPtr)
+extern "C"  Int32U5BU5D_t3030399641* AndroidJNI_FromIntArray_m1124849508 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::ToObjectArray(System.IntPtr[],System.IntPtr)
+extern "C"  intptr_t AndroidJNI_ToObjectArray_m1798746026 (RuntimeObject * __this /* static, unused */, IntPtrU5BU5D_t169632028* ___array0, intptr_t ___arrayClass1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::ToCharArray(System.Char[])
+extern "C"  intptr_t AndroidJNI_ToCharArray_m1271039290 (RuntimeObject * __this /* static, unused */, CharU5BU5D_t1328083999* ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::ToDoubleArray(System.Double[])
+extern "C"  intptr_t AndroidJNI_ToDoubleArray_m808183080 (RuntimeObject * __this /* static, unused */, DoubleU5BU5D_t1889952540* ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::ToFloatArray(System.Single[])
+extern "C"  intptr_t AndroidJNI_ToFloatArray_m2619761402 (RuntimeObject * __this /* static, unused */, SingleU5BU5D_t577127397* ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::ToLongArray(System.Int64[])
+extern "C"  intptr_t AndroidJNI_ToLongArray_m3699382049 (RuntimeObject * __this /* static, unused */, Int64U5BU5D_t717125112* ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::ToShortArray(System.Int16[])
+extern "C"  intptr_t AndroidJNI_ToShortArray_m1930515046 (RuntimeObject * __this /* static, unused */, Int16U5BU5D_t3104283263* ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::ToByteArray(System.Byte[])
+extern "C"  intptr_t AndroidJNI_ToByteArray_m3237688210 (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::ToBooleanArray(System.Boolean[])
+extern "C"  intptr_t AndroidJNI_ToBooleanArray_m750419762 (RuntimeObject * __this /* static, unused */, BooleanU5BU5D_t3568034315* ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::ToIntArray(System.Int32[])
+extern "C"  intptr_t AndroidJNI_ToIntArray_m4152736571 (RuntimeObject * __this /* static, unused */, Int32U5BU5D_t3030399641* ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.AndroidJNI::GetArrayLength(System.IntPtr)
+extern "C"  int32_t AndroidJNI_GetArrayLength_m835991335 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Type::get_IsPrimitive()
+extern "C"  bool Type_get_IsPrimitive_m1522841565 (Type_t * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNISafe::CallStaticObjectMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  intptr_t AndroidJNISafe_CallStaticObjectMethod_m4041205290 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidReflection::GetStaticMethodID(System.String,System.String,System.String)
+extern "C"  intptr_t AndroidReflection_GetStaticMethodID_m2280460481 (RuntimeObject * __this /* static, unused */, String_t* ___clazz0, String_t* ___methodName1, String_t* ___signature2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AnimationCurve::Init(UnityEngine.Keyframe[])
 extern "C"  void AnimationCurve_Init_m15843578 (AnimationCurve_t3306541151 * __this, KeyframeU5BU5D_t449065829* ___keys0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AnimationCurve::Cleanup()
 extern "C"  void AnimationCurve_Cleanup_m3596170191 (AnimationCurve_t3306541151 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void System.Object::Finalize()
-extern "C"  void Object_Finalize_m4087144328 (RuntimeObject * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Application/LowMemoryCallback::Invoke()
 extern "C"  void LowMemoryCallback_Invoke_m1692335191 (LowMemoryCallback_t642977590 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
+extern "C"  int32_t Application_get_platform_m1727035749 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Application/LogCallback::Invoke(System.String,System.String,UnityEngine.LogType)
 extern "C"  void LogCallback_Invoke_m115567905 (LogCallback_t1867914413 * __this, String_t* ___condition0, String_t* ___stackTrace1, int32_t ___type2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityAction::Invoke()
 extern "C"  void UnityAction_Invoke_m2683711928 (UnityAction_t4025899511 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::.ctor()
 extern "C"  void Object__ctor_m2329730595 (Object_t1021602117 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.AssetBundle UnityEngine.AssetBundle::LoadFromMemory(System.Byte[],System.UInt32)
+extern "C"  AssetBundle_t2054978754 * AssetBundle_LoadFromMemory_m2634658222 (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___binary0, uint32_t ___crc1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NullReferenceException::.ctor(System.String)
 extern "C"  void NullReferenceException__ctor_m2372754786 (NullReferenceException_t3156209119 * __this, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.String::get_Length()
@@ -9376,6 +9481,12 @@ extern "C"  int32_t String_get_Length_m1606060069 (String_t* __this, const Runti
 extern "C"  void ArgumentException__ctor_m3739475201 (ArgumentException_t3259014390 * __this, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.AssetBundle::LoadAsset_Internal(System.String,System.Type)
 extern "C"  Object_t1021602117 * AssetBundle_LoadAsset_Internal_m1150726960 (AssetBundle_t2054978754 * __this, String_t* ___name0, Type_t * ___type1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.AssetBundleRequest UnityEngine.AssetBundle::LoadAssetAsync_Internal(System.String,System.Type)
+extern "C"  AssetBundleRequest_t2674559435 * AssetBundle_LoadAssetAsync_Internal_m1373172298 (AssetBundle_t2054978754 * __this, String_t* ___name0, Type_t * ___type1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AssetBundleManifest::INTERNAL_CALL_GetAssetBundleHash(UnityEngine.AssetBundleManifest,System.String,UnityEngine.Hash128&)
+extern "C"  void AssetBundleManifest_INTERNAL_CALL_GetAssetBundleHash_m3147989694 (RuntimeObject * __this /* static, unused */, AssetBundleManifest_t1328741589 * ___self0, String_t* ___assetBundleName1, Hash128_t2836532937 * ___value2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AsyncOperation::.ctor()
+extern "C"  void AsyncOperation__ctor_m1674276057 (AsyncOperation_t3814632279 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.YieldInstruction::.ctor()
 extern "C"  void YieldInstruction__ctor_m3378690795 (YieldInstruction_t3462875981 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AsyncOperation::InternalDestroy()
@@ -9386,8 +9497,6 @@ extern "C"  void AsyncOperation_InternalDestroy_m2067452588 (AsyncOperation_t381
 #define Stack_1__ctor_m2661711100(__this, method) ((  void (*) (Stack_1_t2391531380 *, const RuntimeMethod*))Stack_1__ctor_m1041657164_gshared)(__this, method)
 // System.Void System.Collections.Generic.Stack`1<System.Type>::Push(!0)
 #define Stack_1_Push_m1012508887(__this, p0, method) ((  void (*) (Stack_1_t2391531380 *, Type_t *, const RuntimeMethod*))Stack_1_Push_m1129365869_gshared)(__this, p0, method)
-// System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
-extern "C"  Type_t * Type_GetTypeFromHandle_m432505302 (RuntimeObject * __this /* static, unused */, RuntimeTypeHandle_t2330101084  p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // !0 System.Collections.Generic.Stack`1<System.Type>::Pop()
 #define Stack_1_Pop_m2241161733(__this, method) ((  Type_t * (*) (Stack_1_t2391531380 *, const RuntimeMethod*))Stack_1_Pop_m1289567471_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Stack`1<System.Type>::get_Count()
@@ -9452,6 +9561,12 @@ extern "C"  void Bounds_Encapsulate_m17114941 (Bounds_t3033363703 * __this, Vect
 extern "C"  String_t* UnityString_Format_m328130606 (RuntimeObject * __this /* static, unused */, String_t* ___fmt0, ObjectU5BU5D_t3614634134* ___args1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Bounds::ToString()
 extern "C"  String_t* Bounds_ToString_m3830023780 (Bounds_t3033363703 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.CachedAssetBundle::.ctor(System.String,UnityEngine.Hash128)
+extern "C"  void CachedAssetBundle__ctor_m4061134084 (CachedAssetBundle_t238312526 * __this, String_t* ___name0, Hash128_t2836532937  ___hash1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.CachedAssetBundle::get_name()
+extern "C"  String_t* CachedAssetBundle_get_name_m4138969697 (CachedAssetBundle_t238312526 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Hash128 UnityEngine.CachedAssetBundle::get_hash()
+extern "C"  Hash128_t2836532937  CachedAssetBundle_get_hash_m967066666 (CachedAssetBundle_t238312526 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Behaviour::.ctor()
 extern "C"  void Behaviour__ctor_m2516815271 (Behaviour_t955675639 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Camera::INTERNAL_get_pixelRect(UnityEngine.Rect&)
@@ -9524,8 +9639,6 @@ extern "C"  CSSMeasureFunc_t2092170507 * Native_CSSNodeGetMeasureFunc_m450644415
 extern "C"  void* IntPtr_op_Explicit_m1073656736 (RuntimeObject * __this /* static, unused */, intptr_t p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,System.WeakReference>::.ctor()
 #define Dictionary_2__ctor_m3214437666(__this, method) ((  void (*) (Dictionary_2_t1519430885 *, const RuntimeMethod*))Dictionary_2__ctor_m2049292515_gshared)(__this, method)
-// System.Boolean System.IntPtr::op_Inequality(System.IntPtr,System.IntPtr)
-extern "C"  bool IntPtr_op_Inequality_m3044532593 (RuntimeObject * __this /* static, unused */, intptr_t p0, intptr_t p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.CullingGroup::FinalizerFailure()
 extern "C"  void CullingGroup_FinalizerFailure_m1880715019 (CullingGroup_t1091689465 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void* System.IntPtr::ToPointer()
@@ -9578,8 +9691,6 @@ extern "C"  int32_t Math_Min_m4290821911 (RuntimeObject * __this /* static, unus
 extern "C"  String_t* String_Substring_m12482732 (String_t* __this, int32_t p0, int32_t p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.String::EndsWith(System.String)
 extern "C"  bool String_EndsWith_m568509976 (String_t* __this, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.String System.String::Concat(System.String,System.String)
-extern "C"  String_t* String_Concat_m2596409543 (RuntimeObject * __this /* static, unused */, String_t* p0, String_t* p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.ArgumentCache::TidyAssemblyTypeName()
 extern "C"  void ArgumentCache_TidyAssemblyTypeName_m3324217557 (ArgumentCache_t4810721 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentNullException::.ctor(System.String)
@@ -9658,8 +9769,6 @@ extern "C"  Type_t * Type_GetType_m402049910 (RuntimeObject * __this /* static, 
 extern "C"  ConstructorInfo_t2851816542 * Type_GetConstructor_m132234455 (Type_t * __this, TypeU5BU5D_t1664964607* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.Events.ArgumentCache::get_unityObjectArgument()
 extern "C"  Object_t1021602117 * ArgumentCache_get_unityObjectArgument_m3023337009 (ArgumentCache_t4810721 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Type System.Object::GetType()
-extern "C"  Type_t * Object_GetType_m191970594 (RuntimeObject * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.ConstructorInfo::Invoke(System.Object[])
 extern "C"  RuntimeObject * ConstructorInfo_Invoke_m2144827141 (ConstructorInfo_t2851816542 * __this, ObjectU5BU5D_t3614634134* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::.ctor()
@@ -9718,12 +9827,8 @@ extern "C"  void UnityEventBase_RebuildPersistentCallsIfNeeded_m2776978024 (Unit
 extern "C"  List_1_t1598685972 * InvokableCallList_PrepareInvoke_m1297379066 (InvokableCallList_t2295673753 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.String System.Object::ToString()
 extern "C"  String_t* Object_ToString_m853381981 (RuntimeObject * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.String System.String::Concat(System.String,System.String,System.String)
-extern "C"  String_t* String_Concat_m612901809 (RuntimeObject * __this /* static, unused */, String_t* p0, String_t* p1, String_t* p2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Type::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[])
 extern "C"  MethodInfo_t * Type_GetMethod_m1930231379 (Type_t * __this, String_t* p0, int32_t p1, Binder_t3404612058 * p2, TypeU5BU5D_t1664964607* p3, ParameterModifierU5BU5D_t963192633* p4, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean System.Type::get_IsPrimitive()
-extern "C"  bool Type_get_IsPrimitive_m1522841565 (Type_t * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Experimental.Rendering.RenderPipelineManager::set_currentPipeline(UnityEngine.Experimental.Rendering.IRenderPipeline)
 extern "C"  void RenderPipelineManager_set_currentPipeline_m829057085 (RuntimeObject * __this /* static, unused */, RuntimeObject* ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Experimental.Rendering.RenderPipelineManager::PrepareRenderPipeline(UnityEngine.Experimental.Rendering.IRenderPipelineAsset)
@@ -9744,12 +9849,30 @@ extern "C"  void GameObject_SendMessage_m3423113156 (GameObject_t1756533147 * __
 extern "C"  Component_t3819376471 * GameObject_Internal_AddComponentWithType_m3949110293 (GameObject_t1756533147 * __this, Type_t * ___componentType0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Gizmos::INTERNAL_CALL_DrawSphere(UnityEngine.Vector3&,System.Single)
 extern "C"  void Gizmos_INTERNAL_CALL_DrawSphere_m570222473 (RuntimeObject * __this /* static, unused */, Vector3_t2243707580 * ___center0, float ___radius1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.AndroidJNI::NewGlobalRef(System.IntPtr)
+extern "C"  intptr_t AndroidJNI_NewGlobalRef_m3830225541 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AndroidJNISafe::DeleteGlobalRef(System.IntPtr)
+extern "C"  void AndroidJNISafe_DeleteGlobalRef_m861434196 (RuntimeObject * __this /* static, unused */, intptr_t ___globalref0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Gradient::Init()
 extern "C"  void Gradient_Init_m3042650694 (Gradient_t3600583008 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Gradient::Cleanup()
 extern "C"  void Gradient_Cleanup_m594482338 (Gradient_t3600583008 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GUIElement UnityEngine.GUILayer::INTERNAL_CALL_HitTest(UnityEngine.GUILayer,UnityEngine.Vector3&)
 extern "C"  GUIElement_t3381083099 * GUILayer_INTERNAL_CALL_HitTest_m381183969 (RuntimeObject * __this /* static, unused */, GUILayer_t3254902478 * ___self0, Vector3_t2243707580 * ___screenPosition1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.Hash128::Internal_Hash128ToString(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+extern "C"  String_t* Hash128_Internal_Hash128ToString_m2129946321 (RuntimeObject * __this /* static, unused */, uint32_t ___d00, uint32_t ___d11, uint32_t ___d22, uint32_t ___d33, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.Hash128::ToString()
+extern "C"  String_t* Hash128_ToString_m3414764504 (Hash128_t2836532937 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Hash128::op_Equality(UnityEngine.Hash128,UnityEngine.Hash128)
+extern "C"  bool Hash128_op_Equality_m1573775191 (RuntimeObject * __this /* static, unused */, Hash128_t2836532937  ___hash10, Hash128_t2836532937  ___hash21, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Hash128::Equals(System.Object)
+extern "C"  bool Hash128_Equals_m2089078800 (Hash128_t2836532937 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.UInt32::GetHashCode()
+extern "C"  int32_t UInt32_GetHashCode_m2903162199 (uint32_t* __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Hash128::GetHashCode()
+extern "C"  int32_t Hash128_GetHashCode_m2352269416 (Hash128_t2836532937 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Input::GetKeyInt(System.Int32)
+extern "C"  bool Input_GetKeyInt_m2379744823 (RuntimeObject * __this /* static, unused */, int32_t ___key0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Input::INTERNAL_get_mousePosition(UnityEngine.Vector3&)
 extern "C"  void Input_INTERNAL_get_mousePosition_m655888428 (RuntimeObject * __this /* static, unused */, Vector3_t2243707580 * ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Input::INTERNAL_get_mouseScrollDelta(UnityEngine.Vector2&)
@@ -9796,195 +9919,1701 @@ extern "C"  String_t* Logger_GetString_m307929328 (RuntimeObject * __this /* sta
 extern "C"  void ArgumentNullException__ctor_m2624491786 (ArgumentNullException_t628810857 * __this, String_t* p0, String_t* p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentException::.ctor(System.String,System.String)
 extern "C"  void ArgumentException__ctor_m544251339 (ArgumentException_t3259014390 * __this, String_t* p0, String_t* p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean System.IntPtr::op_Equality(System.IntPtr,System.IntPtr)
-extern "C"  bool IntPtr_op_Equality_m1573482188 (RuntimeObject * __this /* static, unused */, intptr_t p0, intptr_t p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.ManagedStreamHelpers::ValidateLoadFromStream(System.IO.Stream)
 extern "C"  void ManagedStreamHelpers_ValidateLoadFromStream_m733853519 (RuntimeObject * __this /* static, unused */, Stream_t3255436806 * ___stream0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Material::Internal_CreateWithMaterial(UnityEngine.Material,UnityEngine.Material)
-extern "C"  void Material_Internal_CreateWithMaterial_m1941547384 (RuntimeObject * __this /* static, unused */, Material_t193706927 * ___mono0, Material_t193706927 * ___source1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Texture UnityEngine.Material::GetTexture(System.String)
-extern "C"  Texture_t2243626319 * Material_GetTexture_m1388306261 (Material_t193706927 * __this, String_t* ___name0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.Shader::PropertyToID(System.String)
-extern "C"  int32_t Shader_PropertyToID_m423848592 (RuntimeObject * __this /* static, unused */, String_t* ___name0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Material::HasProperty(System.Int32)
-extern "C"  bool Material_HasProperty_m2476290177 (Material_t193706927 * __this, int32_t ___nameID0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Material::SetInt(System.Int32,System.Int32)
-extern "C"  void Material_SetInt_m3647453080 (Material_t193706927 * __this, int32_t ___nameID0, int32_t ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Material::SetIntImpl(System.Int32,System.Int32)
-extern "C"  void Material_SetIntImpl_m1039479734 (Material_t193706927 * __this, int32_t ___nameID0, int32_t ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Texture UnityEngine.Material::GetTexture(System.Int32)
-extern "C"  Texture_t2243626319 * Material_GetTexture_m3684110876 (Material_t193706927 * __this, int32_t ___nameID0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Texture UnityEngine.Material::GetTextureImpl(System.Int32)
-extern "C"  Texture_t2243626319 * Material_GetTextureImpl_m2799453342 (Material_t193706927 * __this, int32_t ___nameID0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Double System.Math::Log(System.Double,System.Double)
-extern "C"  double Math_Log_m3325929366 (RuntimeObject * __this /* static, unused */, double p0, double p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Single UnityEngine.Mathf::Max(System.Single,System.Single)
-extern "C"  float Mathf_Max_m2043094730 (RuntimeObject * __this /* static, unused */, float ___a0, float ___b1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Single UnityEngine.Mathf::Clamp(System.Single,System.Single,System.Single)
-extern "C"  float Mathf_Clamp_m1779415170 (RuntimeObject * __this /* static, unused */, float ___value0, float ___min1, float ___max2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Matrix4x4::.ctor(UnityEngine.Vector4,UnityEngine.Vector4,UnityEngine.Vector4,UnityEngine.Vector4)
-extern "C"  void Matrix4x4__ctor_m828876617 (Matrix4x4_t2933234003 * __this, Vector4_t2243707581  ___column00, Vector4_t2243707581  ___column11, Vector4_t2243707581  ___column22, Vector4_t2243707581  ___column33, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Vector4 UnityEngine.Matrix4x4::GetColumn(System.Int32)
-extern "C"  Vector4_t2243707581  Matrix4x4_GetColumn_m83396621 (Matrix4x4_t2933234003 * __this, int32_t ___index0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.Matrix4x4::GetHashCode()
-extern "C"  int32_t Matrix4x4_GetHashCode_m375571566 (Matrix4x4_t2933234003 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Vector4::Equals(System.Object)
-extern "C"  bool Vector4_Equals_m2166390052 (Vector4_t2243707581 * __this, RuntimeObject * ___other0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Matrix4x4::Equals(System.Object)
-extern "C"  bool Matrix4x4_Equals_m1140366474 (Matrix4x4_t2933234003 * __this, RuntimeObject * ___other0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void System.IndexOutOfRangeException::.ctor(System.String)
-extern "C"  void IndexOutOfRangeException__ctor_m1847153122 (IndexOutOfRangeException_t3527622107 * __this, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Vector3 UnityEngine.Matrix4x4::MultiplyPoint3x4(UnityEngine.Vector3)
-extern "C"  Vector3_t2243707580  Matrix4x4_MultiplyPoint3x4_m1436516889 (Matrix4x4_t2933234003 * __this, Vector3_t2243707580  ___point0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.String UnityEngine.Matrix4x4::ToString()
-extern "C"  String_t* Matrix4x4_ToString_m3886768326 (Matrix4x4_t2933234003 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Mesh::Internal_Create(UnityEngine.Mesh)
-extern "C"  void Mesh_Internal_Create_m384282753 (RuntimeObject * __this /* static, unused */, Mesh_t1356156583 * ___mono0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Mesh::SetTriangles(System.Collections.Generic.List`1<System.Int32>,System.Int32,System.Boolean)
-extern "C"  void Mesh_SetTriangles_m1551606807 (Mesh_t1356156583 * __this, List_1_t1440998580 * ___triangles0, int32_t ___submesh1, bool ___calculateBounds2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Mesh::CheckCanAccessSubmeshTriangles(System.Int32)
-extern "C"  bool Mesh_CheckCanAccessSubmeshTriangles_m2644388378 (Mesh_t1356156583 * __this, int32_t ___submesh0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Array UnityEngine.Mesh::ExtractArrayFromList(System.Object)
-extern "C"  RuntimeArray * Mesh_ExtractArrayFromList_m4170180394 (RuntimeObject * __this /* static, unused */, RuntimeObject * ___list0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.Mesh::SafeLength<System.Int32>(System.Collections.Generic.List`1<T>)
-#define Mesh_SafeLength_TisInt32_t2071877448_m3760170319(__this, ___values0, method) ((  int32_t (*) (Mesh_t1356156583 *, List_1_t1440998580 *, const RuntimeMethod*))Mesh_SafeLength_TisInt32_t2071877448_m3760170319_gshared)(__this, ___values0, method)
-// System.Void UnityEngine.Mesh::SetTrianglesImpl(System.Int32,System.Array,System.Int32,System.Boolean)
-extern "C"  void Mesh_SetTrianglesImpl_m2883494607 (Mesh_t1356156583 * __this, int32_t ___submesh0, RuntimeArray * ___triangles1, int32_t ___arraySize2, bool ___calculateBounds3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Mesh::get_canAccess()
-extern "C"  bool Mesh_get_canAccess_m1504015296 (Mesh_t1356156583 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Mesh::SetArrayForChannelImpl(UnityEngine.Mesh/InternalShaderChannel,UnityEngine.Mesh/InternalVertexChannelType,System.Int32,System.Array,System.Int32)
-extern "C"  void Mesh_SetArrayForChannelImpl_m2218570145 (Mesh_t1356156583 * __this, int32_t ___channel0, int32_t ___format1, int32_t ___dim2, RuntimeArray * ___values3, int32_t ___arraySize4, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Mesh::PrintErrorCantAccessChannel(UnityEngine.Mesh/InternalShaderChannel)
-extern "C"  void Mesh_PrintErrorCantAccessChannel_m3734809945 (Mesh_t1356156583 * __this, int32_t ___ch0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// T[] UnityEngine.Mesh::GetAllocArrayFromChannel<UnityEngine.Vector3>(UnityEngine.Mesh/InternalShaderChannel)
-#define Mesh_GetAllocArrayFromChannel_TisVector3_t2243707580_m3989967866(__this, ___channel0, method) ((  Vector3U5BU5D_t1172311765* (*) (Mesh_t1356156583 *, int32_t, const RuntimeMethod*))Mesh_GetAllocArrayFromChannel_TisVector3_t2243707580_m3989967866_gshared)(__this, ___channel0, method)
-// T[] UnityEngine.Mesh::GetAllocArrayFromChannel<UnityEngine.Vector4>(UnityEngine.Mesh/InternalShaderChannel)
-#define Mesh_GetAllocArrayFromChannel_TisVector4_t2243707581_m1048536121(__this, ___channel0, method) ((  Vector4U5BU5D_t1658499504* (*) (Mesh_t1356156583 *, int32_t, const RuntimeMethod*))Mesh_GetAllocArrayFromChannel_TisVector4_t2243707581_m1048536121_gshared)(__this, ___channel0, method)
-// T[] UnityEngine.Mesh::GetAllocArrayFromChannel<UnityEngine.Vector2>(UnityEngine.Mesh/InternalShaderChannel)
-#define Mesh_GetAllocArrayFromChannel_TisVector2_t2243707579_m2289935163(__this, ___channel0, method) ((  Vector2U5BU5D_t686124026* (*) (Mesh_t1356156583 *, int32_t, const RuntimeMethod*))Mesh_GetAllocArrayFromChannel_TisVector2_t2243707579_m2289935163_gshared)(__this, ___channel0, method)
-// T[] UnityEngine.Mesh::GetAllocArrayFromChannel<UnityEngine.Color32>(UnityEngine.Mesh/InternalShaderChannel,UnityEngine.Mesh/InternalVertexChannelType,System.Int32)
-#define Mesh_GetAllocArrayFromChannel_TisColor32_t874517518_m859642474(__this, ___channel0, ___format1, ___dim2, method) ((  Color32U5BU5D_t30278651* (*) (Mesh_t1356156583 *, int32_t, int32_t, int32_t, const RuntimeMethod*))Mesh_GetAllocArrayFromChannel_TisColor32_t874517518_m859642474_gshared)(__this, ___channel0, ___format1, ___dim2, method)
-// System.Void UnityEngine.Mesh::SetListForChannel<UnityEngine.Vector3>(UnityEngine.Mesh/InternalShaderChannel,System.Collections.Generic.List`1<T>)
-#define Mesh_SetListForChannel_TisVector3_t2243707580_m2854368686(__this, ___channel0, ___values1, method) ((  void (*) (Mesh_t1356156583 *, int32_t, List_1_t1612828712 *, const RuntimeMethod*))Mesh_SetListForChannel_TisVector3_t2243707580_m2854368686_gshared)(__this, ___channel0, ___values1, method)
-// System.Void UnityEngine.Mesh::SetListForChannel<UnityEngine.Vector4>(UnityEngine.Mesh/InternalShaderChannel,System.Collections.Generic.List`1<T>)
-#define Mesh_SetListForChannel_TisVector4_t2243707581_m1760927057(__this, ___channel0, ___values1, method) ((  void (*) (Mesh_t1356156583 *, int32_t, List_1_t1612828713 *, const RuntimeMethod*))Mesh_SetListForChannel_TisVector4_t2243707581_m1760927057_gshared)(__this, ___channel0, ___values1, method)
-// System.Void UnityEngine.Mesh::SetListForChannel<UnityEngine.Color32>(UnityEngine.Mesh/InternalShaderChannel,UnityEngine.Mesh/InternalVertexChannelType,System.Int32,System.Collections.Generic.List`1<T>)
-#define Mesh_SetListForChannel_TisColor32_t874517518_m4104974134(__this, ___channel0, ___format1, ___dim2, ___values3, method) ((  void (*) (Mesh_t1356156583 *, int32_t, int32_t, int32_t, List_1_t243638650 *, const RuntimeMethod*))Mesh_SetListForChannel_TisColor32_t874517518_m4104974134_gshared)(__this, ___channel0, ___format1, ___dim2, ___values3, method)
-// System.Void UnityEngine.Mesh::SetUvsImpl<UnityEngine.Vector2>(System.Int32,System.Int32,System.Collections.Generic.List`1<T>)
-#define Mesh_SetUvsImpl_TisVector2_t2243707579_m2513165067(__this, ___uvIndex0, ___dim1, ___uvs2, method) ((  void (*) (Mesh_t1356156583 *, int32_t, int32_t, List_1_t1612828711 *, const RuntimeMethod*))Mesh_SetUvsImpl_TisVector2_t2243707579_m2513165067_gshared)(__this, ___uvIndex0, ___dim1, ___uvs2, method)
-// System.String UnityEngine.Object::get_name()
-extern "C"  String_t* Object_get_name_m3369637820 (Object_t1021602117 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.String System.String::Format(System.String,System.Object)
-extern "C"  String_t* String_Format_m2024975688 (RuntimeObject * __this /* static, unused */, String_t* p0, RuntimeObject * p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Debug::LogError(System.Object)
-extern "C"  void Debug_LogError_m3299155069 (RuntimeObject * __this /* static, unused */, RuntimeObject * ___message0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Mesh::PrintErrorCantAccessIndices()
-extern "C"  void Mesh_PrintErrorCantAccessIndices_m2990602703 (Mesh_t1356156583 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Int32 UnityEngine.Mesh::get_subMeshCount()
-extern "C"  int32_t Mesh_get_subMeshCount_m749828112 (Mesh_t1356156583 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Debug::LogError(System.Object,UnityEngine.Object)
-extern "C"  void Debug_LogError_m3475999287 (RuntimeObject * __this /* static, unused */, RuntimeObject * ___message0, Object_t1021602117 * ___context1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Mesh::CheckCanAccessSubmesh(System.Int32,System.Boolean)
-extern "C"  bool Mesh_CheckCanAccessSubmesh_m764012688 (Mesh_t1356156583 * __this, int32_t ___submesh0, bool ___errorAboutTriangles1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Mesh::CheckCanAccessSubmeshIndices(System.Int32)
-extern "C"  bool Mesh_CheckCanAccessSubmeshIndices_m3233528950 (Mesh_t1356156583 * __this, int32_t ___submesh0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Int32[] UnityEngine.Mesh::GetIndicesImpl(System.Int32)
-extern "C"  Int32U5BU5D_t3030399641* Mesh_GetIndicesImpl_m50468169 (Mesh_t1356156583 * __this, int32_t ___submesh0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Mesh::ClearImpl(System.Boolean)
-extern "C"  void Mesh_ClearImpl_m2894829935 (Mesh_t1356156583 * __this, bool ___keepVertexLayout0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Mesh::RecalculateBoundsImpl()
-extern "C"  void Mesh_RecalculateBoundsImpl_m1389393903 (Mesh_t1356156583 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine_Auto_Internal(System.Collections.IEnumerator)
-extern "C"  Coroutine_t2299508840 * MonoBehaviour_StartCoroutine_Auto_Internal_m2769844689 (MonoBehaviour_t1158329972 * __this, RuntimeObject* ___routine0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.String,System.Object)
-extern "C"  Coroutine_t2299508840 * MonoBehaviour_StartCoroutine_m2916390782 (MonoBehaviour_t1158329972 * __this, String_t* ___methodName0, RuntimeObject * ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.MonoBehaviour::StopCoroutineViaEnumerator_Auto(System.Collections.IEnumerator)
-extern "C"  void MonoBehaviour_StopCoroutineViaEnumerator_Auto_m2222980381 (MonoBehaviour_t1158329972 * __this, RuntimeObject* ___routine0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.MonoBehaviour::StopCoroutine_Auto(UnityEngine.Coroutine)
-extern "C"  void MonoBehaviour_StopCoroutine_Auto_m2947240387 (MonoBehaviour_t1158329972 * __this, Coroutine_t2299508840 * ___routine0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.NativeClassAttribute::set_QualifiedNativeName(System.String)
-extern "C"  void NativeClassAttribute_set_QualifiedNativeName_m4139686864 (NativeClassAttribute_t1576243993 * __this, String_t* ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents::.ctor()
-extern "C"  void PlayerEditorConnectionEvents__ctor_m2141000590 (PlayerEditorConnectionEvents_t2252784345 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void System.Collections.Generic.List`1<System.Int32>::.ctor()
-#define List_1__ctor_m1063228628(__this, method) ((  void (*) (List_1_t1440998580 *, const RuntimeMethod*))List_1__ctor_m1063228628_gshared)(__this, method)
-// System.Void UnityEngine.ScriptableObject::.ctor()
-extern "C"  void ScriptableObject__ctor_m3324490614 (ScriptableObject_t1975622470 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
-extern "C"  bool Object_op_Equality_m2516226135 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___x0, Object_t1021602117 * ___y1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Networking.PlayerConnection.PlayerConnection UnityEngine.Networking.PlayerConnection.PlayerConnection::CreateInstance()
-extern "C"  PlayerConnection_t3517219175 * PlayerConnection_CreateInstance_m2419948763 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// T UnityEngine.ScriptableObject::CreateInstance<UnityEngine.Networking.PlayerConnection.PlayerConnection>()
-#define ScriptableObject_CreateInstance_TisPlayerConnection_t3517219175_m3058273855(__this /* static, unused */, method) ((  PlayerConnection_t3517219175 * (*) (RuntimeObject * /* static, unused */, const RuntimeMethod*))ScriptableObject_CreateInstance_TisRuntimeObject_m3534259992_gshared)(__this /* static, unused */, method)
-// System.Void UnityEngine.Object::set_hideFlags(UnityEngine.HideFlags)
-extern "C"  void Object_set_hideFlags_m3275307757 (Object_t1021602117 * __this, int32_t ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void System.Runtime.InteropServices.Marshal::Copy(System.IntPtr,System.Byte[],System.Int32,System.Int32)
-extern "C"  void Marshal_Copy_m1683535972 (RuntimeObject * __this /* static, unused */, intptr_t p0, ByteU5BU5D_t3397334013* p1, int32_t p2, int32_t p3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Networking.PlayerConnection.PlayerConnection UnityEngine.Networking.PlayerConnection.PlayerConnection::get_instance()
-extern "C"  PlayerConnection_t3517219175 * PlayerConnection_get_instance_m1722843600 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void System.Guid::.ctor(System.String)
-extern "C"  void Guid__ctor_m2599802704 (Guid_t * __this, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents::InvokeMessageIdSubscribers(System.Guid,System.Byte[],System.Int32)
-extern "C"  void PlayerEditorConnectionEvents_InvokeMessageIdSubscribers_m795891627 (PlayerEditorConnectionEvents_t2252784345 * __this, Guid_t  ___messageId0, ByteU5BU5D_t3397334013* ___data1, int32_t ___playerId2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void System.Collections.Generic.List`1<System.Int32>::Add(!0)
-#define List_1_Add_m2241268440(__this, p0, method) ((  void (*) (List_1_t1440998580 *, int32_t, const RuntimeMethod*))List_1_Add_m2241268440_gshared)(__this, p0, method)
-// System.Void UnityEngine.Events.UnityEvent`1<System.Int32>::Invoke(T0)
-#define UnityEvent_1_Invoke_m646962604(__this, p0, method) ((  void (*) (UnityEvent_1_t2110227463 *, int32_t, const RuntimeMethod*))UnityEvent_1_Invoke_m646962604_gshared)(__this, p0, method)
-// System.Void System.Collections.Generic.List`1<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers>::.ctor()
-#define List_1__ctor_m702728033(__this, method) ((  void (*) (List_1_t1660627182 *, const RuntimeMethod*))List_1__ctor_m310736118_gshared)(__this, method)
-// System.Void UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/ConnectionChangeEvent::.ctor()
-extern "C"  void ConnectionChangeEvent__ctor_m894860065 (ConnectionChangeEvent_t536719976 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/<InvokeMessageIdSubscribers>c__AnonStorey0::.ctor()
-extern "C"  void U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0__ctor_m1217791407 (U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t1899782350 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void System.Func`2<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers,System.Boolean>::.ctor(System.Object,System.IntPtr)
-#define Func_2__ctor_m3896822881(__this, p0, p1, method) ((  void (*) (Func_2_t2919696197 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_2__ctor_m1354888807_gshared)(__this, p0, p1, method)
-// System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::Where<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,System.Boolean>)
-#define Enumerable_Where_TisMessageTypeSubscribers_t2291506050_m419319254(__this /* static, unused */, p0, p1, method) ((  RuntimeObject* (*) (RuntimeObject * /* static, unused */, RuntimeObject*, Func_2_t2919696197 *, const RuntimeMethod*))Enumerable_Where_TisRuntimeObject_m1140705402_gshared)(__this /* static, unused */, p0, p1, method)
-// System.Boolean System.Linq.Enumerable::Any<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers>(System.Collections.Generic.IEnumerable`1<!!0>)
-#define Enumerable_Any_TisMessageTypeSubscribers_t2291506050_m3786800125(__this /* static, unused */, p0, method) ((  bool (*) (RuntimeObject * /* static, unused */, RuntimeObject*, const RuntimeMethod*))Enumerable_Any_TisRuntimeObject_m32651785_gshared)(__this /* static, unused */, p0, method)
-// System.String System.String::Concat(System.Object,System.Object)
-extern "C"  String_t* String_Concat_m56707527 (RuntimeObject * __this /* static, unused */, RuntimeObject * p0, RuntimeObject * p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Networking.PlayerConnection.MessageEventArgs::.ctor()
-extern "C"  void MessageEventArgs__ctor_m3182429093 (MessageEventArgs_t301283622 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs>::Invoke(T0)
-#define UnityEvent_1_Invoke_m3499419435(__this, p0, method) ((  void (*) (UnityEvent_1_t339633637 *, MessageEventArgs_t301283622 *, const RuntimeMethod*))UnityEvent_1_Invoke_m1599856953_gshared)(__this, p0, method)
-// System.Guid UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers::get_MessageTypeId()
-extern "C"  Guid_t  MessageTypeSubscribers_get_MessageTypeId_m184006475 (MessageTypeSubscribers_t2291506050 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean System.Guid::op_Equality(System.Guid,System.Guid)
-extern "C"  bool Guid_op_Equality_m789465560 (RuntimeObject * __this /* static, unused */, Guid_t  p0, Guid_t  p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Events.UnityEvent`1<System.Int32>::.ctor()
-#define UnityEvent_1__ctor_m333010934(__this, method) ((  void (*) (UnityEvent_1_t2110227463 *, const RuntimeMethod*))UnityEvent_1__ctor_m333010934_gshared)(__this, method)
-// System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs>::.ctor()
-#define UnityEvent_1__ctor_m1977286999(__this, method) ((  void (*) (UnityEvent_1_t339633637 *, const RuntimeMethod*))UnityEvent_1__ctor_m1689184037_gshared)(__this, method)
-// System.Void UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageEvent::.ctor()
-extern "C"  void MessageEvent__ctor_m1822782644 (MessageEvent_t2167079021 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Object UnityEngine.Object::INTERNAL_CALL_Internal_InstantiateSingle(UnityEngine.Object,UnityEngine.Vector3&,UnityEngine.Quaternion&)
-extern "C"  Object_t1021602117 * Object_INTERNAL_CALL_Internal_InstantiateSingle_m846595043 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___data0, Vector3_t2243707580 * ___pos1, Quaternion_t4030073918 * ___rot2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Object UnityEngine.Object::INTERNAL_CALL_Internal_InstantiateSingleWithParent(UnityEngine.Object,UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Quaternion&)
-extern "C"  Object_t1021602117 * Object_INTERNAL_CALL_Internal_InstantiateSingleWithParent_m2317812654 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___data0, Transform_t3275118058 * ___parent1, Vector3_t2243707580 * ___pos2, Quaternion_t4030073918 * ___rot3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Object::Destroy(UnityEngine.Object,System.Single)
-extern "C"  void Object_Destroy_m682534386 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___obj0, float ___t1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Object::DestroyImmediate(UnityEngine.Object,System.Boolean)
-extern "C"  void Object_DestroyImmediate_m3250094537 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___obj0, bool ___allowDestroyingAssets1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Int32 System.Object::GetHashCode()
-extern "C"  int32_t Object_GetHashCode_m1715190285 (RuntimeObject * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Object::CompareBaseObjects(UnityEngine.Object,UnityEngine.Object)
-extern "C"  bool Object_CompareBaseObjects_m1461253683 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___lhs0, Object_t1021602117 * ___rhs1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Object::IsNativeObjectAlive(UnityEngine.Object)
-extern "C"  bool Object_IsNativeObjectAlive_m745219692 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___o0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.IntPtr UnityEngine.Object::GetCachedPtr()
-extern "C"  intptr_t Object_GetCachedPtr_m712668782 (Object_t1021602117 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Object UnityEngine.Object::Internal_InstantiateSingle(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-extern "C"  Object_t1021602117 * Object_Internal_InstantiateSingle_m2008353200 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___data0, Vector3_t2243707580  ___pos1, Quaternion_t4030073918  ___rot2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Object::CheckNullArgument(System.Object,System.String)
-extern "C"  void Object_CheckNullArgument_m2772064765 (RuntimeObject * __this /* static, unused */, RuntimeObject * ___arg0, String_t* ___message1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Object UnityEngine.Object::Internal_InstantiateSingleWithParent(UnityEngine.Object,UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Quaternion)
-extern "C"  Object_t1021602117 * Object_Internal_InstantiateSingleWithParent_m505589139 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___data0, Transform_t3275118058 * ___parent1, Vector3_t2243707580  ___pos2, Quaternion_t4030073918  ___rot3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.IntPtr UnityEngine._AndroidJNIHelper::CreateJavaRunnable(UnityEngine.AndroidJavaRunnable)
+extern "C"  intptr_t _AndroidJNIHelper_CreateJavaRunnable_m1167962646 (RuntimeObject * __this /* static, unused */, AndroidJavaRunnable_t3501776228 * ___jrunnable0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_AndroidJNIHelper_CreateJavaRunnable_m1167962646_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		AndroidJavaRunnable_t3501776228 * L_0 = ___jrunnable0;
+		AndroidJavaRunnableProxy_t1710049828 * L_1 = (AndroidJavaRunnableProxy_t1710049828 *)il2cpp_codegen_object_new(AndroidJavaRunnableProxy_t1710049828_il2cpp_TypeInfo_var);
+		AndroidJavaRunnableProxy__ctor_m2912946493(L_1, L_0, /*hidden argument*/NULL);
+		intptr_t L_2 = AndroidJNIHelper_CreateJavaProxy_m3365062511(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		intptr_t L_3 = V_0;
+		return L_3;
+	}
+}
+// UnityEngine.jvalue[] UnityEngine._AndroidJNIHelper::CreateJNIArgArray(System.Object[])
+extern "C"  jvalueU5BU5D_t2851849116* _AndroidJNIHelper_CreateJNIArgArray_m755788980 (RuntimeObject * __this /* static, unused */, ObjectU5BU5D_t3614634134* ___args0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_AndroidJNIHelper_CreateJNIArgArray_m755788980_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	jvalueU5BU5D_t2851849116* V_0 = NULL;
+	int32_t V_1 = 0;
+	RuntimeObject * V_2 = NULL;
+	ObjectU5BU5D_t3614634134* V_3 = NULL;
+	int32_t V_4 = 0;
+	jvalueU5BU5D_t2851849116* V_5 = NULL;
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ___args0;
+		NullCheck((RuntimeArray *)(RuntimeArray *)L_0);
+		int32_t L_1 = Array_GetLength_m2083296647((RuntimeArray *)(RuntimeArray *)L_0, 0, /*hidden argument*/NULL);
+		V_0 = ((jvalueU5BU5D_t2851849116*)SZArrayNew(jvalueU5BU5D_t2851849116_il2cpp_TypeInfo_var, (uint32_t)L_1));
+		V_1 = 0;
+		ObjectU5BU5D_t3614634134* L_2 = ___args0;
+		V_3 = L_2;
+		V_4 = 0;
+		goto IL_0281;
+	}
+
+IL_001b:
+	{
+		ObjectU5BU5D_t3614634134* L_3 = V_3;
+		int32_t L_4 = V_4;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		RuntimeObject * L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_2 = L_6;
+		RuntimeObject * L_7 = V_2;
+		if (L_7)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		jvalueU5BU5D_t2851849116* L_8 = V_0;
+		int32_t L_9 = V_1;
+		NullCheck(L_8);
+		((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9)))->set_l_8((intptr_t)(0));
+		goto IL_0276;
+	}
+
+IL_003d:
+	{
+		RuntimeObject * L_10 = V_2;
+		NullCheck(L_10);
+		Type_t * L_11 = Object_GetType_m191970594(L_10, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidReflection_t3899972422_il2cpp_TypeInfo_var);
+		bool L_12 = AndroidReflection_IsPrimitive_m3659522246(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_015f;
+		}
+	}
+	{
+		RuntimeObject * L_13 = V_2;
+		if (!((RuntimeObject *)IsInstSealed((RuntimeObject*)L_13, Int32_t2071877448_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		jvalueU5BU5D_t2851849116* L_14 = V_0;
+		int32_t L_15 = V_1;
+		NullCheck(L_14);
+		RuntimeObject * L_16 = V_2;
+		((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))->set_i_4(((*(int32_t*)((int32_t*)UnBox(L_16, Int32_t2071877448_il2cpp_TypeInfo_var)))));
+		goto IL_0159;
+	}
+
+IL_0070:
+	{
+		RuntimeObject * L_17 = V_2;
+		if (!((RuntimeObject *)IsInstSealed((RuntimeObject*)L_17, Boolean_t3825574718_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		jvalueU5BU5D_t2851849116* L_18 = V_0;
+		int32_t L_19 = V_1;
+		NullCheck(L_18);
+		RuntimeObject * L_20 = V_2;
+		((L_18)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_19)))->set_z_0(((*(bool*)((bool*)UnBox(L_20, Boolean_t3825574718_il2cpp_TypeInfo_var)))));
+		goto IL_0159;
+	}
+
+IL_0092:
+	{
+		RuntimeObject * L_21 = V_2;
+		if (!((RuntimeObject *)IsInstSealed((RuntimeObject*)L_21, Byte_t3683104436_il2cpp_TypeInfo_var)))
+		{
+			goto IL_00b4;
+		}
+	}
+	{
+		jvalueU5BU5D_t2851849116* L_22 = V_0;
+		int32_t L_23 = V_1;
+		NullCheck(L_22);
+		RuntimeObject * L_24 = V_2;
+		((L_22)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_23)))->set_b_1(((*(uint8_t*)((uint8_t*)UnBox(L_24, Byte_t3683104436_il2cpp_TypeInfo_var)))));
+		goto IL_0159;
+	}
+
+IL_00b4:
+	{
+		RuntimeObject * L_25 = V_2;
+		if (!((RuntimeObject *)IsInstSealed((RuntimeObject*)L_25, Int16_t4041245914_il2cpp_TypeInfo_var)))
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		jvalueU5BU5D_t2851849116* L_26 = V_0;
+		int32_t L_27 = V_1;
+		NullCheck(L_26);
+		RuntimeObject * L_28 = V_2;
+		((L_26)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_27)))->set_s_3(((*(int16_t*)((int16_t*)UnBox(L_28, Int16_t4041245914_il2cpp_TypeInfo_var)))));
+		goto IL_0159;
+	}
+
+IL_00d6:
+	{
+		RuntimeObject * L_29 = V_2;
+		if (!((RuntimeObject *)IsInstSealed((RuntimeObject*)L_29, Int64_t909078037_il2cpp_TypeInfo_var)))
+		{
+			goto IL_00f8;
+		}
+	}
+	{
+		jvalueU5BU5D_t2851849116* L_30 = V_0;
+		int32_t L_31 = V_1;
+		NullCheck(L_30);
+		RuntimeObject * L_32 = V_2;
+		((L_30)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_31)))->set_j_5(((*(int64_t*)((int64_t*)UnBox(L_32, Int64_t909078037_il2cpp_TypeInfo_var)))));
+		goto IL_0159;
+	}
+
+IL_00f8:
+	{
+		RuntimeObject * L_33 = V_2;
+		if (!((RuntimeObject *)IsInstSealed((RuntimeObject*)L_33, Single_t2076509932_il2cpp_TypeInfo_var)))
+		{
+			goto IL_011a;
+		}
+	}
+	{
+		jvalueU5BU5D_t2851849116* L_34 = V_0;
+		int32_t L_35 = V_1;
+		NullCheck(L_34);
+		RuntimeObject * L_36 = V_2;
+		((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->set_f_6(((*(float*)((float*)UnBox(L_36, Single_t2076509932_il2cpp_TypeInfo_var)))));
+		goto IL_0159;
+	}
+
+IL_011a:
+	{
+		RuntimeObject * L_37 = V_2;
+		if (!((RuntimeObject *)IsInstSealed((RuntimeObject*)L_37, Double_t4078015681_il2cpp_TypeInfo_var)))
+		{
+			goto IL_013c;
+		}
+	}
+	{
+		jvalueU5BU5D_t2851849116* L_38 = V_0;
+		int32_t L_39 = V_1;
+		NullCheck(L_38);
+		RuntimeObject * L_40 = V_2;
+		((L_38)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_39)))->set_d_7(((*(double*)((double*)UnBox(L_40, Double_t4078015681_il2cpp_TypeInfo_var)))));
+		goto IL_0159;
+	}
+
+IL_013c:
+	{
+		RuntimeObject * L_41 = V_2;
+		if (!((RuntimeObject *)IsInstSealed((RuntimeObject*)L_41, Char_t3454481338_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0159;
+		}
+	}
+	{
+		jvalueU5BU5D_t2851849116* L_42 = V_0;
+		int32_t L_43 = V_1;
+		NullCheck(L_42);
+		RuntimeObject * L_44 = V_2;
+		((L_42)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_43)))->set_c_2(((*(Il2CppChar*)((Il2CppChar*)UnBox(L_44, Char_t3454481338_il2cpp_TypeInfo_var)))));
+	}
+
+IL_0159:
+	{
+		goto IL_0276;
+	}
+
+IL_015f:
+	{
+		RuntimeObject * L_45 = V_2;
+		if (!((String_t*)IsInstSealed((RuntimeObject*)L_45, String_t_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0188;
+		}
+	}
+	{
+		jvalueU5BU5D_t2851849116* L_46 = V_0;
+		int32_t L_47 = V_1;
+		NullCheck(L_46);
+		RuntimeObject * L_48 = V_2;
+		intptr_t L_49 = AndroidJNISafe_NewStringUTF_m4052253704(NULL /*static, unused*/, ((String_t*)CastclassSealed((RuntimeObject*)L_48, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		((L_46)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_47)))->set_l_8(L_49);
+		goto IL_0276;
+	}
+
+IL_0188:
+	{
+		RuntimeObject * L_50 = V_2;
+		if (!((AndroidJavaClass_t2973420583 *)IsInstClass((RuntimeObject*)L_50, AndroidJavaClass_t2973420583_il2cpp_TypeInfo_var)))
+		{
+			goto IL_01b1;
+		}
+	}
+	{
+		jvalueU5BU5D_t2851849116* L_51 = V_0;
+		int32_t L_52 = V_1;
+		NullCheck(L_51);
+		RuntimeObject * L_53 = V_2;
+		NullCheck(((AndroidJavaClass_t2973420583 *)CastclassClass((RuntimeObject*)L_53, AndroidJavaClass_t2973420583_il2cpp_TypeInfo_var)));
+		intptr_t L_54 = AndroidJavaObject_GetRawClass_m69471637(((AndroidJavaClass_t2973420583 *)CastclassClass((RuntimeObject*)L_53, AndroidJavaClass_t2973420583_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		((L_51)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_52)))->set_l_8(L_54);
+		goto IL_0276;
+	}
+
+IL_01b1:
+	{
+		RuntimeObject * L_55 = V_2;
+		if (!((AndroidJavaObject_t4251328308 *)IsInstClass((RuntimeObject*)L_55, AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var)))
+		{
+			goto IL_01da;
+		}
+	}
+	{
+		jvalueU5BU5D_t2851849116* L_56 = V_0;
+		int32_t L_57 = V_1;
+		NullCheck(L_56);
+		RuntimeObject * L_58 = V_2;
+		NullCheck(((AndroidJavaObject_t4251328308 *)CastclassClass((RuntimeObject*)L_58, AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var)));
+		intptr_t L_59 = AndroidJavaObject_GetRawObject_m2000325796(((AndroidJavaObject_t4251328308 *)CastclassClass((RuntimeObject*)L_58, AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		((L_56)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_57)))->set_l_8(L_59);
+		goto IL_0276;
+	}
+
+IL_01da:
+	{
+		RuntimeObject * L_60 = V_2;
+		if (!((RuntimeArray *)IsInstClass((RuntimeObject*)L_60, RuntimeArray_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0203;
+		}
+	}
+	{
+		jvalueU5BU5D_t2851849116* L_61 = V_0;
+		int32_t L_62 = V_1;
+		NullCheck(L_61);
+		RuntimeObject * L_63 = V_2;
+		intptr_t L_64 = _AndroidJNIHelper_ConvertToJNIArray_m1248156804(NULL /*static, unused*/, ((RuntimeArray *)CastclassClass((RuntimeObject*)L_63, RuntimeArray_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		((L_61)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_62)))->set_l_8(L_64);
+		goto IL_0276;
+	}
+
+IL_0203:
+	{
+		RuntimeObject * L_65 = V_2;
+		if (!((AndroidJavaProxy_t4274989947 *)IsInstClass((RuntimeObject*)L_65, AndroidJavaProxy_t4274989947_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0231;
+		}
+	}
+	{
+		jvalueU5BU5D_t2851849116* L_66 = V_0;
+		int32_t L_67 = V_1;
+		NullCheck(L_66);
+		RuntimeObject * L_68 = V_2;
+		NullCheck(((AndroidJavaProxy_t4274989947 *)CastclassClass((RuntimeObject*)L_68, AndroidJavaProxy_t4274989947_il2cpp_TypeInfo_var)));
+		AndroidJavaObject_t4251328308 * L_69 = AndroidJavaProxy_GetProxy_m1162291285(((AndroidJavaProxy_t4274989947 *)CastclassClass((RuntimeObject*)L_68, AndroidJavaProxy_t4274989947_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		NullCheck(L_69);
+		intptr_t L_70 = AndroidJavaObject_GetRawObject_m2000325796(L_69, /*hidden argument*/NULL);
+		((L_66)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_67)))->set_l_8(L_70);
+		goto IL_0276;
+	}
+
+IL_0231:
+	{
+		RuntimeObject * L_71 = V_2;
+		if (!((AndroidJavaRunnable_t3501776228 *)IsInstSealed((RuntimeObject*)L_71, AndroidJavaRunnable_t3501776228_il2cpp_TypeInfo_var)))
+		{
+			goto IL_025a;
+		}
+	}
+	{
+		jvalueU5BU5D_t2851849116* L_72 = V_0;
+		int32_t L_73 = V_1;
+		NullCheck(L_72);
+		RuntimeObject * L_74 = V_2;
+		intptr_t L_75 = AndroidJNIHelper_CreateJavaRunnable_m1726501095(NULL /*static, unused*/, ((AndroidJavaRunnable_t3501776228 *)CastclassSealed((RuntimeObject*)L_74, AndroidJavaRunnable_t3501776228_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		((L_72)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_73)))->set_l_8(L_75);
+		goto IL_0276;
+	}
+
+IL_025a:
+	{
+		RuntimeObject * L_76 = V_2;
+		NullCheck(L_76);
+		Type_t * L_77 = Object_GetType_m191970594(L_76, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_78 = String_Concat_m2000667605(NULL /*static, unused*/, _stringLiteral3188120568, L_77, _stringLiteral372029307, /*hidden argument*/NULL);
+		Exception_t1927440687 * L_79 = (Exception_t1927440687 *)il2cpp_codegen_object_new(Exception_t1927440687_il2cpp_TypeInfo_var);
+		Exception__ctor_m485833136(L_79, L_78, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_79);
+	}
+
+IL_0276:
+	{
+		int32_t L_80 = V_1;
+		V_1 = ((int32_t)((int32_t)L_80+(int32_t)1));
+		int32_t L_81 = V_4;
+		V_4 = ((int32_t)((int32_t)L_81+(int32_t)1));
+	}
+
+IL_0281:
+	{
+		int32_t L_82 = V_4;
+		ObjectU5BU5D_t3614634134* L_83 = V_3;
+		NullCheck(L_83);
+		if ((((int32_t)L_82) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_83)->max_length)))))))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		jvalueU5BU5D_t2851849116* L_84 = V_0;
+		V_5 = L_84;
+		goto IL_0293;
+	}
+
+IL_0293:
+	{
+		jvalueU5BU5D_t2851849116* L_85 = V_5;
+		return L_85;
+	}
+}
+// System.Void UnityEngine._AndroidJNIHelper::DeleteJNIArgArray(System.Object[],UnityEngine.jvalue[])
+extern "C"  void _AndroidJNIHelper_DeleteJNIArgArray_m338095364 (RuntimeObject * __this /* static, unused */, ObjectU5BU5D_t3614634134* ___args0, jvalueU5BU5D_t2851849116* ___jniArgs1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_AndroidJNIHelper_DeleteJNIArgArray_m338095364_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	RuntimeObject * V_1 = NULL;
+	ObjectU5BU5D_t3614634134* V_2 = NULL;
+	int32_t V_3 = 0;
+	{
+		V_0 = 0;
+		ObjectU5BU5D_t3614634134* L_0 = ___args0;
+		V_2 = L_0;
+		V_3 = 0;
+		goto IL_004d;
+	}
+
+IL_000d:
+	{
+		ObjectU5BU5D_t3614634134* L_1 = V_2;
+		int32_t L_2 = V_3;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		RuntimeObject * L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_1 = L_4;
+		RuntimeObject * L_5 = V_1;
+		if (((String_t*)IsInstSealed((RuntimeObject*)L_5, String_t_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		RuntimeObject * L_6 = V_1;
+		if (((AndroidJavaRunnable_t3501776228 *)IsInstSealed((RuntimeObject*)L_6, AndroidJavaRunnable_t3501776228_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		RuntimeObject * L_7 = V_1;
+		if (!((RuntimeArray *)IsInstClass((RuntimeObject*)L_7, RuntimeArray_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0044;
+		}
+	}
+
+IL_0033:
+	{
+		jvalueU5BU5D_t2851849116* L_8 = ___jniArgs1;
+		int32_t L_9 = V_0;
+		NullCheck(L_8);
+		intptr_t L_10 = ((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9)))->get_l_8();
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+	}
+
+IL_0044:
+	{
+		int32_t L_11 = V_0;
+		V_0 = ((int32_t)((int32_t)L_11+(int32_t)1));
+		int32_t L_12 = V_3;
+		V_3 = ((int32_t)((int32_t)L_12+(int32_t)1));
+	}
+
+IL_004d:
+	{
+		int32_t L_13 = V_3;
+		ObjectU5BU5D_t3614634134* L_14 = V_2;
+		NullCheck(L_14);
+		if ((((int32_t)L_13) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_14)->max_length)))))))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.IntPtr UnityEngine._AndroidJNIHelper::ConvertToJNIArray(System.Array)
+extern "C"  intptr_t _AndroidJNIHelper_ConvertToJNIArray_m1248156804 (RuntimeObject * __this /* static, unused */, RuntimeArray * ___array0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_AndroidJNIHelper_ConvertToJNIArray_m1248156804_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Type_t * V_0 = NULL;
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	StringU5BU5D_t1642385972* V_2 = NULL;
+	int32_t V_3 = 0;
+	intptr_t V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	intptr_t V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	intptr_t V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	AndroidJavaObjectU5BU5D_t2397280637* V_8 = NULL;
+	int32_t V_9 = 0;
+	IntPtrU5BU5D_t169632028* V_10 = NULL;
+	intptr_t V_11;
+	memset(&V_11, 0, sizeof(V_11));
+	intptr_t V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	int32_t V_13 = 0;
+	intptr_t V_14;
+	memset(&V_14, 0, sizeof(V_14));
+	intptr_t V_15;
+	memset(&V_15, 0, sizeof(V_15));
+	{
+		RuntimeArray * L_0 = ___array0;
+		NullCheck(L_0);
+		Type_t * L_1 = Object_GetType_m191970594(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Type_t * L_2 = VirtFuncInvoker0< Type_t * >::Invoke(43 /* System.Type System.Type::GetElementType() */, L_1);
+		V_0 = L_2;
+		Type_t * L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidReflection_t3899972422_il2cpp_TypeInfo_var);
+		bool L_4 = AndroidReflection_IsPrimitive_m3659522246(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0127;
+		}
+	}
+	{
+		Type_t * L_5 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_6 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int32_t2071877448_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((RuntimeObject*)(Type_t *)L_5) == ((RuntimeObject*)(Type_t *)L_6))))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		RuntimeArray * L_7 = ___array0;
+		intptr_t L_8 = AndroidJNISafe_ToIntArray_m320585224(NULL /*static, unused*/, ((Int32U5BU5D_t3030399641*)Castclass((RuntimeObject*)L_7, Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		V_1 = L_8;
+		goto IL_02ad;
+	}
+
+IL_003a:
+	{
+		Type_t * L_9 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_10 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Boolean_t3825574718_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((RuntimeObject*)(Type_t *)L_9) == ((RuntimeObject*)(Type_t *)L_10))))
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		RuntimeArray * L_11 = ___array0;
+		intptr_t L_12 = AndroidJNISafe_ToBooleanArray_m4042057407(NULL /*static, unused*/, ((BooleanU5BU5D_t3568034315*)Castclass((RuntimeObject*)L_11, BooleanU5BU5D_t3568034315_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		V_1 = L_12;
+		goto IL_02ad;
+	}
+
+IL_005b:
+	{
+		Type_t * L_13 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_14 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Byte_t3683104436_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((RuntimeObject*)(Type_t *)L_13) == ((RuntimeObject*)(Type_t *)L_14))))
+		{
+			goto IL_007c;
+		}
+	}
+	{
+		RuntimeArray * L_15 = ___array0;
+		intptr_t L_16 = AndroidJNISafe_ToByteArray_m87363743(NULL /*static, unused*/, ((ByteU5BU5D_t3397334013*)Castclass((RuntimeObject*)L_15, ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		V_1 = L_16;
+		goto IL_02ad;
+	}
+
+IL_007c:
+	{
+		Type_t * L_17 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_18 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int16_t4041245914_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((RuntimeObject*)(Type_t *)L_17) == ((RuntimeObject*)(Type_t *)L_18))))
+		{
+			goto IL_009d;
+		}
+	}
+	{
+		RuntimeArray * L_19 = ___array0;
+		intptr_t L_20 = AndroidJNISafe_ToShortArray_m993330209(NULL /*static, unused*/, ((Int16U5BU5D_t3104283263*)Castclass((RuntimeObject*)L_19, Int16U5BU5D_t3104283263_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		V_1 = L_20;
+		goto IL_02ad;
+	}
+
+IL_009d:
+	{
+		Type_t * L_21 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_22 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int64_t909078037_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((RuntimeObject*)(Type_t *)L_21) == ((RuntimeObject*)(Type_t *)L_22))))
+		{
+			goto IL_00be;
+		}
+	}
+	{
+		RuntimeArray * L_23 = ___array0;
+		intptr_t L_24 = AndroidJNISafe_ToLongArray_m3457180788(NULL /*static, unused*/, ((Int64U5BU5D_t717125112*)Castclass((RuntimeObject*)L_23, Int64U5BU5D_t717125112_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		V_1 = L_24;
+		goto IL_02ad;
+	}
+
+IL_00be:
+	{
+		Type_t * L_25 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_26 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Single_t2076509932_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((RuntimeObject*)(Type_t *)L_25) == ((RuntimeObject*)(Type_t *)L_26))))
+		{
+			goto IL_00df;
+		}
+	}
+	{
+		RuntimeArray * L_27 = ___array0;
+		intptr_t L_28 = AndroidJNISafe_ToFloatArray_m3975685981(NULL /*static, unused*/, ((SingleU5BU5D_t577127397*)Castclass((RuntimeObject*)L_27, SingleU5BU5D_t577127397_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		V_1 = L_28;
+		goto IL_02ad;
+	}
+
+IL_00df:
+	{
+		Type_t * L_29 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_30 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Double_t4078015681_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((RuntimeObject*)(Type_t *)L_29) == ((RuntimeObject*)(Type_t *)L_30))))
+		{
+			goto IL_0100;
+		}
+	}
+	{
+		RuntimeArray * L_31 = ___array0;
+		intptr_t L_32 = AndroidJNISafe_ToDoubleArray_m2593793371(NULL /*static, unused*/, ((DoubleU5BU5D_t1889952540*)Castclass((RuntimeObject*)L_31, DoubleU5BU5D_t1889952540_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		V_1 = L_32;
+		goto IL_02ad;
+	}
+
+IL_0100:
+	{
+		Type_t * L_33 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_34 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Char_t3454481338_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((RuntimeObject*)(Type_t *)L_33) == ((RuntimeObject*)(Type_t *)L_34))))
+		{
+			goto IL_0121;
+		}
+	}
+	{
+		RuntimeArray * L_35 = ___array0;
+		intptr_t L_36 = AndroidJNISafe_ToCharArray_m4138840423(NULL /*static, unused*/, ((CharU5BU5D_t1328083999*)Castclass((RuntimeObject*)L_35, CharU5BU5D_t1328083999_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		V_1 = L_36;
+		goto IL_02ad;
+	}
+
+IL_0121:
+	{
+		goto IL_02a2;
+	}
+
+IL_0127:
+	{
+		Type_t * L_37 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_38 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(String_t_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((RuntimeObject*)(Type_t *)L_37) == ((RuntimeObject*)(Type_t *)L_38))))
+		{
+			goto IL_01a6;
+		}
+	}
+	{
+		RuntimeArray * L_39 = ___array0;
+		V_2 = ((StringU5BU5D_t1642385972*)Castclass((RuntimeObject*)L_39, StringU5BU5D_t1642385972_il2cpp_TypeInfo_var));
+		RuntimeArray * L_40 = ___array0;
+		NullCheck(L_40);
+		int32_t L_41 = Array_GetLength_m2083296647(L_40, 0, /*hidden argument*/NULL);
+		V_3 = L_41;
+		intptr_t L_42 = AndroidJNISafe_FindClass_m575048497(NULL /*static, unused*/, _stringLiteral697247865, /*hidden argument*/NULL);
+		V_4 = L_42;
+		int32_t L_43 = V_3;
+		intptr_t L_44 = V_4;
+		intptr_t L_45 = AndroidJNI_NewObjectArray_m2402556372(NULL /*static, unused*/, L_43, L_44, (intptr_t)(0), /*hidden argument*/NULL);
+		V_5 = L_45;
+		V_6 = 0;
+		goto IL_018f;
+	}
+
+IL_016a:
+	{
+		StringU5BU5D_t1642385972* L_46 = V_2;
+		int32_t L_47 = V_6;
+		NullCheck(L_46);
+		int32_t L_48 = L_47;
+		String_t* L_49 = (L_46)->GetAt(static_cast<il2cpp_array_size_t>(L_48));
+		intptr_t L_50 = AndroidJNISafe_NewStringUTF_m4052253704(NULL /*static, unused*/, L_49, /*hidden argument*/NULL);
+		V_7 = L_50;
+		intptr_t L_51 = V_5;
+		int32_t L_52 = V_6;
+		intptr_t L_53 = V_7;
+		AndroidJNI_SetObjectArrayElement_m3793290321(NULL /*static, unused*/, L_51, L_52, L_53, /*hidden argument*/NULL);
+		intptr_t L_54 = V_7;
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_54, /*hidden argument*/NULL);
+		int32_t L_55 = V_6;
+		V_6 = ((int32_t)((int32_t)L_55+(int32_t)1));
+	}
+
+IL_018f:
+	{
+		int32_t L_56 = V_6;
+		int32_t L_57 = V_3;
+		if ((((int32_t)L_56) < ((int32_t)L_57)))
+		{
+			goto IL_016a;
+		}
+	}
+	{
+		intptr_t L_58 = V_4;
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_58, /*hidden argument*/NULL);
+		intptr_t L_59 = V_5;
+		V_1 = L_59;
+		goto IL_02ad;
+	}
+
+IL_01a6:
+	{
+		Type_t * L_60 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_61 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(AndroidJavaObject_t4251328308_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((RuntimeObject*)(Type_t *)L_60) == ((RuntimeObject*)(Type_t *)L_61))))
+		{
+			goto IL_028b;
+		}
+	}
+	{
+		RuntimeArray * L_62 = ___array0;
+		V_8 = ((AndroidJavaObjectU5BU5D_t2397280637*)Castclass((RuntimeObject*)L_62, AndroidJavaObjectU5BU5D_t2397280637_il2cpp_TypeInfo_var));
+		RuntimeArray * L_63 = ___array0;
+		NullCheck(L_63);
+		int32_t L_64 = Array_GetLength_m2083296647(L_63, 0, /*hidden argument*/NULL);
+		V_9 = L_64;
+		int32_t L_65 = V_9;
+		V_10 = ((IntPtrU5BU5D_t169632028*)SZArrayNew(IntPtrU5BU5D_t169632028_il2cpp_TypeInfo_var, (uint32_t)L_65));
+		intptr_t L_66 = AndroidJNISafe_FindClass_m575048497(NULL /*static, unused*/, _stringLiteral3050434173, /*hidden argument*/NULL);
+		V_11 = L_66;
+		V_12 = (intptr_t)(0);
+		V_13 = 0;
+		goto IL_0268;
+	}
+
+IL_01ec:
+	{
+		AndroidJavaObjectU5BU5D_t2397280637* L_67 = V_8;
+		int32_t L_68 = V_13;
+		NullCheck(L_67);
+		int32_t L_69 = L_68;
+		AndroidJavaObject_t4251328308 * L_70 = (L_67)->GetAt(static_cast<il2cpp_array_size_t>(L_69));
+		if (!L_70)
+		{
+			goto IL_0250;
+		}
+	}
+	{
+		IntPtrU5BU5D_t169632028* L_71 = V_10;
+		int32_t L_72 = V_13;
+		NullCheck(L_71);
+		AndroidJavaObjectU5BU5D_t2397280637* L_73 = V_8;
+		int32_t L_74 = V_13;
+		NullCheck(L_73);
+		int32_t L_75 = L_74;
+		AndroidJavaObject_t4251328308 * L_76 = (L_73)->GetAt(static_cast<il2cpp_array_size_t>(L_75));
+		NullCheck(L_76);
+		intptr_t L_77 = AndroidJavaObject_GetRawObject_m2000325796(L_76, /*hidden argument*/NULL);
+		*(((L_71)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_72)))) = L_77;
+		AndroidJavaObjectU5BU5D_t2397280637* L_78 = V_8;
+		int32_t L_79 = V_13;
+		NullCheck(L_78);
+		int32_t L_80 = L_79;
+		AndroidJavaObject_t4251328308 * L_81 = (L_78)->GetAt(static_cast<il2cpp_array_size_t>(L_80));
+		NullCheck(L_81);
+		intptr_t L_82 = AndroidJavaObject_GetRawClass_m69471637(L_81, /*hidden argument*/NULL);
+		V_14 = L_82;
+		intptr_t L_83 = V_12;
+		intptr_t L_84 = V_14;
+		bool L_85 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_83, L_84, /*hidden argument*/NULL);
+		if (!L_85)
+		{
+			goto IL_024a;
+		}
+	}
+	{
+		intptr_t L_86 = V_12;
+		bool L_87 = IntPtr_op_Equality_m1573482188(NULL /*static, unused*/, L_86, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_87)
+		{
+			goto IL_0243;
+		}
+	}
+	{
+		intptr_t L_88 = V_14;
+		V_12 = L_88;
+		goto IL_0249;
+	}
+
+IL_0243:
+	{
+		intptr_t L_89 = V_11;
+		V_12 = L_89;
+	}
+
+IL_0249:
+	{
+	}
+
+IL_024a:
+	{
+		goto IL_0261;
+	}
+
+IL_0250:
+	{
+		IntPtrU5BU5D_t169632028* L_90 = V_10;
+		int32_t L_91 = V_13;
+		NullCheck(L_90);
+		*((intptr_t*)(((L_90)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_91))))) = (intptr_t)(0);
+	}
+
+IL_0261:
+	{
+		int32_t L_92 = V_13;
+		V_13 = ((int32_t)((int32_t)L_92+(int32_t)1));
+	}
+
+IL_0268:
+	{
+		int32_t L_93 = V_13;
+		int32_t L_94 = V_9;
+		if ((((int32_t)L_93) < ((int32_t)L_94)))
+		{
+			goto IL_01ec;
+		}
+	}
+	{
+		IntPtrU5BU5D_t169632028* L_95 = V_10;
+		intptr_t L_96 = V_12;
+		intptr_t L_97 = AndroidJNISafe_ToObjectArray_m2701598109(NULL /*static, unused*/, L_95, L_96, /*hidden argument*/NULL);
+		V_15 = L_97;
+		intptr_t L_98 = V_11;
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_98, /*hidden argument*/NULL);
+		intptr_t L_99 = V_15;
+		V_1 = L_99;
+		goto IL_02ad;
+	}
+
+IL_028b:
+	{
+		Type_t * L_100 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_101 = String_Concat_m2000667605(NULL /*static, unused*/, _stringLiteral313001694, L_100, _stringLiteral372029307, /*hidden argument*/NULL);
+		Exception_t1927440687 * L_102 = (Exception_t1927440687 *)il2cpp_codegen_object_new(Exception_t1927440687_il2cpp_TypeInfo_var);
+		Exception__ctor_m485833136(L_102, L_101, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_102);
+	}
+
+IL_02a2:
+	{
+		V_1 = (intptr_t)(0);
+		goto IL_02ad;
+	}
+
+IL_02ad:
+	{
+		intptr_t L_103 = V_1;
+		return L_103;
+	}
+}
+// System.IntPtr UnityEngine._AndroidJNIHelper::GetMethodID(System.IntPtr,System.String,System.String,System.Boolean)
+extern "C"  intptr_t _AndroidJNIHelper_GetMethodID_m48644625 (RuntimeObject * __this /* static, unused */, intptr_t ___jclass0, String_t* ___methodName1, String_t* ___signature2, bool ___isStatic3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_AndroidJNIHelper_GetMethodID_m48644625_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t1927440687 * V_2 = NULL;
+	intptr_t V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		V_0 = (intptr_t)(0);
+	}
+
+IL_0007:
+	try
+	{ // begin try (depth: 1)
+		try
+		{ // begin try (depth: 2)
+			intptr_t L_0 = ___jclass0;
+			String_t* L_1 = ___methodName1;
+			String_t* L_2 = ___signature2;
+			bool L_3 = ___isStatic3;
+			IL2CPP_RUNTIME_CLASS_INIT(AndroidReflection_t3899972422_il2cpp_TypeInfo_var);
+			intptr_t L_4 = AndroidReflection_GetMethodMember_m584776875(NULL /*static, unused*/, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+			V_0 = L_4;
+			intptr_t L_5 = V_0;
+			intptr_t L_6 = AndroidJNISafe_FromReflectedMethod_m3036131625(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+			V_1 = L_6;
+			IL2CPP_LEAVE(0x4C, FINALLY_0043);
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__exception_local = (Exception_t1927440687 *)e.ex;
+			if(il2cpp_codegen_class_is_assignable_from (Exception_t1927440687_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+				goto CATCH_001e;
+			throw e;
+		}
+
+CATCH_001e:
+		{ // begin catch(System.Exception)
+			{
+				V_2 = ((Exception_t1927440687 *)__exception_local);
+				intptr_t L_7 = ___jclass0;
+				String_t* L_8 = ___methodName1;
+				String_t* L_9 = ___signature2;
+				bool L_10 = ___isStatic3;
+				intptr_t L_11 = _AndroidJNIHelper_GetMethodIDFallback_m3201232261(NULL /*static, unused*/, L_7, L_8, L_9, L_10, /*hidden argument*/NULL);
+				V_3 = L_11;
+				intptr_t L_12 = V_3;
+				bool L_13 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_12, (intptr_t)(0), /*hidden argument*/NULL);
+				if (!L_13)
+				{
+					goto IL_0041;
+				}
+			}
+
+IL_003a:
+			{
+				intptr_t L_14 = V_3;
+				V_1 = L_14;
+				IL2CPP_LEAVE(0x4C, FINALLY_0043);
+			}
+
+IL_0041:
+			{
+				Exception_t1927440687 * L_15 = V_2;
+				IL2CPP_RAISE_MANAGED_EXCEPTION(L_15);
+			}
+		} // end catch (depth: 2)
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0043;
+	}
+
+FINALLY_0043:
+	{ // begin finally (depth: 1)
+		intptr_t L_16 = V_0;
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(67)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(67)
+	{
+		IL2CPP_JUMP_TBL(0x4C, IL_004c)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_004c:
+	{
+		intptr_t L_17 = V_1;
+		return L_17;
+	}
+}
+// System.IntPtr UnityEngine._AndroidJNIHelper::GetMethodIDFallback(System.IntPtr,System.String,System.String,System.Boolean)
+extern "C"  intptr_t _AndroidJNIHelper_GetMethodIDFallback_m3201232261 (RuntimeObject * __this /* static, unused */, intptr_t ___jclass0, String_t* ___methodName1, String_t* ___signature2, bool ___isStatic3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_AndroidJNIHelper_GetMethodIDFallback_m3201232261_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	intptr_t G_B4_0;
+	memset(&G_B4_0, 0, sizeof(G_B4_0));
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		{
+			bool L_0 = ___isStatic3;
+			if (!L_0)
+			{
+				goto IL_0015;
+			}
+		}
+
+IL_0008:
+		{
+			intptr_t L_1 = ___jclass0;
+			String_t* L_2 = ___methodName1;
+			String_t* L_3 = ___signature2;
+			intptr_t L_4 = AndroidJNISafe_GetStaticMethodID_m3181930180(NULL /*static, unused*/, L_1, L_2, L_3, /*hidden argument*/NULL);
+			G_B4_0 = L_4;
+			goto IL_001d;
+		}
+
+IL_0015:
+		{
+			intptr_t L_5 = ___jclass0;
+			String_t* L_6 = ___methodName1;
+			String_t* L_7 = ___signature2;
+			intptr_t L_8 = AndroidJNISafe_GetMethodID_m1407924750(NULL /*static, unused*/, L_5, L_6, L_7, /*hidden argument*/NULL);
+			G_B4_0 = L_8;
+		}
+
+IL_001d:
+		{
+			V_0 = G_B4_0;
+			goto IL_0036;
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t1927440687_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+			goto CATCH_0023;
+		throw e;
+	}
+
+CATCH_0023:
+	{ // begin catch(System.Exception)
+		goto IL_002b;
+	} // end catch (depth: 1)
+
+IL_002b:
+	{
+		V_0 = (intptr_t)(0);
+		goto IL_0036;
+	}
+
+IL_0036:
+	{
+		intptr_t L_9 = V_0;
+		return L_9;
+	}
+}
+// System.IntPtr UnityEngine._AndroidJNIHelper::GetFieldID(System.IntPtr,System.String,System.String,System.Boolean)
+extern "C"  intptr_t _AndroidJNIHelper_GetFieldID_m87082942 (RuntimeObject * __this /* static, unused */, intptr_t ___jclass0, String_t* ___fieldName1, String_t* ___signature2, bool ___isStatic3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_AndroidJNIHelper_GetFieldID_m87082942_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t1927440687 * V_2 = NULL;
+	intptr_t V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	intptr_t G_B5_0;
+	memset(&G_B5_0, 0, sizeof(G_B5_0));
+	{
+		V_0 = (intptr_t)(0);
+	}
+
+IL_0007:
+	try
+	{ // begin try (depth: 1)
+		try
+		{ // begin try (depth: 2)
+			intptr_t L_0 = ___jclass0;
+			String_t* L_1 = ___fieldName1;
+			String_t* L_2 = ___signature2;
+			bool L_3 = ___isStatic3;
+			IL2CPP_RUNTIME_CLASS_INIT(AndroidReflection_t3899972422_il2cpp_TypeInfo_var);
+			intptr_t L_4 = AndroidReflection_GetFieldMember_m1382154548(NULL /*static, unused*/, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+			V_0 = L_4;
+			intptr_t L_5 = V_0;
+			intptr_t L_6 = AndroidJNISafe_FromReflectedField_m1154452628(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+			V_1 = L_6;
+			IL2CPP_LEAVE(0x5E, FINALLY_0055);
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__exception_local = (Exception_t1927440687 *)e.ex;
+			if(il2cpp_codegen_class_is_assignable_from (Exception_t1927440687_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
+				goto CATCH_001e;
+			throw e;
+		}
+
+CATCH_001e:
+		{ // begin catch(System.Exception)
+			{
+				V_2 = ((Exception_t1927440687 *)__exception_local);
+				bool L_7 = ___isStatic3;
+				if (!L_7)
+				{
+					goto IL_0033;
+				}
+			}
+
+IL_0026:
+			{
+				intptr_t L_8 = ___jclass0;
+				String_t* L_9 = ___fieldName1;
+				String_t* L_10 = ___signature2;
+				intptr_t L_11 = AndroidJNISafe_GetStaticFieldID_m4129374031(NULL /*static, unused*/, L_8, L_9, L_10, /*hidden argument*/NULL);
+				G_B5_0 = L_11;
+				goto IL_003b;
+			}
+
+IL_0033:
+			{
+				intptr_t L_12 = ___jclass0;
+				String_t* L_13 = ___fieldName1;
+				String_t* L_14 = ___signature2;
+				intptr_t L_15 = AndroidJNISafe_GetFieldID_m3368735691(NULL /*static, unused*/, L_12, L_13, L_14, /*hidden argument*/NULL);
+				G_B5_0 = L_15;
+			}
+
+IL_003b:
+			{
+				V_3 = G_B5_0;
+				intptr_t L_16 = V_3;
+				bool L_17 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_16, (intptr_t)(0), /*hidden argument*/NULL);
+				if (!L_17)
+				{
+					goto IL_0053;
+				}
+			}
+
+IL_004c:
+			{
+				intptr_t L_18 = V_3;
+				V_1 = L_18;
+				IL2CPP_LEAVE(0x5E, FINALLY_0055);
+			}
+
+IL_0053:
+			{
+				Exception_t1927440687 * L_19 = V_2;
+				IL2CPP_RAISE_MANAGED_EXCEPTION(L_19);
+			}
+		} // end catch (depth: 2)
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0055;
+	}
+
+FINALLY_0055:
+	{ // begin finally (depth: 1)
+		intptr_t L_20 = V_0;
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(85)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(85)
+	{
+		IL2CPP_JUMP_TBL(0x5E, IL_005e)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_005e:
+	{
+		intptr_t L_21 = V_1;
+		return L_21;
+	}
+}
+// System.String UnityEngine._AndroidJNIHelper::GetSignature(System.Object)
+extern "C"  String_t* _AndroidJNIHelper_GetSignature_m1300573492 (RuntimeObject * __this /* static, unused */, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_AndroidJNIHelper_GetSignature_m1300573492_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	Type_t * V_1 = NULL;
+	AndroidJavaObject_t4251328308 * V_2 = NULL;
+	AndroidJavaObject_t4251328308 * V_3 = NULL;
+	AndroidJavaObject_t4251328308 * V_4 = NULL;
+	StringBuilder_t1221177846 * V_5 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	Type_t * G_B5_0 = NULL;
+	int32_t G_B45_0 = 0;
+	ObjectU5BU5D_t3614634134* G_B45_1 = NULL;
+	ObjectU5BU5D_t3614634134* G_B45_2 = NULL;
+	int32_t G_B44_0 = 0;
+	ObjectU5BU5D_t3614634134* G_B44_1 = NULL;
+	ObjectU5BU5D_t3614634134* G_B44_2 = NULL;
+	String_t* G_B46_0 = NULL;
+	int32_t G_B46_1 = 0;
+	ObjectU5BU5D_t3614634134* G_B46_2 = NULL;
+	ObjectU5BU5D_t3614634134* G_B46_3 = NULL;
+	{
+		RuntimeObject * L_0 = ___obj0;
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		V_0 = _stringLiteral4155636344;
+		goto IL_031b;
+	}
+
+IL_0012:
+	{
+		RuntimeObject * L_1 = ___obj0;
+		if (!((Type_t *)IsInstClass((RuntimeObject*)L_1, Type_t_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		RuntimeObject * L_2 = ___obj0;
+		G_B5_0 = ((Type_t *)CastclassClass((RuntimeObject*)L_2, Type_t_il2cpp_TypeInfo_var));
+		goto IL_002e;
+	}
+
+IL_0028:
+	{
+		RuntimeObject * L_3 = ___obj0;
+		NullCheck(L_3);
+		Type_t * L_4 = Object_GetType_m191970594(L_3, /*hidden argument*/NULL);
+		G_B5_0 = L_4;
+	}
+
+IL_002e:
+	{
+		V_1 = G_B5_0;
+		Type_t * L_5 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidReflection_t3899972422_il2cpp_TypeInfo_var);
+		bool L_6 = AndroidReflection_IsPrimitive_m3659522246(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_0141;
+		}
+	}
+	{
+		Type_t * L_7 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_8 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int32_t2071877448_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_7);
+		bool L_9 = Type_Equals_m1326467719(L_7, L_8, /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		V_0 = _stringLiteral372029413;
+		goto IL_031b;
+	}
+
+IL_005b:
+	{
+		Type_t * L_10 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_11 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Boolean_t3825574718_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_10);
+		bool L_12 = Type_Equals_m1326467719(L_10, L_11, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		V_0 = _stringLiteral372029432;
+		goto IL_031b;
+	}
+
+IL_007b:
+	{
+		Type_t * L_13 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_14 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Byte_t3683104436_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_13);
+		bool L_15 = Type_Equals_m1326467719(L_13, L_14, /*hidden argument*/NULL);
+		if (!L_15)
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		V_0 = _stringLiteral372029408;
+		goto IL_031b;
+	}
+
+IL_009b:
+	{
+		Type_t * L_16 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_17 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int16_t4041245914_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_16);
+		bool L_18 = Type_Equals_m1326467719(L_16, L_17, /*hidden argument*/NULL);
+		if (!L_18)
+		{
+			goto IL_00bb;
+		}
+	}
+	{
+		V_0 = _stringLiteral372029423;
+		goto IL_031b;
+	}
+
+IL_00bb:
+	{
+		Type_t * L_19 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_20 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int64_t909078037_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_19);
+		bool L_21 = Type_Equals_m1326467719(L_19, L_20, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		V_0 = _stringLiteral372029416;
+		goto IL_031b;
+	}
+
+IL_00db:
+	{
+		Type_t * L_22 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_23 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Single_t2076509932_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_22);
+		bool L_24 = Type_Equals_m1326467719(L_22, L_23, /*hidden argument*/NULL);
+		if (!L_24)
+		{
+			goto IL_00fb;
+		}
+	}
+	{
+		V_0 = _stringLiteral372029404;
+		goto IL_031b;
+	}
+
+IL_00fb:
+	{
+		Type_t * L_25 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_26 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Double_t4078015681_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_25);
+		bool L_27 = Type_Equals_m1326467719(L_25, L_26, /*hidden argument*/NULL);
+		if (!L_27)
+		{
+			goto IL_011b;
+		}
+	}
+	{
+		V_0 = _stringLiteral372029402;
+		goto IL_031b;
+	}
+
+IL_011b:
+	{
+		Type_t * L_28 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_29 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Char_t3454481338_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_28);
+		bool L_30 = Type_Equals_m1326467719(L_28, L_29, /*hidden argument*/NULL);
+		if (!L_30)
+		{
+			goto IL_013b;
+		}
+	}
+	{
+		V_0 = _stringLiteral372029407;
+		goto IL_031b;
+	}
+
+IL_013b:
+	{
+		goto IL_0310;
+	}
+
+IL_0141:
+	{
+		Type_t * L_31 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_32 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(String_t_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_31);
+		bool L_33 = Type_Equals_m1326467719(L_31, L_32, /*hidden argument*/NULL);
+		if (!L_33)
+		{
+			goto IL_0162;
+		}
+	}
+	{
+		V_0 = _stringLiteral83015506;
+		goto IL_031b;
+	}
+
+IL_0162:
+	{
+		RuntimeObject * L_34 = ___obj0;
+		if (!((AndroidJavaProxy_t4274989947 *)IsInstClass((RuntimeObject*)L_34, AndroidJavaProxy_t4274989947_il2cpp_TypeInfo_var)))
+		{
+			goto IL_01aa;
+		}
+	}
+	{
+		RuntimeObject * L_35 = ___obj0;
+		NullCheck(((AndroidJavaProxy_t4274989947 *)CastclassClass((RuntimeObject*)L_35, AndroidJavaProxy_t4274989947_il2cpp_TypeInfo_var)));
+		AndroidJavaClass_t2973420583 * L_36 = ((AndroidJavaProxy_t4274989947 *)CastclassClass((RuntimeObject*)L_35, AndroidJavaProxy_t4274989947_il2cpp_TypeInfo_var))->get_javaInterface_0();
+		NullCheck(L_36);
+		intptr_t L_37 = AndroidJavaObject_GetRawClass_m69471637(L_36, /*hidden argument*/NULL);
+		AndroidJavaObject_t4251328308 * L_38 = (AndroidJavaObject_t4251328308 *)il2cpp_codegen_object_new(AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var);
+		AndroidJavaObject__ctor_m3845826090(L_38, L_37, /*hidden argument*/NULL);
+		V_2 = L_38;
+		AndroidJavaObject_t4251328308 * L_39 = V_2;
+		NullCheck(L_39);
+		String_t* L_40 = AndroidJavaObject_Call_TisString_t_m687792193(L_39, _stringLiteral3517854241, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/AndroidJavaObject_Call_TisString_t_m687792193_RuntimeMethod_var);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_41 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral372029410, L_40, _stringLiteral372029335, /*hidden argument*/NULL);
+		V_0 = L_41;
+		goto IL_031b;
+	}
+
+IL_01aa:
+	{
+		Type_t * L_42 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_43 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(AndroidJavaRunnable_t3501776228_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_42);
+		bool L_44 = Type_Equals_m1326467719(L_42, L_43, /*hidden argument*/NULL);
+		if (!L_44)
+		{
+			goto IL_01cb;
+		}
+	}
+	{
+		V_0 = _stringLiteral423403930;
+		goto IL_031b;
+	}
+
+IL_01cb:
+	{
+		Type_t * L_45 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_46 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(AndroidJavaClass_t2973420583_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_45);
+		bool L_47 = Type_Equals_m1326467719(L_45, L_46, /*hidden argument*/NULL);
+		if (!L_47)
+		{
+			goto IL_01ec;
+		}
+	}
+	{
+		V_0 = _stringLiteral3472247269;
+		goto IL_031b;
+	}
+
+IL_01ec:
+	{
+		Type_t * L_48 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_49 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(AndroidJavaObject_t4251328308_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_48);
+		bool L_50 = Type_Equals_m1326467719(L_48, L_49, /*hidden argument*/NULL);
+		if (!L_50)
+		{
+			goto IL_0266;
+		}
+	}
+	{
+		RuntimeObject * L_51 = ___obj0;
+		Type_t * L_52 = V_1;
+		if ((!(((RuntimeObject*)(RuntimeObject *)L_51) == ((RuntimeObject*)(Type_t *)L_52))))
+		{
+			goto IL_0215;
+		}
+	}
+	{
+		V_0 = _stringLiteral4155636344;
+		goto IL_031b;
+	}
+
+IL_0215:
+	{
+		RuntimeObject * L_53 = ___obj0;
+		V_3 = ((AndroidJavaObject_t4251328308 *)CastclassClass((RuntimeObject*)L_53, AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var));
+		AndroidJavaObject_t4251328308 * L_54 = V_3;
+		NullCheck(L_54);
+		AndroidJavaObject_t4251328308 * L_55 = AndroidJavaObject_Call_TisAndroidJavaObject_t4251328308_m1172289152(L_54, _stringLiteral2451122878, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/AndroidJavaObject_Call_TisAndroidJavaObject_t4251328308_m1172289152_RuntimeMethod_var);
+		V_4 = L_55;
+	}
+
+IL_022f:
+	try
+	{ // begin try (depth: 1)
+		AndroidJavaObject_t4251328308 * L_56 = V_4;
+		NullCheck(L_56);
+		String_t* L_57 = AndroidJavaObject_Call_TisString_t_m687792193(L_56, _stringLiteral3517854241, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/AndroidJavaObject_Call_TisString_t_m687792193_RuntimeMethod_var);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_58 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral372029410, L_57, _stringLiteral372029335, /*hidden argument*/NULL);
+		V_0 = L_58;
+		IL2CPP_LEAVE(0x31B, FINALLY_0257);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0257;
+	}
+
+FINALLY_0257:
+	{ // begin finally (depth: 1)
+		{
+			AndroidJavaObject_t4251328308 * L_59 = V_4;
+			if (!L_59)
+			{
+				goto IL_0265;
+			}
+		}
+
+IL_025e:
+		{
+			AndroidJavaObject_t4251328308 * L_60 = V_4;
+			NullCheck(L_60);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_60);
+		}
+
+IL_0265:
+		{
+			IL2CPP_END_FINALLY(599)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(599)
+	{
+		IL2CPP_JUMP_TBL(0x31B, IL_031b)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0266:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_61 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(RuntimeArray_0_0_0_var), /*hidden argument*/NULL);
+		Type_t * L_62 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidReflection_t3899972422_il2cpp_TypeInfo_var);
+		bool L_63 = AndroidReflection_IsAssignableFrom_m3577747537(NULL /*static, unused*/, L_61, L_62, /*hidden argument*/NULL);
+		if (!L_63)
+		{
+			goto IL_02c5;
+		}
+	}
+	{
+		Type_t * L_64 = V_1;
+		NullCheck(L_64);
+		int32_t L_65 = VirtFuncInvoker0< int32_t >::Invoke(42 /* System.Int32 System.Type::GetArrayRank() */, L_64);
+		if ((((int32_t)L_65) == ((int32_t)1)))
+		{
+			goto IL_0294;
+		}
+	}
+	{
+		Exception_t1927440687 * L_66 = (Exception_t1927440687 *)il2cpp_codegen_object_new(Exception_t1927440687_il2cpp_TypeInfo_var);
+		Exception__ctor_m485833136(L_66, _stringLiteral2859143932, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_66);
+	}
+
+IL_0294:
+	{
+		StringBuilder_t1221177846 * L_67 = (StringBuilder_t1221177846 *)il2cpp_codegen_object_new(StringBuilder_t1221177846_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m3946851802(L_67, /*hidden argument*/NULL);
+		V_5 = L_67;
+		StringBuilder_t1221177846 * L_68 = V_5;
+		NullCheck(L_68);
+		StringBuilder_Append_m3618697540(L_68, ((int32_t)91), /*hidden argument*/NULL);
+		StringBuilder_t1221177846 * L_69 = V_5;
+		Type_t * L_70 = V_1;
+		NullCheck(L_70);
+		Type_t * L_71 = VirtFuncInvoker0< Type_t * >::Invoke(43 /* System.Type System.Type::GetElementType() */, L_70);
+		String_t* L_72 = _AndroidJNIHelper_GetSignature_m1300573492(NULL /*static, unused*/, L_71, /*hidden argument*/NULL);
+		NullCheck(L_69);
+		StringBuilder_Append_m3636508479(L_69, L_72, /*hidden argument*/NULL);
+		StringBuilder_t1221177846 * L_73 = V_5;
+		NullCheck(L_73);
+		String_t* L_74 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_73);
+		V_0 = L_74;
+		goto IL_031b;
+	}
+
+IL_02c5:
+	{
+		ObjectU5BU5D_t3614634134* L_75 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)6));
+		NullCheck(L_75);
+		ArrayElementTypeCheck (L_75, _stringLiteral1451997003);
+		(L_75)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)_stringLiteral1451997003);
+		ObjectU5BU5D_t3614634134* L_76 = L_75;
+		Type_t * L_77 = V_1;
+		NullCheck(L_76);
+		ArrayElementTypeCheck (L_76, L_77);
+		(L_76)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject *)L_77);
+		ObjectU5BU5D_t3614634134* L_78 = L_76;
+		NullCheck(L_78);
+		ArrayElementTypeCheck (L_78, _stringLiteral3362940537);
+		(L_78)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject *)_stringLiteral3362940537);
+		ObjectU5BU5D_t3614634134* L_79 = L_78;
+		RuntimeObject * L_80 = ___obj0;
+		NullCheck(L_79);
+		ArrayElementTypeCheck (L_79, L_80);
+		(L_79)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject *)L_80);
+		ObjectU5BU5D_t3614634134* L_81 = L_79;
+		NullCheck(L_81);
+		ArrayElementTypeCheck (L_81, _stringLiteral811305477);
+		(L_81)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject *)_stringLiteral811305477);
+		ObjectU5BU5D_t3614634134* L_82 = L_81;
+		Type_t * L_83 = V_1;
+		RuntimeObject * L_84 = ___obj0;
+		G_B44_0 = 5;
+		G_B44_1 = L_82;
+		G_B44_2 = L_82;
+		if ((!(((RuntimeObject*)(Type_t *)L_83) == ((RuntimeObject*)(RuntimeObject *)L_84))))
+		{
+			G_B45_0 = 5;
+			G_B45_1 = L_82;
+			G_B45_2 = L_82;
+			goto IL_02ff;
+		}
+	}
+	{
+		G_B46_0 = _stringLiteral2448764962;
+		G_B46_1 = G_B44_0;
+		G_B46_2 = G_B44_1;
+		G_B46_3 = G_B44_2;
+		goto IL_0304;
+	}
+
+IL_02ff:
+	{
+		G_B46_0 = _stringLiteral3919307841;
+		G_B46_1 = G_B45_0;
+		G_B46_2 = G_B45_1;
+		G_B46_3 = G_B45_2;
+	}
+
+IL_0304:
+	{
+		NullCheck(G_B46_2);
+		ArrayElementTypeCheck (G_B46_2, G_B46_0);
+		(G_B46_2)->SetAt(static_cast<il2cpp_array_size_t>(G_B46_1), (RuntimeObject *)G_B46_0);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_85 = String_Concat_m3881798623(NULL /*static, unused*/, G_B46_3, /*hidden argument*/NULL);
+		Exception_t1927440687 * L_86 = (Exception_t1927440687 *)il2cpp_codegen_object_new(Exception_t1927440687_il2cpp_TypeInfo_var);
+		Exception__ctor_m485833136(L_86, L_85, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_86);
+	}
+
+IL_0310:
+	{
+		V_0 = _stringLiteral371857150;
+		goto IL_031b;
+	}
+
+IL_031b:
+	{
+		String_t* L_87 = V_0;
+		return L_87;
+	}
+}
 // System.Void UnityEngine.AddComponentMenu::.ctor(System.String)
 extern "C"  void AddComponentMenu__ctor_m2024592321 (AddComponentMenu_t1099699699 * __this, String_t* ___menuName0, const RuntimeMethod* method)
 {
@@ -10005,6 +11634,5095 @@ extern "C"  void AddComponentMenu__ctor_m686408932 (AddComponentMenu_t1099699699
 		__this->set_m_AddComponentMenu_0(L_0);
 		int32_t L_1 = ___order1;
 		__this->set_m_Ordering_1(L_1);
+		return;
+	}
+}
+// System.Void UnityEngine.AndroidJavaClass::.ctor(System.String)
+extern "C"  void AndroidJavaClass__ctor_m2710308341 (AndroidJavaClass_t2973420583 * __this, String_t* ___className0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJavaClass__ctor_m2710308341_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var);
+		AndroidJavaObject__ctor_m1748549292(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___className0;
+		AndroidJavaClass__AndroidJavaClass_m1876440275(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.AndroidJavaClass::.ctor(System.IntPtr)
+extern "C"  void AndroidJavaClass__ctor_m3415353177 (AndroidJavaClass_t2973420583 * __this, intptr_t ___jclass0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJavaClass__ctor_m3415353177_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var);
+		AndroidJavaObject__ctor_m1748549292(__this, /*hidden argument*/NULL);
+		intptr_t L_0 = ___jclass0;
+		bool L_1 = IntPtr_op_Equality_m1573482188(NULL /*static, unused*/, L_0, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = (Exception_t1927440687 *)il2cpp_codegen_object_new(Exception_t1927440687_il2cpp_TypeInfo_var);
+		Exception__ctor_m485833136(L_2, _stringLiteral3123643853, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_0023:
+	{
+		intptr_t L_3 = ___jclass0;
+		GlobalJavaObjectRef_t1417862413 * L_4 = (GlobalJavaObjectRef_t1417862413 *)il2cpp_codegen_object_new(GlobalJavaObjectRef_t1417862413_il2cpp_TypeInfo_var);
+		GlobalJavaObjectRef__ctor_m3082986627(L_4, L_3, /*hidden argument*/NULL);
+		((AndroidJavaObject_t4251328308 *)__this)->set_m_jclass_2(L_4);
+		GlobalJavaObjectRef_t1417862413 * L_5 = (GlobalJavaObjectRef_t1417862413 *)il2cpp_codegen_object_new(GlobalJavaObjectRef_t1417862413_il2cpp_TypeInfo_var);
+		GlobalJavaObjectRef__ctor_m3082986627(L_5, (intptr_t)(0), /*hidden argument*/NULL);
+		((AndroidJavaObject_t4251328308 *)__this)->set_m_jobject_1(L_5);
+		return;
+	}
+}
+// System.Void UnityEngine.AndroidJavaClass::_AndroidJavaClass(System.String)
+extern "C"  void AndroidJavaClass__AndroidJavaClass_m1876440275 (AndroidJavaClass_t2973420583 * __this, String_t* ___className0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJavaClass__AndroidJavaClass_m1876440275_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AndroidJavaObject_t4251328308 * V_0 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		String_t* L_0 = ___className0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1637690166, L_0, /*hidden argument*/NULL);
+		AndroidJavaObject_DebugPrint_m653935302(__this, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = ___className0;
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var);
+		AndroidJavaObject_t4251328308 * L_3 = AndroidJavaObject_FindClass_m2078911127(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+	}
+
+IL_0019:
+	try
+	{ // begin try (depth: 1)
+		AndroidJavaObject_t4251328308 * L_4 = V_0;
+		NullCheck(L_4);
+		intptr_t L_5 = AndroidJavaObject_GetRawObject_m2000325796(L_4, /*hidden argument*/NULL);
+		GlobalJavaObjectRef_t1417862413 * L_6 = (GlobalJavaObjectRef_t1417862413 *)il2cpp_codegen_object_new(GlobalJavaObjectRef_t1417862413_il2cpp_TypeInfo_var);
+		GlobalJavaObjectRef__ctor_m3082986627(L_6, L_5, /*hidden argument*/NULL);
+		((AndroidJavaObject_t4251328308 *)__this)->set_m_jclass_2(L_6);
+		GlobalJavaObjectRef_t1417862413 * L_7 = (GlobalJavaObjectRef_t1417862413 *)il2cpp_codegen_object_new(GlobalJavaObjectRef_t1417862413_il2cpp_TypeInfo_var);
+		GlobalJavaObjectRef__ctor_m3082986627(L_7, (intptr_t)(0), /*hidden argument*/NULL);
+		((AndroidJavaObject_t4251328308 *)__this)->set_m_jobject_1(L_7);
+		IL2CPP_LEAVE(0x4E, FINALLY_0041);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0041;
+	}
+
+FINALLY_0041:
+	{ // begin finally (depth: 1)
+		{
+			AndroidJavaObject_t4251328308 * L_8 = V_0;
+			if (!L_8)
+			{
+				goto IL_004d;
+			}
+		}
+
+IL_0047:
+		{
+			AndroidJavaObject_t4251328308 * L_9 = V_0;
+			NullCheck(L_9);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_9);
+		}
+
+IL_004d:
+		{
+			IL2CPP_END_FINALLY(65)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(65)
+	{
+		IL2CPP_JUMP_TBL(0x4E, IL_004e)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_004e:
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.AndroidJavaException::.ctor(System.String,System.String)
+extern "C"  void AndroidJavaException__ctor_m2816600416 (AndroidJavaException_t3997329726 * __this, String_t* ___message0, String_t* ___javaStackTrace1, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___message0;
+		Exception__ctor_m485833136(__this, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = ___javaStackTrace1;
+		__this->set_mJavaStackTrace_11(L_1);
+		return;
+	}
+}
+// System.String UnityEngine.AndroidJavaException::get_StackTrace()
+extern "C"  String_t* AndroidJavaException_get_StackTrace_m61148349 (AndroidJavaException_t3997329726 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJavaException_get_StackTrace_m61148349_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		String_t* L_0 = __this->get_mJavaStackTrace_11();
+		String_t* L_1 = Exception_get_StackTrace_m2513587087(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = String_Concat_m2596409543(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		String_t* L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Void UnityEngine.AndroidJavaObject::.ctor(System.IntPtr)
+extern "C"  void AndroidJavaObject__ctor_m3845826090 (AndroidJavaObject_t4251328308 * __this, intptr_t ___jobject0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJavaObject__ctor_m3845826090_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		AndroidJavaObject__ctor_m1748549292(__this, /*hidden argument*/NULL);
+		intptr_t L_0 = ___jobject0;
+		bool L_1 = IntPtr_op_Equality_m1573482188(NULL /*static, unused*/, L_0, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		Exception_t1927440687 * L_2 = (Exception_t1927440687 *)il2cpp_codegen_object_new(Exception_t1927440687_il2cpp_TypeInfo_var);
+		Exception__ctor_m485833136(L_2, _stringLiteral1365040840, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_0023:
+	{
+		intptr_t L_3 = ___jobject0;
+		intptr_t L_4 = AndroidJNISafe_GetObjectClass_m2887862559(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		intptr_t L_5 = ___jobject0;
+		GlobalJavaObjectRef_t1417862413 * L_6 = (GlobalJavaObjectRef_t1417862413 *)il2cpp_codegen_object_new(GlobalJavaObjectRef_t1417862413_il2cpp_TypeInfo_var);
+		GlobalJavaObjectRef__ctor_m3082986627(L_6, L_5, /*hidden argument*/NULL);
+		__this->set_m_jobject_1(L_6);
+		intptr_t L_7 = V_0;
+		GlobalJavaObjectRef_t1417862413 * L_8 = (GlobalJavaObjectRef_t1417862413 *)il2cpp_codegen_object_new(GlobalJavaObjectRef_t1417862413_il2cpp_TypeInfo_var);
+		GlobalJavaObjectRef__ctor_m3082986627(L_8, L_7, /*hidden argument*/NULL);
+		__this->set_m_jclass_2(L_8);
+		intptr_t L_9 = V_0;
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.AndroidJavaObject::.ctor()
+extern "C"  void AndroidJavaObject__ctor_m1748549292 (AndroidJavaObject_t4251328308 * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.AndroidJavaObject::Dispose()
+extern "C"  void AndroidJavaObject_Dispose_m544107255 (AndroidJavaObject_t4251328308 * __this, const RuntimeMethod* method)
+{
+	{
+		AndroidJavaObject__Dispose_m2682233416(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJavaObject::GetRawObject()
+extern "C"  intptr_t AndroidJavaObject_GetRawObject_m2000325796 (AndroidJavaObject_t4251328308 * __this, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		intptr_t L_0 = AndroidJavaObject__GetRawObject_m3693952337(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		intptr_t L_1 = V_0;
+		return L_1;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJavaObject::GetRawClass()
+extern "C"  intptr_t AndroidJavaObject_GetRawClass_m69471637 (AndroidJavaObject_t4251328308 * __this, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		intptr_t L_0 = AndroidJavaObject__GetRawClass_m3201503112(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		intptr_t L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void UnityEngine.AndroidJavaObject::DebugPrint(System.String)
+extern "C"  void AndroidJavaObject_DebugPrint_m653935302 (AndroidJavaObject_t4251328308 * __this, String_t* ___msg0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJavaObject_DebugPrint_m653935302_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var);
+		bool L_0 = ((AndroidJavaObject_t4251328308_StaticFields*)il2cpp_codegen_static_fields_for(AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var))->get_enableDebugPrints_0();
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		goto IL_0016;
+	}
+
+IL_0010:
+	{
+		String_t* L_1 = ___msg0;
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m2923680153(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_0016:
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.AndroidJavaObject::Finalize()
+extern "C"  void AndroidJavaObject_Finalize_m4026966320 (AndroidJavaObject_t4251328308 * __this, const RuntimeMethod* method)
+{
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		VirtActionInvoker1< bool >::Invoke(5 /* System.Void UnityEngine.AndroidJavaObject::Dispose(System.Boolean) */, __this, (bool)1);
+		IL2CPP_LEAVE(0x14, FINALLY_000d);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000d;
+	}
+
+FINALLY_000d:
+	{ // begin finally (depth: 1)
+		Object_Finalize_m4087144328(__this, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(13)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(13)
+	{
+		IL2CPP_JUMP_TBL(0x14, IL_0014)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0014:
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.AndroidJavaObject::Dispose(System.Boolean)
+extern "C"  void AndroidJavaObject_Dispose_m1199669976 (AndroidJavaObject_t4251328308 * __this, bool ___disposing0, const RuntimeMethod* method)
+{
+	{
+		GlobalJavaObjectRef_t1417862413 * L_0 = __this->get_m_jobject_1();
+		NullCheck(L_0);
+		GlobalJavaObjectRef_Dispose_m2828645294(L_0, /*hidden argument*/NULL);
+		GlobalJavaObjectRef_t1417862413 * L_1 = __this->get_m_jclass_2();
+		NullCheck(L_1);
+		GlobalJavaObjectRef_Dispose_m2828645294(L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.AndroidJavaObject::_Dispose()
+extern "C"  void AndroidJavaObject__Dispose_m2682233416 (AndroidJavaObject_t4251328308 * __this, const RuntimeMethod* method)
+{
+	{
+		VirtActionInvoker1< bool >::Invoke(5 /* System.Void UnityEngine.AndroidJavaObject::Dispose(System.Boolean) */, __this, (bool)1);
+		GC_SuppressFinalize_m953228702(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.AndroidJavaObject UnityEngine.AndroidJavaObject::AndroidJavaObjectDeleteLocalRef(System.IntPtr)
+extern "C"  AndroidJavaObject_t4251328308 * AndroidJavaObject_AndroidJavaObjectDeleteLocalRef_m2273457111 (RuntimeObject * __this /* static, unused */, intptr_t ___jobject0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJavaObject_AndroidJavaObjectDeleteLocalRef_m2273457111_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AndroidJavaObject_t4251328308 * V_0 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___jobject0;
+		AndroidJavaObject_t4251328308 * L_1 = (AndroidJavaObject_t4251328308 *)il2cpp_codegen_object_new(AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var);
+		AndroidJavaObject__ctor_m3845826090(L_1, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x17, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		intptr_t L_2 = ___jobject0;
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x17, IL_0017)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0017:
+	{
+		AndroidJavaObject_t4251328308 * L_3 = V_0;
+		return L_3;
+	}
+}
+// UnityEngine.AndroidJavaClass UnityEngine.AndroidJavaObject::AndroidJavaClassDeleteLocalRef(System.IntPtr)
+extern "C"  AndroidJavaClass_t2973420583 * AndroidJavaObject_AndroidJavaClassDeleteLocalRef_m215438755 (RuntimeObject * __this /* static, unused */, intptr_t ___jclass0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJavaObject_AndroidJavaClassDeleteLocalRef_m215438755_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AndroidJavaClass_t2973420583 * V_0 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___jclass0;
+		AndroidJavaClass_t2973420583 * L_1 = (AndroidJavaClass_t2973420583 *)il2cpp_codegen_object_new(AndroidJavaClass_t2973420583_il2cpp_TypeInfo_var);
+		AndroidJavaClass__ctor_m3415353177(L_1, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x17, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		intptr_t L_2 = ___jclass0;
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x17, IL_0017)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0017:
+	{
+		AndroidJavaClass_t2973420583 * L_3 = V_0;
+		return L_3;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJavaObject::_GetRawObject()
+extern "C"  intptr_t AndroidJavaObject__GetRawObject_m3693952337 (AndroidJavaObject_t4251328308 * __this, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		GlobalJavaObjectRef_t1417862413 * L_0 = __this->get_m_jobject_1();
+		intptr_t L_1 = GlobalJavaObjectRef_op_Implicit_m3534882639(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJavaObject::_GetRawClass()
+extern "C"  intptr_t AndroidJavaObject__GetRawClass_m3201503112 (AndroidJavaObject_t4251328308 * __this, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		GlobalJavaObjectRef_t1417862413 * L_0 = __this->get_m_jclass_2();
+		intptr_t L_1 = GlobalJavaObjectRef_op_Implicit_m3534882639(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// UnityEngine.AndroidJavaObject UnityEngine.AndroidJavaObject::FindClass(System.String)
+extern "C"  AndroidJavaObject_t4251328308 * AndroidJavaObject_FindClass_m2078911127 (RuntimeObject * __this /* static, unused */, String_t* ___name0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJavaObject_FindClass_m2078911127_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AndroidJavaObject_t4251328308 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var);
+		AndroidJavaClass_t2973420583 * L_0 = AndroidJavaObject_get_JavaLangClass_m440136198(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ObjectU5BU5D_t3614634134* L_1 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		String_t* L_2 = ___name0;
+		NullCheck(L_2);
+		String_t* L_3 = String_Replace_m534438427(L_2, ((int32_t)47), ((int32_t)46), /*hidden argument*/NULL);
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, L_3);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)L_3);
+		NullCheck(L_0);
+		AndroidJavaObject_t4251328308 * L_4 = AndroidJavaObject_CallStatic_TisAndroidJavaObject_t4251328308_m4289559914(L_0, _stringLiteral210015010, L_1, /*hidden argument*/AndroidJavaObject_CallStatic_TisAndroidJavaObject_t4251328308_m4289559914_RuntimeMethod_var);
+		V_0 = L_4;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		AndroidJavaObject_t4251328308 * L_5 = V_0;
+		return L_5;
+	}
+}
+// UnityEngine.AndroidJavaClass UnityEngine.AndroidJavaObject::get_JavaLangClass()
+extern "C"  AndroidJavaClass_t2973420583 * AndroidJavaObject_get_JavaLangClass_m440136198 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJavaObject_get_JavaLangClass_m440136198_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AndroidJavaClass_t2973420583 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var);
+		AndroidJavaClass_t2973420583 * L_0 = ((AndroidJavaObject_t4251328308_StaticFields*)il2cpp_codegen_static_fields_for(AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var))->get_s_JavaLangClass_3();
+		if (L_0)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		intptr_t L_1 = AndroidJNISafe_FindClass_m575048497(NULL /*static, unused*/, _stringLiteral1735508916, /*hidden argument*/NULL);
+		AndroidJavaClass_t2973420583 * L_2 = (AndroidJavaClass_t2973420583 *)il2cpp_codegen_object_new(AndroidJavaClass_t2973420583_il2cpp_TypeInfo_var);
+		AndroidJavaClass__ctor_m3415353177(L_2, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var);
+		((AndroidJavaObject_t4251328308_StaticFields*)il2cpp_codegen_static_fields_for(AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var))->set_s_JavaLangClass_3(L_2);
+	}
+
+IL_001f:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var);
+		AndroidJavaClass_t2973420583 * L_3 = ((AndroidJavaObject_t4251328308_StaticFields*)il2cpp_codegen_static_fields_for(AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var))->get_s_JavaLangClass_3();
+		V_0 = L_3;
+		goto IL_002a;
+	}
+
+IL_002a:
+	{
+		AndroidJavaClass_t2973420583 * L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void UnityEngine.AndroidJavaObject::.cctor()
+extern "C"  void AndroidJavaObject__cctor_m152654799 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJavaObject__cctor_m152654799_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		((AndroidJavaObject_t4251328308_StaticFields*)il2cpp_codegen_static_fields_for(AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var))->set_enableDebugPrints_0((bool)0);
+		return;
+	}
+}
+// System.Void UnityEngine.AndroidJavaProxy::.ctor(System.String)
+extern "C"  void AndroidJavaProxy__ctor_m732977339 (AndroidJavaProxy_t4274989947 * __this, String_t* ___javaInterface0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJavaProxy__ctor_m732977339_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___javaInterface0;
+		AndroidJavaClass_t2973420583 * L_1 = (AndroidJavaClass_t2973420583 *)il2cpp_codegen_object_new(AndroidJavaClass_t2973420583_il2cpp_TypeInfo_var);
+		AndroidJavaClass__ctor_m2710308341(L_1, L_0, /*hidden argument*/NULL);
+		AndroidJavaProxy__ctor_m1084633315(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.AndroidJavaProxy::.ctor(UnityEngine.AndroidJavaClass)
+extern "C"  void AndroidJavaProxy__ctor_m1084633315 (AndroidJavaProxy_t4274989947 * __this, AndroidJavaClass_t2973420583 * ___javaInterface0, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		AndroidJavaClass_t2973420583 * L_0 = ___javaInterface0;
+		__this->set_javaInterface_0(L_0);
+		return;
+	}
+}
+// UnityEngine.AndroidJavaObject UnityEngine.AndroidJavaProxy::GetProxy()
+extern "C"  AndroidJavaObject_t4251328308 * AndroidJavaProxy_GetProxy_m1162291285 (AndroidJavaProxy_t4274989947 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJavaProxy_GetProxy_m1162291285_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AndroidJavaObject_t4251328308 * V_0 = NULL;
+	{
+		AndroidJavaObject_t4251328308 * L_0 = __this->get_proxyObject_1();
+		if (L_0)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		intptr_t L_1 = AndroidJNIHelper_CreateJavaProxy_m3365062511(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidJavaObject_t4251328308_il2cpp_TypeInfo_var);
+		AndroidJavaObject_t4251328308 * L_2 = AndroidJavaObject_AndroidJavaObjectDeleteLocalRef_m2273457111(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		__this->set_proxyObject_1(L_2);
+	}
+
+IL_001f:
+	{
+		AndroidJavaObject_t4251328308 * L_3 = __this->get_proxyObject_1();
+		V_0 = L_3;
+		goto IL_002b;
+	}
+
+IL_002b:
+	{
+		AndroidJavaObject_t4251328308 * L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void UnityEngine.AndroidJavaProxy::.cctor()
+extern "C"  void AndroidJavaProxy__cctor_m1448107316 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJavaProxy__cctor_m1448107316_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		intptr_t L_0 = AndroidJNISafe_FindClass_m575048497(NULL /*static, unused*/, _stringLiteral2096283069, /*hidden argument*/NULL);
+		GlobalJavaObjectRef_t1417862413 * L_1 = (GlobalJavaObjectRef_t1417862413 *)il2cpp_codegen_object_new(GlobalJavaObjectRef_t1417862413_il2cpp_TypeInfo_var);
+		GlobalJavaObjectRef__ctor_m3082986627(L_1, L_0, /*hidden argument*/NULL);
+		((AndroidJavaProxy_t4274989947_StaticFields*)il2cpp_codegen_static_fields_for(AndroidJavaProxy_t4274989947_il2cpp_TypeInfo_var))->set_s_JavaLangSystemClass_2(L_1);
+		GlobalJavaObjectRef_t1417862413 * L_2 = ((AndroidJavaProxy_t4274989947_StaticFields*)il2cpp_codegen_static_fields_for(AndroidJavaProxy_t4274989947_il2cpp_TypeInfo_var))->get_s_JavaLangSystemClass_2();
+		intptr_t L_3 = GlobalJavaObjectRef_op_Implicit_m3534882639(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		intptr_t L_4 = AndroidJNIHelper_GetMethodID_m2208893354(NULL /*static, unused*/, L_3, _stringLiteral1384104961, _stringLiteral188056770, (bool)1, /*hidden argument*/NULL);
+		((AndroidJavaProxy_t4274989947_StaticFields*)il2cpp_codegen_static_fields_for(AndroidJavaProxy_t4274989947_il2cpp_TypeInfo_var))->set_s_HashCodeMethodID_3(L_4);
+		return;
+	}
+}
+extern "C"  void DelegatePInvokeWrapper_AndroidJavaRunnable_t3501776228 (AndroidJavaRunnable_t3501776228 * __this, const RuntimeMethod* method)
+{
+	typedef void (STDCALL *PInvokeFunc)();
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	il2cppPInvokeFunc();
+
+}
+// System.Void UnityEngine.AndroidJavaRunnable::.ctor(System.Object,System.IntPtr)
+extern "C"  void AndroidJavaRunnable__ctor_m711141886 (AndroidJavaRunnable_t3501776228 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void UnityEngine.AndroidJavaRunnable::Invoke()
+extern "C"  void AndroidJavaRunnable_Invoke_m2550679292 (AndroidJavaRunnable_t3501776228 * __this, const RuntimeMethod* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		AndroidJavaRunnable_Invoke_m2550679292((AndroidJavaRunnable_t3501776228 *)__this->get_prev_9(), method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((RuntimeMethod*)(__this->get_method_3()));
+	bool ___methodIsStatic = MethodIsStatic((RuntimeMethod*)(__this->get_method_3()));
+	if ((__this->get_m_target_2() != NULL || MethodHasParameters((RuntimeMethod*)(__this->get_method_3()))) && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (RuntimeObject *, void* __this, const RuntimeMethod* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),(RuntimeMethod*)(__this->get_method_3()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const RuntimeMethod* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),(RuntimeMethod*)(__this->get_method_3()));
+	}
+}
+// System.IAsyncResult UnityEngine.AndroidJavaRunnable::BeginInvoke(System.AsyncCallback,System.Object)
+extern "C"  RuntimeObject* AndroidJavaRunnable_BeginInvoke_m1644318311 (AndroidJavaRunnable_t3501776228 * __this, AsyncCallback_t163412349 * ___callback0, RuntimeObject * ___object1, const RuntimeMethod* method)
+{
+	void *__d_args[1] = {0};
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback0, (RuntimeObject*)___object1);
+}
+// System.Void UnityEngine.AndroidJavaRunnable::EndInvoke(System.IAsyncResult)
+extern "C"  void AndroidJavaRunnable_EndInvoke_m2061016096 (AndroidJavaRunnable_t3501776228 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void UnityEngine.AndroidJavaRunnableProxy::.ctor(UnityEngine.AndroidJavaRunnable)
+extern "C"  void AndroidJavaRunnableProxy__ctor_m2912946493 (AndroidJavaRunnableProxy_t1710049828 * __this, AndroidJavaRunnable_t3501776228 * ___runnable0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJavaRunnableProxy__ctor_m2912946493_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidJavaProxy_t4274989947_il2cpp_TypeInfo_var);
+		AndroidJavaProxy__ctor_m732977339(__this, _stringLiteral738895941, /*hidden argument*/NULL);
+		AndroidJavaRunnable_t3501776228 * L_0 = ___runnable0;
+		__this->set_mRunnable_4(L_0);
+		return;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNI::FindClass(System.String)
+extern "C"  intptr_t AndroidJNI_FindClass_m1146941316 (RuntimeObject * __this /* static, unused */, String_t* ___name0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		String_t* L_0 = ___name0;
+		AndroidJNI_INTERNAL_CALL_FindClass_m2788105298(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_1 = V_0;
+		V_1 = L_1;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_2 = V_1;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_FindClass(System.String,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_FindClass_m2788105298 (RuntimeObject * __this /* static, unused */, String_t* ___name0, intptr_t* ___value1, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_FindClass_m2788105298_ftn) (String_t*, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_FindClass_m2788105298_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_FindClass_m2788105298_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_FindClass(System.String,System.IntPtr&)");
+	_il2cpp_icall_func(___name0, ___value1);
+}
+// System.IntPtr UnityEngine.AndroidJNI::FromReflectedMethod(System.IntPtr)
+extern "C"  intptr_t AndroidJNI_FromReflectedMethod_m3489882308 (RuntimeObject * __this /* static, unused */, intptr_t ___refMethod0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		intptr_t L_0 = ___refMethod0;
+		AndroidJNI_INTERNAL_CALL_FromReflectedMethod_m3948529066(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_1 = V_0;
+		V_1 = L_1;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_2 = V_1;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_FromReflectedMethod(System.IntPtr,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_FromReflectedMethod_m3948529066 (RuntimeObject * __this /* static, unused */, intptr_t ___refMethod0, intptr_t* ___value1, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_FromReflectedMethod_m3948529066_ftn) (intptr_t, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_FromReflectedMethod_m3948529066_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_FromReflectedMethod_m3948529066_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_FromReflectedMethod(System.IntPtr,System.IntPtr&)");
+	_il2cpp_icall_func(___refMethod0, ___value1);
+}
+// System.IntPtr UnityEngine.AndroidJNI::FromReflectedField(System.IntPtr)
+extern "C"  intptr_t AndroidJNI_FromReflectedField_m1586104961 (RuntimeObject * __this /* static, unused */, intptr_t ___refField0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		intptr_t L_0 = ___refField0;
+		AndroidJNI_INTERNAL_CALL_FromReflectedField_m365659821(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_1 = V_0;
+		V_1 = L_1;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_2 = V_1;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_FromReflectedField(System.IntPtr,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_FromReflectedField_m365659821 (RuntimeObject * __this /* static, unused */, intptr_t ___refField0, intptr_t* ___value1, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_FromReflectedField_m365659821_ftn) (intptr_t, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_FromReflectedField_m365659821_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_FromReflectedField_m365659821_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_FromReflectedField(System.IntPtr,System.IntPtr&)");
+	_il2cpp_icall_func(___refField0, ___value1);
+}
+// System.IntPtr UnityEngine.AndroidJNI::ExceptionOccurred()
+extern "C"  intptr_t AndroidJNI_ExceptionOccurred_m1192906445 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		AndroidJNI_INTERNAL_CALL_ExceptionOccurred_m2119918457(NULL /*static, unused*/, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_0 = V_0;
+		V_1 = L_0;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		intptr_t L_1 = V_1;
+		return L_1;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ExceptionOccurred(System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ExceptionOccurred_m2119918457 (RuntimeObject * __this /* static, unused */, intptr_t* ___value0, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_ExceptionOccurred_m2119918457_ftn) (intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_ExceptionOccurred_m2119918457_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_ExceptionOccurred_m2119918457_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_ExceptionOccurred(System.IntPtr&)");
+	_il2cpp_icall_func(___value0);
+}
+// System.Void UnityEngine.AndroidJNI::ExceptionClear()
+extern "C"  void AndroidJNI_ExceptionClear_m2810080104 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_ExceptionClear_m2810080104_ftn) ();
+	static AndroidJNI_ExceptionClear_m2810080104_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_ExceptionClear_m2810080104_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::ExceptionClear()");
+	_il2cpp_icall_func();
+}
+// System.IntPtr UnityEngine.AndroidJNI::NewGlobalRef(System.IntPtr)
+extern "C"  intptr_t AndroidJNI_NewGlobalRef_m3830225541 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		intptr_t L_0 = ___obj0;
+		AndroidJNI_INTERNAL_CALL_NewGlobalRef_m829840121(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_1 = V_0;
+		V_1 = L_1;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_2 = V_1;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_NewGlobalRef(System.IntPtr,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_NewGlobalRef_m829840121 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t* ___value1, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_NewGlobalRef_m829840121_ftn) (intptr_t, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_NewGlobalRef_m829840121_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_NewGlobalRef_m829840121_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_NewGlobalRef(System.IntPtr,System.IntPtr&)");
+	_il2cpp_icall_func(___obj0, ___value1);
+}
+// System.Void UnityEngine.AndroidJNI::DeleteGlobalRef(System.IntPtr)
+extern "C"  void AndroidJNI_DeleteGlobalRef_m1492528849 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_DeleteGlobalRef_m1492528849_ftn) (intptr_t);
+	static AndroidJNI_DeleteGlobalRef_m1492528849_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_DeleteGlobalRef_m1492528849_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::DeleteGlobalRef(System.IntPtr)");
+	_il2cpp_icall_func(___obj0);
+}
+// System.Void UnityEngine.AndroidJNI::DeleteLocalRef(System.IntPtr)
+extern "C"  void AndroidJNI_DeleteLocalRef_m1035010755 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_DeleteLocalRef_m1035010755_ftn) (intptr_t);
+	static AndroidJNI_DeleteLocalRef_m1035010755_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_DeleteLocalRef_m1035010755_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::DeleteLocalRef(System.IntPtr)");
+	_il2cpp_icall_func(___obj0);
+}
+// System.IntPtr UnityEngine.AndroidJNI::GetObjectClass(System.IntPtr)
+extern "C"  intptr_t AndroidJNI_GetObjectClass_m3593789028 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		intptr_t L_0 = ___obj0;
+		AndroidJNI_INTERNAL_CALL_GetObjectClass_m1226267886(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_1 = V_0;
+		V_1 = L_1;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_2 = V_1;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_GetObjectClass(System.IntPtr,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_GetObjectClass_m1226267886 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t* ___value1, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_GetObjectClass_m1226267886_ftn) (intptr_t, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_GetObjectClass_m1226267886_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_GetObjectClass_m1226267886_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_GetObjectClass(System.IntPtr,System.IntPtr&)");
+	_il2cpp_icall_func(___obj0, ___value1);
+}
+// System.IntPtr UnityEngine.AndroidJNI::GetMethodID(System.IntPtr,System.String,System.String)
+extern "C"  intptr_t AndroidJNI_GetMethodID_m3579635507 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		intptr_t L_0 = ___clazz0;
+		String_t* L_1 = ___name1;
+		String_t* L_2 = ___sig2;
+		AndroidJNI_INTERNAL_CALL_GetMethodID_m3893979599(NULL /*static, unused*/, L_0, L_1, L_2, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		intptr_t L_4 = V_1;
+		return L_4;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_GetMethodID(System.IntPtr,System.String,System.String,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_GetMethodID_m3893979599 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, intptr_t* ___value3, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_GetMethodID_m3893979599_ftn) (intptr_t, String_t*, String_t*, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_GetMethodID_m3893979599_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_GetMethodID_m3893979599_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_GetMethodID(System.IntPtr,System.String,System.String,System.IntPtr&)");
+	_il2cpp_icall_func(___clazz0, ___name1, ___sig2, ___value3);
+}
+// System.IntPtr UnityEngine.AndroidJNI::GetFieldID(System.IntPtr,System.String,System.String)
+extern "C"  intptr_t AndroidJNI_GetFieldID_m3868917208 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		intptr_t L_0 = ___clazz0;
+		String_t* L_1 = ___name1;
+		String_t* L_2 = ___sig2;
+		AndroidJNI_INTERNAL_CALL_GetFieldID_m2191711586(NULL /*static, unused*/, L_0, L_1, L_2, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		intptr_t L_4 = V_1;
+		return L_4;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_GetFieldID(System.IntPtr,System.String,System.String,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_GetFieldID_m2191711586 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, intptr_t* ___value3, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_GetFieldID_m2191711586_ftn) (intptr_t, String_t*, String_t*, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_GetFieldID_m2191711586_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_GetFieldID_m2191711586_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_GetFieldID(System.IntPtr,System.String,System.String,System.IntPtr&)");
+	_il2cpp_icall_func(___clazz0, ___name1, ___sig2, ___value3);
+}
+// System.IntPtr UnityEngine.AndroidJNI::GetStaticMethodID(System.IntPtr,System.String,System.String)
+extern "C"  intptr_t AndroidJNI_GetStaticMethodID_m2111902847 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		intptr_t L_0 = ___clazz0;
+		String_t* L_1 = ___name1;
+		String_t* L_2 = ___sig2;
+		AndroidJNI_INTERNAL_CALL_GetStaticMethodID_m3597694851(NULL /*static, unused*/, L_0, L_1, L_2, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		intptr_t L_4 = V_1;
+		return L_4;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_GetStaticMethodID(System.IntPtr,System.String,System.String,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_GetStaticMethodID_m3597694851 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, intptr_t* ___value3, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_GetStaticMethodID_m3597694851_ftn) (intptr_t, String_t*, String_t*, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_GetStaticMethodID_m3597694851_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_GetStaticMethodID_m3597694851_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_GetStaticMethodID(System.IntPtr,System.String,System.String,System.IntPtr&)");
+	_il2cpp_icall_func(___clazz0, ___name1, ___sig2, ___value3);
+}
+// System.IntPtr UnityEngine.AndroidJNI::GetStaticFieldID(System.IntPtr,System.String,System.String)
+extern "C"  intptr_t AndroidJNI_GetStaticFieldID_m945802290 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		intptr_t L_0 = ___clazz0;
+		String_t* L_1 = ___name1;
+		String_t* L_2 = ___sig2;
+		AndroidJNI_INTERNAL_CALL_GetStaticFieldID_m1358410088(NULL /*static, unused*/, L_0, L_1, L_2, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		intptr_t L_4 = V_1;
+		return L_4;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_GetStaticFieldID(System.IntPtr,System.String,System.String,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_GetStaticFieldID_m1358410088 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, intptr_t* ___value3, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_GetStaticFieldID_m1358410088_ftn) (intptr_t, String_t*, String_t*, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_GetStaticFieldID_m1358410088_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_GetStaticFieldID_m1358410088_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_GetStaticFieldID(System.IntPtr,System.String,System.String,System.IntPtr&)");
+	_il2cpp_icall_func(___clazz0, ___name1, ___sig2, ___value3);
+}
+// System.IntPtr UnityEngine.AndroidJNI::NewStringUTF(System.String)
+extern "C"  intptr_t AndroidJNI_NewStringUTF_m294318221 (RuntimeObject * __this /* static, unused */, String_t* ___bytes0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		String_t* L_0 = ___bytes0;
+		AndroidJNI_INTERNAL_CALL_NewStringUTF_m2906280537(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_1 = V_0;
+		V_1 = L_1;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_2 = V_1;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_NewStringUTF(System.String,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_NewStringUTF_m2906280537 (RuntimeObject * __this /* static, unused */, String_t* ___bytes0, intptr_t* ___value1, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_NewStringUTF_m2906280537_ftn) (String_t*, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_NewStringUTF_m2906280537_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_NewStringUTF_m2906280537_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_NewStringUTF(System.String,System.IntPtr&)");
+	_il2cpp_icall_func(___bytes0, ___value1);
+}
+// System.String UnityEngine.AndroidJNI::GetStringUTFChars(System.IntPtr)
+extern "C"  String_t* AndroidJNI_GetStringUTFChars_m3395974110 (RuntimeObject * __this /* static, unused */, intptr_t ___str0, const RuntimeMethod* method)
+{
+	typedef String_t* (*AndroidJNI_GetStringUTFChars_m3395974110_ftn) (intptr_t);
+	static AndroidJNI_GetStringUTFChars_m3395974110_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_GetStringUTFChars_m3395974110_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::GetStringUTFChars(System.IntPtr)");
+	String_t* retVal = _il2cpp_icall_func(___str0);
+	return retVal;
+}
+// System.String UnityEngine.AndroidJNI::CallStringMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  String_t* AndroidJNI_CallStringMethod_m547855981 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef String_t* (*AndroidJNI_CallStringMethod_m547855981_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallStringMethod_m547855981_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallStringMethod_m547855981_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallStringMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	String_t* retVal = _il2cpp_icall_func(___obj0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.IntPtr UnityEngine.AndroidJNI::CallObjectMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  intptr_t AndroidJNI_CallObjectMethod_m1663510685 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		intptr_t L_0 = ___obj0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		AndroidJNI_INTERNAL_CALL_CallObjectMethod_m3385998137(NULL /*static, unused*/, L_0, L_1, L_2, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		intptr_t L_4 = V_1;
+		return L_4;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_CallObjectMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_CallObjectMethod_m3385998137 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, intptr_t* ___value3, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_CallObjectMethod_m3385998137_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_CallObjectMethod_m3385998137_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_CallObjectMethod_m3385998137_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_CallObjectMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[],System.IntPtr&)");
+	_il2cpp_icall_func(___obj0, ___methodID1, ___args2, ___value3);
+}
+// System.Int32 UnityEngine.AndroidJNI::CallIntMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int32_t AndroidJNI_CallIntMethod_m3811935778 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef int32_t (*AndroidJNI_CallIntMethod_m3811935778_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallIntMethod_m3811935778_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallIntMethod_m3811935778_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallIntMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	int32_t retVal = _il2cpp_icall_func(___obj0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.Boolean UnityEngine.AndroidJNI::CallBooleanMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  bool AndroidJNI_CallBooleanMethod_m466615625 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef bool (*AndroidJNI_CallBooleanMethod_m466615625_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallBooleanMethod_m466615625_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallBooleanMethod_m466615625_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallBooleanMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	bool retVal = _il2cpp_icall_func(___obj0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.Int16 UnityEngine.AndroidJNI::CallShortMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int16_t AndroidJNI_CallShortMethod_m1466041431 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef int16_t (*AndroidJNI_CallShortMethod_m1466041431_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallShortMethod_m1466041431_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallShortMethod_m1466041431_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallShortMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	int16_t retVal = _il2cpp_icall_func(___obj0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.Byte UnityEngine.AndroidJNI::CallByteMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  uint8_t AndroidJNI_CallByteMethod_m1552664141 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef uint8_t (*AndroidJNI_CallByteMethod_m1552664141_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallByteMethod_m1552664141_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallByteMethod_m1552664141_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallByteMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	uint8_t retVal = _il2cpp_icall_func(___obj0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.Char UnityEngine.AndroidJNI::CallCharMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  Il2CppChar AndroidJNI_CallCharMethod_m2997962145 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef Il2CppChar (*AndroidJNI_CallCharMethod_m2997962145_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallCharMethod_m2997962145_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallCharMethod_m2997962145_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallCharMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	Il2CppChar retVal = _il2cpp_icall_func(___obj0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.Single UnityEngine.AndroidJNI::CallFloatMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  float AndroidJNI_CallFloatMethod_m2845733963 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef float (*AndroidJNI_CallFloatMethod_m2845733963_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallFloatMethod_m2845733963_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallFloatMethod_m2845733963_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallFloatMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	float retVal = _il2cpp_icall_func(___obj0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.Double UnityEngine.AndroidJNI::CallDoubleMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  double AndroidJNI_CallDoubleMethod_m3941989741 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef double (*AndroidJNI_CallDoubleMethod_m3941989741_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallDoubleMethod_m3941989741_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallDoubleMethod_m3941989741_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallDoubleMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	double retVal = _il2cpp_icall_func(___obj0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.Int64 UnityEngine.AndroidJNI::CallLongMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int64_t AndroidJNI_CallLongMethod_m2831046166 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef int64_t (*AndroidJNI_CallLongMethod_m2831046166_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallLongMethod_m2831046166_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallLongMethod_m2831046166_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallLongMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	int64_t retVal = _il2cpp_icall_func(___obj0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.String UnityEngine.AndroidJNI::CallStaticStringMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  String_t* AndroidJNI_CallStaticStringMethod_m685687621 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef String_t* (*AndroidJNI_CallStaticStringMethod_m685687621_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallStaticStringMethod_m685687621_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallStaticStringMethod_m685687621_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallStaticStringMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	String_t* retVal = _il2cpp_icall_func(___clazz0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.IntPtr UnityEngine.AndroidJNI::CallStaticObjectMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  intptr_t AndroidJNI_CallStaticObjectMethod_m3143657157 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		AndroidJNI_INTERNAL_CALL_CallStaticObjectMethod_m3176317801(NULL /*static, unused*/, L_0, L_1, L_2, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		intptr_t L_4 = V_1;
+		return L_4;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_CallStaticObjectMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_CallStaticObjectMethod_m3176317801 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, intptr_t* ___value3, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_CallStaticObjectMethod_m3176317801_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_CallStaticObjectMethod_m3176317801_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_CallStaticObjectMethod_m3176317801_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_CallStaticObjectMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[],System.IntPtr&)");
+	_il2cpp_icall_func(___clazz0, ___methodID1, ___args2, ___value3);
+}
+// System.Int32 UnityEngine.AndroidJNI::CallStaticIntMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int32_t AndroidJNI_CallStaticIntMethod_m1992515728 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef int32_t (*AndroidJNI_CallStaticIntMethod_m1992515728_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallStaticIntMethod_m1992515728_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallStaticIntMethod_m1992515728_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallStaticIntMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	int32_t retVal = _il2cpp_icall_func(___clazz0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.Boolean UnityEngine.AndroidJNI::CallStaticBooleanMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  bool AndroidJNI_CallStaticBooleanMethod_m1186985673 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef bool (*AndroidJNI_CallStaticBooleanMethod_m1186985673_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallStaticBooleanMethod_m1186985673_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallStaticBooleanMethod_m1186985673_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallStaticBooleanMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	bool retVal = _il2cpp_icall_func(___clazz0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.Int16 UnityEngine.AndroidJNI::CallStaticShortMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int16_t AndroidJNI_CallStaticShortMethod_m3785564051 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef int16_t (*AndroidJNI_CallStaticShortMethod_m3785564051_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallStaticShortMethod_m3785564051_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallStaticShortMethod_m3785564051_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallStaticShortMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	int16_t retVal = _il2cpp_icall_func(___clazz0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.Byte UnityEngine.AndroidJNI::CallStaticByteMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  uint8_t AndroidJNI_CallStaticByteMethod_m2566359189 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef uint8_t (*AndroidJNI_CallStaticByteMethod_m2566359189_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallStaticByteMethod_m2566359189_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallStaticByteMethod_m2566359189_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallStaticByteMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	uint8_t retVal = _il2cpp_icall_func(___clazz0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.Char UnityEngine.AndroidJNI::CallStaticCharMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  Il2CppChar AndroidJNI_CallStaticCharMethod_m1437246625 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef Il2CppChar (*AndroidJNI_CallStaticCharMethod_m1437246625_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallStaticCharMethod_m1437246625_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallStaticCharMethod_m1437246625_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallStaticCharMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	Il2CppChar retVal = _il2cpp_icall_func(___clazz0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.Single UnityEngine.AndroidJNI::CallStaticFloatMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  float AndroidJNI_CallStaticFloatMethod_m1028835415 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef float (*AndroidJNI_CallStaticFloatMethod_m1028835415_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallStaticFloatMethod_m1028835415_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallStaticFloatMethod_m1028835415_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallStaticFloatMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	float retVal = _il2cpp_icall_func(___clazz0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.Double UnityEngine.AndroidJNI::CallStaticDoubleMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  double AndroidJNI_CallStaticDoubleMethod_m1517028101 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef double (*AndroidJNI_CallStaticDoubleMethod_m1517028101_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallStaticDoubleMethod_m1517028101_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallStaticDoubleMethod_m1517028101_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallStaticDoubleMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	double retVal = _il2cpp_icall_func(___clazz0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.Int64 UnityEngine.AndroidJNI::CallStaticLongMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int64_t AndroidJNI_CallStaticLongMethod_m4241166332 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	typedef int64_t (*AndroidJNI_CallStaticLongMethod_m4241166332_ftn) (intptr_t, intptr_t, jvalueU5BU5D_t2851849116*);
+	static AndroidJNI_CallStaticLongMethod_m4241166332_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_CallStaticLongMethod_m4241166332_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::CallStaticLongMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])");
+	int64_t retVal = _il2cpp_icall_func(___clazz0, ___methodID1, ___args2);
+	return retVal;
+}
+// System.String UnityEngine.AndroidJNI::GetStaticStringField(System.IntPtr,System.IntPtr)
+extern "C"  String_t* AndroidJNI_GetStaticStringField_m981156460 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	typedef String_t* (*AndroidJNI_GetStaticStringField_m981156460_ftn) (intptr_t, intptr_t);
+	static AndroidJNI_GetStaticStringField_m981156460_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_GetStaticStringField_m981156460_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::GetStaticStringField(System.IntPtr,System.IntPtr)");
+	String_t* retVal = _il2cpp_icall_func(___clazz0, ___fieldID1);
+	return retVal;
+}
+// System.IntPtr UnityEngine.AndroidJNI::GetStaticObjectField(System.IntPtr,System.IntPtr)
+extern "C"  intptr_t AndroidJNI_GetStaticObjectField_m1117681310 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___fieldID1;
+		AndroidJNI_INTERNAL_CALL_GetStaticObjectField_m1046795976(NULL /*static, unused*/, L_0, L_1, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_2 = V_0;
+		V_1 = L_2;
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		intptr_t L_3 = V_1;
+		return L_3;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_GetStaticObjectField(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_GetStaticObjectField_m1046795976 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, intptr_t* ___value2, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_GetStaticObjectField_m1046795976_ftn) (intptr_t, intptr_t, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_GetStaticObjectField_m1046795976_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_GetStaticObjectField_m1046795976_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_GetStaticObjectField(System.IntPtr,System.IntPtr,System.IntPtr&)");
+	_il2cpp_icall_func(___clazz0, ___fieldID1, ___value2);
+}
+// System.Boolean UnityEngine.AndroidJNI::GetStaticBooleanField(System.IntPtr,System.IntPtr)
+extern "C"  bool AndroidJNI_GetStaticBooleanField_m1495909062 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	typedef bool (*AndroidJNI_GetStaticBooleanField_m1495909062_ftn) (intptr_t, intptr_t);
+	static AndroidJNI_GetStaticBooleanField_m1495909062_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_GetStaticBooleanField_m1495909062_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::GetStaticBooleanField(System.IntPtr,System.IntPtr)");
+	bool retVal = _il2cpp_icall_func(___clazz0, ___fieldID1);
+	return retVal;
+}
+// System.Byte UnityEngine.AndroidJNI::GetStaticByteField(System.IntPtr,System.IntPtr)
+extern "C"  uint8_t AndroidJNI_GetStaticByteField_m2854778764 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	typedef uint8_t (*AndroidJNI_GetStaticByteField_m2854778764_ftn) (intptr_t, intptr_t);
+	static AndroidJNI_GetStaticByteField_m2854778764_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_GetStaticByteField_m2854778764_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::GetStaticByteField(System.IntPtr,System.IntPtr)");
+	uint8_t retVal = _il2cpp_icall_func(___clazz0, ___fieldID1);
+	return retVal;
+}
+// System.Char UnityEngine.AndroidJNI::GetStaticCharField(System.IntPtr,System.IntPtr)
+extern "C"  Il2CppChar AndroidJNI_GetStaticCharField_m1307137100 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	typedef Il2CppChar (*AndroidJNI_GetStaticCharField_m1307137100_ftn) (intptr_t, intptr_t);
+	static AndroidJNI_GetStaticCharField_m1307137100_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_GetStaticCharField_m1307137100_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::GetStaticCharField(System.IntPtr,System.IntPtr)");
+	Il2CppChar retVal = _il2cpp_icall_func(___clazz0, ___fieldID1);
+	return retVal;
+}
+// System.Int16 UnityEngine.AndroidJNI::GetStaticShortField(System.IntPtr,System.IntPtr)
+extern "C"  int16_t AndroidJNI_GetStaticShortField_m2504957286 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	typedef int16_t (*AndroidJNI_GetStaticShortField_m2504957286_ftn) (intptr_t, intptr_t);
+	static AndroidJNI_GetStaticShortField_m2504957286_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_GetStaticShortField_m2504957286_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::GetStaticShortField(System.IntPtr,System.IntPtr)");
+	int16_t retVal = _il2cpp_icall_func(___clazz0, ___fieldID1);
+	return retVal;
+}
+// System.Int32 UnityEngine.AndroidJNI::GetStaticIntField(System.IntPtr,System.IntPtr)
+extern "C"  int32_t AndroidJNI_GetStaticIntField_m2065345677 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	typedef int32_t (*AndroidJNI_GetStaticIntField_m2065345677_ftn) (intptr_t, intptr_t);
+	static AndroidJNI_GetStaticIntField_m2065345677_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_GetStaticIntField_m2065345677_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::GetStaticIntField(System.IntPtr,System.IntPtr)");
+	int32_t retVal = _il2cpp_icall_func(___clazz0, ___fieldID1);
+	return retVal;
+}
+// System.Int64 UnityEngine.AndroidJNI::GetStaticLongField(System.IntPtr,System.IntPtr)
+extern "C"  int64_t AndroidJNI_GetStaticLongField_m449804539 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	typedef int64_t (*AndroidJNI_GetStaticLongField_m449804539_ftn) (intptr_t, intptr_t);
+	static AndroidJNI_GetStaticLongField_m449804539_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_GetStaticLongField_m449804539_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::GetStaticLongField(System.IntPtr,System.IntPtr)");
+	int64_t retVal = _il2cpp_icall_func(___clazz0, ___fieldID1);
+	return retVal;
+}
+// System.Single UnityEngine.AndroidJNI::GetStaticFloatField(System.IntPtr,System.IntPtr)
+extern "C"  float AndroidJNI_GetStaticFloatField_m1066649512 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	typedef float (*AndroidJNI_GetStaticFloatField_m1066649512_ftn) (intptr_t, intptr_t);
+	static AndroidJNI_GetStaticFloatField_m1066649512_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_GetStaticFloatField_m1066649512_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::GetStaticFloatField(System.IntPtr,System.IntPtr)");
+	float retVal = _il2cpp_icall_func(___clazz0, ___fieldID1);
+	return retVal;
+}
+// System.Double UnityEngine.AndroidJNI::GetStaticDoubleField(System.IntPtr,System.IntPtr)
+extern "C"  double AndroidJNI_GetStaticDoubleField_m3636144684 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	typedef double (*AndroidJNI_GetStaticDoubleField_m3636144684_ftn) (intptr_t, intptr_t);
+	static AndroidJNI_GetStaticDoubleField_m3636144684_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_GetStaticDoubleField_m3636144684_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::GetStaticDoubleField(System.IntPtr,System.IntPtr)");
+	double retVal = _il2cpp_icall_func(___clazz0, ___fieldID1);
+	return retVal;
+}
+// System.IntPtr UnityEngine.AndroidJNI::ToBooleanArray(System.Boolean[])
+extern "C"  intptr_t AndroidJNI_ToBooleanArray_m750419762 (RuntimeObject * __this /* static, unused */, BooleanU5BU5D_t3568034315* ___array0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		BooleanU5BU5D_t3568034315* L_0 = ___array0;
+		AndroidJNI_INTERNAL_CALL_ToBooleanArray_m2196247008(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_1 = V_0;
+		V_1 = L_1;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_2 = V_1;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToBooleanArray(System.Boolean[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToBooleanArray_m2196247008 (RuntimeObject * __this /* static, unused */, BooleanU5BU5D_t3568034315* ___array0, intptr_t* ___value1, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_ToBooleanArray_m2196247008_ftn) (BooleanU5BU5D_t3568034315*, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_ToBooleanArray_m2196247008_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_ToBooleanArray_m2196247008_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_ToBooleanArray(System.Boolean[],System.IntPtr&)");
+	_il2cpp_icall_func(___array0, ___value1);
+}
+// System.IntPtr UnityEngine.AndroidJNI::ToByteArray(System.Byte[])
+extern "C"  intptr_t AndroidJNI_ToByteArray_m3237688210 (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___array0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		ByteU5BU5D_t3397334013* L_0 = ___array0;
+		AndroidJNI_INTERNAL_CALL_ToByteArray_m2216035424(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_1 = V_0;
+		V_1 = L_1;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_2 = V_1;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToByteArray(System.Byte[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToByteArray_m2216035424 (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___array0, intptr_t* ___value1, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_ToByteArray_m2216035424_ftn) (ByteU5BU5D_t3397334013*, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_ToByteArray_m2216035424_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_ToByteArray_m2216035424_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_ToByteArray(System.Byte[],System.IntPtr&)");
+	_il2cpp_icall_func(___array0, ___value1);
+}
+// System.IntPtr UnityEngine.AndroidJNI::ToCharArray(System.Char[])
+extern "C"  intptr_t AndroidJNI_ToCharArray_m1271039290 (RuntimeObject * __this /* static, unused */, CharU5BU5D_t1328083999* ___array0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		CharU5BU5D_t1328083999* L_0 = ___array0;
+		AndroidJNI_INTERNAL_CALL_ToCharArray_m2207204712(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_1 = V_0;
+		V_1 = L_1;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_2 = V_1;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToCharArray(System.Char[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToCharArray_m2207204712 (RuntimeObject * __this /* static, unused */, CharU5BU5D_t1328083999* ___array0, intptr_t* ___value1, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_ToCharArray_m2207204712_ftn) (CharU5BU5D_t1328083999*, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_ToCharArray_m2207204712_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_ToCharArray_m2207204712_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_ToCharArray(System.Char[],System.IntPtr&)");
+	_il2cpp_icall_func(___array0, ___value1);
+}
+// System.IntPtr UnityEngine.AndroidJNI::ToShortArray(System.Int16[])
+extern "C"  intptr_t AndroidJNI_ToShortArray_m1930515046 (RuntimeObject * __this /* static, unused */, Int16U5BU5D_t3104283263* ___array0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Int16U5BU5D_t3104283263* L_0 = ___array0;
+		AndroidJNI_INTERNAL_CALL_ToShortArray_m145281632(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_1 = V_0;
+		V_1 = L_1;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_2 = V_1;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToShortArray(System.Int16[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToShortArray_m145281632 (RuntimeObject * __this /* static, unused */, Int16U5BU5D_t3104283263* ___array0, intptr_t* ___value1, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_ToShortArray_m145281632_ftn) (Int16U5BU5D_t3104283263*, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_ToShortArray_m145281632_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_ToShortArray_m145281632_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_ToShortArray(System.Int16[],System.IntPtr&)");
+	_il2cpp_icall_func(___array0, ___value1);
+}
+// System.IntPtr UnityEngine.AndroidJNI::ToIntArray(System.Int32[])
+extern "C"  intptr_t AndroidJNI_ToIntArray_m4152736571 (RuntimeObject * __this /* static, unused */, Int32U5BU5D_t3030399641* ___array0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Int32U5BU5D_t3030399641* L_0 = ___array0;
+		AndroidJNI_INTERNAL_CALL_ToIntArray_m856804263(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_1 = V_0;
+		V_1 = L_1;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_2 = V_1;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToIntArray(System.Int32[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToIntArray_m856804263 (RuntimeObject * __this /* static, unused */, Int32U5BU5D_t3030399641* ___array0, intptr_t* ___value1, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_ToIntArray_m856804263_ftn) (Int32U5BU5D_t3030399641*, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_ToIntArray_m856804263_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_ToIntArray_m856804263_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_ToIntArray(System.Int32[],System.IntPtr&)");
+	_il2cpp_icall_func(___array0, ___value1);
+}
+// System.IntPtr UnityEngine.AndroidJNI::ToLongArray(System.Int64[])
+extern "C"  intptr_t AndroidJNI_ToLongArray_m3699382049 (RuntimeObject * __this /* static, unused */, Int64U5BU5D_t717125112* ___array0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Int64U5BU5D_t717125112* L_0 = ___array0;
+		AndroidJNI_INTERNAL_CALL_ToLongArray_m3674462701(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_1 = V_0;
+		V_1 = L_1;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_2 = V_1;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToLongArray(System.Int64[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToLongArray_m3674462701 (RuntimeObject * __this /* static, unused */, Int64U5BU5D_t717125112* ___array0, intptr_t* ___value1, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_ToLongArray_m3674462701_ftn) (Int64U5BU5D_t717125112*, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_ToLongArray_m3674462701_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_ToLongArray_m3674462701_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_ToLongArray(System.Int64[],System.IntPtr&)");
+	_il2cpp_icall_func(___array0, ___value1);
+}
+// System.IntPtr UnityEngine.AndroidJNI::ToFloatArray(System.Single[])
+extern "C"  intptr_t AndroidJNI_ToFloatArray_m2619761402 (RuntimeObject * __this /* static, unused */, SingleU5BU5D_t577127397* ___array0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		SingleU5BU5D_t577127397* L_0 = ___array0;
+		AndroidJNI_INTERNAL_CALL_ToFloatArray_m4014106884(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_1 = V_0;
+		V_1 = L_1;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_2 = V_1;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToFloatArray(System.Single[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToFloatArray_m4014106884 (RuntimeObject * __this /* static, unused */, SingleU5BU5D_t577127397* ___array0, intptr_t* ___value1, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_ToFloatArray_m4014106884_ftn) (SingleU5BU5D_t577127397*, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_ToFloatArray_m4014106884_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_ToFloatArray_m4014106884_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_ToFloatArray(System.Single[],System.IntPtr&)");
+	_il2cpp_icall_func(___array0, ___value1);
+}
+// System.IntPtr UnityEngine.AndroidJNI::ToDoubleArray(System.Double[])
+extern "C"  intptr_t AndroidJNI_ToDoubleArray_m808183080 (RuntimeObject * __this /* static, unused */, DoubleU5BU5D_t1889952540* ___array0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		DoubleU5BU5D_t1889952540* L_0 = ___array0;
+		AndroidJNI_INTERNAL_CALL_ToDoubleArray_m1956593850(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_1 = V_0;
+		V_1 = L_1;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_2 = V_1;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToDoubleArray(System.Double[],System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToDoubleArray_m1956593850 (RuntimeObject * __this /* static, unused */, DoubleU5BU5D_t1889952540* ___array0, intptr_t* ___value1, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_ToDoubleArray_m1956593850_ftn) (DoubleU5BU5D_t1889952540*, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_ToDoubleArray_m1956593850_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_ToDoubleArray_m1956593850_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_ToDoubleArray(System.Double[],System.IntPtr&)");
+	_il2cpp_icall_func(___array0, ___value1);
+}
+// System.IntPtr UnityEngine.AndroidJNI::ToObjectArray(System.IntPtr[],System.IntPtr)
+extern "C"  intptr_t AndroidJNI_ToObjectArray_m1798746026 (RuntimeObject * __this /* static, unused */, IntPtrU5BU5D_t169632028* ___array0, intptr_t ___arrayClass1, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		IntPtrU5BU5D_t169632028* L_0 = ___array0;
+		intptr_t L_1 = ___arrayClass1;
+		AndroidJNI_INTERNAL_CALL_ToObjectArray_m3696508252(NULL /*static, unused*/, L_0, L_1, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_2 = V_0;
+		V_1 = L_2;
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		intptr_t L_3 = V_1;
+		return L_3;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_ToObjectArray(System.IntPtr[],System.IntPtr,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_ToObjectArray_m3696508252 (RuntimeObject * __this /* static, unused */, IntPtrU5BU5D_t169632028* ___array0, intptr_t ___arrayClass1, intptr_t* ___value2, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_ToObjectArray_m3696508252_ftn) (IntPtrU5BU5D_t169632028*, intptr_t, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_ToObjectArray_m3696508252_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_ToObjectArray_m3696508252_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_ToObjectArray(System.IntPtr[],System.IntPtr,System.IntPtr&)");
+	_il2cpp_icall_func(___array0, ___arrayClass1, ___value2);
+}
+// System.Boolean[] UnityEngine.AndroidJNI::FromBooleanArray(System.IntPtr)
+extern "C"  BooleanU5BU5D_t3568034315* AndroidJNI_FromBooleanArray_m3557280903 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	typedef BooleanU5BU5D_t3568034315* (*AndroidJNI_FromBooleanArray_m3557280903_ftn) (intptr_t);
+	static AndroidJNI_FromBooleanArray_m3557280903_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_FromBooleanArray_m3557280903_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::FromBooleanArray(System.IntPtr)");
+	BooleanU5BU5D_t3568034315* retVal = _il2cpp_icall_func(___array0);
+	return retVal;
+}
+// System.Byte[] UnityEngine.AndroidJNI::FromByteArray(System.IntPtr)
+extern "C"  ByteU5BU5D_t3397334013* AndroidJNI_FromByteArray_m3347999875 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	typedef ByteU5BU5D_t3397334013* (*AndroidJNI_FromByteArray_m3347999875_ftn) (intptr_t);
+	static AndroidJNI_FromByteArray_m3347999875_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_FromByteArray_m3347999875_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::FromByteArray(System.IntPtr)");
+	ByteU5BU5D_t3397334013* retVal = _il2cpp_icall_func(___array0);
+	return retVal;
+}
+// System.Char[] UnityEngine.AndroidJNI::FromCharArray(System.IntPtr)
+extern "C"  CharU5BU5D_t1328083999* AndroidJNI_FromCharArray_m2321500395 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	typedef CharU5BU5D_t1328083999* (*AndroidJNI_FromCharArray_m2321500395_ftn) (intptr_t);
+	static AndroidJNI_FromCharArray_m2321500395_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_FromCharArray_m2321500395_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::FromCharArray(System.IntPtr)");
+	CharU5BU5D_t1328083999* retVal = _il2cpp_icall_func(___array0);
+	return retVal;
+}
+// System.Int16[] UnityEngine.AndroidJNI::FromShortArray(System.IntPtr)
+extern "C"  Int16U5BU5D_t3104283263* AndroidJNI_FromShortArray_m1687805337 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	typedef Int16U5BU5D_t3104283263* (*AndroidJNI_FromShortArray_m1687805337_ftn) (intptr_t);
+	static AndroidJNI_FromShortArray_m1687805337_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_FromShortArray_m1687805337_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::FromShortArray(System.IntPtr)");
+	Int16U5BU5D_t3104283263* retVal = _il2cpp_icall_func(___array0);
+	return retVal;
+}
+// System.Int32[] UnityEngine.AndroidJNI::FromIntArray(System.IntPtr)
+extern "C"  Int32U5BU5D_t3030399641* AndroidJNI_FromIntArray_m1124849508 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	typedef Int32U5BU5D_t3030399641* (*AndroidJNI_FromIntArray_m1124849508_ftn) (intptr_t);
+	static AndroidJNI_FromIntArray_m1124849508_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_FromIntArray_m1124849508_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::FromIntArray(System.IntPtr)");
+	Int32U5BU5D_t3030399641* retVal = _il2cpp_icall_func(___array0);
+	return retVal;
+}
+// System.Int64[] UnityEngine.AndroidJNI::FromLongArray(System.IntPtr)
+extern "C"  Int64U5BU5D_t717125112* AndroidJNI_FromLongArray_m2895187476 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	typedef Int64U5BU5D_t717125112* (*AndroidJNI_FromLongArray_m2895187476_ftn) (intptr_t);
+	static AndroidJNI_FromLongArray_m2895187476_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_FromLongArray_m2895187476_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::FromLongArray(System.IntPtr)");
+	Int64U5BU5D_t717125112* retVal = _il2cpp_icall_func(___array0);
+	return retVal;
+}
+// System.Single[] UnityEngine.AndroidJNI::FromFloatArray(System.IntPtr)
+extern "C"  SingleU5BU5D_t577127397* AndroidJNI_FromFloatArray_m2229045909 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	typedef SingleU5BU5D_t577127397* (*AndroidJNI_FromFloatArray_m2229045909_ftn) (intptr_t);
+	static AndroidJNI_FromFloatArray_m2229045909_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_FromFloatArray_m2229045909_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::FromFloatArray(System.IntPtr)");
+	SingleU5BU5D_t577127397* retVal = _il2cpp_icall_func(___array0);
+	return retVal;
+}
+// System.Double[] UnityEngine.AndroidJNI::FromDoubleArray(System.IntPtr)
+extern "C"  DoubleU5BU5D_t1889952540* AndroidJNI_FromDoubleArray_m2146626199 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	typedef DoubleU5BU5D_t1889952540* (*AndroidJNI_FromDoubleArray_m2146626199_ftn) (intptr_t);
+	static AndroidJNI_FromDoubleArray_m2146626199_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_FromDoubleArray_m2146626199_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::FromDoubleArray(System.IntPtr)");
+	DoubleU5BU5D_t1889952540* retVal = _il2cpp_icall_func(___array0);
+	return retVal;
+}
+// System.Int32 UnityEngine.AndroidJNI::GetArrayLength(System.IntPtr)
+extern "C"  int32_t AndroidJNI_GetArrayLength_m835991335 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	typedef int32_t (*AndroidJNI_GetArrayLength_m835991335_ftn) (intptr_t);
+	static AndroidJNI_GetArrayLength_m835991335_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_GetArrayLength_m835991335_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::GetArrayLength(System.IntPtr)");
+	int32_t retVal = _il2cpp_icall_func(___array0);
+	return retVal;
+}
+// System.IntPtr UnityEngine.AndroidJNI::NewObjectArray(System.Int32,System.IntPtr,System.IntPtr)
+extern "C"  intptr_t AndroidJNI_NewObjectArray_m2402556372 (RuntimeObject * __this /* static, unused */, int32_t ___size0, intptr_t ___clazz1, intptr_t ___obj2, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		int32_t L_0 = ___size0;
+		intptr_t L_1 = ___clazz1;
+		intptr_t L_2 = ___obj2;
+		AndroidJNI_INTERNAL_CALL_NewObjectArray_m3561069850(NULL /*static, unused*/, L_0, L_1, L_2, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		intptr_t L_4 = V_1;
+		return L_4;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_NewObjectArray(System.Int32,System.IntPtr,System.IntPtr,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_NewObjectArray_m3561069850 (RuntimeObject * __this /* static, unused */, int32_t ___size0, intptr_t ___clazz1, intptr_t ___obj2, intptr_t* ___value3, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_NewObjectArray_m3561069850_ftn) (int32_t, intptr_t, intptr_t, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_NewObjectArray_m3561069850_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_NewObjectArray_m3561069850_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_NewObjectArray(System.Int32,System.IntPtr,System.IntPtr,System.IntPtr&)");
+	_il2cpp_icall_func(___size0, ___clazz1, ___obj2, ___value3);
+}
+// System.IntPtr UnityEngine.AndroidJNI::GetObjectArrayElement(System.IntPtr,System.Int32)
+extern "C"  intptr_t AndroidJNI_GetObjectArrayElement_m2469306034 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, int32_t ___index1, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		intptr_t L_0 = ___array0;
+		int32_t L_1 = ___index1;
+		AndroidJNI_INTERNAL_CALL_GetObjectArrayElement_m879074536(NULL /*static, unused*/, L_0, L_1, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_2 = V_0;
+		V_1 = L_2;
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		intptr_t L_3 = V_1;
+		return L_3;
+	}
+}
+// System.Void UnityEngine.AndroidJNI::INTERNAL_CALL_GetObjectArrayElement(System.IntPtr,System.Int32,System.IntPtr&)
+extern "C"  void AndroidJNI_INTERNAL_CALL_GetObjectArrayElement_m879074536 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, int32_t ___index1, intptr_t* ___value2, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_INTERNAL_CALL_GetObjectArrayElement_m879074536_ftn) (intptr_t, int32_t, intptr_t*);
+	static AndroidJNI_INTERNAL_CALL_GetObjectArrayElement_m879074536_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_INTERNAL_CALL_GetObjectArrayElement_m879074536_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::INTERNAL_CALL_GetObjectArrayElement(System.IntPtr,System.Int32,System.IntPtr&)");
+	_il2cpp_icall_func(___array0, ___index1, ___value2);
+}
+// System.Void UnityEngine.AndroidJNI::SetObjectArrayElement(System.IntPtr,System.Int32,System.IntPtr)
+extern "C"  void AndroidJNI_SetObjectArrayElement_m3793290321 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, int32_t ___index1, intptr_t ___obj2, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNI_SetObjectArrayElement_m3793290321_ftn) (intptr_t, int32_t, intptr_t);
+	static AndroidJNI_SetObjectArrayElement_m3793290321_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNI_SetObjectArrayElement_m3793290321_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNI::SetObjectArrayElement(System.IntPtr,System.Int32,System.IntPtr)");
+	_il2cpp_icall_func(___array0, ___index1, ___obj2);
+}
+// System.IntPtr UnityEngine.AndroidJNIHelper::GetMethodID(System.IntPtr,System.String,System.String,System.Boolean)
+extern "C"  intptr_t AndroidJNIHelper_GetMethodID_m2208893354 (RuntimeObject * __this /* static, unused */, intptr_t ___javaClass0, String_t* ___methodName1, String_t* ___signature2, bool ___isStatic3, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		intptr_t L_0 = ___javaClass0;
+		String_t* L_1 = ___methodName1;
+		String_t* L_2 = ___signature2;
+		bool L_3 = ___isStatic3;
+		intptr_t L_4 = _AndroidJNIHelper_GetMethodID_m48644625(NULL /*static, unused*/, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_5 = V_0;
+		return L_5;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNIHelper::GetFieldID(System.IntPtr,System.String,System.String,System.Boolean)
+extern "C"  intptr_t AndroidJNIHelper_GetFieldID_m1606707387 (RuntimeObject * __this /* static, unused */, intptr_t ___javaClass0, String_t* ___fieldName1, String_t* ___signature2, bool ___isStatic3, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		intptr_t L_0 = ___javaClass0;
+		String_t* L_1 = ___fieldName1;
+		String_t* L_2 = ___signature2;
+		bool L_3 = ___isStatic3;
+		intptr_t L_4 = _AndroidJNIHelper_GetFieldID_m87082942(NULL /*static, unused*/, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_5 = V_0;
+		return L_5;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNIHelper::CreateJavaRunnable(UnityEngine.AndroidJavaRunnable)
+extern "C"  intptr_t AndroidJNIHelper_CreateJavaRunnable_m1726501095 (RuntimeObject * __this /* static, unused */, AndroidJavaRunnable_t3501776228 * ___jrunnable0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		AndroidJavaRunnable_t3501776228 * L_0 = ___jrunnable0;
+		intptr_t L_1 = _AndroidJNIHelper_CreateJavaRunnable_m1167962646(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNIHelper::CreateJavaProxy(UnityEngine.AndroidJavaProxy)
+extern "C"  intptr_t AndroidJNIHelper_CreateJavaProxy_m3365062511 (RuntimeObject * __this /* static, unused */, AndroidJavaProxy_t4274989947 * ___proxy0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		AndroidJavaProxy_t4274989947 * L_0 = ___proxy0;
+		AndroidJNIHelper_INTERNAL_CALL_CreateJavaProxy_m2393073275(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		intptr_t L_1 = V_0;
+		V_1 = L_1;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		intptr_t L_2 = V_1;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AndroidJNIHelper::INTERNAL_CALL_CreateJavaProxy(UnityEngine.AndroidJavaProxy,System.IntPtr&)
+extern "C"  void AndroidJNIHelper_INTERNAL_CALL_CreateJavaProxy_m2393073275 (RuntimeObject * __this /* static, unused */, AndroidJavaProxy_t4274989947 * ___proxy0, intptr_t* ___value1, const RuntimeMethod* method)
+{
+	typedef void (*AndroidJNIHelper_INTERNAL_CALL_CreateJavaProxy_m2393073275_ftn) (AndroidJavaProxy_t4274989947 *, intptr_t*);
+	static AndroidJNIHelper_INTERNAL_CALL_CreateJavaProxy_m2393073275_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AndroidJNIHelper_INTERNAL_CALL_CreateJavaProxy_m2393073275_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AndroidJNIHelper::INTERNAL_CALL_CreateJavaProxy(UnityEngine.AndroidJavaProxy,System.IntPtr&)");
+	_il2cpp_icall_func(___proxy0, ___value1);
+}
+// UnityEngine.jvalue[] UnityEngine.AndroidJNIHelper::CreateJNIArgArray(System.Object[])
+extern "C"  jvalueU5BU5D_t2851849116* AndroidJNIHelper_CreateJNIArgArray_m3233595457 (RuntimeObject * __this /* static, unused */, ObjectU5BU5D_t3614634134* ___args0, const RuntimeMethod* method)
+{
+	jvalueU5BU5D_t2851849116* V_0 = NULL;
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ___args0;
+		jvalueU5BU5D_t2851849116* L_1 = _AndroidJNIHelper_CreateJNIArgArray_m755788980(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		jvalueU5BU5D_t2851849116* L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AndroidJNIHelper::DeleteJNIArgArray(System.Object[],UnityEngine.jvalue[])
+extern "C"  void AndroidJNIHelper_DeleteJNIArgArray_m4088890563 (RuntimeObject * __this /* static, unused */, ObjectU5BU5D_t3614634134* ___args0, jvalueU5BU5D_t2851849116* ___jniArgs1, const RuntimeMethod* method)
+{
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ___args0;
+		jvalueU5BU5D_t2851849116* L_1 = ___jniArgs1;
+		_AndroidJNIHelper_DeleteJNIArgArray_m338095364(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.AndroidJNISafe::CheckException()
+extern "C"  void AndroidJNISafe_CheckException_m82304878 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJNISafe_CheckException_m82304878_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	intptr_t V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	intptr_t V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	intptr_t V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	String_t* V_5 = NULL;
+	jvalueU5BU5D_t2851849116* V_6 = NULL;
+	String_t* V_7 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		intptr_t L_0 = AndroidJNI_ExceptionOccurred_m1192906445(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		intptr_t L_1 = V_0;
+		bool L_2 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_1, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		AndroidJNI_ExceptionClear_m2810080104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		intptr_t L_3 = AndroidJNI_FindClass_m1146941316(NULL /*static, unused*/, _stringLiteral4064556528, /*hidden argument*/NULL);
+		V_1 = L_3;
+		intptr_t L_4 = AndroidJNI_FindClass_m1146941316(NULL /*static, unused*/, _stringLiteral3319546259, /*hidden argument*/NULL);
+		V_2 = L_4;
+	}
+
+IL_0033:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_5 = V_1;
+		intptr_t L_6 = AndroidJNI_GetMethodID_m3579635507(NULL /*static, unused*/, L_5, _stringLiteral3402209166, _stringLiteral1065346679, /*hidden argument*/NULL);
+		V_3 = L_6;
+		intptr_t L_7 = V_2;
+		intptr_t L_8 = AndroidJNI_GetStaticMethodID_m2111902847(NULL /*static, unused*/, L_7, _stringLiteral3750514094, _stringLiteral2125248748, /*hidden argument*/NULL);
+		V_4 = L_8;
+		intptr_t L_9 = V_0;
+		intptr_t L_10 = V_3;
+		String_t* L_11 = AndroidJNI_CallStringMethod_m547855981(NULL /*static, unused*/, L_9, L_10, ((jvalueU5BU5D_t2851849116*)SZArrayNew(jvalueU5BU5D_t2851849116_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		V_5 = L_11;
+		V_6 = ((jvalueU5BU5D_t2851849116*)SZArrayNew(jvalueU5BU5D_t2851849116_il2cpp_TypeInfo_var, (uint32_t)1));
+		jvalueU5BU5D_t2851849116* L_12 = V_6;
+		NullCheck(L_12);
+		intptr_t L_13 = V_0;
+		((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->set_l_8(L_13);
+		intptr_t L_14 = V_2;
+		intptr_t L_15 = V_4;
+		jvalueU5BU5D_t2851849116* L_16 = V_6;
+		String_t* L_17 = AndroidJNI_CallStaticStringMethod_m685687621(NULL /*static, unused*/, L_14, L_15, L_16, /*hidden argument*/NULL);
+		V_7 = L_17;
+		String_t* L_18 = V_5;
+		String_t* L_19 = V_7;
+		AndroidJavaException_t3997329726 * L_20 = (AndroidJavaException_t3997329726 *)il2cpp_codegen_object_new(AndroidJavaException_t3997329726_il2cpp_TypeInfo_var);
+		AndroidJavaException__ctor_m2816600416(L_20, L_18, L_19, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_20);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0092;
+	}
+
+FINALLY_0092:
+	{ // begin finally (depth: 1)
+		intptr_t L_21 = V_0;
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
+		intptr_t L_22 = V_1;
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
+		intptr_t L_23 = V_2;
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(146)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(146)
+	{
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00a7:
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.AndroidJNISafe::DeleteGlobalRef(System.IntPtr)
+extern "C"  void AndroidJNISafe_DeleteGlobalRef_m861434196 (RuntimeObject * __this /* static, unused */, intptr_t ___globalref0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJNISafe_DeleteGlobalRef_m861434196_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		intptr_t L_0 = ___globalref0;
+		bool L_1 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_0, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		intptr_t L_2 = ___globalref0;
+		AndroidJNI_DeleteGlobalRef_m1492528849(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.AndroidJNISafe::DeleteLocalRef(System.IntPtr)
+extern "C"  void AndroidJNISafe_DeleteLocalRef_m1703488126 (RuntimeObject * __this /* static, unused */, intptr_t ___localref0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJNISafe_DeleteLocalRef_m1703488126_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		intptr_t L_0 = ___localref0;
+		bool L_1 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_0, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		intptr_t L_2 = ___localref0;
+		AndroidJNI_DeleteLocalRef_m1035010755(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::NewStringUTF(System.String)
+extern "C"  intptr_t AndroidJNISafe_NewStringUTF_m4052253704 (RuntimeObject * __this /* static, unused */, String_t* ___bytes0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		String_t* L_0 = ___bytes0;
+		intptr_t L_1 = AndroidJNI_NewStringUTF_m294318221(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.String UnityEngine.AndroidJNISafe::GetStringUTFChars(System.IntPtr)
+extern "C"  String_t* AndroidJNISafe_GetStringUTFChars_m2080779641 (RuntimeObject * __this /* static, unused */, intptr_t ___str0, const RuntimeMethod* method)
+{
+	String_t* V_0 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___str0;
+		String_t* L_1 = AndroidJNI_GetStringUTFChars_m3395974110(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		String_t* L_2 = V_0;
+		return L_2;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::GetObjectClass(System.IntPtr)
+extern "C"  intptr_t AndroidJNISafe_GetObjectClass_m2887862559 (RuntimeObject * __this /* static, unused */, intptr_t ___ptr0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___ptr0;
+		intptr_t L_1 = AndroidJNI_GetObjectClass_m3593789028(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::GetStaticMethodID(System.IntPtr,System.String,System.String)
+extern "C"  intptr_t AndroidJNISafe_GetStaticMethodID_m3181930180 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		String_t* L_1 = ___name1;
+		String_t* L_2 = ___sig2;
+		intptr_t L_3 = AndroidJNI_GetStaticMethodID_m2111902847(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		intptr_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::GetMethodID(System.IntPtr,System.String,System.String)
+extern "C"  intptr_t AndroidJNISafe_GetMethodID_m1407924750 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, String_t* ___name1, String_t* ___sig2, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___obj0;
+		String_t* L_1 = ___name1;
+		String_t* L_2 = ___sig2;
+		intptr_t L_3 = AndroidJNI_GetMethodID_m3579635507(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		intptr_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::GetFieldID(System.IntPtr,System.String,System.String)
+extern "C"  intptr_t AndroidJNISafe_GetFieldID_m3368735691 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		String_t* L_1 = ___name1;
+		String_t* L_2 = ___sig2;
+		intptr_t L_3 = AndroidJNI_GetFieldID_m3868917208(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		intptr_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::GetStaticFieldID(System.IntPtr,System.String,System.String)
+extern "C"  intptr_t AndroidJNISafe_GetStaticFieldID_m4129374031 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, String_t* ___name1, String_t* ___sig2, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		String_t* L_1 = ___name1;
+		String_t* L_2 = ___sig2;
+		intptr_t L_3 = AndroidJNI_GetStaticFieldID_m945802290(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		intptr_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::FromReflectedMethod(System.IntPtr)
+extern "C"  intptr_t AndroidJNISafe_FromReflectedMethod_m3036131625 (RuntimeObject * __this /* static, unused */, intptr_t ___refMethod0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___refMethod0;
+		intptr_t L_1 = AndroidJNI_FromReflectedMethod_m3489882308(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::FromReflectedField(System.IntPtr)
+extern "C"  intptr_t AndroidJNISafe_FromReflectedField_m1154452628 (RuntimeObject * __this /* static, unused */, intptr_t ___refField0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___refField0;
+		intptr_t L_1 = AndroidJNI_FromReflectedField_m1586104961(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::FindClass(System.String)
+extern "C"  intptr_t AndroidJNISafe_FindClass_m575048497 (RuntimeObject * __this /* static, unused */, String_t* ___name0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		String_t* L_0 = ___name0;
+		intptr_t L_1 = AndroidJNI_FindClass_m1146941316(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::GetStaticObjectField(System.IntPtr,System.IntPtr)
+extern "C"  intptr_t AndroidJNISafe_GetStaticObjectField_m2920910817 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___fieldID1;
+		intptr_t L_2 = AndroidJNI_GetStaticObjectField_m1117681310(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		IL2CPP_LEAVE(0x17, FINALLY_000f);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000f;
+	}
+
+FINALLY_000f:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(15)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(15)
+	{
+		IL2CPP_JUMP_TBL(0x17, IL_0017)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0017:
+	{
+		intptr_t L_3 = V_0;
+		return L_3;
+	}
+}
+// System.String UnityEngine.AndroidJNISafe::GetStaticStringField(System.IntPtr,System.IntPtr)
+extern "C"  String_t* AndroidJNISafe_GetStaticStringField_m66813609 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	String_t* V_0 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___fieldID1;
+		String_t* L_2 = AndroidJNI_GetStaticStringField_m981156460(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		IL2CPP_LEAVE(0x17, FINALLY_000f);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000f;
+	}
+
+FINALLY_000f:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(15)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(15)
+	{
+		IL2CPP_JUMP_TBL(0x17, IL_0017)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0017:
+	{
+		String_t* L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Char UnityEngine.AndroidJNISafe::GetStaticCharField(System.IntPtr,System.IntPtr)
+extern "C"  Il2CppChar AndroidJNISafe_GetStaticCharField_m3944047593 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	Il2CppChar V_0 = 0x0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___fieldID1;
+		Il2CppChar L_2 = AndroidJNI_GetStaticCharField_m1307137100(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		IL2CPP_LEAVE(0x17, FINALLY_000f);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000f;
+	}
+
+FINALLY_000f:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(15)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(15)
+	{
+		IL2CPP_JUMP_TBL(0x17, IL_0017)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0017:
+	{
+		Il2CppChar L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Double UnityEngine.AndroidJNISafe::GetStaticDoubleField(System.IntPtr,System.IntPtr)
+extern "C"  double AndroidJNISafe_GetStaticDoubleField_m130030825 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	double V_0 = 0.0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___fieldID1;
+		double L_2 = AndroidJNI_GetStaticDoubleField_m3636144684(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		IL2CPP_LEAVE(0x17, FINALLY_000f);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000f;
+	}
+
+FINALLY_000f:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(15)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(15)
+	{
+		IL2CPP_JUMP_TBL(0x17, IL_0017)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0017:
+	{
+		double L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Single UnityEngine.AndroidJNISafe::GetStaticFloatField(System.IntPtr,System.IntPtr)
+extern "C"  float AndroidJNISafe_GetStaticFloatField_m2013015291 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	float V_0 = 0.0f;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___fieldID1;
+		float L_2 = AndroidJNI_GetStaticFloatField_m1066649512(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		IL2CPP_LEAVE(0x17, FINALLY_000f);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000f;
+	}
+
+FINALLY_000f:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(15)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(15)
+	{
+		IL2CPP_JUMP_TBL(0x17, IL_0017)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0017:
+	{
+		float L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Int64 UnityEngine.AndroidJNISafe::GetStaticLongField(System.IntPtr,System.IntPtr)
+extern "C"  int64_t AndroidJNISafe_GetStaticLongField_m2830969202 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	int64_t V_0 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___fieldID1;
+		int64_t L_2 = AndroidJNI_GetStaticLongField_m449804539(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		IL2CPP_LEAVE(0x17, FINALLY_000f);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000f;
+	}
+
+FINALLY_000f:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(15)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(15)
+	{
+		IL2CPP_JUMP_TBL(0x17, IL_0017)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0017:
+	{
+		int64_t L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Int16 UnityEngine.AndroidJNISafe::GetStaticShortField(System.IntPtr,System.IntPtr)
+extern "C"  int16_t AndroidJNISafe_GetStaticShortField_m3699096839 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	int16_t V_0 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___fieldID1;
+		int16_t L_2 = AndroidJNI_GetStaticShortField_m2504957286(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		IL2CPP_LEAVE(0x17, FINALLY_000f);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000f;
+	}
+
+FINALLY_000f:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(15)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(15)
+	{
+		IL2CPP_JUMP_TBL(0x17, IL_0017)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0017:
+	{
+		int16_t L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Byte UnityEngine.AndroidJNISafe::GetStaticByteField(System.IntPtr,System.IntPtr)
+extern "C"  uint8_t AndroidJNISafe_GetStaticByteField_m1363061545 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	uint8_t V_0 = 0x0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___fieldID1;
+		uint8_t L_2 = AndroidJNI_GetStaticByteField_m2854778764(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		IL2CPP_LEAVE(0x17, FINALLY_000f);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000f;
+	}
+
+FINALLY_000f:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(15)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(15)
+	{
+		IL2CPP_JUMP_TBL(0x17, IL_0017)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0017:
+	{
+		uint8_t L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Boolean UnityEngine.AndroidJNISafe::GetStaticBooleanField(System.IntPtr,System.IntPtr)
+extern "C"  bool AndroidJNISafe_GetStaticBooleanField_m2913840925 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___fieldID1;
+		bool L_2 = AndroidJNI_GetStaticBooleanField_m1495909062(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		IL2CPP_LEAVE(0x17, FINALLY_000f);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000f;
+	}
+
+FINALLY_000f:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(15)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(15)
+	{
+		IL2CPP_JUMP_TBL(0x17, IL_0017)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0017:
+	{
+		bool L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Int32 UnityEngine.AndroidJNISafe::GetStaticIntField(System.IntPtr,System.IntPtr)
+extern "C"  int32_t AndroidJNISafe_GetStaticIntField_m626825302 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___fieldID1, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___fieldID1;
+		int32_t L_2 = AndroidJNI_GetStaticIntField_m2065345677(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		IL2CPP_LEAVE(0x17, FINALLY_000f);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000f;
+	}
+
+FINALLY_000f:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(15)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(15)
+	{
+		IL2CPP_JUMP_TBL(0x17, IL_0017)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0017:
+	{
+		int32_t L_3 = V_0;
+		return L_3;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::CallStaticObjectMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  intptr_t AndroidJNISafe_CallStaticObjectMethod_m4041205290 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		intptr_t L_3 = AndroidJNI_CallStaticObjectMethod_m3143657157(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		intptr_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.String UnityEngine.AndroidJNISafe::CallStaticStringMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  String_t* AndroidJNISafe_CallStaticStringMethod_m2789442272 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	String_t* V_0 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		String_t* L_3 = AndroidJNI_CallStaticStringMethod_m685687621(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		String_t* L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Char UnityEngine.AndroidJNISafe::CallStaticCharMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  Il2CppChar AndroidJNISafe_CallStaticCharMethod_m3997165894 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	Il2CppChar V_0 = 0x0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		Il2CppChar L_3 = AndroidJNI_CallStaticCharMethod_m1437246625(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		Il2CppChar L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Double UnityEngine.AndroidJNISafe::CallStaticDoubleMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  double AndroidJNISafe_CallStaticDoubleMethod_m1509326880 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	double V_0 = 0.0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		double L_3 = AndroidJNI_CallStaticDoubleMethod_m1517028101(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		double L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Single UnityEngine.AndroidJNISafe::CallStaticFloatMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  float AndroidJNISafe_CallStaticFloatMethod_m3693956060 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	float V_0 = 0.0f;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		float L_3 = AndroidJNI_CallStaticFloatMethod_m1028835415(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Int64 UnityEngine.AndroidJNISafe::CallStaticLongMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int64_t AndroidJNISafe_CallStaticLongMethod_m1197470715 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	int64_t V_0 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		int64_t L_3 = AndroidJNI_CallStaticLongMethod_m4241166332(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		int64_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Int16 UnityEngine.AndroidJNISafe::CallStaticShortMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int16_t AndroidJNISafe_CallStaticShortMethod_m1214467386 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	int16_t V_0 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		int16_t L_3 = AndroidJNI_CallStaticShortMethod_m3785564051(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		int16_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Byte UnityEngine.AndroidJNISafe::CallStaticByteMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  uint8_t AndroidJNISafe_CallStaticByteMethod_m2205844442 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	uint8_t V_0 = 0x0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		uint8_t L_3 = AndroidJNI_CallStaticByteMethod_m2566359189(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		uint8_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Boolean UnityEngine.AndroidJNISafe::CallStaticBooleanMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  bool AndroidJNISafe_CallStaticBooleanMethod_m3537560618 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		bool L_3 = AndroidJNI_CallStaticBooleanMethod_m1186985673(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		bool L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Int32 UnityEngine.AndroidJNISafe::CallStaticIntMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int32_t AndroidJNISafe_CallStaticIntMethod_m1207822993 (RuntimeObject * __this /* static, unused */, intptr_t ___clazz0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___clazz0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		int32_t L_3 = AndroidJNI_CallStaticIntMethod_m1992515728(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		int32_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::CallObjectMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  intptr_t AndroidJNISafe_CallObjectMethod_m1435936952 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___obj0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		intptr_t L_3 = AndroidJNI_CallObjectMethod_m1663510685(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		intptr_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.String UnityEngine.AndroidJNISafe::CallStringMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  String_t* AndroidJNISafe_CallStringMethod_m798987666 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	String_t* V_0 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___obj0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		String_t* L_3 = AndroidJNI_CallStringMethod_m547855981(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		String_t* L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Char UnityEngine.AndroidJNISafe::CallCharMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  Il2CppChar AndroidJNISafe_CallCharMethod_m1304176316 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	Il2CppChar V_0 = 0x0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___obj0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		Il2CppChar L_3 = AndroidJNI_CallCharMethod_m2997962145(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		Il2CppChar L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Double UnityEngine.AndroidJNISafe::CallDoubleMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  double AndroidJNISafe_CallDoubleMethod_m2523391122 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	double V_0 = 0.0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___obj0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		double L_3 = AndroidJNI_CallDoubleMethod_m3941989741(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		double L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Single UnityEngine.AndroidJNISafe::CallFloatMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  float AndroidJNISafe_CallFloatMethod_m1208832454 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	float V_0 = 0.0f;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___obj0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		float L_3 = AndroidJNI_CallFloatMethod_m2845733963(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Int64 UnityEngine.AndroidJNISafe::CallLongMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int64_t AndroidJNISafe_CallLongMethod_m3789253719 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	int64_t V_0 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___obj0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		int64_t L_3 = AndroidJNI_CallLongMethod_m2831046166(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		int64_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Int16 UnityEngine.AndroidJNISafe::CallShortMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int16_t AndroidJNISafe_CallShortMethod_m3677886592 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	int16_t V_0 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___obj0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		int16_t L_3 = AndroidJNI_CallShortMethod_m1466041431(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		int16_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Byte UnityEngine.AndroidJNISafe::CallByteMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  uint8_t AndroidJNISafe_CallByteMethod_m1382808392 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	uint8_t V_0 = 0x0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___obj0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		uint8_t L_3 = AndroidJNI_CallByteMethod_m1552664141(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		uint8_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Boolean UnityEngine.AndroidJNISafe::CallBooleanMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  bool AndroidJNISafe_CallBooleanMethod_m972340072 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___obj0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		bool L_3 = AndroidJNI_CallBooleanMethod_m466615625(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		bool L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Int32 UnityEngine.AndroidJNISafe::CallIntMethod(System.IntPtr,System.IntPtr,UnityEngine.jvalue[])
+extern "C"  int32_t AndroidJNISafe_CallIntMethod_m1439635681 (RuntimeObject * __this /* static, unused */, intptr_t ___obj0, intptr_t ___methodID1, jvalueU5BU5D_t2851849116* ___args2, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___obj0;
+		intptr_t L_1 = ___methodID1;
+		jvalueU5BU5D_t2851849116* L_2 = ___args2;
+		int32_t L_3 = AndroidJNI_CallIntMethod_m3811935778(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		IL2CPP_LEAVE(0x18, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_JUMP_TBL(0x18, IL_0018)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0018:
+	{
+		int32_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Char[] UnityEngine.AndroidJNISafe::FromCharArray(System.IntPtr)
+extern "C"  CharU5BU5D_t1328083999* AndroidJNISafe_FromCharArray_m2335913126 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	CharU5BU5D_t1328083999* V_0 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___array0;
+		CharU5BU5D_t1328083999* L_1 = AndroidJNI_FromCharArray_m2321500395(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		CharU5BU5D_t1328083999* L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Double[] UnityEngine.AndroidJNISafe::FromDoubleArray(System.IntPtr)
+extern "C"  DoubleU5BU5D_t1889952540* AndroidJNISafe_FromDoubleArray_m2645839260 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	DoubleU5BU5D_t1889952540* V_0 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___array0;
+		DoubleU5BU5D_t1889952540* L_1 = AndroidJNI_FromDoubleArray_m2146626199(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		DoubleU5BU5D_t1889952540* L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Single[] UnityEngine.AndroidJNISafe::FromFloatArray(System.IntPtr)
+extern "C"  SingleU5BU5D_t577127397* AndroidJNISafe_FromFloatArray_m2115080464 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	SingleU5BU5D_t577127397* V_0 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___array0;
+		SingleU5BU5D_t577127397* L_1 = AndroidJNI_FromFloatArray_m2229045909(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		SingleU5BU5D_t577127397* L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Int64[] UnityEngine.AndroidJNISafe::FromLongArray(System.IntPtr)
+extern "C"  Int64U5BU5D_t717125112* AndroidJNISafe_FromLongArray_m1298772853 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	Int64U5BU5D_t717125112* V_0 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___array0;
+		Int64U5BU5D_t717125112* L_1 = AndroidJNI_FromLongArray_m2895187476(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		Int64U5BU5D_t717125112* L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Int16[] UnityEngine.AndroidJNISafe::FromShortArray(System.IntPtr)
+extern "C"  Int16U5BU5D_t3104283263* AndroidJNISafe_FromShortArray_m3451473986 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	Int16U5BU5D_t3104283263* V_0 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___array0;
+		Int16U5BU5D_t3104283263* L_1 = AndroidJNI_FromShortArray_m1687805337(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		Int16U5BU5D_t3104283263* L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Byte[] UnityEngine.AndroidJNISafe::FromByteArray(System.IntPtr)
+extern "C"  ByteU5BU5D_t3397334013* AndroidJNISafe_FromByteArray_m3884342366 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___array0;
+		ByteU5BU5D_t3397334013* L_1 = AndroidJNI_FromByteArray_m3347999875(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		ByteU5BU5D_t3397334013* L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Boolean[] UnityEngine.AndroidJNISafe::FromBooleanArray(System.IntPtr)
+extern "C"  BooleanU5BU5D_t3568034315* AndroidJNISafe_FromBooleanArray_m2646463206 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	BooleanU5BU5D_t3568034315* V_0 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___array0;
+		BooleanU5BU5D_t3568034315* L_1 = AndroidJNI_FromBooleanArray_m3557280903(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		BooleanU5BU5D_t3568034315* L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Int32[] UnityEngine.AndroidJNISafe::FromIntArray(System.IntPtr)
+extern "C"  Int32U5BU5D_t3030399641* AndroidJNISafe_FromIntArray_m81911459 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	Int32U5BU5D_t3030399641* V_0 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___array0;
+		Int32U5BU5D_t3030399641* L_1 = AndroidJNI_FromIntArray_m1124849508(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		Int32U5BU5D_t3030399641* L_2 = V_0;
+		return L_2;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::ToObjectArray(System.IntPtr[],System.IntPtr)
+extern "C"  intptr_t AndroidJNISafe_ToObjectArray_m2701598109 (RuntimeObject * __this /* static, unused */, IntPtrU5BU5D_t169632028* ___array0, intptr_t ___type1, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		IntPtrU5BU5D_t169632028* L_0 = ___array0;
+		intptr_t L_1 = ___type1;
+		intptr_t L_2 = AndroidJNI_ToObjectArray_m1798746026(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		IL2CPP_LEAVE(0x17, FINALLY_000f);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000f;
+	}
+
+FINALLY_000f:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(15)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(15)
+	{
+		IL2CPP_JUMP_TBL(0x17, IL_0017)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0017:
+	{
+		intptr_t L_3 = V_0;
+		return L_3;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::ToCharArray(System.Char[])
+extern "C"  intptr_t AndroidJNISafe_ToCharArray_m4138840423 (RuntimeObject * __this /* static, unused */, CharU5BU5D_t1328083999* ___array0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		CharU5BU5D_t1328083999* L_0 = ___array0;
+		intptr_t L_1 = AndroidJNI_ToCharArray_m1271039290(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::ToDoubleArray(System.Double[])
+extern "C"  intptr_t AndroidJNISafe_ToDoubleArray_m2593793371 (RuntimeObject * __this /* static, unused */, DoubleU5BU5D_t1889952540* ___array0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		DoubleU5BU5D_t1889952540* L_0 = ___array0;
+		intptr_t L_1 = AndroidJNI_ToDoubleArray_m808183080(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::ToFloatArray(System.Single[])
+extern "C"  intptr_t AndroidJNISafe_ToFloatArray_m3975685981 (RuntimeObject * __this /* static, unused */, SingleU5BU5D_t577127397* ___array0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		SingleU5BU5D_t577127397* L_0 = ___array0;
+		intptr_t L_1 = AndroidJNI_ToFloatArray_m2619761402(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::ToLongArray(System.Int64[])
+extern "C"  intptr_t AndroidJNISafe_ToLongArray_m3457180788 (RuntimeObject * __this /* static, unused */, Int64U5BU5D_t717125112* ___array0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		Int64U5BU5D_t717125112* L_0 = ___array0;
+		intptr_t L_1 = AndroidJNI_ToLongArray_m3699382049(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::ToShortArray(System.Int16[])
+extern "C"  intptr_t AndroidJNISafe_ToShortArray_m993330209 (RuntimeObject * __this /* static, unused */, Int16U5BU5D_t3104283263* ___array0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		Int16U5BU5D_t3104283263* L_0 = ___array0;
+		intptr_t L_1 = AndroidJNI_ToShortArray_m1930515046(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::ToByteArray(System.Byte[])
+extern "C"  intptr_t AndroidJNISafe_ToByteArray_m87363743 (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___array0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		ByteU5BU5D_t3397334013* L_0 = ___array0;
+		intptr_t L_1 = AndroidJNI_ToByteArray_m3237688210(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::ToBooleanArray(System.Boolean[])
+extern "C"  intptr_t AndroidJNISafe_ToBooleanArray_m4042057407 (RuntimeObject * __this /* static, unused */, BooleanU5BU5D_t3568034315* ___array0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		BooleanU5BU5D_t3568034315* L_0 = ___array0;
+		intptr_t L_1 = AndroidJNI_ToBooleanArray_m750419762(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.IntPtr UnityEngine.AndroidJNISafe::ToIntArray(System.Int32[])
+extern "C"  intptr_t AndroidJNISafe_ToIntArray_m320585224 (RuntimeObject * __this /* static, unused */, Int32U5BU5D_t3030399641* ___array0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		Int32U5BU5D_t3030399641* L_0 = ___array0;
+		intptr_t L_1 = AndroidJNI_ToIntArray_m4152736571(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Int32 UnityEngine.AndroidJNISafe::GetArrayLength(System.IntPtr)
+extern "C"  int32_t AndroidJNISafe_GetArrayLength_m1077269798 (RuntimeObject * __this /* static, unused */, intptr_t ___array0, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_0 = ___array0;
+		int32_t L_1 = AndroidJNI_GetArrayLength_m835991335(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		IL2CPP_LEAVE(0x16, FINALLY_000e);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000e;
+	}
+
+FINALLY_000e:
+	{ // begin finally (depth: 1)
+		AndroidJNISafe_CheckException_m82304878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(14)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(14)
+	{
+		IL2CPP_JUMP_TBL(0x16, IL_0016)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0016:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Boolean UnityEngine.AndroidReflection::IsPrimitive(System.Type)
+extern "C"  bool AndroidReflection_IsPrimitive_m3659522246 (RuntimeObject * __this /* static, unused */, Type_t * ___t0, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	{
+		Type_t * L_0 = ___t0;
+		NullCheck(L_0);
+		bool L_1 = Type_get_IsPrimitive_m1522841565(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		bool L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Boolean UnityEngine.AndroidReflection::IsAssignableFrom(System.Type,System.Type)
+extern "C"  bool AndroidReflection_IsAssignableFrom_m3577747537 (RuntimeObject * __this /* static, unused */, Type_t * ___t0, Type_t * ___from1, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	{
+		Type_t * L_0 = ___t0;
+		Type_t * L_1 = ___from1;
+		NullCheck(L_0);
+		bool L_2 = VirtFuncInvoker1< bool, Type_t * >::Invoke(40 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_0, L_1);
+		V_0 = L_2;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		bool L_3 = V_0;
+		return L_3;
+	}
+}
+// System.IntPtr UnityEngine.AndroidReflection::GetStaticMethodID(System.String,System.String,System.String)
+extern "C"  intptr_t AndroidReflection_GetStaticMethodID_m2280460481 (RuntimeObject * __this /* static, unused */, String_t* ___clazz0, String_t* ___methodName1, String_t* ___signature2, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		String_t* L_0 = ___clazz0;
+		intptr_t L_1 = AndroidJNISafe_FindClass_m575048497(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+	}
+
+IL_0008:
+	try
+	{ // begin try (depth: 1)
+		intptr_t L_2 = V_0;
+		String_t* L_3 = ___methodName1;
+		String_t* L_4 = ___signature2;
+		intptr_t L_5 = AndroidJNISafe_GetStaticMethodID_m3181930180(NULL /*static, unused*/, L_2, L_3, L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		IL2CPP_LEAVE(0x20, FINALLY_0017);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0017;
+	}
+
+FINALLY_0017:
+	{ // begin finally (depth: 1)
+		intptr_t L_6 = V_0;
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(23)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(23)
+	{
+		IL2CPP_JUMP_TBL(0x20, IL_0020)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0020:
+	{
+		intptr_t L_7 = V_1;
+		return L_7;
+	}
+}
+// System.IntPtr UnityEngine.AndroidReflection::GetMethodMember(System.IntPtr,System.String,System.String,System.Boolean)
+extern "C"  intptr_t AndroidReflection_GetMethodMember_m584776875 (RuntimeObject * __this /* static, unused */, intptr_t ___jclass0, String_t* ___methodName1, String_t* ___signature2, bool ___isStatic3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidReflection_GetMethodMember_m584776875_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	jvalueU5BU5D_t2851849116* V_0 = NULL;
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		V_0 = ((jvalueU5BU5D_t2851849116*)SZArrayNew(jvalueU5BU5D_t2851849116_il2cpp_TypeInfo_var, (uint32_t)4));
+	}
+
+IL_0008:
+	try
+	{ // begin try (depth: 1)
+		jvalueU5BU5D_t2851849116* L_0 = V_0;
+		NullCheck(L_0);
+		intptr_t L_1 = ___jclass0;
+		((L_0)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->set_l_8(L_1);
+		jvalueU5BU5D_t2851849116* L_2 = V_0;
+		NullCheck(L_2);
+		String_t* L_3 = ___methodName1;
+		intptr_t L_4 = AndroidJNISafe_NewStringUTF_m4052253704(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))->set_l_8(L_4);
+		jvalueU5BU5D_t2851849116* L_5 = V_0;
+		NullCheck(L_5);
+		String_t* L_6 = ___signature2;
+		intptr_t L_7 = AndroidJNISafe_NewStringUTF_m4052253704(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)))->set_l_8(L_7);
+		jvalueU5BU5D_t2851849116* L_8 = V_0;
+		NullCheck(L_8);
+		bool L_9 = ___isStatic3;
+		((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(3)))->set_z_0(L_9);
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidReflection_t3899972422_il2cpp_TypeInfo_var);
+		GlobalJavaObjectRef_t1417862413 * L_10 = ((AndroidReflection_t3899972422_StaticFields*)il2cpp_codegen_static_fields_for(AndroidReflection_t3899972422_il2cpp_TypeInfo_var))->get_s_ReflectionHelperClass_0();
+		intptr_t L_11 = GlobalJavaObjectRef_op_Implicit_m3534882639(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		intptr_t L_12 = ((AndroidReflection_t3899972422_StaticFields*)il2cpp_codegen_static_fields_for(AndroidReflection_t3899972422_il2cpp_TypeInfo_var))->get_s_ReflectionHelperGetMethodID_2();
+		jvalueU5BU5D_t2851849116* L_13 = V_0;
+		intptr_t L_14 = AndroidJNISafe_CallStaticObjectMethod_m4041205290(NULL /*static, unused*/, L_11, L_12, L_13, /*hidden argument*/NULL);
+		V_1 = L_14;
+		IL2CPP_LEAVE(0x87, FINALLY_0062);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0062;
+	}
+
+FINALLY_0062:
+	{ // begin finally (depth: 1)
+		jvalueU5BU5D_t2851849116* L_15 = V_0;
+		NullCheck(L_15);
+		intptr_t L_16 = ((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))->get_l_8();
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		jvalueU5BU5D_t2851849116* L_17 = V_0;
+		NullCheck(L_17);
+		intptr_t L_18 = ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)))->get_l_8();
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(98)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(98)
+	{
+		IL2CPP_JUMP_TBL(0x87, IL_0087)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0087:
+	{
+		intptr_t L_19 = V_1;
+		return L_19;
+	}
+}
+// System.IntPtr UnityEngine.AndroidReflection::GetFieldMember(System.IntPtr,System.String,System.String,System.Boolean)
+extern "C"  intptr_t AndroidReflection_GetFieldMember_m1382154548 (RuntimeObject * __this /* static, unused */, intptr_t ___jclass0, String_t* ___fieldName1, String_t* ___signature2, bool ___isStatic3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidReflection_GetFieldMember_m1382154548_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	jvalueU5BU5D_t2851849116* V_0 = NULL;
+	intptr_t V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		V_0 = ((jvalueU5BU5D_t2851849116*)SZArrayNew(jvalueU5BU5D_t2851849116_il2cpp_TypeInfo_var, (uint32_t)4));
+	}
+
+IL_0008:
+	try
+	{ // begin try (depth: 1)
+		jvalueU5BU5D_t2851849116* L_0 = V_0;
+		NullCheck(L_0);
+		intptr_t L_1 = ___jclass0;
+		((L_0)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->set_l_8(L_1);
+		jvalueU5BU5D_t2851849116* L_2 = V_0;
+		NullCheck(L_2);
+		String_t* L_3 = ___fieldName1;
+		intptr_t L_4 = AndroidJNISafe_NewStringUTF_m4052253704(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))->set_l_8(L_4);
+		jvalueU5BU5D_t2851849116* L_5 = V_0;
+		NullCheck(L_5);
+		String_t* L_6 = ___signature2;
+		intptr_t L_7 = AndroidJNISafe_NewStringUTF_m4052253704(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)))->set_l_8(L_7);
+		jvalueU5BU5D_t2851849116* L_8 = V_0;
+		NullCheck(L_8);
+		bool L_9 = ___isStatic3;
+		((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(3)))->set_z_0(L_9);
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidReflection_t3899972422_il2cpp_TypeInfo_var);
+		GlobalJavaObjectRef_t1417862413 * L_10 = ((AndroidReflection_t3899972422_StaticFields*)il2cpp_codegen_static_fields_for(AndroidReflection_t3899972422_il2cpp_TypeInfo_var))->get_s_ReflectionHelperClass_0();
+		intptr_t L_11 = GlobalJavaObjectRef_op_Implicit_m3534882639(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		intptr_t L_12 = ((AndroidReflection_t3899972422_StaticFields*)il2cpp_codegen_static_fields_for(AndroidReflection_t3899972422_il2cpp_TypeInfo_var))->get_s_ReflectionHelperGetFieldID_3();
+		jvalueU5BU5D_t2851849116* L_13 = V_0;
+		intptr_t L_14 = AndroidJNISafe_CallStaticObjectMethod_m4041205290(NULL /*static, unused*/, L_11, L_12, L_13, /*hidden argument*/NULL);
+		V_1 = L_14;
+		IL2CPP_LEAVE(0x87, FINALLY_0062);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0062;
+	}
+
+FINALLY_0062:
+	{ // begin finally (depth: 1)
+		jvalueU5BU5D_t2851849116* L_15 = V_0;
+		NullCheck(L_15);
+		intptr_t L_16 = ((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))->get_l_8();
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		jvalueU5BU5D_t2851849116* L_17 = V_0;
+		NullCheck(L_17);
+		intptr_t L_18 = ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)))->get_l_8();
+		AndroidJNISafe_DeleteLocalRef_m1703488126(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(98)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(98)
+	{
+		IL2CPP_JUMP_TBL(0x87, IL_0087)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0087:
+	{
+		intptr_t L_19 = V_1;
+		return L_19;
+	}
+}
+// System.Void UnityEngine.AndroidReflection::.cctor()
+extern "C"  void AndroidReflection__cctor_m2197364317 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidReflection__cctor_m2197364317_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		intptr_t L_0 = AndroidJNISafe_FindClass_m575048497(NULL /*static, unused*/, _stringLiteral1073703398, /*hidden argument*/NULL);
+		GlobalJavaObjectRef_t1417862413 * L_1 = (GlobalJavaObjectRef_t1417862413 *)il2cpp_codegen_object_new(GlobalJavaObjectRef_t1417862413_il2cpp_TypeInfo_var);
+		GlobalJavaObjectRef__ctor_m3082986627(L_1, L_0, /*hidden argument*/NULL);
+		((AndroidReflection_t3899972422_StaticFields*)il2cpp_codegen_static_fields_for(AndroidReflection_t3899972422_il2cpp_TypeInfo_var))->set_s_ReflectionHelperClass_0(L_1);
+		intptr_t L_2 = AndroidReflection_GetStaticMethodID_m2280460481(NULL /*static, unused*/, _stringLiteral1073703398, _stringLiteral2150039331, _stringLiteral865576237, /*hidden argument*/NULL);
+		((AndroidReflection_t3899972422_StaticFields*)il2cpp_codegen_static_fields_for(AndroidReflection_t3899972422_il2cpp_TypeInfo_var))->set_s_ReflectionHelperGetConstructorID_1(L_2);
+		intptr_t L_3 = AndroidReflection_GetStaticMethodID_m2280460481(NULL /*static, unused*/, _stringLiteral1073703398, _stringLiteral950329142, _stringLiteral1596434274, /*hidden argument*/NULL);
+		((AndroidReflection_t3899972422_StaticFields*)il2cpp_codegen_static_fields_for(AndroidReflection_t3899972422_il2cpp_TypeInfo_var))->set_s_ReflectionHelperGetMethodID_2(L_3);
+		intptr_t L_4 = AndroidReflection_GetStaticMethodID_m2280460481(NULL /*static, unused*/, _stringLiteral1073703398, _stringLiteral2171356073, _stringLiteral2904017055, /*hidden argument*/NULL);
+		((AndroidReflection_t3899972422_StaticFields*)il2cpp_codegen_static_fields_for(AndroidReflection_t3899972422_il2cpp_TypeInfo_var))->set_s_ReflectionHelperGetFieldID_3(L_4);
+		intptr_t L_5 = AndroidReflection_GetStaticMethodID_m2280460481(NULL /*static, unused*/, _stringLiteral1073703398, _stringLiteral1931925793, _stringLiteral3618350663, /*hidden argument*/NULL);
+		((AndroidReflection_t3899972422_StaticFields*)il2cpp_codegen_static_fields_for(AndroidReflection_t3899972422_il2cpp_TypeInfo_var))->set_s_ReflectionHelperNewProxyInstance_4(L_5);
 		return;
 	}
 }
@@ -10157,6 +16875,15 @@ IL_0013:
 		return;
 	}
 }
+// System.Void UnityEngine.Application::Quit()
+extern "C"  void Application_Quit_m3096163801 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	typedef void (*Application_Quit_m3096163801_ftn) ();
+	static Application_Quit_m3096163801_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Application_Quit_m3096163801_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::Quit()");
+	_il2cpp_icall_func();
+}
 // System.Boolean UnityEngine.Application::get_isPlaying()
 extern "C"  bool Application_get_isPlaying_m3003895139 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
 {
@@ -10185,6 +16912,137 @@ extern "C"  int32_t Application_get_platform_m1727035749 (RuntimeObject * __this
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Application_get_platform_m1727035749_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::get_platform()");
 	int32_t retVal = _il2cpp_icall_func();
+	return retVal;
+}
+// System.Boolean UnityEngine.Application::get_isMobilePlatform()
+extern "C"  bool Application_get_isMobilePlatform_m2455210782 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = Application_get_platform_m1727035749(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		switch (((int32_t)((int32_t)L_1-(int32_t)((int32_t)18))))
+		{
+			case 0:
+			{
+				goto IL_0045;
+			}
+			case 1:
+			{
+				goto IL_0045;
+			}
+			case 2:
+			{
+				goto IL_0045;
+			}
+			case 3:
+			{
+				goto IL_0028;
+			}
+			case 4:
+			{
+				goto IL_0028;
+			}
+			case 5:
+			{
+				goto IL_0045;
+			}
+		}
+	}
+
+IL_0028:
+	{
+		int32_t L_2 = V_0;
+		switch (((int32_t)((int32_t)L_2-(int32_t)8)))
+		{
+			case 0:
+			{
+				goto IL_0045;
+			}
+			case 1:
+			{
+				goto IL_004c;
+			}
+			case 2:
+			{
+				goto IL_004c;
+			}
+			case 3:
+			{
+				goto IL_0045;
+			}
+		}
+	}
+	{
+		goto IL_004c;
+	}
+
+IL_0045:
+	{
+		V_1 = (bool)1;
+		goto IL_0053;
+	}
+
+IL_004c:
+	{
+		V_1 = (bool)0;
+		goto IL_0053;
+	}
+
+IL_0053:
+	{
+		bool L_3 = V_1;
+		return L_3;
+	}
+}
+// System.Boolean UnityEngine.Application::get_isConsolePlatform()
+extern "C"  bool Application_get_isConsolePlatform_m1257962815 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
+	{
+		int32_t L_0 = Application_get_platform_m1727035749(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if ((((int32_t)L_1) == ((int32_t)((int32_t)25))))
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		G_B3_0 = ((((int32_t)L_2) == ((int32_t)((int32_t)27)))? 1 : 0);
+		goto IL_0017;
+	}
+
+IL_0016:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0017:
+	{
+		V_1 = (bool)G_B3_0;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		bool L_3 = V_1;
+		return L_3;
+	}
+}
+// System.String UnityEngine.Application::get_streamingAssetsPath()
+extern "C"  String_t* Application_get_streamingAssetsPath_m130902186 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	typedef String_t* (*Application_get_streamingAssetsPath_m130902186_ftn) ();
+	static Application_get_streamingAssetsPath_m130902186_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Application_get_streamingAssetsPath_m130902186_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::get_streamingAssetsPath()");
+	String_t* retVal = _il2cpp_icall_func();
 	return retVal;
 }
 // System.Void UnityEngine.Application::OpenURL(System.String)
@@ -10429,6 +17287,36 @@ extern "C"  void AssetBundle__ctor_m3429387992 (AssetBundle_t2054978754 * __this
 		return;
 	}
 }
+// UnityEngine.AssetBundle UnityEngine.AssetBundle::LoadFromMemory(System.Byte[],System.UInt32)
+extern "C"  AssetBundle_t2054978754 * AssetBundle_LoadFromMemory_m2634658222 (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___binary0, uint32_t ___crc1, const RuntimeMethod* method)
+{
+	typedef AssetBundle_t2054978754 * (*AssetBundle_LoadFromMemory_m2634658222_ftn) (ByteU5BU5D_t3397334013*, uint32_t);
+	static AssetBundle_LoadFromMemory_m2634658222_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AssetBundle_LoadFromMemory_m2634658222_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AssetBundle::LoadFromMemory(System.Byte[],System.UInt32)");
+	AssetBundle_t2054978754 * retVal = _il2cpp_icall_func(___binary0, ___crc1);
+	return retVal;
+}
+// UnityEngine.AssetBundle UnityEngine.AssetBundle::LoadFromMemory(System.Byte[])
+extern "C"  AssetBundle_t2054978754 * AssetBundle_LoadFromMemory_m2864189150 (RuntimeObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___binary0, const RuntimeMethod* method)
+{
+	uint32_t V_0 = 0;
+	AssetBundle_t2054978754 * V_1 = NULL;
+	{
+		V_0 = 0;
+		ByteU5BU5D_t3397334013* L_0 = ___binary0;
+		uint32_t L_1 = V_0;
+		AssetBundle_t2054978754 * L_2 = AssetBundle_LoadFromMemory_m2634658222(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		AssetBundle_t2054978754 * L_3 = V_1;
+		return L_3;
+	}
+}
 // UnityEngine.Object UnityEngine.AssetBundle::LoadAsset(System.String,System.Type)
 extern "C"  Object_t1021602117 * AssetBundle_LoadAsset_m3884165516 (AssetBundle_t2054978754 * __this, String_t* ___name0, Type_t * ___type1, const RuntimeMethod* method)
 {
@@ -10507,6 +17395,93 @@ extern "C"  Object_t1021602117 * AssetBundle_LoadAsset_Internal_m1150726960 (Ass
 	Object_t1021602117 * retVal = _il2cpp_icall_func(__this, ___name0, ___type1);
 	return retVal;
 }
+// UnityEngine.AssetBundleRequest UnityEngine.AssetBundle::LoadAssetAsync(System.String,System.Type)
+extern "C"  AssetBundleRequest_t2674559435 * AssetBundle_LoadAssetAsync_m1991419858 (AssetBundle_t2054978754 * __this, String_t* ___name0, Type_t * ___type1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AssetBundle_LoadAssetAsync_m1991419858_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AssetBundleRequest_t2674559435 * V_0 = NULL;
+	{
+		String_t* L_0 = ___name0;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		NullReferenceException_t3156209119 * L_1 = (NullReferenceException_t3156209119 *)il2cpp_codegen_object_new(NullReferenceException_t3156209119_il2cpp_TypeInfo_var);
+		NullReferenceException__ctor_m2372754786(L_1, _stringLiteral3083777703, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0013:
+	{
+		String_t* L_2 = ___name0;
+		NullCheck(L_2);
+		int32_t L_3 = String_get_Length_m1606060069(L_2, /*hidden argument*/NULL);
+		if (L_3)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		ArgumentException_t3259014390 * L_4 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m3739475201(L_4, _stringLiteral2320403325, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4);
+	}
+
+IL_002a:
+	{
+		Type_t * L_5 = ___type1;
+		if (L_5)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		NullReferenceException_t3156209119 * L_6 = (NullReferenceException_t3156209119 *)il2cpp_codegen_object_new(NullReferenceException_t3156209119_il2cpp_TypeInfo_var);
+		NullReferenceException__ctor_m2372754786(L_6, _stringLiteral2137438594, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6);
+	}
+
+IL_003c:
+	{
+		String_t* L_7 = ___name0;
+		Type_t * L_8 = ___type1;
+		AssetBundleRequest_t2674559435 * L_9 = AssetBundle_LoadAssetAsync_Internal_m1373172298(__this, L_7, L_8, /*hidden argument*/NULL);
+		V_0 = L_9;
+		goto IL_004a;
+	}
+
+IL_004a:
+	{
+		AssetBundleRequest_t2674559435 * L_10 = V_0;
+		return L_10;
+	}
+}
+// UnityEngine.AssetBundleRequest UnityEngine.AssetBundle::LoadAssetAsync_Internal(System.String,System.Type)
+extern "C"  AssetBundleRequest_t2674559435 * AssetBundle_LoadAssetAsync_Internal_m1373172298 (AssetBundle_t2054978754 * __this, String_t* ___name0, Type_t * ___type1, const RuntimeMethod* method)
+{
+	typedef AssetBundleRequest_t2674559435 * (*AssetBundle_LoadAssetAsync_Internal_m1373172298_ftn) (AssetBundle_t2054978754 *, String_t*, Type_t *);
+	static AssetBundle_LoadAssetAsync_Internal_m1373172298_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AssetBundle_LoadAssetAsync_Internal_m1373172298_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AssetBundle::LoadAssetAsync_Internal(System.String,System.Type)");
+	AssetBundleRequest_t2674559435 * retVal = _il2cpp_icall_func(__this, ___name0, ___type1);
+	return retVal;
+}
+// System.Void UnityEngine.AssetBundle::Unload(System.Boolean)
+extern "C"  void AssetBundle_Unload_m3413051624 (AssetBundle_t2054978754 * __this, bool ___unloadAllLoadedObjects0, const RuntimeMethod* method)
+{
+	typedef void (*AssetBundle_Unload_m3413051624_ftn) (AssetBundle_t2054978754 *, bool);
+	static AssetBundle_Unload_m3413051624_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AssetBundle_Unload_m3413051624_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AssetBundle::Unload(System.Boolean)");
+	_il2cpp_icall_func(__this, ___unloadAllLoadedObjects0);
+}
 // Conversion methods for marshalling of: UnityEngine.AssetBundleCreateRequest
 extern "C" void AssetBundleCreateRequest_t1038783543_marshal_pinvoke(const AssetBundleCreateRequest_t1038783543& unmarshaled, AssetBundleCreateRequest_t1038783543_marshaled_pinvoke& marshaled)
 {
@@ -10555,6 +17530,56 @@ extern "C" void AssetBundleCreateRequest_t1038783543_marshal_com_back(const Asse
 extern "C" void AssetBundleCreateRequest_t1038783543_marshal_com_cleanup(AssetBundleCreateRequest_t1038783543_marshaled_com& marshaled)
 {
 }
+// System.String[] UnityEngine.AssetBundleManifest::GetAllAssetBundlesWithVariant()
+extern "C"  StringU5BU5D_t1642385972* AssetBundleManifest_GetAllAssetBundlesWithVariant_m2249552035 (AssetBundleManifest_t1328741589 * __this, const RuntimeMethod* method)
+{
+	typedef StringU5BU5D_t1642385972* (*AssetBundleManifest_GetAllAssetBundlesWithVariant_m2249552035_ftn) (AssetBundleManifest_t1328741589 *);
+	static AssetBundleManifest_GetAllAssetBundlesWithVariant_m2249552035_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AssetBundleManifest_GetAllAssetBundlesWithVariant_m2249552035_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AssetBundleManifest::GetAllAssetBundlesWithVariant()");
+	StringU5BU5D_t1642385972* retVal = _il2cpp_icall_func(__this);
+	return retVal;
+}
+// UnityEngine.Hash128 UnityEngine.AssetBundleManifest::GetAssetBundleHash(System.String)
+extern "C"  Hash128_t2836532937  AssetBundleManifest_GetAssetBundleHash_m3331783030 (AssetBundleManifest_t1328741589 * __this, String_t* ___assetBundleName0, const RuntimeMethod* method)
+{
+	Hash128_t2836532937  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Hash128_t2836532937  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		String_t* L_0 = ___assetBundleName0;
+		AssetBundleManifest_INTERNAL_CALL_GetAssetBundleHash_m3147989694(NULL /*static, unused*/, __this, L_0, (&V_0), /*hidden argument*/NULL);
+		Hash128_t2836532937  L_1 = V_0;
+		V_1 = L_1;
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		Hash128_t2836532937  L_2 = V_1;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.AssetBundleManifest::INTERNAL_CALL_GetAssetBundleHash(UnityEngine.AssetBundleManifest,System.String,UnityEngine.Hash128&)
+extern "C"  void AssetBundleManifest_INTERNAL_CALL_GetAssetBundleHash_m3147989694 (RuntimeObject * __this /* static, unused */, AssetBundleManifest_t1328741589 * ___self0, String_t* ___assetBundleName1, Hash128_t2836532937 * ___value2, const RuntimeMethod* method)
+{
+	typedef void (*AssetBundleManifest_INTERNAL_CALL_GetAssetBundleHash_m3147989694_ftn) (AssetBundleManifest_t1328741589 *, String_t*, Hash128_t2836532937 *);
+	static AssetBundleManifest_INTERNAL_CALL_GetAssetBundleHash_m3147989694_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AssetBundleManifest_INTERNAL_CALL_GetAssetBundleHash_m3147989694_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AssetBundleManifest::INTERNAL_CALL_GetAssetBundleHash(UnityEngine.AssetBundleManifest,System.String,UnityEngine.Hash128&)");
+	_il2cpp_icall_func(___self0, ___assetBundleName1, ___value2);
+}
+// System.String[] UnityEngine.AssetBundleManifest::GetAllDependencies(System.String)
+extern "C"  StringU5BU5D_t1642385972* AssetBundleManifest_GetAllDependencies_m4018485972 (AssetBundleManifest_t1328741589 * __this, String_t* ___assetBundleName0, const RuntimeMethod* method)
+{
+	typedef StringU5BU5D_t1642385972* (*AssetBundleManifest_GetAllDependencies_m4018485972_ftn) (AssetBundleManifest_t1328741589 *, String_t*);
+	static AssetBundleManifest_GetAllDependencies_m4018485972_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AssetBundleManifest_GetAllDependencies_m4018485972_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AssetBundleManifest::GetAllDependencies(System.String)");
+	StringU5BU5D_t1642385972* retVal = _il2cpp_icall_func(__this, ___assetBundleName0);
+	return retVal;
+}
 // Conversion methods for marshalling of: UnityEngine.AssetBundleRequest
 extern "C" void AssetBundleRequest_t2674559435_marshal_pinvoke(const AssetBundleRequest_t2674559435& unmarshaled, AssetBundleRequest_t2674559435_marshaled_pinvoke& marshaled)
 {
@@ -10602,6 +17627,24 @@ extern "C" void AssetBundleRequest_t2674559435_marshal_com_back(const AssetBundl
 // Conversion method for clean up from marshalling of: UnityEngine.AssetBundleRequest
 extern "C" void AssetBundleRequest_t2674559435_marshal_com_cleanup(AssetBundleRequest_t2674559435_marshaled_com& marshaled)
 {
+}
+// System.Void UnityEngine.AssetBundleRequest::.ctor()
+extern "C"  void AssetBundleRequest__ctor_m2020169559 (AssetBundleRequest_t2674559435 * __this, const RuntimeMethod* method)
+{
+	{
+		AsyncOperation__ctor_m1674276057(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Object UnityEngine.AssetBundleRequest::get_asset()
+extern "C"  Object_t1021602117 * AssetBundleRequest_get_asset_m259156351 (AssetBundleRequest_t2674559435 * __this, const RuntimeMethod* method)
+{
+	typedef Object_t1021602117 * (*AssetBundleRequest_get_asset_m259156351_ftn) (AssetBundleRequest_t2674559435 *);
+	static AssetBundleRequest_get_asset_m259156351_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AssetBundleRequest_get_asset_m259156351_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AssetBundleRequest::get_asset()");
+	Object_t1021602117 * retVal = _il2cpp_icall_func(__this);
+	return retVal;
 }
 // Conversion methods for marshalling of: UnityEngine.AsyncOperation
 extern "C" void AsyncOperation_t3814632279_marshal_pinvoke(const AsyncOperation_t3814632279& unmarshaled, AsyncOperation_t3814632279_marshaled_pinvoke& marshaled)
@@ -10707,6 +17750,16 @@ IL_0013:
 	{
 		return;
 	}
+}
+// System.Boolean UnityEngine.AsyncOperation::get_isDone()
+extern "C"  bool AsyncOperation_get_isDone_m3226538874 (AsyncOperation_t3814632279 * __this, const RuntimeMethod* method)
+{
+	typedef bool (*AsyncOperation_get_isDone_m3226538874_ftn) (AsyncOperation_t3814632279 *);
+	static AsyncOperation_get_isDone_m3226538874_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AsyncOperation_get_isDone_m3226538874_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AsyncOperation::get_isDone()");
+	bool retVal = _il2cpp_icall_func(__this);
+	return retVal;
 }
 // System.Void UnityEngine.AsyncOperation::InvokeCompletionEvent()
 extern "C"  void AsyncOperation_InvokeCompletionEvent_m504098009 (AsyncOperation_t3814632279 * __this, const RuntimeMethod* method)
@@ -11737,6 +18790,105 @@ extern "C"  String_t* Bounds_ToString_m3830023780_AdjustorThunk (RuntimeObject *
 {
 	Bounds_t3033363703 * _thisAdjusted = reinterpret_cast<Bounds_t3033363703 *>(__this + 1);
 	return Bounds_ToString_m3830023780(_thisAdjusted, method);
+}
+// Conversion methods for marshalling of: UnityEngine.CachedAssetBundle
+extern "C" void CachedAssetBundle_t238312526_marshal_pinvoke(const CachedAssetBundle_t238312526& unmarshaled, CachedAssetBundle_t238312526_marshaled_pinvoke& marshaled)
+{
+	marshaled.___m_Name_0 = il2cpp_codegen_marshal_string(unmarshaled.get_m_Name_0());
+	marshaled.___m_Hash_1 = unmarshaled.get_m_Hash_1();
+}
+extern "C" void CachedAssetBundle_t238312526_marshal_pinvoke_back(const CachedAssetBundle_t238312526_marshaled_pinvoke& marshaled, CachedAssetBundle_t238312526& unmarshaled)
+{
+	unmarshaled.set_m_Name_0(il2cpp_codegen_marshal_string_result(marshaled.___m_Name_0));
+	Hash128_t2836532937  unmarshaled_m_Hash_temp_1;
+	memset(&unmarshaled_m_Hash_temp_1, 0, sizeof(unmarshaled_m_Hash_temp_1));
+	unmarshaled_m_Hash_temp_1 = marshaled.___m_Hash_1;
+	unmarshaled.set_m_Hash_1(unmarshaled_m_Hash_temp_1);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.CachedAssetBundle
+extern "C" void CachedAssetBundle_t238312526_marshal_pinvoke_cleanup(CachedAssetBundle_t238312526_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_marshal_free(marshaled.___m_Name_0);
+	marshaled.___m_Name_0 = NULL;
+}
+// Conversion methods for marshalling of: UnityEngine.CachedAssetBundle
+extern "C" void CachedAssetBundle_t238312526_marshal_com(const CachedAssetBundle_t238312526& unmarshaled, CachedAssetBundle_t238312526_marshaled_com& marshaled)
+{
+	marshaled.___m_Name_0 = il2cpp_codegen_marshal_bstring(unmarshaled.get_m_Name_0());
+	marshaled.___m_Hash_1 = unmarshaled.get_m_Hash_1();
+}
+extern "C" void CachedAssetBundle_t238312526_marshal_com_back(const CachedAssetBundle_t238312526_marshaled_com& marshaled, CachedAssetBundle_t238312526& unmarshaled)
+{
+	unmarshaled.set_m_Name_0(il2cpp_codegen_marshal_bstring_result(marshaled.___m_Name_0));
+	Hash128_t2836532937  unmarshaled_m_Hash_temp_1;
+	memset(&unmarshaled_m_Hash_temp_1, 0, sizeof(unmarshaled_m_Hash_temp_1));
+	unmarshaled_m_Hash_temp_1 = marshaled.___m_Hash_1;
+	unmarshaled.set_m_Hash_1(unmarshaled_m_Hash_temp_1);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.CachedAssetBundle
+extern "C" void CachedAssetBundle_t238312526_marshal_com_cleanup(CachedAssetBundle_t238312526_marshaled_com& marshaled)
+{
+	il2cpp_codegen_marshal_free_bstring(marshaled.___m_Name_0);
+	marshaled.___m_Name_0 = NULL;
+}
+// System.Void UnityEngine.CachedAssetBundle::.ctor(System.String,UnityEngine.Hash128)
+extern "C"  void CachedAssetBundle__ctor_m4061134084 (CachedAssetBundle_t238312526 * __this, String_t* ___name0, Hash128_t2836532937  ___hash1, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___name0;
+		__this->set_m_Name_0(L_0);
+		Hash128_t2836532937  L_1 = ___hash1;
+		__this->set_m_Hash_1(L_1);
+		return;
+	}
+}
+extern "C"  void CachedAssetBundle__ctor_m4061134084_AdjustorThunk (RuntimeObject * __this, String_t* ___name0, Hash128_t2836532937  ___hash1, const RuntimeMethod* method)
+{
+	CachedAssetBundle_t238312526 * _thisAdjusted = reinterpret_cast<CachedAssetBundle_t238312526 *>(__this + 1);
+	CachedAssetBundle__ctor_m4061134084(_thisAdjusted, ___name0, ___hash1, method);
+}
+// System.String UnityEngine.CachedAssetBundle::get_name()
+extern "C"  String_t* CachedAssetBundle_get_name_m4138969697 (CachedAssetBundle_t238312526 * __this, const RuntimeMethod* method)
+{
+	String_t* V_0 = NULL;
+	{
+		String_t* L_0 = __this->get_m_Name_0();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		String_t* L_1 = V_0;
+		return L_1;
+	}
+}
+extern "C"  String_t* CachedAssetBundle_get_name_m4138969697_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	CachedAssetBundle_t238312526 * _thisAdjusted = reinterpret_cast<CachedAssetBundle_t238312526 *>(__this + 1);
+	return CachedAssetBundle_get_name_m4138969697(_thisAdjusted, method);
+}
+// UnityEngine.Hash128 UnityEngine.CachedAssetBundle::get_hash()
+extern "C"  Hash128_t2836532937  CachedAssetBundle_get_hash_m967066666 (CachedAssetBundle_t238312526 * __this, const RuntimeMethod* method)
+{
+	Hash128_t2836532937  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Hash128_t2836532937  L_0 = __this->get_m_Hash_1();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		Hash128_t2836532937  L_1 = V_0;
+		return L_1;
+	}
+}
+extern "C"  Hash128_t2836532937  CachedAssetBundle_get_hash_m967066666_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	CachedAssetBundle_t238312526 * _thisAdjusted = reinterpret_cast<CachedAssetBundle_t238312526 *>(__this + 1);
+	return CachedAssetBundle_get_hash_m967066666(_thisAdjusted, method);
 }
 // System.Void UnityEngine.Camera::.ctor()
 extern "C"  void Camera__ctor_m2624089815 (Camera_t189460977 * __this, const RuntimeMethod* method)
@@ -15418,7 +22570,7 @@ IL_003a:
 		ArrayElementTypeCheck (L_11, L_12);
 		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_12);
 		NullCheck(L_10);
-		Type_t * L_13 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(80 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_10, L_11);
+		Type_t * L_13 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(81 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_10, L_11);
 		V_2 = L_13;
 		Type_t * L_14 = V_2;
 		TypeU5BU5D_t1664964607* L_15 = ((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)3));
@@ -16969,6 +24121,152 @@ extern "C"  void Gizmos_INTERNAL_CALL_DrawSphere_m570222473 (RuntimeObject * __t
 	_il2cpp_icall_func = (Gizmos_INTERNAL_CALL_DrawSphere_m570222473_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Gizmos::INTERNAL_CALL_DrawSphere(UnityEngine.Vector3&,System.Single)");
 	_il2cpp_icall_func(___center0, ___radius1);
 }
+// System.Void UnityEngine.GlobalJavaObjectRef::.ctor(System.IntPtr)
+extern "C"  void GlobalJavaObjectRef__ctor_m3082986627 (GlobalJavaObjectRef_t1417862413 * __this, intptr_t ___jobject0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GlobalJavaObjectRef__ctor_m3082986627_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GlobalJavaObjectRef_t1417862413 * G_B2_0 = NULL;
+	GlobalJavaObjectRef_t1417862413 * G_B1_0 = NULL;
+	intptr_t G_B3_0;
+	memset(&G_B3_0, 0, sizeof(G_B3_0));
+	GlobalJavaObjectRef_t1417862413 * G_B3_1 = NULL;
+	{
+		__this->set_m_disposed_0((bool)0);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		intptr_t L_0 = ___jobject0;
+		bool L_1 = IntPtr_op_Equality_m1573482188(NULL /*static, unused*/, L_0, (intptr_t)(0), /*hidden argument*/NULL);
+		G_B1_0 = __this;
+		if (!L_1)
+		{
+			G_B2_0 = __this;
+			goto IL_0029;
+		}
+	}
+	{
+		G_B3_0 = ((intptr_t)((0)));
+		G_B3_1 = G_B1_0;
+		goto IL_002f;
+	}
+
+IL_0029:
+	{
+		intptr_t L_2 = ___jobject0;
+		intptr_t L_3 = AndroidJNI_NewGlobalRef_m3830225541(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		G_B3_0 = L_3;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_002f:
+	{
+		NullCheck(G_B3_1);
+		G_B3_1->set_m_jobject_1(G_B3_0);
+		return;
+	}
+}
+// System.Void UnityEngine.GlobalJavaObjectRef::Finalize()
+extern "C"  void GlobalJavaObjectRef_Finalize_m2238812967 (GlobalJavaObjectRef_t1417862413 * __this, const RuntimeMethod* method)
+{
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		GlobalJavaObjectRef_Dispose_m2828645294(__this, /*hidden argument*/NULL);
+		IL2CPP_LEAVE(0x13, FINALLY_000c);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000c;
+	}
+
+FINALLY_000c:
+	{ // begin finally (depth: 1)
+		Object_Finalize_m4087144328(__this, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(12)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(12)
+	{
+		IL2CPP_JUMP_TBL(0x13, IL_0013)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0013:
+	{
+		return;
+	}
+}
+// System.IntPtr UnityEngine.GlobalJavaObjectRef::op_Implicit(UnityEngine.GlobalJavaObjectRef)
+extern "C"  intptr_t GlobalJavaObjectRef_op_Implicit_m3534882639 (RuntimeObject * __this /* static, unused */, GlobalJavaObjectRef_t1417862413 * ___obj0, const RuntimeMethod* method)
+{
+	intptr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		GlobalJavaObjectRef_t1417862413 * L_0 = ___obj0;
+		NullCheck(L_0);
+		intptr_t L_1 = L_0->get_m_jobject_1();
+		V_0 = L_1;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		intptr_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void UnityEngine.GlobalJavaObjectRef::Dispose()
+extern "C"  void GlobalJavaObjectRef_Dispose_m2828645294 (GlobalJavaObjectRef_t1417862413 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GlobalJavaObjectRef_Dispose_m2828645294_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_m_disposed_0();
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		goto IL_003a;
+	}
+
+IL_0011:
+	{
+		__this->set_m_disposed_0((bool)1);
+		intptr_t L_1 = __this->get_m_jobject_1();
+		bool L_2 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_1, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		intptr_t L_3 = __this->get_m_jobject_1();
+		AndroidJNISafe_DeleteGlobalRef_m861434196(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+	}
+
+IL_003a:
+	{
+		return;
+	}
+}
 // Conversion methods for marshalling of: UnityEngine.Gradient
 extern "C" void Gradient_t3600583008_marshal_pinvoke(const Gradient_t3600583008& unmarshaled, Gradient_t3600583008_marshaled_pinvoke& marshaled)
 {
@@ -17102,6 +24400,169 @@ extern "C"  GUIElement_t3381083099 * GUILayer_INTERNAL_CALL_HitTest_m381183969 (
 	GUIElement_t3381083099 * retVal = _il2cpp_icall_func(___self0, ___screenPosition1);
 	return retVal;
 }
+// System.String UnityEngine.Hash128::ToString()
+extern "C"  String_t* Hash128_ToString_m3414764504 (Hash128_t2836532937 * __this, const RuntimeMethod* method)
+{
+	String_t* V_0 = NULL;
+	{
+		uint32_t L_0 = __this->get_m_u32_0_0();
+		uint32_t L_1 = __this->get_m_u32_1_1();
+		uint32_t L_2 = __this->get_m_u32_2_2();
+		uint32_t L_3 = __this->get_m_u32_3_3();
+		String_t* L_4 = Hash128_Internal_Hash128ToString_m2129946321(NULL /*static, unused*/, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		goto IL_0024;
+	}
+
+IL_0024:
+	{
+		String_t* L_5 = V_0;
+		return L_5;
+	}
+}
+extern "C"  String_t* Hash128_ToString_m3414764504_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	Hash128_t2836532937 * _thisAdjusted = reinterpret_cast<Hash128_t2836532937 *>(__this + 1);
+	return Hash128_ToString_m3414764504(_thisAdjusted, method);
+}
+// System.String UnityEngine.Hash128::Internal_Hash128ToString(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+extern "C"  String_t* Hash128_Internal_Hash128ToString_m2129946321 (RuntimeObject * __this /* static, unused */, uint32_t ___d00, uint32_t ___d11, uint32_t ___d22, uint32_t ___d33, const RuntimeMethod* method)
+{
+	typedef String_t* (*Hash128_Internal_Hash128ToString_m2129946321_ftn) (uint32_t, uint32_t, uint32_t, uint32_t);
+	static Hash128_Internal_Hash128ToString_m2129946321_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Hash128_Internal_Hash128ToString_m2129946321_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Hash128::Internal_Hash128ToString(System.UInt32,System.UInt32,System.UInt32,System.UInt32)");
+	String_t* retVal = _il2cpp_icall_func(___d00, ___d11, ___d22, ___d33);
+	return retVal;
+}
+// System.Boolean UnityEngine.Hash128::Equals(System.Object)
+extern "C"  bool Hash128_Equals_m2089078800 (Hash128_t2836532937 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Hash128_Equals_m2089078800_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
+	{
+		RuntimeObject * L_0 = ___obj0;
+		if (!((RuntimeObject *)IsInstSealed((RuntimeObject*)L_0, Hash128_t2836532937_il2cpp_TypeInfo_var)))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		RuntimeObject * L_1 = ___obj0;
+		bool L_2 = Hash128_op_Equality_m1573775191(NULL /*static, unused*/, (*(Hash128_t2836532937 *)__this), ((*(Hash128_t2836532937 *)((Hash128_t2836532937 *)UnBox(L_1, Hash128_t2836532937_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		G_B3_0 = ((int32_t)(L_2));
+		goto IL_0020;
+	}
+
+IL_001f:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0020:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		bool L_3 = V_0;
+		return L_3;
+	}
+}
+extern "C"  bool Hash128_Equals_m2089078800_AdjustorThunk (RuntimeObject * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	Hash128_t2836532937 * _thisAdjusted = reinterpret_cast<Hash128_t2836532937 *>(__this + 1);
+	return Hash128_Equals_m2089078800(_thisAdjusted, ___obj0, method);
+}
+// System.Int32 UnityEngine.Hash128::GetHashCode()
+extern "C"  int32_t Hash128_GetHashCode_m2352269416 (Hash128_t2836532937 * __this, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		uint32_t* L_0 = __this->get_address_of_m_u32_0_0();
+		int32_t L_1 = UInt32_GetHashCode_m2903162199(L_0, /*hidden argument*/NULL);
+		uint32_t* L_2 = __this->get_address_of_m_u32_1_1();
+		int32_t L_3 = UInt32_GetHashCode_m2903162199(L_2, /*hidden argument*/NULL);
+		uint32_t* L_4 = __this->get_address_of_m_u32_2_2();
+		int32_t L_5 = UInt32_GetHashCode_m2903162199(L_4, /*hidden argument*/NULL);
+		uint32_t* L_6 = __this->get_address_of_m_u32_3_3();
+		int32_t L_7 = UInt32_GetHashCode_m2903162199(L_6, /*hidden argument*/NULL);
+		V_0 = ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_1^(int32_t)L_3))^(int32_t)L_5))^(int32_t)L_7));
+		goto IL_004e;
+	}
+
+IL_004e:
+	{
+		int32_t L_8 = V_0;
+		return L_8;
+	}
+}
+extern "C"  int32_t Hash128_GetHashCode_m2352269416_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	Hash128_t2836532937 * _thisAdjusted = reinterpret_cast<Hash128_t2836532937 *>(__this + 1);
+	return Hash128_GetHashCode_m2352269416(_thisAdjusted, method);
+}
+// System.Boolean UnityEngine.Hash128::op_Equality(UnityEngine.Hash128,UnityEngine.Hash128)
+extern "C"  bool Hash128_op_Equality_m1573775191 (RuntimeObject * __this /* static, unused */, Hash128_t2836532937  ___hash10, Hash128_t2836532937  ___hash21, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	int32_t G_B5_0 = 0;
+	{
+		uint32_t L_0 = (&___hash10)->get_m_u32_0_0();
+		uint32_t L_1 = (&___hash21)->get_m_u32_0_0();
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		uint32_t L_2 = (&___hash10)->get_m_u32_1_1();
+		uint32_t L_3 = (&___hash21)->get_m_u32_1_1();
+		if ((!(((uint32_t)L_2) == ((uint32_t)L_3))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		uint32_t L_4 = (&___hash10)->get_m_u32_2_2();
+		uint32_t L_5 = (&___hash21)->get_m_u32_2_2();
+		if ((!(((uint32_t)L_4) == ((uint32_t)L_5))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		uint32_t L_6 = (&___hash10)->get_m_u32_3_3();
+		uint32_t L_7 = (&___hash21)->get_m_u32_3_3();
+		G_B5_0 = ((((int32_t)L_6) == ((int32_t)L_7))? 1 : 0);
+		goto IL_004d;
+	}
+
+IL_004c:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_004d:
+	{
+		V_0 = (bool)G_B5_0;
+		goto IL_0053;
+	}
+
+IL_0053:
+	{
+		bool L_8 = V_0;
+		return L_8;
+	}
+}
 // System.Void UnityEngine.IL2CPPStructAlignmentAttribute::.ctor()
 extern "C"  void IL2CPPStructAlignmentAttribute__ctor_m3421252534 (IL2CPPStructAlignmentAttribute_t130316838 * __this, const RuntimeMethod* method)
 {
@@ -17110,6 +24571,16 @@ extern "C"  void IL2CPPStructAlignmentAttribute__ctor_m3421252534 (IL2CPPStructA
 		__this->set_Align_0(1);
 		return;
 	}
+}
+// System.Boolean UnityEngine.Input::GetKeyInt(System.Int32)
+extern "C"  bool Input_GetKeyInt_m2379744823 (RuntimeObject * __this /* static, unused */, int32_t ___key0, const RuntimeMethod* method)
+{
+	typedef bool (*Input_GetKeyInt_m2379744823_ftn) (int32_t);
+	static Input_GetKeyInt_m2379744823_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Input_GetKeyInt_m2379744823_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetKeyInt(System.Int32)");
+	bool retVal = _il2cpp_icall_func(___key0);
+	return retVal;
 }
 // System.Single UnityEngine.Input::GetAxisRaw(System.String)
 extern "C"  float Input_GetAxisRaw_m1913129537 (RuntimeObject * __this /* static, unused */, String_t* ___axisName0, const RuntimeMethod* method)
@@ -17130,6 +24601,30 @@ extern "C"  bool Input_GetButtonDown_m717298472 (RuntimeObject * __this /* stati
 	_il2cpp_icall_func = (Input_GetButtonDown_m717298472_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetButtonDown(System.String)");
 	bool retVal = _il2cpp_icall_func(___buttonName0);
 	return retVal;
+}
+// System.Boolean UnityEngine.Input::GetKey(UnityEngine.KeyCode)
+extern "C"  bool Input_GetKey_m4207472870 (RuntimeObject * __this /* static, unused */, int32_t ___key0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Input_GetKey_m4207472870_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		int32_t L_0 = ___key0;
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		bool L_1 = Input_GetKeyInt_m2379744823(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		bool L_2 = V_0;
+		return L_2;
+	}
 }
 // System.Boolean UnityEngine.Input::GetMouseButton(System.Int32)
 extern "C"  bool Input_GetMouseButton_m1307856634 (RuntimeObject * __this /* static, unused */, int32_t ___button0, const RuntimeMethod* method)
@@ -17701,6 +25196,102 @@ IL_0013:
 		return;
 	}
 }
+// Conversion methods for marshalling of: UnityEngine.jvalue
+extern "C" void jvalue_t3412352577_marshal_pinvoke(const jvalue_t3412352577& unmarshaled, jvalue_t3412352577_marshaled_pinvoke& marshaled)
+{
+	marshaled.___z_0 = static_cast<int32_t>(unmarshaled.get_z_0());
+	marshaled.___b_1 = unmarshaled.get_b_1();
+	marshaled.___c_2 = static_cast<uint8_t>(unmarshaled.get_c_2());
+	marshaled.___s_3 = unmarshaled.get_s_3();
+	marshaled.___i_4 = unmarshaled.get_i_4();
+	marshaled.___j_5 = unmarshaled.get_j_5();
+	marshaled.___f_6 = unmarshaled.get_f_6();
+	marshaled.___d_7 = unmarshaled.get_d_7();
+	marshaled.___l_8 = unmarshaled.get_l_8();
+}
+extern "C" void jvalue_t3412352577_marshal_pinvoke_back(const jvalue_t3412352577_marshaled_pinvoke& marshaled, jvalue_t3412352577& unmarshaled)
+{
+	bool unmarshaled_z_temp_0 = false;
+	unmarshaled_z_temp_0 = static_cast<bool>(marshaled.___z_0);
+	unmarshaled.set_z_0(unmarshaled_z_temp_0);
+	uint8_t unmarshaled_b_temp_1 = 0x0;
+	unmarshaled_b_temp_1 = marshaled.___b_1;
+	unmarshaled.set_b_1(unmarshaled_b_temp_1);
+	Il2CppChar unmarshaled_c_temp_2 = 0x0;
+	unmarshaled_c_temp_2 = static_cast<Il2CppChar>(marshaled.___c_2);
+	unmarshaled.set_c_2(unmarshaled_c_temp_2);
+	int16_t unmarshaled_s_temp_3 = 0;
+	unmarshaled_s_temp_3 = marshaled.___s_3;
+	unmarshaled.set_s_3(unmarshaled_s_temp_3);
+	int32_t unmarshaled_i_temp_4 = 0;
+	unmarshaled_i_temp_4 = marshaled.___i_4;
+	unmarshaled.set_i_4(unmarshaled_i_temp_4);
+	int64_t unmarshaled_j_temp_5 = 0;
+	unmarshaled_j_temp_5 = marshaled.___j_5;
+	unmarshaled.set_j_5(unmarshaled_j_temp_5);
+	float unmarshaled_f_temp_6 = 0.0f;
+	unmarshaled_f_temp_6 = marshaled.___f_6;
+	unmarshaled.set_f_6(unmarshaled_f_temp_6);
+	double unmarshaled_d_temp_7 = 0.0;
+	unmarshaled_d_temp_7 = marshaled.___d_7;
+	unmarshaled.set_d_7(unmarshaled_d_temp_7);
+	intptr_t unmarshaled_l_temp_8;
+	memset(&unmarshaled_l_temp_8, 0, sizeof(unmarshaled_l_temp_8));
+	unmarshaled_l_temp_8 = marshaled.___l_8;
+	unmarshaled.set_l_8(unmarshaled_l_temp_8);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.jvalue
+extern "C" void jvalue_t3412352577_marshal_pinvoke_cleanup(jvalue_t3412352577_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.jvalue
+extern "C" void jvalue_t3412352577_marshal_com(const jvalue_t3412352577& unmarshaled, jvalue_t3412352577_marshaled_com& marshaled)
+{
+	marshaled.___z_0 = static_cast<int32_t>(unmarshaled.get_z_0());
+	marshaled.___b_1 = unmarshaled.get_b_1();
+	marshaled.___c_2 = static_cast<uint8_t>(unmarshaled.get_c_2());
+	marshaled.___s_3 = unmarshaled.get_s_3();
+	marshaled.___i_4 = unmarshaled.get_i_4();
+	marshaled.___j_5 = unmarshaled.get_j_5();
+	marshaled.___f_6 = unmarshaled.get_f_6();
+	marshaled.___d_7 = unmarshaled.get_d_7();
+	marshaled.___l_8 = unmarshaled.get_l_8();
+}
+extern "C" void jvalue_t3412352577_marshal_com_back(const jvalue_t3412352577_marshaled_com& marshaled, jvalue_t3412352577& unmarshaled)
+{
+	bool unmarshaled_z_temp_0 = false;
+	unmarshaled_z_temp_0 = static_cast<bool>(marshaled.___z_0);
+	unmarshaled.set_z_0(unmarshaled_z_temp_0);
+	uint8_t unmarshaled_b_temp_1 = 0x0;
+	unmarshaled_b_temp_1 = marshaled.___b_1;
+	unmarshaled.set_b_1(unmarshaled_b_temp_1);
+	Il2CppChar unmarshaled_c_temp_2 = 0x0;
+	unmarshaled_c_temp_2 = static_cast<Il2CppChar>(marshaled.___c_2);
+	unmarshaled.set_c_2(unmarshaled_c_temp_2);
+	int16_t unmarshaled_s_temp_3 = 0;
+	unmarshaled_s_temp_3 = marshaled.___s_3;
+	unmarshaled.set_s_3(unmarshaled_s_temp_3);
+	int32_t unmarshaled_i_temp_4 = 0;
+	unmarshaled_i_temp_4 = marshaled.___i_4;
+	unmarshaled.set_i_4(unmarshaled_i_temp_4);
+	int64_t unmarshaled_j_temp_5 = 0;
+	unmarshaled_j_temp_5 = marshaled.___j_5;
+	unmarshaled.set_j_5(unmarshaled_j_temp_5);
+	float unmarshaled_f_temp_6 = 0.0f;
+	unmarshaled_f_temp_6 = marshaled.___f_6;
+	unmarshaled.set_f_6(unmarshaled_f_temp_6);
+	double unmarshaled_d_temp_7 = 0.0;
+	unmarshaled_d_temp_7 = marshaled.___d_7;
+	unmarshaled.set_d_7(unmarshaled_d_temp_7);
+	intptr_t unmarshaled_l_temp_8;
+	memset(&unmarshaled_l_temp_8, 0, sizeof(unmarshaled_l_temp_8));
+	unmarshaled_l_temp_8 = marshaled.___l_8;
+	unmarshaled.set_l_8(unmarshaled_l_temp_8);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.jvalue
+extern "C" void jvalue_t3412352577_marshal_com_cleanup(jvalue_t3412352577_marshaled_com& marshaled)
+{
+}
 // System.Int32 UnityEngine.LayerMask::op_Implicit(UnityEngine.LayerMask)
 extern "C"  int32_t LayerMask_op_Implicit_m1604355880 (RuntimeObject * __this /* static, unused */, LayerMask_t3188175821  ___mask0, const RuntimeMethod* method)
 {
@@ -18233,3515 +25824,6 @@ IL_0021:
 		NullCheck(L_6);
 		int64_t L_7 = VirtFuncInvoker0< int64_t >::Invoke(8 /* System.Int64 System.IO.Stream::get_Length() */, L_6);
 		*((int64_t*)(L_5)) = (int64_t)L_7;
-		return;
-	}
-}
-// System.Void UnityEngine.Material::.ctor(UnityEngine.Material)
-extern "C"  void Material__ctor_m1291394641 (Material_t193706927 * __this, Material_t193706927 * ___source0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Material__ctor_m1291394641_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		Object__ctor_m2329730595(__this, /*hidden argument*/NULL);
-		Material_t193706927 * L_0 = ___source0;
-		Material_Internal_CreateWithMaterial_m1941547384(NULL /*static, unused*/, __this, L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// UnityEngine.Texture UnityEngine.Material::get_mainTexture()
-extern "C"  Texture_t2243626319 * Material_get_mainTexture_m4282415667 (Material_t193706927 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Material_get_mainTexture_m4282415667_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Texture_t2243626319 * V_0 = NULL;
-	{
-		Texture_t2243626319 * L_0 = Material_GetTexture_m1388306261(__this, _stringLiteral4026354833, /*hidden argument*/NULL);
-		V_0 = L_0;
-		goto IL_0012;
-	}
-
-IL_0012:
-	{
-		Texture_t2243626319 * L_1 = V_0;
-		return L_1;
-	}
-}
-// System.Void UnityEngine.Material::SetIntImpl(System.Int32,System.Int32)
-extern "C"  void Material_SetIntImpl_m1039479734 (Material_t193706927 * __this, int32_t ___nameID0, int32_t ___value1, const RuntimeMethod* method)
-{
-	typedef void (*Material_SetIntImpl_m1039479734_ftn) (Material_t193706927 *, int32_t, int32_t);
-	static Material_SetIntImpl_m1039479734_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Material_SetIntImpl_m1039479734_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Material::SetIntImpl(System.Int32,System.Int32)");
-	_il2cpp_icall_func(__this, ___nameID0, ___value1);
-}
-// UnityEngine.Texture UnityEngine.Material::GetTextureImpl(System.Int32)
-extern "C"  Texture_t2243626319 * Material_GetTextureImpl_m2799453342 (Material_t193706927 * __this, int32_t ___nameID0, const RuntimeMethod* method)
-{
-	typedef Texture_t2243626319 * (*Material_GetTextureImpl_m2799453342_ftn) (Material_t193706927 *, int32_t);
-	static Material_GetTextureImpl_m2799453342_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Material_GetTextureImpl_m2799453342_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Material::GetTextureImpl(System.Int32)");
-	Texture_t2243626319 * retVal = _il2cpp_icall_func(__this, ___nameID0);
-	return retVal;
-}
-// System.Boolean UnityEngine.Material::HasProperty(System.String)
-extern "C"  bool Material_HasProperty_m3932416560 (Material_t193706927 * __this, String_t* ___propertyName0, const RuntimeMethod* method)
-{
-	bool V_0 = false;
-	{
-		String_t* L_0 = ___propertyName0;
-		int32_t L_1 = Shader_PropertyToID_m423848592(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		bool L_2 = Material_HasProperty_m2476290177(__this, L_1, /*hidden argument*/NULL);
-		V_0 = L_2;
-		goto IL_0013;
-	}
-
-IL_0013:
-	{
-		bool L_3 = V_0;
-		return L_3;
-	}
-}
-// System.Boolean UnityEngine.Material::HasProperty(System.Int32)
-extern "C"  bool Material_HasProperty_m2476290177 (Material_t193706927 * __this, int32_t ___nameID0, const RuntimeMethod* method)
-{
-	typedef bool (*Material_HasProperty_m2476290177_ftn) (Material_t193706927 *, int32_t);
-	static Material_HasProperty_m2476290177_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Material_HasProperty_m2476290177_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Material::HasProperty(System.Int32)");
-	bool retVal = _il2cpp_icall_func(__this, ___nameID0);
-	return retVal;
-}
-// System.Void UnityEngine.Material::Internal_CreateWithMaterial(UnityEngine.Material,UnityEngine.Material)
-extern "C"  void Material_Internal_CreateWithMaterial_m1941547384 (RuntimeObject * __this /* static, unused */, Material_t193706927 * ___mono0, Material_t193706927 * ___source1, const RuntimeMethod* method)
-{
-	typedef void (*Material_Internal_CreateWithMaterial_m1941547384_ftn) (Material_t193706927 *, Material_t193706927 *);
-	static Material_Internal_CreateWithMaterial_m1941547384_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Material_Internal_CreateWithMaterial_m1941547384_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Material::Internal_CreateWithMaterial(UnityEngine.Material,UnityEngine.Material)");
-	_il2cpp_icall_func(___mono0, ___source1);
-}
-// System.Void UnityEngine.Material::EnableKeyword(System.String)
-extern "C"  void Material_EnableKeyword_m1484418915 (Material_t193706927 * __this, String_t* ___keyword0, const RuntimeMethod* method)
-{
-	typedef void (*Material_EnableKeyword_m1484418915_ftn) (Material_t193706927 *, String_t*);
-	static Material_EnableKeyword_m1484418915_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Material_EnableKeyword_m1484418915_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Material::EnableKeyword(System.String)");
-	_il2cpp_icall_func(__this, ___keyword0);
-}
-// System.Void UnityEngine.Material::DisableKeyword(System.String)
-extern "C"  void Material_DisableKeyword_m2117537928 (Material_t193706927 * __this, String_t* ___keyword0, const RuntimeMethod* method)
-{
-	typedef void (*Material_DisableKeyword_m2117537928_ftn) (Material_t193706927 *, String_t*);
-	static Material_DisableKeyword_m2117537928_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Material_DisableKeyword_m2117537928_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Material::DisableKeyword(System.String)");
-	_il2cpp_icall_func(__this, ___keyword0);
-}
-// System.Void UnityEngine.Material::SetInt(System.String,System.Int32)
-extern "C"  void Material_SetInt_m2847439171 (Material_t193706927 * __this, String_t* ___name0, int32_t ___value1, const RuntimeMethod* method)
-{
-	{
-		String_t* L_0 = ___name0;
-		int32_t L_1 = Shader_PropertyToID_m423848592(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		int32_t L_2 = ___value1;
-		Material_SetInt_m3647453080(__this, L_1, L_2, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.Material::SetInt(System.Int32,System.Int32)
-extern "C"  void Material_SetInt_m3647453080 (Material_t193706927 * __this, int32_t ___nameID0, int32_t ___value1, const RuntimeMethod* method)
-{
-	{
-		int32_t L_0 = ___nameID0;
-		int32_t L_1 = ___value1;
-		Material_SetIntImpl_m1039479734(__this, L_0, L_1, /*hidden argument*/NULL);
-		return;
-	}
-}
-// UnityEngine.Texture UnityEngine.Material::GetTexture(System.String)
-extern "C"  Texture_t2243626319 * Material_GetTexture_m1388306261 (Material_t193706927 * __this, String_t* ___name0, const RuntimeMethod* method)
-{
-	Texture_t2243626319 * V_0 = NULL;
-	{
-		String_t* L_0 = ___name0;
-		int32_t L_1 = Shader_PropertyToID_m423848592(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		Texture_t2243626319 * L_2 = Material_GetTexture_m3684110876(__this, L_1, /*hidden argument*/NULL);
-		V_0 = L_2;
-		goto IL_0013;
-	}
-
-IL_0013:
-	{
-		Texture_t2243626319 * L_3 = V_0;
-		return L_3;
-	}
-}
-// UnityEngine.Texture UnityEngine.Material::GetTexture(System.Int32)
-extern "C"  Texture_t2243626319 * Material_GetTexture_m3684110876 (Material_t193706927 * __this, int32_t ___nameID0, const RuntimeMethod* method)
-{
-	Texture_t2243626319 * V_0 = NULL;
-	{
-		int32_t L_0 = ___nameID0;
-		Texture_t2243626319 * L_1 = Material_GetTextureImpl_m2799453342(__this, L_0, /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		Texture_t2243626319 * L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Single UnityEngine.Mathf::Sin(System.Single)
-extern "C"  float Mathf_Sin_m712860563 (RuntimeObject * __this /* static, unused */, float ___f0, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	{
-		float L_0 = ___f0;
-		double L_1 = sin((((double)((double)L_0))));
-		V_0 = (((float)((float)L_1)));
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		float L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Single UnityEngine.Mathf::Cos(System.Single)
-extern "C"  float Mathf_Cos_m3039455602 (RuntimeObject * __this /* static, unused */, float ___f0, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	{
-		float L_0 = ___f0;
-		double L_1 = cos((((double)((double)L_0))));
-		V_0 = (((float)((float)L_1)));
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		float L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Single UnityEngine.Mathf::Acos(System.Single)
-extern "C"  float Mathf_Acos_m593408457 (RuntimeObject * __this /* static, unused */, float ___f0, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	{
-		float L_0 = ___f0;
-		double L_1 = acos((((double)((double)L_0))));
-		V_0 = (((float)((float)L_1)));
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		float L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Single UnityEngine.Mathf::Sqrt(System.Single)
-extern "C"  float Mathf_Sqrt_m3274009347 (RuntimeObject * __this /* static, unused */, float ___f0, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	{
-		float L_0 = ___f0;
-		double L_1 = sqrt((((double)((double)L_0))));
-		V_0 = (((float)((float)L_1)));
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		float L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Single UnityEngine.Mathf::Abs(System.Single)
-extern "C"  float Mathf_Abs_m2740594899 (RuntimeObject * __this /* static, unused */, float ___f0, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	{
-		float L_0 = ___f0;
-		float L_1 = fabsf(L_0);
-		V_0 = (((float)((float)L_1)));
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		float L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Single UnityEngine.Mathf::Min(System.Single,System.Single)
-extern "C"  float Mathf_Min_m1552415280 (RuntimeObject * __this /* static, unused */, float ___a0, float ___b1, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	float G_B3_0 = 0.0f;
-	{
-		float L_0 = ___a0;
-		float L_1 = ___b1;
-		if ((!(((float)L_0) < ((float)L_1))))
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		float L_2 = ___a0;
-		G_B3_0 = L_2;
-		goto IL_000f;
-	}
-
-IL_000e:
-	{
-		float L_3 = ___b1;
-		G_B3_0 = L_3;
-	}
-
-IL_000f:
-	{
-		V_0 = G_B3_0;
-		goto IL_0015;
-	}
-
-IL_0015:
-	{
-		float L_4 = V_0;
-		return L_4;
-	}
-}
-// System.Int32 UnityEngine.Mathf::Min(System.Int32,System.Int32)
-extern "C"  int32_t Mathf_Min_m1283237742 (RuntimeObject * __this /* static, unused */, int32_t ___a0, int32_t ___b1, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	int32_t G_B3_0 = 0;
-	{
-		int32_t L_0 = ___a0;
-		int32_t L_1 = ___b1;
-		if ((((int32_t)L_0) >= ((int32_t)L_1)))
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		int32_t L_2 = ___a0;
-		G_B3_0 = L_2;
-		goto IL_000f;
-	}
-
-IL_000e:
-	{
-		int32_t L_3 = ___b1;
-		G_B3_0 = L_3;
-	}
-
-IL_000f:
-	{
-		V_0 = G_B3_0;
-		goto IL_0015;
-	}
-
-IL_0015:
-	{
-		int32_t L_4 = V_0;
-		return L_4;
-	}
-}
-// System.Single UnityEngine.Mathf::Max(System.Single,System.Single)
-extern "C"  float Mathf_Max_m2043094730 (RuntimeObject * __this /* static, unused */, float ___a0, float ___b1, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	float G_B3_0 = 0.0f;
-	{
-		float L_0 = ___a0;
-		float L_1 = ___b1;
-		if ((!(((float)L_0) > ((float)L_1))))
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		float L_2 = ___a0;
-		G_B3_0 = L_2;
-		goto IL_000f;
-	}
-
-IL_000e:
-	{
-		float L_3 = ___b1;
-		G_B3_0 = L_3;
-	}
-
-IL_000f:
-	{
-		V_0 = G_B3_0;
-		goto IL_0015;
-	}
-
-IL_0015:
-	{
-		float L_4 = V_0;
-		return L_4;
-	}
-}
-// System.Int32 UnityEngine.Mathf::Max(System.Int32,System.Int32)
-extern "C"  int32_t Mathf_Max_m2902748112 (RuntimeObject * __this /* static, unused */, int32_t ___a0, int32_t ___b1, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	int32_t G_B3_0 = 0;
-	{
-		int32_t L_0 = ___a0;
-		int32_t L_1 = ___b1;
-		if ((((int32_t)L_0) <= ((int32_t)L_1)))
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		int32_t L_2 = ___a0;
-		G_B3_0 = L_2;
-		goto IL_000f;
-	}
-
-IL_000e:
-	{
-		int32_t L_3 = ___b1;
-		G_B3_0 = L_3;
-	}
-
-IL_000f:
-	{
-		V_0 = G_B3_0;
-		goto IL_0015;
-	}
-
-IL_0015:
-	{
-		int32_t L_4 = V_0;
-		return L_4;
-	}
-}
-// System.Single UnityEngine.Mathf::Pow(System.Single,System.Single)
-extern "C"  float Mathf_Pow_m1117712374 (RuntimeObject * __this /* static, unused */, float ___f0, float ___p1, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	{
-		float L_0 = ___f0;
-		float L_1 = ___p1;
-		double L_2 = pow((((double)((double)L_0))), (((double)((double)L_1))));
-		V_0 = (((float)((float)L_2)));
-		goto IL_0011;
-	}
-
-IL_0011:
-	{
-		float L_3 = V_0;
-		return L_3;
-	}
-}
-// System.Single UnityEngine.Mathf::Log(System.Single,System.Single)
-extern "C"  float Mathf_Log_m3551038074 (RuntimeObject * __this /* static, unused */, float ___f0, float ___p1, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	{
-		float L_0 = ___f0;
-		float L_1 = ___p1;
-		double L_2 = Math_Log_m3325929366(NULL /*static, unused*/, (((double)((double)L_0))), (((double)((double)L_1))), /*hidden argument*/NULL);
-		V_0 = (((float)((float)L_2)));
-		goto IL_0011;
-	}
-
-IL_0011:
-	{
-		float L_3 = V_0;
-		return L_3;
-	}
-}
-// System.Single UnityEngine.Mathf::Floor(System.Single)
-extern "C"  float Mathf_Floor_m484333823 (RuntimeObject * __this /* static, unused */, float ___f0, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	{
-		float L_0 = ___f0;
-		double L_1 = floor((((double)((double)L_0))));
-		V_0 = (((float)((float)L_1)));
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		float L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Single UnityEngine.Mathf::Round(System.Single)
-extern "C"  float Mathf_Round_m338532209 (RuntimeObject * __this /* static, unused */, float ___f0, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	{
-		float L_0 = ___f0;
-		double L_1 = bankers_round((((double)((double)L_0))));
-		V_0 = (((float)((float)L_1)));
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		float L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Int32 UnityEngine.Mathf::CeilToInt(System.Single)
-extern "C"  int32_t Mathf_CeilToInt_m3598987444 (RuntimeObject * __this /* static, unused */, float ___f0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		float L_0 = ___f0;
-		double L_1 = ceil((((double)((double)L_0))));
-		V_0 = (((int32_t)((int32_t)L_1)));
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		int32_t L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Int32 UnityEngine.Mathf::FloorToInt(System.Single)
-extern "C"  int32_t Mathf_FloorToInt_m824771903 (RuntimeObject * __this /* static, unused */, float ___f0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		float L_0 = ___f0;
-		double L_1 = floor((((double)((double)L_0))));
-		V_0 = (((int32_t)((int32_t)L_1)));
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		int32_t L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Int32 UnityEngine.Mathf::RoundToInt(System.Single)
-extern "C"  int32_t Mathf_RoundToInt_m1833913145 (RuntimeObject * __this /* static, unused */, float ___f0, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		float L_0 = ___f0;
-		double L_1 = bankers_round((((double)((double)L_0))));
-		V_0 = (((int32_t)((int32_t)L_1)));
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		int32_t L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Single UnityEngine.Mathf::Sign(System.Single)
-extern "C"  float Mathf_Sign_m3240469006 (RuntimeObject * __this /* static, unused */, float ___f0, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	float G_B3_0 = 0.0f;
-	{
-		float L_0 = ___f0;
-		if ((!(((float)L_0) >= ((float)(0.0f)))))
-		{
-			goto IL_0016;
-		}
-	}
-	{
-		G_B3_0 = (1.0f);
-		goto IL_001b;
-	}
-
-IL_0016:
-	{
-		G_B3_0 = (-1.0f);
-	}
-
-IL_001b:
-	{
-		V_0 = G_B3_0;
-		goto IL_0021;
-	}
-
-IL_0021:
-	{
-		float L_1 = V_0;
-		return L_1;
-	}
-}
-// System.Single UnityEngine.Mathf::Clamp(System.Single,System.Single,System.Single)
-extern "C"  float Mathf_Clamp_m1779415170 (RuntimeObject * __this /* static, unused */, float ___value0, float ___min1, float ___max2, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	{
-		float L_0 = ___value0;
-		float L_1 = ___min1;
-		if ((!(((float)L_0) < ((float)L_1))))
-		{
-			goto IL_0010;
-		}
-	}
-	{
-		float L_2 = ___min1;
-		___value0 = L_2;
-		goto IL_001a;
-	}
-
-IL_0010:
-	{
-		float L_3 = ___value0;
-		float L_4 = ___max2;
-		if ((!(((float)L_3) > ((float)L_4))))
-		{
-			goto IL_001a;
-		}
-	}
-	{
-		float L_5 = ___max2;
-		___value0 = L_5;
-	}
-
-IL_001a:
-	{
-		float L_6 = ___value0;
-		V_0 = L_6;
-		goto IL_0021;
-	}
-
-IL_0021:
-	{
-		float L_7 = V_0;
-		return L_7;
-	}
-}
-// System.Int32 UnityEngine.Mathf::Clamp(System.Int32,System.Int32,System.Int32)
-extern "C"  int32_t Mathf_Clamp_m966229550 (RuntimeObject * __this /* static, unused */, int32_t ___value0, int32_t ___min1, int32_t ___max2, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = ___value0;
-		int32_t L_1 = ___min1;
-		if ((((int32_t)L_0) >= ((int32_t)L_1)))
-		{
-			goto IL_0010;
-		}
-	}
-	{
-		int32_t L_2 = ___min1;
-		___value0 = L_2;
-		goto IL_001a;
-	}
-
-IL_0010:
-	{
-		int32_t L_3 = ___value0;
-		int32_t L_4 = ___max2;
-		if ((((int32_t)L_3) <= ((int32_t)L_4)))
-		{
-			goto IL_001a;
-		}
-	}
-	{
-		int32_t L_5 = ___max2;
-		___value0 = L_5;
-	}
-
-IL_001a:
-	{
-		int32_t L_6 = ___value0;
-		V_0 = L_6;
-		goto IL_0021;
-	}
-
-IL_0021:
-	{
-		int32_t L_7 = V_0;
-		return L_7;
-	}
-}
-// System.Single UnityEngine.Mathf::Clamp01(System.Single)
-extern "C"  float Mathf_Clamp01_m1777088257 (RuntimeObject * __this /* static, unused */, float ___value0, const RuntimeMethod* method)
-{
-	float V_0 = 0.0f;
-	{
-		float L_0 = ___value0;
-		if ((!(((float)L_0) < ((float)(0.0f)))))
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		V_0 = (0.0f);
-		goto IL_0034;
-	}
-
-IL_0017:
-	{
-		float L_1 = ___value0;
-		if ((!(((float)L_1) > ((float)(1.0f)))))
-		{
-			goto IL_002d;
-		}
-	}
-	{
-		V_0 = (1.0f);
-		goto IL_0034;
-	}
-
-IL_002d:
-	{
-		float L_2 = ___value0;
-		V_0 = L_2;
-		goto IL_0034;
-	}
-
-IL_0034:
-	{
-		float L_3 = V_0;
-		return L_3;
-	}
-}
-// System.Single UnityEngine.Mathf::Lerp(System.Single,System.Single,System.Single)
-extern "C"  float Mathf_Lerp_m1928161522 (RuntimeObject * __this /* static, unused */, float ___a0, float ___b1, float ___t2, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mathf_Lerp_m1928161522_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	{
-		float L_0 = ___a0;
-		float L_1 = ___b1;
-		float L_2 = ___a0;
-		float L_3 = ___t2;
-		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
-		float L_4 = Mathf_Clamp01_m1777088257(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
-		V_0 = ((float)((float)L_0+(float)((float)((float)((float)((float)L_1-(float)L_2))*(float)L_4))));
-		goto IL_0013;
-	}
-
-IL_0013:
-	{
-		float L_5 = V_0;
-		return L_5;
-	}
-}
-// System.Boolean UnityEngine.Mathf::Approximately(System.Single,System.Single)
-extern "C"  bool Mathf_Approximately_m1944881077 (RuntimeObject * __this /* static, unused */, float ___a0, float ___b1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mathf_Approximately_m1944881077_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	{
-		float L_0 = ___b1;
-		float L_1 = ___a0;
-		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
-		float L_2 = fabsf(((float)((float)L_0-(float)L_1)));
-		float L_3 = ___a0;
-		float L_4 = fabsf(L_3);
-		float L_5 = ___b1;
-		float L_6 = fabsf(L_5);
-		float L_7 = Mathf_Max_m2043094730(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
-		float L_8 = ((Mathf_t2336485820_StaticFields*)il2cpp_codegen_static_fields_for(Mathf_t2336485820_il2cpp_TypeInfo_var))->get_Epsilon_0();
-		float L_9 = Mathf_Max_m2043094730(NULL /*static, unused*/, ((float)((float)(1.0E-06f)*(float)L_7)), ((float)((float)L_8*(float)(8.0f))), /*hidden argument*/NULL);
-		V_0 = (bool)((((float)L_2) < ((float)L_9))? 1 : 0);
-		goto IL_0038;
-	}
-
-IL_0038:
-	{
-		bool L_10 = V_0;
-		return L_10;
-	}
-}
-// System.Single UnityEngine.Mathf::SmoothDamp(System.Single,System.Single,System.Single&,System.Single,System.Single,System.Single)
-extern "C"  float Mathf_SmoothDamp_m2610192176 (RuntimeObject * __this /* static, unused */, float ___current0, float ___target1, float* ___currentVelocity2, float ___smoothTime3, float ___maxSpeed4, float ___deltaTime5, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mathf_SmoothDamp_m2610192176_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	float V_1 = 0.0f;
-	float V_2 = 0.0f;
-	float V_3 = 0.0f;
-	float V_4 = 0.0f;
-	float V_5 = 0.0f;
-	float V_6 = 0.0f;
-	float V_7 = 0.0f;
-	float V_8 = 0.0f;
-	{
-		float L_0 = ___smoothTime3;
-		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
-		float L_1 = Mathf_Max_m2043094730(NULL /*static, unused*/, (0.0001f), L_0, /*hidden argument*/NULL);
-		___smoothTime3 = L_1;
-		float L_2 = ___smoothTime3;
-		V_0 = ((float)((float)(2.0f)/(float)L_2));
-		float L_3 = V_0;
-		float L_4 = ___deltaTime5;
-		V_1 = ((float)((float)L_3*(float)L_4));
-		float L_5 = V_1;
-		float L_6 = V_1;
-		float L_7 = V_1;
-		float L_8 = V_1;
-		float L_9 = V_1;
-		float L_10 = V_1;
-		V_2 = ((float)((float)(1.0f)/(float)((float)((float)((float)((float)((float)((float)(1.0f)+(float)L_5))+(float)((float)((float)((float)((float)(0.48f)*(float)L_6))*(float)L_7))))+(float)((float)((float)((float)((float)((float)((float)(0.235f)*(float)L_8))*(float)L_9))*(float)L_10))))));
-		float L_11 = ___current0;
-		float L_12 = ___target1;
-		V_3 = ((float)((float)L_11-(float)L_12));
-		float L_13 = ___target1;
-		V_4 = L_13;
-		float L_14 = ___maxSpeed4;
-		float L_15 = ___smoothTime3;
-		V_5 = ((float)((float)L_14*(float)L_15));
-		float L_16 = V_3;
-		float L_17 = V_5;
-		float L_18 = V_5;
-		float L_19 = Mathf_Clamp_m1779415170(NULL /*static, unused*/, L_16, ((-L_17)), L_18, /*hidden argument*/NULL);
-		V_3 = L_19;
-		float L_20 = ___current0;
-		float L_21 = V_3;
-		___target1 = ((float)((float)L_20-(float)L_21));
-		float* L_22 = ___currentVelocity2;
-		float L_23 = V_0;
-		float L_24 = V_3;
-		float L_25 = ___deltaTime5;
-		V_6 = ((float)((float)((float)((float)(*((float*)L_22))+(float)((float)((float)L_23*(float)L_24))))*(float)L_25));
-		float* L_26 = ___currentVelocity2;
-		float* L_27 = ___currentVelocity2;
-		float L_28 = V_0;
-		float L_29 = V_6;
-		float L_30 = V_2;
-		*((float*)(L_26)) = (float)((float)((float)((float)((float)(*((float*)L_27))-(float)((float)((float)L_28*(float)L_29))))*(float)L_30));
-		float L_31 = ___target1;
-		float L_32 = V_3;
-		float L_33 = V_6;
-		float L_34 = V_2;
-		V_7 = ((float)((float)L_31+(float)((float)((float)((float)((float)L_32+(float)L_33))*(float)L_34))));
-		float L_35 = V_4;
-		float L_36 = ___current0;
-		float L_37 = V_7;
-		float L_38 = V_4;
-		if ((!(((uint32_t)((((float)((float)((float)L_35-(float)L_36))) > ((float)(0.0f)))? 1 : 0)) == ((uint32_t)((((float)L_37) > ((float)L_38))? 1 : 0)))))
-		{
-			goto IL_00a3;
-		}
-	}
-	{
-		float L_39 = V_4;
-		V_7 = L_39;
-		float* L_40 = ___currentVelocity2;
-		float L_41 = V_7;
-		float L_42 = V_4;
-		float L_43 = ___deltaTime5;
-		*((float*)(L_40)) = (float)((float)((float)((float)((float)L_41-(float)L_42))/(float)L_43));
-	}
-
-IL_00a3:
-	{
-		float L_44 = V_7;
-		V_8 = L_44;
-		goto IL_00ac;
-	}
-
-IL_00ac:
-	{
-		float L_45 = V_8;
-		return L_45;
-	}
-}
-// System.Single UnityEngine.Mathf::Repeat(System.Single,System.Single)
-extern "C"  float Mathf_Repeat_m3635142317 (RuntimeObject * __this /* static, unused */, float ___t0, float ___length1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mathf_Repeat_m3635142317_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	{
-		float L_0 = ___t0;
-		float L_1 = ___t0;
-		float L_2 = ___length1;
-		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
-		float L_3 = floorf(((float)((float)L_1/(float)L_2)));
-		float L_4 = ___length1;
-		float L_5 = ___length1;
-		float L_6 = Mathf_Clamp_m1779415170(NULL /*static, unused*/, ((float)((float)L_0-(float)((float)((float)L_3*(float)L_4)))), (0.0f), L_5, /*hidden argument*/NULL);
-		V_0 = L_6;
-		goto IL_001e;
-	}
-
-IL_001e:
-	{
-		float L_7 = V_0;
-		return L_7;
-	}
-}
-// System.Single UnityEngine.Mathf::InverseLerp(System.Single,System.Single,System.Single)
-extern "C"  float Mathf_InverseLerp_m1237768400 (RuntimeObject * __this /* static, unused */, float ___a0, float ___b1, float ___value2, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mathf_InverseLerp_m1237768400_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	{
-		float L_0 = ___a0;
-		float L_1 = ___b1;
-		if ((((float)L_0) == ((float)L_1)))
-		{
-			goto IL_001a;
-		}
-	}
-	{
-		float L_2 = ___value2;
-		float L_3 = ___a0;
-		float L_4 = ___b1;
-		float L_5 = ___a0;
-		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
-		float L_6 = Mathf_Clamp01_m1777088257(NULL /*static, unused*/, ((float)((float)((float)((float)L_2-(float)L_3))/(float)((float)((float)L_4-(float)L_5)))), /*hidden argument*/NULL);
-		V_0 = L_6;
-		goto IL_0025;
-	}
-
-IL_001a:
-	{
-		V_0 = (0.0f);
-		goto IL_0025;
-	}
-
-IL_0025:
-	{
-		float L_7 = V_0;
-		return L_7;
-	}
-}
-// System.Void UnityEngine.Mathf::.cctor()
-extern "C"  void Mathf__cctor_m2286160987 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mathf__cctor_m2286160987_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	float G_B3_0;
-	memset(&G_B3_0, 0, sizeof(G_B3_0));
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(MathfInternal_t715669973_il2cpp_TypeInfo_var);
-		bool L_0 = ((MathfInternal_t715669973_StaticFields*)il2cpp_codegen_static_fields_for(MathfInternal_t715669973_il2cpp_TypeInfo_var))->get_IsFlushToZeroEnabled_2();
-		if (!L_0)
-		{
-			goto IL_0016;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(MathfInternal_t715669973_il2cpp_TypeInfo_var);
-		float L_1 = ((MathfInternal_t715669973_StaticFields*)il2cpp_codegen_static_fields_for(MathfInternal_t715669973_il2cpp_TypeInfo_var))->get_FloatMinNormal_0();
-		il2cpp_codegen_memory_barrier();
-		G_B3_0 = L_1;
-		goto IL_001d;
-	}
-
-IL_0016:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(MathfInternal_t715669973_il2cpp_TypeInfo_var);
-		float L_2 = ((MathfInternal_t715669973_StaticFields*)il2cpp_codegen_static_fields_for(MathfInternal_t715669973_il2cpp_TypeInfo_var))->get_FloatMinDenormal_1();
-		il2cpp_codegen_memory_barrier();
-		G_B3_0 = L_2;
-	}
-
-IL_001d:
-	{
-		((Mathf_t2336485820_StaticFields*)il2cpp_codegen_static_fields_for(Mathf_t2336485820_il2cpp_TypeInfo_var))->set_Epsilon_0(G_B3_0);
-		return;
-	}
-}
-// System.Void UnityEngine.Matrix4x4::.ctor(UnityEngine.Vector4,UnityEngine.Vector4,UnityEngine.Vector4,UnityEngine.Vector4)
-extern "C"  void Matrix4x4__ctor_m828876617 (Matrix4x4_t2933234003 * __this, Vector4_t2243707581  ___column00, Vector4_t2243707581  ___column11, Vector4_t2243707581  ___column22, Vector4_t2243707581  ___column33, const RuntimeMethod* method)
-{
-	{
-		float L_0 = (&___column00)->get_x_1();
-		__this->set_m00_0(L_0);
-		float L_1 = (&___column11)->get_x_1();
-		__this->set_m01_4(L_1);
-		float L_2 = (&___column22)->get_x_1();
-		__this->set_m02_8(L_2);
-		float L_3 = (&___column33)->get_x_1();
-		__this->set_m03_12(L_3);
-		float L_4 = (&___column00)->get_y_2();
-		__this->set_m10_1(L_4);
-		float L_5 = (&___column11)->get_y_2();
-		__this->set_m11_5(L_5);
-		float L_6 = (&___column22)->get_y_2();
-		__this->set_m12_9(L_6);
-		float L_7 = (&___column33)->get_y_2();
-		__this->set_m13_13(L_7);
-		float L_8 = (&___column00)->get_z_3();
-		__this->set_m20_2(L_8);
-		float L_9 = (&___column11)->get_z_3();
-		__this->set_m21_6(L_9);
-		float L_10 = (&___column22)->get_z_3();
-		__this->set_m22_10(L_10);
-		float L_11 = (&___column33)->get_z_3();
-		__this->set_m23_14(L_11);
-		float L_12 = (&___column00)->get_w_4();
-		__this->set_m30_3(L_12);
-		float L_13 = (&___column11)->get_w_4();
-		__this->set_m31_7(L_13);
-		float L_14 = (&___column22)->get_w_4();
-		__this->set_m32_11(L_14);
-		float L_15 = (&___column33)->get_w_4();
-		__this->set_m33_15(L_15);
-		return;
-	}
-}
-extern "C"  void Matrix4x4__ctor_m828876617_AdjustorThunk (RuntimeObject * __this, Vector4_t2243707581  ___column00, Vector4_t2243707581  ___column11, Vector4_t2243707581  ___column22, Vector4_t2243707581  ___column33, const RuntimeMethod* method)
-{
-	Matrix4x4_t2933234003 * _thisAdjusted = reinterpret_cast<Matrix4x4_t2933234003 *>(__this + 1);
-	Matrix4x4__ctor_m828876617(_thisAdjusted, ___column00, ___column11, ___column22, ___column33, method);
-}
-// System.Int32 UnityEngine.Matrix4x4::GetHashCode()
-extern "C"  int32_t Matrix4x4_GetHashCode_m375571566 (Matrix4x4_t2933234003 * __this, const RuntimeMethod* method)
-{
-	Vector4_t2243707581  V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	Vector4_t2243707581  V_1;
-	memset(&V_1, 0, sizeof(V_1));
-	Vector4_t2243707581  V_2;
-	memset(&V_2, 0, sizeof(V_2));
-	Vector4_t2243707581  V_3;
-	memset(&V_3, 0, sizeof(V_3));
-	int32_t V_4 = 0;
-	{
-		Vector4_t2243707581  L_0 = Matrix4x4_GetColumn_m83396621(__this, 0, /*hidden argument*/NULL);
-		V_0 = L_0;
-		int32_t L_1 = Vector4_GetHashCode_m848522796((&V_0), /*hidden argument*/NULL);
-		Vector4_t2243707581  L_2 = Matrix4x4_GetColumn_m83396621(__this, 1, /*hidden argument*/NULL);
-		V_1 = L_2;
-		int32_t L_3 = Vector4_GetHashCode_m848522796((&V_1), /*hidden argument*/NULL);
-		Vector4_t2243707581  L_4 = Matrix4x4_GetColumn_m83396621(__this, 2, /*hidden argument*/NULL);
-		V_2 = L_4;
-		int32_t L_5 = Vector4_GetHashCode_m848522796((&V_2), /*hidden argument*/NULL);
-		Vector4_t2243707581  L_6 = Matrix4x4_GetColumn_m83396621(__this, 3, /*hidden argument*/NULL);
-		V_3 = L_6;
-		int32_t L_7 = Vector4_GetHashCode_m848522796((&V_3), /*hidden argument*/NULL);
-		V_4 = ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_1^(int32_t)((int32_t)((int32_t)L_3<<(int32_t)2))))^(int32_t)((int32_t)((int32_t)L_5>>(int32_t)2))))^(int32_t)((int32_t)((int32_t)L_7>>(int32_t)1))));
-		goto IL_0065;
-	}
-
-IL_0065:
-	{
-		int32_t L_8 = V_4;
-		return L_8;
-	}
-}
-extern "C"  int32_t Matrix4x4_GetHashCode_m375571566_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
-{
-	Matrix4x4_t2933234003 * _thisAdjusted = reinterpret_cast<Matrix4x4_t2933234003 *>(__this + 1);
-	return Matrix4x4_GetHashCode_m375571566(_thisAdjusted, method);
-}
-// System.Boolean UnityEngine.Matrix4x4::Equals(System.Object)
-extern "C"  bool Matrix4x4_Equals_m1140366474 (Matrix4x4_t2933234003 * __this, RuntimeObject * ___other0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Matrix4x4_Equals_m1140366474_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	Matrix4x4_t2933234003  V_1;
-	memset(&V_1, 0, sizeof(V_1));
-	Vector4_t2243707581  V_2;
-	memset(&V_2, 0, sizeof(V_2));
-	Vector4_t2243707581  V_3;
-	memset(&V_3, 0, sizeof(V_3));
-	Vector4_t2243707581  V_4;
-	memset(&V_4, 0, sizeof(V_4));
-	Vector4_t2243707581  V_5;
-	memset(&V_5, 0, sizeof(V_5));
-	int32_t G_B7_0 = 0;
-	{
-		RuntimeObject * L_0 = ___other0;
-		if (((RuntimeObject *)IsInstSealed((RuntimeObject*)L_0, Matrix4x4_t2933234003_il2cpp_TypeInfo_var)))
-		{
-			goto IL_0013;
-		}
-	}
-	{
-		V_0 = (bool)0;
-		goto IL_00bc;
-	}
-
-IL_0013:
-	{
-		RuntimeObject * L_1 = ___other0;
-		V_1 = ((*(Matrix4x4_t2933234003 *)((Matrix4x4_t2933234003 *)UnBox(L_1, Matrix4x4_t2933234003_il2cpp_TypeInfo_var))));
-		Vector4_t2243707581  L_2 = Matrix4x4_GetColumn_m83396621(__this, 0, /*hidden argument*/NULL);
-		V_2 = L_2;
-		Vector4_t2243707581  L_3 = Matrix4x4_GetColumn_m83396621((&V_1), 0, /*hidden argument*/NULL);
-		Vector4_t2243707581  L_4 = L_3;
-		RuntimeObject * L_5 = Box(Vector4_t2243707581_il2cpp_TypeInfo_var, &L_4);
-		bool L_6 = Vector4_Equals_m2166390052((&V_2), L_5, /*hidden argument*/NULL);
-		if (!L_6)
-		{
-			goto IL_00b5;
-		}
-	}
-	{
-		Vector4_t2243707581  L_7 = Matrix4x4_GetColumn_m83396621(__this, 1, /*hidden argument*/NULL);
-		V_3 = L_7;
-		Vector4_t2243707581  L_8 = Matrix4x4_GetColumn_m83396621((&V_1), 1, /*hidden argument*/NULL);
-		Vector4_t2243707581  L_9 = L_8;
-		RuntimeObject * L_10 = Box(Vector4_t2243707581_il2cpp_TypeInfo_var, &L_9);
-		bool L_11 = Vector4_Equals_m2166390052((&V_3), L_10, /*hidden argument*/NULL);
-		if (!L_11)
-		{
-			goto IL_00b5;
-		}
-	}
-	{
-		Vector4_t2243707581  L_12 = Matrix4x4_GetColumn_m83396621(__this, 2, /*hidden argument*/NULL);
-		V_4 = L_12;
-		Vector4_t2243707581  L_13 = Matrix4x4_GetColumn_m83396621((&V_1), 2, /*hidden argument*/NULL);
-		Vector4_t2243707581  L_14 = L_13;
-		RuntimeObject * L_15 = Box(Vector4_t2243707581_il2cpp_TypeInfo_var, &L_14);
-		bool L_16 = Vector4_Equals_m2166390052((&V_4), L_15, /*hidden argument*/NULL);
-		if (!L_16)
-		{
-			goto IL_00b5;
-		}
-	}
-	{
-		Vector4_t2243707581  L_17 = Matrix4x4_GetColumn_m83396621(__this, 3, /*hidden argument*/NULL);
-		V_5 = L_17;
-		Vector4_t2243707581  L_18 = Matrix4x4_GetColumn_m83396621((&V_1), 3, /*hidden argument*/NULL);
-		Vector4_t2243707581  L_19 = L_18;
-		RuntimeObject * L_20 = Box(Vector4_t2243707581_il2cpp_TypeInfo_var, &L_19);
-		bool L_21 = Vector4_Equals_m2166390052((&V_5), L_20, /*hidden argument*/NULL);
-		G_B7_0 = ((int32_t)(L_21));
-		goto IL_00b6;
-	}
-
-IL_00b5:
-	{
-		G_B7_0 = 0;
-	}
-
-IL_00b6:
-	{
-		V_0 = (bool)G_B7_0;
-		goto IL_00bc;
-	}
-
-IL_00bc:
-	{
-		bool L_22 = V_0;
-		return L_22;
-	}
-}
-extern "C"  bool Matrix4x4_Equals_m1140366474_AdjustorThunk (RuntimeObject * __this, RuntimeObject * ___other0, const RuntimeMethod* method)
-{
-	Matrix4x4_t2933234003 * _thisAdjusted = reinterpret_cast<Matrix4x4_t2933234003 *>(__this + 1);
-	return Matrix4x4_Equals_m1140366474(_thisAdjusted, ___other0, method);
-}
-// UnityEngine.Vector4 UnityEngine.Matrix4x4::GetColumn(System.Int32)
-extern "C"  Vector4_t2243707581  Matrix4x4_GetColumn_m83396621 (Matrix4x4_t2933234003 * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Matrix4x4_GetColumn_m83396621_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector4_t2243707581  V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	{
-		int32_t L_0 = ___index0;
-		switch (L_0)
-		{
-			case 0:
-			{
-				goto IL_001c;
-			}
-			case 1:
-			{
-				goto IL_003f;
-			}
-			case 2:
-			{
-				goto IL_0062;
-			}
-			case 3:
-			{
-				goto IL_0085;
-			}
-		}
-	}
-	{
-		goto IL_00a8;
-	}
-
-IL_001c:
-	{
-		float L_1 = __this->get_m00_0();
-		float L_2 = __this->get_m10_1();
-		float L_3 = __this->get_m20_2();
-		float L_4 = __this->get_m30_3();
-		Vector4_t2243707581  L_5;
-		memset(&L_5, 0, sizeof(L_5));
-		Vector4__ctor_m3879980823((&L_5), L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
-		V_0 = L_5;
-		goto IL_00b3;
-	}
-
-IL_003f:
-	{
-		float L_6 = __this->get_m01_4();
-		float L_7 = __this->get_m11_5();
-		float L_8 = __this->get_m21_6();
-		float L_9 = __this->get_m31_7();
-		Vector4_t2243707581  L_10;
-		memset(&L_10, 0, sizeof(L_10));
-		Vector4__ctor_m3879980823((&L_10), L_6, L_7, L_8, L_9, /*hidden argument*/NULL);
-		V_0 = L_10;
-		goto IL_00b3;
-	}
-
-IL_0062:
-	{
-		float L_11 = __this->get_m02_8();
-		float L_12 = __this->get_m12_9();
-		float L_13 = __this->get_m22_10();
-		float L_14 = __this->get_m32_11();
-		Vector4_t2243707581  L_15;
-		memset(&L_15, 0, sizeof(L_15));
-		Vector4__ctor_m3879980823((&L_15), L_11, L_12, L_13, L_14, /*hidden argument*/NULL);
-		V_0 = L_15;
-		goto IL_00b3;
-	}
-
-IL_0085:
-	{
-		float L_16 = __this->get_m03_12();
-		float L_17 = __this->get_m13_13();
-		float L_18 = __this->get_m23_14();
-		float L_19 = __this->get_m33_15();
-		Vector4_t2243707581  L_20;
-		memset(&L_20, 0, sizeof(L_20));
-		Vector4__ctor_m3879980823((&L_20), L_16, L_17, L_18, L_19, /*hidden argument*/NULL);
-		V_0 = L_20;
-		goto IL_00b3;
-	}
-
-IL_00a8:
-	{
-		IndexOutOfRangeException_t3527622107 * L_21 = (IndexOutOfRangeException_t3527622107 *)il2cpp_codegen_object_new(IndexOutOfRangeException_t3527622107_il2cpp_TypeInfo_var);
-		IndexOutOfRangeException__ctor_m1847153122(L_21, _stringLiteral409850212, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_21);
-	}
-
-IL_00b3:
-	{
-		Vector4_t2243707581  L_22 = V_0;
-		return L_22;
-	}
-}
-extern "C"  Vector4_t2243707581  Matrix4x4_GetColumn_m83396621_AdjustorThunk (RuntimeObject * __this, int32_t ___index0, const RuntimeMethod* method)
-{
-	Matrix4x4_t2933234003 * _thisAdjusted = reinterpret_cast<Matrix4x4_t2933234003 *>(__this + 1);
-	return Matrix4x4_GetColumn_m83396621(_thisAdjusted, ___index0, method);
-}
-// UnityEngine.Vector3 UnityEngine.Matrix4x4::MultiplyPoint3x4(UnityEngine.Vector3)
-extern "C"  Vector3_t2243707580  Matrix4x4_MultiplyPoint3x4_m1436516889 (Matrix4x4_t2933234003 * __this, Vector3_t2243707580  ___point0, const RuntimeMethod* method)
-{
-	Vector3_t2243707580  V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	Vector3_t2243707580  V_1;
-	memset(&V_1, 0, sizeof(V_1));
-	{
-		float L_0 = __this->get_m00_0();
-		float L_1 = (&___point0)->get_x_1();
-		float L_2 = __this->get_m01_4();
-		float L_3 = (&___point0)->get_y_2();
-		float L_4 = __this->get_m02_8();
-		float L_5 = (&___point0)->get_z_3();
-		float L_6 = __this->get_m03_12();
-		(&V_0)->set_x_1(((float)((float)((float)((float)((float)((float)((float)((float)L_0*(float)L_1))+(float)((float)((float)L_2*(float)L_3))))+(float)((float)((float)L_4*(float)L_5))))+(float)L_6)));
-		float L_7 = __this->get_m10_1();
-		float L_8 = (&___point0)->get_x_1();
-		float L_9 = __this->get_m11_5();
-		float L_10 = (&___point0)->get_y_2();
-		float L_11 = __this->get_m12_9();
-		float L_12 = (&___point0)->get_z_3();
-		float L_13 = __this->get_m13_13();
-		(&V_0)->set_y_2(((float)((float)((float)((float)((float)((float)((float)((float)L_7*(float)L_8))+(float)((float)((float)L_9*(float)L_10))))+(float)((float)((float)L_11*(float)L_12))))+(float)L_13)));
-		float L_14 = __this->get_m20_2();
-		float L_15 = (&___point0)->get_x_1();
-		float L_16 = __this->get_m21_6();
-		float L_17 = (&___point0)->get_y_2();
-		float L_18 = __this->get_m22_10();
-		float L_19 = (&___point0)->get_z_3();
-		float L_20 = __this->get_m23_14();
-		(&V_0)->set_z_3(((float)((float)((float)((float)((float)((float)((float)((float)L_14*(float)L_15))+(float)((float)((float)L_16*(float)L_17))))+(float)((float)((float)L_18*(float)L_19))))+(float)L_20)));
-		Vector3_t2243707580  L_21 = V_0;
-		V_1 = L_21;
-		goto IL_00b6;
-	}
-
-IL_00b6:
-	{
-		Vector3_t2243707580  L_22 = V_1;
-		return L_22;
-	}
-}
-extern "C"  Vector3_t2243707580  Matrix4x4_MultiplyPoint3x4_m1436516889_AdjustorThunk (RuntimeObject * __this, Vector3_t2243707580  ___point0, const RuntimeMethod* method)
-{
-	Matrix4x4_t2933234003 * _thisAdjusted = reinterpret_cast<Matrix4x4_t2933234003 *>(__this + 1);
-	return Matrix4x4_MultiplyPoint3x4_m1436516889(_thisAdjusted, ___point0, method);
-}
-// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::get_identity()
-extern "C"  Matrix4x4_t2933234003  Matrix4x4_get_identity_m3692071845 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Matrix4x4_get_identity_m3692071845_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Matrix4x4_t2933234003  V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Matrix4x4_t2933234003_il2cpp_TypeInfo_var);
-		Matrix4x4_t2933234003  L_0 = ((Matrix4x4_t2933234003_StaticFields*)il2cpp_codegen_static_fields_for(Matrix4x4_t2933234003_il2cpp_TypeInfo_var))->get_identityMatrix_17();
-		V_0 = L_0;
-		goto IL_000c;
-	}
-
-IL_000c:
-	{
-		Matrix4x4_t2933234003  L_1 = V_0;
-		return L_1;
-	}
-}
-// System.String UnityEngine.Matrix4x4::ToString()
-extern "C"  String_t* Matrix4x4_ToString_m3886768326 (Matrix4x4_t2933234003 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Matrix4x4_ToString_m3886768326_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	String_t* V_0 = NULL;
-	{
-		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16)));
-		float L_1 = __this->get_m00_0();
-		float L_2 = L_1;
-		RuntimeObject * L_3 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_2);
-		NullCheck(L_0);
-		ArrayElementTypeCheck (L_0, L_3);
-		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)L_3);
-		ObjectU5BU5D_t3614634134* L_4 = L_0;
-		float L_5 = __this->get_m01_4();
-		float L_6 = L_5;
-		RuntimeObject * L_7 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_6);
-		NullCheck(L_4);
-		ArrayElementTypeCheck (L_4, L_7);
-		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject *)L_7);
-		ObjectU5BU5D_t3614634134* L_8 = L_4;
-		float L_9 = __this->get_m02_8();
-		float L_10 = L_9;
-		RuntimeObject * L_11 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_10);
-		NullCheck(L_8);
-		ArrayElementTypeCheck (L_8, L_11);
-		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject *)L_11);
-		ObjectU5BU5D_t3614634134* L_12 = L_8;
-		float L_13 = __this->get_m03_12();
-		float L_14 = L_13;
-		RuntimeObject * L_15 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_14);
-		NullCheck(L_12);
-		ArrayElementTypeCheck (L_12, L_15);
-		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject *)L_15);
-		ObjectU5BU5D_t3614634134* L_16 = L_12;
-		float L_17 = __this->get_m10_1();
-		float L_18 = L_17;
-		RuntimeObject * L_19 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_18);
-		NullCheck(L_16);
-		ArrayElementTypeCheck (L_16, L_19);
-		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject *)L_19);
-		ObjectU5BU5D_t3614634134* L_20 = L_16;
-		float L_21 = __this->get_m11_5();
-		float L_22 = L_21;
-		RuntimeObject * L_23 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_22);
-		NullCheck(L_20);
-		ArrayElementTypeCheck (L_20, L_23);
-		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(5), (RuntimeObject *)L_23);
-		ObjectU5BU5D_t3614634134* L_24 = L_20;
-		float L_25 = __this->get_m12_9();
-		float L_26 = L_25;
-		RuntimeObject * L_27 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_26);
-		NullCheck(L_24);
-		ArrayElementTypeCheck (L_24, L_27);
-		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(6), (RuntimeObject *)L_27);
-		ObjectU5BU5D_t3614634134* L_28 = L_24;
-		float L_29 = __this->get_m13_13();
-		float L_30 = L_29;
-		RuntimeObject * L_31 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_30);
-		NullCheck(L_28);
-		ArrayElementTypeCheck (L_28, L_31);
-		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(7), (RuntimeObject *)L_31);
-		ObjectU5BU5D_t3614634134* L_32 = L_28;
-		float L_33 = __this->get_m20_2();
-		float L_34 = L_33;
-		RuntimeObject * L_35 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_34);
-		NullCheck(L_32);
-		ArrayElementTypeCheck (L_32, L_35);
-		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(8), (RuntimeObject *)L_35);
-		ObjectU5BU5D_t3614634134* L_36 = L_32;
-		float L_37 = __this->get_m21_6();
-		float L_38 = L_37;
-		RuntimeObject * L_39 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_38);
-		NullCheck(L_36);
-		ArrayElementTypeCheck (L_36, L_39);
-		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (RuntimeObject *)L_39);
-		ObjectU5BU5D_t3614634134* L_40 = L_36;
-		float L_41 = __this->get_m22_10();
-		float L_42 = L_41;
-		RuntimeObject * L_43 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_42);
-		NullCheck(L_40);
-		ArrayElementTypeCheck (L_40, L_43);
-		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)10)), (RuntimeObject *)L_43);
-		ObjectU5BU5D_t3614634134* L_44 = L_40;
-		float L_45 = __this->get_m23_14();
-		float L_46 = L_45;
-		RuntimeObject * L_47 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_46);
-		NullCheck(L_44);
-		ArrayElementTypeCheck (L_44, L_47);
-		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)11)), (RuntimeObject *)L_47);
-		ObjectU5BU5D_t3614634134* L_48 = L_44;
-		float L_49 = __this->get_m30_3();
-		float L_50 = L_49;
-		RuntimeObject * L_51 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_50);
-		NullCheck(L_48);
-		ArrayElementTypeCheck (L_48, L_51);
-		(L_48)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)12)), (RuntimeObject *)L_51);
-		ObjectU5BU5D_t3614634134* L_52 = L_48;
-		float L_53 = __this->get_m31_7();
-		float L_54 = L_53;
-		RuntimeObject * L_55 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_54);
-		NullCheck(L_52);
-		ArrayElementTypeCheck (L_52, L_55);
-		(L_52)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)13)), (RuntimeObject *)L_55);
-		ObjectU5BU5D_t3614634134* L_56 = L_52;
-		float L_57 = __this->get_m32_11();
-		float L_58 = L_57;
-		RuntimeObject * L_59 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_58);
-		NullCheck(L_56);
-		ArrayElementTypeCheck (L_56, L_59);
-		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)14)), (RuntimeObject *)L_59);
-		ObjectU5BU5D_t3614634134* L_60 = L_56;
-		float L_61 = __this->get_m33_15();
-		float L_62 = L_61;
-		RuntimeObject * L_63 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_62);
-		NullCheck(L_60);
-		ArrayElementTypeCheck (L_60, L_63);
-		(L_60)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (RuntimeObject *)L_63);
-		String_t* L_64 = UnityString_Format_m328130606(NULL /*static, unused*/, _stringLiteral3991437666, L_60, /*hidden argument*/NULL);
-		V_0 = L_64;
-		goto IL_00ff;
-	}
-
-IL_00ff:
-	{
-		String_t* L_65 = V_0;
-		return L_65;
-	}
-}
-extern "C"  String_t* Matrix4x4_ToString_m3886768326_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
-{
-	Matrix4x4_t2933234003 * _thisAdjusted = reinterpret_cast<Matrix4x4_t2933234003 *>(__this + 1);
-	return Matrix4x4_ToString_m3886768326(_thisAdjusted, method);
-}
-// System.Void UnityEngine.Matrix4x4::.cctor()
-extern "C"  void Matrix4x4__cctor_m574424660 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Matrix4x4__cctor_m574424660_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Vector4_t2243707581  L_0;
-		memset(&L_0, 0, sizeof(L_0));
-		Vector4__ctor_m3879980823((&L_0), (0.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		Vector4_t2243707581  L_1;
-		memset(&L_1, 0, sizeof(L_1));
-		Vector4__ctor_m3879980823((&L_1), (0.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		Vector4_t2243707581  L_2;
-		memset(&L_2, 0, sizeof(L_2));
-		Vector4__ctor_m3879980823((&L_2), (0.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		Vector4_t2243707581  L_3;
-		memset(&L_3, 0, sizeof(L_3));
-		Vector4__ctor_m3879980823((&L_3), (0.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		Matrix4x4_t2933234003  L_4;
-		memset(&L_4, 0, sizeof(L_4));
-		Matrix4x4__ctor_m828876617((&L_4), L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
-		((Matrix4x4_t2933234003_StaticFields*)il2cpp_codegen_static_fields_for(Matrix4x4_t2933234003_il2cpp_TypeInfo_var))->set_zeroMatrix_16(L_4);
-		Vector4_t2243707581  L_5;
-		memset(&L_5, 0, sizeof(L_5));
-		Vector4__ctor_m3879980823((&L_5), (1.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		Vector4_t2243707581  L_6;
-		memset(&L_6, 0, sizeof(L_6));
-		Vector4__ctor_m3879980823((&L_6), (0.0f), (1.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		Vector4_t2243707581  L_7;
-		memset(&L_7, 0, sizeof(L_7));
-		Vector4__ctor_m3879980823((&L_7), (0.0f), (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
-		Vector4_t2243707581  L_8;
-		memset(&L_8, 0, sizeof(L_8));
-		Vector4__ctor_m3879980823((&L_8), (0.0f), (0.0f), (0.0f), (1.0f), /*hidden argument*/NULL);
-		Matrix4x4_t2933234003  L_9;
-		memset(&L_9, 0, sizeof(L_9));
-		Matrix4x4__ctor_m828876617((&L_9), L_5, L_6, L_7, L_8, /*hidden argument*/NULL);
-		((Matrix4x4_t2933234003_StaticFields*)il2cpp_codegen_static_fields_for(Matrix4x4_t2933234003_il2cpp_TypeInfo_var))->set_identityMatrix_17(L_9);
-		return;
-	}
-}
-// System.Void UnityEngine.Mesh::.ctor()
-extern "C"  void Mesh__ctor_m3368629769 (Mesh_t1356156583 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh__ctor_m3368629769_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		Object__ctor_m2329730595(__this, /*hidden argument*/NULL);
-		Mesh_Internal_Create_m384282753(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.Mesh::Internal_Create(UnityEngine.Mesh)
-extern "C"  void Mesh_Internal_Create_m384282753 (RuntimeObject * __this /* static, unused */, Mesh_t1356156583 * ___mono0, const RuntimeMethod* method)
-{
-	typedef void (*Mesh_Internal_Create_m384282753_ftn) (Mesh_t1356156583 *);
-	static Mesh_Internal_Create_m384282753_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Mesh_Internal_Create_m384282753_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh::Internal_Create(UnityEngine.Mesh)");
-	_il2cpp_icall_func(___mono0);
-}
-// System.Void UnityEngine.Mesh::SetArrayForChannelImpl(UnityEngine.Mesh/InternalShaderChannel,UnityEngine.Mesh/InternalVertexChannelType,System.Int32,System.Array,System.Int32)
-extern "C"  void Mesh_SetArrayForChannelImpl_m2218570145 (Mesh_t1356156583 * __this, int32_t ___channel0, int32_t ___format1, int32_t ___dim2, RuntimeArray * ___values3, int32_t ___arraySize4, const RuntimeMethod* method)
-{
-	typedef void (*Mesh_SetArrayForChannelImpl_m2218570145_ftn) (Mesh_t1356156583 *, int32_t, int32_t, int32_t, RuntimeArray *, int32_t);
-	static Mesh_SetArrayForChannelImpl_m2218570145_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Mesh_SetArrayForChannelImpl_m2218570145_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh::SetArrayForChannelImpl(UnityEngine.Mesh/InternalShaderChannel,UnityEngine.Mesh/InternalVertexChannelType,System.Int32,System.Array,System.Int32)");
-	_il2cpp_icall_func(__this, ___channel0, ___format1, ___dim2, ___values3, ___arraySize4);
-}
-// System.Array UnityEngine.Mesh::GetAllocArrayFromChannelImpl(UnityEngine.Mesh/InternalShaderChannel,UnityEngine.Mesh/InternalVertexChannelType,System.Int32)
-extern "C"  RuntimeArray * Mesh_GetAllocArrayFromChannelImpl_m1559282939 (Mesh_t1356156583 * __this, int32_t ___channel0, int32_t ___format1, int32_t ___dim2, const RuntimeMethod* method)
-{
-	typedef RuntimeArray * (*Mesh_GetAllocArrayFromChannelImpl_m1559282939_ftn) (Mesh_t1356156583 *, int32_t, int32_t, int32_t);
-	static Mesh_GetAllocArrayFromChannelImpl_m1559282939_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Mesh_GetAllocArrayFromChannelImpl_m1559282939_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh::GetAllocArrayFromChannelImpl(UnityEngine.Mesh/InternalShaderChannel,UnityEngine.Mesh/InternalVertexChannelType,System.Int32)");
-	RuntimeArray * retVal = _il2cpp_icall_func(__this, ___channel0, ___format1, ___dim2);
-	return retVal;
-}
-// System.Boolean UnityEngine.Mesh::HasChannel(UnityEngine.Mesh/InternalShaderChannel)
-extern "C"  bool Mesh_HasChannel_m4035557326 (Mesh_t1356156583 * __this, int32_t ___channel0, const RuntimeMethod* method)
-{
-	typedef bool (*Mesh_HasChannel_m4035557326_ftn) (Mesh_t1356156583 *, int32_t);
-	static Mesh_HasChannel_m4035557326_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Mesh_HasChannel_m4035557326_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh::HasChannel(UnityEngine.Mesh/InternalShaderChannel)");
-	bool retVal = _il2cpp_icall_func(__this, ___channel0);
-	return retVal;
-}
-// System.Array UnityEngine.Mesh::ExtractArrayFromList(System.Object)
-extern "C"  RuntimeArray * Mesh_ExtractArrayFromList_m4170180394 (RuntimeObject * __this /* static, unused */, RuntimeObject * ___list0, const RuntimeMethod* method)
-{
-	typedef RuntimeArray * (*Mesh_ExtractArrayFromList_m4170180394_ftn) (RuntimeObject *);
-	static Mesh_ExtractArrayFromList_m4170180394_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Mesh_ExtractArrayFromList_m4170180394_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh::ExtractArrayFromList(System.Object)");
-	RuntimeArray * retVal = _il2cpp_icall_func(___list0);
-	return retVal;
-}
-// System.Int32[] UnityEngine.Mesh::GetIndicesImpl(System.Int32)
-extern "C"  Int32U5BU5D_t3030399641* Mesh_GetIndicesImpl_m50468169 (Mesh_t1356156583 * __this, int32_t ___submesh0, const RuntimeMethod* method)
-{
-	typedef Int32U5BU5D_t3030399641* (*Mesh_GetIndicesImpl_m50468169_ftn) (Mesh_t1356156583 *, int32_t);
-	static Mesh_GetIndicesImpl_m50468169_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Mesh_GetIndicesImpl_m50468169_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh::GetIndicesImpl(System.Int32)");
-	Int32U5BU5D_t3030399641* retVal = _il2cpp_icall_func(__this, ___submesh0);
-	return retVal;
-}
-// System.Void UnityEngine.Mesh::SetTrianglesImpl(System.Int32,System.Array,System.Int32,System.Boolean)
-extern "C"  void Mesh_SetTrianglesImpl_m2883494607 (Mesh_t1356156583 * __this, int32_t ___submesh0, RuntimeArray * ___triangles1, int32_t ___arraySize2, bool ___calculateBounds3, const RuntimeMethod* method)
-{
-	typedef void (*Mesh_SetTrianglesImpl_m2883494607_ftn) (Mesh_t1356156583 *, int32_t, RuntimeArray *, int32_t, bool);
-	static Mesh_SetTrianglesImpl_m2883494607_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Mesh_SetTrianglesImpl_m2883494607_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh::SetTrianglesImpl(System.Int32,System.Array,System.Int32,System.Boolean)");
-	_il2cpp_icall_func(__this, ___submesh0, ___triangles1, ___arraySize2, ___calculateBounds3);
-}
-// System.Void UnityEngine.Mesh::SetTriangles(System.Collections.Generic.List`1<System.Int32>,System.Int32)
-extern "C"  void Mesh_SetTriangles_m4023324404 (Mesh_t1356156583 * __this, List_1_t1440998580 * ___triangles0, int32_t ___submesh1, const RuntimeMethod* method)
-{
-	bool V_0 = false;
-	{
-		V_0 = (bool)1;
-		List_1_t1440998580 * L_0 = ___triangles0;
-		int32_t L_1 = ___submesh1;
-		bool L_2 = V_0;
-		Mesh_SetTriangles_m1551606807(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.Mesh::SetTriangles(System.Collections.Generic.List`1<System.Int32>,System.Int32,System.Boolean)
-extern "C"  void Mesh_SetTriangles_m1551606807 (Mesh_t1356156583 * __this, List_1_t1440998580 * ___triangles0, int32_t ___submesh1, bool ___calculateBounds2, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_SetTriangles_m1551606807_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		int32_t L_0 = ___submesh1;
-		bool L_1 = Mesh_CheckCanAccessSubmeshTriangles_m2644388378(__this, L_0, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_0022;
-		}
-	}
-	{
-		int32_t L_2 = ___submesh1;
-		List_1_t1440998580 * L_3 = ___triangles0;
-		RuntimeArray * L_4 = Mesh_ExtractArrayFromList_m4170180394(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
-		List_1_t1440998580 * L_5 = ___triangles0;
-		int32_t L_6 = Mesh_SafeLength_TisInt32_t2071877448_m3760170319(__this, L_5, /*hidden argument*/Mesh_SafeLength_TisInt32_t2071877448_m3760170319_RuntimeMethod_var);
-		bool L_7 = ___calculateBounds2;
-		Mesh_SetTrianglesImpl_m2883494607(__this, L_2, L_4, L_6, L_7, /*hidden argument*/NULL);
-	}
-
-IL_0022:
-	{
-		return;
-	}
-}
-// System.Boolean UnityEngine.Mesh::get_canAccess()
-extern "C"  bool Mesh_get_canAccess_m1504015296 (Mesh_t1356156583 * __this, const RuntimeMethod* method)
-{
-	typedef bool (*Mesh_get_canAccess_m1504015296_ftn) (Mesh_t1356156583 *);
-	static Mesh_get_canAccess_m1504015296_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Mesh_get_canAccess_m1504015296_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh::get_canAccess()");
-	bool retVal = _il2cpp_icall_func(__this);
-	return retVal;
-}
-// System.Int32 UnityEngine.Mesh::get_subMeshCount()
-extern "C"  int32_t Mesh_get_subMeshCount_m749828112 (Mesh_t1356156583 * __this, const RuntimeMethod* method)
-{
-	typedef int32_t (*Mesh_get_subMeshCount_m749828112_ftn) (Mesh_t1356156583 *);
-	static Mesh_get_subMeshCount_m749828112_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Mesh_get_subMeshCount_m749828112_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh::get_subMeshCount()");
-	int32_t retVal = _il2cpp_icall_func(__this);
-	return retVal;
-}
-// System.Void UnityEngine.Mesh::ClearImpl(System.Boolean)
-extern "C"  void Mesh_ClearImpl_m2894829935 (Mesh_t1356156583 * __this, bool ___keepVertexLayout0, const RuntimeMethod* method)
-{
-	typedef void (*Mesh_ClearImpl_m2894829935_ftn) (Mesh_t1356156583 *, bool);
-	static Mesh_ClearImpl_m2894829935_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Mesh_ClearImpl_m2894829935_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh::ClearImpl(System.Boolean)");
-	_il2cpp_icall_func(__this, ___keepVertexLayout0);
-}
-// System.Void UnityEngine.Mesh::RecalculateBoundsImpl()
-extern "C"  void Mesh_RecalculateBoundsImpl_m1389393903 (Mesh_t1356156583 * __this, const RuntimeMethod* method)
-{
-	typedef void (*Mesh_RecalculateBoundsImpl_m1389393903_ftn) (Mesh_t1356156583 *);
-	static Mesh_RecalculateBoundsImpl_m1389393903_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Mesh_RecalculateBoundsImpl_m1389393903_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh::RecalculateBoundsImpl()");
-	_il2cpp_icall_func(__this);
-}
-// System.Void UnityEngine.Mesh::PrintErrorCantAccessChannel(UnityEngine.Mesh/InternalShaderChannel)
-extern "C"  void Mesh_PrintErrorCantAccessChannel_m3734809945 (Mesh_t1356156583 * __this, int32_t ___ch0, const RuntimeMethod* method)
-{
-	typedef void (*Mesh_PrintErrorCantAccessChannel_m3734809945_ftn) (Mesh_t1356156583 *, int32_t);
-	static Mesh_PrintErrorCantAccessChannel_m3734809945_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Mesh_PrintErrorCantAccessChannel_m3734809945_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Mesh::PrintErrorCantAccessChannel(UnityEngine.Mesh/InternalShaderChannel)");
-	_il2cpp_icall_func(__this, ___ch0);
-}
-// UnityEngine.Mesh/InternalShaderChannel UnityEngine.Mesh::GetUVChannel(System.Int32)
-extern "C"  int32_t Mesh_GetUVChannel_m1061782287 (Mesh_t1356156583 * __this, int32_t ___uvIndex0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_GetUVChannel_m1061782287_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = ___uvIndex0;
-		if ((((int32_t)L_0) < ((int32_t)0)))
-		{
-			goto IL_000f;
-		}
-	}
-	{
-		int32_t L_1 = ___uvIndex0;
-		if ((((int32_t)L_1) <= ((int32_t)3)))
-		{
-			goto IL_001f;
-		}
-	}
-
-IL_000f:
-	{
-		ArgumentException_t3259014390 * L_2 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m544251339(L_2, _stringLiteral1489833396, _stringLiteral1296238845, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_001f:
-	{
-		int32_t L_3 = ___uvIndex0;
-		V_0 = ((int32_t)((int32_t)3+(int32_t)L_3));
-		goto IL_0028;
-	}
-
-IL_0028:
-	{
-		int32_t L_4 = V_0;
-		return L_4;
-	}
-}
-// System.Int32 UnityEngine.Mesh::DefaultDimensionForChannel(UnityEngine.Mesh/InternalShaderChannel)
-extern "C"  int32_t Mesh_DefaultDimensionForChannel_m52538896 (RuntimeObject * __this /* static, unused */, int32_t ___channel0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_DefaultDimensionForChannel_m52538896_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = ___channel0;
-		if (!L_0)
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		int32_t L_1 = ___channel0;
-		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
-		{
-			goto IL_0015;
-		}
-	}
-
-IL_000e:
-	{
-		V_0 = 3;
-		goto IL_004f;
-	}
-
-IL_0015:
-	{
-		int32_t L_2 = ___channel0;
-		if ((((int32_t)L_2) < ((int32_t)3)))
-		{
-			goto IL_002a;
-		}
-	}
-	{
-		int32_t L_3 = ___channel0;
-		if ((((int32_t)L_3) > ((int32_t)6)))
-		{
-			goto IL_002a;
-		}
-	}
-	{
-		V_0 = 2;
-		goto IL_004f;
-	}
-
-IL_002a:
-	{
-		int32_t L_4 = ___channel0;
-		if ((((int32_t)L_4) == ((int32_t)7)))
-		{
-			goto IL_0038;
-		}
-	}
-	{
-		int32_t L_5 = ___channel0;
-		if ((!(((uint32_t)L_5) == ((uint32_t)2))))
-		{
-			goto IL_003f;
-		}
-	}
-
-IL_0038:
-	{
-		V_0 = 4;
-		goto IL_004f;
-	}
-
-IL_003f:
-	{
-		ArgumentException_t3259014390 * L_6 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m544251339(L_6, _stringLiteral1066778515, _stringLiteral3637194755, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6);
-	}
-
-IL_004f:
-	{
-		int32_t L_7 = V_0;
-		return L_7;
-	}
-}
-// System.Void UnityEngine.Mesh::SetSizedArrayForChannel(UnityEngine.Mesh/InternalShaderChannel,UnityEngine.Mesh/InternalVertexChannelType,System.Int32,System.Array,System.Int32)
-extern "C"  void Mesh_SetSizedArrayForChannel_m3453069292 (Mesh_t1356156583 * __this, int32_t ___channel0, int32_t ___format1, int32_t ___dim2, RuntimeArray * ___values3, int32_t ___valuesCount4, const RuntimeMethod* method)
-{
-	{
-		bool L_0 = Mesh_get_canAccess_m1504015296(__this, /*hidden argument*/NULL);
-		if (!L_0)
-		{
-			goto IL_001e;
-		}
-	}
-	{
-		int32_t L_1 = ___channel0;
-		int32_t L_2 = ___format1;
-		int32_t L_3 = ___dim2;
-		RuntimeArray * L_4 = ___values3;
-		int32_t L_5 = ___valuesCount4;
-		Mesh_SetArrayForChannelImpl_m2218570145(__this, L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
-		goto IL_0025;
-	}
-
-IL_001e:
-	{
-		int32_t L_6 = ___channel0;
-		Mesh_PrintErrorCantAccessChannel_m3734809945(__this, L_6, /*hidden argument*/NULL);
-	}
-
-IL_0025:
-	{
-		return;
-	}
-}
-// UnityEngine.Vector3[] UnityEngine.Mesh::get_vertices()
-extern "C"  Vector3U5BU5D_t1172311765* Mesh_get_vertices_m2446703813 (Mesh_t1356156583 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_get_vertices_m2446703813_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector3U5BU5D_t1172311765* V_0 = NULL;
-	{
-		Vector3U5BU5D_t1172311765* L_0 = Mesh_GetAllocArrayFromChannel_TisVector3_t2243707580_m3989967866(__this, 0, /*hidden argument*/Mesh_GetAllocArrayFromChannel_TisVector3_t2243707580_m3989967866_RuntimeMethod_var);
-		V_0 = L_0;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		Vector3U5BU5D_t1172311765* L_1 = V_0;
-		return L_1;
-	}
-}
-// UnityEngine.Vector3[] UnityEngine.Mesh::get_normals()
-extern "C"  Vector3U5BU5D_t1172311765* Mesh_get_normals_m3761590924 (Mesh_t1356156583 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_get_normals_m3761590924_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector3U5BU5D_t1172311765* V_0 = NULL;
-	{
-		Vector3U5BU5D_t1172311765* L_0 = Mesh_GetAllocArrayFromChannel_TisVector3_t2243707580_m3989967866(__this, 1, /*hidden argument*/Mesh_GetAllocArrayFromChannel_TisVector3_t2243707580_m3989967866_RuntimeMethod_var);
-		V_0 = L_0;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		Vector3U5BU5D_t1172311765* L_1 = V_0;
-		return L_1;
-	}
-}
-// UnityEngine.Vector4[] UnityEngine.Mesh::get_tangents()
-extern "C"  Vector4U5BU5D_t1658499504* Mesh_get_tangents_m3387209903 (Mesh_t1356156583 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_get_tangents_m3387209903_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector4U5BU5D_t1658499504* V_0 = NULL;
-	{
-		Vector4U5BU5D_t1658499504* L_0 = Mesh_GetAllocArrayFromChannel_TisVector4_t2243707581_m1048536121(__this, 7, /*hidden argument*/Mesh_GetAllocArrayFromChannel_TisVector4_t2243707581_m1048536121_RuntimeMethod_var);
-		V_0 = L_0;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		Vector4U5BU5D_t1658499504* L_1 = V_0;
-		return L_1;
-	}
-}
-// UnityEngine.Vector2[] UnityEngine.Mesh::get_uv()
-extern "C"  Vector2U5BU5D_t686124026* Mesh_get_uv_m1990385212 (Mesh_t1356156583 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_get_uv_m1990385212_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector2U5BU5D_t686124026* V_0 = NULL;
-	{
-		Vector2U5BU5D_t686124026* L_0 = Mesh_GetAllocArrayFromChannel_TisVector2_t2243707579_m2289935163(__this, 3, /*hidden argument*/Mesh_GetAllocArrayFromChannel_TisVector2_t2243707579_m2289935163_RuntimeMethod_var);
-		V_0 = L_0;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		Vector2U5BU5D_t686124026* L_1 = V_0;
-		return L_1;
-	}
-}
-// UnityEngine.Vector2[] UnityEngine.Mesh::get_uv2()
-extern "C"  Vector2U5BU5D_t686124026* Mesh_get_uv2_m4280405372 (Mesh_t1356156583 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_get_uv2_m4280405372_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector2U5BU5D_t686124026* V_0 = NULL;
-	{
-		Vector2U5BU5D_t686124026* L_0 = Mesh_GetAllocArrayFromChannel_TisVector2_t2243707579_m2289935163(__this, 4, /*hidden argument*/Mesh_GetAllocArrayFromChannel_TisVector2_t2243707579_m2289935163_RuntimeMethod_var);
-		V_0 = L_0;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		Vector2U5BU5D_t686124026* L_1 = V_0;
-		return L_1;
-	}
-}
-// UnityEngine.Vector2[] UnityEngine.Mesh::get_uv3()
-extern "C"  Vector2U5BU5D_t686124026* Mesh_get_uv3_m1531319041 (Mesh_t1356156583 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_get_uv3_m1531319041_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector2U5BU5D_t686124026* V_0 = NULL;
-	{
-		Vector2U5BU5D_t686124026* L_0 = Mesh_GetAllocArrayFromChannel_TisVector2_t2243707579_m2289935163(__this, 5, /*hidden argument*/Mesh_GetAllocArrayFromChannel_TisVector2_t2243707579_m2289935163_RuntimeMethod_var);
-		V_0 = L_0;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		Vector2U5BU5D_t686124026* L_1 = V_0;
-		return L_1;
-	}
-}
-// UnityEngine.Vector2[] UnityEngine.Mesh::get_uv4()
-extern "C"  Vector2U5BU5D_t686124026* Mesh_get_uv4_m3998080370 (Mesh_t1356156583 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_get_uv4_m3998080370_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector2U5BU5D_t686124026* V_0 = NULL;
-	{
-		Vector2U5BU5D_t686124026* L_0 = Mesh_GetAllocArrayFromChannel_TisVector2_t2243707579_m2289935163(__this, 6, /*hidden argument*/Mesh_GetAllocArrayFromChannel_TisVector2_t2243707579_m2289935163_RuntimeMethod_var);
-		V_0 = L_0;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		Vector2U5BU5D_t686124026* L_1 = V_0;
-		return L_1;
-	}
-}
-// UnityEngine.Color32[] UnityEngine.Mesh::get_colors32()
-extern "C"  Color32U5BU5D_t30278651* Mesh_get_colors32_m1054093013 (Mesh_t1356156583 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_get_colors32_m1054093013_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Color32U5BU5D_t30278651* V_0 = NULL;
-	{
-		Color32U5BU5D_t30278651* L_0 = Mesh_GetAllocArrayFromChannel_TisColor32_t874517518_m859642474(__this, 2, 2, 1, /*hidden argument*/Mesh_GetAllocArrayFromChannel_TisColor32_t874517518_m859642474_RuntimeMethod_var);
-		V_0 = L_0;
-		goto IL_0010;
-	}
-
-IL_0010:
-	{
-		Color32U5BU5D_t30278651* L_1 = V_0;
-		return L_1;
-	}
-}
-// System.Void UnityEngine.Mesh::SetVertices(System.Collections.Generic.List`1<UnityEngine.Vector3>)
-extern "C"  void Mesh_SetVertices_m3776079865 (Mesh_t1356156583 * __this, List_1_t1612828712 * ___inVertices0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_SetVertices_m3776079865_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		List_1_t1612828712 * L_0 = ___inVertices0;
-		Mesh_SetListForChannel_TisVector3_t2243707580_m2854368686(__this, 0, L_0, /*hidden argument*/Mesh_SetListForChannel_TisVector3_t2243707580_m2854368686_RuntimeMethod_var);
-		return;
-	}
-}
-// System.Void UnityEngine.Mesh::SetNormals(System.Collections.Generic.List`1<UnityEngine.Vector3>)
-extern "C"  void Mesh_SetNormals_m2780518036 (Mesh_t1356156583 * __this, List_1_t1612828712 * ___inNormals0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_SetNormals_m2780518036_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		List_1_t1612828712 * L_0 = ___inNormals0;
-		Mesh_SetListForChannel_TisVector3_t2243707580_m2854368686(__this, 1, L_0, /*hidden argument*/Mesh_SetListForChannel_TisVector3_t2243707580_m2854368686_RuntimeMethod_var);
-		return;
-	}
-}
-// System.Void UnityEngine.Mesh::SetTangents(System.Collections.Generic.List`1<UnityEngine.Vector4>)
-extern "C"  void Mesh_SetTangents_m70330319 (Mesh_t1356156583 * __this, List_1_t1612828713 * ___inTangents0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_SetTangents_m70330319_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		List_1_t1612828713 * L_0 = ___inTangents0;
-		Mesh_SetListForChannel_TisVector4_t2243707581_m1760927057(__this, 7, L_0, /*hidden argument*/Mesh_SetListForChannel_TisVector4_t2243707581_m1760927057_RuntimeMethod_var);
-		return;
-	}
-}
-// System.Void UnityEngine.Mesh::SetColors(System.Collections.Generic.List`1<UnityEngine.Color32>)
-extern "C"  void Mesh_SetColors_m327545090 (Mesh_t1356156583 * __this, List_1_t243638650 * ___inColors0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_SetColors_m327545090_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		List_1_t243638650 * L_0 = ___inColors0;
-		Mesh_SetListForChannel_TisColor32_t874517518_m4104974134(__this, 2, 2, 1, L_0, /*hidden argument*/Mesh_SetListForChannel_TisColor32_t874517518_m4104974134_RuntimeMethod_var);
-		return;
-	}
-}
-// System.Void UnityEngine.Mesh::SetUVs(System.Int32,System.Collections.Generic.List`1<UnityEngine.Vector2>)
-extern "C"  void Mesh_SetUVs_m3637760384 (Mesh_t1356156583 * __this, int32_t ___channel0, List_1_t1612828711 * ___uvs1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_SetUVs_m3637760384_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		int32_t L_0 = ___channel0;
-		List_1_t1612828711 * L_1 = ___uvs1;
-		Mesh_SetUvsImpl_TisVector2_t2243707579_m2513165067(__this, L_0, 2, L_1, /*hidden argument*/Mesh_SetUvsImpl_TisVector2_t2243707579_m2513165067_RuntimeMethod_var);
-		return;
-	}
-}
-// System.Void UnityEngine.Mesh::PrintErrorCantAccessIndices()
-extern "C"  void Mesh_PrintErrorCantAccessIndices_m2990602703 (Mesh_t1356156583 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_PrintErrorCantAccessIndices_m2990602703_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		String_t* L_0 = Object_get_name_m3369637820(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_1 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral3228299468, L_0, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_LogError_m3299155069(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Boolean UnityEngine.Mesh::CheckCanAccessSubmesh(System.Int32,System.Boolean)
-extern "C"  bool Mesh_CheckCanAccessSubmesh_m764012688 (Mesh_t1356156583 * __this, int32_t ___submesh0, bool ___errorAboutTriangles1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_CheckCanAccessSubmesh_m764012688_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	String_t* G_B6_0 = NULL;
-	String_t* G_B5_0 = NULL;
-	String_t* G_B7_0 = NULL;
-	String_t* G_B7_1 = NULL;
-	{
-		bool L_0 = Mesh_get_canAccess_m1504015296(__this, /*hidden argument*/NULL);
-		if (L_0)
-		{
-			goto IL_001a;
-		}
-	}
-	{
-		Mesh_PrintErrorCantAccessIndices_m2990602703(__this, /*hidden argument*/NULL);
-		V_0 = (bool)0;
-		goto IL_0061;
-	}
-
-IL_001a:
-	{
-		int32_t L_1 = ___submesh0;
-		if ((((int32_t)L_1) < ((int32_t)0)))
-		{
-			goto IL_002d;
-		}
-	}
-	{
-		int32_t L_2 = ___submesh0;
-		int32_t L_3 = Mesh_get_subMeshCount_m749828112(__this, /*hidden argument*/NULL);
-		if ((((int32_t)L_2) < ((int32_t)L_3)))
-		{
-			goto IL_005a;
-		}
-	}
-
-IL_002d:
-	{
-		bool L_4 = ___errorAboutTriangles1;
-		G_B5_0 = _stringLiteral367448426;
-		if (!L_4)
-		{
-			G_B6_0 = _stringLiteral367448426;
-			goto IL_0043;
-		}
-	}
-	{
-		G_B7_0 = _stringLiteral2604276013;
-		G_B7_1 = G_B5_0;
-		goto IL_0048;
-	}
-
-IL_0043:
-	{
-		G_B7_0 = _stringLiteral2818177275;
-		G_B7_1 = G_B6_0;
-	}
-
-IL_0048:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_5 = String_Format_m2024975688(NULL /*static, unused*/, G_B7_1, G_B7_0, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_LogError_m3475999287(NULL /*static, unused*/, L_5, __this, /*hidden argument*/NULL);
-		V_0 = (bool)0;
-		goto IL_0061;
-	}
-
-IL_005a:
-	{
-		V_0 = (bool)1;
-		goto IL_0061;
-	}
-
-IL_0061:
-	{
-		bool L_6 = V_0;
-		return L_6;
-	}
-}
-// System.Boolean UnityEngine.Mesh::CheckCanAccessSubmeshTriangles(System.Int32)
-extern "C"  bool Mesh_CheckCanAccessSubmeshTriangles_m2644388378 (Mesh_t1356156583 * __this, int32_t ___submesh0, const RuntimeMethod* method)
-{
-	bool V_0 = false;
-	{
-		int32_t L_0 = ___submesh0;
-		bool L_1 = Mesh_CheckCanAccessSubmesh_m764012688(__this, L_0, (bool)1, /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		bool L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Boolean UnityEngine.Mesh::CheckCanAccessSubmeshIndices(System.Int32)
-extern "C"  bool Mesh_CheckCanAccessSubmeshIndices_m3233528950 (Mesh_t1356156583 * __this, int32_t ___submesh0, const RuntimeMethod* method)
-{
-	bool V_0 = false;
-	{
-		int32_t L_0 = ___submesh0;
-		bool L_1 = Mesh_CheckCanAccessSubmesh_m764012688(__this, L_0, (bool)0, /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		bool L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Int32[] UnityEngine.Mesh::GetIndices(System.Int32)
-extern "C"  Int32U5BU5D_t3030399641* Mesh_GetIndices_m197815493 (Mesh_t1356156583 * __this, int32_t ___submesh0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_GetIndices_m197815493_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Int32U5BU5D_t3030399641* V_0 = NULL;
-	Int32U5BU5D_t3030399641* G_B3_0 = NULL;
-	{
-		int32_t L_0 = ___submesh0;
-		bool L_1 = Mesh_CheckCanAccessSubmeshIndices_m3233528950(__this, L_0, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		int32_t L_2 = ___submesh0;
-		Int32U5BU5D_t3030399641* L_3 = Mesh_GetIndicesImpl_m50468169(__this, L_2, /*hidden argument*/NULL);
-		G_B3_0 = L_3;
-		goto IL_001f;
-	}
-
-IL_0019:
-	{
-		G_B3_0 = ((Int32U5BU5D_t3030399641*)SZArrayNew(Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var, (uint32_t)0));
-	}
-
-IL_001f:
-	{
-		V_0 = G_B3_0;
-		goto IL_0025;
-	}
-
-IL_0025:
-	{
-		Int32U5BU5D_t3030399641* L_4 = V_0;
-		return L_4;
-	}
-}
-// System.Void UnityEngine.Mesh::Clear()
-extern "C"  void Mesh_Clear_m239607636 (Mesh_t1356156583 * __this, const RuntimeMethod* method)
-{
-	{
-		Mesh_ClearImpl_m2894829935(__this, (bool)1, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.Mesh::RecalculateBounds()
-extern "C"  void Mesh_RecalculateBounds_m3920784131 (Mesh_t1356156583 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Mesh_RecalculateBounds_m3920784131_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		bool L_0 = Mesh_get_canAccess_m1504015296(__this, /*hidden argument*/NULL);
-		if (!L_0)
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		Mesh_RecalculateBoundsImpl_m1389393903(__this, /*hidden argument*/NULL);
-		goto IL_002c;
-	}
-
-IL_0017:
-	{
-		String_t* L_1 = Object_get_name_m3369637820(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral4011728403, L_1, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_LogError_m3299155069(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
-	}
-
-IL_002c:
-	{
-		return;
-	}
-}
-// System.Void UnityEngine.MonoBehaviour::.ctor()
-extern "C"  void MonoBehaviour__ctor_m1825328214 (MonoBehaviour_t1158329972 * __this, const RuntimeMethod* method)
-{
-	{
-		Behaviour__ctor_m2516815271(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.MonoBehaviour::Invoke(System.String,System.Single)
-extern "C"  void MonoBehaviour_Invoke_m2201735803 (MonoBehaviour_t1158329972 * __this, String_t* ___methodName0, float ___time1, const RuntimeMethod* method)
-{
-	typedef void (*MonoBehaviour_Invoke_m2201735803_ftn) (MonoBehaviour_t1158329972 *, String_t*, float);
-	static MonoBehaviour_Invoke_m2201735803_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (MonoBehaviour_Invoke_m2201735803_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.MonoBehaviour::Invoke(System.String,System.Single)");
-	_il2cpp_icall_func(__this, ___methodName0, ___time1);
-}
-// UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
-extern "C"  Coroutine_t2299508840 * MonoBehaviour_StartCoroutine_m2678710497 (MonoBehaviour_t1158329972 * __this, RuntimeObject* ___routine0, const RuntimeMethod* method)
-{
-	Coroutine_t2299508840 * V_0 = NULL;
-	{
-		RuntimeObject* L_0 = ___routine0;
-		Coroutine_t2299508840 * L_1 = MonoBehaviour_StartCoroutine_Auto_Internal_m2769844689(__this, L_0, /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		Coroutine_t2299508840 * L_2 = V_0;
-		return L_2;
-	}
-}
-// UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine_Auto_Internal(System.Collections.IEnumerator)
-extern "C"  Coroutine_t2299508840 * MonoBehaviour_StartCoroutine_Auto_Internal_m2769844689 (MonoBehaviour_t1158329972 * __this, RuntimeObject* ___routine0, const RuntimeMethod* method)
-{
-	typedef Coroutine_t2299508840 * (*MonoBehaviour_StartCoroutine_Auto_Internal_m2769844689_ftn) (MonoBehaviour_t1158329972 *, RuntimeObject*);
-	static MonoBehaviour_StartCoroutine_Auto_Internal_m2769844689_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (MonoBehaviour_StartCoroutine_Auto_Internal_m2769844689_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.MonoBehaviour::StartCoroutine_Auto_Internal(System.Collections.IEnumerator)");
-	Coroutine_t2299508840 * retVal = _il2cpp_icall_func(__this, ___routine0);
-	return retVal;
-}
-// UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.String,System.Object)
-extern "C"  Coroutine_t2299508840 * MonoBehaviour_StartCoroutine_m2916390782 (MonoBehaviour_t1158329972 * __this, String_t* ___methodName0, RuntimeObject * ___value1, const RuntimeMethod* method)
-{
-	typedef Coroutine_t2299508840 * (*MonoBehaviour_StartCoroutine_m2916390782_ftn) (MonoBehaviour_t1158329972 *, String_t*, RuntimeObject *);
-	static MonoBehaviour_StartCoroutine_m2916390782_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (MonoBehaviour_StartCoroutine_m2916390782_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.MonoBehaviour::StartCoroutine(System.String,System.Object)");
-	Coroutine_t2299508840 * retVal = _il2cpp_icall_func(__this, ___methodName0, ___value1);
-	return retVal;
-}
-// UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.String)
-extern "C"  Coroutine_t2299508840 * MonoBehaviour_StartCoroutine_m4172460844 (MonoBehaviour_t1158329972 * __this, String_t* ___methodName0, const RuntimeMethod* method)
-{
-	RuntimeObject * V_0 = NULL;
-	Coroutine_t2299508840 * V_1 = NULL;
-	{
-		V_0 = NULL;
-		String_t* L_0 = ___methodName0;
-		RuntimeObject * L_1 = V_0;
-		Coroutine_t2299508840 * L_2 = MonoBehaviour_StartCoroutine_m2916390782(__this, L_0, L_1, /*hidden argument*/NULL);
-		V_1 = L_2;
-		goto IL_0011;
-	}
-
-IL_0011:
-	{
-		Coroutine_t2299508840 * L_3 = V_1;
-		return L_3;
-	}
-}
-// System.Void UnityEngine.MonoBehaviour::StopCoroutine(System.String)
-extern "C"  void MonoBehaviour_StopCoroutine_m2218810102 (MonoBehaviour_t1158329972 * __this, String_t* ___methodName0, const RuntimeMethod* method)
-{
-	typedef void (*MonoBehaviour_StopCoroutine_m2218810102_ftn) (MonoBehaviour_t1158329972 *, String_t*);
-	static MonoBehaviour_StopCoroutine_m2218810102_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (MonoBehaviour_StopCoroutine_m2218810102_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.MonoBehaviour::StopCoroutine(System.String)");
-	_il2cpp_icall_func(__this, ___methodName0);
-}
-// System.Void UnityEngine.MonoBehaviour::StopCoroutine(System.Collections.IEnumerator)
-extern "C"  void MonoBehaviour_StopCoroutine_m1086204243 (MonoBehaviour_t1158329972 * __this, RuntimeObject* ___routine0, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = ___routine0;
-		MonoBehaviour_StopCoroutineViaEnumerator_Auto_m2222980381(__this, L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.MonoBehaviour::StopCoroutine(UnityEngine.Coroutine)
-extern "C"  void MonoBehaviour_StopCoroutine_m606332095 (MonoBehaviour_t1158329972 * __this, Coroutine_t2299508840 * ___routine0, const RuntimeMethod* method)
-{
-	{
-		Coroutine_t2299508840 * L_0 = ___routine0;
-		MonoBehaviour_StopCoroutine_Auto_m2947240387(__this, L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.MonoBehaviour::StopCoroutineViaEnumerator_Auto(System.Collections.IEnumerator)
-extern "C"  void MonoBehaviour_StopCoroutineViaEnumerator_Auto_m2222980381 (MonoBehaviour_t1158329972 * __this, RuntimeObject* ___routine0, const RuntimeMethod* method)
-{
-	typedef void (*MonoBehaviour_StopCoroutineViaEnumerator_Auto_m2222980381_ftn) (MonoBehaviour_t1158329972 *, RuntimeObject*);
-	static MonoBehaviour_StopCoroutineViaEnumerator_Auto_m2222980381_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (MonoBehaviour_StopCoroutineViaEnumerator_Auto_m2222980381_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.MonoBehaviour::StopCoroutineViaEnumerator_Auto(System.Collections.IEnumerator)");
-	_il2cpp_icall_func(__this, ___routine0);
-}
-// System.Void UnityEngine.MonoBehaviour::StopCoroutine_Auto(UnityEngine.Coroutine)
-extern "C"  void MonoBehaviour_StopCoroutine_Auto_m2947240387 (MonoBehaviour_t1158329972 * __this, Coroutine_t2299508840 * ___routine0, const RuntimeMethod* method)
-{
-	typedef void (*MonoBehaviour_StopCoroutine_Auto_m2947240387_ftn) (MonoBehaviour_t1158329972 *, Coroutine_t2299508840 *);
-	static MonoBehaviour_StopCoroutine_Auto_m2947240387_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (MonoBehaviour_StopCoroutine_Auto_m2947240387_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.MonoBehaviour::StopCoroutine_Auto(UnityEngine.Coroutine)");
-	_il2cpp_icall_func(__this, ___routine0);
-}
-// System.Void UnityEngine.NativeClassAttribute::.ctor(System.String)
-extern "C"  void NativeClassAttribute__ctor_m3728148471 (NativeClassAttribute_t1576243993 * __this, String_t* ___qualifiedCppName0, const RuntimeMethod* method)
-{
-	{
-		Attribute__ctor_m1730479323(__this, /*hidden argument*/NULL);
-		String_t* L_0 = ___qualifiedCppName0;
-		NativeClassAttribute_set_QualifiedNativeName_m4139686864(__this, L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.NativeClassAttribute::set_QualifiedNativeName(System.String)
-extern "C"  void NativeClassAttribute_set_QualifiedNativeName_m4139686864 (NativeClassAttribute_t1576243993 * __this, String_t* ___value0, const RuntimeMethod* method)
-{
-	{
-		String_t* L_0 = ___value0;
-		__this->set_U3CQualifiedNativeNameU3Ek__BackingField_0(L_0);
-		return;
-	}
-}
-// System.Void UnityEngine.Networking.PlayerConnection.MessageEventArgs::.ctor()
-extern "C"  void MessageEventArgs__ctor_m3182429093 (MessageEventArgs_t301283622 * __this, const RuntimeMethod* method)
-{
-	{
-		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.Networking.PlayerConnection.PlayerConnection::.ctor()
-extern "C"  void PlayerConnection__ctor_m3742469850 (PlayerConnection_t3517219175 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (PlayerConnection__ctor_m3742469850_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		PlayerEditorConnectionEvents_t2252784345 * L_0 = (PlayerEditorConnectionEvents_t2252784345 *)il2cpp_codegen_object_new(PlayerEditorConnectionEvents_t2252784345_il2cpp_TypeInfo_var);
-		PlayerEditorConnectionEvents__ctor_m2141000590(L_0, /*hidden argument*/NULL);
-		__this->set_m_PlayerEditorConnectionEvents_2(L_0);
-		List_1_t1440998580 * L_1 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
-		List_1__ctor_m1063228628(L_1, /*hidden argument*/List_1__ctor_m1063228628_RuntimeMethod_var);
-		__this->set_m_connectedPlayers_3(L_1);
-		ScriptableObject__ctor_m3324490614(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// UnityEngine.Networking.PlayerConnection.PlayerConnection UnityEngine.Networking.PlayerConnection.PlayerConnection::get_instance()
-extern "C"  PlayerConnection_t3517219175 * PlayerConnection_get_instance_m1722843600 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (PlayerConnection_get_instance_m1722843600_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	PlayerConnection_t3517219175 * V_0 = NULL;
-	{
-		PlayerConnection_t3517219175 * L_0 = ((PlayerConnection_t3517219175_StaticFields*)il2cpp_codegen_static_fields_for(PlayerConnection_t3517219175_il2cpp_TypeInfo_var))->get_s_Instance_4();
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_1 = Object_op_Equality_m2516226135(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_001d;
-		}
-	}
-	{
-		PlayerConnection_t3517219175 * L_2 = PlayerConnection_CreateInstance_m2419948763(NULL /*static, unused*/, /*hidden argument*/NULL);
-		V_0 = L_2;
-		goto IL_0028;
-	}
-
-IL_001d:
-	{
-		PlayerConnection_t3517219175 * L_3 = ((PlayerConnection_t3517219175_StaticFields*)il2cpp_codegen_static_fields_for(PlayerConnection_t3517219175_il2cpp_TypeInfo_var))->get_s_Instance_4();
-		V_0 = L_3;
-		goto IL_0028;
-	}
-
-IL_0028:
-	{
-		PlayerConnection_t3517219175 * L_4 = V_0;
-		return L_4;
-	}
-}
-// UnityEngine.Networking.PlayerConnection.PlayerConnection UnityEngine.Networking.PlayerConnection.PlayerConnection::CreateInstance()
-extern "C"  PlayerConnection_t3517219175 * PlayerConnection_CreateInstance_m2419948763 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (PlayerConnection_CreateInstance_m2419948763_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	PlayerConnection_t3517219175 * V_0 = NULL;
-	{
-		PlayerConnection_t3517219175 * L_0 = ScriptableObject_CreateInstance_TisPlayerConnection_t3517219175_m3058273855(NULL /*static, unused*/, /*hidden argument*/ScriptableObject_CreateInstance_TisPlayerConnection_t3517219175_m3058273855_RuntimeMethod_var);
-		((PlayerConnection_t3517219175_StaticFields*)il2cpp_codegen_static_fields_for(PlayerConnection_t3517219175_il2cpp_TypeInfo_var))->set_s_Instance_4(L_0);
-		PlayerConnection_t3517219175 * L_1 = ((PlayerConnection_t3517219175_StaticFields*)il2cpp_codegen_static_fields_for(PlayerConnection_t3517219175_il2cpp_TypeInfo_var))->get_s_Instance_4();
-		NullCheck(L_1);
-		Object_set_hideFlags_m3275307757(L_1, ((int32_t)61), /*hidden argument*/NULL);
-		PlayerConnection_t3517219175 * L_2 = ((PlayerConnection_t3517219175_StaticFields*)il2cpp_codegen_static_fields_for(PlayerConnection_t3517219175_il2cpp_TypeInfo_var))->get_s_Instance_4();
-		V_0 = L_2;
-		goto IL_0022;
-	}
-
-IL_0022:
-	{
-		PlayerConnection_t3517219175 * L_3 = V_0;
-		return L_3;
-	}
-}
-// System.Void UnityEngine.Networking.PlayerConnection.PlayerConnection::MessageCallbackInternal(System.IntPtr,System.UInt64,System.UInt64,System.String)
-extern "C"  void PlayerConnection_MessageCallbackInternal_m2033215037 (RuntimeObject * __this /* static, unused */, intptr_t ___data0, uint64_t ___size1, uint64_t ___guid2, String_t* ___messageId3, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (PlayerConnection_MessageCallbackInternal_m2033215037_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	ByteU5BU5D_t3397334013* V_0 = NULL;
-	{
-		V_0 = (ByteU5BU5D_t3397334013*)NULL;
-		uint64_t L_0 = ___size1;
-		if ((!(((uint64_t)L_0) > ((uint64_t)(((int64_t)((int64_t)0)))))))
-		{
-			goto IL_001f;
-		}
-	}
-	{
-		uint64_t L_1 = ___size1;
-		if ((uint64_t)(L_1) > INTPTR_MAX) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception());
-		V_0 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)(((intptr_t)L_1))));
-		intptr_t L_2 = ___data0;
-		ByteU5BU5D_t3397334013* L_3 = V_0;
-		uint64_t L_4 = ___size1;
-		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
-		Marshal_Copy_m1683535972(NULL /*static, unused*/, L_2, L_3, 0, (((int32_t)((int32_t)L_4))), /*hidden argument*/NULL);
-	}
-
-IL_001f:
-	{
-		PlayerConnection_t3517219175 * L_5 = PlayerConnection_get_instance_m1722843600(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_5);
-		PlayerEditorConnectionEvents_t2252784345 * L_6 = L_5->get_m_PlayerEditorConnectionEvents_2();
-		String_t* L_7 = ___messageId3;
-		Guid_t  L_8;
-		memset(&L_8, 0, sizeof(L_8));
-		Guid__ctor_m2599802704((&L_8), L_7, /*hidden argument*/NULL);
-		ByteU5BU5D_t3397334013* L_9 = V_0;
-		uint64_t L_10 = ___guid2;
-		NullCheck(L_6);
-		PlayerEditorConnectionEvents_InvokeMessageIdSubscribers_m795891627(L_6, L_8, L_9, (((int32_t)((int32_t)L_10))), /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.Networking.PlayerConnection.PlayerConnection::ConnectedCallbackInternal(System.Int32)
-extern "C"  void PlayerConnection_ConnectedCallbackInternal_m286884446 (RuntimeObject * __this /* static, unused */, int32_t ___playerId0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (PlayerConnection_ConnectedCallbackInternal_m286884446_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		PlayerConnection_t3517219175 * L_0 = PlayerConnection_get_instance_m1722843600(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		List_1_t1440998580 * L_1 = L_0->get_m_connectedPlayers_3();
-		int32_t L_2 = ___playerId0;
-		NullCheck(L_1);
-		List_1_Add_m2241268440(L_1, L_2, /*hidden argument*/List_1_Add_m2241268440_RuntimeMethod_var);
-		PlayerConnection_t3517219175 * L_3 = PlayerConnection_get_instance_m1722843600(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_3);
-		PlayerEditorConnectionEvents_t2252784345 * L_4 = L_3->get_m_PlayerEditorConnectionEvents_2();
-		NullCheck(L_4);
-		ConnectionChangeEvent_t536719976 * L_5 = L_4->get_connectionEvent_1();
-		int32_t L_6 = ___playerId0;
-		NullCheck(L_5);
-		UnityEvent_1_Invoke_m646962604(L_5, L_6, /*hidden argument*/UnityEvent_1_Invoke_m646962604_RuntimeMethod_var);
-		return;
-	}
-}
-// System.Void UnityEngine.Networking.PlayerConnection.PlayerConnection::DisconnectedCallback(System.Int32)
-extern "C"  void PlayerConnection_DisconnectedCallback_m3537829397 (RuntimeObject * __this /* static, unused */, int32_t ___playerId0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (PlayerConnection_DisconnectedCallback_m3537829397_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		PlayerConnection_t3517219175 * L_0 = PlayerConnection_get_instance_m1722843600(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		PlayerEditorConnectionEvents_t2252784345 * L_1 = L_0->get_m_PlayerEditorConnectionEvents_2();
-		NullCheck(L_1);
-		ConnectionChangeEvent_t536719976 * L_2 = L_1->get_disconnectionEvent_2();
-		int32_t L_3 = ___playerId0;
-		NullCheck(L_2);
-		UnityEvent_1_Invoke_m646962604(L_2, L_3, /*hidden argument*/UnityEvent_1_Invoke_m646962604_RuntimeMethod_var);
-		return;
-	}
-}
-// System.Void UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents::.ctor()
-extern "C"  void PlayerEditorConnectionEvents__ctor_m2141000590 (PlayerEditorConnectionEvents_t2252784345 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (PlayerEditorConnectionEvents__ctor_m2141000590_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		List_1_t1660627182 * L_0 = (List_1_t1660627182 *)il2cpp_codegen_object_new(List_1_t1660627182_il2cpp_TypeInfo_var);
-		List_1__ctor_m702728033(L_0, /*hidden argument*/List_1__ctor_m702728033_RuntimeMethod_var);
-		__this->set_messageTypeSubscribers_0(L_0);
-		ConnectionChangeEvent_t536719976 * L_1 = (ConnectionChangeEvent_t536719976 *)il2cpp_codegen_object_new(ConnectionChangeEvent_t536719976_il2cpp_TypeInfo_var);
-		ConnectionChangeEvent__ctor_m894860065(L_1, /*hidden argument*/NULL);
-		__this->set_connectionEvent_1(L_1);
-		ConnectionChangeEvent_t536719976 * L_2 = (ConnectionChangeEvent_t536719976 *)il2cpp_codegen_object_new(ConnectionChangeEvent_t536719976_il2cpp_TypeInfo_var);
-		ConnectionChangeEvent__ctor_m894860065(L_2, /*hidden argument*/NULL);
-		__this->set_disconnectionEvent_2(L_2);
-		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents::InvokeMessageIdSubscribers(System.Guid,System.Byte[],System.Int32)
-extern "C"  void PlayerEditorConnectionEvents_InvokeMessageIdSubscribers_m795891627 (PlayerEditorConnectionEvents_t2252784345 * __this, Guid_t  ___messageId0, ByteU5BU5D_t3397334013* ___data1, int32_t ___playerId2, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (PlayerEditorConnectionEvents_InvokeMessageIdSubscribers_m795891627_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t1899782350 * V_0 = NULL;
-	RuntimeObject* V_1 = NULL;
-	MessageEventArgs_t301283622 * V_2 = NULL;
-	MessageEventArgs_t301283622 * V_3 = NULL;
-	MessageTypeSubscribers_t2291506050 * V_4 = NULL;
-	RuntimeObject* V_5 = NULL;
-	Exception_t1927440687 * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t1927440687 * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-	{
-		U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t1899782350 * L_0 = (U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t1899782350 *)il2cpp_codegen_object_new(U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t1899782350_il2cpp_TypeInfo_var);
-		U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0__ctor_m1217791407(L_0, /*hidden argument*/NULL);
-		V_0 = L_0;
-		U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t1899782350 * L_1 = V_0;
-		Guid_t  L_2 = ___messageId0;
-		NullCheck(L_1);
-		L_1->set_messageId_0(L_2);
-		List_1_t1660627182 * L_3 = __this->get_messageTypeSubscribers_0();
-		U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t1899782350 * L_4 = V_0;
-		intptr_t L_5 = (intptr_t)U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_U3CU3Em__0_m1127278790_RuntimeMethod_var;
-		Func_2_t2919696197 * L_6 = (Func_2_t2919696197 *)il2cpp_codegen_object_new(Func_2_t2919696197_il2cpp_TypeInfo_var);
-		Func_2__ctor_m3896822881(L_6, L_4, L_5, /*hidden argument*/Func_2__ctor_m3896822881_RuntimeMethod_var);
-		RuntimeObject* L_7 = Enumerable_Where_TisMessageTypeSubscribers_t2291506050_m419319254(NULL /*static, unused*/, L_3, L_6, /*hidden argument*/Enumerable_Where_TisMessageTypeSubscribers_t2291506050_m419319254_RuntimeMethod_var);
-		V_1 = L_7;
-		RuntimeObject* L_8 = V_1;
-		bool L_9 = Enumerable_Any_TisMessageTypeSubscribers_t2291506050_m3786800125(NULL /*static, unused*/, L_8, /*hidden argument*/Enumerable_Any_TisMessageTypeSubscribers_t2291506050_m3786800125_RuntimeMethod_var);
-		if (L_9)
-		{
-			goto IL_0051;
-		}
-	}
-	{
-		U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t1899782350 * L_10 = V_0;
-		NullCheck(L_10);
-		Guid_t  L_11 = L_10->get_messageId_0();
-		Guid_t  L_12 = L_11;
-		RuntimeObject * L_13 = Box(Guid_t_il2cpp_TypeInfo_var, &L_12);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_14 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral1281569593, L_13, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_LogError_m3299155069(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
-		goto IL_00ad;
-	}
-
-IL_0051:
-	{
-		MessageEventArgs_t301283622 * L_15 = (MessageEventArgs_t301283622 *)il2cpp_codegen_object_new(MessageEventArgs_t301283622_il2cpp_TypeInfo_var);
-		MessageEventArgs__ctor_m3182429093(L_15, /*hidden argument*/NULL);
-		V_3 = L_15;
-		MessageEventArgs_t301283622 * L_16 = V_3;
-		int32_t L_17 = ___playerId2;
-		NullCheck(L_16);
-		L_16->set_playerId_0(L_17);
-		MessageEventArgs_t301283622 * L_18 = V_3;
-		ByteU5BU5D_t3397334013* L_19 = ___data1;
-		NullCheck(L_18);
-		L_18->set_data_1(L_19);
-		MessageEventArgs_t301283622 * L_20 = V_3;
-		V_2 = L_20;
-		RuntimeObject* L_21 = V_1;
-		NullCheck(L_21);
-		RuntimeObject* L_22 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers>::GetEnumerator() */, IEnumerable_1_t2583633095_il2cpp_TypeInfo_var, L_21);
-		V_5 = L_22;
-	}
-
-IL_0070:
-	try
-	{ // begin try (depth: 1)
-		{
-			goto IL_008d;
-		}
-
-IL_0075:
-		{
-			RuntimeObject* L_23 = V_5;
-			NullCheck(L_23);
-			MessageTypeSubscribers_t2291506050 * L_24 = InterfaceFuncInvoker0< MessageTypeSubscribers_t2291506050 * >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers>::get_Current() */, IEnumerator_1_t4061997173_il2cpp_TypeInfo_var, L_23);
-			V_4 = L_24;
-			MessageTypeSubscribers_t2291506050 * L_25 = V_4;
-			NullCheck(L_25);
-			MessageEvent_t2167079021 * L_26 = L_25->get_messageCallback_2();
-			MessageEventArgs_t301283622 * L_27 = V_2;
-			NullCheck(L_26);
-			UnityEvent_1_Invoke_m3499419435(L_26, L_27, /*hidden argument*/UnityEvent_1_Invoke_m3499419435_RuntimeMethod_var);
-		}
-
-IL_008d:
-		{
-			RuntimeObject* L_28 = V_5;
-			NullCheck(L_28);
-			bool L_29 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_28);
-			if (L_29)
-			{
-				goto IL_0075;
-			}
-		}
-
-IL_0099:
-		{
-			IL2CPP_LEAVE(0xAD, FINALLY_009e);
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
-		goto FINALLY_009e;
-	}
-
-FINALLY_009e:
-	{ // begin finally (depth: 1)
-		{
-			RuntimeObject* L_30 = V_5;
-			if (!L_30)
-			{
-				goto IL_00ac;
-			}
-		}
-
-IL_00a5:
-		{
-			RuntimeObject* L_31 = V_5;
-			NullCheck(L_31);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_31);
-		}
-
-IL_00ac:
-		{
-			IL2CPP_END_FINALLY(158)
-		}
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(158)
-	{
-		IL2CPP_JUMP_TBL(0xAD, IL_00ad)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
-	}
-
-IL_00ad:
-	{
-		return;
-	}
-}
-// System.Void UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/<InvokeMessageIdSubscribers>c__AnonStorey0::.ctor()
-extern "C"  void U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0__ctor_m1217791407 (U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t1899782350 * __this, const RuntimeMethod* method)
-{
-	{
-		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Boolean UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/<InvokeMessageIdSubscribers>c__AnonStorey0::<>m__0(UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers)
-extern "C"  bool U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_U3CU3Em__0_m1127278790 (U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t1899782350 * __this, MessageTypeSubscribers_t2291506050 * ___x0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_U3CU3Em__0_m1127278790_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	{
-		MessageTypeSubscribers_t2291506050 * L_0 = ___x0;
-		NullCheck(L_0);
-		Guid_t  L_1 = MessageTypeSubscribers_get_MessageTypeId_m184006475(L_0, /*hidden argument*/NULL);
-		Guid_t  L_2 = __this->get_messageId_0();
-		IL2CPP_RUNTIME_CLASS_INIT(Guid_t_il2cpp_TypeInfo_var);
-		bool L_3 = Guid_op_Equality_m789465560(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
-		V_0 = L_3;
-		goto IL_0017;
-	}
-
-IL_0017:
-	{
-		bool L_4 = V_0;
-		return L_4;
-	}
-}
-// System.Void UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/ConnectionChangeEvent::.ctor()
-extern "C"  void ConnectionChangeEvent__ctor_m894860065 (ConnectionChangeEvent_t536719976 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ConnectionChangeEvent__ctor_m894860065_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		UnityEvent_1__ctor_m333010934(__this, /*hidden argument*/UnityEvent_1__ctor_m333010934_RuntimeMethod_var);
-		return;
-	}
-}
-// System.Void UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageEvent::.ctor()
-extern "C"  void MessageEvent__ctor_m1822782644 (MessageEvent_t2167079021 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MessageEvent__ctor_m1822782644_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		UnityEvent_1__ctor_m1977286999(__this, /*hidden argument*/UnityEvent_1__ctor_m1977286999_RuntimeMethod_var);
-		return;
-	}
-}
-// System.Void UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers::.ctor()
-extern "C"  void MessageTypeSubscribers__ctor_m819340931 (MessageTypeSubscribers_t2291506050 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MessageTypeSubscribers__ctor_m819340931_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		__this->set_subscriberCount_1(0);
-		MessageEvent_t2167079021 * L_0 = (MessageEvent_t2167079021 *)il2cpp_codegen_object_new(MessageEvent_t2167079021_il2cpp_TypeInfo_var);
-		MessageEvent__ctor_m1822782644(L_0, /*hidden argument*/NULL);
-		__this->set_messageCallback_2(L_0);
-		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Guid UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers::get_MessageTypeId()
-extern "C"  Guid_t  MessageTypeSubscribers_get_MessageTypeId_m184006475 (MessageTypeSubscribers_t2291506050 * __this, const RuntimeMethod* method)
-{
-	Guid_t  V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	{
-		String_t* L_0 = __this->get_m_messageTypeId_0();
-		Guid_t  L_1;
-		memset(&L_1, 0, sizeof(L_1));
-		Guid__ctor_m2599802704((&L_1), L_0, /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_0012;
-	}
-
-IL_0012:
-	{
-		Guid_t  L_2 = V_0;
-		return L_2;
-	}
-}
-// Conversion methods for marshalling of: UnityEngine.Object
-extern "C" void Object_t1021602117_marshal_pinvoke(const Object_t1021602117& unmarshaled, Object_t1021602117_marshaled_pinvoke& marshaled)
-{
-	marshaled.___m_CachedPtr_0 = unmarshaled.get_m_CachedPtr_0();
-}
-extern "C" void Object_t1021602117_marshal_pinvoke_back(const Object_t1021602117_marshaled_pinvoke& marshaled, Object_t1021602117& unmarshaled)
-{
-	intptr_t unmarshaled_m_CachedPtr_temp_0;
-	memset(&unmarshaled_m_CachedPtr_temp_0, 0, sizeof(unmarshaled_m_CachedPtr_temp_0));
-	unmarshaled_m_CachedPtr_temp_0 = marshaled.___m_CachedPtr_0;
-	unmarshaled.set_m_CachedPtr_0(unmarshaled_m_CachedPtr_temp_0);
-}
-// Conversion method for clean up from marshalling of: UnityEngine.Object
-extern "C" void Object_t1021602117_marshal_pinvoke_cleanup(Object_t1021602117_marshaled_pinvoke& marshaled)
-{
-}
-// Conversion methods for marshalling of: UnityEngine.Object
-extern "C" void Object_t1021602117_marshal_com(const Object_t1021602117& unmarshaled, Object_t1021602117_marshaled_com& marshaled)
-{
-	marshaled.___m_CachedPtr_0 = unmarshaled.get_m_CachedPtr_0();
-}
-extern "C" void Object_t1021602117_marshal_com_back(const Object_t1021602117_marshaled_com& marshaled, Object_t1021602117& unmarshaled)
-{
-	intptr_t unmarshaled_m_CachedPtr_temp_0;
-	memset(&unmarshaled_m_CachedPtr_temp_0, 0, sizeof(unmarshaled_m_CachedPtr_temp_0));
-	unmarshaled_m_CachedPtr_temp_0 = marshaled.___m_CachedPtr_0;
-	unmarshaled.set_m_CachedPtr_0(unmarshaled_m_CachedPtr_temp_0);
-}
-// Conversion method for clean up from marshalling of: UnityEngine.Object
-extern "C" void Object_t1021602117_marshal_com_cleanup(Object_t1021602117_marshaled_com& marshaled)
-{
-}
-// System.Void UnityEngine.Object::.ctor()
-extern "C"  void Object__ctor_m2329730595 (Object_t1021602117 * __this, const RuntimeMethod* method)
-{
-	{
-		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// UnityEngine.Object UnityEngine.Object::Internal_CloneSingle(UnityEngine.Object)
-extern "C"  Object_t1021602117 * Object_Internal_CloneSingle_m1822942073 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___data0, const RuntimeMethod* method)
-{
-	typedef Object_t1021602117 * (*Object_Internal_CloneSingle_m1822942073_ftn) (Object_t1021602117 *);
-	static Object_Internal_CloneSingle_m1822942073_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Object_Internal_CloneSingle_m1822942073_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Object::Internal_CloneSingle(UnityEngine.Object)");
-	Object_t1021602117 * retVal = _il2cpp_icall_func(___data0);
-	return retVal;
-}
-// UnityEngine.Object UnityEngine.Object::Internal_InstantiateSingle(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-extern "C"  Object_t1021602117 * Object_Internal_InstantiateSingle_m2008353200 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___data0, Vector3_t2243707580  ___pos1, Quaternion_t4030073918  ___rot2, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Object_Internal_InstantiateSingle_m2008353200_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Object_t1021602117 * V_0 = NULL;
-	{
-		Object_t1021602117 * L_0 = ___data0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		Object_t1021602117 * L_1 = Object_INTERNAL_CALL_Internal_InstantiateSingle_m846595043(NULL /*static, unused*/, L_0, (&___pos1), (&___rot2), /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_0011;
-	}
-
-IL_0011:
-	{
-		Object_t1021602117 * L_2 = V_0;
-		return L_2;
-	}
-}
-// UnityEngine.Object UnityEngine.Object::INTERNAL_CALL_Internal_InstantiateSingle(UnityEngine.Object,UnityEngine.Vector3&,UnityEngine.Quaternion&)
-extern "C"  Object_t1021602117 * Object_INTERNAL_CALL_Internal_InstantiateSingle_m846595043 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___data0, Vector3_t2243707580 * ___pos1, Quaternion_t4030073918 * ___rot2, const RuntimeMethod* method)
-{
-	typedef Object_t1021602117 * (*Object_INTERNAL_CALL_Internal_InstantiateSingle_m846595043_ftn) (Object_t1021602117 *, Vector3_t2243707580 *, Quaternion_t4030073918 *);
-	static Object_INTERNAL_CALL_Internal_InstantiateSingle_m846595043_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Object_INTERNAL_CALL_Internal_InstantiateSingle_m846595043_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Object::INTERNAL_CALL_Internal_InstantiateSingle(UnityEngine.Object,UnityEngine.Vector3&,UnityEngine.Quaternion&)");
-	Object_t1021602117 * retVal = _il2cpp_icall_func(___data0, ___pos1, ___rot2);
-	return retVal;
-}
-// UnityEngine.Object UnityEngine.Object::Internal_InstantiateSingleWithParent(UnityEngine.Object,UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Quaternion)
-extern "C"  Object_t1021602117 * Object_Internal_InstantiateSingleWithParent_m505589139 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___data0, Transform_t3275118058 * ___parent1, Vector3_t2243707580  ___pos2, Quaternion_t4030073918  ___rot3, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Object_Internal_InstantiateSingleWithParent_m505589139_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Object_t1021602117 * V_0 = NULL;
-	{
-		Object_t1021602117 * L_0 = ___data0;
-		Transform_t3275118058 * L_1 = ___parent1;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		Object_t1021602117 * L_2 = Object_INTERNAL_CALL_Internal_InstantiateSingleWithParent_m2317812654(NULL /*static, unused*/, L_0, L_1, (&___pos2), (&___rot3), /*hidden argument*/NULL);
-		V_0 = L_2;
-		goto IL_0012;
-	}
-
-IL_0012:
-	{
-		Object_t1021602117 * L_3 = V_0;
-		return L_3;
-	}
-}
-// UnityEngine.Object UnityEngine.Object::INTERNAL_CALL_Internal_InstantiateSingleWithParent(UnityEngine.Object,UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Quaternion&)
-extern "C"  Object_t1021602117 * Object_INTERNAL_CALL_Internal_InstantiateSingleWithParent_m2317812654 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___data0, Transform_t3275118058 * ___parent1, Vector3_t2243707580 * ___pos2, Quaternion_t4030073918 * ___rot3, const RuntimeMethod* method)
-{
-	typedef Object_t1021602117 * (*Object_INTERNAL_CALL_Internal_InstantiateSingleWithParent_m2317812654_ftn) (Object_t1021602117 *, Transform_t3275118058 *, Vector3_t2243707580 *, Quaternion_t4030073918 *);
-	static Object_INTERNAL_CALL_Internal_InstantiateSingleWithParent_m2317812654_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Object_INTERNAL_CALL_Internal_InstantiateSingleWithParent_m2317812654_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Object::INTERNAL_CALL_Internal_InstantiateSingleWithParent(UnityEngine.Object,UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Quaternion&)");
-	Object_t1021602117 * retVal = _il2cpp_icall_func(___data0, ___parent1, ___pos2, ___rot3);
-	return retVal;
-}
-// System.Void UnityEngine.Object::Destroy(UnityEngine.Object,System.Single)
-extern "C"  void Object_Destroy_m682534386 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___obj0, float ___t1, const RuntimeMethod* method)
-{
-	typedef void (*Object_Destroy_m682534386_ftn) (Object_t1021602117 *, float);
-	static Object_Destroy_m682534386_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Object_Destroy_m682534386_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Object::Destroy(UnityEngine.Object,System.Single)");
-	_il2cpp_icall_func(___obj0, ___t1);
-}
-// System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
-extern "C"  void Object_Destroy_m3959286051 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___obj0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Object_Destroy_m3959286051_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	{
-		V_0 = (0.0f);
-		Object_t1021602117 * L_0 = ___obj0;
-		float L_1 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		Object_Destroy_m682534386(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.Object::DestroyImmediate(UnityEngine.Object,System.Boolean)
-extern "C"  void Object_DestroyImmediate_m3250094537 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___obj0, bool ___allowDestroyingAssets1, const RuntimeMethod* method)
-{
-	typedef void (*Object_DestroyImmediate_m3250094537_ftn) (Object_t1021602117 *, bool);
-	static Object_DestroyImmediate_m3250094537_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Object_DestroyImmediate_m3250094537_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Object::DestroyImmediate(UnityEngine.Object,System.Boolean)");
-	_il2cpp_icall_func(___obj0, ___allowDestroyingAssets1);
-}
-// System.Void UnityEngine.Object::DestroyImmediate(UnityEngine.Object)
-extern "C"  void Object_DestroyImmediate_m201325964 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___obj0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Object_DestroyImmediate_m201325964_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	{
-		V_0 = (bool)0;
-		Object_t1021602117 * L_0 = ___obj0;
-		bool L_1 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		Object_DestroyImmediate_m3250094537(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.String UnityEngine.Object::get_name()
-extern "C"  String_t* Object_get_name_m3369637820 (Object_t1021602117 * __this, const RuntimeMethod* method)
-{
-	typedef String_t* (*Object_get_name_m3369637820_ftn) (Object_t1021602117 *);
-	static Object_get_name_m3369637820_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Object_get_name_m3369637820_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Object::get_name()");
-	String_t* retVal = _il2cpp_icall_func(__this);
-	return retVal;
-}
-// System.Void UnityEngine.Object::set_name(System.String)
-extern "C"  void Object_set_name_m1458854879 (Object_t1021602117 * __this, String_t* ___value0, const RuntimeMethod* method)
-{
-	typedef void (*Object_set_name_m1458854879_ftn) (Object_t1021602117 *, String_t*);
-	static Object_set_name_m1458854879_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Object_set_name_m1458854879_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Object::set_name(System.String)");
-	_il2cpp_icall_func(__this, ___value0);
-}
-// System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)
-extern "C"  void Object_DontDestroyOnLoad_m2658633409 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___target0, const RuntimeMethod* method)
-{
-	typedef void (*Object_DontDestroyOnLoad_m2658633409_ftn) (Object_t1021602117 *);
-	static Object_DontDestroyOnLoad_m2658633409_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Object_DontDestroyOnLoad_m2658633409_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)");
-	_il2cpp_icall_func(___target0);
-}
-// System.Void UnityEngine.Object::set_hideFlags(UnityEngine.HideFlags)
-extern "C"  void Object_set_hideFlags_m3275307757 (Object_t1021602117 * __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	typedef void (*Object_set_hideFlags_m3275307757_ftn) (Object_t1021602117 *, int32_t);
-	static Object_set_hideFlags_m3275307757_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Object_set_hideFlags_m3275307757_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Object::set_hideFlags(UnityEngine.HideFlags)");
-	_il2cpp_icall_func(__this, ___value0);
-}
-// System.String UnityEngine.Object::ToString()
-extern "C"  String_t* Object_ToString_m2938729670 (Object_t1021602117 * __this, const RuntimeMethod* method)
-{
-	typedef String_t* (*Object_ToString_m2938729670_ftn) (Object_t1021602117 *);
-	static Object_ToString_m2938729670_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Object_ToString_m2938729670_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Object::ToString()");
-	String_t* retVal = _il2cpp_icall_func(__this);
-	return retVal;
-}
-// System.Int32 UnityEngine.Object::GetHashCode()
-extern "C"  int32_t Object_GetHashCode_m1029928212 (Object_t1021602117 * __this, const RuntimeMethod* method)
-{
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = Object_GetHashCode_m1715190285(__this, /*hidden argument*/NULL);
-		V_0 = L_0;
-		goto IL_000d;
-	}
-
-IL_000d:
-	{
-		int32_t L_1 = V_0;
-		return L_1;
-	}
-}
-// System.Boolean UnityEngine.Object::Equals(System.Object)
-extern "C"  bool Object_Equals_m1631125948 (Object_t1021602117 * __this, RuntimeObject * ___other0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Object_Equals_m1631125948_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Object_t1021602117 * V_0 = NULL;
-	bool V_1 = false;
-	{
-		RuntimeObject * L_0 = ___other0;
-		V_0 = ((Object_t1021602117 *)IsInstClass((RuntimeObject*)L_0, Object_t1021602117_il2cpp_TypeInfo_var));
-		Object_t1021602117 * L_1 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_2 = Object_op_Equality_m2516226135(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_2)
-		{
-			goto IL_002c;
-		}
-	}
-	{
-		RuntimeObject * L_3 = ___other0;
-		if (!L_3)
-		{
-			goto IL_002c;
-		}
-	}
-	{
-		RuntimeObject * L_4 = ___other0;
-		if (((Object_t1021602117 *)IsInstClass((RuntimeObject*)L_4, Object_t1021602117_il2cpp_TypeInfo_var)))
-		{
-			goto IL_002c;
-		}
-	}
-	{
-		V_1 = (bool)0;
-		goto IL_0039;
-	}
-
-IL_002c:
-	{
-		Object_t1021602117 * L_5 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_6 = Object_CompareBaseObjects_m1461253683(NULL /*static, unused*/, __this, L_5, /*hidden argument*/NULL);
-		V_1 = L_6;
-		goto IL_0039;
-	}
-
-IL_0039:
-	{
-		bool L_7 = V_1;
-		return L_7;
-	}
-}
-// System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
-extern "C"  bool Object_op_Implicit_m1757773010 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___exists0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Object_op_Implicit_m1757773010_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	{
-		Object_t1021602117 * L_0 = ___exists0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_1 = Object_CompareBaseObjects_m1461253683(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
-		goto IL_0011;
-	}
-
-IL_0011:
-	{
-		bool L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Boolean UnityEngine.Object::CompareBaseObjects(UnityEngine.Object,UnityEngine.Object)
-extern "C"  bool Object_CompareBaseObjects_m1461253683 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___lhs0, Object_t1021602117 * ___rhs1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Object_CompareBaseObjects_m1461253683_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	bool V_1 = false;
-	bool V_2 = false;
-	{
-		Object_t1021602117 * L_0 = ___lhs0;
-		V_0 = (bool)((((RuntimeObject*)(Object_t1021602117 *)L_0) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
-		Object_t1021602117 * L_1 = ___rhs1;
-		V_1 = (bool)((((RuntimeObject*)(Object_t1021602117 *)L_1) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
-		bool L_2 = V_1;
-		if (!L_2)
-		{
-			goto IL_001e;
-		}
-	}
-	{
-		bool L_3 = V_0;
-		if (!L_3)
-		{
-			goto IL_001e;
-		}
-	}
-	{
-		V_2 = (bool)1;
-		goto IL_0055;
-	}
-
-IL_001e:
-	{
-		bool L_4 = V_1;
-		if (!L_4)
-		{
-			goto IL_0033;
-		}
-	}
-	{
-		Object_t1021602117 * L_5 = ___lhs0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_6 = Object_IsNativeObjectAlive_m745219692(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
-		V_2 = (bool)((((int32_t)L_6) == ((int32_t)0))? 1 : 0);
-		goto IL_0055;
-	}
-
-IL_0033:
-	{
-		bool L_7 = V_0;
-		if (!L_7)
-		{
-			goto IL_0048;
-		}
-	}
-	{
-		Object_t1021602117 * L_8 = ___rhs1;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_9 = Object_IsNativeObjectAlive_m745219692(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
-		V_2 = (bool)((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
-		goto IL_0055;
-	}
-
-IL_0048:
-	{
-		Object_t1021602117 * L_10 = ___lhs0;
-		Object_t1021602117 * L_11 = ___rhs1;
-		bool L_12 = Object_ReferenceEquals_m3900584722(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
-		V_2 = L_12;
-		goto IL_0055;
-	}
-
-IL_0055:
-	{
-		bool L_13 = V_2;
-		return L_13;
-	}
-}
-// System.Boolean UnityEngine.Object::IsNativeObjectAlive(UnityEngine.Object)
-extern "C"  bool Object_IsNativeObjectAlive_m745219692 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___o0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Object_IsNativeObjectAlive_m745219692_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	{
-		Object_t1021602117 * L_0 = ___o0;
-		NullCheck(L_0);
-		intptr_t L_1 = Object_GetCachedPtr_m712668782(L_0, /*hidden argument*/NULL);
-		bool L_2 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_1, (intptr_t)(0), /*hidden argument*/NULL);
-		V_0 = L_2;
-		goto IL_0017;
-	}
-
-IL_0017:
-	{
-		bool L_3 = V_0;
-		return L_3;
-	}
-}
-// System.IntPtr UnityEngine.Object::GetCachedPtr()
-extern "C"  intptr_t Object_GetCachedPtr_m712668782 (Object_t1021602117 * __this, const RuntimeMethod* method)
-{
-	intptr_t V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	{
-		intptr_t L_0 = __this->get_m_CachedPtr_0();
-		V_0 = L_0;
-		goto IL_000d;
-	}
-
-IL_000d:
-	{
-		intptr_t L_1 = V_0;
-		return L_1;
-	}
-}
-// UnityEngine.Object UnityEngine.Object::Instantiate(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-extern "C"  Object_t1021602117 * Object_Instantiate_m1390662623 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___original0, Vector3_t2243707580  ___position1, Quaternion_t4030073918  ___rotation2, Transform_t3275118058 * ___parent3, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Object_Instantiate_m1390662623_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Object_t1021602117 * V_0 = NULL;
-	{
-		Transform_t3275118058 * L_0 = ___parent3;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_1 = Object_op_Equality_m2516226135(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_001b;
-		}
-	}
-	{
-		Object_t1021602117 * L_2 = ___original0;
-		Vector3_t2243707580  L_3 = ___position1;
-		Quaternion_t4030073918  L_4 = ___rotation2;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		Object_t1021602117 * L_5 = Object_Internal_InstantiateSingle_m2008353200(NULL /*static, unused*/, L_2, L_3, L_4, /*hidden argument*/NULL);
-		V_0 = L_5;
-		goto IL_0035;
-	}
-
-IL_001b:
-	{
-		Object_t1021602117 * L_6 = ___original0;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		Object_CheckNullArgument_m2772064765(NULL /*static, unused*/, L_6, _stringLiteral444318565, /*hidden argument*/NULL);
-		Object_t1021602117 * L_7 = ___original0;
-		Transform_t3275118058 * L_8 = ___parent3;
-		Vector3_t2243707580  L_9 = ___position1;
-		Quaternion_t4030073918  L_10 = ___rotation2;
-		Object_t1021602117 * L_11 = Object_Internal_InstantiateSingleWithParent_m505589139(NULL /*static, unused*/, L_7, L_8, L_9, L_10, /*hidden argument*/NULL);
-		V_0 = L_11;
-		goto IL_0035;
-	}
-
-IL_0035:
-	{
-		Object_t1021602117 * L_12 = V_0;
-		return L_12;
-	}
-}
-// System.Void UnityEngine.Object::CheckNullArgument(System.Object,System.String)
-extern "C"  void Object_CheckNullArgument_m2772064765 (RuntimeObject * __this /* static, unused */, RuntimeObject * ___arg0, String_t* ___message1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Object_CheckNullArgument_m2772064765_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeObject * L_0 = ___arg0;
-		if (L_0)
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		String_t* L_1 = ___message1;
-		ArgumentException_t3259014390 * L_2 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3739475201(L_2, L_1, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
-	}
-
-IL_000e:
-	{
-		return;
-	}
-}
-// System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
-extern "C"  bool Object_op_Equality_m2516226135 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___x0, Object_t1021602117 * ___y1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Object_op_Equality_m2516226135_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	{
-		Object_t1021602117 * L_0 = ___x0;
-		Object_t1021602117 * L_1 = ___y1;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_2 = Object_CompareBaseObjects_m1461253683(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
-		V_0 = L_2;
-		goto IL_000e;
-	}
-
-IL_000e:
-	{
-		bool L_3 = V_0;
-		return L_3;
-	}
-}
-// System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
-extern "C"  bool Object_op_Inequality_m3768854296 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * ___x0, Object_t1021602117 * ___y1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Object_op_Inequality_m3768854296_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	{
-		Object_t1021602117 * L_0 = ___x0;
-		Object_t1021602117 * L_1 = ___y1;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_2 = Object_CompareBaseObjects_m1461253683(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
-		V_0 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
-		goto IL_0011;
-	}
-
-IL_0011:
-	{
-		bool L_3 = V_0;
-		return L_3;
-	}
-}
-// System.Void UnityEngine.Object::.cctor()
-extern "C"  void Object__cctor_m3758199678 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Object__cctor_m3758199678_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		((Object_t1021602117_StaticFields*)il2cpp_codegen_static_fields_for(Object_t1021602117_il2cpp_TypeInfo_var))->set_OffsetOfInstanceIDInCPlusPlusObject_1((-1));
 		return;
 	}
 }

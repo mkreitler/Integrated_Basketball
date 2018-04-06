@@ -1746,6 +1746,7 @@ extern "C" void Enum_GetHashCode_m1822821507 ();
 extern "C" void Enum_FormatSpecifier_X_m1025568603 ();
 extern "C" void Enum_FormatFlags_m2752609772 ();
 extern "C" void Enum_Format_m2294492821 ();
+extern "C" void Environment_get_CurrentDirectory_m2386669816 ();
 extern "C" void Environment_get_SocketSecurityEnabled_m1758378561 ();
 extern "C" void Environment_get_NewLine_m266316410 ();
 extern "C" void Environment_get_Platform_m2874211026 ();
@@ -2646,6 +2647,7 @@ extern "C" void MonoType_get_Module_m3769241394 ();
 extern "C" void MonoType_get_DeclaringType_m3267159288 ();
 extern "C" void MonoType_get_ReflectedType_m2981714783 ();
 extern "C" void MonoType_get_TypeHandle_m3750614457 ();
+extern "C" void MonoType_GetArrayRank_m1550632035 ();
 extern "C" void MonoType_ToString_m473949831 ();
 extern "C" void MonoType_GetGenericArguments_m2708198481 ();
 extern "C" void MonoType_get_ContainsGenericParameters_m3229732653 ();
@@ -5356,6 +5358,7 @@ extern "C" void Type_type_is_assignable_from_m1620694099 ();
 extern "C" void Type_IsSubclassOf_m2450899481 ();
 extern "C" void Type_IsAssignableFrom_m907986231 ();
 extern "C" void Type_IsInstanceOfType_m2802212815 ();
+extern "C" void Type_GetArrayRank_m4242213362 ();
 extern "C" void Type_GetField_m3036413258 ();
 extern "C" void Type_GetHashCode_m1150382148 ();
 extern "C" void Type_GetMethod_m1197504218 ();
@@ -7357,8 +7360,211 @@ extern "C" void AesTransform_ECB_m1505875511 ();
 extern "C" void AesTransform_SubByte_m3508318874 ();
 extern "C" void AesTransform_Encrypt128_m617981965 ();
 extern "C" void AesTransform_Decrypt128_m3067379519 ();
+extern "C" void _AndroidJNIHelper_CreateJavaRunnable_m1167962646 ();
+extern "C" void _AndroidJNIHelper_CreateJNIArgArray_m755788980 ();
+extern "C" void _AndroidJNIHelper_DeleteJNIArgArray_m338095364 ();
+extern "C" void _AndroidJNIHelper_ConvertToJNIArray_m1248156804 ();
+extern "C" void _AndroidJNIHelper_GetMethodID_m48644625 ();
+extern "C" void _AndroidJNIHelper_GetMethodIDFallback_m3201232261 ();
+extern "C" void _AndroidJNIHelper_GetFieldID_m87082942 ();
+extern "C" void _AndroidJNIHelper_GetSignature_m1300573492 ();
 extern "C" void AddComponentMenu__ctor_m2024592321 ();
 extern "C" void AddComponentMenu__ctor_m686408932 ();
+extern "C" void AndroidJavaClass__ctor_m2710308341 ();
+extern "C" void AndroidJavaClass__ctor_m3415353177 ();
+extern "C" void AndroidJavaClass__AndroidJavaClass_m1876440275 ();
+extern "C" void AndroidJavaException__ctor_m2816600416 ();
+extern "C" void AndroidJavaException_get_StackTrace_m61148349 ();
+extern "C" void AndroidJavaObject__ctor_m3845826090 ();
+extern "C" void AndroidJavaObject__ctor_m1748549292 ();
+extern "C" void AndroidJavaObject_Dispose_m544107255 ();
+extern "C" void AndroidJavaObject_GetRawObject_m2000325796 ();
+extern "C" void AndroidJavaObject_GetRawClass_m69471637 ();
+extern "C" void AndroidJavaObject_DebugPrint_m653935302 ();
+extern "C" void AndroidJavaObject_Finalize_m4026966320 ();
+extern "C" void AndroidJavaObject_Dispose_m1199669976 ();
+extern "C" void AndroidJavaObject__Dispose_m2682233416 ();
+extern "C" void AndroidJavaObject_AndroidJavaObjectDeleteLocalRef_m2273457111 ();
+extern "C" void AndroidJavaObject_AndroidJavaClassDeleteLocalRef_m215438755 ();
+extern "C" void AndroidJavaObject__GetRawObject_m3693952337 ();
+extern "C" void AndroidJavaObject__GetRawClass_m3201503112 ();
+extern "C" void AndroidJavaObject_FindClass_m2078911127 ();
+extern "C" void AndroidJavaObject_get_JavaLangClass_m440136198 ();
+extern "C" void AndroidJavaObject__cctor_m152654799 ();
+extern "C" void AndroidJavaProxy__ctor_m732977339 ();
+extern "C" void AndroidJavaProxy__ctor_m1084633315 ();
+extern "C" void AndroidJavaProxy_GetProxy_m1162291285 ();
+extern "C" void AndroidJavaProxy__cctor_m1448107316 ();
+extern "C" void AndroidJavaRunnable__ctor_m711141886 ();
+extern "C" void AndroidJavaRunnable_Invoke_m2550679292 ();
+extern "C" void AndroidJavaRunnable_BeginInvoke_m1644318311 ();
+extern "C" void AndroidJavaRunnable_EndInvoke_m2061016096 ();
+extern "C" void AndroidJavaRunnableProxy__ctor_m2912946493 ();
+extern "C" void AndroidJNI_FindClass_m1146941316 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_FindClass_m2788105298 ();
+extern "C" void AndroidJNI_FromReflectedMethod_m3489882308 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_FromReflectedMethod_m3948529066 ();
+extern "C" void AndroidJNI_FromReflectedField_m1586104961 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_FromReflectedField_m365659821 ();
+extern "C" void AndroidJNI_ExceptionOccurred_m1192906445 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_ExceptionOccurred_m2119918457 ();
+extern "C" void AndroidJNI_ExceptionClear_m2810080104 ();
+extern "C" void AndroidJNI_NewGlobalRef_m3830225541 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_NewGlobalRef_m829840121 ();
+extern "C" void AndroidJNI_DeleteGlobalRef_m1492528849 ();
+extern "C" void AndroidJNI_DeleteLocalRef_m1035010755 ();
+extern "C" void AndroidJNI_GetObjectClass_m3593789028 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_GetObjectClass_m1226267886 ();
+extern "C" void AndroidJNI_GetMethodID_m3579635507 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_GetMethodID_m3893979599 ();
+extern "C" void AndroidJNI_GetFieldID_m3868917208 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_GetFieldID_m2191711586 ();
+extern "C" void AndroidJNI_GetStaticMethodID_m2111902847 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_GetStaticMethodID_m3597694851 ();
+extern "C" void AndroidJNI_GetStaticFieldID_m945802290 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_GetStaticFieldID_m1358410088 ();
+extern "C" void AndroidJNI_NewStringUTF_m294318221 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_NewStringUTF_m2906280537 ();
+extern "C" void AndroidJNI_GetStringUTFChars_m3395974110 ();
+extern "C" void AndroidJNI_CallStringMethod_m547855981 ();
+extern "C" void AndroidJNI_CallObjectMethod_m1663510685 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_CallObjectMethod_m3385998137 ();
+extern "C" void AndroidJNI_CallIntMethod_m3811935778 ();
+extern "C" void AndroidJNI_CallBooleanMethod_m466615625 ();
+extern "C" void AndroidJNI_CallShortMethod_m1466041431 ();
+extern "C" void AndroidJNI_CallByteMethod_m1552664141 ();
+extern "C" void AndroidJNI_CallCharMethod_m2997962145 ();
+extern "C" void AndroidJNI_CallFloatMethod_m2845733963 ();
+extern "C" void AndroidJNI_CallDoubleMethod_m3941989741 ();
+extern "C" void AndroidJNI_CallLongMethod_m2831046166 ();
+extern "C" void AndroidJNI_CallStaticStringMethod_m685687621 ();
+extern "C" void AndroidJNI_CallStaticObjectMethod_m3143657157 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_CallStaticObjectMethod_m3176317801 ();
+extern "C" void AndroidJNI_CallStaticIntMethod_m1992515728 ();
+extern "C" void AndroidJNI_CallStaticBooleanMethod_m1186985673 ();
+extern "C" void AndroidJNI_CallStaticShortMethod_m3785564051 ();
+extern "C" void AndroidJNI_CallStaticByteMethod_m2566359189 ();
+extern "C" void AndroidJNI_CallStaticCharMethod_m1437246625 ();
+extern "C" void AndroidJNI_CallStaticFloatMethod_m1028835415 ();
+extern "C" void AndroidJNI_CallStaticDoubleMethod_m1517028101 ();
+extern "C" void AndroidJNI_CallStaticLongMethod_m4241166332 ();
+extern "C" void AndroidJNI_GetStaticStringField_m981156460 ();
+extern "C" void AndroidJNI_GetStaticObjectField_m1117681310 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_GetStaticObjectField_m1046795976 ();
+extern "C" void AndroidJNI_GetStaticBooleanField_m1495909062 ();
+extern "C" void AndroidJNI_GetStaticByteField_m2854778764 ();
+extern "C" void AndroidJNI_GetStaticCharField_m1307137100 ();
+extern "C" void AndroidJNI_GetStaticShortField_m2504957286 ();
+extern "C" void AndroidJNI_GetStaticIntField_m2065345677 ();
+extern "C" void AndroidJNI_GetStaticLongField_m449804539 ();
+extern "C" void AndroidJNI_GetStaticFloatField_m1066649512 ();
+extern "C" void AndroidJNI_GetStaticDoubleField_m3636144684 ();
+extern "C" void AndroidJNI_ToBooleanArray_m750419762 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_ToBooleanArray_m2196247008 ();
+extern "C" void AndroidJNI_ToByteArray_m3237688210 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_ToByteArray_m2216035424 ();
+extern "C" void AndroidJNI_ToCharArray_m1271039290 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_ToCharArray_m2207204712 ();
+extern "C" void AndroidJNI_ToShortArray_m1930515046 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_ToShortArray_m145281632 ();
+extern "C" void AndroidJNI_ToIntArray_m4152736571 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_ToIntArray_m856804263 ();
+extern "C" void AndroidJNI_ToLongArray_m3699382049 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_ToLongArray_m3674462701 ();
+extern "C" void AndroidJNI_ToFloatArray_m2619761402 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_ToFloatArray_m4014106884 ();
+extern "C" void AndroidJNI_ToDoubleArray_m808183080 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_ToDoubleArray_m1956593850 ();
+extern "C" void AndroidJNI_ToObjectArray_m1798746026 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_ToObjectArray_m3696508252 ();
+extern "C" void AndroidJNI_FromBooleanArray_m3557280903 ();
+extern "C" void AndroidJNI_FromByteArray_m3347999875 ();
+extern "C" void AndroidJNI_FromCharArray_m2321500395 ();
+extern "C" void AndroidJNI_FromShortArray_m1687805337 ();
+extern "C" void AndroidJNI_FromIntArray_m1124849508 ();
+extern "C" void AndroidJNI_FromLongArray_m2895187476 ();
+extern "C" void AndroidJNI_FromFloatArray_m2229045909 ();
+extern "C" void AndroidJNI_FromDoubleArray_m2146626199 ();
+extern "C" void AndroidJNI_GetArrayLength_m835991335 ();
+extern "C" void AndroidJNI_NewObjectArray_m2402556372 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_NewObjectArray_m3561069850 ();
+extern "C" void AndroidJNI_GetObjectArrayElement_m2469306034 ();
+extern "C" void AndroidJNI_INTERNAL_CALL_GetObjectArrayElement_m879074536 ();
+extern "C" void AndroidJNI_SetObjectArrayElement_m3793290321 ();
+extern "C" void AndroidJNIHelper_GetMethodID_m2208893354 ();
+extern "C" void AndroidJNIHelper_GetFieldID_m1606707387 ();
+extern "C" void AndroidJNIHelper_CreateJavaRunnable_m1726501095 ();
+extern "C" void AndroidJNIHelper_CreateJavaProxy_m3365062511 ();
+extern "C" void AndroidJNIHelper_INTERNAL_CALL_CreateJavaProxy_m2393073275 ();
+extern "C" void AndroidJNIHelper_CreateJNIArgArray_m3233595457 ();
+extern "C" void AndroidJNIHelper_DeleteJNIArgArray_m4088890563 ();
+extern "C" void AndroidJNISafe_CheckException_m82304878 ();
+extern "C" void AndroidJNISafe_DeleteGlobalRef_m861434196 ();
+extern "C" void AndroidJNISafe_DeleteLocalRef_m1703488126 ();
+extern "C" void AndroidJNISafe_NewStringUTF_m4052253704 ();
+extern "C" void AndroidJNISafe_GetStringUTFChars_m2080779641 ();
+extern "C" void AndroidJNISafe_GetObjectClass_m2887862559 ();
+extern "C" void AndroidJNISafe_GetStaticMethodID_m3181930180 ();
+extern "C" void AndroidJNISafe_GetMethodID_m1407924750 ();
+extern "C" void AndroidJNISafe_GetFieldID_m3368735691 ();
+extern "C" void AndroidJNISafe_GetStaticFieldID_m4129374031 ();
+extern "C" void AndroidJNISafe_FromReflectedMethod_m3036131625 ();
+extern "C" void AndroidJNISafe_FromReflectedField_m1154452628 ();
+extern "C" void AndroidJNISafe_FindClass_m575048497 ();
+extern "C" void AndroidJNISafe_GetStaticObjectField_m2920910817 ();
+extern "C" void AndroidJNISafe_GetStaticStringField_m66813609 ();
+extern "C" void AndroidJNISafe_GetStaticCharField_m3944047593 ();
+extern "C" void AndroidJNISafe_GetStaticDoubleField_m130030825 ();
+extern "C" void AndroidJNISafe_GetStaticFloatField_m2013015291 ();
+extern "C" void AndroidJNISafe_GetStaticLongField_m2830969202 ();
+extern "C" void AndroidJNISafe_GetStaticShortField_m3699096839 ();
+extern "C" void AndroidJNISafe_GetStaticByteField_m1363061545 ();
+extern "C" void AndroidJNISafe_GetStaticBooleanField_m2913840925 ();
+extern "C" void AndroidJNISafe_GetStaticIntField_m626825302 ();
+extern "C" void AndroidJNISafe_CallStaticObjectMethod_m4041205290 ();
+extern "C" void AndroidJNISafe_CallStaticStringMethod_m2789442272 ();
+extern "C" void AndroidJNISafe_CallStaticCharMethod_m3997165894 ();
+extern "C" void AndroidJNISafe_CallStaticDoubleMethod_m1509326880 ();
+extern "C" void AndroidJNISafe_CallStaticFloatMethod_m3693956060 ();
+extern "C" void AndroidJNISafe_CallStaticLongMethod_m1197470715 ();
+extern "C" void AndroidJNISafe_CallStaticShortMethod_m1214467386 ();
+extern "C" void AndroidJNISafe_CallStaticByteMethod_m2205844442 ();
+extern "C" void AndroidJNISafe_CallStaticBooleanMethod_m3537560618 ();
+extern "C" void AndroidJNISafe_CallStaticIntMethod_m1207822993 ();
+extern "C" void AndroidJNISafe_CallObjectMethod_m1435936952 ();
+extern "C" void AndroidJNISafe_CallStringMethod_m798987666 ();
+extern "C" void AndroidJNISafe_CallCharMethod_m1304176316 ();
+extern "C" void AndroidJNISafe_CallDoubleMethod_m2523391122 ();
+extern "C" void AndroidJNISafe_CallFloatMethod_m1208832454 ();
+extern "C" void AndroidJNISafe_CallLongMethod_m3789253719 ();
+extern "C" void AndroidJNISafe_CallShortMethod_m3677886592 ();
+extern "C" void AndroidJNISafe_CallByteMethod_m1382808392 ();
+extern "C" void AndroidJNISafe_CallBooleanMethod_m972340072 ();
+extern "C" void AndroidJNISafe_CallIntMethod_m1439635681 ();
+extern "C" void AndroidJNISafe_FromCharArray_m2335913126 ();
+extern "C" void AndroidJNISafe_FromDoubleArray_m2645839260 ();
+extern "C" void AndroidJNISafe_FromFloatArray_m2115080464 ();
+extern "C" void AndroidJNISafe_FromLongArray_m1298772853 ();
+extern "C" void AndroidJNISafe_FromShortArray_m3451473986 ();
+extern "C" void AndroidJNISafe_FromByteArray_m3884342366 ();
+extern "C" void AndroidJNISafe_FromBooleanArray_m2646463206 ();
+extern "C" void AndroidJNISafe_FromIntArray_m81911459 ();
+extern "C" void AndroidJNISafe_ToObjectArray_m2701598109 ();
+extern "C" void AndroidJNISafe_ToCharArray_m4138840423 ();
+extern "C" void AndroidJNISafe_ToDoubleArray_m2593793371 ();
+extern "C" void AndroidJNISafe_ToFloatArray_m3975685981 ();
+extern "C" void AndroidJNISafe_ToLongArray_m3457180788 ();
+extern "C" void AndroidJNISafe_ToShortArray_m993330209 ();
+extern "C" void AndroidJNISafe_ToByteArray_m87363743 ();
+extern "C" void AndroidJNISafe_ToBooleanArray_m4042057407 ();
+extern "C" void AndroidJNISafe_ToIntArray_m320585224 ();
+extern "C" void AndroidJNISafe_GetArrayLength_m1077269798 ();
+extern "C" void AndroidReflection_IsPrimitive_m3659522246 ();
+extern "C" void AndroidReflection_IsAssignableFrom_m3577747537 ();
+extern "C" void AndroidReflection_GetStaticMethodID_m2280460481 ();
+extern "C" void AndroidReflection_GetMethodMember_m584776875 ();
+extern "C" void AndroidReflection_GetFieldMember_m1382154548 ();
+extern "C" void AndroidReflection__cctor_m2197364317 ();
 extern "C" void AnimationCurve__ctor_m1687996092 ();
 extern "C" void AnimationCurve__ctor_m3808882547 ();
 extern "C" void AnimationCurve_Cleanup_m3596170191 ();
@@ -7366,9 +7572,13 @@ extern "C" void AnimationCurve_Finalize_m453806581 ();
 extern "C" void AnimationCurve_Evaluate_m1472239139 ();
 extern "C" void AnimationCurve_Init_m15843578 ();
 extern "C" void Application_CallLowMemory_m2557176131 ();
+extern "C" void Application_Quit_m3096163801 ();
 extern "C" void Application_get_isPlaying_m3003895139 ();
 extern "C" void Application_get_isEditor_m506138946 ();
 extern "C" void Application_get_platform_m1727035749 ();
+extern "C" void Application_get_isMobilePlatform_m2455210782 ();
+extern "C" void Application_get_isConsolePlatform_m1257962815 ();
+extern "C" void Application_get_streamingAssetsPath_m130902186 ();
 extern "C" void Application_OpenURL_m2826628597 ();
 extern "C" void Application_CallLogCallback_m1825082967 ();
 extern "C" void Application_InvokeOnBeforeRender_m2797211002 ();
@@ -7381,11 +7591,23 @@ extern "C" void LowMemoryCallback_Invoke_m1692335191 ();
 extern "C" void LowMemoryCallback_BeginInvoke_m3593312984 ();
 extern "C" void LowMemoryCallback_EndInvoke_m2508835749 ();
 extern "C" void AssetBundle__ctor_m3429387992 ();
+extern "C" void AssetBundle_LoadFromMemory_m2634658222 ();
+extern "C" void AssetBundle_LoadFromMemory_m2864189150 ();
 extern "C" void AssetBundle_LoadAsset_m3884165516 ();
 extern "C" void AssetBundle_LoadAsset_Internal_m1150726960 ();
+extern "C" void AssetBundle_LoadAssetAsync_m1991419858 ();
+extern "C" void AssetBundle_LoadAssetAsync_Internal_m1373172298 ();
+extern "C" void AssetBundle_Unload_m3413051624 ();
+extern "C" void AssetBundleManifest_GetAllAssetBundlesWithVariant_m2249552035 ();
+extern "C" void AssetBundleManifest_GetAssetBundleHash_m3331783030 ();
+extern "C" void AssetBundleManifest_INTERNAL_CALL_GetAssetBundleHash_m3147989694 ();
+extern "C" void AssetBundleManifest_GetAllDependencies_m4018485972 ();
+extern "C" void AssetBundleRequest__ctor_m2020169559 ();
+extern "C" void AssetBundleRequest_get_asset_m259156351 ();
 extern "C" void AsyncOperation__ctor_m1674276057 ();
 extern "C" void AsyncOperation_InternalDestroy_m2067452588 ();
 extern "C" void AsyncOperation_Finalize_m1061334423 ();
+extern "C" void AsyncOperation_get_isDone_m3226538874 ();
 extern "C" void AsyncOperation_InvokeCompletionEvent_m504098009 ();
 extern "C" void AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m3087158272 ();
 extern "C" void AttributeHelperEngine_GetRequiredComponents_m586474250 ();
@@ -7413,6 +7635,9 @@ extern "C" void Bounds_op_Inequality_m1440807554 ();
 extern "C" void Bounds_SetMinMax_m2094075031_AdjustorThunk ();
 extern "C" void Bounds_Encapsulate_m17114941_AdjustorThunk ();
 extern "C" void Bounds_ToString_m3830023780_AdjustorThunk ();
+extern "C" void CachedAssetBundle__ctor_m4061134084_AdjustorThunk ();
+extern "C" void CachedAssetBundle_get_name_m4138969697_AdjustorThunk ();
+extern "C" void CachedAssetBundle_get_hash_m967066666_AdjustorThunk ();
 extern "C" void Camera__ctor_m2624089815 ();
 extern "C" void Camera_get_fieldOfView_m1609126762 ();
 extern "C" void Camera_set_fieldOfView_m4080277213 ();
@@ -7635,6 +7860,10 @@ extern "C" void GameObject_Internal_CreateGameObject_m336418144 ();
 extern "C" void GameObject_get_gameObject_m2826196100 ();
 extern "C" void Gizmos_DrawSphere_m3448155406 ();
 extern "C" void Gizmos_INTERNAL_CALL_DrawSphere_m570222473 ();
+extern "C" void GlobalJavaObjectRef__ctor_m3082986627 ();
+extern "C" void GlobalJavaObjectRef_Finalize_m2238812967 ();
+extern "C" void GlobalJavaObjectRef_op_Implicit_m3534882639 ();
+extern "C" void GlobalJavaObjectRef_Dispose_m2828645294 ();
 extern "C" void Gradient__ctor_m1008579686 ();
 extern "C" void Gradient_Init_m3042650694 ();
 extern "C" void Gradient_Cleanup_m594482338 ();
@@ -7642,9 +7871,16 @@ extern "C" void Gradient_Finalize_m3546076046 ();
 extern "C" void GUIElement__ctor_m4263933191 ();
 extern "C" void GUILayer_HitTest_m4124054285 ();
 extern "C" void GUILayer_INTERNAL_CALL_HitTest_m381183969 ();
+extern "C" void Hash128_ToString_m3414764504_AdjustorThunk ();
+extern "C" void Hash128_Internal_Hash128ToString_m2129946321 ();
+extern "C" void Hash128_Equals_m2089078800_AdjustorThunk ();
+extern "C" void Hash128_GetHashCode_m2352269416_AdjustorThunk ();
+extern "C" void Hash128_op_Equality_m1573775191 ();
 extern "C" void IL2CPPStructAlignmentAttribute__ctor_m3421252534 ();
+extern "C" void Input_GetKeyInt_m2379744823 ();
 extern "C" void Input_GetAxisRaw_m1913129537 ();
 extern "C" void Input_GetButtonDown_m717298472 ();
+extern "C" void Input_GetKey_m4207472870 ();
 extern "C" void Input_GetMouseButton_m1307856634 ();
 extern "C" void Input_GetMouseButtonDown_m2313448302 ();
 extern "C" void Input_GetMouseButtonUp_m1218626729 ();
@@ -8008,6 +8244,8 @@ extern "C" void RenderTexture_get_width_m3114955436 ();
 extern "C" void RenderTexture_get_height_m428170183 ();
 extern "C" void RequireComponent__ctor_m3109988199 ();
 extern "C" void Resources_FindObjectsOfTypeAll_m2385215234 ();
+extern "C" void Resources_Load_m3480536692 ();
+extern "C" void Resources_Load_m4276439101 ();
 extern "C" void Resources_GetBuiltinResource_m3185073362 ();
 extern "C" void Scene_get_handle_m2547854682_AdjustorThunk ();
 extern "C" void Scene_GetHashCode_m4174115344_AdjustorThunk ();
@@ -8078,6 +8316,8 @@ extern "C" void StackTraceUtility_ExtractFormattedStackTrace_m2549628492 ();
 extern "C" void StackTraceUtility__cctor_m1612470880 ();
 extern "C" void SystemInfo_get_operatingSystemFamily_m3718060372 ();
 extern "C" void TextAreaAttribute__ctor_m2180114682 ();
+extern "C" void TextAsset_get_text_m902266890 ();
+extern "C" void TextAsset_ToString_m2717278836 ();
 extern "C" void Texture__ctor_m1220114221 ();
 extern "C" void Texture_Internal_GetWidth_m3099237735 ();
 extern "C" void Texture_Internal_GetHeight_m3235768354 ();
@@ -8281,90 +8521,6 @@ extern "C" void ScriptingUtils_CreateDelegate_m1010436205 ();
 extern "C" void TypeInferenceRuleAttribute__ctor_m2747498156 ();
 extern "C" void TypeInferenceRuleAttribute__ctor_m1916069620 ();
 extern "C" void TypeInferenceRuleAttribute_ToString_m310642507 ();
-extern "C" void Physics2D__cctor_m2451529022 ();
-extern "C" void RaycastHit2D_get_point_m2962370910_AdjustorThunk ();
-extern "C" void RaycastHit2D_get_normal_m1680752829_AdjustorThunk ();
-extern "C" void RaycastHit2D_get_distance_m1439788004_AdjustorThunk ();
-extern "C" void RaycastHit2D_get_collider_m1095503671_AdjustorThunk ();
-extern "C" void Font_get_material_m1396179436 ();
-extern "C" void Font_HasCharacter_m3366937089 ();
-extern "C" void Font_add_textureRebuilt_m613904867 ();
-extern "C" void Font_remove_textureRebuilt_m776208736 ();
-extern "C" void Font_InvokeTextureRebuilt_Internal_m408649663 ();
-extern "C" void Font_get_dynamic_m960769745 ();
-extern "C" void Font_get_fontSize_m3125470578 ();
-extern "C" void FontTextureRebuildCallback__ctor_m1584780814 ();
-extern "C" void FontTextureRebuildCallback_Invoke_m3343763940 ();
-extern "C" void FontTextureRebuildCallback_BeginInvoke_m487506205 ();
-extern "C" void FontTextureRebuildCallback_EndInvoke_m3111114572 ();
-extern "C" void TextGenerationSettings_CompareColors_m2745847049_AdjustorThunk ();
-extern "C" void TextGenerationSettings_CompareVector2_m3144288922_AdjustorThunk ();
-extern "C" void TextGenerationSettings_Equals_m1603221718_AdjustorThunk ();
-extern "C" void TextGenerator__ctor_m1469954680 ();
-extern "C" void TextGenerator__ctor_m1778467093 ();
-extern "C" void TextGenerator_Init_m171377184 ();
-extern "C" void TextGenerator_Dispose_cpp_m1011672971 ();
-extern "C" void TextGenerator_Populate_Internal_m65392018 ();
-extern "C" void TextGenerator_Populate_Internal_cpp_m1219243648 ();
-extern "C" void TextGenerator_INTERNAL_CALL_Populate_Internal_cpp_m106350432 ();
-extern "C" void TextGenerator_get_rectExtents_m954923136 ();
-extern "C" void TextGenerator_INTERNAL_get_rectExtents_m2268993829 ();
-extern "C" void TextGenerator_GetVerticesInternal_m514005870 ();
-extern "C" void TextGenerator_get_characterCount_m133341053 ();
-extern "C" void TextGenerator_get_characterCountVisible_m2981280587 ();
-extern "C" void TextGenerator_GetCharactersInternal_m4105561641 ();
-extern "C" void TextGenerator_get_lineCount_m3883117352 ();
-extern "C" void TextGenerator_GetLinesInternal_m3538885848 ();
-extern "C" void TextGenerator_Finalize_m1143020096 ();
-extern "C" void TextGenerator_System_IDisposable_Dispose_m1921007151 ();
-extern "C" void TextGenerator_ValidatedSettings_m647349856 ();
-extern "C" void TextGenerator_Invalidate_m1993568841 ();
-extern "C" void TextGenerator_GetCharacters_m2073477643 ();
-extern "C" void TextGenerator_GetLines_m387280398 ();
-extern "C" void TextGenerator_GetVertices_m3421963648 ();
-extern "C" void TextGenerator_GetPreferredWidth_m529433528 ();
-extern "C" void TextGenerator_GetPreferredHeight_m2983948849 ();
-extern "C" void TextGenerator_PopulateWithErrors_m3355282552 ();
-extern "C" void TextGenerator_Populate_m982374381 ();
-extern "C" void TextGenerator_PopulateWithError_m954337744 ();
-extern "C" void TextGenerator_PopulateAlways_m817480435 ();
-extern "C" void TextGenerator_get_verts_m670653604 ();
-extern "C" void TextGenerator_get_characters_m2585748644 ();
-extern "C" void TextGenerator_get_lines_m2017467099 ();
-extern "C" void UIVertex__cctor_m1794480453 ();
-extern "C" void AnimationClip_get_length_m1787761730 ();
-extern "C" void AnimationEvent__ctor_m3610061561 ();
-extern "C" void AnimationClipPlayable_GetHandle_m1049528789_AdjustorThunk ();
-extern "C" void AnimationClipPlayable_Equals_m632692099_AdjustorThunk ();
-extern "C" void AnimationLayerMixerPlayable__ctor_m678972180_AdjustorThunk ();
-extern "C" void AnimationLayerMixerPlayable_GetHandle_m1932230147_AdjustorThunk ();
-extern "C" void AnimationLayerMixerPlayable_Equals_m3173553531_AdjustorThunk ();
-extern "C" void AnimationLayerMixerPlayable__cctor_m204566747 ();
-extern "C" void AnimationMixerPlayable_GetHandle_m2592056500_AdjustorThunk ();
-extern "C" void AnimationMixerPlayable_Equals_m3900928767_AdjustorThunk ();
-extern "C" void AnimationOffsetPlayable__ctor_m1644499845_AdjustorThunk ();
-extern "C" void AnimationOffsetPlayable_GetHandle_m144943338_AdjustorThunk ();
-extern "C" void AnimationOffsetPlayable_Equals_m1510591175_AdjustorThunk ();
-extern "C" void AnimationOffsetPlayable__cctor_m346590438 ();
-extern "C" void AnimatorControllerPlayable__ctor_m4080566273_AdjustorThunk ();
-extern "C" void AnimatorControllerPlayable_GetHandle_m3133350390_AdjustorThunk ();
-extern "C" void AnimatorControllerPlayable_SetHandle_m4064095453_AdjustorThunk ();
-extern "C" void AnimatorControllerPlayable_Equals_m2805860543_AdjustorThunk ();
-extern "C" void AnimatorControllerPlayable__cctor_m2703466520 ();
-extern "C" void Animator_GetBool_m3595576549 ();
-extern "C" void Animator_SetBool_m312734517 ();
-extern "C" void Animator_SetBool_m2926289802 ();
-extern "C" void Animator_SetTrigger_m2003713590 ();
-extern "C" void Animator_SetTrigger_m2386186627 ();
-extern "C" void Animator_ResetTrigger_m2176932023 ();
-extern "C" void Animator_get_hasBoundPlayables_m2257984562 ();
-extern "C" void Animator_StringToHash_m1845745834 ();
-extern "C" void Animator_SetBoolString_m665236890 ();
-extern "C" void Animator_SetBoolID_m2039550219 ();
-extern "C" void Animator_GetBoolID_m959437898 ();
-extern "C" void Animator_SetTriggerString_m598103909 ();
-extern "C" void Animator_SetTriggerID_m1148564408 ();
-extern "C" void Animator_ResetTriggerString_m946167554 ();
 extern "C" void AudioClipPlayable_GetHandle_m418228168_AdjustorThunk ();
 extern "C" void AudioClipPlayable_Equals_m2652916719_AdjustorThunk ();
 extern "C" void AudioMixerPlayable_GetHandle_m3697423575_AdjustorThunk ();
@@ -8445,6 +8601,156 @@ extern "C" void AudioSourceExtension_WriteExtensionProperty_m2510859444 ();
 extern "C" void AudioSourceExtension_Play_m1114243589 ();
 extern "C" void AudioSourceExtension_Stop_m492342317 ();
 extern "C" void AudioSourceExtension_ExtensionUpdate_m609981793 ();
+extern "C" void Physics2D__cctor_m2451529022 ();
+extern "C" void RaycastHit2D_get_point_m2962370910_AdjustorThunk ();
+extern "C" void RaycastHit2D_get_normal_m1680752829_AdjustorThunk ();
+extern "C" void RaycastHit2D_get_distance_m1439788004_AdjustorThunk ();
+extern "C" void RaycastHit2D_get_collider_m1095503671_AdjustorThunk ();
+extern "C" void Font_get_material_m1396179436 ();
+extern "C" void Font_HasCharacter_m3366937089 ();
+extern "C" void Font_add_textureRebuilt_m613904867 ();
+extern "C" void Font_remove_textureRebuilt_m776208736 ();
+extern "C" void Font_InvokeTextureRebuilt_Internal_m408649663 ();
+extern "C" void Font_get_dynamic_m960769745 ();
+extern "C" void Font_get_fontSize_m3125470578 ();
+extern "C" void FontTextureRebuildCallback__ctor_m1584780814 ();
+extern "C" void FontTextureRebuildCallback_Invoke_m3343763940 ();
+extern "C" void FontTextureRebuildCallback_BeginInvoke_m487506205 ();
+extern "C" void FontTextureRebuildCallback_EndInvoke_m3111114572 ();
+extern "C" void TextGenerationSettings_CompareColors_m2745847049_AdjustorThunk ();
+extern "C" void TextGenerationSettings_CompareVector2_m3144288922_AdjustorThunk ();
+extern "C" void TextGenerationSettings_Equals_m1603221718_AdjustorThunk ();
+extern "C" void TextGenerator__ctor_m1469954680 ();
+extern "C" void TextGenerator__ctor_m1778467093 ();
+extern "C" void TextGenerator_Init_m171377184 ();
+extern "C" void TextGenerator_Dispose_cpp_m1011672971 ();
+extern "C" void TextGenerator_Populate_Internal_m65392018 ();
+extern "C" void TextGenerator_Populate_Internal_cpp_m1219243648 ();
+extern "C" void TextGenerator_INTERNAL_CALL_Populate_Internal_cpp_m106350432 ();
+extern "C" void TextGenerator_get_rectExtents_m954923136 ();
+extern "C" void TextGenerator_INTERNAL_get_rectExtents_m2268993829 ();
+extern "C" void TextGenerator_GetVerticesInternal_m514005870 ();
+extern "C" void TextGenerator_get_characterCount_m133341053 ();
+extern "C" void TextGenerator_get_characterCountVisible_m2981280587 ();
+extern "C" void TextGenerator_GetCharactersInternal_m4105561641 ();
+extern "C" void TextGenerator_get_lineCount_m3883117352 ();
+extern "C" void TextGenerator_GetLinesInternal_m3538885848 ();
+extern "C" void TextGenerator_Finalize_m1143020096 ();
+extern "C" void TextGenerator_System_IDisposable_Dispose_m1921007151 ();
+extern "C" void TextGenerator_ValidatedSettings_m647349856 ();
+extern "C" void TextGenerator_Invalidate_m1993568841 ();
+extern "C" void TextGenerator_GetCharacters_m2073477643 ();
+extern "C" void TextGenerator_GetLines_m387280398 ();
+extern "C" void TextGenerator_GetVertices_m3421963648 ();
+extern "C" void TextGenerator_GetPreferredWidth_m529433528 ();
+extern "C" void TextGenerator_GetPreferredHeight_m2983948849 ();
+extern "C" void TextGenerator_PopulateWithErrors_m3355282552 ();
+extern "C" void TextGenerator_Populate_m982374381 ();
+extern "C" void TextGenerator_PopulateWithError_m954337744 ();
+extern "C" void TextGenerator_PopulateAlways_m817480435 ();
+extern "C" void TextGenerator_get_verts_m670653604 ();
+extern "C" void TextGenerator_get_characters_m2585748644 ();
+extern "C" void TextGenerator_get_lines_m2017467099 ();
+extern "C" void UIVertex__cctor_m1794480453 ();
+extern "C" void DownloadHandler__ctor_m1584617735 ();
+extern "C" void DownloadHandler_InternalCreateBuffer_m549379538 ();
+extern "C" void DownloadHandler_InternalCreateAssetBundle_m1669364592 ();
+extern "C" void DownloadHandler_InternalCreateAssetBundleCached_m1407297994 ();
+extern "C" void DownloadHandler_INTERNAL_CALL_InternalCreateAssetBundleCached_m727668572 ();
+extern "C" void DownloadHandler_InternalDestroy_m1591990468 ();
+extern "C" void DownloadHandler_Finalize_m1928784109 ();
+extern "C" void DownloadHandler_Dispose_m918842992 ();
+extern "C" void DownloadHandler_get_data_m1774581504 ();
+extern "C" void DownloadHandler_GetData_m3530871197 ();
+extern "C" void DownloadHandlerAssetBundle__ctor_m3070165965 ();
+extern "C" void DownloadHandlerAssetBundle__ctor_m3673122805 ();
+extern "C" void DownloadHandlerAssetBundle_GetData_m3234190773 ();
+extern "C" void DownloadHandlerAssetBundle_get_assetBundle_m3210171884 ();
+extern "C" void DownloadHandlerAssetBundle_GetContent_m3996975841 ();
+extern "C" void DownloadHandlerBuffer__ctor_m2242528619 ();
+extern "C" void DownloadHandlerBuffer_GetData_m2608814073 ();
+extern "C" void DownloadHandlerBuffer_InternalGetData_m9268280 ();
+extern "C" void UnityWebRequest__ctor_m1505164636 ();
+extern "C" void UnityWebRequest_get_disposeDownloadHandlerOnDispose_m1576197061 ();
+extern "C" void UnityWebRequest_set_disposeDownloadHandlerOnDispose_m4293463278 ();
+extern "C" void UnityWebRequest_get_disposeUploadHandlerOnDispose_m3565267666 ();
+extern "C" void UnityWebRequest_set_disposeUploadHandlerOnDispose_m630063829 ();
+extern "C" void UnityWebRequest_InternalCreate_m204206834 ();
+extern "C" void UnityWebRequest_InternalDestroy_m2908965894 ();
+extern "C" void UnityWebRequest_InternalSetDefaults_m2425762910 ();
+extern "C" void UnityWebRequest_Finalize_m1757836247 ();
+extern "C" void UnityWebRequest_Dispose_m2948426222 ();
+extern "C" void UnityWebRequest_DisposeHandlers_m3364785545 ();
+extern "C" void UnityWebRequest_InternalBegin_m969311870 ();
+extern "C" void UnityWebRequest_SendWebRequest_m3795216673 ();
+extern "C" void UnityWebRequest_InternalSetMethod_m705716538 ();
+extern "C" void UnityWebRequest_InternalSetCustomMethod_m1191357028 ();
+extern "C" void UnityWebRequest_set_method_m865873289 ();
+extern "C" void UnityWebRequest_get_error_m714775961 ();
+extern "C" void UnityWebRequest_get_url_m575042514 ();
+extern "C" void UnityWebRequest_set_url_m946220109 ();
+extern "C" void UnityWebRequest_InternalGetUrl_m978838770 ();
+extern "C" void UnityWebRequest_InternalSetUrl_m2548015641 ();
+extern "C" void UnityWebRequest_get_responseCode_m237434835 ();
+extern "C" void UnityWebRequest_get_isDone_m3430883570 ();
+extern "C" void UnityWebRequest_get_isNetworkError_m1187301034 ();
+extern "C" void UnityWebRequest_get_isHttpError_m93679802 ();
+extern "C" void UnityWebRequest_GetUploadHandler_m2860495463 ();
+extern "C" void UnityWebRequest_set_uploadHandler_m2350577399 ();
+extern "C" void UnityWebRequest_GetDownloadHandler_m4226359171 ();
+extern "C" void UnityWebRequest_get_downloadHandler_m2452966308 ();
+extern "C" void UnityWebRequest_set_downloadHandler_m3504922771 ();
+extern "C" void UnityWebRequest_Get_m2852300615 ();
+extern "C" void UnityWebRequest_GetAssetBundle_m1279225303 ();
+extern "C" void UnityWebRequest_GetAssetBundle_m1587575407 ();
+extern "C" void UnityWebRequest_GetAssetBundle_m3797438248 ();
+extern "C" void UnityWebRequestAsyncOperation__ctor_m4058520764 ();
+extern "C" void UnityWebRequestAsyncOperation_set_webRequest_m3088592639 ();
+extern "C" void UploadHandler__ctor_m3754594772 ();
+extern "C" void UploadHandler_InternalDestroy_m1015762813 ();
+extern "C" void UploadHandler_Finalize_m959090492 ();
+extern "C" void UploadHandler_Dispose_m1076883971 ();
+extern "C" void WWWForm_get_DefaultEncoding_m331301927 ();
+extern "C" void WWWTranscoder_Hex2Byte_m2340828536 ();
+extern "C" void WWWTranscoder_URLDecode_m520863832 ();
+extern "C" void WWWTranscoder_Decode_m1731259030 ();
+extern "C" void WWWTranscoder__cctor_m1605170488 ();
+extern "C" void WebRequestUtils_RedirectTo_m675215376 ();
+extern "C" void WebRequestUtils_MakeInitialUrl_m4076501434 ();
+extern "C" void WebRequestUtils__cctor_m4149625601 ();
+extern "C" void AnimationClip_get_length_m1787761730 ();
+extern "C" void AnimationEvent__ctor_m3610061561 ();
+extern "C" void AnimationClipPlayable_GetHandle_m1049528789_AdjustorThunk ();
+extern "C" void AnimationClipPlayable_Equals_m632692099_AdjustorThunk ();
+extern "C" void AnimationLayerMixerPlayable__ctor_m678972180_AdjustorThunk ();
+extern "C" void AnimationLayerMixerPlayable_GetHandle_m1932230147_AdjustorThunk ();
+extern "C" void AnimationLayerMixerPlayable_Equals_m3173553531_AdjustorThunk ();
+extern "C" void AnimationLayerMixerPlayable__cctor_m204566747 ();
+extern "C" void AnimationMixerPlayable_GetHandle_m2592056500_AdjustorThunk ();
+extern "C" void AnimationMixerPlayable_Equals_m3900928767_AdjustorThunk ();
+extern "C" void AnimationOffsetPlayable__ctor_m1644499845_AdjustorThunk ();
+extern "C" void AnimationOffsetPlayable_GetHandle_m144943338_AdjustorThunk ();
+extern "C" void AnimationOffsetPlayable_Equals_m1510591175_AdjustorThunk ();
+extern "C" void AnimationOffsetPlayable__cctor_m346590438 ();
+extern "C" void AnimatorControllerPlayable__ctor_m4080566273_AdjustorThunk ();
+extern "C" void AnimatorControllerPlayable_GetHandle_m3133350390_AdjustorThunk ();
+extern "C" void AnimatorControllerPlayable_SetHandle_m4064095453_AdjustorThunk ();
+extern "C" void AnimatorControllerPlayable_Equals_m2805860543_AdjustorThunk ();
+extern "C" void AnimatorControllerPlayable__cctor_m2703466520 ();
+extern "C" void Animator_GetBool_m3595576549 ();
+extern "C" void Animator_SetBool_m312734517 ();
+extern "C" void Animator_SetBool_m2926289802 ();
+extern "C" void Animator_SetTrigger_m2003713590 ();
+extern "C" void Animator_SetTrigger_m2386186627 ();
+extern "C" void Animator_ResetTrigger_m2176932023 ();
+extern "C" void Animator_get_hasBoundPlayables_m2257984562 ();
+extern "C" void Animator_StringToHash_m1845745834 ();
+extern "C" void Animator_SetBoolString_m665236890 ();
+extern "C" void Animator_SetBoolID_m2039550219 ();
+extern "C" void Animator_GetBoolID_m959437898 ();
+extern "C" void Animator_SetTriggerString_m598103909 ();
+extern "C" void Animator_SetTriggerID_m1148564408 ();
+extern "C" void Animator_ResetTriggerString_m946167554 ();
 extern "C" void GameCenterPlatform__ctor_m3985592324 ();
 extern "C" void GameCenterPlatform_Internal_Authenticate_m2846546753 ();
 extern "C" void GameCenterPlatform_Internal_Authenticated_m1650041405 ();
@@ -8912,57 +9218,18 @@ extern "C" void UpdatedEventHandler__ctor_m2169897603 ();
 extern "C" void UpdatedEventHandler_Invoke_m4240581743 ();
 extern "C" void UpdatedEventHandler_BeginInvoke_m3868410844 ();
 extern "C" void UpdatedEventHandler_EndInvoke_m818978785 ();
-extern "C" void DownloadHandler__ctor_m1584617735 ();
-extern "C" void DownloadHandler_InternalCreateAssetBundle_m1669364592 ();
-extern "C" void DownloadHandler_InternalDestroy_m1591990468 ();
-extern "C" void DownloadHandler_Finalize_m1928784109 ();
-extern "C" void DownloadHandler_Dispose_m918842992 ();
-extern "C" void DownloadHandlerAssetBundle__ctor_m3070165965 ();
-extern "C" void DownloadHandlerAssetBundle_get_assetBundle_m3210171884 ();
-extern "C" void DownloadHandlerAssetBundle_GetContent_m3996975841 ();
-extern "C" void UnityWebRequest__ctor_m1505164636 ();
-extern "C" void UnityWebRequest_get_disposeDownloadHandlerOnDispose_m1576197061 ();
-extern "C" void UnityWebRequest_set_disposeDownloadHandlerOnDispose_m4293463278 ();
-extern "C" void UnityWebRequest_get_disposeUploadHandlerOnDispose_m3565267666 ();
-extern "C" void UnityWebRequest_set_disposeUploadHandlerOnDispose_m630063829 ();
-extern "C" void UnityWebRequest_InternalCreate_m204206834 ();
-extern "C" void UnityWebRequest_InternalDestroy_m2908965894 ();
-extern "C" void UnityWebRequest_InternalSetDefaults_m2425762910 ();
-extern "C" void UnityWebRequest_Finalize_m1757836247 ();
-extern "C" void UnityWebRequest_Dispose_m2948426222 ();
-extern "C" void UnityWebRequest_DisposeHandlers_m3364785545 ();
-extern "C" void UnityWebRequest_InternalBegin_m969311870 ();
-extern "C" void UnityWebRequest_SendWebRequest_m3795216673 ();
-extern "C" void UnityWebRequest_InternalSetMethod_m705716538 ();
-extern "C" void UnityWebRequest_InternalSetCustomMethod_m1191357028 ();
-extern "C" void UnityWebRequest_set_method_m865873289 ();
-extern "C" void UnityWebRequest_get_error_m714775961 ();
-extern "C" void UnityWebRequest_set_url_m946220109 ();
-extern "C" void UnityWebRequest_InternalSetUrl_m2548015641 ();
-extern "C" void UnityWebRequest_get_isDone_m3430883570 ();
-extern "C" void UnityWebRequest_get_isNetworkError_m1187301034 ();
-extern "C" void UnityWebRequest_get_isHttpError_m93679802 ();
-extern "C" void UnityWebRequest_GetUploadHandler_m2860495463 ();
-extern "C" void UnityWebRequest_set_uploadHandler_m2350577399 ();
-extern "C" void UnityWebRequest_GetDownloadHandler_m4226359171 ();
-extern "C" void UnityWebRequest_get_downloadHandler_m2452966308 ();
-extern "C" void UnityWebRequest_set_downloadHandler_m3504922771 ();
-extern "C" void UnityWebRequest_GetAssetBundle_m1279225303 ();
-extern "C" void UnityWebRequest_GetAssetBundle_m1587575407 ();
-extern "C" void UnityWebRequestAsyncOperation__ctor_m4058520764 ();
-extern "C" void UnityWebRequestAsyncOperation_set_webRequest_m3088592639 ();
-extern "C" void UploadHandler__ctor_m3754594772 ();
-extern "C" void UploadHandler_InternalDestroy_m1015762813 ();
-extern "C" void UploadHandler_Finalize_m959090492 ();
-extern "C" void UploadHandler_Dispose_m1076883971 ();
-extern "C" void WWWForm_get_DefaultEncoding_m331301927 ();
-extern "C" void WWWTranscoder_Hex2Byte_m2340828536 ();
-extern "C" void WWWTranscoder_URLDecode_m520863832 ();
-extern "C" void WWWTranscoder_Decode_m1731259030 ();
-extern "C" void WWWTranscoder__cctor_m1605170488 ();
-extern "C" void WebRequestUtils_RedirectTo_m675215376 ();
-extern "C" void WebRequestUtils_MakeInitialUrl_m4076501434 ();
-extern "C" void WebRequestUtils__cctor_m4149625601 ();
+extern "C" void WWW__ctor_m992904521 ();
+extern "C" void WWW__ctor_m1592794849 ();
+extern "C" void WWW_get_assetBundle_m671435582 ();
+extern "C" void WWW_get_bytes_m3375427027 ();
+extern "C" void WWW_get_error_m2450520467 ();
+extern "C" void WWW_get_isDone_m720669976 ();
+extern "C" void WWW_get_url_m1322408312 ();
+extern "C" void WWW_get_keepWaiting_m3934668334 ();
+extern "C" void WWW_Dispose_m630585886 ();
+extern "C" void WWW_WaitUntilDoneIfPossible_m2158502638 ();
+extern "C" void WWW_GetStatusCodeName_m170717970 ();
+extern "C" void WWW_LoadFromCacheOrDownload_m786551429 ();
 extern "C" void AbstractEventData__ctor_m3586111519 ();
 extern "C" void AbstractEventData_Reset_m15186946 ();
 extern "C" void AbstractEventData_Use_m1797212290 ();
@@ -10516,11 +10783,64 @@ extern "C" void FieldWithTarget_set_doStatic_m3820651670 ();
 extern "C" void FieldWithTarget_get_staticString_m3599225804 ();
 extern "C" void FieldWithTarget_set_staticString_m2234360111 ();
 extern "C" void FieldWithTarget_GetValue_m3773769385 ();
+extern "C" void AssetBundleLoadAssetOperation__ctor_m3785882665 ();
+extern "C" void AssetBundleLoadAssetOperationFull__ctor_m3339829217 ();
+extern "C" void AssetBundleLoadAssetOperationFull_Update_m1281312971 ();
+extern "C" void AssetBundleLoadAssetOperationFull_IsDone_m3258055418 ();
+extern "C" void AssetBundleLoadAssetOperationSimulation__ctor_m2623286172 ();
+extern "C" void AssetBundleLoadAssetOperationSimulation_Update_m3298477855 ();
+extern "C" void AssetBundleLoadAssetOperationSimulation_IsDone_m278020832 ();
+extern "C" void AssetBundleLoadLevelOperation__ctor_m143063858 ();
+extern "C" void AssetBundleLoadLevelOperation_Update_m979123768 ();
+extern "C" void AssetBundleLoadLevelOperation_IsDone_m2377992865 ();
+extern "C" void AssetBundleLoadManifestOperation__ctor_m2563702161 ();
+extern "C" void AssetBundleLoadManifestOperation_Update_m3380375363 ();
+extern "C" void AssetBundleLoadOperation__ctor_m444995109 ();
+extern "C" void AssetBundleLoadOperation_get_Current_m868720174 ();
+extern "C" void AssetBundleLoadOperation_MoveNext_m297969551 ();
+extern "C" void AssetBundleLoadOperation_Reset_m1058047800 ();
+extern "C" void AssetBundleManager__ctor_m83677269 ();
+extern "C" void AssetBundleManager_get_logMode_m2138044306 ();
+extern "C" void AssetBundleManager_set_logMode_m3753449297 ();
+extern "C" void AssetBundleManager_get_BaseDownloadingURL_m296826811 ();
+extern "C" void AssetBundleManager_set_BaseDownloadingURL_m3262934570 ();
+extern "C" void AssetBundleManager_get_ActiveVariants_m3255624335 ();
+extern "C" void AssetBundleManager_set_ActiveVariants_m2951403874 ();
+extern "C" void AssetBundleManager_set_AssetBundleManifestObject_m4138082874 ();
+extern "C" void AssetBundleManager_Log_m3825034494 ();
+extern "C" void AssetBundleManager_GetStreamingAssetsPath_m3233198760 ();
+extern "C" void AssetBundleManager_SetSourceAssetBundleDirectory_m507226721 ();
+extern "C" void AssetBundleManager_SetSourceAssetBundleURL_m1247012667 ();
+extern "C" void AssetBundleManager_SetDevelopmentAssetBundleServer_m148566473 ();
+extern "C" void AssetBundleManager_GetLoadedAssetBundle_m2421544291 ();
+extern "C" void AssetBundleManager_Initialize_m3949934399 ();
+extern "C" void AssetBundleManager_Initialize_m1071778361 ();
+extern "C" void AssetBundleManager_LoadAssetBundle_m2312253616 ();
+extern "C" void AssetBundleManager_RemapVariantName_m3517229873 ();
+extern "C" void AssetBundleManager_LoadAssetBundleInternal_m2529189169 ();
+extern "C" void AssetBundleManager_LoadDependencies_m3724230114 ();
+extern "C" void AssetBundleManager_UnloadAssetBundle_m3022724906 ();
+extern "C" void AssetBundleManager_UnloadDependencies_m506284311 ();
+extern "C" void AssetBundleManager_UnloadAssetBundleInternal_m2697229713 ();
+extern "C" void AssetBundleManager_Update_m2687287672 ();
+extern "C" void AssetBundleManager_LoadAssetAsync_m895891523 ();
+extern "C" void AssetBundleManager_LoadLevelAsync_m1114070905 ();
+extern "C" void AssetBundleManager__cctor_m3088235888 ();
+extern "C" void LoadedAssetBundle__ctor_m3580084156 ();
+extern "C" void Utility__ctor_m2355321134 ();
+extern "C" void Utility_GetPlatformName_m2837361653 ();
+extern "C" void Utility_GetPlatformForAssetBundles_m345390698 ();
 extern "C" void ButtonShowHide__ctor_m2349291096 ();
 extern "C" void ButtonShowHide_Start_m2311140660 ();
 extern "C" void ButtonShowHide_Click_m3604666724 ();
 extern "C" void ButtonShowHide_ShowHideUpdate_m2573676006 ();
 extern "C" void ButtonShowHide_U3CStartU3Em__0_m3836402765 ();
+extern "C" void A2Ustart__ctor_m3163452210 ();
+extern "C" void A2Ustart_get_Instance_m3502548124 ();
+extern "C" void A2Ustart_ForceQuit_m4113331634 ();
+extern "C" void A2Ustart_OnStartGame_m435765113 ();
+extern "C" void A2Ustart_OnSetScore_m3943457655 ();
+extern "C" void A2Ustart_Start_m1869733758 ();
 extern "C" void BallBasic__ctor_m1314109913 ();
 extern "C" void BallBasic_get_Mass_m3828678242 ();
 extern "C" void BallBasic_get_Position_m618950135 ();
@@ -10558,6 +10878,7 @@ extern "C" void BallBasic_OnInitStage_m2338167310 ();
 extern "C" void BallBasic_OnStageEnded_m2273630522 ();
 extern "C" void ContactSoundData__ctor_m3893695653 ();
 extern "C" void BasketballDirector__ctor_m1878048261 ();
+extern "C" void BasketballDirector_IOS_UnityDidCompleteSetup_m3954534503 ();
 extern "C" void BasketballDirector_IOS_SetScore_m1353985748 ();
 extern "C" void BasketballDirector_StartResourceLoad_m1596266483 ();
 extern "C" void BasketballDirector_get_AdId_m4072513478 ();
@@ -10601,6 +10922,8 @@ extern "C" void BasketballDirector_TransitionToGameScreen_m4106945055 ();
 extern "C" void BasketballDirector_EndTutorial_m3206931266 ();
 extern "C" void BasketballDirector_Start_m1544894421 ();
 extern "C" void BasketballDirector_OnStartGame_m3473254228 ();
+extern "C" void BasketballDirector_ReportScore_m527304171 ();
+extern "C" void BasketballDirector_AutoLaunch_m2677534513 ();
 extern "C" void BasketballDirector_CountDownToMainMenu_m1432085533 ();
 extern "C" void BasketballDirector_LoadResources_m2966556272 ();
 extern "C" void BasketballDirector_MainMenuStartGame_m1729424827 ();
@@ -10636,25 +10959,31 @@ extern "C" void BasketballDirector_GetTotalScore_m2000305658 ();
 extern "C" void BasketballDirector_GetStageScore_m3003431130 ();
 extern "C" void BasketballDirector_GetResultsMessage_m3033301701 ();
 extern "C" void BasketballDirector_U3CLoadResourcesU3E__BaseCallProxy0_m129401657 ();
-extern "C" void U3CCountDownToMainMenuU3Ec__Iterator1__ctor_m2306815642 ();
-extern "C" void U3CCountDownToMainMenuU3Ec__Iterator1_MoveNext_m1392396546 ();
-extern "C" void U3CCountDownToMainMenuU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3115799404 ();
-extern "C" void U3CCountDownToMainMenuU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m3136570516 ();
-extern "C" void U3CCountDownToMainMenuU3Ec__Iterator1_Dispose_m1248640101 ();
-extern "C" void U3CCountDownToMainMenuU3Ec__Iterator1_Reset_m3719150151 ();
+extern "C" void U3CAutoLaunchU3Ec__Iterator1__ctor_m2341711840 ();
+extern "C" void U3CAutoLaunchU3Ec__Iterator1_MoveNext_m1063632132 ();
+extern "C" void U3CAutoLaunchU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m589272972 ();
+extern "C" void U3CAutoLaunchU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m2912784196 ();
+extern "C" void U3CAutoLaunchU3Ec__Iterator1_Dispose_m2155302349 ();
+extern "C" void U3CAutoLaunchU3Ec__Iterator1_Reset_m1549011767 ();
+extern "C" void U3CCountDownToMainMenuU3Ec__Iterator2__ctor_m2307929689 ();
+extern "C" void U3CCountDownToMainMenuU3Ec__Iterator2_MoveNext_m641563155 ();
+extern "C" void U3CCountDownToMainMenuU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2153187087 ();
+extern "C" void U3CCountDownToMainMenuU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m3194486583 ();
+extern "C" void U3CCountDownToMainMenuU3Ec__Iterator2_Dispose_m1285541000 ();
+extern "C" void U3CCountDownToMainMenuU3Ec__Iterator2_Reset_m3720268422 ();
 extern "C" void U3CDisplayResultsAndWaitU3Ec__Iterator0__ctor_m2527381733 ();
 extern "C" void U3CDisplayResultsAndWaitU3Ec__Iterator0_MoveNext_m1377774223 ();
 extern "C" void U3CDisplayResultsAndWaitU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3987215123 ();
 extern "C" void U3CDisplayResultsAndWaitU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2545580795 ();
 extern "C" void U3CDisplayResultsAndWaitU3Ec__Iterator0_Dispose_m1042700058 ();
 extern "C" void U3CDisplayResultsAndWaitU3Ec__Iterator0_Reset_m405481752 ();
-extern "C" void U3CLoadResourcesU3Ec__Iterator2__ctor_m1395389824 ();
-extern "C" void U3CLoadResourcesU3Ec__Iterator2_MoveNext_m2062487604 ();
-extern "C" void U3CLoadResourcesU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2453344834 ();
-extern "C" void U3CLoadResourcesU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m1191755290 ();
-extern "C" void U3CLoadResourcesU3Ec__Iterator2_Dispose_m2752366499 ();
-extern "C" void U3CLoadResourcesU3Ec__Iterator2_Reset_m371854613 ();
-extern "C" void U3CLoadResourcesU3Ec__Iterator2_U3CU3E__Finally0_m3285194679 ();
+extern "C" void U3CLoadResourcesU3Ec__Iterator3__ctor_m1394275777 ();
+extern "C" void U3CLoadResourcesU3Ec__Iterator3_MoveNext_m882866063 ();
+extern "C" void U3CLoadResourcesU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3954273443 ();
+extern "C" void U3CLoadResourcesU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m2888770171 ();
+extern "C" void U3CLoadResourcesU3Ec__Iterator3_Dispose_m2715600772 ();
+extern "C" void U3CLoadResourcesU3Ec__Iterator3_Reset_m370740566 ();
+extern "C" void U3CLoadResourcesU3Ec__Iterator3_U3CU3E__Finally0_m590009976 ();
 extern "C" void ProgressionInfo__ctor_m543671577 ();
 extern "C" void TutorialData__ctor_m4099751660 ();
 extern "C" void BasketballUiDirector__ctor_m2280728933 ();
@@ -10966,6 +11295,8 @@ extern "C" void updateState__ctor_m3086366790 ();
 extern "C" void updateState_Invoke_m3606451772 ();
 extern "C" void updateState_BeginInvoke_m3688972443 ();
 extern "C" void updateState_EndInvoke_m2739054300 ();
+extern "C" void AndroidBackButton__ctor_m1224119877 ();
+extern "C" void AndroidBackButton_FixedUpdate_m644239724 ();
 extern "C" void Blocker__ctor_m2126652909 ();
 extern "C" void Blocker_Start_m4014393229 ();
 extern "C" void Blocker_OnEnable_m3666978317 ();
@@ -11082,7 +11413,7 @@ extern "C" void U3CTransitionU3Ec__Iterator0_System_Collections_Generic_IEnumera
 extern "C" void U3CTransitionU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m4237625775 ();
 extern "C" void U3CTransitionU3Ec__Iterator0_Dispose_m2855156886 ();
 extern "C" void U3CTransitionU3Ec__Iterator0_Reset_m1696749784 ();
-extern const Il2CppMethodPointer g_MethodPointers[11065] = 
+extern const Il2CppMethodPointer g_MethodPointers[11396] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -12813,6 +13144,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	Enum_FormatSpecifier_X_m1025568603,
 	Enum_FormatFlags_m2752609772,
 	Enum_Format_m2294492821,
+	Environment_get_CurrentDirectory_m2386669816,
 	Environment_get_SocketSecurityEnabled_m1758378561,
 	Environment_get_NewLine_m266316410,
 	Environment_get_Platform_m2874211026,
@@ -13713,6 +14045,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	MonoType_get_DeclaringType_m3267159288,
 	MonoType_get_ReflectedType_m2981714783,
 	MonoType_get_TypeHandle_m3750614457,
+	MonoType_GetArrayRank_m1550632035,
 	MonoType_ToString_m473949831,
 	MonoType_GetGenericArguments_m2708198481,
 	MonoType_get_ContainsGenericParameters_m3229732653,
@@ -16423,6 +16756,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	Type_IsSubclassOf_m2450899481,
 	Type_IsAssignableFrom_m907986231,
 	Type_IsInstanceOfType_m2802212815,
+	Type_GetArrayRank_m4242213362,
 	Type_GetField_m3036413258,
 	Type_GetHashCode_m1150382148,
 	Type_GetMethod_m1197504218,
@@ -18424,8 +18758,211 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	AesTransform_SubByte_m3508318874,
 	AesTransform_Encrypt128_m617981965,
 	AesTransform_Decrypt128_m3067379519,
+	_AndroidJNIHelper_CreateJavaRunnable_m1167962646,
+	_AndroidJNIHelper_CreateJNIArgArray_m755788980,
+	_AndroidJNIHelper_DeleteJNIArgArray_m338095364,
+	_AndroidJNIHelper_ConvertToJNIArray_m1248156804,
+	_AndroidJNIHelper_GetMethodID_m48644625,
+	_AndroidJNIHelper_GetMethodIDFallback_m3201232261,
+	_AndroidJNIHelper_GetFieldID_m87082942,
+	_AndroidJNIHelper_GetSignature_m1300573492,
 	AddComponentMenu__ctor_m2024592321,
 	AddComponentMenu__ctor_m686408932,
+	AndroidJavaClass__ctor_m2710308341,
+	AndroidJavaClass__ctor_m3415353177,
+	AndroidJavaClass__AndroidJavaClass_m1876440275,
+	AndroidJavaException__ctor_m2816600416,
+	AndroidJavaException_get_StackTrace_m61148349,
+	AndroidJavaObject__ctor_m3845826090,
+	AndroidJavaObject__ctor_m1748549292,
+	AndroidJavaObject_Dispose_m544107255,
+	AndroidJavaObject_GetRawObject_m2000325796,
+	AndroidJavaObject_GetRawClass_m69471637,
+	AndroidJavaObject_DebugPrint_m653935302,
+	AndroidJavaObject_Finalize_m4026966320,
+	AndroidJavaObject_Dispose_m1199669976,
+	AndroidJavaObject__Dispose_m2682233416,
+	AndroidJavaObject_AndroidJavaObjectDeleteLocalRef_m2273457111,
+	AndroidJavaObject_AndroidJavaClassDeleteLocalRef_m215438755,
+	AndroidJavaObject__GetRawObject_m3693952337,
+	AndroidJavaObject__GetRawClass_m3201503112,
+	AndroidJavaObject_FindClass_m2078911127,
+	AndroidJavaObject_get_JavaLangClass_m440136198,
+	AndroidJavaObject__cctor_m152654799,
+	AndroidJavaProxy__ctor_m732977339,
+	AndroidJavaProxy__ctor_m1084633315,
+	AndroidJavaProxy_GetProxy_m1162291285,
+	AndroidJavaProxy__cctor_m1448107316,
+	AndroidJavaRunnable__ctor_m711141886,
+	AndroidJavaRunnable_Invoke_m2550679292,
+	AndroidJavaRunnable_BeginInvoke_m1644318311,
+	AndroidJavaRunnable_EndInvoke_m2061016096,
+	AndroidJavaRunnableProxy__ctor_m2912946493,
+	AndroidJNI_FindClass_m1146941316,
+	AndroidJNI_INTERNAL_CALL_FindClass_m2788105298,
+	AndroidJNI_FromReflectedMethod_m3489882308,
+	AndroidJNI_INTERNAL_CALL_FromReflectedMethod_m3948529066,
+	AndroidJNI_FromReflectedField_m1586104961,
+	AndroidJNI_INTERNAL_CALL_FromReflectedField_m365659821,
+	AndroidJNI_ExceptionOccurred_m1192906445,
+	AndroidJNI_INTERNAL_CALL_ExceptionOccurred_m2119918457,
+	AndroidJNI_ExceptionClear_m2810080104,
+	AndroidJNI_NewGlobalRef_m3830225541,
+	AndroidJNI_INTERNAL_CALL_NewGlobalRef_m829840121,
+	AndroidJNI_DeleteGlobalRef_m1492528849,
+	AndroidJNI_DeleteLocalRef_m1035010755,
+	AndroidJNI_GetObjectClass_m3593789028,
+	AndroidJNI_INTERNAL_CALL_GetObjectClass_m1226267886,
+	AndroidJNI_GetMethodID_m3579635507,
+	AndroidJNI_INTERNAL_CALL_GetMethodID_m3893979599,
+	AndroidJNI_GetFieldID_m3868917208,
+	AndroidJNI_INTERNAL_CALL_GetFieldID_m2191711586,
+	AndroidJNI_GetStaticMethodID_m2111902847,
+	AndroidJNI_INTERNAL_CALL_GetStaticMethodID_m3597694851,
+	AndroidJNI_GetStaticFieldID_m945802290,
+	AndroidJNI_INTERNAL_CALL_GetStaticFieldID_m1358410088,
+	AndroidJNI_NewStringUTF_m294318221,
+	AndroidJNI_INTERNAL_CALL_NewStringUTF_m2906280537,
+	AndroidJNI_GetStringUTFChars_m3395974110,
+	AndroidJNI_CallStringMethod_m547855981,
+	AndroidJNI_CallObjectMethod_m1663510685,
+	AndroidJNI_INTERNAL_CALL_CallObjectMethod_m3385998137,
+	AndroidJNI_CallIntMethod_m3811935778,
+	AndroidJNI_CallBooleanMethod_m466615625,
+	AndroidJNI_CallShortMethod_m1466041431,
+	AndroidJNI_CallByteMethod_m1552664141,
+	AndroidJNI_CallCharMethod_m2997962145,
+	AndroidJNI_CallFloatMethod_m2845733963,
+	AndroidJNI_CallDoubleMethod_m3941989741,
+	AndroidJNI_CallLongMethod_m2831046166,
+	AndroidJNI_CallStaticStringMethod_m685687621,
+	AndroidJNI_CallStaticObjectMethod_m3143657157,
+	AndroidJNI_INTERNAL_CALL_CallStaticObjectMethod_m3176317801,
+	AndroidJNI_CallStaticIntMethod_m1992515728,
+	AndroidJNI_CallStaticBooleanMethod_m1186985673,
+	AndroidJNI_CallStaticShortMethod_m3785564051,
+	AndroidJNI_CallStaticByteMethod_m2566359189,
+	AndroidJNI_CallStaticCharMethod_m1437246625,
+	AndroidJNI_CallStaticFloatMethod_m1028835415,
+	AndroidJNI_CallStaticDoubleMethod_m1517028101,
+	AndroidJNI_CallStaticLongMethod_m4241166332,
+	AndroidJNI_GetStaticStringField_m981156460,
+	AndroidJNI_GetStaticObjectField_m1117681310,
+	AndroidJNI_INTERNAL_CALL_GetStaticObjectField_m1046795976,
+	AndroidJNI_GetStaticBooleanField_m1495909062,
+	AndroidJNI_GetStaticByteField_m2854778764,
+	AndroidJNI_GetStaticCharField_m1307137100,
+	AndroidJNI_GetStaticShortField_m2504957286,
+	AndroidJNI_GetStaticIntField_m2065345677,
+	AndroidJNI_GetStaticLongField_m449804539,
+	AndroidJNI_GetStaticFloatField_m1066649512,
+	AndroidJNI_GetStaticDoubleField_m3636144684,
+	AndroidJNI_ToBooleanArray_m750419762,
+	AndroidJNI_INTERNAL_CALL_ToBooleanArray_m2196247008,
+	AndroidJNI_ToByteArray_m3237688210,
+	AndroidJNI_INTERNAL_CALL_ToByteArray_m2216035424,
+	AndroidJNI_ToCharArray_m1271039290,
+	AndroidJNI_INTERNAL_CALL_ToCharArray_m2207204712,
+	AndroidJNI_ToShortArray_m1930515046,
+	AndroidJNI_INTERNAL_CALL_ToShortArray_m145281632,
+	AndroidJNI_ToIntArray_m4152736571,
+	AndroidJNI_INTERNAL_CALL_ToIntArray_m856804263,
+	AndroidJNI_ToLongArray_m3699382049,
+	AndroidJNI_INTERNAL_CALL_ToLongArray_m3674462701,
+	AndroidJNI_ToFloatArray_m2619761402,
+	AndroidJNI_INTERNAL_CALL_ToFloatArray_m4014106884,
+	AndroidJNI_ToDoubleArray_m808183080,
+	AndroidJNI_INTERNAL_CALL_ToDoubleArray_m1956593850,
+	AndroidJNI_ToObjectArray_m1798746026,
+	AndroidJNI_INTERNAL_CALL_ToObjectArray_m3696508252,
+	AndroidJNI_FromBooleanArray_m3557280903,
+	AndroidJNI_FromByteArray_m3347999875,
+	AndroidJNI_FromCharArray_m2321500395,
+	AndroidJNI_FromShortArray_m1687805337,
+	AndroidJNI_FromIntArray_m1124849508,
+	AndroidJNI_FromLongArray_m2895187476,
+	AndroidJNI_FromFloatArray_m2229045909,
+	AndroidJNI_FromDoubleArray_m2146626199,
+	AndroidJNI_GetArrayLength_m835991335,
+	AndroidJNI_NewObjectArray_m2402556372,
+	AndroidJNI_INTERNAL_CALL_NewObjectArray_m3561069850,
+	AndroidJNI_GetObjectArrayElement_m2469306034,
+	AndroidJNI_INTERNAL_CALL_GetObjectArrayElement_m879074536,
+	AndroidJNI_SetObjectArrayElement_m3793290321,
+	AndroidJNIHelper_GetMethodID_m2208893354,
+	AndroidJNIHelper_GetFieldID_m1606707387,
+	AndroidJNIHelper_CreateJavaRunnable_m1726501095,
+	AndroidJNIHelper_CreateJavaProxy_m3365062511,
+	AndroidJNIHelper_INTERNAL_CALL_CreateJavaProxy_m2393073275,
+	AndroidJNIHelper_CreateJNIArgArray_m3233595457,
+	AndroidJNIHelper_DeleteJNIArgArray_m4088890563,
+	AndroidJNISafe_CheckException_m82304878,
+	AndroidJNISafe_DeleteGlobalRef_m861434196,
+	AndroidJNISafe_DeleteLocalRef_m1703488126,
+	AndroidJNISafe_NewStringUTF_m4052253704,
+	AndroidJNISafe_GetStringUTFChars_m2080779641,
+	AndroidJNISafe_GetObjectClass_m2887862559,
+	AndroidJNISafe_GetStaticMethodID_m3181930180,
+	AndroidJNISafe_GetMethodID_m1407924750,
+	AndroidJNISafe_GetFieldID_m3368735691,
+	AndroidJNISafe_GetStaticFieldID_m4129374031,
+	AndroidJNISafe_FromReflectedMethod_m3036131625,
+	AndroidJNISafe_FromReflectedField_m1154452628,
+	AndroidJNISafe_FindClass_m575048497,
+	AndroidJNISafe_GetStaticObjectField_m2920910817,
+	AndroidJNISafe_GetStaticStringField_m66813609,
+	AndroidJNISafe_GetStaticCharField_m3944047593,
+	AndroidJNISafe_GetStaticDoubleField_m130030825,
+	AndroidJNISafe_GetStaticFloatField_m2013015291,
+	AndroidJNISafe_GetStaticLongField_m2830969202,
+	AndroidJNISafe_GetStaticShortField_m3699096839,
+	AndroidJNISafe_GetStaticByteField_m1363061545,
+	AndroidJNISafe_GetStaticBooleanField_m2913840925,
+	AndroidJNISafe_GetStaticIntField_m626825302,
+	AndroidJNISafe_CallStaticObjectMethod_m4041205290,
+	AndroidJNISafe_CallStaticStringMethod_m2789442272,
+	AndroidJNISafe_CallStaticCharMethod_m3997165894,
+	AndroidJNISafe_CallStaticDoubleMethod_m1509326880,
+	AndroidJNISafe_CallStaticFloatMethod_m3693956060,
+	AndroidJNISafe_CallStaticLongMethod_m1197470715,
+	AndroidJNISafe_CallStaticShortMethod_m1214467386,
+	AndroidJNISafe_CallStaticByteMethod_m2205844442,
+	AndroidJNISafe_CallStaticBooleanMethod_m3537560618,
+	AndroidJNISafe_CallStaticIntMethod_m1207822993,
+	AndroidJNISafe_CallObjectMethod_m1435936952,
+	AndroidJNISafe_CallStringMethod_m798987666,
+	AndroidJNISafe_CallCharMethod_m1304176316,
+	AndroidJNISafe_CallDoubleMethod_m2523391122,
+	AndroidJNISafe_CallFloatMethod_m1208832454,
+	AndroidJNISafe_CallLongMethod_m3789253719,
+	AndroidJNISafe_CallShortMethod_m3677886592,
+	AndroidJNISafe_CallByteMethod_m1382808392,
+	AndroidJNISafe_CallBooleanMethod_m972340072,
+	AndroidJNISafe_CallIntMethod_m1439635681,
+	AndroidJNISafe_FromCharArray_m2335913126,
+	AndroidJNISafe_FromDoubleArray_m2645839260,
+	AndroidJNISafe_FromFloatArray_m2115080464,
+	AndroidJNISafe_FromLongArray_m1298772853,
+	AndroidJNISafe_FromShortArray_m3451473986,
+	AndroidJNISafe_FromByteArray_m3884342366,
+	AndroidJNISafe_FromBooleanArray_m2646463206,
+	AndroidJNISafe_FromIntArray_m81911459,
+	AndroidJNISafe_ToObjectArray_m2701598109,
+	AndroidJNISafe_ToCharArray_m4138840423,
+	AndroidJNISafe_ToDoubleArray_m2593793371,
+	AndroidJNISafe_ToFloatArray_m3975685981,
+	AndroidJNISafe_ToLongArray_m3457180788,
+	AndroidJNISafe_ToShortArray_m993330209,
+	AndroidJNISafe_ToByteArray_m87363743,
+	AndroidJNISafe_ToBooleanArray_m4042057407,
+	AndroidJNISafe_ToIntArray_m320585224,
+	AndroidJNISafe_GetArrayLength_m1077269798,
+	AndroidReflection_IsPrimitive_m3659522246,
+	AndroidReflection_IsAssignableFrom_m3577747537,
+	AndroidReflection_GetStaticMethodID_m2280460481,
+	AndroidReflection_GetMethodMember_m584776875,
+	AndroidReflection_GetFieldMember_m1382154548,
+	AndroidReflection__cctor_m2197364317,
 	AnimationCurve__ctor_m1687996092,
 	AnimationCurve__ctor_m3808882547,
 	AnimationCurve_Cleanup_m3596170191,
@@ -18433,9 +18970,13 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	AnimationCurve_Evaluate_m1472239139,
 	AnimationCurve_Init_m15843578,
 	Application_CallLowMemory_m2557176131,
+	Application_Quit_m3096163801,
 	Application_get_isPlaying_m3003895139,
 	Application_get_isEditor_m506138946,
 	Application_get_platform_m1727035749,
+	Application_get_isMobilePlatform_m2455210782,
+	Application_get_isConsolePlatform_m1257962815,
+	Application_get_streamingAssetsPath_m130902186,
 	Application_OpenURL_m2826628597,
 	Application_CallLogCallback_m1825082967,
 	Application_InvokeOnBeforeRender_m2797211002,
@@ -18448,11 +18989,23 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	LowMemoryCallback_BeginInvoke_m3593312984,
 	LowMemoryCallback_EndInvoke_m2508835749,
 	AssetBundle__ctor_m3429387992,
+	AssetBundle_LoadFromMemory_m2634658222,
+	AssetBundle_LoadFromMemory_m2864189150,
 	AssetBundle_LoadAsset_m3884165516,
 	AssetBundle_LoadAsset_Internal_m1150726960,
+	AssetBundle_LoadAssetAsync_m1991419858,
+	AssetBundle_LoadAssetAsync_Internal_m1373172298,
+	AssetBundle_Unload_m3413051624,
+	AssetBundleManifest_GetAllAssetBundlesWithVariant_m2249552035,
+	AssetBundleManifest_GetAssetBundleHash_m3331783030,
+	AssetBundleManifest_INTERNAL_CALL_GetAssetBundleHash_m3147989694,
+	AssetBundleManifest_GetAllDependencies_m4018485972,
+	AssetBundleRequest__ctor_m2020169559,
+	AssetBundleRequest_get_asset_m259156351,
 	AsyncOperation__ctor_m1674276057,
 	AsyncOperation_InternalDestroy_m2067452588,
 	AsyncOperation_Finalize_m1061334423,
+	AsyncOperation_get_isDone_m3226538874,
 	AsyncOperation_InvokeCompletionEvent_m504098009,
 	AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m3087158272,
 	AttributeHelperEngine_GetRequiredComponents_m586474250,
@@ -18480,6 +19033,9 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	Bounds_SetMinMax_m2094075031_AdjustorThunk,
 	Bounds_Encapsulate_m17114941_AdjustorThunk,
 	Bounds_ToString_m3830023780_AdjustorThunk,
+	CachedAssetBundle__ctor_m4061134084_AdjustorThunk,
+	CachedAssetBundle_get_name_m4138969697_AdjustorThunk,
+	CachedAssetBundle_get_hash_m967066666_AdjustorThunk,
 	Camera__ctor_m2624089815,
 	Camera_get_fieldOfView_m1609126762,
 	Camera_set_fieldOfView_m4080277213,
@@ -18702,6 +19258,10 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	GameObject_get_gameObject_m2826196100,
 	Gizmos_DrawSphere_m3448155406,
 	Gizmos_INTERNAL_CALL_DrawSphere_m570222473,
+	GlobalJavaObjectRef__ctor_m3082986627,
+	GlobalJavaObjectRef_Finalize_m2238812967,
+	GlobalJavaObjectRef_op_Implicit_m3534882639,
+	GlobalJavaObjectRef_Dispose_m2828645294,
 	Gradient__ctor_m1008579686,
 	Gradient_Init_m3042650694,
 	Gradient_Cleanup_m594482338,
@@ -18709,9 +19269,16 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	GUIElement__ctor_m4263933191,
 	GUILayer_HitTest_m4124054285,
 	GUILayer_INTERNAL_CALL_HitTest_m381183969,
+	Hash128_ToString_m3414764504_AdjustorThunk,
+	Hash128_Internal_Hash128ToString_m2129946321,
+	Hash128_Equals_m2089078800_AdjustorThunk,
+	Hash128_GetHashCode_m2352269416_AdjustorThunk,
+	Hash128_op_Equality_m1573775191,
 	IL2CPPStructAlignmentAttribute__ctor_m3421252534,
+	Input_GetKeyInt_m2379744823,
 	Input_GetAxisRaw_m1913129537,
 	Input_GetButtonDown_m717298472,
+	Input_GetKey_m4207472870,
 	Input_GetMouseButton_m1307856634,
 	Input_GetMouseButtonDown_m2313448302,
 	Input_GetMouseButtonUp_m1218626729,
@@ -19075,6 +19642,8 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	RenderTexture_get_height_m428170183,
 	RequireComponent__ctor_m3109988199,
 	Resources_FindObjectsOfTypeAll_m2385215234,
+	Resources_Load_m3480536692,
+	Resources_Load_m4276439101,
 	Resources_GetBuiltinResource_m3185073362,
 	Scene_get_handle_m2547854682_AdjustorThunk,
 	Scene_GetHashCode_m4174115344_AdjustorThunk,
@@ -19145,6 +19714,8 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	StackTraceUtility__cctor_m1612470880,
 	SystemInfo_get_operatingSystemFamily_m3718060372,
 	TextAreaAttribute__ctor_m2180114682,
+	TextAsset_get_text_m902266890,
+	TextAsset_ToString_m2717278836,
 	Texture__ctor_m1220114221,
 	Texture_Internal_GetWidth_m3099237735,
 	Texture_Internal_GetHeight_m3235768354,
@@ -19348,90 +19919,6 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	TypeInferenceRuleAttribute__ctor_m2747498156,
 	TypeInferenceRuleAttribute__ctor_m1916069620,
 	TypeInferenceRuleAttribute_ToString_m310642507,
-	Physics2D__cctor_m2451529022,
-	RaycastHit2D_get_point_m2962370910_AdjustorThunk,
-	RaycastHit2D_get_normal_m1680752829_AdjustorThunk,
-	RaycastHit2D_get_distance_m1439788004_AdjustorThunk,
-	RaycastHit2D_get_collider_m1095503671_AdjustorThunk,
-	Font_get_material_m1396179436,
-	Font_HasCharacter_m3366937089,
-	Font_add_textureRebuilt_m613904867,
-	Font_remove_textureRebuilt_m776208736,
-	Font_InvokeTextureRebuilt_Internal_m408649663,
-	Font_get_dynamic_m960769745,
-	Font_get_fontSize_m3125470578,
-	FontTextureRebuildCallback__ctor_m1584780814,
-	FontTextureRebuildCallback_Invoke_m3343763940,
-	FontTextureRebuildCallback_BeginInvoke_m487506205,
-	FontTextureRebuildCallback_EndInvoke_m3111114572,
-	TextGenerationSettings_CompareColors_m2745847049_AdjustorThunk,
-	TextGenerationSettings_CompareVector2_m3144288922_AdjustorThunk,
-	TextGenerationSettings_Equals_m1603221718_AdjustorThunk,
-	TextGenerator__ctor_m1469954680,
-	TextGenerator__ctor_m1778467093,
-	TextGenerator_Init_m171377184,
-	TextGenerator_Dispose_cpp_m1011672971,
-	TextGenerator_Populate_Internal_m65392018,
-	TextGenerator_Populate_Internal_cpp_m1219243648,
-	TextGenerator_INTERNAL_CALL_Populate_Internal_cpp_m106350432,
-	TextGenerator_get_rectExtents_m954923136,
-	TextGenerator_INTERNAL_get_rectExtents_m2268993829,
-	TextGenerator_GetVerticesInternal_m514005870,
-	TextGenerator_get_characterCount_m133341053,
-	TextGenerator_get_characterCountVisible_m2981280587,
-	TextGenerator_GetCharactersInternal_m4105561641,
-	TextGenerator_get_lineCount_m3883117352,
-	TextGenerator_GetLinesInternal_m3538885848,
-	TextGenerator_Finalize_m1143020096,
-	TextGenerator_System_IDisposable_Dispose_m1921007151,
-	TextGenerator_ValidatedSettings_m647349856,
-	TextGenerator_Invalidate_m1993568841,
-	TextGenerator_GetCharacters_m2073477643,
-	TextGenerator_GetLines_m387280398,
-	TextGenerator_GetVertices_m3421963648,
-	TextGenerator_GetPreferredWidth_m529433528,
-	TextGenerator_GetPreferredHeight_m2983948849,
-	TextGenerator_PopulateWithErrors_m3355282552,
-	TextGenerator_Populate_m982374381,
-	TextGenerator_PopulateWithError_m954337744,
-	TextGenerator_PopulateAlways_m817480435,
-	TextGenerator_get_verts_m670653604,
-	TextGenerator_get_characters_m2585748644,
-	TextGenerator_get_lines_m2017467099,
-	UIVertex__cctor_m1794480453,
-	AnimationClip_get_length_m1787761730,
-	AnimationEvent__ctor_m3610061561,
-	AnimationClipPlayable_GetHandle_m1049528789_AdjustorThunk,
-	AnimationClipPlayable_Equals_m632692099_AdjustorThunk,
-	AnimationLayerMixerPlayable__ctor_m678972180_AdjustorThunk,
-	AnimationLayerMixerPlayable_GetHandle_m1932230147_AdjustorThunk,
-	AnimationLayerMixerPlayable_Equals_m3173553531_AdjustorThunk,
-	AnimationLayerMixerPlayable__cctor_m204566747,
-	AnimationMixerPlayable_GetHandle_m2592056500_AdjustorThunk,
-	AnimationMixerPlayable_Equals_m3900928767_AdjustorThunk,
-	AnimationOffsetPlayable__ctor_m1644499845_AdjustorThunk,
-	AnimationOffsetPlayable_GetHandle_m144943338_AdjustorThunk,
-	AnimationOffsetPlayable_Equals_m1510591175_AdjustorThunk,
-	AnimationOffsetPlayable__cctor_m346590438,
-	AnimatorControllerPlayable__ctor_m4080566273_AdjustorThunk,
-	AnimatorControllerPlayable_GetHandle_m3133350390_AdjustorThunk,
-	AnimatorControllerPlayable_SetHandle_m4064095453_AdjustorThunk,
-	AnimatorControllerPlayable_Equals_m2805860543_AdjustorThunk,
-	AnimatorControllerPlayable__cctor_m2703466520,
-	Animator_GetBool_m3595576549,
-	Animator_SetBool_m312734517,
-	Animator_SetBool_m2926289802,
-	Animator_SetTrigger_m2003713590,
-	Animator_SetTrigger_m2386186627,
-	Animator_ResetTrigger_m2176932023,
-	Animator_get_hasBoundPlayables_m2257984562,
-	Animator_StringToHash_m1845745834,
-	Animator_SetBoolString_m665236890,
-	Animator_SetBoolID_m2039550219,
-	Animator_GetBoolID_m959437898,
-	Animator_SetTriggerString_m598103909,
-	Animator_SetTriggerID_m1148564408,
-	Animator_ResetTriggerString_m946167554,
 	AudioClipPlayable_GetHandle_m418228168_AdjustorThunk,
 	AudioClipPlayable_Equals_m2652916719_AdjustorThunk,
 	AudioMixerPlayable_GetHandle_m3697423575_AdjustorThunk,
@@ -19512,6 +19999,156 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	AudioSourceExtension_Play_m1114243589,
 	AudioSourceExtension_Stop_m492342317,
 	AudioSourceExtension_ExtensionUpdate_m609981793,
+	Physics2D__cctor_m2451529022,
+	RaycastHit2D_get_point_m2962370910_AdjustorThunk,
+	RaycastHit2D_get_normal_m1680752829_AdjustorThunk,
+	RaycastHit2D_get_distance_m1439788004_AdjustorThunk,
+	RaycastHit2D_get_collider_m1095503671_AdjustorThunk,
+	Font_get_material_m1396179436,
+	Font_HasCharacter_m3366937089,
+	Font_add_textureRebuilt_m613904867,
+	Font_remove_textureRebuilt_m776208736,
+	Font_InvokeTextureRebuilt_Internal_m408649663,
+	Font_get_dynamic_m960769745,
+	Font_get_fontSize_m3125470578,
+	FontTextureRebuildCallback__ctor_m1584780814,
+	FontTextureRebuildCallback_Invoke_m3343763940,
+	FontTextureRebuildCallback_BeginInvoke_m487506205,
+	FontTextureRebuildCallback_EndInvoke_m3111114572,
+	TextGenerationSettings_CompareColors_m2745847049_AdjustorThunk,
+	TextGenerationSettings_CompareVector2_m3144288922_AdjustorThunk,
+	TextGenerationSettings_Equals_m1603221718_AdjustorThunk,
+	TextGenerator__ctor_m1469954680,
+	TextGenerator__ctor_m1778467093,
+	TextGenerator_Init_m171377184,
+	TextGenerator_Dispose_cpp_m1011672971,
+	TextGenerator_Populate_Internal_m65392018,
+	TextGenerator_Populate_Internal_cpp_m1219243648,
+	TextGenerator_INTERNAL_CALL_Populate_Internal_cpp_m106350432,
+	TextGenerator_get_rectExtents_m954923136,
+	TextGenerator_INTERNAL_get_rectExtents_m2268993829,
+	TextGenerator_GetVerticesInternal_m514005870,
+	TextGenerator_get_characterCount_m133341053,
+	TextGenerator_get_characterCountVisible_m2981280587,
+	TextGenerator_GetCharactersInternal_m4105561641,
+	TextGenerator_get_lineCount_m3883117352,
+	TextGenerator_GetLinesInternal_m3538885848,
+	TextGenerator_Finalize_m1143020096,
+	TextGenerator_System_IDisposable_Dispose_m1921007151,
+	TextGenerator_ValidatedSettings_m647349856,
+	TextGenerator_Invalidate_m1993568841,
+	TextGenerator_GetCharacters_m2073477643,
+	TextGenerator_GetLines_m387280398,
+	TextGenerator_GetVertices_m3421963648,
+	TextGenerator_GetPreferredWidth_m529433528,
+	TextGenerator_GetPreferredHeight_m2983948849,
+	TextGenerator_PopulateWithErrors_m3355282552,
+	TextGenerator_Populate_m982374381,
+	TextGenerator_PopulateWithError_m954337744,
+	TextGenerator_PopulateAlways_m817480435,
+	TextGenerator_get_verts_m670653604,
+	TextGenerator_get_characters_m2585748644,
+	TextGenerator_get_lines_m2017467099,
+	UIVertex__cctor_m1794480453,
+	DownloadHandler__ctor_m1584617735,
+	DownloadHandler_InternalCreateBuffer_m549379538,
+	DownloadHandler_InternalCreateAssetBundle_m1669364592,
+	DownloadHandler_InternalCreateAssetBundleCached_m1407297994,
+	DownloadHandler_INTERNAL_CALL_InternalCreateAssetBundleCached_m727668572,
+	DownloadHandler_InternalDestroy_m1591990468,
+	DownloadHandler_Finalize_m1928784109,
+	DownloadHandler_Dispose_m918842992,
+	DownloadHandler_get_data_m1774581504,
+	DownloadHandler_GetData_m3530871197,
+	DownloadHandlerAssetBundle__ctor_m3070165965,
+	DownloadHandlerAssetBundle__ctor_m3673122805,
+	DownloadHandlerAssetBundle_GetData_m3234190773,
+	DownloadHandlerAssetBundle_get_assetBundle_m3210171884,
+	DownloadHandlerAssetBundle_GetContent_m3996975841,
+	DownloadHandlerBuffer__ctor_m2242528619,
+	DownloadHandlerBuffer_GetData_m2608814073,
+	DownloadHandlerBuffer_InternalGetData_m9268280,
+	UnityWebRequest__ctor_m1505164636,
+	UnityWebRequest_get_disposeDownloadHandlerOnDispose_m1576197061,
+	UnityWebRequest_set_disposeDownloadHandlerOnDispose_m4293463278,
+	UnityWebRequest_get_disposeUploadHandlerOnDispose_m3565267666,
+	UnityWebRequest_set_disposeUploadHandlerOnDispose_m630063829,
+	UnityWebRequest_InternalCreate_m204206834,
+	UnityWebRequest_InternalDestroy_m2908965894,
+	UnityWebRequest_InternalSetDefaults_m2425762910,
+	UnityWebRequest_Finalize_m1757836247,
+	UnityWebRequest_Dispose_m2948426222,
+	UnityWebRequest_DisposeHandlers_m3364785545,
+	UnityWebRequest_InternalBegin_m969311870,
+	UnityWebRequest_SendWebRequest_m3795216673,
+	UnityWebRequest_InternalSetMethod_m705716538,
+	UnityWebRequest_InternalSetCustomMethod_m1191357028,
+	UnityWebRequest_set_method_m865873289,
+	UnityWebRequest_get_error_m714775961,
+	UnityWebRequest_get_url_m575042514,
+	UnityWebRequest_set_url_m946220109,
+	UnityWebRequest_InternalGetUrl_m978838770,
+	UnityWebRequest_InternalSetUrl_m2548015641,
+	UnityWebRequest_get_responseCode_m237434835,
+	UnityWebRequest_get_isDone_m3430883570,
+	UnityWebRequest_get_isNetworkError_m1187301034,
+	UnityWebRequest_get_isHttpError_m93679802,
+	UnityWebRequest_GetUploadHandler_m2860495463,
+	UnityWebRequest_set_uploadHandler_m2350577399,
+	UnityWebRequest_GetDownloadHandler_m4226359171,
+	UnityWebRequest_get_downloadHandler_m2452966308,
+	UnityWebRequest_set_downloadHandler_m3504922771,
+	UnityWebRequest_Get_m2852300615,
+	UnityWebRequest_GetAssetBundle_m1279225303,
+	UnityWebRequest_GetAssetBundle_m1587575407,
+	UnityWebRequest_GetAssetBundle_m3797438248,
+	UnityWebRequestAsyncOperation__ctor_m4058520764,
+	UnityWebRequestAsyncOperation_set_webRequest_m3088592639,
+	UploadHandler__ctor_m3754594772,
+	UploadHandler_InternalDestroy_m1015762813,
+	UploadHandler_Finalize_m959090492,
+	UploadHandler_Dispose_m1076883971,
+	WWWForm_get_DefaultEncoding_m331301927,
+	WWWTranscoder_Hex2Byte_m2340828536,
+	WWWTranscoder_URLDecode_m520863832,
+	WWWTranscoder_Decode_m1731259030,
+	WWWTranscoder__cctor_m1605170488,
+	WebRequestUtils_RedirectTo_m675215376,
+	WebRequestUtils_MakeInitialUrl_m4076501434,
+	WebRequestUtils__cctor_m4149625601,
+	AnimationClip_get_length_m1787761730,
+	AnimationEvent__ctor_m3610061561,
+	AnimationClipPlayable_GetHandle_m1049528789_AdjustorThunk,
+	AnimationClipPlayable_Equals_m632692099_AdjustorThunk,
+	AnimationLayerMixerPlayable__ctor_m678972180_AdjustorThunk,
+	AnimationLayerMixerPlayable_GetHandle_m1932230147_AdjustorThunk,
+	AnimationLayerMixerPlayable_Equals_m3173553531_AdjustorThunk,
+	AnimationLayerMixerPlayable__cctor_m204566747,
+	AnimationMixerPlayable_GetHandle_m2592056500_AdjustorThunk,
+	AnimationMixerPlayable_Equals_m3900928767_AdjustorThunk,
+	AnimationOffsetPlayable__ctor_m1644499845_AdjustorThunk,
+	AnimationOffsetPlayable_GetHandle_m144943338_AdjustorThunk,
+	AnimationOffsetPlayable_Equals_m1510591175_AdjustorThunk,
+	AnimationOffsetPlayable__cctor_m346590438,
+	AnimatorControllerPlayable__ctor_m4080566273_AdjustorThunk,
+	AnimatorControllerPlayable_GetHandle_m3133350390_AdjustorThunk,
+	AnimatorControllerPlayable_SetHandle_m4064095453_AdjustorThunk,
+	AnimatorControllerPlayable_Equals_m2805860543_AdjustorThunk,
+	AnimatorControllerPlayable__cctor_m2703466520,
+	Animator_GetBool_m3595576549,
+	Animator_SetBool_m312734517,
+	Animator_SetBool_m2926289802,
+	Animator_SetTrigger_m2003713590,
+	Animator_SetTrigger_m2386186627,
+	Animator_ResetTrigger_m2176932023,
+	Animator_get_hasBoundPlayables_m2257984562,
+	Animator_StringToHash_m1845745834,
+	Animator_SetBoolString_m665236890,
+	Animator_SetBoolID_m2039550219,
+	Animator_GetBoolID_m959437898,
+	Animator_SetTriggerString_m598103909,
+	Animator_SetTriggerID_m1148564408,
+	Animator_ResetTriggerString_m946167554,
 	GameCenterPlatform__ctor_m3985592324,
 	GameCenterPlatform_Internal_Authenticate_m2846546753,
 	GameCenterPlatform_Internal_Authenticated_m1650041405,
@@ -19979,57 +20616,18 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	UpdatedEventHandler_Invoke_m4240581743,
 	UpdatedEventHandler_BeginInvoke_m3868410844,
 	UpdatedEventHandler_EndInvoke_m818978785,
-	DownloadHandler__ctor_m1584617735,
-	DownloadHandler_InternalCreateAssetBundle_m1669364592,
-	DownloadHandler_InternalDestroy_m1591990468,
-	DownloadHandler_Finalize_m1928784109,
-	DownloadHandler_Dispose_m918842992,
-	DownloadHandlerAssetBundle__ctor_m3070165965,
-	DownloadHandlerAssetBundle_get_assetBundle_m3210171884,
-	DownloadHandlerAssetBundle_GetContent_m3996975841,
-	UnityWebRequest__ctor_m1505164636,
-	UnityWebRequest_get_disposeDownloadHandlerOnDispose_m1576197061,
-	UnityWebRequest_set_disposeDownloadHandlerOnDispose_m4293463278,
-	UnityWebRequest_get_disposeUploadHandlerOnDispose_m3565267666,
-	UnityWebRequest_set_disposeUploadHandlerOnDispose_m630063829,
-	UnityWebRequest_InternalCreate_m204206834,
-	UnityWebRequest_InternalDestroy_m2908965894,
-	UnityWebRequest_InternalSetDefaults_m2425762910,
-	UnityWebRequest_Finalize_m1757836247,
-	UnityWebRequest_Dispose_m2948426222,
-	UnityWebRequest_DisposeHandlers_m3364785545,
-	UnityWebRequest_InternalBegin_m969311870,
-	UnityWebRequest_SendWebRequest_m3795216673,
-	UnityWebRequest_InternalSetMethod_m705716538,
-	UnityWebRequest_InternalSetCustomMethod_m1191357028,
-	UnityWebRequest_set_method_m865873289,
-	UnityWebRequest_get_error_m714775961,
-	UnityWebRequest_set_url_m946220109,
-	UnityWebRequest_InternalSetUrl_m2548015641,
-	UnityWebRequest_get_isDone_m3430883570,
-	UnityWebRequest_get_isNetworkError_m1187301034,
-	UnityWebRequest_get_isHttpError_m93679802,
-	UnityWebRequest_GetUploadHandler_m2860495463,
-	UnityWebRequest_set_uploadHandler_m2350577399,
-	UnityWebRequest_GetDownloadHandler_m4226359171,
-	UnityWebRequest_get_downloadHandler_m2452966308,
-	UnityWebRequest_set_downloadHandler_m3504922771,
-	UnityWebRequest_GetAssetBundle_m1279225303,
-	UnityWebRequest_GetAssetBundle_m1587575407,
-	UnityWebRequestAsyncOperation__ctor_m4058520764,
-	UnityWebRequestAsyncOperation_set_webRequest_m3088592639,
-	UploadHandler__ctor_m3754594772,
-	UploadHandler_InternalDestroy_m1015762813,
-	UploadHandler_Finalize_m959090492,
-	UploadHandler_Dispose_m1076883971,
-	WWWForm_get_DefaultEncoding_m331301927,
-	WWWTranscoder_Hex2Byte_m2340828536,
-	WWWTranscoder_URLDecode_m520863832,
-	WWWTranscoder_Decode_m1731259030,
-	WWWTranscoder__cctor_m1605170488,
-	WebRequestUtils_RedirectTo_m675215376,
-	WebRequestUtils_MakeInitialUrl_m4076501434,
-	WebRequestUtils__cctor_m4149625601,
+	WWW__ctor_m992904521,
+	WWW__ctor_m1592794849,
+	WWW_get_assetBundle_m671435582,
+	WWW_get_bytes_m3375427027,
+	WWW_get_error_m2450520467,
+	WWW_get_isDone_m720669976,
+	WWW_get_url_m1322408312,
+	WWW_get_keepWaiting_m3934668334,
+	WWW_Dispose_m630585886,
+	WWW_WaitUntilDoneIfPossible_m2158502638,
+	WWW_GetStatusCodeName_m170717970,
+	WWW_LoadFromCacheOrDownload_m786551429,
 	AbstractEventData__ctor_m3586111519,
 	AbstractEventData_Reset_m15186946,
 	AbstractEventData_Use_m1797212290,
@@ -21583,11 +22181,64 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	FieldWithTarget_get_staticString_m3599225804,
 	FieldWithTarget_set_staticString_m2234360111,
 	FieldWithTarget_GetValue_m3773769385,
+	AssetBundleLoadAssetOperation__ctor_m3785882665,
+	AssetBundleLoadAssetOperationFull__ctor_m3339829217,
+	AssetBundleLoadAssetOperationFull_Update_m1281312971,
+	AssetBundleLoadAssetOperationFull_IsDone_m3258055418,
+	AssetBundleLoadAssetOperationSimulation__ctor_m2623286172,
+	AssetBundleLoadAssetOperationSimulation_Update_m3298477855,
+	AssetBundleLoadAssetOperationSimulation_IsDone_m278020832,
+	AssetBundleLoadLevelOperation__ctor_m143063858,
+	AssetBundleLoadLevelOperation_Update_m979123768,
+	AssetBundleLoadLevelOperation_IsDone_m2377992865,
+	AssetBundleLoadManifestOperation__ctor_m2563702161,
+	AssetBundleLoadManifestOperation_Update_m3380375363,
+	AssetBundleLoadOperation__ctor_m444995109,
+	AssetBundleLoadOperation_get_Current_m868720174,
+	AssetBundleLoadOperation_MoveNext_m297969551,
+	AssetBundleLoadOperation_Reset_m1058047800,
+	AssetBundleManager__ctor_m83677269,
+	AssetBundleManager_get_logMode_m2138044306,
+	AssetBundleManager_set_logMode_m3753449297,
+	AssetBundleManager_get_BaseDownloadingURL_m296826811,
+	AssetBundleManager_set_BaseDownloadingURL_m3262934570,
+	AssetBundleManager_get_ActiveVariants_m3255624335,
+	AssetBundleManager_set_ActiveVariants_m2951403874,
+	AssetBundleManager_set_AssetBundleManifestObject_m4138082874,
+	AssetBundleManager_Log_m3825034494,
+	AssetBundleManager_GetStreamingAssetsPath_m3233198760,
+	AssetBundleManager_SetSourceAssetBundleDirectory_m507226721,
+	AssetBundleManager_SetSourceAssetBundleURL_m1247012667,
+	AssetBundleManager_SetDevelopmentAssetBundleServer_m148566473,
+	AssetBundleManager_GetLoadedAssetBundle_m2421544291,
+	AssetBundleManager_Initialize_m3949934399,
+	AssetBundleManager_Initialize_m1071778361,
+	AssetBundleManager_LoadAssetBundle_m2312253616,
+	AssetBundleManager_RemapVariantName_m3517229873,
+	AssetBundleManager_LoadAssetBundleInternal_m2529189169,
+	AssetBundleManager_LoadDependencies_m3724230114,
+	AssetBundleManager_UnloadAssetBundle_m3022724906,
+	AssetBundleManager_UnloadDependencies_m506284311,
+	AssetBundleManager_UnloadAssetBundleInternal_m2697229713,
+	AssetBundleManager_Update_m2687287672,
+	AssetBundleManager_LoadAssetAsync_m895891523,
+	AssetBundleManager_LoadLevelAsync_m1114070905,
+	AssetBundleManager__cctor_m3088235888,
+	LoadedAssetBundle__ctor_m3580084156,
+	Utility__ctor_m2355321134,
+	Utility_GetPlatformName_m2837361653,
+	Utility_GetPlatformForAssetBundles_m345390698,
 	ButtonShowHide__ctor_m2349291096,
 	ButtonShowHide_Start_m2311140660,
 	ButtonShowHide_Click_m3604666724,
 	ButtonShowHide_ShowHideUpdate_m2573676006,
 	ButtonShowHide_U3CStartU3Em__0_m3836402765,
+	A2Ustart__ctor_m3163452210,
+	A2Ustart_get_Instance_m3502548124,
+	A2Ustart_ForceQuit_m4113331634,
+	A2Ustart_OnStartGame_m435765113,
+	A2Ustart_OnSetScore_m3943457655,
+	A2Ustart_Start_m1869733758,
 	BallBasic__ctor_m1314109913,
 	BallBasic_get_Mass_m3828678242,
 	BallBasic_get_Position_m618950135,
@@ -21625,6 +22276,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	BallBasic_OnStageEnded_m2273630522,
 	ContactSoundData__ctor_m3893695653,
 	BasketballDirector__ctor_m1878048261,
+	BasketballDirector_IOS_UnityDidCompleteSetup_m3954534503,
 	BasketballDirector_IOS_SetScore_m1353985748,
 	BasketballDirector_StartResourceLoad_m1596266483,
 	BasketballDirector_get_AdId_m4072513478,
@@ -21668,6 +22320,8 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	BasketballDirector_EndTutorial_m3206931266,
 	BasketballDirector_Start_m1544894421,
 	BasketballDirector_OnStartGame_m3473254228,
+	BasketballDirector_ReportScore_m527304171,
+	BasketballDirector_AutoLaunch_m2677534513,
 	BasketballDirector_CountDownToMainMenu_m1432085533,
 	BasketballDirector_LoadResources_m2966556272,
 	BasketballDirector_MainMenuStartGame_m1729424827,
@@ -21703,25 +22357,31 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	BasketballDirector_GetStageScore_m3003431130,
 	BasketballDirector_GetResultsMessage_m3033301701,
 	BasketballDirector_U3CLoadResourcesU3E__BaseCallProxy0_m129401657,
-	U3CCountDownToMainMenuU3Ec__Iterator1__ctor_m2306815642,
-	U3CCountDownToMainMenuU3Ec__Iterator1_MoveNext_m1392396546,
-	U3CCountDownToMainMenuU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3115799404,
-	U3CCountDownToMainMenuU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m3136570516,
-	U3CCountDownToMainMenuU3Ec__Iterator1_Dispose_m1248640101,
-	U3CCountDownToMainMenuU3Ec__Iterator1_Reset_m3719150151,
+	U3CAutoLaunchU3Ec__Iterator1__ctor_m2341711840,
+	U3CAutoLaunchU3Ec__Iterator1_MoveNext_m1063632132,
+	U3CAutoLaunchU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m589272972,
+	U3CAutoLaunchU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m2912784196,
+	U3CAutoLaunchU3Ec__Iterator1_Dispose_m2155302349,
+	U3CAutoLaunchU3Ec__Iterator1_Reset_m1549011767,
+	U3CCountDownToMainMenuU3Ec__Iterator2__ctor_m2307929689,
+	U3CCountDownToMainMenuU3Ec__Iterator2_MoveNext_m641563155,
+	U3CCountDownToMainMenuU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2153187087,
+	U3CCountDownToMainMenuU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m3194486583,
+	U3CCountDownToMainMenuU3Ec__Iterator2_Dispose_m1285541000,
+	U3CCountDownToMainMenuU3Ec__Iterator2_Reset_m3720268422,
 	U3CDisplayResultsAndWaitU3Ec__Iterator0__ctor_m2527381733,
 	U3CDisplayResultsAndWaitU3Ec__Iterator0_MoveNext_m1377774223,
 	U3CDisplayResultsAndWaitU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3987215123,
 	U3CDisplayResultsAndWaitU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2545580795,
 	U3CDisplayResultsAndWaitU3Ec__Iterator0_Dispose_m1042700058,
 	U3CDisplayResultsAndWaitU3Ec__Iterator0_Reset_m405481752,
-	U3CLoadResourcesU3Ec__Iterator2__ctor_m1395389824,
-	U3CLoadResourcesU3Ec__Iterator2_MoveNext_m2062487604,
-	U3CLoadResourcesU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2453344834,
-	U3CLoadResourcesU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m1191755290,
-	U3CLoadResourcesU3Ec__Iterator2_Dispose_m2752366499,
-	U3CLoadResourcesU3Ec__Iterator2_Reset_m371854613,
-	U3CLoadResourcesU3Ec__Iterator2_U3CU3E__Finally0_m3285194679,
+	U3CLoadResourcesU3Ec__Iterator3__ctor_m1394275777,
+	U3CLoadResourcesU3Ec__Iterator3_MoveNext_m882866063,
+	U3CLoadResourcesU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3954273443,
+	U3CLoadResourcesU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m2888770171,
+	U3CLoadResourcesU3Ec__Iterator3_Dispose_m2715600772,
+	U3CLoadResourcesU3Ec__Iterator3_Reset_m370740566,
+	U3CLoadResourcesU3Ec__Iterator3_U3CU3E__Finally0_m590009976,
 	ProgressionInfo__ctor_m543671577,
 	TutorialData__ctor_m4099751660,
 	BasketballUiDirector__ctor_m2280728933,
@@ -22033,6 +22693,8 @@ extern const Il2CppMethodPointer g_MethodPointers[11065] =
 	updateState_Invoke_m3606451772,
 	updateState_BeginInvoke_m3688972443,
 	updateState_EndInvoke_m2739054300,
+	AndroidBackButton__ctor_m1224119877,
+	AndroidBackButton_FixedUpdate_m644239724,
 	Blocker__ctor_m2126652909,
 	Blocker_Start_m4014393229,
 	Blocker_OnEnable_m3666978317,
